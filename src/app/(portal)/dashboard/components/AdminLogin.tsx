@@ -1,6 +1,8 @@
 "use client";
 
 import React, { useState } from 'react';
+import { useLanguage } from '@/contexts/LanguageContext';
+import BrandName from '@/components/custom/BrandName';
 
 interface AdminLoginProps {
   onAuthenticate: () => void;
@@ -9,6 +11,7 @@ interface AdminLoginProps {
 export default function AdminLogin({ onAuthenticate }: AdminLoginProps) {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const { t } = useLanguage();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -20,7 +23,7 @@ export default function AdminLogin({ onAuthenticate }: AdminLoginProps) {
       localStorage.setItem('dashboard_authenticated', 'true');
       onAuthenticate();
     } else {
-      setError('密码错误，请重试');
+      setError(t('login.error'));
       setPassword('');
     }
   };
@@ -31,17 +34,17 @@ export default function AdminLogin({ onAuthenticate }: AdminLoginProps) {
         <div className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 p-8">
           <div className="text-center mb-8">
             <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
-              <span className="font-black">FX</span> <span className="font-normal text-gray-600 dark:text-gray-400">Killer</span> 交易控制台
+              <BrandName /> {t('login.title')}
             </h1>
             <p className="text-gray-600 dark:text-gray-400">
-              请输入管理员密码以继续
+              {t('login.subtitle')}
             </p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <label htmlFor="password" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                管理员密码
+                {t('login.password.label')}
               </label>
               <input
                 type="password"
@@ -52,7 +55,7 @@ export default function AdminLogin({ onAuthenticate }: AdminLoginProps) {
                   setError('');
                 }}
                 className="w-full px-4 py-3 border-2 border-gray-300 dark:border-gray-600 focus:ring-0 focus:border-black dark:focus:border-white dark:bg-gray-700 dark:text-white transition-all"
-                placeholder="请输入密码"
+                placeholder={t('login.password.placeholder')}
                 autoFocus
               />
               {error && (
@@ -66,7 +69,7 @@ export default function AdminLogin({ onAuthenticate }: AdminLoginProps) {
               type="submit"
               className="w-full py-3 px-4 bg-black dark:bg-white text-white dark:text-black font-semibold border-2 border-black dark:border-white hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-all"
             >
-              登录
+              {t('login.button')}
             </button>
           </form>
 
@@ -75,7 +78,7 @@ export default function AdminLogin({ onAuthenticate }: AdminLoginProps) {
               href="/"
               className="text-sm text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors"
             >
-              返回首页
+              {t('login.back')}
             </a>
           </div>
         </div>

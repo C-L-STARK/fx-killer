@@ -399,6 +399,39 @@ const translations: Record<Language, Record<string, string>> = {
     'psytest.level.pass.desc': '您具备基本的交易心理素质，但在某些方面还需要加强。建议重点关注得分较低的维度，通过学习和训练来提升。',
     'psytest.level.improve': '需要提升',
     'psytest.level.improve.desc': '您的交易心理素质还有很大的提升空间。建议在进行实盘交易前，先系统学习交易心理学，并通过模拟交易来锻炼心理素质。',
+
+    // Email Contact Modal
+    'email.default.title': '外汇交易员面试',
+    'email.subject': '外汇交易员沟通',
+    'email.description': '请发送您的简历到以下邮箱,我们会尽快与您联系：',
+    'email.address.label': '邮箱地址：',
+    'email.copy': '复制',
+    'email.copied': '邮箱地址已复制到剪贴板',
+    'email.subject.label': '邮件主题：',
+    'email.tip': '提示：',
+    'email.tip.text': '请在邮件中包含您的基本信息、教育背景、以及为什么想成为外汇交易员。',
+    'email.send': '打开邮件客户端',
+    'email.close': '关闭',
+
+    // Trading Dashboard
+    'dashboard.title': '交易控制台',
+    'dashboard.subtitle': 'XAUUSD Hybrid Strategy - Professional Trading System',
+    'dashboard.logout': '退出登录',
+    'dashboard.tab.backtest': '回测分析',
+    'dashboard.tab.live': '实时交易',
+    'dashboard.tab.tianti': '天梯',
+    'dashboard.tab.config': '策略配置',
+    'dashboard.footer.warning': '⚠️ 仅用于测试环境。实盘交易需要充分测试和风险评估。',
+    'dashboard.footer.copyright': '2024-2025 © FX Killer 专业外汇交易员培训平台',
+
+    // Admin Login
+    'login.title': '交易控制台',
+    'login.subtitle': '请输入管理员密码以继续',
+    'login.password.label': '管理员密码',
+    'login.password.placeholder': '请输入密码',
+    'login.error': '密码错误，请重试',
+    'login.button': '登录',
+    'login.back': '返回首页',
   },
   en: {
     // Brand Name
@@ -785,6 +818,39 @@ const translations: Record<Language, Record<string, string>> = {
     'psytest.level.pass.desc': 'You possess basic trading psychological qualities, but some aspects need strengthening. Focus on dimensions with lower scores and improve through learning and training.',
     'psytest.level.improve': 'Needs Improvement',
     'psytest.level.improve.desc': 'Your trading psychological qualities have significant room for improvement. Before engaging in live trading, systematically study trading psychology and exercise psychological qualities through simulated trading.',
+
+    // Email Contact Modal
+    'email.default.title': 'Forex Trader Interview',
+    'email.subject': 'Forex Trader Communication',
+    'email.description': 'Please send your resume to the following email address, and we will contact you as soon as possible:',
+    'email.address.label': 'Email Address:',
+    'email.copy': 'Copy',
+    'email.copied': 'Email address copied to clipboard',
+    'email.subject.label': 'Email Subject:',
+    'email.tip': 'Tip:',
+    'email.tip.text': 'Please include your basic information, educational background, and why you want to become a forex trader in your email.',
+    'email.send': 'Open Email Client',
+    'email.close': 'Close',
+
+    // Trading Dashboard
+    'dashboard.title': 'Trading Dashboard',
+    'dashboard.subtitle': 'XAUUSD Hybrid Strategy - Professional Trading System',
+    'dashboard.logout': 'Logout',
+    'dashboard.tab.backtest': 'Backtest',
+    'dashboard.tab.live': 'Live Trading',
+    'dashboard.tab.tianti': 'Leaderboard',
+    'dashboard.tab.config': 'Strategy Config',
+    'dashboard.footer.warning': '⚠️ For testing environment only. Live trading requires thorough testing and risk assessment.',
+    'dashboard.footer.copyright': '2024-2025 © FX Killer Professional Forex Trader Training Platform',
+
+    // Admin Login
+    'login.title': 'Trading Dashboard',
+    'login.subtitle': 'Please enter admin password to continue',
+    'login.password.label': 'Admin Password',
+    'login.password.placeholder': 'Enter password',
+    'login.error': 'Incorrect password, please try again',
+    'login.button': 'Login',
+    'login.back': 'Back to Home',
   }
 };
 

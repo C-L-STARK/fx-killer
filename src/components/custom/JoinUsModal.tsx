@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import EmailContactModal from '@/components/custom/EmailContactModal';
+import BrandName from '@/components/custom/BrandName';
 
 interface JoinUsModalProps {
   isOpen: boolean;
@@ -55,7 +56,7 @@ export default function JoinUsModal({ isOpen, onClose }: JoinUsModalProps) {
                 </div>
 
                 <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">
-                  加入 <span className="font-black">FX</span> <span className="font-normal text-gray-600 dark:text-gray-400">Killer</span>
+                  加入 <BrandName />
                 </h2>
 
                 <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">

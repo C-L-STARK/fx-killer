@@ -7,6 +7,8 @@ import LiveTradePanel from './components/LiveTradePanel';
 import StrategyConfig from './components/StrategyConfig';
 import TiantiPanel from './components/TiantiPanel';
 import AdminLogin from './components/AdminLogin';
+import { useLanguage } from '@/contexts/LanguageContext';
+import BrandName from '@/components/custom/BrandName';
 import type { TradingConfig } from '@/lib/trading/types';
 
 const defaultConfig: TradingConfig = {
@@ -53,6 +55,7 @@ const defaultConfig: TradingConfig = {
 export default function TradingDashboard() {
   const [tradingConfig, setTradingConfig] = useState<TradingConfig>(defaultConfig);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const { t } = useLanguage();
 
   useEffect(() => {
     // Check if user is already authenticated (use localStorage for persistent login)
@@ -94,17 +97,17 @@ export default function TradingDashboard() {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div>
             <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
-              <span className="font-black">FX</span> <span className="font-normal text-gray-600 dark:text-gray-400">Killer</span> 交易控制台
+              <BrandName /> {t('dashboard.title')}
             </h1>
             <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-              XAUUSD Hybrid Strategy - Professional Trading System
+              {t('dashboard.subtitle')}
             </p>
           </div>
           <button
             onClick={handleLogout}
             className="px-4 py-2 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-red-600 dark:hover:text-red-400 transition-colors"
           >
-            退出登录
+            {t('dashboard.logout')}
           </button>
         </div>
       </div>
@@ -114,16 +117,16 @@ export default function TradingDashboard() {
         <Tabs defaultValue="backtest" className="w-full">
           <TabsList className="grid w-full grid-cols-4 mb-8">
             <TabsTrigger value="backtest">
-              回测分析
+              {t('dashboard.tab.backtest')}
             </TabsTrigger>
             <TabsTrigger value="live">
-              实时交易
+              {t('dashboard.tab.live')}
             </TabsTrigger>
             <TabsTrigger value="tianti">
-              天梯
+              {t('dashboard.tab.tianti')}
             </TabsTrigger>
             <TabsTrigger value="config">
-              策略配置
+              {t('dashboard.tab.config')}
             </TabsTrigger>
           </TabsList>
 
@@ -151,8 +154,8 @@ export default function TradingDashboard() {
       {/* Footer */}
       <div className="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 px-6 py-4 mt-12">
         <div className="max-w-7xl mx-auto text-center text-sm text-gray-600 dark:text-gray-400">
-          <p className="font-semibold text-gray-900 dark:text-white">⚠️ 仅用于测试环境。实盘交易需要充分测试和风险评估。</p>
-          <p className="mt-1">2024-2025 © FX Killer 专业外汇交易员培训平台</p>
+          <p className="font-semibold text-gray-900 dark:text-white">{t('dashboard.footer.warning')}</p>
+          <p className="mt-1">{t('dashboard.footer.copyright')}</p>
         </div>
       </div>
     </div>

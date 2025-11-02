@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 interface EmailContactModalProps {
   isOpen: boolean;
@@ -9,9 +10,12 @@ interface EmailContactModalProps {
   title?: string;
 }
 
-export default function EmailContactModal({ isOpen, onClose, title = "外汇交易员面试" }: EmailContactModalProps) {
+export default function EmailContactModal({ isOpen, onClose, title }: EmailContactModalProps) {
+  const { t } = useLanguage();
   const emailAddress = "x.stark.dylan@gmail.com";
-  const emailSubject = "外汇交易员沟通";
+
+  const displayTitle = title || t('email.default.title');
+  const emailSubject = t('email.subject');
 
   const handleSendEmail = () => {
     window.location.href = `mailto:${emailAddress}?subject=${encodeURIComponent(emailSubject)}`;
@@ -19,7 +23,7 @@ export default function EmailContactModal({ isOpen, onClose, title = "外汇交�
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(emailAddress);
-    alert('邮箱地址已复制到剪贴板');
+    alert(t('email.copied'));
   };
 
   if (!isOpen) return null;
@@ -41,7 +45,7 @@ export default function EmailContactModal({ isOpen, onClose, title = "外汇交�
           className="bg-white dark:bg-gray-900 max-w-md w-full p-6 border-2 border-gray-200 dark:border-gray-700"
         >
           <div className="flex items-start justify-between mb-4">
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white">{title}</h2>
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white">{displayTitle}</h2>
             <button
               onClick={onClose}
               className="text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
@@ -54,11 +58,11 @@ export default function EmailContactModal({ isOpen, onClose, title = "外汇交�
 
           <div className="space-y-4">
             <p className="text-gray-700 dark:text-gray-300">
-              请发送您的简历到以下邮箱，我们会尽快与您联系：
+              {t('email.description')}
             </p>
 
             <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-4">
-              <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">邮箱地址：</p>
+              <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">{t('email.address.label')}</p>
               <div className="flex items-center justify-between gap-2">
                 <code className="text-black dark:text-white font-mono text-sm flex-1">
                   {emailAddress}
@@ -67,13 +71,13 @@ export default function EmailContactModal({ isOpen, onClose, title = "外汇交�
                   onClick={handleCopyEmail}
                   className="text-black dark:text-white hover:text-gray-600 dark:hover:text-gray-400 text-sm font-semibold whitespace-nowrap"
                 >
-                  复制
+                  {t('email.copy')}
                 </button>
               </div>
             </div>
 
             <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-4">
-              <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">邮件主题：</p>
+              <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">{t('email.subject.label')}</p>
               <code className="text-gray-900 dark:text-white font-mono text-sm">
                 {emailSubject}
               </code>
@@ -81,7 +85,7 @@ export default function EmailContactModal({ isOpen, onClose, title = "外汇交�
 
             <div className="bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-700 p-4">
               <p className="text-sm text-gray-800 dark:text-gray-200">
-                <strong>提示：</strong>请在邮件中包含您的基本信息、教育背景、以及为什么想成为外汇交易员。
+                <strong>{t('email.tip')}</strong>{t('email.tip.text')}
               </p>
             </div>
 
@@ -90,13 +94,13 @@ export default function EmailContactModal({ isOpen, onClose, title = "外汇交�
                 onClick={handleSendEmail}
                 className="flex-1 px-6 py-3 bg-black dark:bg-white text-white dark:text-black font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition-all"
               >
-                打开邮件客户端
+                {t('email.send')}
               </button>
               <button
                 onClick={onClose}
                 className="px-6 py-3 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-200 font-semibold hover:bg-gray-300 dark:hover:bg-gray-600 transition-all"
               >
-                关闭
+                {t('email.close')}
               </button>
             </div>
           </div>

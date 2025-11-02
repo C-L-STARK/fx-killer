@@ -6,6 +6,7 @@ import { SparklesCore } from "@/components/ui/sparkles";
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import EmailContactModal from '@/components/custom/EmailContactModal';
+import BrandName from '@/components/custom/BrandName';
 import Image from 'next/image';
 import { useLanguage } from '@/contexts/LanguageContext';
 
@@ -58,7 +59,7 @@ const DummyContent = () => {
                 </span>
               </div>
               <h1 className="text-6xl md:text-8xl font-extrabold text-center text-gray-900 dark:text-white mb-8 tracking-tight">
-                <span className="font-black">FX</span> <span className="font-normal text-gray-600 dark:text-gray-400">Killer</span>
+                <BrandName />
               </h1>
               <p className="text-2xl md:text-3xl text-center text-gray-700 dark:text-gray-200 mb-12 font-semibold">
                 {t('hero.subtitle')}
