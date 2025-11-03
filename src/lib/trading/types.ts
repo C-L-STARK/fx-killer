@@ -142,7 +142,7 @@ export interface BacktestResult {
   equityCurve: { timestamp: number; equity: number }[];
   // Chart data (optional, returned from backtest API)
   candles?: Candle[];
-  dataSource?: 'binance-public' | 'generated';
+  dataSource?: 'twelve-data' | 'alpha-vantage' | 'binance-public' | 'simulated-forex' | 'simulated-crypto' | 'generated';
   totalCandles?: number;
 }
 

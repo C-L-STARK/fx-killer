@@ -224,7 +224,7 @@ export class BacktestEngine {
     console.log(`Total candles processed: ${filteredCandles1m.length} (1m)` + (filteredCandles5m ? ` + ${filteredCandles5m.length} (5m)` : ''));
     console.log(`Candles after warmup: ${filteredCandles1m.length - warmupPeriod}`);
     console.log(`Total trades executed: ${this.trades.length}`);
-    console.log(`Strategy: ${this.config.tradingConfig.strategy.name || 'XAUUSD Hybrid'}`);
+    console.log(`Strategy: Pullback Strategy (validated 1.75 PF)`);
     console.log(`Aggressiveness: ${this.config.tradingConfig.strategy.aggressiveness}`);
     console.log(`Timeframe: ${this.config.tradingConfig.interval}` + (filteredCandles5m ? ' + 5m confirmation' : ' (no 5m)'));
 

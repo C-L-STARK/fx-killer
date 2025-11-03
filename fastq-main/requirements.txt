@@ -1,0 +1,34 @@
+# Core Data Science Libraries
+numpy>=1.26.0
+pandas>=2.1.0
+scipy>=1.11.0
+
+# Data Fetching
+yfinance>=0.2.32
+pandas-datareader>=0.10.0
+MetaTrader5>=5.0.45
+
+# Technical Analysis
+ta-lib>=0.4.28
+pandas-ta>=0.3.14b
+
+# Backtesting
+vectorbt>=0.26.0
+backtrader>=1.9.78.123
+
+# Visualization
+matplotlib>=3.8.0
+plotly>=5.17.0
+seaborn>=0.13.0
+
+# Configuration & Logging
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+loguru>=0.7.2
+
+# Utilities
+python-dateutil>=2.8.2
+pytz>=2023.3
+
+# Performance
+numba>=0.58.0

@@ -92,10 +92,13 @@ export default function BacktestChart({ candles, trades, symbol }: BacktestChart
         // Try to find the addCandlestickSeries or addSeries method
         let candlestickSeries: any;
 
+        // Cast chart to any to access dynamic methods
+        const chartAny = chart as any;
+
         // Method 1: Direct method call (v4 style)
-        if (typeof chart.addCandlestickSeries === 'function') {
+        if (typeof chartAny.addCandlestickSeries === 'function') {
           console.log('[BacktestChart] Using chart.addCandlestickSeries()');
-          candlestickSeries = chart.addCandlestickSeries({
+          candlestickSeries = chartAny.addCandlestickSeries({
             upColor: '#26a69a',
             downColor: '#ef5350',
             borderVisible: false,
@@ -104,9 +107,9 @@ export default function BacktestChart({ candles, trades, symbol }: BacktestChart
           });
         }
         // Method 2: addSeries with type parameter (v5 beta style)
-        else if (typeof chart.addSeries === 'function') {
+        else if (typeof chartAny.addSeries === 'function') {
           console.log('[BacktestChart] Using chart.addSeries()');
-          candlestickSeries = chart.addSeries(LightweightCharts.CandlestickSeries, {
+          candlestickSeries = chartAny.addSeries(LightweightCharts.CandlestickSeries, {
             upColor: '#26a69a',
             downColor: '#ef5350',
             borderVisible: false,
@@ -126,9 +129,9 @@ export default function BacktestChart({ candles, trades, symbol }: BacktestChart
           });
         }
         // Method 4: Fallback - use simple area series if candlestick not available
-        else if (typeof chart.addAreaSeries === 'function') {
+        else if (typeof chartAny.addAreaSeries === 'function') {
           console.warn('[BacktestChart] Candlestick series not available, using area series as fallback');
-          candlestickSeries = chart.addAreaSeries({
+          candlestickSeries = chartAny.addAreaSeries({
             topColor: 'rgba(38, 166, 154, 0.4)',
             bottomColor: 'rgba(38, 166, 154, 0.0)',
             lineColor: '#26a69a',
@@ -204,14 +207,15 @@ export default function BacktestChart({ candles, trades, symbol }: BacktestChart
             try {
               const buyMarkers = chart.addSeries(LightweightCharts.LineSeries, {
                 color: '#26a69a',
-                lineWidth: 0,
+                lineWidth: 1 as any, // Minimal line width to hide the line
+                lineVisible: false,
                 crosshairMarkerVisible: true,
                 crosshairMarkerRadius: 6,
                 crosshairMarkerBorderColor: '#26a69a',
                 crosshairMarkerBackgroundColor: '#26a69a',
                 lastValueVisible: false,
                 priceLineVisible: false,
-              });
+              } as any);
               buyMarkers.setData(buyPoints);
               console.log(`[BacktestChart] ✅ Added ${buyPoints.length} BUY markers (green)`);
             } catch (e) {
@@ -224,14 +228,15 @@ export default function BacktestChart({ candles, trades, symbol }: BacktestChart
             try {
               const sellMarkers = chart.addSeries(LightweightCharts.LineSeries, {
                 color: '#ef5350',
-                lineWidth: 0,
+                lineWidth: 1 as any, // Minimal line width to hide the line
+                lineVisible: false,
                 crosshairMarkerVisible: true,
                 crosshairMarkerRadius: 6,
                 crosshairMarkerBorderColor: '#ef5350',
                 crosshairMarkerBackgroundColor: '#ef5350',
                 lastValueVisible: false,
                 priceLineVisible: false,
-              });
+              } as any);
               sellMarkers.setData(sellPoints);
               console.log(`[BacktestChart] ✅ Added ${sellPoints.length} SELL markers (red)`);
             } catch (e) {
