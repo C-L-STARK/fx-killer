@@ -163,17 +163,12 @@ export default function SplanFooter() {
                     href="https://fundednext.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="group block text-gray-400 hover:text-white transition-colors"
+                    className="group flex items-center justify-between text-gray-400 hover:text-white transition-colors"
                   >
-                    <div className="flex items-center justify-between">
-                      <span className="font-medium">FundedNext</span>
-                      <svg className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                      </svg>
-                    </div>
-                    <div className="text-xs mt-1 text-gray-500">
-                      {t('footer.partners.referral')}: <span className="font-mono text-gray-400">REFQKEAYK</span>
-                    </div>
+                    <span className="font-medium">FundedNext</span>
+                    <svg className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
                   </a>
                 </li>
               </ul>
