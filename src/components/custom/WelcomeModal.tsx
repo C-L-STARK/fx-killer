@@ -107,7 +107,7 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
       maxWidth: '56rem',
       maxHeight: '90vh',
       transition: {
-        type: 'spring',
+        type: 'spring' as const,
         damping: 25,
         stiffness: 300,
       },
@@ -123,7 +123,7 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
       maxWidth: '20rem',
       maxHeight: 'auto',
       transition: {
-        type: 'spring',
+        type: 'spring' as const,
         damping: 25,
         stiffness: 300,
       },
