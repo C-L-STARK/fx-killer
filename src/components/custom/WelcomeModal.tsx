@@ -135,9 +135,8 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
             ref={iframeRef}
             src={bilibiliEmbedUrl}
             scrolling="no"
-            border="0"
-            frameBorder="no"
-            className="w-full h-full"
+            frameBorder="0"
+            className="w-full h-full border-0"
             allowFullScreen
           />
         </div>
@@ -221,9 +220,8 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
                 ref={iframeRef}
                 src={bilibiliEmbedUrl}
                 scrolling="no"
-                border="0"
-                frameBorder="no"
-                className="w-full h-full"
+                frameBorder="0"
+                className="w-full h-full border-0"
                 allowFullScreen
               />
             </div>
