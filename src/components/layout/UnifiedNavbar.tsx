@@ -19,10 +19,6 @@ export default function UnifiedNavbar() {
 
   const navItems = [
     {
-      name: t('nav.home'),
-      link: "/",
-    },
-    {
       name: t('nav.training'),
       link: "/splan/join-us",
     },
@@ -48,6 +44,14 @@ export default function UnifiedNavbar() {
     {
       name: t('nav.dashboard'),
       link: "/dashboard",
+    },
+    {
+      name: language === 'zh' ? '日历' : 'Calendar',
+      link: "/economic-calendar",
+    },
+    {
+      name: language === 'zh' ? '天梯' : 'Leaderboard',
+      link: "/top-traders",
     },
     {
       name: t('nav.tradingTools'),

@@ -1,24 +1,30 @@
-import type { Metadata } from "next";
+import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
 
-export const metadata: Metadata = {
-  title: "交易员心理测试 - 评估您的交易心理素质",
-  description: "专业的交易员心理测试，全面评估您的交易心理素质。测试涵盖5大核心维度：风险承受能力、情绪控制能力、决策能力、纪律性、压力管理。20道专业题目，约5-8分钟完成，了解您是否适合成为职业交易员。",
-  keywords: ["交易心理测试", "交易员评估", "心理素质测试", "风险承受能力", "情绪控制", "交易决策", "交易纪律测试"],
-  openGraph: {
-    title: "交易员心理测试 - 评估您的交易心理素质",
-    description: "20道专业题目，5大核心维度，全面评估您的交易心理素质。了解您是否适合成为职业交易员。",
-    url: "https://pinbar-trader.com/splan/psychology-test",
-    type: "website",
-  },
-  alternates: {
-    canonical: "https://pinbar-trader.com/splan/psychology-test",
-  },
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const lang = getLanguageFromLocale(locale);
+
+  return generateBilingualMetadata(
+    '交易心理测评 - 评估你的交易员潜力 | FX Killer',
+    'Trading Psychology Test - Assess Your Trader Potential | FX Killer',
+    '免费专业交易心理测评，评估你的风险承受能力、决策风格、情绪控制、纪律性等交易员核心素质。了解自己的优势与不足，制定针对性的提升计划。',
+    'Free professional trading psychology assessment to evaluate your risk tolerance, decision-making style, emotional control, discipline and core trader qualities. Understand your strengths and weaknesses, develop targeted improvement plans.',
+    '交易心理测评, 交易员测试, 风险承受能力, 交易纪律, 情绪管理, 交易心理学, 交易员素质评估, 职业交易员测试',
+    'trading psychology test, trader assessment, risk tolerance, trading discipline, emotional management, trading psychology, trader quality evaluation, professional trader test',
+    lang,
+    {
+      url: '/splan/psychology-test',
+      type: 'website',
+      section: 'Assessment',
+      author: 'FX Killer Team',
+    }
+  );
+}
 
 export default function PsychologyTestLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return <>{children}</>;
 }

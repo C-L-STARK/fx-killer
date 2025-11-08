@@ -206,14 +206,21 @@ export default function SplanFooter() {
                 </a>
               </li>
               <li>
-                <a
-                  href="https://www.maxweb.red/join?ref=YYSTARK"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Binance
-                </a>
+                <div className="space-y-1">
+                  <a
+                    href="https://www.maxweb.red/join?ref=YYSTARK"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-white transition-colors block"
+                  >
+                    Binance
+                  </a>
+                  <div className="flex items-center gap-2 pl-2">
+                    <span className="text-xs text-gray-500">{language === 'zh' ? '邀请码' : 'Code'}:</span>
+                    <code className="text-xs bg-gray-800 px-2 py-0.5 text-gray-400 font-mono">YYSTARK</code>
+                    <span className="text-xs text-gray-500">{language === 'zh' ? '(全返)' : '(Full refund)'}</span>
+                  </div>
+                </div>
               </li>
             </ul>
 
