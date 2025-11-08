@@ -247,8 +247,8 @@ export default function SplanFooter() {
                     FundedNext
                   </a>
                   <div className="flex items-center gap-2 pl-2">
-                    <span className="text-xs text-green-400">{language === 'zh' ? '邀请码' : 'Code'}:</span>
-                    <code className="text-xs bg-gray-800 px-2 py-0.5 text-green-400 font-mono">REFQKEAYK</code>
+                    <span className="text-xs text-gray-500">{language === 'zh' ? '邀请码' : 'Code'}:</span>
+                    <code className="text-xs bg-gray-800 px-2 py-0.5 text-gray-400 font-mono">REFQKEAYK</code>
                     <span className="text-xs text-gray-500">{language === 'zh' ? '(5%优惠)' : '(5% off)'}</span>
                   </div>
                 </div>
