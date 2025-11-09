@@ -4,6 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { motion } from 'motion/react';
 import { TrendingUp, TrendingDown, ArrowLeft, Clock, Activity } from 'lucide-react';
+import InterviewCTA from '@/components/custom/InterviewCTA';
 
 interface AnalysisData {
   symbol: string;
@@ -137,7 +138,7 @@ export default function MarketDetailClient({ analysis, language }: MarketDetailC
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Left Column - Technical Indicators */}
           <div className="lg:col-span-1">
-            <div className="bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-800 rounded-lg p-6 sticky top-24">
+            <div className="bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-800 p-6 sticky top-24">
               <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-2">
                 <Activity className="w-5 h-5" />
                 {isZh ? '技术指标' : 'Technical Indicators'}
@@ -204,7 +205,7 @@ export default function MarketDetailClient({ analysis, language }: MarketDetailC
 
           {/* Right Column - Analysis */}
           <div className="lg:col-span-2">
-            <div className="bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-800 rounded-lg p-8">
+            <div className="bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-800 p-8">
               <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
                 {analysisContent.title}
               </h2>
@@ -241,6 +242,9 @@ export default function MarketDetailClient({ analysis, language }: MarketDetailC
           </div>
         </div>
       </div>
+
+      {/* Interview CTA Section */}
+      <InterviewCTA />
     </div>
   );
 }

@@ -132,7 +132,7 @@ export default function MarketAnalysisClient({ analyses, language }: MarketAnaly
                     href={`/${language}/market-analysis/${getSlug(analysis.symbol)}`}
                     className="block group"
                   >
-                    <div className="bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-800 rounded-lg p-6 hover:border-blue-500 dark:hover:border-blue-500 transition-all hover:shadow-xl h-full">
+                    <div className="bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-800 p-6 hover:border-blue-500 dark:hover:border-blue-500 transition-all hover:shadow-xl h-full">
                       {/* 货币对名称 */}
                       <div className="mb-4">
                         <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">
