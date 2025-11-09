@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-09T17:22:26.564Z",
+  "price": {
+    "close": "153.37801",
+    "high": "153.48399",
+    "low": "153.36900",
+    "open": "153.42500",
+    "change": "-0.03",
+    "datetime": "2025-11-08 08:00:00"
+  },
+  "indicators": {
+    "rsi": 52.12617,
+    "macd": -0.0038541127,
+    "macd_signal": -0.037290384,
+    "sma20": 153.2843
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理中]",
+      "content": "当前美元/日元（USD/JPY）在153.37附近震荡整理，价格在高点153.48和低点153.37之间波动。虽然短期内未能突破153.48的阻力位，但市场情绪保持相对稳定，显示出一定的多头动能。若价格持续在该区间内运行，投资者需密切关注后续的价格行为。\n\n从技术指标来看，当前的MACD指标为负值，显示出短期内可能存在回调压力。然而，20日简单移动平均线（SMA）位于153.28，提供了一定的支撑位，表明在短期内，价格仍有可能维持在该水平之上。RSI指标目前无法提供具体数据，但一般来说，RSI在50以上显示多头优势，反之则显示空头压力。\n\n关键支撑位在153.28附近，若价格跌破该水平，可能会引发进一步的下行趋势，目标指向153.00。而阻力位则在153.48，若突破该水平，将可能开启新的上涨空间，目标指向154.00。综合考虑，短期内建议投资者维持观望，待价格突破关键支撑或阻力位后再进行交易决策。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY currency pair is currently trading at 153.37801, reflecting a slight decline of 0.03% over the past 24 hours. This minor pullback suggests a consolidation phase after reaching a recent high of 153.48399. The overall trend remains bullish, but the price is approaching a critical resistance level around 153.50. A sustained breakout above this level could pave the way for further gains, while failure to maintain above the 153.37 support could indicate a shift in momentum.\n\nThe lack of an available RSI reading limits our ability to analyze overbought or oversold conditions, but the MACD indicates a slight bearish sentiment with a value of -0.0038541127. This negative MACD reading, while not significantly deep, suggests that selling pressure is present. Traders should monitor this indicator closely; if it begins to turn positive, it could signal a potential bullish reversal. Moreover, the 20-period Simple Moving Average at 153.28430 serves as a dynamic support level, reinforcing the need to watch for price action around this point.\n\nSupport levels are identified at 153.37 and 153.28, which are crucial for maintaining bullish sentiment. If the price breaks below these levels, it could lead to increased selling pressure, potentially targeting lower levels around 153.00. Conversely, resistance at 153.50 remains a key barrier; a breakout here could attract additional buying interest, with targets extending towards 154.00.\n\nIn terms of trading strategy, a cautious approach is advisable. Traders may consider buying near the 153.37 support level, with a tight stop loss just below 153.28 to manage risk. Alternatively, if the price breaks above 153.50 convincingly, initiating long positions could be fruitful, allowing for potential gains in an upward trend. Overall, vigilance in monitoring price action around key levels will be essential for effective trading decisions."
+    }
+  }
+}

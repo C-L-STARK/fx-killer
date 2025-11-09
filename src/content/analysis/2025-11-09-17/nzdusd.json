@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-09T17:24:30.996Z",
+  "price": {
+    "close": "0.56284124",
+    "high": "0.56344378",
+    "low": "0.56261957",
+    "open": "0.56338030",
+    "change": "-0.09",
+    "datetime": "2025-11-08 08:00:00"
+  },
+  "indicators": {
+    "rsi": 50.17514,
+    "macd": -0.00027626538,
+    "macd_signal": -0.0005235422,
+    "sma20": 0.56215043
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理中]",
+      "content": "当前纽元/美元（NZD/USD）交易于0.5628附近，显示出短期内的震荡整理趋势。近期价格波动较小，24小时变化仅为-0.09%。高点和低点之间的差距表明市场缺乏明确的方向性，投资者可能在观望后续经济数据的影响。\n\n技术指标方面，虽然RSI(14)数据缺失，但MACD处于负值区域，显示出卖方力量仍占主导。20日简单移动平均线（SMA）为0.5621，当前价格在其上方，说明短期内可能存在一定的支撑。若价格能保持在此水平之上，则可能为多头提供进一步买入机会。\n\n支撑位方面，0.5626为重要支撑区，若价格跌破这一水平，可能会引发进一步的卖压。阻力位则位于0.5634，突破该水平将有助于恢复短期上涨趋势。投资者应密切关注这两个关键价位，以便及时调整交易策略。\n\n综合来看，当前市场情绪偏向谨慎，建议交易者在支撑位和阻力位附近进行短线交易，同时保持谨慎，注意宏观经济数据和市场情绪的变化，以避免潜在风险。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD currency pair is currently trading at 0.56284124, showing a slight decline of 0.09% over the past 24 hours. The price action is hovering just above the 20-period Simple Moving Average (SMA) at 0.56215043, which could act as a potential support level in the near term. This proximity to the SMA suggests the market is experiencing a consolidation phase, and traders should watch for a breakout either above or below this moving average to determine the next directional move.\n\nIn terms of trend analysis, the recent high at 0.56344378 and low at 0.56261957 indicate a narrow trading range. The market's inability to break above the recent high suggests bearish pressure may be building. Additionally, the MACD is currently negative, indicating a potential downtrend. However, without the full RSI data, it's difficult to assess whether the pair is oversold or overbought, which is crucial for gauging potential reversal points.\n\nSupport and resistance levels are critical for identifying potential entry and exit points. The immediate support level can be identified around the recent low of 0.56261957, while resistance is found at 0.56344378. A break below the support level could lead to further downside movement, targeting the next psychological level at 0.5600. Conversely, a rise above the resistance may provide a short-term buying opportunity, with targets set at 0.5650.\n\nFor trading strategies, a cautious approach is advisable. Traders may consider placing a buy order above 0.5635, with a tight stop-loss below the support level at 0.5626. Alternatively, short positions could be initiated if the price breaks below 0.5626, with targets aiming towards 0.5600. Monitoring market sentiment and economic indicators from both New Zealand and the United States will be essential in making informed trading decisions."
+    }
+  }
+}

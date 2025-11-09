@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-09T17:25:54.159Z",
+  "price": {
+    "close": "3992.44",
+    "high": "3992.72",
+    "low": "3987.9",
+    "open": "3990.91",
+    "change": "0.04",
+    "datetime": "2025-11-08 23:00:00"
+  },
+  "indicators": {
+    "rsi": 49.4964,
+    "macd": -0.75801438,
+    "macd_signal": -0.16287453,
+    "sma20": 3994.802
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中]",
+      "content": "当前黄金/美元（XAU/USD）在3992.44附近震荡整理，价格相对稳定，24小时变化为0.04%。从高点3992.72到低点3987.9的波动范围较小，显示出市场缺乏明确的方向性。短期内，投资者需关注市场情绪的变化，以判断后续走势。\n\n技术指标方面，虽然RSI(14)数据缺失，但MACD显示出-0.758的负值，表明当前市场仍处于下行趋势中。20日简单移动平均线（SMA）为3994.80，价格略低于该均线，进一步确认了短期内的弱势形态。市场可能需要更多的正面消息以推动价格回升。\n\n支撑位方面，3987.90是关键的支撑水平，若跌破该位，可能会引发更大的卖盘压力。阻力位则在3994.80附近，若价格突破该水平，则有可能恢复上涨趋势。投资者应重点关注这些关键价位，以制定相应的交易策略。\n\n综合来看，建议投资者在当前的震荡行情中采取观望策略，等待更明确的信号。同时，可以考虑在接近支撑位时分批布局买入，若价格反弹至阻力位则可考虑适时获利了结。保持灵活应对市场变化，以降低风险并把握机会。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The XAU/USD pair is currently trading at 3992.44, showing a slight increase of 0.04% over the past 24 hours. This stability hints at a consolidation phase following recent volatility. The price has oscillated between a high of 3992.72 and a low of 3987.9, suggesting that the market is currently range-bound. Traders should keep an eye on whether the price breaks through the upper range, which could signal a bullish trend, or falls below the lower range, indicating potential bearish movement.\n\nIn terms of technical indicators, the MACD is currently at -0.758, suggesting that momentum is leaning towards the bearish side. However, this negative value, coupled with a lack of a signal line, indicates that the bearish momentum may be weakening. The absence of an RSI reading leaves a gap in momentum analysis, which means traders should closely monitor price movements for signs of overbought or oversold conditions. \n\nThe 20-day Simple Moving Average (SMA) is positioned at 3994.80, serving as a potential resistance level. If the price manages to break above this level, it could pave the way for further gains. Conversely, support is found around the recent low of 3987.9. A break below this level could trigger a sell-off, with traders likely targeting lower support levels. \n\nFor trading strategies, consider placing buy orders if the price breaks above the SMA, targeting the next resistance level. Conversely, if the price dips below the 3987.9 support, a sell order may be prudent, with stop-loss orders set just above this level to manage risk. Maintaining vigilance for news events and market sentiment is crucial, as they can significantly impact price action in the gold market."
+    }
+  }
+}
