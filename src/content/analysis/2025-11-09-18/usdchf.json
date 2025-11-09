@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-09T18:37:44.854Z",
+  "price": {
+    "close": "0.80453998",
+    "high": "0.80549997",
+    "low": "0.80438000",
+    "open": "0.80505002",
+    "change": "-0.06",
+    "datetime": "2025-11-08 08:00:00"
+  },
+  "indicators": {
+    "rsi": 38.20705,
+    "macd": -0.0008166448,
+    "macd_signal": -0.00075951785,
+    "sma20": 0.806099
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理走势]",
+      "content": "当前美元/瑞郎的价格处于震荡整理阶段，最新报价为0.8045，较昨日微幅下跌0.06%。在短期内，价格在0.8055和0.8044之间波动，显示出市场对进一步方向的犹豫。整体趋势尚未明确，需关注后市动态。\n\n从技术指标来看，虽然RSI未提供，但MACD指标显示出负值，表明当前市场动能偏弱。短期均线SMA(20)为0.8061，进一步确认了上方的压力。若价格突破此均线，可能会引发更多的买入兴趣，反之则需警惕下行风险。\n\n在支撑和阻力位方面，0.8044为近期重要支撑位，若跌破可能会加速下行。上方阻力位0.8055则是多头恢复的关键点。如果价格能够站稳于此之上，可能会引发新的上涨动能。\n\n综合来看，建议交易者在当前价格附近谨慎操作。建议关注0.8044的支撑和0.8055的阻力位，适时设定止损以降低风险。同时，保持灵活应对市场变化，必要时调整交易策略。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair has displayed a slight bearish trend in the short term, currently trading at 0.8045 after a marginal decline of 0.06% over the last 24 hours. The price has oscillated between a high of 0.8055 and a low of 0.8044, indicating a consolidation phase. This sideways movement suggests market indecision, influenced by broader economic factors and investor sentiment surrounding the US dollar's performance against the Swiss franc.\n\nAnalyzing the technical indicators, the MACD is currently negative at -0.0008, suggesting a potential bearish bias, although the absence of a signal line complicates the interpretation. The SMA(20) at 0.8061 acts as a dynamic resistance level, indicating that any upward price movement may face challenges around this threshold. The RSI is not available; however, monitoring it would provide critical insight into potential overbought or oversold conditions, guiding traders on entry and exit points.\n\nSupport levels can be identified around the recent low of 0.8044, which, if breached, could lead to further bearish momentum. Conversely, if the price breaks above the SMA(20), it may indicate a shift in momentum and a potential for upward movement towards the resistance at 0.8070. Traders should exercise caution, as the current market environment suggests a lack of clear direction.\n\nGiven the current price action, it may be prudent for traders to adopt a wait-and-see approach. Short positions could be considered near the SMA(20) if the price fails to break above it, while a breakout above this level could signal an opportunity for long positions targeting the next resistance level. As always, implementing stop-loss orders would be essential to manage risk in this uncertain market."
+    }
+  }
+}

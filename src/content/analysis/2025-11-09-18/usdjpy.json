@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-09T18:35:06.276Z",
+  "price": {
+    "close": "153.37801",
+    "high": "153.48399",
+    "low": "153.36900",
+    "open": "153.42500",
+    "change": "-0.03",
+    "datetime": "2025-11-08 08:00:00"
+  },
+  "indicators": {
+    "rsi": 52.12617,
+    "macd": -0.0038541127,
+    "macd_signal": -0.037290384,
+    "sma20": 153.2843
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理中]",
+      "content": "当前美元/日元汇率在153.37801附近震荡整理，24小时变化幅度较小，显示出市场情绪的谨慎。短期内，若价格持续保持在153.37上方，则可能维持在当前区间内，等待突破。否则，若跌破这一支撑位，可能会引发更大幅度的回调。\n\n从技术指标来看，MACD呈现出轻微的负值，表明短期内多头动能不足，市场可能面临调整压力。而20日简单移动平均线(SMA)在153.28430处提供了一定的支撑。如果价格向下回落，可能会在此位置寻找到支撑，进一步决定后市的走向。\n\n支撑位方面，153.37是关键支撑，若被有效突破，后续关注152.90附近的次级支撑。阻力位则在153.48附近，若突破此位，可能会引发新一轮上涨动能。关注市场情绪变化，结合技术面分析，提供更为有效的交易策略。\n\n建议交易者保持谨慎，短期内可考虑在支撑位附近适度布局多单，同时设定止损以控制风险。若价格突破阻力位，可考虑加仓，反之则应及时止损，以应对市场的波动性。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 153.37801, reflecting a slight decrease of 0.03% over the past 24 hours. The price has fluctuated between a high of 153.48399 and a low of 153.36900, indicating a relatively tight trading range. This consolidation suggests that the market is searching for direction, with potential support around the recent low of 153.36900 and resistance at the high of 153.48399. A breakout from this range could set the tone for the next move.\n\nFrom a trend analysis perspective, the USD/JPY has shown a bullish inclination over the last few weeks, as evidenced by its trading above the 20-period Simple Moving Average (SMA) at 153.28430. The current price action hovering close to the recent highs indicates continued buyer interest. However, the lack of a strong upward momentum may prompt traders to watch for confirmation signals, such as a break above resistance or a reversal pattern that could indicate a shift in sentiment.\n\nTechnical indicators are mixed at this point. The MACD shows a slightly bearish divergence with a value of -0.0038541127, suggesting that momentum may be waning. With the Relative Strength Index (RSI) data unavailable, it's crucial to monitor price action for any signs of overbought or oversold conditions. If the RSI were available, a reading above 70 could indicate overbought conditions, while a reading below 30 might suggest oversold territory, guiding potential trading decisions.\n\nFor traders looking to enter positions, a break above 153.48399 could be a signal to go long, targeting the next psychological level around 154.00. Conversely, if the price fails to hold above the support level of 153.36900, it could lead to a bearish reversal, prompting traders to consider short positions with targets toward 153.2000. As always, implementing proper risk management strategies will be essential in navigating this currency pair's volatility."
+    }
+  }
+}
