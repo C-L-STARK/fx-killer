@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-09T20:31:49.278Z",
+  "price": {
+    "close": "3992.44",
+    "high": "3992.72",
+    "low": "3987.9",
+    "open": "3990.91",
+    "change": "0.04",
+    "datetime": "2025-11-08 23:00:00"
+  },
+  "indicators": {
+    "rsi": 49.4964,
+    "macd": -0.75801438,
+    "macd_signal": -0.16287453,
+    "sma20": 3994.802
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，短期承压]",
+      "content": "当前黄金/美元（XAU/USD）价格在3992.44附近，整体呈现震荡整理的趋势。从日内高点3992.72和低点3987.9来看，价格波动较小，市场情绪略显谨慎。投资者需要关注即将发布的经济数据和地缘政治事件，可能对金价造成影响。\n\n技术指标方面，MACD指标显示出负值，暗示短期内可能存在卖压，且未能形成明显的上涨信号。虽然RSI未提供数据，但如果偏离过高，可能表明超买状态。20日简单移动平均线（SMA）在3994.80附近，形成短期阻力位，进一步上行需要突破该水平。\n\n支撑位方面，3987.9是关键支撑区域，若价格跌破此位，可能进一步回调至3980附近。反之，若价格突破3994.80，则有可能向4000关口挑战。建议投资者保持谨慎，考虑在支撑位附近寻找买入机会，并在接近阻力位时逐步获利了结。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 3992.44 indicates a relatively stable market sentiment, with a minimal 24-hour change of 0.04%. Despite this stability, the price remains below the 20-period Simple Moving Average (SMA) of 3994.80, suggesting a bearish short-term trend. The high of 3992.72 and low of 3987.9 over the last 24 hours highlight a narrow trading range, indicating a lack of volatility and potential indecision among traders. This scenario may lead to a consolidation phase before a decisive breakout occurs.\n\nIn terms of support and resistance levels, the immediate support is evident around the recent low of 3987.9, while the resistance can be identified near the SMA at 3994.80. A sustained move below 3987.9 could signal further downside potential, possibly targeting the next support level around 3980. Conversely, if the price breaks above the 20 SMA, it may aim for resistance at 4000, which is a psychologically significant level. Traders should watch these levels closely for potential trading opportunities.\n\nThe MACD value of -0.758 suggests bearish momentum, although the absence of a signal line makes it difficult to gauge the strength of this trend. Furthermore, the lack of an RSI reading restricts our ability to determine overbought or oversold conditions, which are vital for identifying potential reversal points. Traders should consider waiting for confirmation from these indicators before committing to long or short positions, as the current landscape is characterized by uncertainty.\n\nGiven the current market conditions, a cautious approach is advisable. Traders may look for a buying opportunity if XAU/USD breaks above the SMA at 3994.80, indicating a potential trend reversal. Conversely, a break below 3987.9 would warrant a short position, targeting further downside movements. Monitoring the upcoming economic data and geopolitical developments will also be crucial, as these factors can significantly impact gold prices and overall market sentiment."
+    }
+  }
+}

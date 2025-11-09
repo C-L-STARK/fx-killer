@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-09T20:29:10.572Z",
+  "price": {
+    "close": "0.64968818",
+    "high": "0.65011048",
+    "low": "0.64960372",
+    "open": "0.65006822",
+    "change": "-0.05",
+    "datetime": "2025-11-08 08:00:00"
+  },
+  "indicators": {
+    "rsi": 57.14547,
+    "macd": 0.00011015301,
+    "macd_signal": -0.00012294851,
+    "sma20": 0.64853444
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理趋势]",
+      "content": "当前AUD/USD的价格为0.6497，显示出震荡整理的趋势。过去24小时内，价格略有下跌0.05%，在0.6501和0.6496之间波动。虽然未能突破重要阻力位，市场情绪依然谨慎，进一步的方向尚不明朗。\n\n从技术指标来看，RSI和MACD的数据尚未完全提供，但SMA(20)在0.6485附近为市场提供了一定的支撑。若价格持续保持在此均线之上，可能会引发短期内的反弹。然而，若跌破该支撑位，可能会进一步下探。\n\n在支撑和阻力方面，0.6496是短期关键支撑位，而0.6501则是重要的阻力位。投资者需要关注这些价位的突破情况，以判断市场的潜在方向。若价格突破0.6501，可能会引发更多买盘；反之，跌破0.6496则可能加剧卖压。\n\n综合考虑，短期内建议投资者保持观望，耐心等待明确的突破信号。在此区间内进行短线交易时，需设定合理的止损位，以降低风险。同时，关注全球经济数据和市场动态，以便及时调整策略。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD currency pair is currently trading at 0.6497, reflecting a slight decline of 0.05% over the last 24 hours. The pair has experienced a narrow trading range, with a high of 0.6501 and a low of 0.6496, indicating a period of consolidation. This behavior suggests that market participants are awaiting further cues regarding potential directional moves. The overall trend appears to be bearish, as the price is struggling to maintain momentum above the 0.6500 level, which may act as a psychological barrier for buyers.\n\nThe absence of a current RSI reading limits our ability to assess overbought or oversold conditions. However, the MACD value of 0.0001 indicates a weak bullish momentum, which may not be strong enough to support a significant upward movement. The 20-period Simple Moving Average (SMA) at 0.6485 acts as a short-term support level, and a break below this level could lead to further downside, potentially testing lower support at around 0.6470. Traders should closely monitor these indicators for signs of a potential trend reversal or continuation.\n\nIn terms of support and resistance levels, the immediate resistance is identified at 0.6501, and a sustained move above this level could lead to a retest of 0.6520. Conversely, if the pair breaks below the SMA at 0.6485, it may find support at 0.6470, which is crucial for maintaining the current bullish structure. Watching these levels will be critical for traders looking to capitalize on short-term movements in this currency pair.\n\nFor trading strategies, a cautious approach is advisable. Traders might consider entering short positions if the price breaks below 0.6485, targeting the next support level at 0.6470. Conversely, a break above 0.6501 could signal a potential long entry, with targets set towards 0.6520. Overall, maintaining a focus on key support and resistance levels, along with monitoring momentum indicators, will be essential for effective trading in this environment."
+    }
+  }
+}
