@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-09T22:27:21.763Z",
+  "price": {
+    "close": "1.40376",
+    "high": "1.40468",
+    "low": "1.40240",
+    "open": "1.40298",
+    "change": "0.05",
+    "datetime": "2025-11-08 08:00:00"
+  },
+  "indicators": {
+    "rsi": 26.27445,
+    "macd": -0.0019607568,
+    "macd_signal": -0.0012446565,
+    "sma20": 1.40888
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡趋势中寻找机会]",
+      "content": "当前美元/加元（USD/CAD）在1.40376附近震荡运行，显示出短期内缺乏明确的趋势方向。最近的高点1.40468与低点1.40240形成了一个相对窄幅的交易区间，表明市场参与者对方向的选择较为谨慎。此时，投资者需关注即将到来的经济数据，以判断市场情绪的变化。\n\n在技术指标方面，MACD处于负值区域，显示出卖压略强，但尚未显现出明确的转折信号。RSI指标缺失可能影响对超买或超卖状态的判断，因此观察其他指标的配合显得尤为重要。SMA（20）在1.40888，作为潜在的阻力位，若价格触及此区域，可能会面临进一步的回调压力。\n\n支撑位方面，1.40240是关键水平，若有效跌破，可能引发更大幅度的回调。相对的，若价格突破1.40468，则有望向1.40888及更高位置进发。在当前震荡的市场环境中，投资者可考虑在支撑位附近寻找买入机会，而在接近阻力位时则需谨慎对待，考虑采取获利了结或止损策略。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD pair is currently experiencing a slight bullish sentiment, trading at 1.40376. The recent price movement shows a marginal increase of 0.05% over the last 24 hours, suggesting a consolidation phase after testing the recent high of 1.40468. This level could act as a resistance point, while the recent low of 1.40240 may serve as a crucial support level. Traders should monitor these levels closely, as a break above resistance could indicate a potential rally.\n\nTechnical indicators offer a mixed view. The MACD is currently negative at -0.00196, indicating that the bearish momentum is still present, albeit weak. The absence of an RSI reading limits our insight into potential overbought or oversold conditions, making it essential to observe price action closely for any divergence. The SMA(20) at 1.40888 suggests that the short-term trend remains bearish, reinforcing the importance of the aforementioned resistance level. \n\nTraders should consider establishing short positions if the price fails to break above 1.40468, particularly if it retraces toward the support level of 1.40240. Conversely, if the price breaks above the resistance level, it may open up opportunities for long positions, targeting the SMA(20) as the next resistance area. Risk management strategies are crucial, given the current volatility in the forex market.\n\nIn conclusion, the USD/CAD pair is at a critical juncture. The market's reaction to the support and resistance levels will provide further clarity on the trend direction. Close attention to technical indicators and price action will be essential for making informed trading decisions in the near term."
+    }
+  }
+}

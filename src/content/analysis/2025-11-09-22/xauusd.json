@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-09T22:29:19.731Z",
+  "price": {
+    "close": "3992.44",
+    "high": "3992.72",
+    "low": "3987.9",
+    "open": "3990.91",
+    "change": "0.04",
+    "datetime": "2025-11-08 23:00:00"
+  },
+  "indicators": {
+    "rsi": 49.4964,
+    "macd": -0.75801438,
+    "macd_signal": -0.16287453,
+    "sma20": 3994.802
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中，短期承压]",
+      "content": "当前黄金/美元(XAU/USD)价格在3992.44附近震荡整理，24小时变化仅为0.04%。从价格走势来看，市场似乎在高位震荡，缺乏明确的方向。短期内，市场情绪谨慎，投资者可能在等待更明确的经济数据或地缘政治事件以推动价格波动。\n\n技术指标方面，MACD显示负值，表明短期内卖方力量占优，市场可能面临进一步回调的风险。尽管RSI数据缺失，但结合SMA(20)的数值3994.80，可以看出，价格在短期内处于均线下方，进一步确认了市场的弱势状态。\n\n支撑位方面，3987.90是当前的关键支撑水平，若价格下破此位，可能会引发更大的下行压力。相对的，3994.80则是阻力位，若突破该区域，或许会恢复短期上涨动能。投资者需密切关注这两个关键价位的突破情况，以制定相应的交易策略。\n\n综合考虑，建议投资者在当前环境下保持谨慎，短期内可考虑在支撑位附近寻找买入机会，但若价格跌破支撑位，应及时止损。同时，若价格突破阻力位，可考虑适度加仓，以把握可能的反弹行情。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of Gold against the US Dollar (XAU/USD) stands at 3992.44, exhibiting a marginal increase of 0.04% over the last 24 hours. This slight movement indicates a relatively stable market environment, although the recent high of 3992.72 and low of 3987.9 suggest a tight trading range. This consolidation phase may precede a breakout, as traders assess the potential for upward or downward momentum based on upcoming economic indicators or geopolitical developments.\n\nFrom a trend analysis perspective, the price is currently hovering near the 20-day Simple Moving Average (SMA) of 3994.80, which may serve as a pivotal support level. If XAU/USD can hold above this SMA, it could attract bullish sentiment, aiming for a retest of resistance around 4000. Conversely, a breach below the current price could signal a bearish trend, with the next significant support likely to be found at the recent low of 3987.9, further testing market confidence.\n\nIndicator-wise, the MACD is currently at -0.758, indicating a bearish sentiment in the short term. However, without the accompanying signal line data, caution is advised when interpreting this indicator. The absence of an RSI reading leaves traders without insights into potential overbought or oversold conditions, making it essential to monitor price action closely for any hints of reversal or continuation patterns.\n\nFor trading strategies, a cautious approach is recommended. Traders may consider placing buy orders near the support level of 3990, with a stop-loss just below 3987. A target could be set at the previous resistance level around 4000. Alternatively, sellers may look for confirmation of a downtrend if XAU/USD breaks below the 3987 support, with targets aimed at the next lower support level, should the bearish momentum continue."
+    }
+  }
+}

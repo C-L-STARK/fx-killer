@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-09T22:28:02.474Z",
+  "price": {
+    "close": "0.56284124",
+    "high": "0.56344378",
+    "low": "0.56261957",
+    "open": "0.56338030",
+    "change": "-0.09",
+    "datetime": "2025-11-08 08:00:00"
+  },
+  "indicators": {
+    "rsi": 50.17514,
+    "macd": -0.00027626538,
+    "macd_signal": -0.0005235422,
+    "sma20": 0.56215043
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋势]",
+      "content": "当前纽元/美元(NZD/USD)在0.5628附近震荡整理，整体趋势显得相对疲软。24小时内变化仅为-0.09%，显示出市场缺乏明显的方向性。高点和低点相对接近，表明短期内可能出现横向震荡的行情。\n\n从技术指标来看，MACD值为-0.000276，显示出卖压仍在持续，虽然RSI(14)尚未提供数据，但市场情绪或偏向超卖区间。SMA(20)在0.5621附近形成支撑，若价格向下突破该水平，可能引发进一步的下行压力。\n\n在支撑和阻力位方面，当前支撑位位于0.5621，若跌破则可能寻找0.5600关键支撑。阻力位则位于0.5634，突破该位将为上涨提供信号。短期内，交易者需密切关注这些关键价位的表现。\n\n基于当前市场情况，建议谨慎操作。若价格突破0.5634，可考虑适度做多，目标指向0.5650；反之，若跌破0.5621，则可考虑做空，目标指向0.5600。保持灵活应变的策略是应对当前市场震荡的关键。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The current price of the New Zealand Dollar against the US Dollar stands at 0.56284124, reflecting a slight decline of 0.09% over the past 24 hours. Analyzing the trend, the pair appears to be in a consolidative phase after experiencing downward pressure. The recent high of 0.56344378 and low of 0.56261957 suggest a tight trading range, indicating indecision among traders. A break below the recent low could signal further bearish momentum, while a move above the high may trigger renewed buying interest.\n\nTechnical indicators, although limited, provide some insight into the market's dynamics. The current MACD reading of -0.00027626538 suggests a slight bearish momentum, as the histogram remains negative. This could indicate that sellers are gaining control, but without a significant divergence, caution is warranted. The absence of a clear RSI value limits our understanding of potential overbought or oversold conditions, necessitating a closer watch on price movements.\n\nSupport levels are currently identified around 0.562620, which could act as a critical barrier for the pair. If the price breaks below this level, we may see a further decline toward the next support at 0.560000. Conversely, resistance is evident at 0.56344378, and a sustained move above this level may prompt traders to reassess their positions, potentially driving the price higher toward 0.565000. \n\nFor traders, a cautious approach is advisable in the current environment. Consider waiting for a confirmed breakout either above resistance or below support before entering a position. Setting tight stop-loss orders will help mitigate risk, given the current volatility. Observing additional indicators and waiting for further confirmation of trend direction will provide a more robust trading strategy moving forward."
+    }
+  }
+}
