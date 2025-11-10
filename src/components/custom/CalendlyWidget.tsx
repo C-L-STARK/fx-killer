@@ -43,13 +43,13 @@ export default function CalendlyWidget() {
   return (
     <button
       onClick={openCalendly}
-      className="fixed right-8 bottom-56 z-40 bg-gradient-to-r from-black via-gray-800 to-black dark:from-white dark:via-gray-200 dark:to-white text-white dark:text-black p-4 border-2 border-black dark:border-white shadow-2xl hover:scale-110 transition-transform"
+      className="fixed right-6 bottom-44 z-40 bg-gradient-to-r from-black via-gray-800 to-black dark:from-white dark:via-gray-200 dark:to-white text-white dark:text-black p-3 border-2 border-black dark:border-white shadow-2xl hover:scale-110 transition-transform"
       aria-label={language === 'zh' ? '预约咨询' : 'Schedule Appointment'}
       title={language === 'zh' ? '预约咨询' : 'Schedule Appointment'}
     >
       {/* 日历图标 */}
       <svg
-        className="w-6 h-6"
+        className="w-5 h-5"
         fill="none"
         stroke="currentColor"
         viewBox="0 0 24 24"

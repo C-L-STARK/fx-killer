@@ -14,12 +14,12 @@ export default function WelcomeModalTrigger({ onOpen }: WelcomeModalTriggerProps
   return (
     <button
       onClick={onOpen}
-      className="fixed right-8 bottom-40 z-40 bg-gradient-to-r from-black via-gray-800 to-black dark:from-white dark:via-gray-200 dark:to-white text-white dark:text-black p-4 border-2 border-black dark:border-white shadow-2xl hover:scale-110 transition-transform"
+      className="fixed right-6 bottom-32 z-40 bg-gradient-to-r from-black via-gray-800 to-black dark:from-white dark:via-gray-200 dark:to-white text-white dark:text-black p-3 border-2 border-black dark:border-white shadow-2xl hover:scale-110 transition-transform"
       aria-label={isZh ? '重看介绍视频' : 'Rewatch Intro Video'}
       title={isZh ? '重看介绍视频' : 'Rewatch Intro Video'}
     >
       <svg
-        className="w-6 h-6"
+        className="w-5 h-5"
         fill="none"
         stroke="currentColor"
         viewBox="0 0 24 24"

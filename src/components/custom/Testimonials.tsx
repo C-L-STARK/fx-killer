@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { useRef, useEffect } from 'react';
 
 const testimonials = [
   {
@@ -225,37 +224,12 @@ const testimonials = [
 
 export default function Testimonials() {
   const { t, language } = useLanguage();
-  const scrollContainerRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    const scrollContainer = scrollContainerRef.current;
-    if (!scrollContainer) return;
-
-    const scrollWidth = scrollContainer.scrollWidth;
-    const clientWidth = scrollContainer.clientWidth;
-    let scrollPosition = 0;
-
-    const autoScroll = () => {
-      scrollPosition += 1;
-
-      // Reset to start when reaching the end
-      if (scrollPosition >= scrollWidth - clientWidth) {
-        scrollPosition = 0;
-      }
-
-      scrollContainer.scrollTo({
-        left: scrollPosition,
-        behavior: 'smooth'
-      });
-    };
-
-    const interval = setInterval(autoScroll, 30); // Scroll every 30ms for smooth animation
-
-    return () => clearInterval(interval);
-  }, []);
+  // 双倍数组用于无缝循环
+  const doubledTestimonials = [...testimonials, ...testimonials];
 
   return (
-    <section className="py-20 bg-white dark:bg-black">
+    <section className="py-20 bg-white dark:bg-black overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         {/* Title */}
         <motion.div
@@ -275,20 +249,28 @@ export default function Testimonials() {
           </p>
         </motion.div>
 
-        {/* Testimonials Horizontal Scroll */}
+        {/* Testimonials Auto Scroll */}
         <div className="relative">
-          <div ref={scrollContainerRef} className="overflow-x-auto pb-4 scrollbar-hide">
-            <div className="flex gap-6" style={{ width: 'max-content' }}>
-              {testimonials.map((testimonial, index) => (
-                <motion.div
-                  key={testimonial.id}
-                  initial={{ opacity: 0, x: 50 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true, margin: "-100px" }}
-                  transition={{ duration: 0.6, delay: index * 0.05 }}
-                  className="bg-gray-50 dark:bg-gray-900 border-2 border-black dark:border-white p-6 hover:shadow-lg transition-shadow"
-                  style={{ width: '380px', minWidth: '380px' }}
-                >
+          <motion.div
+            className="flex gap-6"
+            animate={{
+              x: [0, -(380 + 24) * testimonials.length], // 380px width + 24px gap
+            }}
+            transition={{
+              x: {
+                repeat: Infinity,
+                repeatType: "loop",
+                duration: 60,
+                ease: "linear",
+              },
+            }}
+          >
+            {doubledTestimonials.map((testimonial, index) => (
+              <div
+                key={`${testimonial.id}-${index}`}
+                className="flex-shrink-0 bg-gray-50 dark:bg-gray-900 border-2 border-black dark:border-white p-6 hover:shadow-lg transition-shadow"
+                style={{ width: '380px' }}
+              >
               {/* Header */}
               <div className="flex items-start justify-between mb-4">
                 <div className="flex items-center gap-3">
@@ -323,10 +305,9 @@ export default function Testimonials() {
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
                 {language === 'zh' ? testimonial.content.zh : testimonial.content.en}
               </p>
-            </motion.div>
-          ))}
             </div>
-          </div>
+          ))}
+          </motion.div>
         </div>
       </div>
 
