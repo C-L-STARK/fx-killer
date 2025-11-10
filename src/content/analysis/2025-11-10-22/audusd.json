@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-10T22:29:46.076Z",
+  "price": {
+    "close": "0.65385121",
+    "high": "0.65385121",
+    "low": "0.65350932",
+    "open": "0.65355206",
+    "change": "0.00",
+    "datetime": "2025-11-11 09:00:00"
+  },
+  "indicators": {
+    "rsi": 62.71252,
+    "macd": 0.00089517522,
+    "macd_signal": 0.00094944095,
+    "sma20": 0.65323479
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[横盘整理，等待突破]",
+      "content": "当前，澳元/美元的价格在0.6538附近横盘整理，显示出市场缺乏明确的方向性。尽管过去24小时价格变化不大，但高点和低点的相对接近暗示了市场参与者的谨慎情绪。若后续价格能够有效突破当前区间，可能会引发新的趋势。\n\n从技术指标来看，MACD的正值表明短期内潜在的上涨动能，但由于缺乏RSI数据，难以全面评估超买或超卖状态。20日简单移动平均线(SMA)在0.6532附近为短期支撑位，若价格跌破该水平，可能会引发进一步的回调。\n\n在支撑和阻力方面，当前的支撑位为0.6532，而阻力位则在0.6550附近。如果价格突破0.6550，将可能吸引更多买盘，从而推动价格走高。反之，若跌破支撑位，可能会测试更低的价格区间。\n\n基于当前市场状况，建议交易者采取观望态度，等待价格突破关键支撑或阻力位后再做决策。若突破向上，可以考虑做多；若向下突破，则可考虑做空，设置合理的止损以控制风险。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair currently trades at 0.65385121, showing a stable price action over the last 24 hours with no significant change. This stability suggests a potential consolidation phase as the market digests prior movements. The recent high and low of 0.65385121 and 0.65350932 indicate a narrow trading range, which may set the stage for a breakout in either direction. Traders should remain vigilant for signs of volatility that could signal a shift in market sentiment.\n\nFrom a technical perspective, the absence of a defined trend suggests a neutral bias. However, the price is positioned above the 20-period Simple Moving Average (SMA) at 0.65323479, hinting at a possible bullish inclination. If the price continues to hold above this SMA, it could attract buyers, leading to an upward move. Conversely, a break below the SMA may trigger selling pressure, invalidating any bullish outlook and necessitating a reassessment of the market's direction.\n\nIn terms of support and resistance levels, immediate support can be observed near the recent low of 0.65350932. If this level holds, it may provide a base for a rebound. Conversely, resistance is likely found around the 0.6540 psychological level, which could serve as a barrier for upward momentum. A break above this level could open the door for a more substantial rally, while a drop below the support may prompt a test of lower levels.\n\nTraders may consider a cautious approach, monitoring price action around key support and resistance zones. A potential buy signal could emerge on a sustained move above the resistance level, while a sell signal may be warranted if the price breaches the support level. Given these dynamics, maintaining a flexible strategy will be crucial for navigating this current market landscape effectively."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-10T22:30:28.733Z",
+  "price": {
+    "close": "1.40198",
+    "high": "1.40213",
+    "low": "1.40120",
+    "open": "1.40174",
+    "change": "0.01",
+    "datetime": "2025-11-11 09:00:00"
+  },
+  "indicators": {
+    "rsi": 41.77513,
+    "macd": -0.0010708438,
+    "macd_signal": -0.0013735859,
+    "sma20": 1.4019
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡整理趋势]",
+      "content": "当前美元/加元的价格为1.40198，整体趋势呈现出震荡整理的特征。在过去24小时内，价格的波动非常有限，仅变化0.01%。这一走势表明市场参与者对当前价格水平的看法较为谨慎，等待进一步的市场信号。\n\n从技术指标来看，虽然RSI(14)数据暂时缺失，但我们可以参考MACD指标，目前的值为-0.0010708438，这表明短期内卖压略显不足，可能暗示出市场的潜在反弹机会。同时，20日简单移动平均线(SMA)在1.40190附近，价格在这一线附近徘徊，显示出短期内价格的平衡状态。\n\n在支撑和阻力位方面，美元/加元的短期支撑位可设在1.40120，而阻力位则在1.40213。突破阻力位将有助于价格向上测试更高的水平，而跌破支撑位则可能引发进一步的下行压力。建议交易者密切关注这些关键价位，并采取适当的止损策略，以应对可能的市场波动。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD pair is currently trading at 1.40198, showing a slight increase of 0.01% over the past 24 hours. The price has remained relatively stable, with a high of 1.40213 and a low of 1.40120. This range-bound movement suggests a consolidation phase, where neither the bulls nor the bears have gained a definitive advantage. Traders should closely monitor this range for potential breakout opportunities, particularly as the market seeks direction following recent volatility.\n\nIn terms of technical indicators, the current MACD value of -0.0010708438 indicates a bearish momentum, although it is crucial to note that the signal line is not available at this time. The absence of an RSI reading further complicates momentum analysis, yet the price remains slightly above the 20-day Simple Moving Average (SMA) of 1.40190, which acts as a dynamic support level. A sustained hold above this SMA could suggest a potential upward reversal if bullish sentiment builds.\n\nKey support levels to watch include the recent low of 1.40120, which could provide a safety net in case of downward pressure. Conversely, the immediate resistance level is identified at 1.40213, the recent high, which may challenge buyers seeking to push the price higher. If the price breaks above this resistance, it could pave the way for a test of higher resistance levels, potentially leading to increased buying interest.\n\nTraders may consider a cautious approach, focusing on breakout strategies. A decisive move above 1.40213 may present a buying opportunity, while a drop below 1.40120 could trigger selling pressure, indicating a bearish continuation. Implementing stop-loss orders around these critical levels can help manage risk effectively, while remaining adaptable to changing market conditions is essential for capitalizing on potential trading setups."
+    }
+  }
+}
