@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-11T13:50:36.759Z",
+  "price": {
+    "close": "0.79949999",
+    "high": "0.80189002",
+    "low": "0.79895997",
+    "open": "0.80188000",
+    "change": "-0.30",
+    "datetime": "2025-11-12 00:00:00"
+  },
+  "indicators": {
+    "rsi": 23.3127,
+    "macd": -0.0011073891,
+    "macd_signal": -0.00067493718,
+    "sma20": 0.8039685
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[趋于震荡整理]",
+      "content": "当前美元/瑞郎(USD/CHF)的价格为0.7995，显示出轻微的下跌趋势，24小时变化为-0.30%。在最近的交易中，价格触及0.8019的高点和0.7989的低点，表明市场在0.7989至0.8020区间内震荡整理。这种价格行为可能指向短期内缺乏明确的方向。\n\n从技术指标来看，虽然RSI(14)数据缺失，但MACD显示出-0.0011的负值，表明当前动能偏弱。20日简单移动平均线(SMA)为0.8039，价格在此水平之下，进一步确认了价格的下行压力。此外，若价格持续在SMA下方，则可能会面临更大的下行风险。\n\n支撑位方面，0.7989是关键支撑区域，一旦跌破，可能会引发进一步下行。而阻力位则位于0.8020，若价格突破该水平，则可能重新测试0.8039的SMA。交易者应密切关注这些关键价位，以判断市场的反应。\n\n建议交易者在当前震荡趋势中采取观望态度，等待价格突破支撑或阻力位后再进行操作。若价格跌破0.7989，做空的机会可能增多；反之，突破0.8020则可考虑做多。保持灵活和谨慎是当前市场环境下的最佳策略。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair is currently showing signs of a bearish trend, as indicated by the latest price of 0.7995, which is near the lower end of its recent trading range. The 24-hour change of -0.30% suggests slight selling pressure, and the pair has tested recent lows around 0.79896. This downward movement may continue unless the price breaks above the recent high at 0.8019, which would invalidate the current bearish sentiment.\n\nIn terms of technical indicators, the absence of the RSI value limits our analysis, but the MACD reading of -0.0011 indicates a bearish momentum. A negative MACD suggests that sellers are currently in control, and traders should watch for any potential divergence in the MACD, which could signal a reversal. Meanwhile, the SMA(20) at 0.8039 acts as a dynamic resistance level; a break above this moving average could signal an opportunity for bullish traders to enter the market.\n\nSupport levels are critical in the current context; the price is hovering around 0.7995, which could act as an immediate support level. Should the price break below this level, it may target further support around 0.7980. Conversely, if the price manages to hold above 0.7995, traders could look for a potential rebound toward the SMA(20) or even the recent high at 0.8019. \n\nTraders should consider a cautious approach given the current bearish outlook. A breakout below the support level may provide a shorting opportunity, while a bounce off the support could offer a buying opportunity, especially if confirmed by a shift in the MACD or other indicators. Keeping an eye on broader market sentiment and economic data releases will also be essential for making informed trading decisions."
+    }
+  }
+}

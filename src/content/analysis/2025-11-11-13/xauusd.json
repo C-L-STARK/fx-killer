@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-11T13:51:20.810Z",
+  "price": {
+    "close": "4143.2394",
+    "high": "4146.07515",
+    "low": "4134.65443",
+    "open": "4136.14642",
+    "change": "0.17",
+    "datetime": "2025-11-12 00:00:00"
+  },
+  "indicators": {
+    "rsi": 73.97577,
+    "macd": 17.37873,
+    "macd_signal": 18.70616,
+    "sma20": 4122.24475
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中]",
+      "content": "当前黄金/美元(XAU/USD)的价格为4143.2394，显示出震荡整理的趋势。近期价格波动在4146.07515和4134.65443之间，表明市场尚未形成明确的方向。短期内，投资者应关注这一区间的突破情况，以判断后续的走势。\n\n从技术指标来看，MACD值为17.37873，表明当前市场的多头动能依然存在，但缺乏强烈的买入信号。RSI指标尚未提供，需进一步关注其变化以判断超买或超卖状态。20日简单移动平均线(SMA)处于4122.24475，显示出短期支撑水平。\n\n支撑位方面，4134.65443一线将是关键支撑，若价格跌破该位，可能引发进一步下行。阻力位则在4146.07515附近，若价格突破，将有望进一步上行。综合判断，建议投资者在区间内进行短线交易，适时把握波动机会，同时保持风险控制。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4143.2394 indicates a stable market with a slight upward trend, as evidenced by the 24-hour change of 0.17%. The recent high of 4146.07515 suggests that bullish momentum is present, while the low of 4134.65443 indicates a relatively narrow trading range. This stability may attract traders looking for short-term opportunities, especially if the price continues to hold above the SMA(20) of 4122.24475, signaling potential further gains.\n\nThe MACD at 17.37873 suggests that bullish momentum is building, although the absence of a signal line makes it necessary to exercise caution in confirming this trend. Without the RSI(14) data, it’s difficult to gauge overbought or oversold conditions. Traders should monitor upcoming price action closely, as a breakout above 4146.07515 could reinforce the bullish sentiment, while a drop below the SMA(20) may introduce bearish pressure.\n\nKey support levels can be identified around 4134.65443, which acted as a recent low and may provide a cushion against further declines. Conversely, resistance is present at 4146.07515, where price action has previously stalled. A decisive break above this level could open the door to higher targets, while failure to maintain above the support level might lead to a retest of lower ranges.\n\nFor traders considering positions in XAU/USD, a cautious approach is advisable. Entering long positions above the resistance level of 4146.07515 could provide a favorable risk-reward ratio, while setting stop-loss orders just below 4134.65443 can help mitigate potential losses. Conversely, short positions may be considered if the price declines below the SMA(20), as this could indicate a shift in market sentiment."
+    }
+  }
+}
