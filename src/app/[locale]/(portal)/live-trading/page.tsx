@@ -1,19 +1,23 @@
-import { generateBilingualMetadata } from '@/lib/seo';
+import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const lang = getLanguageFromLocale(locale);
 
   return generateBilingualMetadata(
-    locale,
+    '实盘直播丨汇刃丨职业交易员培训、外汇交易员培训',
+    'Live Trading丨FX Killer丨Professional Trader Training, Forex Trader Training',
+    '观看汇刃矩阵成员的实盘交易直播，学习真实的交易决策过程。6位职业交易员同步直播，展示专业的交易技巧和风险管理策略。',
+    'Watch FX Killer matrix members\' live trading sessions and learn real trading decision-making processes. 6 professional traders streaming simultaneously, demonstrating expert trading skills and risk management strategies.',
+    '实盘直播, 外汇直播, 交易直播, 职业交易员培训, 外汇交易员培训, 日内交易员培训',
+    'live trading, forex live, trading stream, professional trader training, forex trader training, day trader training',
+    lang,
     {
-      zh: '实盘直播丨汇刃丨职业交易员培训、外汇交易员培训',
-      en: 'Live Trading丨FX Killer丨Professional Trader Training, Forex Trader Training'
-    },
-    {
-      zh: '观看汇刃矩阵成员的实盘交易直播，学习真实的交易决策过程。6位职业交易员同步直播，展示专业的交易技巧和风险管理策略。',
-      en: 'Watch FX Killer matrix members\' live trading sessions and learn real trading decision-making processes. 6 professional traders streaming simultaneously, demonstrating expert trading skills and risk management strategies.'
-    },
-    '/live-trading'
+      url: '/live-trading',
+      type: 'website',
+      section: 'Live Trading',
+      author: 'FX Killer Team',
+    }
   );
 }
 
