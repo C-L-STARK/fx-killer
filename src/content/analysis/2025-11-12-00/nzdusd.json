@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-12T00:52:53.806Z",
+  "price": {
+    "close": "0.56564283",
+    "high": "0.56577086",
+    "low": "0.56551486",
+    "open": "0.56561089",
+    "change": "-0.03",
+    "datetime": "2025-11-12 11:00:00"
+  },
+  "indicators": {
+    "rsi": 53.81424,
+    "macd": 0.00038356437,
+    "macd_signal": 0.0004385549,
+    "sma20": 0.56528621
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理，短期关注决策]",
+      "content": "当前纽元/美元(NZD/USD)的市场表现显示出一定的震荡整理趋势。最新价格为0.56564283，全天变化幅度较小，仅为-0.03%。在高点和低点之间的波动范围有限，表明市场参与者对未来走势持谨慎态度。\n\n从技术指标来看，虽然RSI(14)数据缺失，但MACD显示出微弱的正值0.00038356437，暗示市场短期内可能存在一定的买入力量。20日简单移动平均线(SMA)为0.56528621，此位置可视为短期支撑位，若价格持续在此上方运行，或将有助于进一步反弹。\n\n在支撑和阻力层面，当前支撑位在0.56528621附近，而上方阻力位则在0.56577086附近。若价格突破该阻力位，可能会引发更多的买入兴趣。然而，若价格跌破支撑位，将可能引发卖盘压力，导致进一步下行。\n\n综合来看，短期内建议投资者密切关注价格在支撑与阻力之间的波动，控制风险并寻找合适的入场时机。在市场缺乏明确方向时，保持观望或轻仓交易将是较为稳妥的策略。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD currency pair currently displays a slight bearish trend, with the latest price sitting at 0.56564283. The 24-hour change of -0.03% indicates minimal movement, suggesting a period of consolidation. The price has oscillated between a high of 0.56577086 and a low of 0.56551486, reflecting a tight trading range. This consolidation phase could signal a buildup of momentum, which may lead to a breakout in either direction depending on market sentiment.\n\nTechnical indicators provide valuable insights into the pair's current state. The absence of an RSI reading complicates momentum analysis, but the MACD value of 0.00038356437 indicates a potential bullish bias, albeit weak. The Simple Moving Average (SMA) of 20 periods at 0.56528621 acts as a dynamic support level. If prices remain above this average, it may indicate resilience, while a drop below could trigger further selling pressure.\n\nSupport levels for NZD/USD can be identified around the recent low of 0.56551486, where buying interest may emerge. Conversely, resistance is evident near the high of 0.56577086. Traders should monitor these levels closely, as a breakout above resistance could lead to a rally, while a breakdown below support might signal a more pronounced decline. \n\nFor trading strategies, a cautious approach is advisable given the current market conditions. Traders might consider placing buy orders near the support level, with a stop-loss just below it. Conversely, selling could be appropriate if prices breach the support, targeting a lower price range. Keeping an eye on global economic data and sentiment will be crucial in navigating this pair effectively."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-12T00:52:14.259Z",
+  "price": {
+    "close": "1.40143",
+    "high": "1.40181",
+    "low": "1.40100",
+    "open": "1.40157",
+    "change": "-0.01",
+    "datetime": "2025-11-12 11:00:00"
+  },
+  "indicators": {
+    "rsi": 43.74958,
+    "macd": -0.00046930297,
+    "macd_signal": -0.00053312646,
+    "sma20": 1.40184
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡整理趋势]",
+      "content": "当前美元/加元的价格在1.40143附近波动，显示出震荡整理的趋势。虽然价格在过去24小时内略有下跌，但整体的波动幅度有限，表明市场缺乏明确的方向，投资者可能在等待更强的市场信号。\n\n从技术指标来看，MACD目前显示出微弱的负值，表明短期内卖压略显强劲，但尚未形成明确的卖出信号。RSI指标尚不可用，但若后续数据进入超卖区间，可能会引发短期反弹。同时，20日简单移动平均线(SMA)在1.40184附近提供了一定的动态阻力。\n\n支撑位方面，1.40100是一个关键的心理关口，若价格跌破该水平，可能会引发进一步下行至1.39850附近的支撑位。反之，若价格反弹突破1.40200，则可能重新挑战1.40500的阻力位。建议交易者在确认价格突破后再进行相应的交易决策，以降低风险。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD currency pair is currently exhibiting a tight trading range, with the latest price at 1.40143. Over the past 24 hours, the pair has seen minimal movement, registering a slight decline of 0.01%. The high and low for this period suggest a lack of volatility, indicating that traders may be awaiting further market catalysts. Overall, the trend appears to be sideways in the near term, necessitating a cautious approach for traders looking to establish positions.\n\nIn terms of technical indicators, the absence of a recent RSI reading makes it difficult to assess overbought or oversold conditions. However, the MACD remains marginally negative at -0.00046930297, hinting at a bearish bias, albeit weak. The simple moving average (SMA) of 20 periods at 1.40184 sits slightly above the current price, reinforcing the notion of a resistance level nearby. Traders should monitor this SMA as a potential point for short-term selling pressure.\n\nSupport levels can be identified at around 1.40100, which was the low for the trading session, suggesting a psychological barrier for sellers. A breach below this level could open the door for further downside, targeting the next significant support at 1.40000. On the upside, if the price manages to break above the SMA at 1.40184, it could trigger a bullish sentiment, potentially leading to a test of higher resistance levels around 1.40300.\n\nFor trading strategies, a wait-and-see approach is advisable given the current market conditions. Traders may consider waiting for a clear breakout above the SMA or a drop below the support at 1.40100 before entering positions. Such strategies would allow for a more calculated risk assessment, aligning with the prevailing market dynamics."
+    }
+  }
+}
