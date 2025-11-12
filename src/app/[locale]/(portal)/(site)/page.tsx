@@ -87,14 +87,14 @@ const DummyContent = () => {
                   <>
                     <p>精准、专业、高效</p>
                     <p>
-                      <span className="inline-block bg-black dark:bg-white text-white dark:text-black px-3 py-1 animate-pulse">免费培养</span>真正的外汇交易专家
+                      <span className="inline-block bg-white text-black px-3 py-1 animate-pulse">免费培养</span>真正的外汇交易专家
                     </p>
                   </>
                 ) : (
                   <>
                     <p>Precise, Professional, Efficient</p>
                     <p>
-                      <span className="inline-block bg-black dark:bg-white text-white dark:text-black px-3 py-1 animate-pulse whitespace-nowrap">Free Training</span>{' '}
+                      <span className="inline-block bg-white text-black px-3 py-1 animate-pulse whitespace-nowrap">Free Training</span>{' '}
                       for True Forex Trading&nbsp;Experts
                     </p>
                   </>
@@ -108,7 +108,7 @@ const DummyContent = () => {
                 <PulseButton>
                   <ShineButton
                     onClick={() => router.push(`/${language}/splan/join-us`)}
-                    className="px-12 py-6 bg-black dark:bg-white text-white dark:text-black text-xl font-black border-2 border-black dark:border-white hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-all shadow-lg"
+                    className="px-12 py-6 bg-white text-black text-xl font-black border-2 border-white hover:bg-black hover:text-white transition-all shadow-lg"
                   >
                     {t('hero.cta.learn')}
                   </ShineButton>
@@ -127,14 +127,14 @@ const DummyContent = () => {
       </div>
 
       {/* 为什么选择 FX Killer - 增强版 */}
-      <div className="relative bg-white dark:bg-black w-full">
+      <div className="relative bg-white w-full">
         <div className="max-w-7xl mx-auto px-6 py-20">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4 text-black dark:text-white">
+          <h2 className="text-4xl font-bold mb-4 text-black">
             {t('why.title')}
           </h2>
-          <div className="w-24 h-1 bg-black dark:bg-white mx-auto mb-4"></div>
-          <p className="text-gray-600 dark:text-gray-400 text-lg">
+          <div className="w-24 h-1 bg-black mx-auto mb-4"></div>
+          <p className="text-gray-600 text-lg">
             {t('why.subtitle')}
           </p>
         </div>
@@ -383,13 +383,14 @@ const DummyContent = () => {
       </div>
 
       {/* 你是否符合基本条件 - 全新设计 */}
+      <div className="relative bg-white w-full">
       <div className="max-w-7xl mx-auto px-6 py-20">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4 text-black dark:text-white">
+          <h2 className="text-4xl font-bold mb-4 text-black">
             {t('req.title')}
           </h2>
-          <div className="w-24 h-1 bg-black dark:bg-white mx-auto mb-4"></div>
-          <p className="text-gray-600 dark:text-gray-400 text-lg">
+          <div className="w-24 h-1 bg-black mx-auto mb-4"></div>
+          <p className="text-gray-600 text-lg">
             {t('req.subtitle')}
           </p>
         </div>
@@ -538,6 +539,7 @@ const DummyContent = () => {
           </div>
         </div>
       </div>
+      </div>
 
       {/* 视频介绍板块 */}
       <div className="bg-gray-50 dark:bg-gray-900 py-20 border-y-2 border-gray-200 dark:border-gray-800">
@@ -604,8 +606,9 @@ const DummyContent = () => {
       </div>
 
       {/* 学员展示 - 收益滚动 */}
+      <div className="relative bg-white w-full">
       <div className="max-w-7xl mx-auto px-6 py-20">
-        <h2 className="text-4xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">
+        <h2 className="text-4xl font-bold text-center mb-4 text-black border-b-4 border-black inline-block pb-2 w-full">
           {t('showcase.title')}
         </h2>
 
@@ -651,11 +654,12 @@ const DummyContent = () => {
             })}
           </div>
           <div className="mt-6 text-center">
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600">
               {t('showcase.screenshots.note')}
             </p>
           </div>
         </div>
+      </div>
       </div>
 
       {/* CTA - 优化版 */}

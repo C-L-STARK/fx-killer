@@ -45,15 +45,15 @@ const fragmentShader = `
   float neuro_shape(vec2 uv, float t, float p) {
       vec2 sine_acc = vec2(0.);
       vec2 res = vec2(0.);
-      float scale = 8.;
+      float scale = 6.;
 
-      for (int j = 0; j < 15; j++) {
+      for (int j = 0; j < 18; j++) {
           uv = rotate(uv, 1.);
           sine_acc = rotate(sine_acc, 1.);
           vec2 layer = uv * scale + float(j) + sine_acc - t;
-          sine_acc += sin(layer) + 2.4 * p;
+          sine_acc += sin(layer) + 3.0 * p;
           res += (.5 + .5 * cos(layer)) / scale;
-          scale *= (1.2);
+          scale *= (1.25);
       }
       return res.x + res.y;
   }
@@ -78,9 +78,9 @@ const fragmentShader = `
 
       float noise = neuro_shape(uv, t, p);
 
-      noise = 1.2 * pow(noise, 3.);
-      noise += pow(noise, 10.);
-      noise = max(.0, noise - .5);
+      noise = 1.5 * pow(noise, 2.5);
+      noise += pow(noise, 8.);
+      noise = max(.0, noise - .4);
       noise *= (1. - length(vUv - .5));
 
       // Convert hue from degrees to 0-1 range

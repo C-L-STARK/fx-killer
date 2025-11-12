@@ -126,7 +126,7 @@ export default function UnifiedNavbar() {
           {/* Logo - 靠左 */}
           <div className="flex items-center space-x-6">
             <LocaleLink href="/" className="flex items-center group">
-              <span className="text-2xl"><BrandName /></span>
+              <span className="text-2xl"><BrandName inNavbar={true} /></span>
             </LocaleLink>
 
             {/* Desktop Navigation - 紧跟 Logo */}

@@ -4,7 +4,11 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 
-export default function BrandName() {
+interface BrandNameProps {
+  inNavbar?: boolean; // 是否在导航栏中使用
+}
+
+export default function BrandName({ inNavbar = false }: BrandNameProps) {
   const { language } = useLanguage();
   const [hasAnimated, setHasAnimated] = useState(false);
 
@@ -27,7 +31,10 @@ export default function BrandName() {
         return (
           <motion.span
             key={`${language}-${index}`}
-            className={isSecondPart ? 'font-normal text-gray-600 dark:text-gray-400' : 'font-black text-black dark:text-white'}
+            className={inNavbar
+              ? (isSecondPart ? 'font-normal text-gray-600 dark:text-gray-400' : 'font-black text-black dark:text-white')
+              : (isSecondPart ? 'font-normal text-gray-400' : 'font-black text-white')
+            }
             initial={hasAnimated ? false : {
               x: (index % 2 === 0 ? -1 : 1) * 150,
               y: (index % 3 === 0 ? -1 : 1) * 80,
