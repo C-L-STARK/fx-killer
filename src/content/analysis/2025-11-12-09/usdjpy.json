@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-12T09:41:10.028Z",
+  "price": {
+    "close": "154.87399",
+    "high": "154.90700",
+    "low": "154.69901",
+    "open": "154.75700",
+    "change": "0.07",
+    "datetime": "2025-11-12 20:00:00"
+  },
+  "indicators": {
+    "rsi": 72.45593,
+    "macd": 0.17431172,
+    "macd_signal": 0.11328289,
+    "sma20": 154.30775
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理中]",
+      "content": "当前美元/日元在154.87附近波动，显示出短期内的震荡整理趋势。价格在154.90附近形成了一个关键的阻力位，而154.70则是重要的支撑位。若价格突破154.90，将可能引发更强的上涨动能，反之则可能回调至支撑位。\n\n在技术指标方面，MACD显示出一定的上行动能，当前值为0.174，表明短期内多头力量依然存在。然而，RSI尚未提供明确的超买或超卖信号，意味着市场情绪相对中性，需关注后续动向以确定是否有进一步的趋势发展。\n\n支撑位方面，154.70是关键的心理关口，若价格下破该水平，可能会引发更多抛售压力，测试更低的价格区间。反之，若价格站稳在154.90之上，将为进一步上涨打开空间，目标可看向155.50。\n\n综合考虑，建议交易者关注154.70和154.90这两个关键价位的突破情况，若价格在154.70之上稳固，可考虑适度做多，反之则需谨慎对待可能的回调风险，保持灵活的交易策略。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY currency pair is currently trading at 154.874, showing a slight increase of 0.07% over the past 24 hours. The price has established a short-term bullish trend, bouncing off the recent low of 154.699. This upward momentum indicates potential bullish sentiment, but traders should remain cautious given the proximity to the recent high of 154.907. Price action around these levels will be critical in determining the next directional move.\n\nExamining key technical indicators, the MACD is currently at 0.174, suggesting a moderate bullish trend without a clear signal line for confirmation. The absence of a defined RSI (Relative Strength Index) makes it challenging to assess overbought or oversold conditions. However, the price is above the 20-period Simple Moving Average (SMA) at 154.308, further supporting the bullish outlook. Traders should monitor these indicators closely for signs of trend continuation or reversal.\n\nIn terms of support and resistance levels, the immediate resistance is observed at 154.907, while support can be identified near 154.700. A break above the resistance could signal further upward movement toward the psychological level of 155.00. Conversely, a dip below the support level may lead to a retest of lower levels, potentially around 154.300. These levels will be critical for traders to watch for potential entry or exit points.\n\nGiven the current market conditions, a cautious approach is advisable. Long positions could be considered if the price breaks above resistance with strong volume, targeting levels around 155.00. Conversely, if the price fails to hold above support at 154.700, short positions may present a viable opportunity, especially if accompanied by bearish confirmation from technical indicators. Risk management strategies should be implemented to protect against potential market volatility."
+    }
+  }
+}
