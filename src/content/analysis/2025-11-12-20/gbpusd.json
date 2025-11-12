@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-12T20:13:22.754Z",
+  "price": {
+    "close": "1.31308",
+    "high": "1.31321",
+    "low": "1.31290",
+    "open": "1.31290",
+    "change": "0.02",
+    "datetime": "2025-11-13 07:00:00"
+  },
+  "indicators": {
+    "rsi": 47.94792,
+    "macd": -0.00053263997,
+    "macd_signal": -0.00074128152,
+    "sma20": 1.31294
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理中]",
+      "content": "当前英镑/美元处于震荡整理阶段，最新价格为1.31308，全天变化幅度有限，仅为0.02%。价格在1.31321和1.31290之间波动，显示出市场缺乏方向性。投资者需关注即将发布的经济数据，以判断市场情绪是否会有所变化。\n\n技术指标方面，MACD显示出微弱的负值，表明卖方力量略强于买方，但未形成明显的趋势。由于RSI数据缺失，暂时无法判断超买或超卖情况，建议投资者继续观察价格走势和成交量的变化，以便获取更多市场信号。\n\n从支撑和阻力位来看，当前支撑位在1.31290附近，若价格跌破该水平，可能会进一步下探至1.31250。阻力位则在1.31320附近，突破后有机会挑战1.31500。因此，关注这些关键水平对于判断短期交易策略至关重要。\n\n交易建议方面，建议投资者在当前区间内采取区间交易策略，适时进行短线买入和卖出操作。同时，建议设置止损以控制风险，谨慎应对市场波动，等待更明确的趋势信号再做决策。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently trading at 1.31308, exhibiting a slight upward movement over the last 24 hours. This modest change of 0.02% suggests a period of consolidation following recent price fluctuations. The high and low range of 1.31321 and 1.31290 indicates a tight trading range, which may signal indecision in the market. Traders should be cautious, as this consolidation phase could precede a more significant breakout.\n\nAnalyzing key indicators, the absence of a calculated RSI and the negative MACD value of -0.00053263997 imply a bearish momentum. However, the proximity of the current price to the 20-period simple moving average (SMA) at 1.31294 highlights potential support. Should the price hold above this SMA, it could attract buyers looking for a rebound. Conversely, a break below this level might trigger further selling pressure.\n\nIn terms of support and resistance levels, immediate support is seen at the SMA level of 1.31294, while resistance can be identified around the recent high of 1.31321. A decisive break above this resistance could open the door for a rally towards the psychological level of 1.3150. Traders should monitor these levels closely for potential entry and exit points, as they are critical in shaping the short-term price movement.\n\nFor trading suggestions, a cautious approach is advisable. A buy position could be considered if the price breaks above the resistance level at 1.31321, with a target near 1.3150. Alternatively, if the price drops below the SMA support at 1.31294, a sell position may be warranted, targeting lower levels around 1.3100. Keeping an eye on broader market sentiment and news events is essential, as these factors can significantly impact price action."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-12T20:14:50.436Z",
+  "price": {
+    "close": "0.65431",
+    "high": "0.65444",
+    "low": "0.6542",
+    "open": "0.65436",
+    "change": "-0.01",
+    "datetime": "2025-11-13 07:00:00"
+  },
+  "indicators": {
+    "rsi": 57.022913,
+    "macd": 0.00041906853,
+    "macd_signal": 0.00033180964,
+    "sma20": 0.653526
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡趋势偏弱]",
+      "content": "当前AUD/USD汇率在0.65431附近震荡，整体趋势显得比较疲软。24小时内小幅下跌0.01%，并且高点和低点之间的波动幅度较小，显示出市场缺乏强烈的方向性。短期内，市场可能会继续维持这种微弱的震荡模式，投资者需保持关注。\n\n技术指标方面，虽然RSI(14)数据缺失，但从当前的MACD来看，0.00041906853的值暗示出市场的买卖力量几乎持平，进一步验证了市场的弱势。SMA(20)为0.65352600，价格在其上方运行，表明短期内存在一定的支撑，但若跌破此水平，可能会引发进一步的卖压。\n\n在支撑和阻力位方面，当前支撑位在0.65420，若价格下破此水平，则可能进一步下探至0.6500的心理关口。阻力位则在0.65444附近，若价格突破此水平，可能会迎来短期反弹。投资者应密切关注这两个关键价位，以制定相应的交易策略。\n\n基于当前市场状况，建议投资者采取观望态度，等待价格对支撑和阻力位的明确突破再做决策。如果价格突破0.65444，可以考虑短期多头入场；若跌破0.65420，则应谨慎考虑短期空头机会。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.65431, showing minimal movement with a 24-hour change of -0.01%. This slight decline indicates a consolidation phase after recent fluctuations. Analyzing the price action, the pair has been oscillating between 0.65444 and 0.6542, suggesting a narrow trading range. The market sentiment appears cautious, with traders possibly awaiting further economic data or geopolitical developments that could influence market direction.\n\nIn terms of technical indicators, the absence of a calculated RSI (Relative Strength Index) limits our ability to gauge overbought or oversold conditions. The MACD is currently positive at 0.00041906853, which may signal bullish momentum, although the lack of a signal line makes it difficult to assess its strength. The 20-period Simple Moving Average (SMA) sits at 0.65352600, providing a short-term trend line that could act as a dynamic support level. A close below this level might confirm a bearish sentiment, while a bounce back could suggest continued bullish potential.\n\nKey support levels can be identified around 0.6542, with a break below this threshold likely to attract further selling pressure. Conversely, immediate resistance is seen at 0.65444, a level that if surpassed, could lead to a more aggressive upward move. Traders should monitor these levels closely for potential breakouts or reversals, which could provide lucrative trading opportunities in the short term.\n\nFor trading strategy, a conservative approach may involve waiting for a confirmation of a breakout above 0.65444 before entering long positions. Conversely, if the price fails to hold above the SMA and breaks below 0.6542, short positions could be considered. Implementing stop-loss orders just outside these key levels would help manage risk effectively while capitalizing on potential market movements."
+    }
+  }
+}

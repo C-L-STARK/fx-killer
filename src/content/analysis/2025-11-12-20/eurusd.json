@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-12T20:12:41.670Z",
+  "price": {
+    "close": "1.15864",
+    "high": "1.15881",
+    "low": "1.15853",
+    "open": "1.15861",
+    "change": "-0.00",
+    "datetime": "2025-11-13 07:00:00"
+  },
+  "indicators": {
+    "rsi": 54.69654,
+    "macd": 0.00031410798,
+    "macd_signal": 0.00023837371,
+    "sma20": 1.15804
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理中]",
+      "content": "当前欧元/美元价格在1.15864附近震荡整理，日内波动幅度较小，显示出市场缺乏明确的方向性。尽管价格未出现显著变化，但整体趋势仍需关注短期内的波动情况。若价格突破当前区间，可能会引发新的趋势动能。\n\n从技术指标来看，MACD值为0.000314，表明当前市场呈现出一定的买盘力量，但因信号线数据缺失，需谨慎解读。同时，20日简单移动平均线(SMA)在1.15804，显示出短期内的支撑位。若价格回落至该水平，可能会吸引买盘进入。\n\n在支撑和阻力位方面，上方阻力位在1.15900附近，若突破这一关口，可能会进一步测试1.16000的心理关口；而下方支撑位则在1.15800附近。投资者需留意这些水平，以便捕捉可能的反转信号。\n\n综合来看，当前市场仍处于震荡整理阶段，建议交易者采取观望策略，耐心等待确认信号后再进行布局。若价格突破上方阻力，可考虑适度做多；若下破支撑，则需谨慎处理已有仓位。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD pair is currently trading at 1.15864, showing a slight stabilization after a minor fluctuation within a narrow range defined by a high of 1.15881 and a low of 1.15853 over the last 24 hours. This price action suggests consolidation, indicating a lack of strong directional momentum. The market is at a pivotal point, and traders should observe potential breakout scenarios either above the recent high or below the low, which could signal the next move.\n\nIn terms of technical indicators, the absence of a clear RSI value limits our ability to assess overbought or oversold conditions. However, the MACD is very close to zero, suggesting that momentum is neutral at this stage. The SMA(20) at 1.15804 serves as a dynamic support level, providing a reference for potential buying opportunities if the price dips towards this average. Traders should monitor these key indicators for shifts that may indicate a reversal or continuation of the current trend.\n\nSupport is established around the SMA(20) at 1.15804, while resistance is seen at the recent high of 1.15881. A breach above this resistance could open the door for further upside potential, while a drop below the support level could trigger selling pressure, leading to a possible retest of lower levels. It is crucial for traders to watch these levels closely, as they will dictate the short-term outlook for the pair.\n\nGiven the current market conditions, a cautious approach is advisable. A breakout above 1.15881 could present a buying opportunity, with targets set around 1.16000. Conversely, if the price breaks below 1.15804, traders may consider short positions, targeting the next support level. Utilizing proper risk management techniques will be essential in navigating this tight trading environment."
+    }
+  }
+}

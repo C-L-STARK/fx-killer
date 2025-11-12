@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-12T20:16:57.457Z",
+  "price": {
+    "close": "0.79762000",
+    "high": "0.79793000",
+    "low": "0.79762000",
+    "open": "0.79778999",
+    "change": "-0.02",
+    "datetime": "2025-11-13 07:00:00"
+  },
+  "indicators": {
+    "rsi": 31.49415,
+    "macd": -0.0010677419,
+    "macd_signal": -0.001040413,
+    "sma20": 0.79901201
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理中]",
+      "content": "当前美元/瑞郎(USD/CHF)在0.7976附近震荡整理，反映出市场多空力量均衡。价格未能突破前期高点0.79793，显示出短期内上行压力较大。但考虑到价格接近支撑区间，短期内可能会出现反弹。\n\n从技术指标来看，虽然RSI和MACD的具体数值尚未提供，但MACD呈现负值，暗示当前市场情绪偏向卖出。短期内，20日简单移动平均线(SMA)为0.7990，价格若突破该水平，可能会引发更强的买入信号。\n\n在支撑和阻力位方面，当前支撑位在0.7970附近，若跌破该水平，则有可能进一步下探至0.7950。阻力位则在0.7990，如果突破，可能会吸引更多买盘进场。\n\n建议投资者在当前区间内保持谨慎，若价格回调至支撑位，可考虑适量布局多单。但若突破阻力位0.7990，则可逐步加仓，追求更大的涨幅。同时，密切关注市场消息及技术指标变化，灵活调整策略。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The current price of USD/CHF stands at 0.79762000, reflecting a slight decline of 0.02% over the past 24 hours. The price has experienced a narrow range, with a high of 0.79793000 and a low of 0.79762000, indicating a period of consolidation. This could suggest indecision in the market, as traders await further cues for direction. The overall trend appears to be bearish, especially given that the price is below the 20-day simple moving average (SMA) of 0.79901201, which acts as a resistance level.\n\nIn terms of technical indicators, the MACD is currently negative at -0.0010677419, suggesting a lack of bullish momentum. A negative MACD reading typically indicates that sellers may have the upper hand, and traders should be cautious of potential further declines. Although the RSI(14) is not available, it would be beneficial to monitor this indicator closely, as an oversold condition could signal an imminent price rebound, while an overbought situation might confirm continued weakness in the pair.\n\nKey support levels are identified around the recent low of 0.79762000, with a further psychological level near 0.7950. If the price breaks below these levels, we could see a deeper retracement. Conversely, resistance is noted at the 20-day SMA of 0.79901201, which traders should watch closely. A sustained move above this level could indicate a shift in sentiment and potential for a bullish reversal.\n\nGiven the current market conditions, traders may consider shorting at resistance near the SMA, with a stop-loss positioned above 0.7995. Alternatively, a break below 0.79762000 could provide an opportunity to enter short positions with targets set towards 0.7950. Monitoring key indicators and price action will be essential for making informed trading decisions in this pair."
+    }
+  }
+}
