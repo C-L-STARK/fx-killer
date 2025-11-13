@@ -63,10 +63,24 @@ export default function BlogManager() {
       return;
     }
 
-    await fetchBlogs(true);
+    try {
+      // Clear API cache
+      await fetchBlogs(true);
 
-    // Show success message
-    alert(language === 'zh' ? '缓存已清除，数据已刷新' : 'Cache cleared and data refreshed');
+      // Clear page cache (ISR) for both languages
+      const secret = process.env.NEXT_PUBLIC_REVALIDATE_SECRET || 'dev_secret_change_in_production';
+
+      await Promise.all([
+        fetch(`/api/revalidate?path=/zh/splan/blog&secret=${secret}`),
+        fetch(`/api/revalidate?path=/en/splan/blog&secret=${secret}`),
+      ]);
+
+      // Show success message
+      alert(language === 'zh' ? '缓存已清除，数据已刷新（包括页面缓存）' : 'Cache cleared and data refreshed (including page cache)');
+    } catch (error) {
+      console.error('Error clearing cache:', error);
+      alert(language === 'zh' ? '清除缓存时出错' : 'Error clearing cache');
+    }
   };
 
   // Handle migration
@@ -212,6 +226,19 @@ export default function BlogManager() {
     fetchBlogs();
   }, []);
 
+  // Helper function to revalidate blog pages
+  const revalidateBlogPages = async () => {
+    try {
+      const secret = process.env.NEXT_PUBLIC_REVALIDATE_SECRET || 'dev_secret_change_in_production';
+      await Promise.all([
+        fetch(`/api/revalidate?path=/zh/splan/blog&secret=${secret}`),
+        fetch(`/api/revalidate?path=/en/splan/blog&secret=${secret}`),
+      ]);
+    } catch (error) {
+      console.error('Failed to revalidate blog pages:', error);
+    }
+  };
+
   // Handle create/update
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -229,6 +256,7 @@ export default function BlogManager() {
 
       if (response.ok) {
         await fetchBlogs();
+        await revalidateBlogPages(); // Auto-revalidate after create/update
         resetForm();
       }
     } catch (error) {
@@ -249,6 +277,7 @@ export default function BlogManager() {
 
       if (response.ok) {
         await fetchBlogs();
+        await revalidateBlogPages(); // Auto-revalidate after delete
       }
     } catch (error) {
       console.error('Failed to delete blog:', error);
