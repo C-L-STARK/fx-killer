@@ -5,6 +5,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import type { BlogPost } from '@/lib/supabase';
 import BlogStyleHelper from './BlogStyleHelper';
 import BlogAIGenerator from './BlogAIGenerator';
+import LoadingButton from './LoadingButton';
 import { migrateBlogs, convertBlogPost } from '@/lib/blogMigration';
 import { blogPosts } from '@/data/blogPosts';
 
@@ -14,6 +15,9 @@ export default function BlogManager() {
   const [loading, setLoading] = useState(true);
   const [migrating, setMigrating] = useState(false);
   const [separatingTags, setSeparatingTags] = useState(false);
+  const [clearing, setClearing] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [deletingId, setDeletingId] = useState<number | null>(null);
   const [editingBlog, setEditingBlog] = useState<BlogPost | null>(null);
   const [showForm, setShowForm] = useState(false);
   const [showAIGenerator, setShowAIGenerator] = useState(false);
@@ -63,6 +67,7 @@ export default function BlogManager() {
       return;
     }
 
+    setClearing(true);
     try {
       // Clear API cache
       await fetchBlogs(true);
@@ -80,6 +85,8 @@ export default function BlogManager() {
     } catch (error) {
       console.error('Error clearing cache:', error);
       alert(language === 'zh' ? '清除缓存时出错' : 'Error clearing cache');
+    } finally {
+      setClearing(false);
     }
   };
 
@@ -243,6 +250,7 @@ export default function BlogManager() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
+    setSubmitting(true);
     try {
       const url = '/api/blogs';
       const method = editingBlog ? 'PUT' : 'POST';
@@ -261,6 +269,8 @@ export default function BlogManager() {
       }
     } catch (error) {
       console.error('Failed to save blog:', error);
+    } finally {
+      setSubmitting(false);
     }
   };
 
@@ -270,6 +280,7 @@ export default function BlogManager() {
       return;
     }
 
+    setDeletingId(id);
     try {
       const response = await fetch(`/api/blogs?id=${id}`, {
         method: 'DELETE',
@@ -281,6 +292,8 @@ export default function BlogManager() {
       }
     } catch (error) {
       console.error('Failed to delete blog:', error);
+    } finally {
+      setDeletingId(null);
     }
   };
 
@@ -407,15 +420,17 @@ export default function BlogManager() {
               </>
             )}
           </button> */}
-          <button
+          <LoadingButton
             onClick={handleClearCache}
-            className="px-6 py-3 bg-gray-600 dark:bg-gray-500 text-white font-bold hover:opacity-80 transition-opacity flex items-center gap-2"
+            loading={clearing}
+            variant="secondary"
+            className="px-6 py-3"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
             </svg>
             {language === 'zh' ? '清除缓存' : 'Clear Cache'}
-          </button>
+          </LoadingButton>
           <button
             onClick={() => setShowForm(!showForm)}
             className="px-6 py-3 bg-black dark:bg-white text-white dark:text-black font-bold hover:opacity-80 transition-opacity"
@@ -628,12 +643,14 @@ export default function BlogManager() {
             </div>
 
             <div className="flex gap-4">
-              <button
+              <LoadingButton
                 type="submit"
-                className="px-6 py-2 bg-black dark:bg-white text-white dark:text-black font-bold hover:opacity-80"
+                loading={submitting}
+                variant="primary"
+                className="px-6 py-2"
               >
                 {editingBlog ? (language === 'zh' ? '更新' : 'Update') : (language === 'zh' ? '创建' : 'Create')}
-              </button>
+              </LoadingButton>
               <button
                 type="button"
                 onClick={resetForm}
@@ -710,12 +727,14 @@ export default function BlogManager() {
                       >
                         {language === 'zh' ? '编辑' : 'Edit'}
                       </button>
-                      <button
+                      <LoadingButton
                         onClick={() => blog.id && handleDelete(blog.id)}
-                        className="text-red-600 dark:text-red-400 hover:underline"
+                        loading={deletingId === blog.id}
+                        variant="danger"
+                        className="text-sm px-3 py-1"
                       >
                         {language === 'zh' ? '删除' : 'Delete'}
-                      </button>
+                      </LoadingButton>
                     </td>
                   </tr>
                 ))

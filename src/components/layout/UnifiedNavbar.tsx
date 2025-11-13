@@ -13,6 +13,7 @@ export default function UnifiedNavbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const [switchingLanguage, setSwitchingLanguage] = useState(false);
   const pathname = usePathname();
   const { theme, toggleTheme, mounted } = useTheme();
   const { language, toggleLanguage, t } = useLanguage();
@@ -106,6 +107,18 @@ export default function UnifiedNavbar() {
   useEffect(() => {
     setIsMobileMenuOpen(false);
   }, [pathname]);
+
+  // Handle language toggle with loading state
+  const handleLanguageToggle = async () => {
+    setSwitchingLanguage(true);
+    try {
+      await toggleLanguage();
+      // Small delay to show loading animation
+      await new Promise(resolve => setTimeout(resolve, 300));
+    } finally {
+      setSwitchingLanguage(false);
+    }
+  };
 
   const isActive = (link: string) => {
     // Extract path without locale prefix for comparison
@@ -238,10 +251,33 @@ export default function UnifiedNavbar() {
 
             {/* Language Toggle */}
             <button
-              onClick={toggleLanguage}
-              className="px-3 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors text-sm font-medium"
+              onClick={handleLanguageToggle}
+              disabled={switchingLanguage}
+              className="px-3 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors text-sm font-medium flex items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
               title={language === 'zh' ? 'Switch to English' : '切换到中文'}
             >
+              {switchingLanguage && (
+                <svg
+                  className="animate-spin h-4 w-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <circle
+                    className="opacity-25"
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    stroke="currentColor"
+                    strokeWidth="4"
+                  />
+                  <path
+                    className="opacity-75"
+                    fill="currentColor"
+                    d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                  />
+                </svg>
+              )}
               {language === 'zh' ? 'EN' : '中文'}
             </button>
           </div>
@@ -369,9 +405,32 @@ export default function UnifiedNavbar() {
 
                 {/* Language Toggle */}
                 <button
-                  onClick={toggleLanguage}
-                  className="w-full px-4 py-3 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors text-sm font-medium"
+                  onClick={handleLanguageToggle}
+                  disabled={switchingLanguage}
+                  className="w-full px-4 py-3 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors text-sm font-medium flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
+                  {switchingLanguage && (
+                    <svg
+                      className="animate-spin h-4 w-4"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        className="opacity-25"
+                        cx="12"
+                        cy="12"
+                        r="10"
+                        stroke="currentColor"
+                        strokeWidth="4"
+                      />
+                      <path
+                        className="opacity-75"
+                        fill="currentColor"
+                        d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                      />
+                    </svg>
+                  )}
                   {language === 'zh' ? 'EN' : '中文'}
                 </button>
               </div>
