@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-13T09:43:04.684Z",
+  "price": {
+    "close": "0.65707",
+    "high": "0.65798",
+    "low": "0.65707",
+    "open": "0.65795",
+    "change": "-0.13",
+    "datetime": "2025-11-13 20:00:00"
+  },
+  "indicators": {
+    "rsi": 64.87304,
+    "macd": 0.00096583403,
+    "macd_signal": 0.00073938301,
+    "sma20": 0.655174
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理趋势]",
+      "content": "当前澳元/美元(AUD/USD)的价格为0.65707，近期走势显示出震荡整理的特征。尽管价格略有下跌，但整体未能突破重要支撑位，这表明市场仍在寻找方向。短期内，价格在0.65798和0.65707的高低点之间波动，显示出市场参与者的犹豫。\n\n从技术指标来看，MACD值为0.00096583403，虽然未能提供明确的信号，但表明市场动能较弱。SMA(20)为0.65517400，当前价格在其上方，显示出短期内的支撑可能保持有效。相对强弱指数(RSI)尚未提供，因此需关注未来的市场动向。\n\n在支撑和阻力水平方面，0.6550是一个关键支撑位，若价格跌破此位，可能引发进一步下行。另一方面，0.6580则为重要的阻力位，若价格向上突破，有望进一步上涨至0.6600附近。投资者应密切关注这两个水平，以便及时调整策略。\n\n针对当前市场状况，建议交易者保持观望，等待更明确的趋势信号。若价格突破0.6580，可考虑采取多头策略，反之则在0.6550附近寻找入场机会。务必设置合理的止损位，以控制风险。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) against the US Dollar (USD) is currently trading at 0.65707, reflecting a slight 24-hour decline of 0.13%. The price action has remained relatively stable, with the recent high at 0.65798 and the low at 0.65707 showing a narrow trading range. This consolidation suggests that the market is awaiting further directional cues, possibly from upcoming economic data releases or geopolitical developments. The overall trend appears to be neutral, indicating a possible period of indecision among traders.\n\nIn terms of technical indicators, the absence of a calculated RSI (Relative Strength Index) limits our understanding of potential overbought or oversold conditions. However, the MACD (Moving Average Convergence Divergence) reading of 0.00096583403 indicates a slight bullish momentum, albeit weak. The SMA (Simple Moving Average) for the last 20 periods stands at 0.65517400, which could serve as a dynamic support level. A close below this SMA would signal a bearish outlook, while a move above 0.65798 could suggest a reversal in sentiment.\n\nSupport and resistance levels are crucial for identifying potential entry and exit points. Immediate support is identified at the SMA level of 0.65517, while resistance is seen at the recent high of 0.65798. A break below support could lead to further downside, targeting 0.65400, while a breakout above resistance may open the door to a retest of 0.66000. Traders should monitor these levels closely for potential trading opportunities.\n\nFor trading strategies, a cautious approach is advisable given the current market conditions. A buy position could be considered if the price breaks above the resistance at 0.65798 with confirmation from volume and momentum indicators. Conversely, a sell signal may arise if the price falls below the support at 0.65517, especially if accompanied by bearish momentum. Risk management strategies should be employed to protect against volatility, ensuring that positions are sized appropriately in relation to overall capital."
+    }
+  }
+}
