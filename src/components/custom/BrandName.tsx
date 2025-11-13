@@ -33,7 +33,7 @@ export default function BrandName({ inNavbar = false }: BrandNameProps) {
             key={`${language}-${index}`}
             className={inNavbar
               ? (isSecondPart ? 'font-normal text-gray-600 dark:text-gray-400' : 'font-black text-black dark:text-white')
-              : (isSecondPart ? 'font-normal text-gray-400' : 'font-black text-white')
+              : (isSecondPart ? 'font-normal text-gray-600 dark:text-gray-400' : 'font-black text-black dark:text-white')
             }
             initial={hasAnimated ? false : {
               x: (index % 2 === 0 ? -1 : 1) * 150,
