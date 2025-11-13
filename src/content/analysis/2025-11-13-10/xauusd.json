@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-13T10:58:58.941Z",
+  "price": {
+    "close": "4228.84706",
+    "high": "4239.97504",
+    "low": "4228.3077",
+    "open": "4233.05114",
+    "change": "-0.10",
+    "datetime": "2025-11-13 21:00:00"
+  },
+  "indicators": {
+    "rsi": 69.022937,
+    "macd": 21.48287,
+    "macd_signal": 20.49745,
+    "sma20": 4205.3394
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，谨慎观望]",
+      "content": "当前黄金/美元的价格在4228.8附近震荡整理，短期内未能突破前期高点4239.98，显示出市场的犹豫态度。结合最新的价格变动，黄金保持在4200一线之上，整体趋势仍呈现出一定的上行空间，但需关注市场情绪的变化。\n\n从技术指标来看，MACD显示出21.48的值，虽然未给出明确的信号，但仍在正区间内，暗示短期内牛市动能可能持续。SMA(20)为4205.34，作为短期支撑位，若价格向下突破，将可能引发进一步的回调，而RSI尚未提供，需关注后续数据更新以判断超买或超卖状态。\n\n在支撑和阻力位方面，4205.34是关键的支撑位，若下破则可能引发更大幅度的调整；上方阻力位在4239.98，若突破则有望迎来新的上涨动能。投资者应保持警惕，耐心等待明确的交易信号，以降低风险。\n\n建议当前投资者采取谨慎观望的态度，待价格突破关键阻力位后再考虑入场。同时，设置适当的止损，以防市场波动带来的不确定性。在当前环境下，灵活应对是关键。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of Gold against the US Dollar (XAU/USD) is 4228.84706, showing a slight decline of 0.10% over the past 24 hours. This minor pullback comes after the recent high of 4239.97504, indicating a potential short-term resistance level. The downward movement suggests sellers are gaining traction, which may lead to further consolidation or a test of lower support levels. Monitoring price action around these highs and lows will be crucial for traders.\n\nIn terms of technical indicators, the SMA(20) sits at 4205.33940, providing a key support level for the short term. If the price retreats towards this level, it may present an opportunity for buyers to enter the market, especially if the price shows signs of bouncing back. The absence of RSI data limits the assessment of overbought or oversold conditions, making it essential to rely on price patterns and volume for further analysis. \n\nThe MACD reading of 21.48287 indicates bullish momentum, yet without a corresponding signal line, caution is warranted. A divergence between the MACD and price action could signal a potential reversal or weakening momentum. Traders should watch for a crossover in the MACD, which could provide additional insights into the prevailing trend. \n\nGiven the current market conditions, a prudent trading strategy would involve waiting for confirmation of support at the SMA(20) level or observing the resistance around the recent high of 4239.97504. A break below the 4205.33940 support could trigger further selling pressure, while a rebound may present a buying opportunity. Overall, maintaining a flexible approach will be vital in navigating the potential volatility in XAU/USD."
+    }
+  }
+}
