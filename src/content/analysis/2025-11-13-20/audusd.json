@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-13T20:16:00.743Z",
+  "price": {
+    "close": "0.65285",
+    "high": "0.65296",
+    "low": "0.65272",
+    "open": "0.6529",
+    "change": "-0.01",
+    "datetime": "2025-11-14 07:00:00"
+  },
+  "indicators": {
+    "rsi": 35.3461,
+    "macd": -0.00029588314,
+    "macd_signal": 0.00020280308,
+    "sma20": 0.6555585
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[短期下行趋势显现]",
+      "content": "当前AUD/USD的价格为0.65285，较24小时前略有下跌0.01%。从技术面来看，短期内该货币对呈现出一定的下行趋势，市场情绪偏向谨慎。价格在高点0.65296和低点0.65272之间波动，显示出缺乏明确的方向性。\n\n在技术指标方面，虽然RSI(14)的数据尚不可用，但MACD显示出微弱的负值，表明卖方势力略占优势。SMA(20)为0.65555850，与当前价格相比，显示出一定的下跌动能。综合来看，短期内AUD/USD面临进一步下行压力，需密切关注市场的变化。\n\n支撑位方面，当前价格接近于0.65272的低点，一旦跌破这一水平，可能会进一步测试0.6500的心理支撑位。而在阻力位方面，0.6555的SMA(20)将是多头反弹的重要阻力，突破将有助于恢复升势。\n\n交易建议方面，建议投资者在当前价位附近采取观望态度，等待市场确认方向。如果价格跌破0.65272，则可以考虑做空，以0.6500作为目标位；而若价格反弹至0.6555附近，可考虑做空以控制风险。保持灵活应变，将是应对市场波动的关键。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.65285, reflecting a slight decline of 0.01% over the last 24 hours. This minor downward movement suggests a consolidation phase after recent volatility. The price has oscillated between a high of 0.65296 and a low of 0.65272, indicating a narrow trading range. This behavior suggests indecision among traders, possibly influenced by economic data releases or broader market sentiment affecting the Australian dollar and U.S. dollar.\n\nIn terms of technical indicators, the absence of a current RSI (Relative Strength Index) reading makes it challenging to determine overbought or oversold conditions. However, the MACD is slightly negative at -0.00029588314, suggesting a bearish momentum. The moving average (SMA) at 20 periods is at 0.65555850, which is above the current price, further reinforcing the bearish outlook. Traders should monitor for any crossover in the MACD that may signal a potential shift in momentum.\n\nSupport levels for the AUD/USD pair can be identified around the recent low of 0.65272, which traders may watch closely for any potential bounce-back. Conversely, resistance is seen near the SMA at 0.65555850; a break above this level could signal a shift in the prevailing trend. If prices can overcome this resistance, it may attract bullish sentiment, leading to a possible retest of higher levels.\n\nGiven the current market context, traders might consider a short position if the price breaks below the support at 0.65272, with profit targets set towards 0.6500. Conversely, a long position could be explored if the price breaks above the SMA at 0.65555850, offering a potential rally back to levels around 0.6580. Active monitoring of market sentiment and relevant economic news will be crucial in navigating potential trades."
+    }
+  }
+}

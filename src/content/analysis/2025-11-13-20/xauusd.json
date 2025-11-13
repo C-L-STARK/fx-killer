@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-13T20:20:00.604Z",
+  "price": {
+    "close": "4165.63623",
+    "high": "4166.86197",
+    "low": "4160.68375",
+    "open": "4164.48871",
+    "change": "0.02",
+    "datetime": "2025-11-14 07:00:00"
+  },
+  "indicators": {
+    "rsi": 40.1351,
+    "macd": -0.38006798,
+    "macd_signal": 9.51049,
+    "sma20": 4206.7339
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，谨慎观望]",
+      "content": "当前黄金/美元(XAU/USD)的价格为4165.63623，短期内表现出轻微的震荡整理趋势。由于价格在4160.68375至4166.86197之间波动，显示出市场参与者对当前价位的犹豫。整体走势未能突破关键阻力位4206.73390，表明短期内可能继续保持震荡格局。\n\n从技术指标角度来看，尽管MACD指标显示出负值(-0.38006798)，但RSI尚未提供明确的超买或超卖信号，这意味着市场情绪尚未达到极端状态。20日简单移动平均线(SMA)位于4206.73390，成为当前的重要阻力。如果价格能够突破该区域，可能会引发更强的上涨动力。\n\n支撑位方面，目前的低点4160.68375将成为关键支撑。如果价格跌破此位，可能会引发更大幅度的调整，测试更低的支撑区域。因此，投资者需密切关注该价位的表现，以判断后续走势。\n\n综合考虑，建议投资者在当前市场环境中保持谨慎观望，等待价格突破关键支撑或阻力位后再做出交易决策。此策略有助于降低风险，同时提高交易成功的概率。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4165.63623 reflects a slight upward movement of 0.02% over the last 24 hours, indicating a period of consolidation within a tight range. The high and low of the day at 4166.86197 and 4160.68375 suggest that gold is experiencing limited volatility. This range-bound activity could signal indecision among traders, with a potential breakout point needing to be identified for directionality.\n\nFrom a trend analysis perspective, the price is currently trading below the 20-day simple moving average (SMA) of 4206.73390, which indicates a bearish sentiment in the short term. The distance from the SMA suggests that gold has room to retrace if buying pressure increases. A close above the SMA could signal a reversal or strengthening of bullish momentum, while continued trading below might solidify a bearish outlook.\n\nIn terms of support and resistance levels, the recent low of 4160.68375 serves as a crucial support level. If prices dip below this level, we could see further declines toward deeper support levels. Conversely, resistance is observed around the 4200 psychological level; breaching this could open the door for buyers to push prices higher, creating a more favorable trading environment.\n\nFor traders, it would be prudent to adopt a cautious approach given the current market dynamics. A potential buying opportunity may arise if the price breaks above the SMA, accompanied by increased volume. However, traders should also be vigilant of bearish signals, particularly if the price falls below the established support. A wait-and-see approach might be beneficial until clearer trends are established."
+    }
+  }
+}
