@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-13T16:19:45.704Z",
+  "price": {
+    "close": "0.56763351",
+    "high": "0.56789142",
+    "low": "0.56740808",
+    "open": "0.56740808",
+    "change": "0.04",
+    "datetime": "2025-11-14 03:00:00"
+  },
+  "indicators": {
+    "rsi": 57.51352,
+    "macd": 0.00037879528,
+    "macd_signal": 0.00029776536,
+    "sma20": 0.56653055
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋势]",
+      "content": "当前纽元/美元(NZD/USD)的价格为0.5676，整体呈现出震荡整理的趋势。尽管24小时内价格变化不大，仅上涨0.04%，但高点和低点的差距较小，表明市场缺乏明确的方向性。若价格突破0.5680的阻力位，可能会引发短期的上涨动能。\n\n从技术指标来看，RSI(14)数据缺失，但MACD显示出微弱的正值，表明短期内买方力量略强。结合20日简单移动平均线(SMA)的0.5665水平，当前价格已在其上方运行，增加了短期看涨的可能性。然而，若价格跌破此水平，则可能引发更深层次的调整。\n\n在支撑和阻力方面，当前的支撑位在0.5665附近，而阻力位则在0.5680。价格在这两个水平之间波动，建议交易者关注价格在这一区间的表现，以决定下一步的交易策略。若价格突破阻力位，可以考虑做多，反之则可进行做空操作。\n\n综上所述，纽元/美元目前处于震荡整理阶段，短期内可能受到支撑位和阻力位的压制，交易者应保持谨慎，灵活调整策略，抓住潜在的交易机会。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD currency pair is currently trading at 0.5676, exhibiting a slight upward movement of 0.04% over the past 24 hours. The price has been fluctuating within a narrow range, with a high of 0.5679 and a low of 0.5674. This indicates a consolidation phase, suggesting that market participants are evaluating their positions before making significant moves. A break above 0.5680 could signal a shift towards bullish momentum, while a dip below 0.5674 may indicate bearish sentiment.\n\nThe absence of a current RSI reading limits our ability to assess overbought or oversold conditions. However, the MACD is showing a positive divergence, with a value of 0.00038, indicating potential upward momentum. This might suggest that the recent price action could continue to trend higher if the buying pressure persists. Traders should keep an eye on the MACD crossover for any shifts in momentum, as this could provide further confirmation of the prevailing trend.\n\nIn terms of support and resistance levels, the immediate support is identified at 0.5665, aligned with the 20-period Simple Moving Average (SMA), while resistance is situated around 0.5700. A break below the support level could open the door for further declines, with the next significant support seen at approximately 0.5650. Conversely, if the price manages to breach the resistance level, it could pave the way for a bullish rally toward 0.5720.\n\nFor trading strategies, it may be prudent to adopt a wait-and-see approach given the current consolidation. Traders could consider a buy position on a confirmed breakout above 0.5680, with a stop loss set just below 0.5665 to manage risk. Alternatively, a sell position may be warranted if the price descends below 0.5674, with a target toward 0.5650. Overall, maintaining vigilance on key indicators and market sentiment will be crucial for optimizing trading decisions in the NZD/USD pair."
+    }
+  }
+}

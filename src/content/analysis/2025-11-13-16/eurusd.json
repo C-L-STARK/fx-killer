@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-13T16:14:35.808Z",
+  "price": {
+    "close": "1.16413",
+    "high": "1.16421",
+    "low": "1.1637",
+    "open": "1.16387",
+    "change": "0.02",
+    "datetime": "2025-11-14 03:00:00"
+  },
+  "indicators": {
+    "rsi": 69.5253,
+    "macd": 0.0013085689,
+    "macd_signal": 0.00095201248,
+    "sma20": 1.16057
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理，等待突破]",
+      "content": "当前欧元/美元价格在1.16413附近波动，显示出震荡整理的趋势。价格在1.16421和1.1637之间反复测试，表明市场参与者对方向的选择仍然存在犹豫。若价格突破上方阻力1.16421，可能会引发一波买盘，而下方支撑位1.1637则是关键的防守位。\n\n技术指标方面，虽然RSI(14)数据缺失，但MACD显示出微弱的正值0.0013085689，表明短期内买盘力量略强。结合SMA(20)的支撑，当前价格在该均线之上运行，进一步支持短期内的上涨潜力。不过，市场仍需关注其他经济数据的影响，以决定未来的走势。\n\n在支撑和阻力层面，1.16421是关键的阻力位，而1.1637则是重要的支撑位。若价格突破1.16421，将可能开启进一步上涨的空间，目标看向1.1670。反之，若跌破1.1637，则可能导致下行风险，需谨慎对待。\n\n建议交易者在观察突破信号的同时，设置合适的止损位，确保风险可控。若市场反弹至阻力位，则可考虑短线做空，而在支撑位附近则可逢低买入，把握短期波动带来的机会。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD pair is currently trading at 1.16413, reflecting a slight 24-hour change of 0.02%. The price has exhibited a range-bound movement, with a recent high of 1.16421 and a low of 1.1637. This suggests a consolidating market, where buyers and sellers are in equilibrium. As we assess the overall trend, the pair appears to be in a modest uptrend, having recently bounced off the 20-period Simple Moving Average (SMA) at 1.16057, indicating potential support at this level.\n\nIn terms of technical indicators, the MACD shows a positive value of 0.0013085689, suggesting that bullish momentum is present, albeit weak. The absence of a defined RSI makes it challenging to identify overbought or oversold conditions, but the current price action indicates that the market lacks strong directional conviction. Traders should watch for potential crossovers in the MACD, which may signal a change in momentum. \n\nSupport levels are identified at 1.16057, reinforced by the SMA, while resistance is likely situated around 1.1650, a psychological level that could cap upward movements. A sustained break above this resistance could trigger further buying interest, while a dip below the support level may prompt a reassessment of bullish positions. \n\nFor trading strategies, a cautious approach is advisable given the current consolidation. Traders might consider entering long positions if the price breaks above 1.1650 with volume confirmation, targeting the next resistance level. Conversely, if the price falls below 1.16057, it may be prudent to adopt a bearish stance, targeting lower support levels. Overall, maintaining a close watch on price action and key levels will be crucial in navigating the EUR/USD market in the coming sessions."
+    }
+  }
+}
