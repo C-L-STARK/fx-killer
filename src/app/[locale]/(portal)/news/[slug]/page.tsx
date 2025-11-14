@@ -4,6 +4,7 @@ import matter from 'gray-matter';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getServerLanguage, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getBrandConfig } from '@/lib/brand-config';
 import LocaleLink from '@/components/navigation/LocaleLink';
 import ReactMarkdown from 'react-markdown';
 import InterviewCTA from '@/components/custom/InterviewCTA';
@@ -105,6 +106,7 @@ async function getRandomBlogs(limit = 3) {
 export async function generateMetadata({ params }: NewsPageProps) {
   const { slug, locale } = await params;
   const language = locale === 'en' ? 'en' : 'zh';
+  const brandConfig = await getBrandConfig();
 
   const newsZh = await getNewsContent(slug, 'zh');
   const newsEn = await getNewsContent(slug, 'en');
@@ -115,20 +117,28 @@ export async function generateMetadata({ params }: NewsPageProps) {
     };
   }
 
+  // 使用品牌配置动态生成标题
+  const brandNameZh = brandConfig.brandName.zh;
+  const brandNameEn = brandConfig.brandName.en;
+  const seoKeywordsZh = brandConfig.seo.keywords.zh.slice(0, 2).join('、');
+  const seoKeywordsEn = brandConfig.seo.keywords.en.slice(0, 2).join(', ');
+
   return generateBilingualMetadata(
-    newsZh.title + '丨汇刃丨职业交易员培训、日内交易员培训',
-    newsEn.title + '丨FX Killer丨Professional Trader Training, Day Trader Training',
+    newsZh.title + `丨${brandNameZh}丨${seoKeywordsZh}`,
+    newsEn.title + `丨${brandNameEn}丨${seoKeywordsEn}`,
     newsZh.description,
     newsEn.description,
-    newsZh.keywords.join(', ') + ', 职业交易员培训, 日内交易员培训',
-    newsEn.keywords.join(', ') + ', professional trader training, day trader training',
+    brandConfig.seo.keywords.zh.join(', ') + ', ' + newsZh.keywords.join(', '),
+    brandConfig.seo.keywords.en.join(', ') + ', ' + newsEn.keywords.join(', '),
     language,
+    brandConfig,
     {
       url: `/news/${slug}`,
       type: 'article',
       publishedTime: newsZh.date,
       modifiedTime: newsZh.date,
-      section: newsZh.category
+      section: newsZh.category,
+      useTemplate: true,
     }
   );
 }
@@ -141,10 +151,22 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
   const news = await getNewsContent(slug, language);
   const historyNews = await getHistoryNews(language, slug);
   const randomBlogs = await getRandomBlogs(3);
+  const brandConfig = await import('@/lib/brand-config').then(m => m.getBrandConfig());
+  const brandName = isZh ? brandConfig.brandName.zh : brandConfig.brandName.en;
 
   if (!news) {
     notFound();
   }
+
+  // Replace hardcoded brand names in content
+  let processedContent = news.content
+    .replace(/FX Killer/g, brandName)
+    .replace(/汇刃/g, brandName);
+
+  // Replace in source field
+  const processedSource = news.source
+    .replace(/FX Killer/g, brandName)
+    .replace(/汇刃/g, brandName);
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
@@ -169,7 +191,7 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
           </h1>
 
           <div className="flex items-center gap-4 text-sm text-gray-600 dark:text-gray-400">
-            <span>{news.source}</span>
+            <span>{processedSource}</span>
             <span>•</span>
             <span>
               {new Date(news.date).toLocaleDateString(isZh ? 'zh-CN' : 'en-US', {
@@ -362,7 +384,7 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
                     }
                   }}
                 >
-                  {news.content}
+                  {processedContent}
                 </ReactMarkdown>
               </div>
             </div>

@@ -1,24 +1,46 @@
 import type { Metadata } from "next";
 import StructuredData from "@/components/seo/StructuredData";
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getBrandConfig } from '@/lib/brand-config';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
+
+  // 使用品牌配置的 SEO 标题模板和描述
+  const brandNameZh = brandConfig.brandName.zh;
+  const brandNameEn = brandConfig.brandName.en;
+  const seoKeywordsZh = brandConfig.seo.keywords.zh.slice(0, 2).join('、');
+  const seoKeywordsEn = brandConfig.seo.keywords.en.slice(0, 2).join(', ');
+
+  // 构建标题
+  const zhTitle = `职业交易员培训平台丨${brandNameZh}丨${seoKeywordsZh}`;
+  const enTitle = `Professional Trader Training Platform丨${brandNameEn}丨${seoKeywordsEn}`;
+
+  // 使用品牌配置的描述
+  const zhDescription = brandConfig.seo.description.zh;
+  const enDescription = brandConfig.seo.description.en;
+
+  // 使用品牌配置的关键词
+  const zhKeywords = brandConfig.seo.keywords.zh.join(', ');
+  const enKeywords = brandConfig.seo.keywords.en.join(', ');
 
   return generateBilingualMetadata(
-    '职业交易员培训平台丨汇刃丨职业交易员培训、外汇交易员培训',
-    'Professional Trader Training Platform丨FX Killer丨Professional Trader Training, Forex Trader Training',
-    '汇刃(FX Killer)专业外汇交易员培训平台，30天系统化培养职业交易员。提供免费职业交易员培训、实战训练和资金支持。通过考核获得资金管理权限，分润高达90%。',
-    'FX Killer professional forex trader training platform. 30-day systematic professional trader training with free education, practical training and funding support. Pass the evaluation to get funded trading account with up to 90% profit split.',
-    '职业交易员培训, 外汇交易员培训, 日内交易员培训, 全职交易员培训, 职业交易员, 外汇交易员, FX Killer, 汇刃, 交易员培训, 资金管理',
-    'professional trader training, forex trader training, day trader training, full-time trader training, professional trader, forex trader, FX Killer, trader training, funded trading',
+    zhTitle,
+    enTitle,
+    zhDescription,
+    enDescription,
+    zhKeywords,
+    enKeywords,
     lang,
+    brandConfig,
     {
       url: '/',
       type: 'website',
       section: 'Home',
-      author: 'FX Killer Team',
+      author: `${brandConfig.brandName[lang]} Team`,
+      useTemplate: true, // 启用品牌 SEO 模板
     }
   );
 }

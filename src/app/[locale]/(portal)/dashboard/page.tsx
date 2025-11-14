@@ -8,12 +8,15 @@ import LivestreamManager from './components/LivestreamManager';
 import BlogManager from './components/BlogManager';
 import ConfigManager from './components/ConfigManager';
 import TopTradersManager from './components/TopTradersManager';
+import BrandConfigManager from './components/BrandConfigManager';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { useBrand } from '@/contexts/BrandContext';
 
 export default function TradingDashboard() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [activeTab, setActiveTab] = useState('strategy');
   const { language, t } = useLanguage();
+  const brand = useBrand();
 
   // Hide navbar when authenticated, show when logged out
   useEffect(() => {
@@ -62,6 +65,8 @@ export default function TradingDashboard() {
             <TiantiPanel />
           </div>
         );
+      case 'brand':
+        return <BrandConfigManager />;
       case 'livestream':
         return <LivestreamManager />;
       case 'blog':
@@ -87,7 +92,7 @@ export default function TradingDashboard() {
           <div className="flex items-center justify-between">
             <div>
               <h2 className="text-lg font-bold text-black dark:text-white">
-                {language === 'zh' ? '汇刃控制台' : 'FX Killer Dashboard'}
+                {language === 'zh' ? `${brand.brandName.zh}控制台` : `${brand.brandName.en} Dashboard`}
               </h2>
             </div>
             <button

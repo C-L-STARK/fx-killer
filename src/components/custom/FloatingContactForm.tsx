@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { useBrand } from '@/contexts/BrandContext';
 
 export default function FloatingContactForm() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,10 +13,11 @@ export default function FloatingContactForm() {
     message: '',
   });
   const { language } = useLanguage();
+  const brand = useBrand();
   const isZh = language === 'zh';
 
-  const emailAddress = "x.stark.dylan@gmail.com";
-  const siteUrl = "https://fxkiller.com";
+  const emailAddress = brand.globalEmail;
+  const siteUrl = `https://${brand.domain}`;
 
   const handleSubmit = (e: React.FormEvent) => {
     // Form will be submitted by FormSubmit.co

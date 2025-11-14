@@ -1,6 +1,7 @@
 'use client';
 
 import { useLanguage } from '@/contexts/LanguageContext';
+import { useBrand } from '@/contexts/BrandContext';
 import { parseVideoUrl, getPlatformName, type VideoEmbed } from '@/lib/videoEmbedParser';
 
 interface MatrixMember {
@@ -19,7 +20,9 @@ interface LiveTradingClientProps {
 
 export default function LiveTradingClient({ members }: LiveTradingClientProps) {
   const { language } = useLanguage();
+  const brand = useBrand();
   const isZh = language === 'zh';
+  const brandName = isZh ? brand.brandName.zh : brand.brandName.en;
 
   // Get unique platforms being used
   const activePlatforms = new Set<string>();
@@ -54,8 +57,8 @@ export default function LiveTradingClient({ members }: LiveTradingClientProps) {
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             {isZh
-              ? '观看汇刃矩阵成员的实时交易，学习专业交易决策'
-              : 'Watch our matrix members trade live and learn professional decision-making'}
+              ? `观看${brandName}矩阵成员的实时交易，学习专业交易决策`
+              : `Watch ${brandName} matrix members trade live and learn professional decision-making`}
           </p>
         </div>
       </div>

@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { useBrand } from '@/contexts/BrandContext';
 
 interface SidebarMenuProps {
   activeTab: string;
@@ -10,6 +11,7 @@ interface SidebarMenuProps {
 
 export default function SidebarMenu({ activeTab, onTabChange }: SidebarMenuProps) {
   const { language } = useLanguage();
+  const brand = useBrand();
 
   const menuSections = [
     {
@@ -21,6 +23,7 @@ export default function SidebarMenu({ activeTab, onTabChange }: SidebarMenuProps
     {
       title: language === 'zh' ? '后台管理' : 'Admin',
       items: [
+        { id: 'brand', label: language === 'zh' ? '品牌配置' : 'Brand Config', icon: '🎨' },
         { id: 'livestream', label: language === 'zh' ? '实时直播管理' : 'Livestream Management', icon: '🎥' },
         { id: 'blog', label: language === 'zh' ? '博客文章管理' : 'Blog Management', icon: '📝' },
         { id: 'top-traders', label: language === 'zh' ? '交易员排行榜' : 'Top Traders', icon: '🏆' },
@@ -33,7 +36,7 @@ export default function SidebarMenu({ activeTab, onTabChange }: SidebarMenuProps
     <div className="w-64 bg-white dark:bg-gray-800 border-r-2 border-gray-200 dark:border-gray-700 h-screen overflow-y-auto">
       <div className="p-6">
         <h2 className="text-2xl font-black text-black dark:text-white mb-6">
-          {language === 'zh' ? '汇刃控制台' : 'FX Killer Dashboard'}
+          {language === 'zh' ? `${brand.brandName.zh}控制台` : `${brand.brandName.en} Dashboard`}
         </h2>
 
         {menuSections.map((section, idx) => (

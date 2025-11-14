@@ -7,7 +7,6 @@ import SplanFooter from "@/components/splan/SplanFooter";
 import SubscriptionNotification from "@/components/custom/SubscriptionNotification";
 import FloatingContactForm from "@/components/custom/FloatingContactForm";
 import WelcomeModalWrapper from "@/components/custom/WelcomeModalWrapper";
-import CalendlyWidget from "@/components/custom/CalendlyWidget";
 import StructuredData from "@/components/seo/StructuredData";
 import Providers from "@/components/providers/Providers";
 import MouseFollower from "@/components/effects/MouseFollower";
@@ -170,7 +169,6 @@ export default async function PortalLayout({
           <BackToTop />
           <FloatingContactForm />
           <WelcomeModalWrapper />
-          <CalendlyWidget />
           <SubscriptionNotification />
           <Analytics />
           <SpeedInsights />

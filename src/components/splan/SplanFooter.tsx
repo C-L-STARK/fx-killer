@@ -3,115 +3,156 @@
 import React from 'react';
 import LocaleLink from '@/components/navigation/LocaleLink';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { ShineLinkButton } from '@/components/custom/ShineButton';
+import { useBrand } from '@/contexts/BrandContext';
+import { ContactMethod } from '@/lib/brand-config';
+import ContactMethodIcon from '@/components/brand/ContactMethodIcon';
 import EmailContactModal from '@/components/custom/EmailContactModal';
 import { NeuralBackground } from '@/components/ui/neural-background';
 
 export default function SplanFooter() {
   const { t, language } = useLanguage();
-  const [showWechatModal, setShowWechatModal] = React.useState(false);
+  const brand = useBrand();
+  const isZh = language === 'zh';
+
+  const [showContactModal, setShowContactModal] = React.useState(false);
+  const [selectedMethod, setSelectedMethod] = React.useState<ContactMethod | null>(null);
   const [showEmailModal, setShowEmailModal] = React.useState(false);
+
+  // 处理联系方式点击
+  const handleContactClick = (method: ContactMethod) => {
+    // 邮箱永远使用全局 EmailContactModal
+    const isEmail = method.name_en.toLowerCase() === 'email' ||
+                    method.name_zh === '邮箱' ||
+                    method.icon.value === 'mail';
+
+    if (isEmail) {
+      setShowEmailModal(true);
+    } else if (method.action === 'modal') {
+      setSelectedMethod(method);
+      setShowContactModal(true);
+    } else if (method.action === 'newtab' && method.value) {
+      window.open(method.value, '_blank');
+    } else if (method.action === 'link' && method.value) {
+      window.location.href = method.value;
+    }
+  };
+
+  // 获取社交媒体图标
+  const getSocialIcon = (platform: string) => {
+    const icons: Record<string, any> = {
+      twitter: (
+        <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+        </svg>
+      ),
+      youtube: (
+        <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+        </svg>
+      ),
+      discord: (
+        <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+        </svg>
+      ),
+    };
+    return icons[platform] || null;
+  };
 
   return (
     <footer className="relative bg-black dark:bg-gray-950 text-white py-12 border-t border-gray-800 overflow-hidden">
-      {/* Neural Background - Light mode (白色神经网络) */}
+      {/* Neural Background - Light mode */}
       <div className="dark:hidden">
-        <NeuralBackground
-          hue={200}
-          saturation={0.5}
-          chroma={0.4}
-          isDark={false}
-        />
+        <NeuralBackground hue={200} saturation={0.5} chroma={0.4} isDark={false} />
       </div>
 
-      {/* Neural Background - Dark mode (黑色神经网络) */}
+      {/* Neural Background - Dark mode */}
       <div className="hidden dark:block">
-        <NeuralBackground
-          hue={200}
-          saturation={0.5}
-          chroma={0.4}
-          isDark={true}
-        />
+        <NeuralBackground hue={200} saturation={0.5} chroma={0.4} isDark={true} />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
-          {/* About */}
+          {/* About + Contact Methods */}
           <div>
             <div className="flex items-center mb-4">
               <span className="text-xl font-black text-white">
-                {language === 'zh' ? '汇' : 'FX'}
+                {brand.brandName[isZh ? 'zh' : 'en'].split('')[0]}
               </span>
               <span className="text-xl font-normal text-gray-400 ml-1">
-                {language === 'zh' ? '刃' : 'Killer'}
+                {brand.brandName[isZh ? 'zh' : 'en'].substring(1)}
               </span>
             </div>
+
             <p className="text-gray-400 text-sm leading-relaxed mb-4">
               {t('footer.about')}
             </p>
-            {/* Social Media Icons */}
-            <div className="flex items-center gap-4">
-              {/* Telegram */}
-              <a
-                href="https://t.me/binance_cashcontrol"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors"
-                title="Telegram"
-              >
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/>
-                </svg>
-              </a>
 
-              {/* X (Twitter) */}
-              <a
-                href="https://x.com/RealFXkiller"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors"
-                title="X (Twitter)"
-              >
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-                </svg>
-              </a>
-
-              {/* YouTube */}
-              <a
-                href="https://www.youtube.com/@FX-Killer-Trader"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors"
-                title="YouTube"
-              >
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
-                </svg>
-              </a>
-
-              {/* WeChat */}
-              <button
-                onClick={() => setShowWechatModal(true)}
-                className="text-gray-400 hover:text-white transition-colors cursor-pointer"
-                title="WeChat: DerrenX"
-              >
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M8.691 2.188C3.891 2.188 0 5.476 0 9.53c0 2.212 1.17 4.203 3.002 5.55a.59.59 0 0 1 .213.665l-.39 1.48c-.019.07-.048.141-.048.213 0 .163.13.295.29.295a.326.326 0 0 0 .167-.054l1.903-1.114a.864.864 0 0 1 .717-.098 10.16 10.16 0 0 0 2.837.403c.276 0 .543-.027.811-.05-.857-2.578.157-4.972 1.932-6.446 1.703-1.415 3.882-1.98 6.025-1.31-.452-3.79-4.214-6.876-8.768-6.876zm-2.924 5.232a.72.72 0 0 1 .717-.72.72.72 0 0 1 .718.72.72.72 0 0 1-.718.72.72.72 0 0 1-.717-.72zm5.674 0a.72.72 0 0 1 .717-.72.72.72 0 0 1 .717.72.72.72 0 0 1-.717.72.72.72 0 0 1-.717-.72zm7.735 4.55c0-3.564-3.51-6.446-7.835-6.446-4.325 0-7.835 2.882-7.835 6.446 0 1.948 1.03 3.703 2.646 4.895a.52.52 0 0 1 .188.586l-.344 1.304a.488.488 0 0 0-.042.188c0 .144.115.26.255.26a.289.289 0 0 0 .148-.047l1.677-.982a.762.762 0 0 1 .632-.086c.784.19 1.61.295 2.475.295 4.325 0 7.835-2.882 7.835-6.446zm-9.606-1.31a.635.635 0 0 1-.633-.634c0-.35.283-.633.633-.633.35 0 .634.283.634.633a.635.635 0 0 1-.634.633zm3.81 0a.635.635 0 0 1-.633-.634c0-.35.283-.633.633-.633.35 0 .634.283.634.633a.635.635 0 0 1-.634.633z"/>
-                </svg>
-              </button>
-
-              {/* Email */}
-              <button
-                onClick={() => setShowEmailModal(true)}
-                className="text-gray-400 hover:text-white transition-colors cursor-pointer"
-                title="Email"
-              >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
-                </svg>
-              </button>
+            {/* Contact Methods - 从配置加载 */}
+            <div className="mb-4">
+              <p className="text-xs text-gray-500 mb-2">
+                {isZh ? '联系方式' : 'Contact'}
+              </p>
+              <div className="flex items-center gap-3">
+                {brand.contactMethods
+                  .filter(method => method.enabled)
+                  .sort((a, b) => a.sort_order - b.sort_order)
+                  .map((method, index) => (
+                    <button
+                      key={index}
+                      onClick={() => handleContactClick(method)}
+                      className="text-gray-400 hover:text-white transition-colors cursor-pointer"
+                      title={isZh ? method.name_zh : method.name_en}
+                    >
+                      <ContactMethodIcon icon={method.icon} className="w-5 h-5" />
+                    </button>
+                  ))}
+              </div>
             </div>
+
+            {/* Social Media Icons - 从配置加载 */}
+            {(brand.social.twitter || brand.social.youtube || brand.social.discord) && (
+              <div>
+                <p className="text-xs text-gray-500 mb-2">
+                  {isZh ? '社交媒体' : 'Social Media'}
+                </p>
+                <div className="flex items-center gap-3">
+                  {brand.social.twitter && (
+                    <a
+                      href={brand.social.twitter}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-400 hover:text-white transition-colors"
+                      title="Twitter / X"
+                    >
+                      {getSocialIcon('twitter')}
+                    </a>
+                  )}
+                  {brand.social.youtube && (
+                    <a
+                      href={brand.social.youtube}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-400 hover:text-white transition-colors"
+                      title="YouTube"
+                    >
+                      {getSocialIcon('youtube')}
+                    </a>
+                  )}
+                  {brand.social.discord && (
+                    <a
+                      href={brand.social.discord}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-400 hover:text-white transition-colors"
+                      title="Discord"
+                    >
+                      {getSocialIcon('discord')}
+                    </a>
+                  )}
+                </div>
+              </div>
+            )}
           </div>
 
           {/* Quick Links - Navigation */}
@@ -130,17 +171,17 @@ export default function SplanFooter() {
               </li>
               <li>
                 <LocaleLink href="/education" className="text-gray-400 hover:text-white transition-colors">
-                  {language === 'zh' ? '教育' : 'Education'}
+                  {isZh ? '教育' : 'Education'}
                 </LocaleLink>
               </li>
               <li>
                 <LocaleLink href="/news" className="text-gray-400 hover:text-white transition-colors">
-                  {language === 'zh' ? '新闻' : 'News'}
+                  {isZh ? '新闻' : 'News'}
                 </LocaleLink>
               </li>
               <li>
                 <LocaleLink href="/market-analysis" className="text-gray-400 hover:text-white transition-colors">
-                  {language === 'zh' ? '行情' : 'Market'}
+                  {isZh ? '行情' : 'Market'}
                 </LocaleLink>
               </li>
               <li>
@@ -160,12 +201,12 @@ export default function SplanFooter() {
               </li>
               <li>
                 <LocaleLink href="/economic-calendar" className="text-gray-400 hover:text-white transition-colors">
-                  {language === 'zh' ? '日历' : 'Calendar'}
+                  {isZh ? '日历' : 'Calendar'}
                 </LocaleLink>
               </li>
               <li>
                 <LocaleLink href="/top-traders" className="text-gray-400 hover:text-white transition-colors">
-                  {language === 'zh' ? '天梯' : 'Leaderboard'}
+                  {isZh ? '天梯' : 'Leaderboard'}
                 </LocaleLink>
               </li>
               <li>
@@ -183,30 +224,30 @@ export default function SplanFooter() {
 
           {/* Tools & Resources */}
           <div>
-            <h4 className="font-bold mb-4">{language === 'zh' ? '交易工具' : 'Trading Tools'}</h4>
+            <h4 className="font-bold mb-4">{isZh ? '交易工具' : 'Trading Tools'}</h4>
             <ul className="space-y-2 text-sm">
               <li>
                 <LocaleLink href="/tools/position-calculator" className="text-gray-400 hover:text-white transition-colors">
-                  {language === 'zh' ? '仓位计算器' : 'Position Calculator'}
+                  {isZh ? '仓位计算器' : 'Position Calculator'}
                 </LocaleLink>
               </li>
               <li>
                 <LocaleLink href="/tools/risk-reward-calculator" className="text-gray-400 hover:text-white transition-colors">
-                  {language === 'zh' ? '风险回报计算器' : 'Risk/Reward Calculator'}
+                  {isZh ? '风险回报计算器' : 'Risk/Reward Calculator'}
                 </LocaleLink>
               </li>
               <li>
                 <LocaleLink href="/tools/pip-calculator" className="text-gray-400 hover:text-white transition-colors">
-                  {language === 'zh' ? '点值计算器' : 'Pip Calculator'}
+                  {isZh ? '点值计算器' : 'Pip Calculator'}
                 </LocaleLink>
               </li>
             </ul>
 
-            <h4 className="font-bold mb-4 mt-6">{language === 'zh' ? '其他资源' : 'Resources'}</h4>
+            <h4 className="font-bold mb-4 mt-6">{isZh ? '其他资源' : 'Resources'}</h4>
             <ul className="space-y-2 text-sm">
               <li>
                 <LocaleLink href="/privacy" className="text-gray-400 hover:text-white transition-colors">
-                  {language === 'zh' ? '隐私政策' : 'Privacy Policy'}
+                  {isZh ? '隐私政策' : 'Privacy Policy'}
                 </LocaleLink>
               </li>
               <li>
@@ -224,202 +265,273 @@ export default function SplanFooter() {
             </ul>
           </div>
 
-          {/* Partners - Brokers */}
+          {/* Combined Partners Section - 合作伙伴（推荐码 + 合作经纪商 + 自营公司） */}
           <div>
-            <h4 className="font-bold mb-4">{t('footer.partners.brokers')}</h4>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a
-                  href="https://i.ecmarkets.com/api/client/pm/2/99R9C"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  EC Markets
-                </a>
-                <span className="text-xs text-gray-500 ml-2">{language === 'zh' ? '邀请码' : 'Code'}:</span>
-                <code className="text-xs bg-gray-800 px-2 py-0.5 text-gray-400 font-mono ml-1">99R9C</code>
-              </li>
-              <li>
-                <a
-                  href="https://my.tickmill.com?utm_campaign=ib_link&utm_content=IB47958600&utm_medium=Open+Account&utm_source=link&lp=https%3A%2F%2Fmy.tickmill.com%2Fzh%2Fsign-up%2F"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  TickMill
-                </a>
-                <span className="text-xs text-gray-500 ml-2">{language === 'zh' ? '邀请码' : 'Code'}:</span>
-                <code className="text-xs bg-gray-800 px-2 py-0.5 text-gray-400 font-mono ml-1">IB47958600</code>
-              </li>
-              <li>
-                <a
-                  href="https://www.maxweb.red/join?ref=YYSTARK"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Binance
-                </a>
-                <span className="text-xs text-gray-500 ml-2">{language === 'zh' ? '邀请码' : 'Code'}:</span>
-                <code className="text-xs bg-gray-800 px-2 py-0.5 text-gray-400 font-mono ml-1">YYSTARK</code>
-              </li>
-            </ul>
+            <h4 className="font-bold mb-4">
+              {isZh ? '合作伙伴' : 'Partners'}
+            </h4>
 
-            <h4 className="font-bold mb-4 mt-6">{t('footer.partners.propfirms')}</h4>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a
-                  href="https://trader.ftmo.com/?affiliates=UUdNjacFYttdgsZcEozt"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  FTMO
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://fundednext.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  FundedNext
-                </a>
-                <span className="text-xs text-gray-500 ml-2">{language === 'zh' ? '邀请码' : 'Code'}:</span>
-                <code className="text-xs bg-gray-800 px-2 py-0.5 text-gray-400 font-mono ml-1">REFQKEAYK</code>
-              </li>
-            </ul>
+            {/* Referral Codes - 合作经纪商 */}
+            {brand.referralCodes.length > 0 && (
+              <div className="mb-6">
+                <h5 className="text-xs text-gray-500 mb-2 uppercase">
+                  {isZh ? '合作经纪商' : 'Partner Brokers'}
+                </h5>
+                <ul className="space-y-2 text-sm">
+                  {brand.referralCodes.map((partner, index) => (
+                    <li key={index}>
+                      <a
+                        href={partner.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-400 hover:text-white transition-colors"
+                      >
+                        {isZh ? partner.name_zh : partner.name_en}
+                      </a>
+                      {partner.code && (
+                        <>
+                          <span className="text-xs text-gray-500 ml-2">
+                            {isZh ? '邀请码' : 'Code'}:
+                          </span>
+                          <code className="text-xs bg-gray-800 px-2 py-0.5 text-gray-400 font-mono ml-1">
+                            {partner.code}
+                          </code>
+                        </>
+                      )}
+                      {partner.benefit_zh && (
+                        <span className="text-xs text-gray-600 ml-2">
+                          ({isZh ? partner.benefit_zh : partner.benefit_en})
+                        </span>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
 
-            <h4 className="font-bold mb-4 mt-6">{t('footer.partners.platforms')}</h4>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a
-                  href="https://metaapi.cloud/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  MetaAPI
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.metatrader4.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  MetaTrader 4/5
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://metacopier.io/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  MetaCopier
-                </a>
-              </li>
-            </ul>
+            {/* Partner Brokers - 合作平台 */}
+            {brand.partnerBrokers.length > 0 && (
+              <div className="mb-6">
+                <h5 className="text-xs text-gray-500 mb-2 uppercase">
+                  {isZh ? '合作平台' : 'Platforms'}
+                </h5>
+                <ul className="space-y-2 text-sm">
+                  {brand.partnerBrokers.map((broker, index) => (
+                    <li key={index}>
+                      <a
+                        href={broker.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-400 hover:text-white transition-colors"
+                      >
+                        {isZh ? broker.name_zh : broker.name_en}
+                      </a>
+                      {broker.code && (
+                        <>
+                          <span className="text-xs text-gray-500 ml-2">
+                            {isZh ? '推荐码' : 'Code'}:
+                          </span>
+                          <code className="text-xs bg-gray-800 px-2 py-0.5 text-gray-400 font-mono ml-1">
+                            {broker.code}
+                          </code>
+                        </>
+                      )}
+                      {broker.benefit_zh && (
+                        <span className="text-xs text-gray-600 ml-2">
+                          ({isZh ? broker.benefit_zh : broker.benefit_en})
+                        </span>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {/* Prop Firms - 自营交易公司 */}
+            {brand.propFirms.length > 0 && (
+              <div>
+                <h5 className="text-xs text-gray-500 mb-2 uppercase">
+                  {isZh ? '自营交易公司' : 'Prop Firms'}
+                </h5>
+                <ul className="space-y-2 text-sm">
+                  {brand.propFirms.map((firm, index) => (
+                    <li key={index}>
+                      <a
+                        href={firm.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-400 hover:text-white transition-colors"
+                      >
+                        {isZh ? firm.name_zh : firm.name_en}
+                      </a>
+                      {firm.code && (
+                        <>
+                          <span className="text-xs text-gray-500 ml-2">
+                            {isZh ? '推荐码' : 'Code'}:
+                          </span>
+                          <code className="text-xs bg-gray-800 px-2 py-0.5 text-gray-400 font-mono ml-1">
+                            {firm.code}
+                          </code>
+                        </>
+                      )}
+                      {firm.benefit_zh && (
+                        <span className="text-xs text-gray-600 ml-2">
+                          ({isZh ? firm.benefit_zh : firm.benefit_en})
+                        </span>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
         </div>
 
         {/* Bottom */}
         <div className="border-t border-gray-800 pt-8 text-center text-sm text-gray-400">
-          <p>2024-2025 {t('footer.copyright')}</p>
+          <p>
+            © {new Date().getFullYear()} {brand.brandName[isZh ? 'zh' : 'en']} · {brand.domain}
+          </p>
           <p className="mt-2 text-xs">
             {t('footer.disclaimer')}
           </p>
         </div>
       </div>
 
-      {/* Affiliate Banners - Full Width */}
-      <div className="relative z-20 border-t border-gray-800 mt-8 pt-8 pb-8">
-        <div className="mx-auto px-8 md:px-12 lg:px-16">
-          <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-8">
-            {/* FTMO Banner */}
-            <a
-              href="https://trader.ftmo.com/?affiliates=UUdNjacFYttdgsZcEozt"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="relative inline-block hover:opacity-80 transition-opacity"
-            >
-              <img
-                src="https://cdn.ftmo.com/ed1811ad91444ae687a19020a9997a86"
-                alt="FTMO.com - For serious traders"
-                className="max-w-full h-auto"
-                style={{ height: '90px' }}
-              />
-            </a>
-
-            {/* TickMill Banner */}
-            <a
-              href="https://my.tickmill.com?utm_campaign=ib_link&utm_content=IB47958600&utm_medium=IB+Loyalty&utm_source=link&lp=https%3A%2F%2Fwww.tickmill.com%2Fpartners%2Fib-loyalty"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="relative inline-block hover:opacity-80 transition-opacity"
-            >
-              <img
-                src="https://cdn.tickmill.com/prod/promotional/3/referral-materials/banner/static/IB_Loyalty_-_CN-728x90-Chinese.jpg"
-                alt="Tickmill promo banner"
-                className="max-w-full h-auto"
-                style={{ height: '90px' }}
-              />
-            </a>
+      {/* Affiliate Banners - 从配置加载 */}
+      {brand.showFooterBanners && brand.footerBanners.length > 0 && (
+        <div className="relative z-20 border-t border-gray-800 mt-8 pt-8 pb-8">
+          <div className="mx-auto px-8 md:px-12 lg:px-16">
+            <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-8">
+              {brand.footerBanners.map((banner, index) => (
+                <a
+                  key={index}
+                  href={banner.link_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="relative inline-block hover:opacity-80 transition-opacity"
+                >
+                  <img
+                    src={banner.image_url}
+                    alt={banner.name}
+                    className="max-w-full h-auto"
+                    style={{ height: '90px' }}
+                  />
+                </a>
+              ))}
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
-      {/* WeChat Modal */}
-      {showWechatModal && (
+      {/* Contact Modal (WeChat / Phone / etc) */}
+      {showContactModal && selectedMethod && (
         <div
-          className="fixed inset-0 bg-black/50 flex items-center justify-center z-50"
-          onClick={() => setShowWechatModal(false)}
+          className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50 p-4"
+          onClick={() => setShowContactModal(false)}
         >
           <div
-            className="bg-white dark:bg-gray-900 p-8 border-2 border-black dark:border-white max-w-sm w-full mx-4"
+            className="relative bg-white dark:bg-gray-900 shadow-2xl max-w-md w-full overflow-hidden border-2 border-black dark:border-white"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="flex justify-between items-start mb-6">
-              <h3 className="text-2xl font-bold text-black dark:text-white">
-                {language === 'zh' ? '微信联系方式' : 'WeChat Contact'}
-              </h3>
-              <button
-                onClick={() => setShowWechatModal(false)}
-                className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors"
-              >
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
+            {/* Header with title and close button */}
+            <div className="relative bg-black dark:bg-white px-6 py-4 border-b-2 border-black dark:border-white">
+              <div className="flex items-center justify-between">
+                <h3 className="text-lg font-bold text-white dark:text-black">
+                  {isZh ? '联系方式' : 'Contact Information'}
+                </h3>
+                <button
+                  onClick={() => setShowContactModal(false)}
+                  className="text-gray-300 dark:text-gray-700 hover:text-white dark:hover:text-black transition-colors"
+                >
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
             </div>
 
-            <div className="text-center">
-              <div className="bg-green-50 dark:bg-green-900/20 border-2 border-green-500 p-6 mb-4">
-                <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">
-                  {language === 'zh' ? '微信号' : 'WeChat ID'}
-                </p>
-                <p className="text-3xl font-bold text-black dark:text-white mb-4">
-                  DerrenX
-                </p>
-                <p className="text-xs text-gray-500 dark:text-gray-500">
-                  {language === 'zh' ? '复制微信号，在微信中添加好友' : 'Copy WeChat ID and add as friend in WeChat'}
-                </p>
-              </div>
+            {/* Content */}
+            <div className="p-6">
+              {selectedMethod.modal_content ? (
+                // WeChat QR Code Display
+                <div className="space-y-6">
+                  {/* QR Code */}
+                  <div className="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+                    <img
+                      src={selectedMethod.modal_content}
+                      alt="QR Code"
+                      className="mx-auto w-56 h-56"
+                    />
+                  </div>
 
-              <button
-                onClick={() => {
-                  navigator.clipboard.writeText('DerrenX');
-                  alert(language === 'zh' ? '微信号已复制！' : 'WeChat ID copied!');
-                }}
-                className="w-full px-6 py-3 bg-black dark:bg-white text-white dark:text-black font-bold hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors"
-              >
-                {language === 'zh' ? '复制微信号' : 'Copy WeChat ID'}
-              </button>
+                  {/* WeChat ID */}
+                  {selectedMethod.value && (
+                    <div className="text-center">
+                      <p className="text-xs text-gray-500 dark:text-gray-400 mb-2 uppercase tracking-wide">
+                        {isZh ? selectedMethod.name_zh + ' 号' : selectedMethod.name_en + ' ID'}
+                      </p>
+                      <div className="inline-flex items-center gap-3 bg-gray-100 dark:bg-gray-800 px-4 py-3 border border-gray-300 dark:border-gray-600">
+                        <code className="text-xl font-bold text-gray-900 dark:text-white font-mono">
+                          {selectedMethod.value}
+                        </code>
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Instruction */}
+                  <p className="text-center text-sm text-gray-600 dark:text-gray-400">
+                    {isZh ? '扫描二维码或复制账号添加' : 'Scan QR code or copy ID to add'}
+                  </p>
+
+                  {/* Copy Button */}
+                  {selectedMethod.value && (
+                    <button
+                      onClick={() => {
+                        navigator.clipboard.writeText(selectedMethod.value);
+                        alert(isZh ? '已复制到剪贴板！' : 'Copied to clipboard!');
+                      }}
+                      className="w-full px-6 py-3.5 bg-black dark:bg-white text-white dark:text-black font-bold hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors border-2 border-black dark:border-white"
+                    >
+                      <span className="flex items-center justify-center gap-2">
+                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                        </svg>
+                        {isZh ? `复制${selectedMethod.name_zh}号` : `Copy ${selectedMethod.name_en} ID`}
+                      </span>
+                    </button>
+                  )}
+                </div>
+              ) : (
+                // Other contact methods (Phone, etc.)
+                <div className="space-y-6">
+                  <div className="text-center bg-gray-50 dark:bg-gray-800 p-8 border-2 border-gray-200 dark:border-gray-700">
+                    <p className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
+                      {selectedMethod.value}
+                    </p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">
+                      {isZh ? selectedMethod.name_zh : selectedMethod.name_en}
+                    </p>
+                  </div>
+
+                  {selectedMethod.value && (
+                    <button
+                      onClick={() => {
+                        navigator.clipboard.writeText(selectedMethod.value);
+                        alert(isZh ? '已复制到剪贴板！' : 'Copied to clipboard!');
+                      }}
+                      className="w-full px-6 py-3.5 bg-black dark:bg-white text-white dark:text-black font-bold hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors border-2 border-black dark:border-white"
+                    >
+                      <span className="flex items-center justify-center gap-2">
+                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                        </svg>
+                        {isZh ? `复制${selectedMethod.name_zh}` : `Copy ${selectedMethod.name_en}`}
+                      </span>
+                    </button>
+                  )}
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -429,7 +541,7 @@ export default function SplanFooter() {
       <EmailContactModal
         isOpen={showEmailModal}
         onClose={() => setShowEmailModal(false)}
-        title={language === 'zh' ? '职业交易员面试预约' : 'Professional Trader Interview'}
+        title={isZh ? '职业交易员面试预约' : 'Professional Trader Interview'}
       />
     </footer>
   );

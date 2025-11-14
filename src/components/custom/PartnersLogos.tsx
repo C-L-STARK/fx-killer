@@ -3,6 +3,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { useBrand } from '@/contexts/BrandContext';
 
 const logos = [
   { id: 1, src: '/logos/1.png', alt: 'Partner 1' },
@@ -19,43 +20,44 @@ const logos = [
 
 export default function PartnersLogos() {
   const { language } = useLanguage();
+  const brand = useBrand();
   const isZh = language === 'zh';
 
   // 双倍数组用于无缝循环
   const doubledLogos = [...logos, ...logos];
 
-  const partners = [
-    {
-      name: 'EC Markets',
-      code: '99R9C',
-      link: 'https://i.ecmarkets.com/api/client/pm/2/99R9C',
-      benefit: isZh ? '超低点差 + 全额返佣' : 'Ultra-low spreads + Full rebate'
-    },
-    {
-      name: 'TickMill',
-      code: 'IB47958600',
-      link: 'https://my.tickmill.com?utm_campaign=ib_link&utm_content=IB47958600&utm_medium=Open+Account&utm_source=link&lp=https%3A%2F%2Fmy.tickmill.com%2Fzh%2Fsign-up%2F',
-      benefit: isZh ? '超低点差 + 全额返佣' : 'Ultra-low spreads + Full rebate'
-    },
-    {
-      name: 'Binance',
-      code: 'YYSTARK',
-      link: 'https://www.maxweb.red/join?ref=YYSTARK',
-      benefit: isZh ? '最低手续费 + 最高返佣' : 'Lowest fees + Maximum rebate'
-    },
-    {
-      name: 'FTMO',
-      code: null,
-      link: 'https://trader.ftmo.com/?affiliates=UUdNjacFYttdgsZcEozt',
-      benefit: isZh ? '专属优惠 + 立减折扣' : 'Exclusive offers + Instant discount'
-    },
-    {
-      name: 'FundedNext',
-      code: 'REFQKEAYK',
-      link: 'https://fundednext.com/',
-      benefit: isZh ? '专属优惠 + 立减折扣' : 'Exclusive offers + Instant discount'
-    }
+  // 从配置读取合作伙伴数据：包括推荐码、经纪商和自营公司
+  const allPartners = [
+    ...brand.referralCodes.map(p => ({
+      name: isZh ? p.name_zh : p.name_en,
+      code: p.code,
+      link: p.url,
+      benefit: isZh ? p.benefit_zh : p.benefit_en
+    })),
+    ...brand.partnerBrokers.map(p => ({
+      name: isZh ? p.name_zh : p.name_en,
+      code: p.code || null,
+      link: p.url,
+      benefit: isZh ? p.benefit_zh : p.benefit_en
+    })),
+    ...brand.propFirms.map(p => ({
+      name: isZh ? p.name_zh : p.name_en,
+      code: p.code || null,
+      link: p.url,
+      benefit: isZh ? p.benefit_zh : p.benefit_en
+    })),
   ];
+
+  // 提取品牌名称用于显示
+  const partnerNames = allPartners.map(p => p.name).filter(Boolean);
+  const partnerNamesText = partnerNames.length > 0
+    ? partnerNames.slice(0, -1).join('、') + (partnerNames.length > 1 ? (isZh ? '、' : ', ') : '') + partnerNames[partnerNames.length - 1]
+    : '';
+
+  // 如果没有配置合作伙伴，则不显示该板块
+  if (allPartners.length === 0) {
+    return null;
+  }
 
   return (
     <section className="py-16 bg-white dark:bg-gray-950 overflow-hidden">
@@ -124,26 +126,32 @@ export default function PartnersLogos() {
               <p className="text-base md:text-lg text-black dark:text-white">
                 {isZh ? (
                   <>
-                    汇刃是 <span className="font-bold">EC Markets</span>、<span className="font-bold">TickMill</span>、<span className="font-bold">Binance</span>、<span className="font-bold">FTMO</span>、<span className="font-bold">FundedNext</span> 的<span className="font-black text-xl underline decoration-2 underline-offset-4">官方合作伙伴</span>
+                    {brand.brandName.zh} 是 {partnerNames.map((name, idx) => (
+                      <React.Fragment key={name}>
+                        {idx > 0 && '、'}
+                        <span className="font-bold">{name}</span>
+                      </React.Fragment>
+                    ))} 的<span className="font-black text-xl underline decoration-2 underline-offset-4">官方合作伙伴</span>
                   </>
                 ) : (
                   <>
-                    FX Killer is an <span className="font-black text-xl underline decoration-2 underline-offset-4">official partner</span> of <span className="font-bold">EC Markets</span>, <span className="font-bold">TickMill</span>, <span className="font-bold">Binance</span>, <span className="font-bold">FTMO</span>, <span className="font-bold">FundedNext</span>
+                    {brand.brandName.en} is an <span className="font-black text-xl underline decoration-2 underline-offset-4">official partner</span> of {partnerNames.map((name, idx) => (
+                      <React.Fragment key={name}>
+                        {idx > 0 && (idx === partnerNames.length - 1 ? ' and ' : ', ')}
+                        <span className="font-bold">{name}</span>
+                      </React.Fragment>
+                    ))}
                   </>
                 )}
               </p>
               <p className="text-sm text-black dark:text-white mt-2">
                 {isZh ? (
                   <>
-                    使用专属链接注册，享受<span className="font-black bg-black dark:bg-white text-white dark:text-black px-2 py-0.5">平台最高自动返佣</span>、<span className="font-bold underline">超低点差</span>、<span className="font-bold underline">手续费</span>
-                    <br />
-                    <span className="font-black">FTMO</span> 和 <span className="font-black">FundedNext</span> 更有<span className="font-black text-base bg-black dark:bg-white text-white dark:text-black px-2 py-0.5 ml-1">立减优惠</span>
+                    使用专属链接注册，享受<span className="font-black bg-black dark:bg-white text-white dark:text-black px-2 py-0.5">平台最高自动返佣</span>、<span className="font-bold underline">超低点差</span>、<span className="font-bold underline">手续费</span>等优惠
                   </>
                 ) : (
                   <>
                     Register with exclusive links for <span className="font-black bg-black dark:bg-white text-white dark:text-black px-2 py-0.5">maximum auto-rebates</span>, <span className="font-bold underline">ultra-low spreads & fees</span>
-                    <br />
-                    <span className="font-black">FTMO</span> & <span className="font-black">FundedNext</span> with <span className="font-black text-base bg-black dark:bg-white text-white dark:text-black px-2 py-0.5 ml-1">instant discounts</span>
                   </>
                 )}
               </p>
@@ -151,9 +159,9 @@ export default function PartnersLogos() {
 
             {/* Right: Partner Links */}
             <div className="flex flex-wrap items-center justify-center gap-3">
-              {partners.map((partner, index) => (
+              {allPartners.map((partner, index) => (
                 <motion.a
-                  key={partner.name}
+                  key={`${partner.name}-${index}`}
                   href={partner.link}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -167,7 +175,7 @@ export default function PartnersLogos() {
                     <span className="font-bold text-black dark:text-white text-sm group-hover:underline">
                       {partner.name}
                     </span>
-                    {partner.name === 'FundedNext' && partner.code && (
+                    {partner.code && (
                       <>
                         <span className="text-gray-400">|</span>
                         <code className="text-xs bg-gray-100 dark:bg-gray-700 px-2 py-0.5 text-black dark:text-white font-mono">

@@ -1,24 +1,34 @@
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getBrandConfig } from '@/lib/brand-config';
 import LocaleLink from '@/components/navigation/LocaleLink';
 
 // Generate SEO Metadata
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
+
+  // 使用品牌配置动态生成标题
+  const brandNameZh = brandConfig.brandName.zh;
+  const brandNameEn = brandConfig.brandName.en;
+  const seoKeywordsZh = brandConfig.seo.keywords.zh.slice(0, 2).join('、');
+  const seoKeywordsEn = brandConfig.seo.keywords.en.slice(0, 2).join(', ');
 
   return generateBilingualMetadata(
-    '外汇交易教育中心丨汇刃丨日内交易员培训、全职交易员培训',
-    'Forex Trading Education Center丨FX Killer丨Day Trader Training, Full-Time Trader Training',
-    '完整的外汇交易教育体系，涵盖基础知识、技术分析、交易策略、风险管理。从零基础到职业交易员，FX Killer助你系统化学习外汇交易。25+专业课程，4大学习方向，100%免费学习。专业日内交易员培训和全职交易员培训体系。',
-    'Complete forex trading education system covering fundamentals, technical analysis, trading strategies, and risk management. From beginner to professional trader with FX Killer. 25+ professional courses, 4 learning categories, 100% free. Professional day trader training and full-time trader training system.',
-    '外汇教育, 外汇学习, 交易课程, 外汇培训, 日内交易员培训, 全职交易员培训, 技术分析教程, 交易策略, 风险管理, 外汇基础知识, 技术指标, 价格行为, K线形态, 支撑阻力, 日内交易, 波段交易, 剥头皮交易, 趋势跟踪, 仓位管理, 止损策略, 交易心理',
-    'forex education, forex learning, trading courses, forex training, day trader training, full-time trader training, technical analysis tutorials, trading strategies, risk management, forex basics, technical indicators, price action, candlestick patterns, support resistance, day trading, swing trading, scalping, trend following, position sizing, stop loss strategies, trading psychology',
+    `外汇交易教育中心丨${brandNameZh}丨${seoKeywordsZh}`,
+    `Forex Trading Education Center丨${brandNameEn}丨${seoKeywordsEn}`,
+    `完整的外汇交易教育体系，涵盖基础知识、技术分析、交易策略、风险管理。从零基础到职业交易员，${brandNameZh}助你系统化学习外汇交易。25+专业课程，4大学习方向，100%免费学习。专业日内交易员培训和全职交易员培训体系。`,
+    `Complete forex trading education system covering fundamentals, technical analysis, trading strategies, and risk management. From beginner to professional trader with ${brandNameEn}. 25+ professional courses, 4 learning categories, 100% free. Professional day trader training and full-time trader training system.`,
+    brandConfig.seo.keywords.zh.join(', ') + ', 外汇教育, 外汇学习, 交易课程, 外汇培训, 技术分析教程, 交易策略, 风险管理, 外汇基础知识, 技术指标, 价格行为, K线形态, 支撑阻力, 日内交易, 波段交易, 剥头皮交易, 趋势跟踪, 仓位管理, 止损策略, 交易心理',
+    brandConfig.seo.keywords.en.join(', ') + ', forex education, forex learning, trading courses, forex training, technical analysis tutorials, trading strategies, risk management, forex basics, technical indicators, price action, candlestick patterns, support resistance, day trading, swing trading, scalping, trend following, position sizing, stop loss strategies, trading psychology',
     lang,
+    brandConfig,
     {
       url: '/education',
       type: 'website',
       section: 'Education',
-      author: 'FX Killer Education Team',
+      author: `${brandConfig.brandName[lang]} Education Team`,
+      useTemplate: true,
     }
   );
 }
@@ -96,6 +106,8 @@ export default async function EducationPage({ params }: { params: Promise<{ loca
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
   const isZh = lang === 'zh';
+  const brandConfig = await import('@/lib/brand-config').then(m => m.getBrandConfig());
+  const brandName = isZh ? brandConfig.brandName.zh : brandConfig.brandName.en;
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
@@ -217,7 +229,7 @@ export default async function EducationPage({ params }: { params: Promise<{ loca
         <div className="bg-gray-50 dark:bg-gray-900 border-2 border-black dark:border-white p-12 mb-20">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-black mb-6 text-black dark:text-white">
-              {isZh ? '为什么选择 FX Killer 教育中心？' : 'Why Choose FX Killer Education Center?'}
+              {isZh ? `为什么选择 ${brandName} 教育中心？` : `Why Choose ${brandName} Education Center?`}
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
               {isZh
@@ -239,12 +251,12 @@ export default async function EducationPage({ params }: { params: Promise<{ loca
             <p className="text-xl mb-8 text-gray-300 dark:text-gray-700">
               {isZh ? (
                 <>
-                  完成教育中心的学习后，加入 FX Killer 30天系统化培训<br />
+                  完成教育中心的学习后，加入 {brandName} 30天系统化培训<br />
                   通过考核，获得真实资金进行交易
                 </>
               ) : (
                 <>
-                  After completing the education center, join FX Killer 30-day systematic training<br />
+                  After completing the education center, join {brandName} 30-day systematic training<br />
                   Pass the evaluation and receive real funds for trading
                 </>
               )}

@@ -1,3 +1,5 @@
+import { BrandConfig } from './brand-config';
+
 export type Language = 'zh' | 'en';
 
 /**
@@ -19,7 +21,8 @@ export async function getServerLanguage(): Promise<Language> {
 }
 
 /**
- * Generate metadata for both languages
+ * Generate metadata for both languages with brand configuration
+ * Supports using brand SEO templates or custom titles/descriptions
  */
 export function generateBilingualMetadata(
   zhTitle: string,
@@ -29,6 +32,7 @@ export function generateBilingualMetadata(
   zhKeywords: string,
   enKeywords: string,
   language: Language,
+  brandConfig: BrandConfig,
   options?: {
     url?: string;
     image?: string;
@@ -37,22 +41,43 @@ export function generateBilingualMetadata(
     modifiedTime?: string;
     author?: string;
     section?: string;
+    useTemplate?: boolean; // 新增：是否使用品牌 SEO 模板
   }
 ) {
-  const title = language === 'zh' ? zhTitle : enTitle;
-  const description = language === 'zh' ? zhDescription : enDescription;
+  // 如果启用模板且品牌配置中有 SEO 配置，则使用模板
+  let title = language === 'zh' ? zhTitle : enTitle;
+  let description = language === 'zh' ? zhDescription : enDescription;
+
+  if (options?.useTemplate !== false && brandConfig?.seo) {
+    // 使用品牌 SEO 模板和配置
+    title = language === 'zh' ? zhTitle : enTitle;
+    description = brandConfig.seo.description[language] || description;
+  }
+
   const keywords = language === 'zh' ? zhKeywords : enKeywords;
-  const baseUrl = 'https://fxkiller.com';
+  const baseUrl = `https://${brandConfig?.domain || 'fxkiller.com'}`;
   const locale = language === 'zh' ? 'zh' : 'en';
   const url = options?.url || '';
+  const siteName = brandConfig?.brandName
+    ? `${brandConfig.brandName.en} | ${brandConfig.brandName.zh}`
+    : 'FX Killer | 汇刃';
+  const creator = brandConfig?.brandName?.[language] || (language === 'zh' ? '汇刃' : 'FX Killer');
+  const ogImage = options?.image || brandConfig?.seo?.ogImage || '/og-image.jpg';
+
+  // Extract Twitter handle from URL if available
+  const twitterHandle = brandConfig?.social?.twitter
+    ? brandConfig.social.twitter.replace('https://twitter.com/', '@').replace('https://x.com/', '@')
+    : undefined;
 
   return {
     title,
     description,
     keywords: keywords.split(',').map(k => k.trim()),
-    authors: options?.author ? [{ name: options.author }] : [{ name: 'FX Killer Team' }],
-    creator: 'FX Killer',
-    publisher: 'FX Killer',
+    authors: options?.author
+      ? [{ name: options.author }]
+      : [{ name: `${brandConfig?.brandName?.[language] || (language === 'zh' ? '汇刃' : 'FX Killer')} Team` }],
+    creator,
+    publisher: creator,
     category: options?.section || 'education',
     alternates: url ? {
       canonical: `${baseUrl}/${locale}${url}`,
@@ -68,32 +93,29 @@ export function generateBilingualMetadata(
       locale: language === 'zh' ? 'zh_CN' : 'en_US',
       alternateLocale: language === 'zh' ? ['en_US'] : ['zh_CN'],
       url: url ? `${baseUrl}/${locale}${url}` : undefined,
-      siteName: 'FX Killer | 汇刃',
-      images: options?.image ? [{
-        url: options.image,
+      siteName,
+      images: [{
+        url: ogImage,
         width: 1200,
         height: 630,
         alt: title,
-      }] : [{
-        url: '/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'FX Killer - Professional FX Trader Training Platform',
       }],
       ...(options?.type === 'article' && {
         publishedTime: options.publishedTime,
         modifiedTime: options.modifiedTime,
         section: options.section,
-        authors: options?.author ? [options.author] : ['FX Killer Team'],
+        authors: options?.author
+          ? [options.author]
+          : [`${brandConfig?.brandName?.[language] || (language === 'zh' ? '汇刃' : 'FX Killer')} Team`],
       }),
     },
     twitter: {
       card: 'summary_large_image' as const,
-      site: '@RealFXkiller',
-      creator: '@RealFXkiller',
+      site: twitterHandle,
+      creator: twitterHandle,
       title,
       description,
-      images: options?.image ? [options.image] : ['/og-image.jpg'],
+      images: [ogImage],
     },
   };
 }

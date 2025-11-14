@@ -2,11 +2,15 @@
 
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useBrand } from '@/contexts/BrandContext';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 // 页面加载动画
 export default function PageLoader() {
   const [isLoading, setIsLoading] = useState(true);
   const [isDark, setIsDark] = useState(false);
+  const brand = useBrand();
+  const { language } = useLanguage();
 
   useEffect(() => {
     // 检测暗黑模式
@@ -32,7 +36,8 @@ export default function PageLoader() {
     };
   }, []);
 
-  const text = "汇刃 FxKiller";
+  // 使用品牌配置的名称
+  const text = `${brand.brandName.zh} ${brand.brandName.en}`;
   const chars = text.split("");
   const textColor = isDark ? "#ffffff" : "#000000";
 

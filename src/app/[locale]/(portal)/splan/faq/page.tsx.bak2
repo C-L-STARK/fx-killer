@@ -20,7 +20,7 @@ interface FAQData {
 }
 
 // FAQ data function based on language
-const getFAQData = (language: 'zh' | 'en', brandName: string): FAQData => {
+const getFAQData = (language: 'zh' | 'en'): FAQData => {
   if (language === 'zh') {
     return {
       course: [

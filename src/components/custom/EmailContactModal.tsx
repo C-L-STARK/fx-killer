@@ -3,6 +3,7 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { useBrand } from '@/contexts/BrandContext';
 
 interface EmailContactModalProps {
   isOpen: boolean;
@@ -13,7 +14,8 @@ interface EmailContactModalProps {
 
 export default function EmailContactModal({ isOpen, onClose, title, emailSubject: customEmailSubject }: EmailContactModalProps) {
   const { t } = useLanguage();
-  const emailAddress = "x.stark.dylan@gmail.com";
+  const brand = useBrand();
+  const emailAddress = brand.globalEmail;
 
   const displayTitle = title || t('email.default.title');
   const emailSubject = customEmailSubject || t('email.subject');

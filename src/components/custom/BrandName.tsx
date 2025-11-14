@@ -1,5 +1,6 @@
 "use client";
 
+import { useBrand } from '@/contexts/BrandContext';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
@@ -10,6 +11,7 @@ interface BrandNameProps {
 }
 
 export default function BrandName({ inNavbar = false, inHero = false }: BrandNameProps) {
+  const brand = useBrand();
   const { language } = useLanguage();
   const [hasAnimated, setHasAnimated] = useState(false);
 
@@ -21,7 +23,8 @@ export default function BrandName({ inNavbar = false, inHero = false }: BrandNam
     return () => clearTimeout(timer);
   }, []);
 
-  const text = language === 'zh' ? '汇刃' : 'FXKiller';
+  // 从配置获取品牌名
+  const text = brand.brandName[language];
   const chars = text.split('');
 
   return (

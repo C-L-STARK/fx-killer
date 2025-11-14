@@ -1,24 +1,34 @@
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getBrandConfig } from '@/lib/brand-config';
 import { parseVideoUrl } from '@/lib/videoEmbedParser';
 import LiveTradingClient from './LiveTradingClient';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
+
+  // 使用品牌配置动态生成标题
+  const brandNameZh = brandConfig.brandName.zh;
+  const brandNameEn = brandConfig.brandName.en;
+  const seoKeywordsZh = brandConfig.seo.keywords.zh.slice(0, 2).join('、');
+  const seoKeywordsEn = brandConfig.seo.keywords.en.slice(0, 2).join(', ');
 
   return generateBilingualMetadata(
-    '实盘直播丨汇刃丨职业交易员培训、外汇交易员培训',
-    'Live Trading丨FX Killer丨Professional Trader Training, Forex Trader Training',
-    '观看汇刃矩阵成员的实盘交易直播，学习真实的交易决策过程。6位职业交易员同步直播，展示专业的交易技巧和风险管理策略。',
-    'Watch FX Killer matrix members\' live trading sessions and learn real trading decision-making processes. 6 professional traders streaming simultaneously, demonstrating expert trading skills and risk management strategies.',
-    '实盘直播, 外汇直播, 交易直播, 职业交易员培训, 外汇交易员培训, 日内交易员培训',
-    'live trading, forex live, trading stream, professional trader training, forex trader training, day trader training',
+    `实盘直播丨${brandNameZh}丨${seoKeywordsZh}`,
+    `Live Trading丨${brandNameEn}丨${seoKeywordsEn}`,
+    `观看${brandNameZh}矩阵成员的实盘交易直播，学习真实的交易决策过程。6位职业交易员同步直播，展示专业的交易技巧和风险管理策略。`,
+    `Watch ${brandNameEn} matrix members' live trading sessions and learn real trading decision-making processes. 6 professional traders streaming simultaneously, demonstrating expert trading skills and risk management strategies.`,
+    brandConfig.seo.keywords.zh.join(', ') + ', 实盘直播, 外汇直播, 交易直播',
+    brandConfig.seo.keywords.en.join(', ') + ', live trading, forex live, trading stream',
     lang,
+    brandConfig,
     {
       url: '/live-trading',
       type: 'website',
       section: 'Live Trading',
-      author: 'FX Killer Team',
+      author: `${brandConfig.brandName[lang]} Team`,
+      useTemplate: true,
     }
   );
 }
