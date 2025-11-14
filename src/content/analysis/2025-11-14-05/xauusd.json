@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-14T05:45:06.007Z",
+  "price": {
+    "close": "4195.91062",
+    "high": "4204.0171",
+    "low": "4184.30028",
+    "open": "4202.9407",
+    "change": "-0.16",
+    "datetime": "2025-11-14 16:00:00"
+  },
+  "indicators": {
+    "rsi": 51.67343,
+    "macd": 1.51495,
+    "macd_signal": 1.021836,
+    "sma20": 4196.72982
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡区间内的谨慎态势]",
+      "content": "当前黄金/美元（XAU/USD）价格为4195.91，较昨日有所回落，显示出市场短期内的震荡走势。价格在4204.01的高点和4184.30的低点之间波动，未能突破这一区间，表明多空力量相对平衡，市场参与者对未来走势持谨慎态度。\n\n从技术指标来看，MACD显示出1.51495的正值，暗示短期内仍有一定的上行动能，但缺乏明确的信号来确认趋势的持续性。由于RSI数据缺失，我们无法进一步评估超买或超卖的状况，因此应密切关注后续的指标变动，以便及时调整策略。\n\n支撑位方面，4184.30将是关键区域，若价格突破此位，可能会引发更大的下行压力；反之，4204.01则为重要阻力位，若价格突破该水平，可能会激发进一步的买盘。建议投资者在此震荡区间内保持灵活操作，设定好止损位，避免情绪化交易。\n\n综合来看，当前黄金市场面临技术面和基本面的双重挑战，投资者应保持观望，耐心等待更明确的交易信号，以降低风险并把握机会。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4195.91 suggests a slight bearish sentiment in the market, as indicated by the 24-hour change of -0.16%. The recent high of 4204.02 acts as a key resistance level, while the low of 4184.30 provides a crucial support zone. Traders should be mindful of these levels, as a breakout above resistance could signal a potential rally, whereas a failure to hold above support may lead to further declines.\n\nTechnical indicators are presenting a mixed picture. The MACD value of 1.51495 indicates positive momentum, albeit with the signal line unavailable for a comprehensive analysis. This could suggest that the current trend is still bullish, but caution is warranted due to the lack of confirmation from other indicators. The absence of RSI data leaves a gap in momentum assessment, making it essential to monitor other indicators for clearer guidance.\n\nThe Simple Moving Average (SMA) at 20 periods stands at 4196.73, which is closely aligned with the current price. This proximity suggests that the market is trading in a narrow range, reinforcing the importance of the support and resistance levels mentioned earlier. If the price dips below the SMA, it could signal a bearish continuation, while a bounce could affirm short-term bullish sentiment.\n\nFor traders, a wait-and-see approach is advisable. Entering long positions could be considered if the price breaks above 4204.02 with strong volume, signaling a bullish reversal. Conversely, if the price breaches the support level at 4184.30, traders may look to initiate short positions, anticipating further downside. Overall, maintaining a flexible strategy in response to these technical cues will be key for navigating the XAU/USD market."
+    }
+  }
+}

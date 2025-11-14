@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-14T05:41:56.006Z",
+  "price": {
+    "close": "0.6538",
+    "high": "0.65383",
+    "low": "0.65307",
+    "open": "0.65334",
+    "change": "0.07",
+    "datetime": "2025-11-14 16:00:00"
+  },
+  "indicators": {
+    "rsi": 46.74941,
+    "macd": -0.00034510352,
+    "macd_signal": -0.00031566173,
+    "sma20": 0.6542895
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理，谨慎观望]",
+      "content": "当前澳元/美元（AUD/USD）在0.6538附近波动，显示出震荡整理的走势。近期的价格高点和低点相对接近，表明市场缺乏明确方向。短期内，价格在0.6530和0.6550区间内波动，投资者需关注这一水平的突破情况，以洞察未来趋势的变化。\n\n从技术指标来看，当前的MACD处于负值区域，显示出卖方力量仍在主导市场。虽然RSI数据缺失，但一般情况下，RSI若在30以下则可能存在超卖信号，反之则可能超买。结合SMA(20)指标，价格在其下方，进一步确认短期内的看空情绪。\n\n在支撑和阻力位方面，0.6530将是一个关键支撑位，如果价格跌破该水平，可能会引发进一步下行。反之，若突破0.6550，则有望重新测试0.6570的阻力位。投资者应密切关注这些关键水平的表现，以决定入场时机。\n\n基于当前市场环境，建议投资者采取谨慎观望的策略，尤其是在关键支撑和阻力位附近。未能确认趋势反转前，避免重仓操作，以降低风险。在市场出现明确信号之前，保持灵活应变的交易策略尤为重要。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.6538, reflecting a marginal 24-hour change of 0.07%. This slight movement indicates a period of consolidation following recent fluctuations. The price action has remained within a narrow range, with a high of 0.65383 and a low of 0.65307. To understand the broader trend, it is essential to analyze recent price movements and identify key support and resistance levels.\n\nThe 20-period Simple Moving Average (SMA) at 0.6543 suggests that the pair is currently trading just below this critical level, which can act as a resistance point. If the price manages to break above the SMA, it could signal a potential bullish reversal, targeting higher levels around 0.6570. Conversely, if the pair fails to breach this resistance, it may continue to test the support level near 0.6530, which could provide a buying opportunity for traders looking to capitalize on bounce-back scenarios.\n\nIn terms of momentum indicators, the MACD value of -0.00034510352 suggests a bearish sentiment in the short term, indicating that sellers have a slight edge. However, the absence of the RSI data makes it difficult to assess the overbought or oversold conditions effectively. Traders should monitor these indicators closely for any signs of divergence or trend reversals, which could present actionable signals in the near term.\n\nGiven the current market dynamics, a cautious trading strategy may be prudent. Traders could consider placing buy orders near the support level at 0.6530, with a stop-loss just below this mark to limit potential losses. For those preferring a short position, waiting for a confirmed break below the support could provide an entry point, targeting the next significant support around 0.6500. As always, risk management is crucial in navigating the inherent volatility of the forex market."
+    }
+  }
+}

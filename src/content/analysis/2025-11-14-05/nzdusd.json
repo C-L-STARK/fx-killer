@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-14T05:43:26.421Z",
+  "price": {
+    "close": "0.56889296",
+    "high": "0.56889296",
+    "low": "0.56795591",
+    "open": "0.56818181",
+    "change": "0.12",
+    "datetime": "2025-11-14 16:00:00"
+  },
+  "indicators": {
+    "rsi": 62.87966,
+    "macd": 0.00049813884,
+    "macd_signal": 0.00022353008,
+    "sma20": 0.56694231
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋势]",
+      "content": "当前纽元/美元(NZD/USD)的市场表现显示出一定的震荡整理趋势。最新价格为0.5689，较于24小时前微幅上升0.12%。在高点和低点之间的窄幅波动表明，市场参与者目前对该货币对的方向仍存在不确定性，可能在等待进一步的市场指引。\n\n从技术指标来看，虽然RSI尚未提供数据，但MACD的值为0.0005，表明买方略占优势。20日简单移动平均线(SMA)为0.5669，显示出短期内价格可能受到支撑。若价格回调至此水平，可能吸引买盘介入，进一步推动价格上行。\n\n在支撑和阻力位方面，当前支撑位在0.5669附近，而阻力位则可观察至0.5700。突破0.5700将可能开启上涨空间，反之，若价格跌破0.5669，则可能引发更深的回调。投资者应密切关注这两个关键水平。\n\n综合来看，建议交易者在支撑位附近寻找买入机会，同时在接近阻力位时考虑获利了结或设置止损。保持谨慎，以应对市场的潜在波动性。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.56889296, showing a slight increase of 0.12% over the last 24 hours. This upward movement suggests a potential bullish sentiment in the short term. However, the price has recently oscillated between a high of 0.56889296 and a low of 0.56795591, indicating a narrow trading range. Traders should monitor this range closely, as a breakout above the recent high could signal a continuation of the bullish trend, while a drop below the low may suggest a bearish reversal.\n\nIn terms of technical indicators, the absence of an RSI reading limits our ability to gauge overbought or oversold conditions. However, the MACD value of 0.00049813884 implies a slight bullish momentum, albeit weak. The SMA(20) at 0.56694231 offers a dynamic support level, providing a reference for potential buy opportunities. A close above the SMA could confirm a bullish sentiment, while a move below it may raise concerns about the sustainability of the current price action.\n\nSupport levels can be identified around the recent low of 0.56795591, where buying interest may emerge. If this level is breached, the next significant support could be around 0.5660, which traders should watch closely. On the resistance side, the high of 0.56889296 serves as a key level to break for further upside potential. A confirmed break above this level might open the door for a rally towards 0.5700, a psychological barrier that could attract additional buying.\n\nTraders may consider a cautious approach in the current market environment. A breakout above 0.5689 could present a good entry point for long positions, while stops could be placed just below 0.5679 to manage risk. Conversely, if the price tests and fails to hold above the SMA, it may be prudent to look for short opportunities, especially if the market shows signs of weakness. As always, maintaining a disciplined risk management strategy will be crucial in navigating the forex landscape."
+    }
+  }
+}
