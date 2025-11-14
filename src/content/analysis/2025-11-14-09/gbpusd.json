@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-14T09:40:23.238Z",
+  "price": {
+    "close": "1.31608",
+    "high": "1.31794",
+    "low": "1.31555",
+    "open": "1.31657",
+    "change": "-0.06",
+    "datetime": "2025-11-14 20:00:00"
+  },
+  "indicators": {
+    "rsi": 51.24822,
+    "macd": -0.000070155163,
+    "macd_signal": 0.00010741522,
+    "sma20": 1.31695
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理趋势]",
+      "content": "当前，英镑/美元在1.31608附近波动，显示出震荡整理的趋势。从24小时变化来看，汇率轻微下跌0.06%。高点1.31794与低点1.31555的区间显示出市场缺乏明确方向，可能由于市场情绪的影响和即将公布的经济数据。\n\n从技术指标来看，RSI尚未提供数据，但MACD持续在负值附近，显示出卖方力量略强于买方。SMA(20)为1.31695，价格略低于该均线，进一步印证短期内可能面临的卖压，投资者应保持谨慎。\n\n支撑位方面，1.31555是近期低点，若下破则可能引发更大幅度的回调。上方阻力位在1.31794，一旦突破该水平，可能会吸引更多买盘。整体来看，当前行情适合短线交易者，建议在支撑位附近考虑买入，而在阻力位接近时则逐步减仓或做空。保持关注市场消息动态，以便及时调整交易策略。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently experiencing a slight bearish trend, as evidenced by the recent price action hovering around 1.31608. The market has shown minimal volatility within the last 24 hours, with a change of -0.06% and a tight trading range between the high of 1.31794 and the low of 1.31555. This suggests a period of consolidation, where traders are likely evaluating the next directional move. If the price can break above the recent high, it may signal a potential bullish reversal.\n\nIn terms of technical indicators, the absence of the Relative Strength Index (RSI) limits our ability to gauge overbought or oversold conditions. However, the current MACD value of -0.000070155163 indicates a slight bearish momentum, although it is essential to monitor any crossover that could lead to a bullish shift. The Simple Moving Average (SMA) of 20 periods at 1.31695 serves as a dynamic resistance level, and price action below this level could maintain the bearish sentiment in the short term.\n\nKey support levels lie around 1.31555, which could act as a safety net for sellers. A decisive break below this support could open the door for further downside, possibly targeting the next support at 1.31000. Conversely, should the price reclaim the SMA and break above the high of 1.31794, it may indicate renewed buying interest and a potential rally towards higher resistance levels, such as 1.32000.\n\nTraders should remain cautious and consider a range-bound strategy in the short term, given the current tight price action. A buy position could be warranted upon a confirmed break above the SMA and the recent high, while a sell position may be appropriate if the price decisively breaches the support level of 1.31555. Keeping an eye on broader market news and economic indicators will also be crucial in informing future trading decisions."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-14T09:45:34.667Z",
+  "price": {
+    "close": "4170.6211",
+    "high": "4180.31774",
+    "low": "4166.25261",
+    "open": "4171.54188",
+    "change": "-0.01",
+    "datetime": "2025-11-14 20:00:00"
+  },
+  "indicators": {
+    "rsi": 42.72019,
+    "macd": -3.71593,
+    "macd_signal": -1.048378,
+    "sma20": 4184.69927
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，关注支撑与阻力]",
+      "content": "当前黄金/美元价格在4170.6211附近震荡整理，24小时变化微幅回落0.01%。从整体趋势来看，黄金在此价位附近表现出一定的整理特征，未能有效突破4180的高点，显示出短期内缺乏强烈的方向性。投资者需关注市场情绪变化对价格波动的影响。\n\n技术指标方面，虽然RSI(14)数据缺失，但从MACD来看，当前值为-3.71593，表明市场处于弱势状态，可能存在进一步下行的风险。而SMA(20)位于4184.69927，价格低于此均线，进一步确认了市场的弱势格局，短期内可能难以反弹。\n\n在支撑与阻力方面，当前的支撑位在4166.25261，若价格有效跌破这一位置，可能会加剧回调。而上方的阻力位在4180.31774，突破该位置则有可能引发一波强劲反弹。因此，关注这两个关键价位对于短期交易至关重要。\n\n建议投资者在市场波动中采取谨慎态度，若价格接近支撑位，可考虑寻找买入机会，反之则在接近阻力位时考虑卖出。同时，密切关注市场消息和经济数据变化，以便及时调整交易策略。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4170.6211 reflects a slight decline of 0.01% over the past 24 hours. This minor movement suggests a period of consolidation following the recent high of 4180.31774. The price action indicates the potential for a bearish trend, especially if it breaks below the recent low of 4166.25261. A sustained move below this level could lead to further downside pressure, signaling a shift in market sentiment towards gold.\n\nIn terms of indicators, the MACD is currently negative at -3.71593, which may indicate bearish momentum in the market. Without the RSI data, it's challenging to assess overbought or oversold conditions accurately. Nevertheless, the SMA(20) at 4184.69927 serves as a crucial resistance level. If prices manage to rally and break above this moving average, it could suggest a potential reversal, giving traders a reason to consider long positions.\n\nSupport levels are critical for traders to monitor. The immediate support lies at the recent low of 4166.25261, which, if broken, could open the door for testing further support around 4150. Conversely, resistance is established at 4180.31774 and the SMA(20). A breakout above this resistance could lead to a retest of higher levels, making it essential for traders to remain vigilant.\n\nFor trading strategies, a wait-and-see approach is advisable. Traders might consider short positions if the price falls below 4166. Alternatively, a break above 4180 may offer a favorable entry for long positions. Proper risk management should be employed, utilizing stop-loss orders to safeguard against unexpected market movements. Overall, maintaining a flexible trading strategy will be crucial in navigating the current market conditions for gold."
+    }
+  }
+}

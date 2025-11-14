@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-14T09:44:47.216Z",
+  "price": {
+    "close": "0.79198003",
+    "high": "0.79202998",
+    "low": "0.79137999",
+    "open": "0.79141003",
+    "change": "0.07",
+    "datetime": "2025-11-14 20:00:00"
+  },
+  "indicators": {
+    "rsi": 38.75021,
+    "macd": -0.0011130435,
+    "macd_signal": -0.0012294415,
+    "sma20": 0.79239401
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理中]",
+      "content": "当前美元/瑞郎的价格为0.79198003，整体呈现出震荡整理的态势。从24小时变化来看，价格仅上升了0.07%，显示出市场交投活跃但缺乏明显方向。高点和低点区间相对较窄，表明短期内价格波动有限，市场参与者可能在等待更明确的趋势信号。\n\n从技术指标来看，虽然RSI（相对强弱指数）数据缺失，但根据MACD指标的负值（-0.0011130435），可以推测出当前的市场情绪偏向于弱势。20日简单移动平均线（SMA）为0.79239401，价格接近该水平，这可能成为短期内的关键阻力位。若价格突破此点位，可能会引发进一步的上涨。\n\n在支撑位方面，0.79138000附近的低点可能是短期内的支撑位，如果价格跌破此水平，可能会引发进一步的下行压力。建议交易者在当前震荡行情中保持观望，关注价格与关键技术指标的变化，适时调整交易策略，避免在不确定性较大的市场中盲目入市。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair is currently trading at 0.79198, reflecting a slight upward movement of 0.07% over the past 24 hours. This minor rise suggests a consolidation phase, with the price finding stability near its recent highs. The high of 0.79203 indicates a resistance level, while the low of 0.79138 suggests a potential support area. Traders should monitor these levels closely, as a breakout above resistance could signal further bullish momentum, whereas a drop below support may indicate a bearish trend.\n\nIn terms of technical indicators, the absence of the RSI makes it difficult to assess the momentum in the market. However, the MACD value of -0.00111 suggests a bearish sentiment, as it is below the signal line. This divergence indicates that while the price is attempting to stabilize, momentum is still skewed towards a downward trend. Traders should remain cautious, particularly if the MACD does not show signs of recovery, as this could lead to further selling pressure.\n\nThe 20-period Simple Moving Average (SMA) is positioned at 0.79239, acting as a dynamic resistance level. If the price can breach this SMA, it may attract buyers and push the price higher, potentially targeting the 0.7940 region. Conversely, if the price fails to hold above this level, it could revert to test the previously mentioned support around 0.79138. Given the current conditions, traders might consider a wait-and-see approach, looking for clear signals before entering new positions.\n\nFor trading strategies, a short-term bullish stance could be considered if the price breaks above the 20 SMA, particularly if accompanied by a positive MACD crossover. Conversely, a bearish position could be warranted if the price closes below the support level at 0.79138, especially if confirmed by volume. Overall, maintaining a balanced view and being prepared for potential volatility will be crucial for traders navigating the USD/CHF market at this juncture."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-14T09:41:22.859Z",
+  "price": {
+    "close": "154.60100",
+    "high": "154.69400",
+    "low": "154.54900",
+    "open": "154.54900",
+    "change": "0.03",
+    "datetime": "2025-11-14 20:00:00"
+  },
+  "indicators": {
+    "rsi": 52.012585,
+    "macd": -0.0024311065,
+    "macd_signal": -0.018777648,
+    "sma20": 154.49135
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡走势中的潜在突破]",
+      "content": "当前美元/日元（USD/JPY）交易在154.601附近，整体呈现震荡走势。近期的高点154.694和低点154.549显示出市场正在寻找明确的方向，但短期内尚未突破。考虑到价格接近短期均线（SMA 20）154.491，可能会引发多头或空头的进一步行动。\n\n技术指标方面，RSI尚未提供明确信号，表明市场动能可能不足。MACD处于负值区域，显示出卖方的优势，但信号线缺失使得趋势判断略显不确定。投资者需要关注是否能突破154.694的阻力位，或者跌破154.549的支撑位，以判断后续的走势方向。\n\n支撑位方面，154.549是关键支撑，若跌破该水平，可能会引发更大的下行压力，目标指向154.400。反之，若突破154.694的阻力位，则有可能回升至155.000附近，吸引更多买盘。因此，投资者需密切关注市场动态，制定相应的交易策略。\n\n综合来看，建议投资者在当前震荡区间内保持谨慎，避免过度追涨杀跌。可以考虑在接近支撑位时逢低买入，而在接近阻力位时卖出。保持灵活的交易策略，严格管理风险，将有助于在不确定的市场中获得更好的收益。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 154.601, showing a slight 24-hour change of 0.03%. This price action indicates a consolidation phase, especially given the proximity to the recent high of 154.694 and the low of 154.549. The trend appears to be bullish in the short term, as the price is above the 20-period Simple Moving Average (SMA) of 154.49135. However, traders should remain cautious, as the lack of significant momentum may lead to a pullback or range-bound trading.\n\nThe Relative Strength Index (RSI) is currently unavailable, making it challenging to gauge overbought or oversold conditions. The MACD value of -0.0024 suggests that there is bearish momentum, although this could shift quickly if buying interest emerges. Traders should monitor the MACD closely; if it crosses above the signal line, it could indicate a shift toward bullish sentiment. Conversely, a sustained negative MACD may signal further downward pressure.\n\nKey support is identified around 154.549, which aligns with the recent low, while resistance is near 154.694, where selling pressure has previously emerged. A break above the resistance level could open the door for further gains towards 155.000, a psychological level. Conversely, if the price breaches support, it may lead to a test of lower levels, such as 154.300, which could attract additional selling interest.\n\nIn terms of trading strategy, a conservative approach may involve waiting for a clearer signal from the MACD or price action around the support and resistance levels. A long position could be considered if the price breaks above 154.694 with strong volume, while a short position might be warranted if the price decisively breaks below 154.549. Employing stop-loss orders is advisable to manage risk effectively."
+    }
+  }
+}

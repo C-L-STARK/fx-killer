@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-14T09:39:38.177Z",
+  "price": {
+    "close": "1.16277",
+    "high": "1.16315",
+    "low": "1.16242",
+    "open": "1.16285",
+    "change": "-0.02",
+    "datetime": "2025-11-14 20:00:00"
+  },
+  "indicators": {
+    "rsi": 50.2663,
+    "macd": 0.00061550759,
+    "macd_signal": 0.00087965966,
+    "sma20": 1.16367
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理中]",
+      "content": "当前欧元/美元在1.16277附近震荡整理，显示出短期内缺乏明显的趋势动能。高点1.16315和低点1.16242的区间限制了价格的波动，表明市场参与者尚未形成共识。即便如此，近期的价格走势依然显示出一定的卖压，可能导致下行风险。\n\n从技术指标来看，虽然当前缺少RSI和MACD的完整数据，但20日简单移动平均线(SMA)在1.16367，显示出向下的压力。若价格持续在1.16367下方运行，可能会引发进一步的回调。MACD的微弱正值也表明市场动能有限，短期内可能难以突破。\n\n支撑位方面，1.16242是关键支持水平，若跌破可能会加大下行风险；而阻力位则设在1.16315，突破该点位有望引发进一步反弹。交易者需密切关注这些关键价位，以便及时调整策略。\n\n建议在当前区间内采取观望态度，待价格突破1.16315或跌破1.16242后再做决策。如果价格在支撑位上方企稳，可以考虑小规模的多头入场；反之，跌破支撑则应考虑做空。保持灵活应变的交易策略，将有助于在震荡市场中把握机会。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD pair is currently trading at 1.16277, reflecting a marginal decline of 0.02% over the past 24 hours. The pair has shown a slight bullish trend recently, with a high of 1.16315 and a low of 1.16242. However, the price is hovering just below the 20-period simple moving average (SMA) of 1.16367, indicating that upward momentum may be faltering. Traders should closely monitor the price action around this SMA, as a decisive move above could signal a renewed bullish phase.\n\nIn terms of technical indicators, the lack of available RSI data limits our ability to assess overbought or oversold conditions. The MACD value of 0.00061550759 suggests that the momentum is currently neutral, as it hovers around the zero line. This indicates that while there may be no strong directional bias, traders should remain vigilant for potential shifts in momentum. If the MACD line crosses above its signal line, it may provide further confirmation for a bullish outlook.\n\nKey support levels are situated around 1.16242, the recent low, while resistance can be identified at the 1.16315 high. A break below the support level could open the door for a deeper correction, potentially targeting the 1.16100 mark. Conversely, should the price manage to break above the resistance level, it may pave the way for a rally towards the next significant resistance zone around 1.16500. \n\nTraders may consider adopting a cautious approach, looking for opportunities to buy on dips near the support level or selling if the price decisively breaks below 1.16242. A close above 1.16315 would provide a more compelling long entry signal, particularly if accompanied by a bullish MACD crossover. Overall, maintaining a watchful eye on these key levels will be crucial in navigating the current price action of the EUR/USD pair."
+    }
+  }
+}
