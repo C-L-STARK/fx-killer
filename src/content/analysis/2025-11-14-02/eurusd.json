@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-14T02:52:50.687Z",
+  "price": {
+    "close": "1.16353",
+    "high": "1.16378",
+    "low": "1.16297",
+    "open": "1.16338",
+    "change": "0.01",
+    "datetime": "2025-11-14 13:00:00"
+  },
+  "indicators": {
+    "rsi": 59.95509,
+    "macd": 0.001002731,
+    "macd_signal": 0.0011482868,
+    "sma20": 1.163
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理，谨慎操作]",
+      "content": "当前欧元/美元的价格在1.16353附近，显示出震荡整理的趋势。从24小时变化来看，仅有0.01%的小幅波动，表明市场情绪相对平稳。高点和低点的窄幅波动（1.16378 / 1.16297）进一步确认了当前的横盘整理状态。\n\n在技术指标方面，虽然RSI未提供，但MACD值为0.0010，表明短期内动能略微偏向多头。20日简单移动平均线（SMA）在1.16300附近为价格提供了支持，若价格跌破此水平，可能会引发更大的卖压。当前缺乏强烈的趋势信号，投资者需保持谨慎。\n\n支撑位方面，若价格回调，1.16297将是重要的支撑位，跌破此位置可能会导致进一步下探。而阻力位则在1.16378附近，若价格突破该水平，可能会吸引更多的买盘。综合考虑，建议投资者在当前区间内采取观望态度，等待更清晰的趋势信号再进行操作。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD currency pair is currently trading at 1.16353, displaying a modest 24-hour change of 0.01%. This movement suggests a period of consolidation as the price hovers near the upper end of its recent range. The high and low for the day, at 1.16378 and 1.16297 respectively, indicate limited volatility, which may reflect market indecision. Traders should monitor for potential breakout scenarios that could lead to a more significant directional move.\n\nFrom a technical perspective, the absence of an RSI value limits our ability to gauge momentum definitively. However, the MACD shows a slight positive value of 0.0010027310, indicating that the momentum is marginally bullish. The SMA(20) at 1.16300 serves as a dynamic support level, suggesting that as long as the price remains above this average, the short-term trend could maintain its upward bias. A sustained move above the SMA could attract further buying interest.\n\nIn terms of support and resistance levels, the immediate support is identified at 1.16297, with the SMA reinforcing this level. Conversely, the resistance is seen around the recent high of 1.16378. A break above this level could open the path toward higher targets, while a fall below the support might trigger a more pronounced bearish sentiment. \n\nGiven the current market dynamics, traders may consider a cautious approach. A breakout above 1.16378 could present a buying opportunity, targeting the next resistance around 1.16500. Alternatively, if the price declines below the support at 1.16297, it may be prudent to consider short positions, especially if further confirmation arises through additional bearish signals."
+    }
+  }
+}

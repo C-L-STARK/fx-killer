@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-14T02:55:45.074Z",
+  "price": {
+    "close": "1.40227",
+    "high": "1.40250",
+    "low": "1.40150",
+    "open": "1.40220",
+    "change": "0.01",
+    "datetime": "2025-11-14 13:00:00"
+  },
+  "indicators": {
+    "rsi": 54.42232,
+    "macd": 0.00062633173,
+    "macd_signal": 0.00054343095,
+    "sma20": 1.40148
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡整理，关注关键支撑阻力位]",
+      "content": "当前美元/加元的价格为1.40227，整体呈现震荡整理的趋势。在过去24小时内，价格波动非常有限，仅变化0.01%，显示市场缺乏方向性。高点和低点分别为1.40250和1.40150，表明短期内存在一定的盘整压力。\n\n从技术指标来看，虽然RSI和MACD的部分数据尚未提供，但20日简单移动平均线(SMA)在1.40148附近为我们提供了重要的支撑参考。若价格回调至此水平并获得支撑，可能会吸引买盘进入，推动价格向上反弹。相反，如跌破该水平，可能引发进一步的卖压。\n\n在支撑和阻力位方面，当前支撑位在1.40150附近，而阻力位则在1.40300附近。投资者应密切关注价格在这些关键区域的表现。交易建议方面，考虑在支撑位附近寻找买入机会，而在接近阻力位时则考虑获利了结或短期卖出，以应对潜在的回调风险。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD pair is currently trading at 1.40227, reflecting a slight upward movement of 0.01% over the past 24 hours. Analyzing the recent price action, we observe a relatively narrow trading range between the high of 1.40250 and the low of 1.40150, indicating a consolidation phase. This period of stability may suggest indecision in the market as traders await more significant economic data or geopolitical developments that could influence the pair's direction. \n\nFrom a technical analysis perspective, the 20-period Simple Moving Average (SMA) at 1.40148 serves as a dynamic support level. The close proximity of the current price to the SMA suggests that the market is respecting this level, reinforcing its significance. Should the price break below this level convincingly, it could open the door for further downside, targeting key support at 1.40000. Conversely, if the pair manages to break above the recent high of 1.40250, it may signal a bullish continuation, with potential resistance levels at 1.40500 and beyond.\n\nWhile the RSI(14) is not available for this analysis, the MACD shows a positive value of 0.00062633173, hinting at a potential bullish momentum shift. Traders may want to monitor this indicator closely for any divergence or crossovers, which could provide additional confirmation for trading decisions. As the market is currently in a tight range, it may be prudent for traders to adopt a cautious approach, focusing on breakout strategies rather than aggressive positions.\n\nIn terms of trading suggestions, consider setting buy orders just above the resistance at 1.40250, with a target near 1.40500. Alternatively, if the price breaches the support at 1.40150, a sell order could be placed targeting 1.40000. Implementing stop-loss orders will be crucial to manage risk effectively, particularly in a market that may be primed for volatility in response to upcoming economic indicators from both the U.S. and Canada."
+    }
+  }
+}
