@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-14T00:51:55.141Z",
+  "price": {
+    "close": "1.40368",
+    "high": "1.40444",
+    "low": "1.40310",
+    "open": "1.40364",
+    "change": "0.02",
+    "datetime": "2025-11-14 11:00:00"
+  },
+  "indicators": {
+    "rsi": 66.82626,
+    "macd": 0.0007855905,
+    "macd_signal": 0.00048330054,
+    "sma20": 1.40136
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡整理趋势]",
+      "content": "当前美元/加元的市场表现显示出震荡整理的趋势。最新价格为1.40368，24小时变化仅为0.02%，表明市场参与者对价格的方向尚不明确。高点和低点的波动范围相对狭窄，说明短期内可能会出现横盘整理的局面。\n\n技术指标方面，虽然RSI和MACD的数值尚不可用，但SMA(20)的值为1.40136，显示出短期内的支撑位。市场可能会在此水平附近寻求支撑。如果价格持续在这一水平之上，可能会吸引更多买盘进入市场。\n\n支撑位方面，1.40136是关键的技术支撑位，而上方的阻力位则在1.40444附近。突破这一阻力位将可能引发进一步的上涨动能，而跌破支撑位则可能导致价格回调。投资者应密切关注这两个关键水平的表现，以便做出相应的交易决策。\n\n综合考虑，建议交易者在1.40136附近寻找买入机会，同时在1.40444附近设定止盈目标。若价格跌破1.40136，则应考虑减仓或止损，以防止进一步的下行风险。保持灵活的交易策略，将有助于应对市场的波动。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD currency pair is currently trading at 1.40368, showing a slight 24-hour change of 0.02%. The price action appears to be consolidating within a tight range, with a high of 1.40444 and a low of 1.40310. This sideways movement suggests indecision in the market, potentially indicating a buildup for a breakout. Traders should closely monitor this range as a decisive move past either level could signal the next direction for the pair.\n\nFrom a trend analysis perspective, the recent price behavior shows a potential bullish bias, supported by the 20-period simple moving average (SMA) at 1.40136, which acts as a dynamic support. Should prices retrace towards this moving average, it might provide a buying opportunity if the price holds above it. Conversely, if the pair breaches the SMA and moves lower, it could indicate a shift in sentiment, leading to further declines.\n\nIn terms of technical indicators, the MACD shows a positive value, indicating bullish momentum, albeit without a signal line for confirmation. The absence of an RSI reading limits our ability to assess overbought or oversold conditions, but traders should remain cautious given the current consolidation. Watching for a crossover in the MACD could provide additional signals for entry or exit points.\n\nKey support for the USD/CAD pair lies at the SMA level of 1.40136, while resistance is identified near the recent high of 1.40444. A breakout above this resistance could target higher levels, while a drop below the support level may open the door for a bearish trend. Traders should consider placing buy orders around the support level and sell orders near the resistance, with stop-loss orders to manage risk effectively."
+    }
+  }
+}

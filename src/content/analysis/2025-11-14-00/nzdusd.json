@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-14T00:52:41.542Z",
+  "price": {
+    "close": "0.56596303",
+    "high": "0.56609112",
+    "low": "0.56469",
+    "open": "0.56500369",
+    "change": "0.15",
+    "datetime": "2025-11-14 11:00:00"
+  },
+  "indicators": {
+    "rsi": 48.10054,
+    "macd": -0.00017169555,
+    "macd_signal": 0.000014640983,
+    "sma20": 0.56647303
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋势]",
+      "content": "当前纽元/美元(NZD/USD)的价格在0.56596附近波动，整体呈现震荡整理趋势。尽管24小时内价格变化仅为0.15%，但市场情绪仍然较为谨慎。价格在0.56609的高点和0.56469的低点之间反复测试，显示出短期内缺乏明确方向。\n\n技术指标方面，尽管RSI(14)数据缺失，但从MACD来看，其值为-0.00017169555，表明短期内卖盘压力较弱，市场可能处于调整期。20日简单移动平均线(SMA)在0.56647附近，若价格能突破此水平，可能会吸引更多买盘介入。\n\n支撑位方面，0.56469是关键的支撑水平，若跌破该点，可能进一步下探0.56300。此外，0.56609则是近期的阻力位，突破后有望进一步向上挑战0.56800。投资者应关注这些关键价位，以便把握交易机会。\n\n综合来看，建议投资者在价格接近支撑位时考虑逢低买入，而在接近阻力位时则可选择逢高卖出。保持灵活应对，密切关注市场动态是当前交易策略的关键。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.56596303, reflecting a modest 24-hour change of 0.15%. The recent price action indicates a consolidation phase, with the high and low for the day at 0.56609112 and 0.56469, respectively. This range-bound movement suggests that traders are awaiting further direction, likely influenced by upcoming economic data or geopolitical developments. The currency pair has been unable to establish a clear trend, highlighting the importance of monitoring broader market sentiment.\n\nFrom a technical perspective, the Simple Moving Average (SMA) at the 20-period level is positioned at 0.56647303, indicating that the price is currently trading below this average. This could suggest a bearish sentiment in the short term. The MACD is slightly negative at -0.00017169555, which further supports the notion of a lack of bullish momentum. However, without the RSI data, it is challenging to assess whether the market is overbought or oversold, making it essential for traders to remain vigilant for potential reversals.\n\nKey support levels are identified at 0.56469, which aligns with the recent low, while resistance is seen at 0.56609112, the daily high. A breakout above the resistance could signal a shift in sentiment, while a breakdown below support may lead to further declines. Traders should watch for volume confirmation on any breakout to ensure the sustainability of the move. Given the current technical indicators, a cautious approach is warranted, with an emphasis on waiting for clearer signals before entering new positions.\n\nFor those considering potential trades, a buy signal could be activated if the price breaks above the SMA and the resistance level, possibly targeting the next psychological level around 0.5700. Conversely, a sell strategy may be appropriate if the price falls below the support level, targeting lower levels around 0.5630. Risk management is crucial, given the prevailing uncertainty, and traders should set stop-loss orders to protect against adverse movements."
+    }
+  }
+}

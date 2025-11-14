@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-14T00:50:32.404Z",
+  "price": {
+    "close": "154.68300",
+    "high": "154.74500",
+    "low": "154.56599",
+    "open": "154.63000",
+    "change": "0.03",
+    "datetime": "2025-11-14 11:00:00"
+  },
+  "indicators": {
+    "rsi": 54.65696,
+    "macd": -0.018044294,
+    "macd_signal": -0.035986068,
+    "sma20": 154.5668
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理中]",
+      "content": "当前美元/日元（USD/JPY）价格为154.68300，近期走势显示出震荡整理的特征。虽然价格在154.74500的高点附近受到压力，但仍未跌破154.56599的低点，显示出市场在该区间内徘徊的态势。整体来看，短期内市场缺乏明确的方向，投资者需保持警惕。\n\n从技术指标来看，虽然RSI（14）数据缺失，但MACD指标处于负值区域，表明短期内卖方占优。SMA（20）处于154.56680，作为短期支撑位，若价格回落至此水平附近，可能会吸引买盘进入。然而，如果市场继续承压，突破该支撑位，则可能开启进一步下行空间。\n\n在支撑和阻力方面，154.74500的高点为主要阻力位，而154.56599则是关键支撑位。若价格突破154.74500，可能会激发更多买盘，推动价格向更高水平发展。相反，若跌破154.56599，可能引发进一步的空头行动。\n\n建议投资者在当前区间内采取区间交易策略，保持灵活应变。可在接近支撑位时寻找买入机会，而在触及阻力位时考虑卖出。同时，密切关注技术指标的变化，以便及时调整交易策略。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 154.683, reflecting a modest 24-hour change of 0.03%. This stability suggests a consolidation phase after recent volatility. The price is approaching a significant resistance level at 154.745, which has historically acted as a barrier to upward movement. A breakout above this level could signal a bullish continuation, while a failure to breach could lead to a retracement towards the support level at 154.566, where buying interest may re-emerge.\n\nThe absence of the RSI(14) and the negative MACD reading of -0.018 indicates a potential lack of momentum in the market. The MACD is below the signal line, suggesting that bearish sentiment may prevail unless there is a sudden shift in buying pressure. Traders should monitor these indicators closely for signs of a crossover or divergence that could provide clearer entry or exit signals. A sustained move above the SMA(20) at 154.56680 would be a bullish signal, while a drop below could reinforce a bearish outlook.\n\nSupport at 154.566 serves as a critical level, reflecting where buyers have previously stepped in. If the price were to test this support and hold, it could provide an opportunity for long positions, especially if accompanied by positive divergence on momentum indicators. Conversely, a break below this level could trigger further selling, potentially targeting lower support areas. \n\nTraders are advised to remain vigilant for price action around the identified levels. A breakout above 154.745 may present an opportunity for long trades, with targets set towards 155.000. Alternatively, shorting opportunities could arise if the price breaches the support at 154.566, with potential downside targets at 154.400. Employing tight stop-loss orders will be crucial in managing risk in this volatile environment."
+    }
+  }
+}
