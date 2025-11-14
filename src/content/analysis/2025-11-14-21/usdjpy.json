@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-14T21:34:46.944Z",
+  "price": {
+    "close": "154.56799",
+    "high": "154.57201",
+    "low": "154.50900",
+    "open": "154.53000",
+    "change": "0.03",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 51.73224,
+    "macd": -0.0002420347,
+    "macd_signal": -0.018469198,
+    "sma20": 154.4958
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[上涨趋势延续]",
+      "content": "当前美元/日元（USD/JPY）价格为154.56799，整体走势表现出一定的上涨趋势。虽然24小时变化仅为0.03%，但价格在154.57201的高点附近徘徊，表明市场对美元的需求仍然存在。若能有效突破这一高点，可能引发进一步的上涨。\n\n从技术指标来看，当前RSI（相对强弱指数）数据缺失，但观察到MACD显示出微弱的负值，表明短期内多头力量相对疲弱。20日简单移动平均线（SMA）在154.49580附近提供了一定的支撑，显示出市场在该价格区间有一定的买盘支持。\n\n支撑位可设定在154.50900，若价格回调至此区域，可能会吸引买盘介入。另一方面，154.57201为重要阻力位，若突破该位，则可能开启更大的上涨空间。交易者可以在支撑位附近寻找买入机会，同时关注阻力位的突破情况。\n\n建议短期内采取逢低买入策略，若价格突破154.57201，则需调整止损以锁定利润。保持对市场动态的关注，适时调整交易策略，以应对潜在的波动风险。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 154.568, reflecting a slight uptick of 0.03% over the past 24 hours. This marginal change indicates a period of consolidation after a recent upward movement. The high of 154.572 and low of 154.509 suggest a tight trading range, which may signal a build-up of momentum. If the pair can break above the recent high, it may attract additional buying interest, potentially pushing the price toward the next resistance level around 155.00.\n\nFrom a technical perspective, the absence of the RSI and MACD signals makes it challenging to gauge market momentum. However, the Simple Moving Average (SMA) at 20 periods is currently positioned at 154.496, acting as a dynamic support level. If the price retraces toward this SMA and holds above it, this could indicate a bullish sentiment. Conversely, if the price breaches the SMA, it may suggest weakening momentum, prompting traders to reassess their positions.\n\nIn terms of support and resistance, the immediate support level is found at 154.509, while key resistance lies just above at 154.572. A break below the support could lead to a test of the next significant level around 154.400. On the flip side, a sustained move above 154.572 may open the door for a challenge of the psychological barrier at 155.00. \n\nConsidering the current market dynamics, traders may look to engage in range-bound strategies, buying near support and selling near resistance. Staying vigilant for any signs of reversal or trend continuation is essential. Monitoring macroeconomic news and events related to both the U.S. and Japanese economies will also be crucial in making informed trading decisions in this context."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-14T21:34:07.659Z",
+  "price": {
+    "close": "1.31721",
+    "high": "1.31738",
+    "low": "1.31688",
+    "open": "1.31688",
+    "change": "0.03",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 52.84212,
+    "macd": 0.00017498454,
+    "macd_signal": 0.000040207747,
+    "sma20": 1.31557
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理中]",
+      "content": "当前英镑/美元在1.31721附近波动，显示出一定的震荡整理趋势。价格在24小时内小幅变化，仅为0.03%。高点和低点相对接近，反映出市场缺乏明确的方向性动能。随着市场情绪的变化，投资者需密切关注即将发布的经济数据及相关消息。\n\n从技术指标来看，当前未提供RSI和信号线数据，使得对超买或超卖状态的判断受到限制。然而，20日简单移动平均线（SMA）在1.31557附近提供了一定的支撑，若价格向下突破该水平，可能会引发进一步的回调。MACD处于微弱的正值，显示出短期内的买方力量略强。\n\n支撑位方面，1.3150是一个重要的心理关口，若有效跌破则有可能测试1.3100的支撑。而在阻力位方面，1.3180和1.3200是关键的技术阻力，若突破将为上涨提供更大的空间。建议投资者在1.3150附近寻找买入机会，而在接近1.3200时考虑获利了结或设定止损。保持灵活的交易策略，及时调整应对市场变动。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently showing a slight upward movement, with the latest price at 1.31721. This modest gain of 0.03% over the last 24 hours indicates a period of consolidation after recent fluctuations. The price has oscillated between 1.31738 and 1.31688, suggesting a tight trading range. Traders should monitor this range closely, as a breakout above 1.31738 could signal a continuation of bullish momentum, potentially targeting higher resistance levels.\n\nIn terms of technical indicators, the absence of RSI and a signal line for MACD limits our ability to analyze momentum comprehensively. However, the existing MACD value at 0.00017498454 implies that momentum is currently neutral. The 20-period Simple Moving Average (SMA) at 1.31557 serves as a dynamic support level, reinforcing the bullish outlook if the price remains above this mark. A close below the SMA may lead to a reevaluation of bullish positions.\n\nKey support levels can be identified around 1.31688, the recent low, while resistance appears at 1.31738. If the price breaks below the support level, it may trigger additional selling pressure, potentially leading towards lower support around 1.31500. Conversely, a successful rally above 1.31738 could pave the way for a test of the 1.32000 psychological barrier, enticing further buying interest.\n\nIn light of the current price action, traders may consider range-bound strategies in the short term, buying near support at 1.31688 while targeting resistance at 1.31738. For more aggressive traders, a breakout above this resistance could present a buying opportunity, while a drop below the SMA warrants caution and possible short positions. Maintaining a disciplined risk management approach will be crucial in navigating this tight trading environment."
+    }
+  }
+}

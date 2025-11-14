@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-14T21:35:26.221Z",
+  "price": {
+    "close": "0.65365",
+    "high": "0.65385",
+    "low": "0.65342",
+    "open": "0.65351",
+    "change": "0.02",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 50.31062,
+    "macd": -0.000048699475,
+    "macd_signal": -0.00020086881,
+    "sma20": 0.6533075
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理，短期偏空]",
+      "content": "当前澳元/美元的最新价格为0.65365，近期价格走势表现出震荡整理的特征。虽然24小时内仅微幅上涨0.02%，但高点与低点的波动范围相对较小，表明市场缺乏强烈的趋势性动能。整体来看，短期内市场情绪偏向谨慎，可能面临向下调整的风险。\n\n从技术指标角度分析，虽然RSI未提供，但MACD显示出微弱的负值，暗示市场动能疲弱。此外，短期的SMA(20)在0.6533075附近提供了一定的支撑作用，但若价格持续低于此水平，可能引发进一步的下行压力。投资者需关注即将公布的经济数据，以判断市场情绪的变化。\n\n支撑位方面，0.65342是一个关键的支撑水平，一旦跌破，可能会扩大下行空间；而阻力位则在0.65385，若价格突破此位，将有助于恢复短期上涨趋势。结合当前市场情况，建议投资者保持观望，谨慎布局，待价格确认突破信号后再做决策，以降低风险。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar against the US Dollar (AUD/USD) is currently trading at 0.65365, showing slight movement with a 24-hour change of 0.02%. This price is situated close to the recent high of 0.65385, which suggests a potential resistance level. The overall trend appears to be consolidating within a narrow range, indicating indecision in the market. Traders should observe how the price reacts around these levels to gauge the next significant direction.\n\nThe lack of available RSI data limits our ability to assess momentum in the market. However, the MACD reading of -0.0000487 indicates a bearish sentiment, as it remains below zero. This could imply that the bearish trend may continue unless we see a significant turnaround. Monitoring these indicators will be crucial in determining potential entry or exit points for trades, especially if the MACD crosses above its signal line in the future.\n\nIn terms of support and resistance levels, the recent low at 0.65342 serves as an immediate support level. A break below this could trigger further downward movement, potentially targeting lower levels. Conversely, if the price can maintain above the SMA(20) of 0.6533075 and convincingly breach the resistance at 0.65385, it may open the door for a bullish reversal. Traders should keep these levels in mind when planning their strategies.\n\nGiven the current market dynamics, a cautious approach is advisable. Traders might consider buying if the price breaks and holds above the SMA(20), confirming bullish momentum. Alternatively, a sell strategy could be appropriate if the price breaks below the support level, especially with the ongoing bearish MACD signal. Employing stop-loss orders around these critical levels can help manage risk effectively in this uncertain environment."
+    }
+  }
+}
