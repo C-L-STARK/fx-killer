@@ -5,20 +5,11 @@ import { revalidatePath } from 'next/cache';
 /**
  * POST /api/brand/switch
  * Switch to a different brand preset
- * FOR DEVELOPMENT/TESTING ONLY
  *
  * Body: { presetName: string }
  */
 export async function POST(request: Request) {
   try {
-    // Only allow in development mode
-    if (process.env.NODE_ENV !== 'development') {
-      return NextResponse.json(
-        { error: 'This endpoint is only available in development mode' },
-        { status: 403 }
-      );
-    }
-
     const { presetName } = await request.json();
 
     if (!presetName) {
