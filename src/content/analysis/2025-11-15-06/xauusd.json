@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-15T06:56:29.747Z",
+  "price": {
+    "close": "4080.53863",
+    "high": "4080.63899",
+    "low": "4080.38563",
+    "open": "4080.45864",
+    "change": "0.00",
+    "datetime": "2025-11-15 17:00:00"
+  },
+  "indicators": {
+    "rsi": 32.33409,
+    "macd": -20.44719,
+    "macd_signal": -23.077533,
+    "sma20": 4087.70069
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，观望为主]",
+      "content": "当前黄金/美元(XAU/USD)价格在4080.53附近震荡整理，日内波动幅度较小，未能突破前期高点4080.63899。整体来看，价格维持在一个相对窄幅的区间内，市场情绪较为谨慎，投资者应保持观望姿态，等待明确的方向信号。\n\n从技术指标来看，MACD呈现负值，表明短期内卖压较重，但由于RSI数据缺失，难以全面判断超买或超卖状态。然而，20日简单移动平均线(SMA)在4087.70069，形成了一个潜在的阻力位，若价格反弹至该区域，可能会面临较强的卖出压力。\n\n支撑位方面，4080.38563一线为多头的关键防线，若价格跌破此位，可能会加剧市场的下行压力，进一步测试下方支撑区域。投资者应关注这些关键价位，以制定相应的交易策略。\n\n建议投资者在当前市场环境下采取谨慎态度，避免盲目追多或追空。可以考虑在价格接近阻力位时设置止损单，若价格向下突破支撑位，再考虑适量放空，保持灵活应变的交易策略。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current market data for XAU/USD shows that gold is trading at 4080.54, remaining stable with a 24-hour change of 0.00%. The price has oscillated between a high of 4080.64 and a low of 4080.39, indicating a narrow range that suggests a period of consolidation. This stability may point to indecision among traders, as they await further catalysts that could drive gold prices higher or lower. Without a clear directional trend, market participants should remain cautious.\n\nTechnical indicators present a mixed picture. The MACD reading of -20.45 suggests bearish momentum, as the negative value indicates that recent price action has been weaker compared to historical performance. The lack of a recent RSI reading makes it challenging to assess whether gold is overbought or oversold. However, the SMA(20) at 4087.70 is above the current price, reinforcing the notion of potential resistance. Traders should monitor these indicators closely for signs of a trend reversal.\n\nSupport and resistance levels will be critical in the near term. The immediate resistance level appears to be around 4087.70, where selling pressure may emerge if the price attempts to breach this area. Conversely, support can be identified at approximately 4080.39, which has held in the past. A break below this level could lead to further declines, while a sustained move above the resistance level could open the door for upward momentum.\n\nIn light of the current analysis, traders might consider a wait-and-see approach. Those with a bullish outlook could look for entry points near the support level, placing stop-loss orders just below it to manage risk. Conversely, if the price breaks above the resistance level, it may present a buying opportunity. Caution is warranted, as the lack of strong momentum indicators suggests that volatility could increase with upcoming market developments."
+    }
+  }
+}
