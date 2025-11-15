@@ -230,16 +230,8 @@ export default function MarketDetailClient({ analysis, language }: MarketDetailC
               </div>
             </div>
 
-            {/* TradingView Chart */}
-            <div className="mt-8 bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-800 p-6">
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                {isZh ? '实时图表' : 'Live Chart'}
-              </h3>
-              <TradingViewWidget symbol={analysis.symbol.replace('/', '')} />
-            </div>
-
             {/* Back Button */}
-            <div className="mt-6 text-center">
+            <div className="mt-8 text-center">
               <Link
                 href={`/${language}/market-analysis`}
                 className="inline-flex items-center gap-2 px-8 py-4 bg-black dark:bg-white text-white dark:text-black font-bold hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors border-2 border-black dark:border-white"
@@ -249,6 +241,18 @@ export default function MarketDetailClient({ analysis, language }: MarketDetailC
               </Link>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* TradingView Chart - Full Width */}
+      <div className="w-full bg-white dark:bg-gray-900 border-y-2 border-gray-200 dark:border-gray-800">
+        <div className="w-full py-8 px-6">
+          <div className="max-w-7xl mx-auto mb-6">
+            <h3 className="text-3xl font-bold text-gray-900 dark:text-white">
+              {isZh ? '实时图表' : 'Live Chart'}
+            </h3>
+          </div>
+          <TradingViewWidget symbol={analysis.symbol.replace('/', '')} />
         </div>
       </div>
 

@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-15T03:32:11.805Z",
+  "price": {
+    "close": "154.49300",
+    "high": "154.59801",
+    "low": "154.45900",
+    "open": "154.53000",
+    "change": "-0.02",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.52351,
+    "macd": -0.005667208,
+    "macd_signal": -0.019554233,
+    "sma20": 154.4924
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理趋势]",
+      "content": "当前美元/日元（USD/JPY）在154.49附近震荡整理，显示出短期内缺乏方向性。价格未能突破154.60的高点，表明市场上行动能不足。同时，考虑到24小时的微幅下跌，可能意味着市场参与者正在观望未来的经济数据或政策变化。\n\n从技术指标来看，当前RSI尚未提供明确信号，而MACD指标显示出微弱的负值，暗示短期内可能面临下行压力。20日简单移动平均线（SMA）在154.49附近，与当前价格相近，提供一定的支撑，但未能显著推动市场向上突破。\n\n支撑位方面，154.46一线可能成为重要的心理支点，如果价格回调至此并得到买盘支撑，则可能迎来反弹。反之，若跌破该支撑，可能会进一步下探至154.30区域。阻力位则在154.60和154.70，投资者需密切关注这些关键水平的突破情况。\n\n在交易策略上，建议投资者采取谨慎态度，短期内可考虑在154.46附近寻找买入机会，并将止损设定在154.40以下。而若价格突破154.60，则可考虑加仓，目标指向154.70，关注市场情绪变化，灵活调整策略。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY currency pair is currently trading at 154.493, reflecting a slight decline of 0.02% over the past 24 hours. This minor pullback follows a recent period of stability, with the pair oscillating between a high of 154.598 and a low of 154.459. The broader trend appears to be bullish, as prices remain well above the 20-day simple moving average (SMA) of 154.49240, indicating that buyers continue to maintain control in the market. A close above this SMA could further reinforce the bullish momentum.\n\nIn terms of technical indicators, the MACD shows a slight negative value at -0.00567, suggesting potential weakening momentum, although the absence of a signal line complicates the interpretation. Traders should monitor for any divergence in the MACD, as this could indicate a reversal or continuation of the current trend. The RSI is not available, but should it be introduced, levels above 70 would indicate overbought conditions, while levels below 30 would suggest oversold conditions, providing additional insights into market sentiment.\n\nKey support and resistance levels are critical for short-term trading strategies. The immediate support level is observed around 154.459, where buying interest may emerge if prices retrace. Conversely, resistance is noted at 154.598, which could act as a barrier for further upward movement. A break above this resistance might trigger additional bullish sentiment, paving the way for a test of higher levels.\n\nFor trading strategies, maintaining a watchful eye on price action around these levels is essential. Traders could consider entering long positions near the support level, with a stop-loss set just below it to manage risk. Conversely, a breakout above resistance could present opportunities for aggressive buyers, with potential targets set at psychological levels such as 155.00. Staying informed about macroeconomic indicators and central bank policies will also enhance decision-making in this active currency pair."
+    }
+  }
+}
