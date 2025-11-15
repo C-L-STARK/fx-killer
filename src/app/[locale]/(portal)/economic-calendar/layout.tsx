@@ -1,8 +1,10 @@
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getBrandConfig } from '@/lib/brand-config';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
 
   return generateBilingualMetadata(
     '经济日历 - 实时追踪全球重要经济事件丨汇刃丨职业交易员培训、日内交易员培训',
@@ -12,6 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     '经济日历, 财经日历, 职业交易员培训, 日内交易员培训, 非农数据, CPI数据, GDP数据, 美联储会议, 央行决议, 经济指标, 市场事件, 外汇日历',
     'economic calendar, financial calendar, professional trader training, day trader training, NFP data, CPI data, GDP data, Fed meeting, central bank decision, economic indicators, market events, forex calendar',
     lang,
+    brandConfig,
     {
       url: '/economic-calendar',
       type: 'website',
