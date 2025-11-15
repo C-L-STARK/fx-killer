@@ -1,10 +1,12 @@
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getBrandConfig } from '@/lib/brand-config';
 import { macdIndicatorContent } from '@/content/education/macd-indicator.content';
 import EducationPageTemplate from '@/components/education/EducationPageTemplate';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
 
   return generateBilingualMetadata(
     macdIndicatorContent.zh.title,
@@ -13,13 +15,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     macdIndicatorContent.en.description,
     macdIndicatorContent.zh.keywords,
     macdIndicatorContent.en.keywords,
-    lang
+    lang,
+    brandConfig
   );
 }
 
 export default async function MACDIndicatorPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
   const content = macdIndicatorContent[lang];
   const isZh = lang === 'zh';
 

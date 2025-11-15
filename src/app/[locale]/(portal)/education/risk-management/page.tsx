@@ -1,10 +1,12 @@
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getBrandConfig } from '@/lib/brand-config';
 import { riskManagementContent } from '@/content/education/risk-management.content';
 import EducationPageTemplate from '@/components/education/EducationPageTemplate';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
 
   return generateBilingualMetadata(
     riskManagementContent.zh.title,
@@ -13,13 +15,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     riskManagementContent.en.description,
     riskManagementContent.zh.keywords,
     riskManagementContent.en.keywords,
-    lang
+    lang,
+    brandConfig
   );
 }
 
 export default async function RiskManagementPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
   const content = riskManagementContent[lang];
   const isZh = lang === 'zh';
 

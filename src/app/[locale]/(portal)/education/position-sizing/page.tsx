@@ -1,10 +1,12 @@
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getBrandConfig } from '@/lib/brand-config';
 import { positionSizingContent } from '@/content/education/position-sizing.content';
 import EducationPageTemplate from '@/components/education/EducationPageTemplate';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
 
   return generateBilingualMetadata(
     positionSizingContent.zh.title,
@@ -13,13 +15,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     positionSizingContent.en.description,
     positionSizingContent.zh.keywords,
     positionSizingContent.en.keywords,
-    lang
+    lang,
+    brandConfig
   );
 }
 
 export default async function PositionSizingPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
   const content = positionSizingContent[lang];
   const isZh = lang === 'zh';
 

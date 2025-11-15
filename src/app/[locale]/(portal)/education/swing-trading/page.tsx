@@ -1,10 +1,12 @@
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getBrandConfig } from '@/lib/brand-config';
 import { swingTradingContent } from '@/content/education/swing-trading.content';
 import EducationPageTemplate from '@/components/education/EducationPageTemplate';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
 
   return generateBilingualMetadata(
     swingTradingContent.zh.title,
@@ -13,13 +15,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     swingTradingContent.en.description,
     swingTradingContent.zh.keywords,
     swingTradingContent.en.keywords,
-    lang
+    lang,
+    brandConfig
   );
 }
 
 export default async function SwingTradingPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
   const content = swingTradingContent[lang];
   const isZh = lang === 'zh';
 

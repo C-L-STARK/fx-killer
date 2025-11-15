@@ -1,10 +1,12 @@
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getBrandConfig } from '@/lib/brand-config';
 import { rsiIndicatorContent } from '@/content/education/rsi-indicator.content';
 import EducationPageTemplate from '@/components/education/EducationPageTemplate';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
 
   return generateBilingualMetadata(
     rsiIndicatorContent.zh.title,
@@ -13,13 +15,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     rsiIndicatorContent.en.description,
     rsiIndicatorContent.zh.keywords,
     rsiIndicatorContent.en.keywords,
-    lang
+    lang,
+    brandConfig
   );
 }
 
 export default async function RSIIndicatorPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
   const content = rsiIndicatorContent[lang];
   const isZh = lang === 'zh';
 

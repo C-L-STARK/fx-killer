@@ -1,10 +1,12 @@
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getBrandConfig } from '@/lib/brand-config';
 import { tradingSessionsContent } from '@/content/education/trading-sessions-guide.content';
 import EducationPageTemplate from '@/components/education/EducationPageTemplate';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
   const content = tradingSessionsContent[lang];
 
   return generateBilingualMetadata(
@@ -14,13 +16,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     tradingSessionsContent.en.description,
     tradingSessionsContent.zh.keywords,
     tradingSessionsContent.en.keywords,
-    lang
+    lang,
+    brandConfig
   );
 }
 
 export default async function TradingSessionsGuidePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
   const content = tradingSessionsContent[lang];
   const isZh = lang === 'zh';
 

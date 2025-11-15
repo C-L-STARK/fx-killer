@@ -1,10 +1,12 @@
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getBrandConfig } from '@/lib/brand-config';
 import { leverageMarginContent } from '@/content/education/leverage-and-margin.content';
 import EducationPageTemplate from '@/components/education/EducationPageTemplate';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
   const content = leverageMarginContent[lang];
 
   return generateBilingualMetadata(
@@ -14,13 +16,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     leverageMarginContent.en.description,
     leverageMarginContent.zh.keywords,
     leverageMarginContent.en.keywords,
-    lang
+    lang,
+    brandConfig
   );
 }
 
 export default async function LeverageMarginPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
   const content = leverageMarginContent[lang];
   const isZh = lang === 'zh';
 

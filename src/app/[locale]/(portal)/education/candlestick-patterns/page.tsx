@@ -1,10 +1,12 @@
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getBrandConfig } from '@/lib/brand-config';
 import { candlestickPatternsContent } from '@/content/education/candlestick-patterns.content';
 import EducationPageTemplate from '@/components/education/EducationPageTemplate';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
 
   return generateBilingualMetadata(
     candlestickPatternsContent.zh.title,
@@ -13,13 +15,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     candlestickPatternsContent.en.description,
     candlestickPatternsContent.zh.keywords,
     candlestickPatternsContent.en.keywords,
-    lang
+    lang,
+    brandConfig
   );
 }
 
 export default async function CandlestickPatternsPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
   const content = candlestickPatternsContent[lang];
   const isZh = lang === 'zh';
 

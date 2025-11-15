@@ -1,10 +1,12 @@
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getBrandConfig } from '@/lib/brand-config';
 import { bollingerBandsContent } from '@/content/education/bollinger-bands.content';
 import EducationPageTemplate from '@/components/education/EducationPageTemplate';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
 
   return generateBilingualMetadata(
     bollingerBandsContent.zh.title,
@@ -13,7 +15,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     bollingerBandsContent.en.description,
     bollingerBandsContent.zh.keywords,
     bollingerBandsContent.en.keywords,
-    lang
+    lang,
+    brandConfig
   );
 }
 

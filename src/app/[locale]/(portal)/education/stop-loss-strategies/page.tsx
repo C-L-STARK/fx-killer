@@ -1,10 +1,12 @@
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getBrandConfig } from '@/lib/brand-config';
 import { stopLossStrategiesContent } from '@/content/education/stop-loss-strategies.content';
 import EducationPageTemplate from '@/components/education/EducationPageTemplate';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
 
   return generateBilingualMetadata(
     stopLossStrategiesContent.zh.title,
@@ -13,13 +15,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     stopLossStrategiesContent.en.description,
     stopLossStrategiesContent.zh.keywords,
     stopLossStrategiesContent.en.keywords,
-    lang
+    lang,
+    brandConfig
   );
 }
 
 export default async function StopLossStrategiesPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
   const content = stopLossStrategiesContent[lang];
   const isZh = lang === 'zh';
 

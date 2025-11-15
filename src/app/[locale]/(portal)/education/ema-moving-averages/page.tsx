@@ -1,10 +1,12 @@
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getBrandConfig } from '@/lib/brand-config';
 import { emaMovingAveragesContent } from '@/content/education/ema-moving-averages.content';
 import EducationPageTemplate from '@/components/education/EducationPageTemplate';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
 
   return generateBilingualMetadata(
     emaMovingAveragesContent.zh.title,
@@ -13,13 +15,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     emaMovingAveragesContent.en.description,
     emaMovingAveragesContent.zh.keywords,
     emaMovingAveragesContent.en.keywords,
-    lang
+    lang,
+    brandConfig
   );
 }
 
 export default async function EMAMovingAveragesPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
   const content = emaMovingAveragesContent[lang];
   const isZh = lang === 'zh';
 

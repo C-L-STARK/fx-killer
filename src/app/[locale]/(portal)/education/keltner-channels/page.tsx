@@ -1,10 +1,12 @@
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getBrandConfig } from '@/lib/brand-config';
 import { keltnerChannelsContent } from '@/content/education/keltner-channels.content';
 import EducationPageTemplate from '@/components/education/EducationPageTemplate';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
 
   return generateBilingualMetadata(
     keltnerChannelsContent.zh.title,
@@ -13,13 +15,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     keltnerChannelsContent.en.description,
     keltnerChannelsContent.zh.keywords,
     keltnerChannelsContent.en.keywords,
-    lang
+    lang,
+    brandConfig
   );
 }
 
 export default async function KeltnerChannelsPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
   const content = keltnerChannelsContent[lang];
   const isZh = lang === 'zh';
 

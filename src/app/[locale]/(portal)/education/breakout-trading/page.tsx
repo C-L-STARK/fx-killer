@@ -1,10 +1,12 @@
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getBrandConfig } from '@/lib/brand-config';
 import { breakoutTradingContent } from '@/content/education/breakout-trading.content';
 import EducationPageTemplate from '@/components/education/EducationPageTemplate';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
 
   return generateBilingualMetadata(
     breakoutTradingContent.zh.title,
@@ -13,13 +15,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     breakoutTradingContent.en.description,
     breakoutTradingContent.zh.keywords,
     breakoutTradingContent.en.keywords,
-    lang
+    lang,
+    brandConfig
   );
 }
 
 export default async function BreakoutTradingPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
   const content = breakoutTradingContent[lang];
   const isZh = lang === 'zh';
 
