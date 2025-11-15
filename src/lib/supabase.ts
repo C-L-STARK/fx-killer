@@ -1,14 +1,14 @@
 import { createClient } from '@supabase/supabase-js';
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
+const supabaseUrl = process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL || '';
+const supabaseKey = process.env.SUPABASE_KEY || process.env.NEXT_PUBLIC_SUPABASE_KEY || '';
 
 if (!supabaseUrl) {
-  console.warn('NEXT_PUBLIC_SUPABASE_URL is not defined in environment variables');
+  console.warn('SUPABASE_URL is not defined in environment variables');
 }
 
 if (!supabaseKey) {
-  console.warn('NEXT_PUBLIC_SUPABASE_ANON_KEY is not defined in environment variables');
+  console.warn('SUPABASE_KEY is not defined in environment variables');
 }
 
 export const supabase = createClient(supabaseUrl, supabaseKey);
