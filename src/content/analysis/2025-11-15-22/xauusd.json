@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-15T22:51:19.544Z",
+  "price": {
+    "close": "4080.42743",
+    "high": "4080.64181",
+    "low": "4080.39587",
+    "open": "4080.45682",
+    "change": "-0.00",
+    "datetime": "2025-11-15 23:00:00"
+  },
+  "indicators": {
+    "rsi": 32.27506,
+    "macd": -14.35388,
+    "macd_signal": -17.98936,
+    "sma20": 4083.16397
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理趋势]",
+      "content": "当前黄金/美元(XAU/USD)价格在4080.43附近，整体表现出震荡整理的趋势。尽管价格波动不大，当前的高点和低点相对接近，说明市场缺乏明确的方向性。在这种情况下，投资者需关注短期内的波动，以便寻找合适的交易机会。\n\n从技术指标来看，MACD指标显示出负值，表明近期市场可能存在一定的卖压。然而，RSI未提供，无法确定是否处于超买或超卖区域。20日简单移动平均线(SMA)位于4083.16，显示出短期内的阻力位，若价格突破该水平，可能会重新测试更高价位。\n\n支撑位方面，当前的低点4080.40可能成为重要支撑，若跌破该水平，可能会引发进一步回调，甚至测试更低水平。建议交易者在此区间内谨慎操作，关注价格突破情况。如果价格突破4083.16，可考虑做多，反之，则可考虑做空，设置止损以控制风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The recent price action of Gold against the US Dollar (XAU/USD) indicates a period of consolidation, with the latest price hovering around 4080.43. The market has shown a slight bearish bias, as reflected by the 24-hour change of -0.00%, suggesting indecision among traders. The price has oscillated within a narrow range, with a high of 4080.64 and a low of 4080.40, indicating a potential for breakout in either direction. Traders should monitor this tight range closely, as a decisive movement could signal the next trend.\n\nFrom a technical perspective, the absence of the RSI and Signal values makes it challenging to assess momentum effectively. However, the MACD reading of -14.35 indicates a bearish sentiment, as the MACD line is below the zero line. This could suggest further downside potential if selling pressure persists. Additionally, the SMA(20) at 4083.16 is currently acting as a dynamic resistance level. A sustained move above this average could signal a shift in sentiment, while a failure to break this level could reinforce bearish outlooks.\n\nSupport levels are critical in this context, with the recent low of 4080.40 acting as a key threshold. A breach below this support could trigger further declines, potentially targeting lower psychological levels. Conversely, if the price manages to hold above this support, it may attract buyers looking for a reversal. The interplay between these levels will be vital in determining the short-term outlook for XAU/USD.\n\nTraders may consider a cautious approach in the current environment, focusing on breakout strategies. Should the price decisively close above the SMA(20), it would be prudent to enter long positions, setting targets near the recent highs. Conversely, if the price breaks below established support, short positions could be warranted, with stop-loss orders placed near resistance levels to manage risk effectively."
+    }
+  }
+}

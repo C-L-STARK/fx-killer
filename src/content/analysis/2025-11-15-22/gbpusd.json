@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-15T22:47:13.072Z",
+  "price": {
+    "close": "1.31747",
+    "high": "1.31749",
+    "low": "1.31660",
+    "open": "1.31688",
+    "change": "0.04",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 56.053543,
+    "macd": 0.00024417619,
+    "macd_signal": 0.000054046077,
+    "sma20": 1.31561
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理中的小幅回升]",
+      "content": "当前英镑/美元（GBP/USD）价格为1.31747，近期走势表现出震荡整理的特征。虽然24小时内仅微幅变化0.04%，但价格已接近近期高点1.31749，显示出一定的上行动能。投资者需关注市场情绪及基本面变化，以便捕捉潜在的突破机会。\n\n技术指标方面，虽然当前的RSI不详，但MACD显示出微弱的正值，暗示短期内可能维持横盘整理或小幅上行。SMA(20)位于1.31561，作为短期趋势的参考，价格稳健维持在该均线之上进一步支撑了上行走势的可能性。\n\n在支撑与阻力方面，当前支撑位可以设定在1.31660，若价格回落至此水平，可能会引发买入兴趣。另一方面，若价格突破1.31749的高点，后续可能测试更高的阻力位。综合考虑，建议交易者在接近支撑位时寻找买入机会，若确认突破则可以考虑追多。务必保持风险控制，选择合适的止损策略。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently trading at 1.31747, showing a slight upward movement of 0.04% over the past 24 hours. This minor increase suggests that the market is experiencing a period of consolidation within a tight range. The recent high of 1.31749 and low of 1.31660 indicate a lack of significant volatility, which could imply that traders are waiting for stronger market signals before committing to larger positions. Overall, the current trend appears neutral, yet it remains poised for potential breakout scenarios.\n\nIn terms of technical indicators, the SMA(20) at 1.31561 serves as a critical support level. This moving average indicates that the price action is currently above this level, which is bullish in nature. However, the absence of an RSI reading limits our ability to assess overbought or oversold conditions, leaving some uncertainty regarding market momentum. The MACD value of 0.00024417619 suggests a weak bullish sentiment, but further confirmation from additional indicators would be beneficial for more robust analysis.\n\nKey support is identified at the SMA(20) around 1.31561, while immediate resistance can be placed at the recent high of 1.31749. A break above this resistance level could signal a bullish continuation, potentially targeting levels around 1.3200. Conversely, should the price decline and breach the support at 1.31561, it may open the door for a deeper correction, with subsequent support around 1.31400. Traders should watch these levels closely for any signs of reversal or continuation.\n\nGiven the current market conditions, traders might consider a cautious approach. A breakout above 1.31749 could present a buying opportunity, while a failure to hold above the SMA(20) could warrant a short position. Risk management remains essential, particularly in a market characterized by low volatility, as unexpected price movements can still occur. As always, staying informed on economic news and events is crucial for making timely trading decisions."
+    }
+  }
+}
