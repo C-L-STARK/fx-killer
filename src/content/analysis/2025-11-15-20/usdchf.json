@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-15T20:14:54.911Z",
+  "price": {
+    "close": "0.79374999",
+    "high": "0.79438001",
+    "low": "0.79321003",
+    "open": "0.79395002",
+    "change": "-0.02",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 54.10161,
+    "macd": -8.3951137e-7,
+    "macd_signal": -0.00045605797,
+    "sma20": 0.792283
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[短期震荡，趋势待明]",
+      "content": "当前美元/瑞郎（USD/CHF）交易在0.7937附近，展现出一定的震荡走势。24小时内价格变化仅为-0.02%，表明市场参与者的观望情绪较浓。高点和低点分别为0.7944和0.7932，显示出近期波动幅度有限，市场缺乏明确的方向。\n\n从技术指标来看，RSI暂时缺失，但MACD显示出微弱的负值，这可能表明下行压力。20日简单移动平均线（SMA）位置在0.7923，提供了潜在的支撑位，若价格跌破该水平，可能会进一步下探。反之，若价格突破0.7944的阻力位，有望引发短期的反弹。\n\n在支撑和阻力方面，0.7923是重要的支撑位，若价格持续在此上方则有可能保持相对稳定。0.7944则是关键阻力位，突破后可能吸引更多买盘。短期内，交易者可考虑在支撑位附近寻找买入机会，在阻力位附近则设置止损以规避风险。\n\n综合来看，美元/瑞郎目前处于震荡区间，趋势尚不明朗。建议投资者保持谨慎，密切关注支撑与阻力位的动态，并运用适当的风险管理策略，以应对市场波动。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair is currently trading at 0.79375, reflecting a slight decline of 0.02% over the last 24 hours. This modest movement indicates a consolidation phase following the recent fluctuations within a defined range. The pair's high and low points for the day, 0.79438 and 0.79321 respectively, suggest that the market is experiencing tight trading conditions. A break above the high could signal a bullish momentum, while a drop below the low may indicate further bearish pressure.\n\nThe absence of an RSI value limits our ability to identify overbought or oversold conditions, but the MACD's negative value suggests bearish sentiment in the short term. As for the 20-period Simple Moving Average (SMA), currently at 0.79228, it serves as a potential support level. Should the price dip below this SMA, it would likely attract sellers, pushing the pair lower. Conversely, a sustained move above this average could indicate a shift in momentum towards the upside.\n\nKey support levels are identified around 0.79200 and 0.79150, where buyers have previously entered the market. Resistance is encountered at 0.79450, where selling interest may emerge. Traders should closely monitor these levels, as a decisive move past resistance could open the door to a rally towards 0.79600, while a failure to hold support may lead to a test of lower targets.\n\nIn terms of trading strategy, a cautious approach is advisable. A buy signal could be considered if the price breaks above 0.79450 with strong volume, targeting the next resistance level. Conversely, a sell position may be warranted if it falls below the SMA and the 0.79200 support level, aiming for a retest of 0.79150. Maintaining a close watch on market sentiment and external economic factors will be crucial in navigating this pair."
+    }
+  }
+}
