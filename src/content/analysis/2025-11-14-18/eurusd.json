@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-14T18:54:31.513Z",
+  "price": {
+    "close": "1.16156",
+    "high": "1.16179",
+    "low": "1.16094",
+    "open": "1.16145",
+    "change": "0.01",
+    "datetime": "2025-11-15 05:00:00"
+  },
+  "indicators": {
+    "rsi": 45.25529,
+    "macd": -0.00012092962,
+    "macd_signal": 0.00021276927,
+    "sma20": 1.16296
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理趋势]",
+      "content": "当前欧元/美元(EUR/USD)的价格为1.16156，整体呈现震荡整理的趋势。从24小时变化来看，仅上涨0.01%，显示出市场缺乏明确的方向。价格在近期高点1.16179和低点1.16094之间波动，反映出市场参与者对当前价格水平的犹豫。\n\n技术指标方面，虽然RSI(14)数据缺失，但从MACD来看，当前值为-0.00012092962，显示出短期内动能偏弱。20日简单移动平均线(SMA)为1.16296，价格低于该水平，进一步确认了当前的下行压力。市场可能在这一水平附近展开调整，需关注是否会出现反弹。\n\n支撑位方面，1.16094为关键支撑线，若价格突破该水平，可能会加速下行。而在阻力位方面，1.16296将是短期内的重要阻力位，若突破该水平，可能会重新引发多头进场。建议投资者在支撑位附近寻找买入机会，并在阻力位附近设置止盈，以规避风险。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD pair is currently trading at 1.16156, displaying a slight upward movement of 0.01% over the past 24 hours. The recent price action has been relatively subdued, confined within a narrow range of 1.16179 as the high and 1.16094 as the low. This tight trading range suggests a lack of strong momentum, indicating that market participants may be waiting for a catalyst to drive the pair in one direction or the other. The overall trend remains neutral, but a crucial break above the recent high could signal a potential bullish reversal.\n\nIn terms of technical indicators, the absence of an RSI value limits our ability to assess overbought or oversold conditions. However, the MACD reading of -0.00012092962 indicates a slight bearish sentiment, suggesting that the momentum is currently favoring sellers, albeit marginally. The SMA(20) at 1.16296 is positioned above the current price, further emphasizing the immediate downside pressure. Traders should keep an eye on these indicators for any potential crossovers or changes that could indicate a shift in market sentiment.\n\nKey support levels are found at 1.16094, with additional support around 1.16000. If the price breaks below this level, further declines could ensue, potentially targeting the 1.15800 zone. Conversely, resistance is noted at the SMA(20) level of 1.16296, which if breached, could pave the way for a retest of higher levels, possibly approaching 1.16500. Traders may consider setting buy orders near the support level, while sell orders could be strategically placed just below the resistance level to capitalize on potential reversals.\n\nOverall, the current market conditions suggest a cautious approach is warranted. A wait-and-see attitude may be beneficial as traders monitor for clearer signals from both price action and technical indicators. Establishing clear entry and exit points based on the identified support and resistance levels will be crucial in navigating the potential volatility ahead."
+    }
+  }
+}

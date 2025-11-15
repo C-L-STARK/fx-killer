@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-14T18:56:31.461Z",
+  "price": {
+    "close": "0.65365",
+    "high": "0.65425",
+    "low": "0.65339",
+    "open": "0.65422",
+    "change": "-0.09",
+    "datetime": "2025-11-15 05:00:00"
+  },
+  "indicators": {
+    "rsi": 50.32742,
+    "macd": -0.000097876888,
+    "macd_signal": -0.00033738561,
+    "sma20": 0.653262
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理中]",
+      "content": "当前AUD/USD的市场表现显示出震荡整理的趋势。最新价格为0.65365，24小时内微跌0.09%。在高点0.65425和低点0.65339之间波动，显示出市场缺乏明确的方向性。短期内，价格在该区间内运行，可能会继续保持这种状态，除非出现强烈的基本面驱动。\n\n技术指标方面，虽然RSI数据尚未提供，但MACD显示出微弱的负值，这表明当前动能相对疲软。20日简单移动平均线（SMA）在0.653262附近，为价格提供了一定的支撑。若价格下破此支撑位，可能会导致进一步的下行风险。\n\n支撑位方面，0.65339为重要的心理支撑位，若跌破该水平，则可能加速回调至0.6500附近。而阻力位则在0.65425，若突破则可能打开进一步上涨的空间，挑战0.6560水平。交易者需密切关注这些水平的突破情况，以决定入市时机。\n\n综合来看，建议交易者在当前区间内进行短线操作，关注支撑和阻力位的变化。若市场能突破0.65425，可考虑多头布局，反之则寻求空头机会。同时，要保持谨慎，设置好止损以管理风险。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.65365, reflecting a slight decline of 0.09% over the last 24 hours. This small downward movement suggests a consolidation phase following recent volatility. The high and low for the day, 0.65425 and 0.65339 respectively, indicate a tight trading range, which may point to indecision among market participants. A break above 0.65425 could signal a potential bullish reversal, while a move below 0.65339 may reinforce bearish sentiment.\n\nFrom a technical analysis perspective, the Simple Moving Average (SMA) of 20 periods sits at 0.653262, serving as a dynamic support level. The price is currently above this SMA, indicating a potential bullish bias in the short term. However, the MACD value of -0.0001 suggests that momentum is weak, which could limit upward movement. Traders should closely monitor the SMA as a critical level; a close below it may trigger selling pressure.\n\nThe Relative Strength Index (RSI) is currently unavailable, but if it were accessible, it would provide further insights into overbought or oversold conditions. Should the RSI approach levels above 70, it would indicate overbought conditions, while levels below 30 would suggest oversold territory. As the market stands, traders should be vigilant for any shifts in momentum, particularly as price action approaches established support or resistance levels.\n\nFor trading strategies, a cautious approach is advisable. Consider placing buy orders above the resistance level at 0.65425 with tight stop-losses to manage risk. Conversely, selling pressure may emerge if the price breaches the SMA support at 0.653262. This dual approach allows traders to capitalize on potential breakouts while safeguarding against adverse movements in this relatively stable trading environment."
+    }
+  }
+}

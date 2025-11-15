@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-14T18:57:54.026Z",
+  "price": {
+    "close": "0.56805271",
+    "high": "0.56824642",
+    "low": "0.56776243",
+    "open": "0.56824642",
+    "change": "-0.06",
+    "datetime": "2025-11-15 05:00:00"
+  },
+  "indicators": {
+    "rsi": 52.60359,
+    "macd": 0.00043488256,
+    "macd_signal": 0.00045778139,
+    "sma20": 0.56799282
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋势]",
+      "content": "当前纽元/美元(NZD/USD)在0.5680附近震荡整理，整体趋势表现出一定的弱势。虽然价格在过去24小时内小幅下跌0.06%，但仍在高点和低点之间波动，显示出市场缺乏明确的方向。投资者需关注即将到来的经济数据，以判断市场的进一步走向。\n\n技术指标方面，当前RSI(14)数据未提供，但从MACD来看，0.00043488256的值显示出多头略占优势，可能预示短期内的反弹机会。SMA(20)为0.56799282，价格略高于该均线，表明短期内可能会有支撑作用，投资者可密切关注这一水平。\n\n在支撑和阻力位方面，支撑位可设定在0.5678附近，而阻力位则在0.5682附近。若价格突破0.5682，可能会引发进一步上涨；反之，如果跌破0.5678，则可能会加速下行。投资者应保持警惕，及时调整策略。\n\n建议投资者在当前价位附近寻找短线交易机会，若价格反弹至0.5682可考虑做空，而若跌破0.5678则应考虑止损或平仓。保持灵活应变，关注市场动态，合理控制风险。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.5680, reflecting a minor decline of 0.06% over the past 24 hours. The price action has been relatively stable, with the high and low for the day recorded at 0.5682 and 0.5678, respectively. This suggests that the pair is experiencing a consolidation phase, oscillating within a narrow range. Traders should closely monitor this range for signs of a breakout, as a sustained move above 0.5682 could signal a bullish reversal, while a break below 0.5678 may indicate further bearish pressure.\n\nFrom a technical standpoint, the absence of a clear RSI(14) reading limits our ability to assess overbought or oversold conditions effectively. However, the MACD value of 0.0004 indicates potential bullish momentum, although the lack of a defined signal line might imply caution. The 20-period Simple Moving Average (SMA) at 0.5680 acts as a dynamic support level, providing a base for potential upward movement. If the price holds above this SMA, traders may consider it a signal to explore long positions, especially if supported by a confirmed increase in volume.\n\nIn terms of support and resistance levels, the immediate support appears to be at 0.5678, while resistance is identified at 0.5682. Should the price break through these levels, the next significant resistance could be targeted around 0.5700, whereas a sustained drop below 0.5678 could lead to a test of 0.5650. Monitoring these levels will be crucial for traders seeking to capitalize on potential price movements in either direction.\n\nFor trading strategies, considering the current range and indicators, a cautious approach is warranted. Traders might look for a breakout trade above 0.5682, with a target near 0.5700 while placing a stop-loss just below the 20-day SMA to mitigate risks. Conversely, if bearish momentum manifests with a break below 0.5678, short positions could be considered, aiming for a target around 0.5650 with an appropriate stop-loss above recent highs. This balanced approach allows for flexibility in a relatively uncertain market environment."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-14T20:15:48.670Z",
+  "price": {
+    "close": "1.40238",
+    "high": "1.40266",
+    "low": "1.40200",
+    "open": "1.40255",
+    "change": "-0.01",
+    "datetime": "2025-11-15 07:00:00"
+  },
+  "indicators": {
+    "rsi": 48.80199,
+    "macd": 0.00012698332,
+    "macd_signal": 0.00027985181,
+    "sma20": 1.4028
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡整理趋势]",
+      "content": "当前美元/加元（USD/CAD）处于1.40238附近，显示出横盘整理的态势。24小时变化仅为-0.01%，表明市场参与者对该货币对的看法相对谨慎。高点与低点的狭窄区间（1.40266 / 1.40200）进一步确认了短期内缺乏明确的方向性。\n\n从技术指标来看，虽然RSI数据暂缺，但可以参考20日简单移动平均线（SMA）1.40280，显示出一定的下行压力。MACD虽有微弱的正值，但未能形成明显的买入信号。这些迹象表明，市场可能会继续维持震荡整理状态，等待更强的驱动力来决定后续方向。\n\n在支撑与阻力方面，当前支撑位在1.40200，若突破此位，将可能加速下行。相对的，1.40280则是关键阻力位，若突破，可能引发一波上涨行情。投资者应密切关注这些关键水平，以制定相应的交易策略。\n\n建议投资者在当前区间内采取谨慎态度，适当进行短线交易。若价格接近支撑位可考虑小额买入，而接近阻力位时则可以考虑卖出。在缺乏明确趋势的情况下，保持灵活性与风险控制尤为重要。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD currency pair is currently trading at 1.40238, reflecting a slight decline of 0.01% over the past 24 hours. The price has oscillated between a high of 1.40266 and a low of 1.40200, indicating a tight range that suggests market indecision. This narrow trading band could set the stage for a potential breakout in either direction. The overall trend appears to be consolidating, as traders await further economic signals that could provide clearer directional cues.\n\nIn terms of technical indicators, the absence of a current RSI reading limits our ability to assess overbought or oversold conditions. However, the MACD is showing a very slight positive divergence, suggesting that bullish momentum could be gaining strength, albeit marginally. The SMA(20) at 1.40280 serves as a short-term resistance level, while the recent low of 1.40200 may act as a key support level. Traders should monitor these indicators closely, as a break above or below these levels could indicate a significant shift in momentum.\n\nSupport levels are currently positioned around 1.40200, with a potential for further support at 1.40000, which is a psychological level. Resistance is primarily centered at 1.40280, and if the price can break through this threshold, it might target the next resistance level near 1.40500. Monitoring these levels will be critical for traders looking to capture price movements in either direction, especially in the context of upcoming economic data releases.\n\nFor trading strategies, a cautious approach is advised. If the price breaks above 1.40280, consider entering a long position with a target around 1.40500. Conversely, if the price breaches the support at 1.40200, a short position may be warranted, targeting the psychological level of 1.40000. Setting stop-loss orders just beyond these levels will help manage risk and protect against unexpected volatility."
+    }
+  }
+}

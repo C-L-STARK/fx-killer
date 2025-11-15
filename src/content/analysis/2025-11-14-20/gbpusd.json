@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-14T20:13:35.293Z",
+  "price": {
+    "close": "1.31648",
+    "high": "1.31666",
+    "low": "1.31633",
+    "open": "1.31660",
+    "change": "-0.01",
+    "datetime": "2025-11-15 07:00:00"
+  },
+  "indicators": {
+    "rsi": 52.54075,
+    "macd": 0.00010671021,
+    "macd_signal": 1.5354678e-7,
+    "sma20": 1.31546
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理中]",
+      "content": "当前英镑/美元（GBP/USD）在1.31648附近波动，显示出短期内的震荡整理趋势。尽管价格略微下跌0.01%，但在高点和低点之间的微幅波动表明市场缺乏明确的方向。市场参与者可能在等待更强的基本面信号，以推动价格突破当前区间。\n\n从技术指标来看，20日简单移动平均线（SMA）位于1.31546，提供了一个短期支撑位。尽管相对强弱指数（RSI）和移动平均收敛发散指标（MACD）数据尚不可用，但通过观察价格走势，可以看出市场情绪相对平稳。若价格持续维持在SMA之上，则可能会吸引更多买盘。\n\n支撑位方面，1.31533是一个关键支撑，若跌破该水平，可能会引发进一步下行。而在阻力方面，1.31666是短期阻力位，突破该水平或许会带来新的上行机会。在操作策略上，建议交易者关注价格在支撑和阻力位之间的波动，考虑在支撑位附近布局多单，并在触及阻力位时适度获利了结。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently trading at 1.31648, showing a slight decline of 0.01% over the past 24 hours. The price has been oscillating within a narrow range, with a high of 1.31666 and a low of 1.31633. This price action indicates a period of consolidation, suggesting that traders are waiting for a catalyst to drive the pair out of this range. The overall trend appears neutral in the short term, with no strong directional bias evident at this stage.\n\nThe absence of RSI data makes it difficult to gauge momentum effectively; however, the MACD shows a very slight positive value, indicating a potential bullish inclination, albeit weak. Traders should closely monitor the MACD for any shifts that could signal a change in momentum. Additionally, the 20-period Simple Moving Average (SMA) at 1.31546 serves as a crucial support level. If the price dips below this level, it may trigger further selling pressure, while a bounce off this SMA could reinforce bullish sentiment.\n\nKey resistance levels are found around 1.31700, where previous highs have stalled. A breakout above this level would likely attract buyers and could lead to a more significant upward movement. Conversely, if the price breaks below the support level at 1.31546, it would suggest a bearish trend, potentially paving the way toward the next support at approximately 1.31400. Traders should keep an eye on these levels for potential entry or exit opportunities.\n\nIn terms of trading strategy, considering the current market conditions, it may be prudent to adopt a wait-and-see approach. A buy position could be considered if the price successfully breaks above 1.31700, confirming bullish momentum. Conversely, if the price falls below 1.31546, shorting the pair could be a viable strategy, targeting the next key support level. Monitoring economic data releases and geopolitical events will also be essential, as these factors can significantly influence currency movements."
+    }
+  }
+}

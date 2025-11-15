@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-14T20:16:29.410Z",
+  "price": {
+    "close": "0.56814951",
+    "high": "0.56814951",
+    "low": "0.56798822",
+    "open": "0.56798822",
+    "change": "0.02",
+    "datetime": "2025-11-15 07:00:00"
+  },
+  "indicators": {
+    "rsi": 53.39656,
+    "macd": 0.00035780333,
+    "macd_signal": 0.00042640158,
+    "sma20": 0.56823698
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[趋于震荡整理]",
+      "content": "当前纽元/美元(NZD/USD)价格为0.56814951，近期表现出震荡整理的趋势。价格在0.56798822至0.56814951的区间内波动，未能形成明显的上升或下降趋势。投资者需关注市场情绪变化，以判断未来的方向。\n\n技术指标方面，虽然RSI(14)数据缺失，但从MACD来看，当前的0.00035780333值显示出微弱的看涨信号。结合20日简单移动平均线(SMA)0.56823698的情况，价格仍在SMA下方，表明短期内可能会面临一定的压力。\n\n在支撑与阻力位方面，当前支撑位可设定在0.56798822，若跌破该位置，可能进一步测试更低的支撑位。而阻力位则在0.56823698附近，突破该水平将增强反弹的可能性。交易者可在此区间内进行短线交易，注意风险控制。\n\n综合来看，建议投资者在当前价位附近进行观望，待价格突破关键支撑或阻力位时再做进一步决策。同时，保持对市场动态的关注，将有助于及时调整交易策略。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD currency pair currently exhibits a stable but cautious market sentiment, trading at 0.56814951. Over the past 24 hours, the pair has shown minimal movement, with a slight increase of 0.02%. This stability suggests a consolidation phase after recent volatility, indicating that traders are awaiting further economic data or geopolitical developments that could influence the pair's direction. The high and low for the day, 0.56814951 and 0.56798822, respectively, illustrate a narrow trading range, indicative of indecision in the market.\n\nFrom a technical standpoint, the absence of a defined RSI indicates that the momentum is neutral, leaving room for potential breakout scenarios. The MACD value of 0.00035780333 suggests a slight bullish bias, though without a signal line for comparison, caution is warranted. The 20-period Simple Moving Average (SMA) at 0.56823698 serves as a key level to watch; if the price can regain traction above this level, it may signal a move towards higher resistance levels.\n\nSupport levels are crucial in determining potential downside risks. The immediate support can be identified around the recent low of 0.56798822, which, if breached, could lead to further declines towards the next significant support level. Conversely, resistance appears to be at the SMA level of 0.56823698, where sellers may emerge if the price attempts to advance. A sustained break above this level could open the door for a rally towards higher resistance levels.\n\nFor traders, a cautious approach is recommended at this stage. A buy position could be considered if the price decisively breaks above the SMA, with a potential target near 0.5700. Conversely, a break below the support level of 0.56798822 may warrant a sell position, targeting further downside towards 0.5660. Utilizing tight stop-loss orders will be essential to manage risk in this uncertain environment."
+    }
+  }
+}

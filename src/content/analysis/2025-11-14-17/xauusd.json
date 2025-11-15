@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-14T17:43:11.090Z",
+  "price": {
+    "close": "4107.99499",
+    "high": "4111.72468",
+    "low": "4095.56025",
+    "open": "4103.60082",
+    "change": "0.10",
+    "datetime": "2025-11-15 04:00:00"
+  },
+  "indicators": {
+    "rsi": 38.40152,
+    "macd": -25.80149,
+    "macd_signal": -18.46082,
+    "sma20": 4154.12065
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中]",
+      "content": "当前黄金/美元(XAU/USD)价格在4107.99附近，近期表现出震荡整理的趋势。虽然价格低于20日简单移动平均线(SMA)，但仍未显现出明显的下行趋势。市场似乎在等待更明确的方向信号，投资者应保持谨慎。\n\n在技术指标方面，MACD指标显示出负值，表明短期内卖压仍然存在。RSI指标未提供数据，但通常情况下，当RSI接近超卖区域时，可能会出现反弹。因此，投资者需密切关注市场情绪和技术指标的变化，以把握交易机会。\n\n支撑位方面，当前价格紧靠4095.56的低点，一旦跌破该水平，可能会引发进一步的下行压力，目标指向更低的支撑位。而阻力位则在4111.72附近，如果价格能够突破该水平，可能会测试4154.12的20日SMA。\n\n对于交易建议，短期内可以考虑在支撑位附近寻找买入机会，同时在阻力位附近设定卖出策略，利用波动性进行短线交易。此外，投资者应保持对市场消息的关注，以便及时调整交易策略。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD is positioned at 4107.99, reflecting a subtle increase of 0.10% over the last 24 hours. This slight uptick suggests a consolidative phase within a broader bearish trend, as the price remains significantly below the 20-day Simple Moving Average (SMA) of 4154.12. The recent high of 4111.72 serves as a key resistance level, while the low of 4095.56 presents a potential support threshold. A sustained move above 4111.72 may indicate a bullish reversal, but the market must first overcome this resistance.\n\nIn terms of momentum indicators, the MACD reading of -25.80 indicates bearish momentum, although the absence of a signal line complicates the analysis. Without the RSI data, it's difficult to gauge whether the market is overbought or oversold. Traders should remain cautious and monitor these indicators closely for signs of trend shifts. If the MACD begins to show positive divergence, it may suggest a weakening of selling pressure, warranting further investigation.\n\nSupport levels appear to be clustered around the recent low of 4095.56, with an additional strong level potentially forming near the psychological barrier of 4100. Should price action test this support and hold, it could set the stage for a bounce back towards the SMA. Conversely, a break below 4095.56 could open the door for further declines, potentially targeting levels around 4080, which would require close attention for potential buying opportunities.\n\nTraders should consider a wait-and-see approach, observing price behavior around the key support and resistance levels. A confirmed breakout above 4111.72 could be a signal to enter long positions, while a decisive move below 4095.56 may warrant short positions. Additionally, keeping an eye on global economic factors and market sentiments will be essential in making informed trading decisions in this volatile environment."
+    }
+  }
+}

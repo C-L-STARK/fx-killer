@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-15T00:51:27.535Z",
+  "price": {
+    "close": "0.79374999",
+    "high": "0.79438001",
+    "low": "0.79321003",
+    "open": "0.79395002",
+    "change": "-0.02",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 54.10161,
+    "macd": -8.3951137e-7,
+    "macd_signal": -0.00045605797,
+    "sma20": 0.792283
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理趋势]",
+      "content": "当前美元/瑞郎（USD/CHF）的价格在0.7937附近震荡整理，显示出市场缺乏明确的方向。短期内，价格在高点0.7944和低点0.7932之间波动，这表明买卖双方的力量相对均衡。市场情绪可能受到宏观经济数据和市场风险偏好的影响，投资者需密切关注外部消息面。\n\n从技术指标来看，尽管RSI尚未提供信息，但MACD显示出微弱的负值，暗示短期内卖压可能较强。SMA（20）处于0.7923，作为潜在支撑位，若价格跌破该水平，将可能进一步下探。相反，若能突破0.7944的阻力位，可能引发短期反弹。\n\n在支撑和阻力方面，0.7923是关键支撑位，若跌破可能会引发更多抛售。而0.7944则是一个重要的阻力位，突破后可能会吸引更多的买盘。投资者应密切关注这两个水平的突破情况，以决定后续的交易策略。\n\n综合考虑，建议投资者采取观望态度，待价格突破关键支撑和阻力位后再进行进场交易。同时，合理设置止损位以控制风险，将有助于在波动的市场中获取更好的交易机会。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF currency pair is currently trading at 0.79374999, reflecting a slight decrease of 0.02% over the past 24 hours. The price action has remained relatively stable, oscillating between a high of 0.79438001 and a low of 0.79321003. This tight range suggests a period of consolidation, which may precede a more substantial movement in either direction. Traders should closely monitor any breakouts beyond these levels to gauge the next potential trend.\n\nFrom a technical standpoint, the absence of an available RSI value limits our ability to assess momentum directly. However, the recent MACD reading is marginally negative, suggesting that bearish sentiment may be present but lacks strength. The 20-period Simple Moving Average (SMA) is positioned at 0.79228300, indicating that this level could act as a dynamic support in the short term. A close below the SMA may further confirm a downtrend, while a bounce could indicate a bullish reversal.\n\nKey support can be identified around the recent low of 0.79321003, which could act as a critical level for buyers. Should the price dip below this level, it may open the door for further declines toward the next notable support at approximately 0.7920. Conversely, resistance is situated near the recent high of 0.79438001, with a break above this level potentially signaling a bullish outlook and paving the way for a challenge towards 0.7950.\n\nTraders may consider adopting a wait-and-see approach, looking for a clear breakout above resistance or a confirmed breakdown below support. Risk management strategies should be employed, particularly in a market that appears to be consolidating. Setting stop-loss orders just outside the identified levels can help protect against unexpected volatility while allowing for potential profits from a well-timed entry."
+    }
+  }
+}

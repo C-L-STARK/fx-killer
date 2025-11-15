@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-14T17:39:26.136Z",
+  "price": {
+    "close": "154.71500",
+    "high": "154.74300",
+    "low": "154.61200",
+    "open": "154.63600",
+    "change": "0.05",
+    "datetime": "2025-11-15 04:00:00"
+  },
+  "indicators": {
+    "rsi": 55.20442,
+    "macd": -0.017689285,
+    "macd_signal": -0.035713794,
+    "sma20": 154.50215
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理中]",
+      "content": "当前美元/日元的价格为154.715，显示出震荡整理的趋势。最近24小时内价格变化仅为0.05%，显示出市场参与者的谨慎态度。高点154.743和低点154.612的区间表明，短期内市场波动幅度有限，投资者需要关注更明确的突破信号。\n\n从技术指标来看，当前RSI数据缺失，但MACD为-0.0177，这表明卖压稍显强劲。虽然价格维持在154.5以上，但若跌破这一水平，可能会引发进一步的下行压力。SMA(20)为154.502，短期内可以作为支撑位关注，若价格持续走低，可能会对市场情绪产生负面影响。\n\n在支撑位方面，154.500是一个关键水平，若价格下穿此位，可能会引发更多卖盘。相反，154.800则是潜在的阻力位，若突破该水平，可能会吸引更多买入兴趣。因此，投资者应密切关注这两个关键价格区间，制定相应的交易策略。\n\n综合来看，建议投资者在当前市场波动较小的情况下，保持观望，待市场明确突破支撑或阻力位后再做出交易决策。保持灵活应变的策略，将有助于在震荡市中捕捉机会。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 154.715, showing a slight increase of 0.05% over the past 24 hours. This price action indicates a range-bound market, oscillating between the recent high of 154.743 and the low of 154.612. The overall trend appears to be bullish, as the price is above the 20-period Simple Moving Average (SMA) of 154.502, suggesting that buyers remain in control. However, traders should remain cautious, as the market could be consolidating before making a more definitive move.\n\nThe MACD indicator currently shows a value of -0.0177, indicating potential bearish momentum. Although it is below zero, the close proximity to this threshold suggests that the momentum may shift quickly. Traders should monitor for a crossover above the signal line, which could trigger buying opportunities. Additionally, the Relative Strength Index (RSI) is not available, but if it were to be calculated, levels approaching 70 could signal overbought conditions, while levels near 30 would indicate oversold conditions, affecting trading strategies accordingly.\n\nSupport levels are identified at the recent low of 154.612, which could serve as a floor for the price if downward pressure intensifies. A break below this level may lead to further declines, with additional support seen around 154.500. On the resistance side, the recent high of 154.743 offers a key psychological barrier; a breakout above this level could attract more bullish sentiment and potentially push prices higher.\n\nFor traders, a cautious approach is recommended. A buy strategy could be considered if the price breaks decisively above the resistance level of 154.743, potentially targeting 155.000. Alternatively, if the price drops below 154.612, a sell strategy may be warranted, with targets set toward the next support level at 154.500. Monitoring economic indicators and geopolitical developments will also be crucial, as these factors can significantly impact the USD/JPY pair."
+    }
+  }
+}

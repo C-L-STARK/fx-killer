@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-15T02:51:14.744Z",
+  "price": {
+    "close": "4080.52922",
+    "high": "4080.6337",
+    "low": "4080.38625",
+    "open": "4080.45082",
+    "change": "-0.00",
+    "datetime": "2025-11-15 13:00:00"
+  },
+  "indicators": {
+    "rsi": 32.28813,
+    "macd": -24.58657,
+    "macd_signal": -24.99099,
+    "sma20": 4106.13229
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理趋势]",
+      "content": "当前XAU/USD的价格在4080.53附近波动，显示出震荡整理的趋势。尽管24小时变化为-0.00%，但价格在4080.63至4080.39的区间内反复测试，未能突破关键水平，表明市场参与者对当前价格水平的谨慎态度。\n\n从技术指标来看，MACD值为-24.58657，显示出空头力量的持续存在，尽管信号线数据缺失。由于RSI(14)未提供，我们无法全面评估超买或超卖的情况。20日简单移动平均线(SMA)在4106.13，构成了短期的阻力位，若价格突破该水平，可能会引发进一步的上涨。\n\n支撑位方面，4080.39附近为关键支撑区域，一旦跌破，可能会加剧下行风险。因此，交易者应密切关注这一水平。如果价格能够成功突破4106.13的阻力位，可以考虑做多，反之则需谨慎操作，设置止损以控制风险。建议保持观望，待市场方向更加明确后再做决策。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4080.53 suggests a consolidative phase, hovering just above the daily low of 4080.39. The price action reflects a lack of strong momentum, as indicated by the 24-hour change of -0.00%. With the recent high at 4080.63, the market is showing signs of hesitation. Traders should closely monitor this range, as a breakout either above the high or below the low could signal the market's next directional move.\n\nThe absence of an RSI reading limits our ability to gauge overbought or oversold conditions, while the MACD value of -24.59 indicates bearish momentum. The SMA(20) at 4106.13 is positioned above the current price, acting as a primary resistance level. A move towards this average could face selling pressure, while failure to break above may lead to further downside. Traders should be cautious, as the market seems to have a downward bias in the short term.\n\nKey support levels to watch are the 4080.39 low and potentially lower levels around 4070 if bearish momentum continues. Conversely, resistance is found at the SMA(20) level of 4106.13. A decisive move above this level may shift sentiment, inviting renewed buying interest. Traders might consider a short position if price action confirms a breakdown below support, while a breakout above resistance could lead to a long position.\n\nIn summary, with the current price action stuck in a tight range and bearish indicators suggesting caution, traders should remain vigilant. A break below 4080.39 may offer shorting opportunities, while a rise above 4106.13 could present a buying scenario. It’s essential to use proper risk management strategies, especially in a market characterized by such indecisiveness."
+    }
+  }
+}

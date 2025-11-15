@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-14T22:48:18.442Z",
+  "price": {
+    "close": "1.31747",
+    "high": "1.31749",
+    "low": "1.31660",
+    "open": "1.31688",
+    "change": "0.04",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 56.053543,
+    "macd": 0.00024417619,
+    "macd_signal": 0.000054046077,
+    "sma20": 1.31561
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理，保持关注]",
+      "content": "当前英镑/美元的价格为1.31747，显示出相对平稳的走势。24小时内的微幅波动仅为0.04%，表明市场缺乏强烈的方向性趋势。目前价格在高点1.31749与低点1.31660之间波动，显示出短期内的震荡整理特征。\n\n从技术指标来看，虽然RSI和MACD的部分数据缺失，但20日简单移动平均线（SMA）在1.31561附近提供了支撑位。这一水平若能有效守住，将有利于价格向上反弹。若价格跌破该支撑，可能会进一步向下测试1.31500的支撑区间。\n\n在支撑和阻力方面，当前的主要阻力位在1.31800附近，突破该水平将进一步确认上涨趋势。交易者应密切关注该水平的突破情况，同时可在接近支撑位时寻找买入机会，以期在反弹中获利。\n\n综合来看，英镑/美元在当前水平维持震荡整理，短期内可能会继续在支撑与阻力之间波动。建议交易者采取谨慎态度，耐心等待更明确的入场信号。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD currency pair is currently exhibiting a neutral trend with the latest price at 1.31747, reflecting a slight change of 0.04% over the past 24 hours. The price has been oscillating between a high of 1.31749 and a low of 1.31660, indicating tight consolidation. This sideways movement suggests indecision among traders, likely influenced by upcoming economic data releases and geopolitical factors impacting both currencies. Traders should keep an eye on this range for potential breakout opportunities.\n\nFrom a technical perspective, the 20-period Simple Moving Average (SMA) sits at 1.31561, providing a dynamic support level. The price is currently above this SMA, which may signal a bullish sentiment in the short term. However, without additional momentum indicators like the RSI or MACD available, it is vital to monitor price action closely. If the GBP/USD can maintain above the SMA, it may attract buyers, leading to a potential test of resistance levels around 1.3200.\n\nThere are key support and resistance levels to consider in the current environment. Immediate support is seen at the recent low of 1.31660, while resistance is evident at the psychological level of 1.3200. Should the price break below the support level, it may trigger further bearish sentiment, potentially testing lower levels. Conversely, a break above 1.3200 could indicate renewed bullish momentum, opening the door for a rally toward 1.3250.\n\nFor traders, a cautious approach is recommended. Watching for price action around the support and resistance levels will be crucial. A breakout above 1.3200 could offer a buying opportunity, while a sustained move below 1.31660 may suggest a short position. Employing stop-loss orders in both scenarios will help manage risk effectively, given the current market's indecisive nature."
+    }
+  }
+}

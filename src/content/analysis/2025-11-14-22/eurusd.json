@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-14T22:47:30.540Z",
+  "price": {
+    "close": "1.16154",
+    "high": "1.16239",
+    "low": "1.16154",
+    "open": "1.16211",
+    "change": "-0.05",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 45.36101,
+    "macd": -0.00020076625,
+    "macd_signal": 0.000024967323,
+    "sma20": 1.16275
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理趋势]",
+      "content": "当前欧元/美元汇率为1.16154，显示出短期内震荡整理的趋势。尽管价格略有下滑，但整体波动范围较小，表明市场参与者可能在等待更明确的方向信号。结合24小时变化为-0.05%，市场情绪似乎较为谨慎。\n\n从技术指标来看，20日简单移动平均线（SMA）为1.16275，目前价格低于该水平，暗示短期内可能存在进一步下行压力。虽然RSI尚不可用，但MACD的微弱负值表明，卖方力量略占优势，短期内可能继续维持弱势整理。\n\n支撑位方面，1.16000心理关口将是关键支撑位，若价格跌破此位置，则可能加速下行。而1.16300附近则是主要阻力位，若价格能突破该水平，可能重启上涨动能。投资者需关注这些关键价位，以便及时调整策略。\n\n综合考虑，短期内建议保持观望，谨慎交易。若价格出现反弹至1.16300以上，考虑适度做多；若跌破1.16000，则可考虑短期做空。保持灵活应对，严格设定止损以控制风险。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD pair is currently trading at 1.16154, having experienced a slight decline of 0.05% over the past 24 hours. The price has been oscillating around the 1.16239 high and 1.16154 low, indicating a narrow trading range. This price action suggests that the market is consolidating in the short term. A breakout either above the recent high or below the low could provide direction for the next significant move.\n\nIn terms of technical indicators, the absence of a calculated RSI and MACD signal limits immediate momentum analysis. However, the current MACD value of -0.00020076625 suggests a bearish trend, albeit weak. The 20-period Simple Moving Average (SMA) at 1.16275 acts as a potential resistance level, and if the price fails to break above this level, it may continue to face selling pressure. Traders should closely monitor for a shift in momentum that might provide clearer signals for entry or exit.\n\nSupport levels can be identified around 1.16000, which is a psychological level that could attract buyers if the price approaches this area. Conversely, if the price breaks below this level, it may lead to further declines toward 1.15850, another significant support area. Resistance will be firmly established at the 1.16275 level, and a decisive break above this could signal a potential shift towards a bullish trend, inviting further buying interest.\n\nFor traders, it may be prudent to adopt a wait-and-see approach until clearer signals emerge. A short position could be considered if the price dips below 1.16000, targeting the next support level. Conversely, a breakout above 1.16275 could provide an opportunity for a long position, especially if accompanied by strong volume. As always, employing appropriate risk management strategies is essential in navigating the current market volatility."
+    }
+  }
+}

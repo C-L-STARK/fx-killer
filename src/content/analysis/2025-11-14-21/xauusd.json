@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-14T21:38:19.220Z",
+  "price": {
+    "close": "4082.21508",
+    "high": "4087.06898",
+    "low": "4078.93347",
+    "open": "4086.23435",
+    "change": "-0.10",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 32.66276,
+    "macd": -27.064697,
+    "macd_signal": -23.42952,
+    "sma20": 4135.034274
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，谨慎操作]",
+      "content": "当前黄金/美元呈现震荡整理的趋势，最新价格在4082.21508附近，略低于短期均线。虽然24小时变化为-0.10%，但价格在4078.93347与4087.06898之间波动，显示出市场尚未形成明确的方向。投资者应密切关注这一区间，判断后续走势。\n\n从技术指标来看，RSI(14)未提供数据，但MACD指标显示为负值(-27.064697)，暗示当前市场情绪偏向弱势。短期内，均线(SMA20)在4135.034274处形成强阻力，若价格无法突破，将继续承压回落。建议关注MACD的变化，以便捕捉反转信号。\n\n在支撑和阻力方面，4078.93347是短期支撑位，一旦跌破，可能会进一步考验4060附近的强支撑。反之，若价格突破4087.06898，将重新测试4100及以上的阻力区域。此时，投资者需根据市场反应灵活调整策略。\n\n综上所述，当前黄金/美元处于震荡整理阶段，投资者应保持谨慎，避免追高。建议在支撑位附近寻找买入机会，而在接近阻力位时考虑获利了结或设定止损，以保护资金安全。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of Gold against the US Dollar (XAU/USD) stands at 4082.22, showing a slight decline of 0.10% over the last 24 hours. The recent trading range has been relatively tight, with a high of 4087.07 and a low of 4078.93, indicating a period of consolidation. This price action suggests that the market is assessing its next move, with potential pressure from both buyers and sellers as they react to broader economic signals.\n\nThe absence of a recent RSI value makes it challenging to gauge overbought or oversold conditions; however, the MACD is currently negative at -27.06, which may indicate bearish momentum. The SMA(20) at 4135.03 provides a critical reference point, suggesting that the market is trading below its short-term average, further supporting the bearish outlook. Traders should watch for any potential crossover in the MACD, which could signal a shift in momentum.\n\nKey support levels are positioned around the recent low of 4078.93, which, if broken, could lead to further declines. Conversely, resistance is seen at the SMA(20) level of 4135.03, where sellers may emerge. A sustained move above this level could indicate a bullish reversal, while a breach below the support could trigger additional selling pressure. \n\nIn terms of trading strategies, a cautious approach is advisable. Traders may consider short positions near the resistance level if bearish signals persist or wait for a confirmed breakout above the SMA(20) for potential long entries. Maintaining a close watch on macroeconomic developments, especially those impacting the US Dollar, will be essential for anticipating future movements in the XAU/USD pair."
+    }
+  }
+}

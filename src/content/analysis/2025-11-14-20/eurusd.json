@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-14T20:12:47.837Z",
+  "price": {
+    "close": "1.16195",
+    "high": "1.16196",
+    "low": "1.16166",
+    "open": "1.16183",
+    "change": "0.01",
+    "datetime": "2025-11-15 07:00:00"
+  },
+  "indicators": {
+    "rsi": 47.44414,
+    "macd": -0.00016708377,
+    "macd_signal": 0.000079007555,
+    "sma20": 1.16283
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理，待突破]",
+      "content": "当前欧元/美元在1.16195附近震荡整理，价格波动幅度较小，24小时变化仅为0.01%。从高点1.16196和低点1.16166来看，市场情绪相对平稳，尚未形成明显的趋势。短期内，若价格突破1.16283的SMA(20)均线，可能会引发进一步上涨。\n\n在技术指标方面，MACD呈现微弱的负值，表明卖方力量略占优势，但并不强烈。RSI指标尚未提供数据，无法判断超买或超卖的情况。投资者需关注后续指标变化，以便及时调整交易策略。\n\n支撑位方面，1.16166是近期低点，若跌破该水平，可能会引发更深的回调。而1.16283为当前的阻力位，突破后则有望挑战更高的价位。市场需关注即将发布的经济数据，以评估对欧元和美元的影响。\n\n交易建议上，建议投资者在1.16166支撑位附近寻找进场机会，同时设置止损以控制风险。若价格突破1.16283，则可考虑顺势加仓，目标指向更高的价位。但在此之前，保持谨慎态度，耐心等待市场信号。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The Euro vs. US Dollar (EUR/USD) pair is currently trading at 1.16195, maintaining a narrow trading range over the last 24 hours with minimal change. The price has oscillated between a high of 1.16196 and a low of 1.16166, indicating a period of consolidation. This sideways movement suggests that the market is awaiting significant economic data or events that could provide direction, as neither buyers nor sellers have gained significant momentum.\n\nIn terms of trend analysis, the pair remains below the 20-day Simple Moving Average (SMA) at 1.16283, which is a key resistance level. This positioning suggests a bearish sentiment in the short term. Traders should monitor price movements closely as a break above this SMA could signal a potential reversal, while a failure to break higher may reinforce the current downtrend. The lack of strong bullish momentum could lead to further testing of lower support levels.\n\nThe absence of the Relative Strength Index (RSI) and the limited information from the MACD, which is slightly negative, imply a lack of clear directional strength. The MACD's position could suggest a potential bearish continuation unless a convergence with the signal line occurs. Traders should remain cautious, watching for signs of divergence which could indicate a reversal. \n\nPotential support levels for EUR/USD can be identified around 1.16166 and lower at 1.16000, while resistance is situated at the SMA level of 1.16283. A prudent trading strategy would be to consider short positions if the price fails to breach the SMA and shows signs of weakness. Conversely, if the price breaks above this resistance, traders may look to enter long positions targeting higher resistance levels, ensuring to manage risk appropriately."
+    }
+  }
+}

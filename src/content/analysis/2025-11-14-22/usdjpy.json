@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-14T22:49:06.254Z",
+  "price": {
+    "close": "154.49300",
+    "high": "154.59801",
+    "low": "154.45900",
+    "open": "154.53000",
+    "change": "-0.02",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.52351,
+    "macd": -0.005667208,
+    "macd_signal": -0.019554233,
+    "sma20": 154.4924
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理趋势]",
+      "content": "当前美元/日元汇率在154.49300附近震荡整理，24小时内小幅下跌0.02%。随着价格接近高点154.59801和低点154.45900，市场似乎陷入区间波动。短期内，若价格突破154.59801，可能会引发进一步上涨，而跌破154.45900则可能加速下行。\n\n技术指标方面，尽管RSI(14)数据暂缺，但MACD显示出微弱的负值，显示出市场动能减弱，可能预示着短期内缺乏强烈的趋势。20日简单移动平均线(SMA)与当前价格相近，表明价格在短期内保持相对稳定，未出现明显的趋势信号。\n\n从支撑与阻力位分析，154.45900为重要支撑位，若跌破此水平，可能引发更多卖盘，进而考验更低的支撑区域。同时，154.59801为关键阻力位，若突破则可能开启新的上涨空间。交易者应密切关注这两个价位的突破情况，以决定入场时机。\n\n综合考虑，建议交易者采取谨慎态度，优先观望。若价格突破154.59801可考虑做多，而若跌破154.45900则可考虑做空，切勿忽视风险管理，确保止损策略合理。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY currency pair is currently trading at 154.49300, demonstrating a slight decline of 0.02% over the past 24 hours. The price action has remained relatively stable, oscillating between a high of 154.59801 and a low of 154.45900. This range-bound movement suggests a consolidation phase, as the pair has struggled to break out decisively in either direction. The overall trend remains bullish, but traders should remain cautious, given the recent lack of momentum.\n\nIn terms of technical indicators, the absence of a calculated RSI(14) limits our ability to assess potential overbought or oversold conditions. The MACD value of -0.0056672080 indicates a bearish divergence, suggesting that momentum may be weakening as the price hovers near the current levels. Meanwhile, the 20-period Simple Moving Average (SMA) sits at 154.49240, closely aligning with the current market price. This proximity can act as a dynamic support level, potentially providing a cushion against further declines.\n\nKey support is identified at the recent low of 154.45900, while resistance is seen at 154.59801, the session's high. A break below the support level could lead to a further decline, potentially targeting the next support zone around 154.40000. Conversely, if the price breaks above the resistance level, it may signal a continuation of the bullish trend, opening the path toward higher targets, such as 154.80000.\n\nTraders should consider employing a cautious approach, monitoring the price action closely around these key levels. A confirmation of a breakout above resistance may present a buying opportunity, while a failure to hold above support could signal a short-term selling opportunity. Utilizing stop-loss orders just below support levels will help manage risk effectively in this fluctuating market environment."
+    }
+  }
+}

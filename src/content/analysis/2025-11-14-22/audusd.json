@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-14T22:49:53.031Z",
+  "price": {
+    "close": "0.65359",
+    "high": "0.65386",
+    "low": "0.65342",
+    "open": "0.65351",
+    "change": "0.01",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.90043,
+    "macd": -0.0000534858,
+    "macd_signal": -0.00020182608,
+    "sma20": 0.6533045
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[区间震荡，待突破]",
+      "content": "当前澳元/美元（AUD/USD）价格在0.65359附近波动，显示出一定的区间震荡特征。价格在24小时内变化仅为0.01%，反映出市场暂时缺乏方向性。高点和低点分别为0.65386和0.65342，表明市场在这个区间内尚未形成明显的趋势。\n\n从技术指标来看，MACD目前为负值，这提示短期内可能面临回调压力，而SMA(20)为0.6533045，显示出价格在该均线附近整理。尽管RSI(14)未提供，但在当前震荡行情中，RSI通常会反映出超买或超卖状态，建议密切关注其变化。\n\n支撑位方面，0.65342一线为短期重要支撑，若跌破该水平，可能会引发进一步下行。而上方0.65386则为阻力位，突破该位将有助于形成新的上行趋势。交易者可以考虑在支撑位附近寻找买入机会，同时在阻力位附近设置止盈策略，以防止反转风险。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.65359, showing a slight increase of 0.01% over the past 24 hours. This modest movement indicates a period of consolidation after recent fluctuations. The high of 0.65386 and low of 0.65342 suggest that the market is currently confined within a narrow range. A breakout from this range could provide direction; a move above 0.6540 could indicate bullish momentum, while a dip below 0.6530 may signal further bearish pressure.\n\nIn terms of technical indicators, the absence of a current RSI and Signal values limits the depth of analysis. However, the MACD value of -0.000053485800 suggests a bearish sentiment in the short term. The SMA(20) at 0.6533045 serves as a moving average benchmark. If the price maintains above this level, it may indicate a potential reversal or support. Conversely, sustained trading below the SMA could reinforce bearish sentiment, leading traders to reassess their positions.\n\nSupport for the AUD/USD pair is identified at 0.6530, which could act as a critical level to watch. Should the price test this support and hold, it could present a buying opportunity for traders looking for a rebound. Resistance is seen at 0.6540, where sellers may emerge to cap upward momentum. Traders should monitor these levels closely, as they can offer valuable insights for potential entry and exit points.\n\nFor traders considering their next moves, a cautious approach is warranted. A buy signal may be considered if the price consolidates above the 0.6540 resistance level, especially if accompanied by positive market sentiment or favorable economic data from Australia. Conversely, sellers might look for opportunities to enter below 0.6530, particularly if momentum indicators begin to align with a bearish trend. Overall, maintaining a close watch on key levels and market sentiment will be essential in navigating the AUD/USD landscape."
+    }
+  }
+}

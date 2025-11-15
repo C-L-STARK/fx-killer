@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-15T00:47:17.576Z",
+  "price": {
+    "close": "1.16154",
+    "high": "1.16239",
+    "low": "1.16154",
+    "open": "1.16211",
+    "change": "-0.05",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 45.36101,
+    "macd": -0.00020076625,
+    "macd_signal": 0.000024967323,
+    "sma20": 1.16275
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理中]",
+      "content": "当前欧元/美元（EUR/USD）在1.16154附近交易，显示出短期内的震荡走势。尽管价格略微下跌0.05%，但整体波动幅度有限，表明市场情绪较为谨慎。投资者在等待更明确的市场信号，尤其是来自经济数据或政策声明的影响。\n\n从技术指标来看，虽然RSI未提供，但MACD显示出微弱的负值，表明短期内卖压略强。20日简单移动平均线（SMA）位于1.16275，构成了当前价格的一个阻力位，若价格突破该水平，可能会重新引发买盘。当前市场缺乏强劲的上行动能，需关注后续的市场动态。\n\n支撑位方面，若价格回落，1.16000可能成为关键支撑区间。若该水平被突破，则可能引发进一步下行。相反，若价格能在1.16000之上企稳，可能会吸引更多买入机会。交易者应密切关注这一水平的突破情况。\n\n综合考虑，短期内建议采取观望态度，待市场出现更明确的突破信号后再考虑进场。同时，保持对经济数据发布的关注，以便及时调整交易策略。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD currency pair is currently trading at 1.16154, reflecting a minor decline of 0.05% over the past 24 hours. This price action suggests a consolidation phase following recent fluctuations, with the high and low for the day being 1.16239 and 1.16154, respectively. The inability to break above the recent high indicates a possible resistance level at 1.16275, the 20-period Simple Moving Average (SMA). This level may act as a critical pivot point for traders in the short term, as a sustained breach could signal a bullish reversal.\n\nIn terms of technical indicators, the MACD is currently negative at -0.00020076625, hinting at bearish momentum. However, the absence of a signal line makes it challenging to derive a clear trend direction. Traders should closely monitor the MACD for any potential crossover that could indicate a shift in momentum. Additionally, the RSI is not available, but when calculated, it could provide insights into whether the pair is overbought or oversold, offering further confirmation for entry or exit points.\n\nSupport levels appear to be forming around the 1.16000 mark, which has historically provided a floor for price action in this pair. A decline below this level could open the door to further bearish movement, potentially targeting the next psychological level at 1.15800. Conversely, if the pair manages to reclaim the 1.16275 SMA, it could trigger a short-term rally, with potential targets near 1.16400 and beyond.\n\nTraders may consider a cautious approach in this environment, focusing on breakout strategies. A confirmed close above 1.16275 could present a buying opportunity, while a breakdown below 1.16000 may warrant a bearish stance. Risk management remains crucial, with stop-loss orders strategically placed to safeguard against unexpected volatility. Overall, the current market conditions suggest a wait-and-see approach until a clearer trend emerges."
+    }
+  }
+}

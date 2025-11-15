@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-15T02:47:45.183Z",
+  "price": {
+    "close": "154.49300",
+    "high": "154.59801",
+    "low": "154.45900",
+    "open": "154.53000",
+    "change": "-0.02",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.52351,
+    "macd": -0.005667208,
+    "macd_signal": -0.019554233,
+    "sma20": 154.4924
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理趋势]",
+      "content": "当前美元/日元汇率为154.49300，24小时内变化幅度较小，仅为-0.02%。从价格走势来看，当前市场表现出一定的震荡整理特征，短期内缺乏明确的方向。高点154.59801和低点154.45900的范围显示出市场在这一区间内进行横盘整理，投资者情绪较为谨慎。\n\n在技术指标方面，RSI和MACD尚未提供明确的超买或超卖信号。虽然MACD显示出负值，但未能提供足够的趋势确认。SMA(20)为154.49240，当前价格基本符合这一均线，进一步印证了市场的震荡特性。这意味着短期内价格可能继续在这一区间内波动。\n\n支撑位方面，154.45900可以视为关键支撑，若有效跌破，可能引发更大幅度的下行风险。阻力位则在154.59801，若突破此位，可能会吸引买盘进场。综合考虑，建议投资者在当前区间内进行短线交易，关注支撑和阻力的突破情况，以把握短期内的交易机会。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY currency pair is currently experiencing a slight bearish trend, trading at 154.49300, which reflects a marginal 24-hour change of -0.02%. The price has been constrained within the recent high of 154.59801 and a low of 154.45900, indicating a tight trading range. Such price action suggests a period of consolidation, where traders may be awaiting further catalysts to drive momentum in either direction. Monitoring this range closely will be essential for identifying potential breakout points.\n\nFrom a technical perspective, the absence of a current RSI reading makes it challenging to assess overbought or oversold conditions. The MACD value of -0.0056672080 indicates a bearish momentum, albeit minor, suggesting that sellers may be slightly in control. The SMA(20) aligns closely with the current price at 154.49240, reinforcing the notion of a sideways market. Traders should be cautious, as the lack of significant momentum could lead to further consolidation before a decisive move occurs.\n\nIn terms of support and resistance levels, the immediate support is found at 154.45900, while resistance is positioned at 154.59801. A break below the support level could expose further downside potential, targeting the next support zone. Conversely, if the price breaks above the resistance level, it may signal a shift in sentiment, opening the door for a rally. Traders should watch these levels closely for potential entry or exit points.\n\nFor trading strategies, a cautious approach is recommended. Day traders might consider range-bound strategies, taking advantage of price oscillations between established support and resistance levels. Conversely, longer-term traders may wait for a breakout confirmation, either above 154.59801 or below 154.45900, to establish positions that align with the new trend direction. Effective risk management will be crucial in this environment of low volatility and uncertainty."
+    }
+  }
+}

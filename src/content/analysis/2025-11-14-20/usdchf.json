@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-14T20:17:12.207Z",
+  "price": {
+    "close": "0.79389000",
+    "high": "0.79413998",
+    "low": "0.79373002",
+    "open": "0.79396999",
+    "change": "-0.01",
+    "datetime": "2025-11-15 07:00:00"
+  },
+  "indicators": {
+    "rsi": 54.96904,
+    "macd": -0.000079127028,
+    "macd_signal": -0.00057066044,
+    "sma20": 0.7922485
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理中]",
+      "content": "当前美元/瑞郎（USD/CHF）的价格在0.7940附近波动，整体表现出震荡整理的趋势。从24小时变化来看，价格小幅下跌0.01%，显示出市场情绪较为谨慎。短期内，价格未能突破高点0.79413998，可能会在此区域形成阻力。\n\n在技术指标方面，虽然RSI（14）值缺失，但MACD显示出微弱的负值，表明短期内卖压存在。SMA（20）为0.79224850，当前价格略高于此均线，可能暗示支撑在此位置附近。若价格下行触及SMA，可能会吸引买盘进场。\n\n在支撑和阻力方面，0.79373002为近期低点，若价格突破此支撑位，则可能加速下行。而上方的阻力位在0.79413998，若突破该水平，可能会引发一波反弹行情。交易者应关注价格在这些关键水平的表现，以制定相应的交易策略。\n\n综合考虑，短期内建议观望，待价格明确突破支撑或阻力位后再做进一步决策。若出现反弹信号，可以考虑做多，反之则可适度做空。保持谨慎，设置止损以控制风险。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair is currently trading at 0.79389000, reflecting a slight decline of 0.01% over the past 24 hours. The price has been oscillating near the recent high of 0.79413998 and the low of 0.79373002, indicating a consolidation phase. This sideways movement suggests that the market is experiencing indecision among traders, which could lead to a breakout in either direction. A sustained move above the recent high may signal bullish momentum, while a drop below the recent low could indicate a bearish trend.\n\nIn terms of technical indicators, the absence of the RSI(14) and the MACD signal makes it challenging to gauge the strength of the current price action. However, the MACD value of -0.000079127028 suggests a marginal bearish sentiment, as the histogram is just slightly below zero. Traders should monitor any significant shifts in momentum, particularly as the MACD approaches its signal line. With the SMA(20) positioned at 0.79224850, this moving average could act as a dynamic support level, providing a potential entry point for buyers if the price retraces.\n\nSupport for the USD/CHF can be identified around the SMA(20) level, providing a safety net for traders looking for potential buying opportunities. Conversely, resistance is likely found near the recent high of 0.79413998. A break above this level could attract further buying interest, while a failure to hold above the SMA may lead to a test of lower support levels. Traders should also consider external factors, such as economic data releases, which could impact the broader market sentiment.\n\nIn conclusion, traders should remain vigilant for a breakout or breakdown from the current price levels. A cautious approach is advised, with potential long positions considered if the price sustains above 0.79414000, while short positions may be more favorable if the price falls below the SMA(20). Keeping an eye on macroeconomic indicators and market volatility will be crucial for making informed trading decisions in this environment."
+    }
+  }
+}

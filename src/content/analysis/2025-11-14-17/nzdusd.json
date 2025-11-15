@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-14T17:41:43.010Z",
+  "price": {
+    "close": "0.56853712",
+    "high": "0.56863415",
+    "low": "0.56817",
+    "open": "0.56844",
+    "change": "-0.03",
+    "datetime": "2025-11-15 04:00:00"
+  },
+  "indicators": {
+    "rsi": 56.77508,
+    "macd": 0.00049529149,
+    "macd_signal": 0.00046556777,
+    "sma20": 0.56787239
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理中]",
+      "content": "当前纽元/美元（NZD/USD）的走势表现出一定的震荡整理特征。最新价格为0.5685，24小时变化为-0.03%。在这一阶段，价格在0.56817至0.56863区间内波动，显示出市场的谨慎情绪。这种震荡状态可能是受市场整体情绪和外部经济数据影响的结果。\n\n从技术指标来看，当前的SMA(20)为0.56787，位于现价之下，表明短期内价格尚未突破这一均线，可能会面临一定的下行压力。尽管MACD值为0.000495，显示出微弱的看涨信号，但由于缺乏其他强有力的指标支撑，整体趋势仍需保持警惕。\n\n就支撑和阻力位而言，支撑位可以关注0.56817，而阻力位则在0.56863附近。若价格有效突破阻力位，可能会引发进一步上涨的机会；反之，若跌破支撑位，则可能会加速下行。投资者应密切关注这些关键价位的变化。\n\n在交易建议方面，考虑到当前市场的震荡特征，建议采取区间交易策略。在接近支撑位时，可以考虑小仓位买入，而在接近阻力位时则可以适度卖出。同时，谨慎设置止损，以管理风险并保护账户资金。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair has recently shown a slight bearish trend, currently trading at 0.5685, reflecting a modest 24-hour change of -0.03%. The price action has remained contained between the high of 0.5686 and the low of 0.5682, indicating a consolidation phase. Traders should closely monitor this range for potential breakouts. A sustained move below the low could signal further weakness, while a break above the high may suggest a shift in momentum.\n\nWhen analyzing technical indicators, the absence of the RSI and a MACD value of 0.0005 suggests a lack of defined momentum at this point. The 20-period Simple Moving Average (SMA) at 0.5679 serves as a dynamic support level, and the current price is just above this average, indicating potential for a bounce. However, the low RSI indicates a lack of buying pressure, suggesting that traders should exercise caution. A move towards the SMA could be a pivotal moment to reassess market sentiment.\n\nKey support and resistance levels to watch are 0.5679 and 0.5686, respectively. A break below 0.5679 could activate selling pressure, potentially targeting lower levels around 0.5670. Conversely, if momentum builds and the pair breaks above 0.5686, we could see a retest of the next resistance level near 0.5700. These levels will be critical for traders looking to capitalize on short-term price movements.\n\nIn terms of trading strategy, a cautious approach is advised. Short positions could be considered if the price decisively breaks below the 0.5679 support level, with a tight stop-loss to manage risk. Alternatively, a breakout above 0.5686 may present a buying opportunity, albeit with careful monitoring of momentum indicators for confirmation. Engaging in range-bound strategies around these key levels may also yield profitable outcomes, especially in the current low-volatility environment."
+    }
+  }
+}
