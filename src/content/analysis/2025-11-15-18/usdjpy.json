@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-15T18:51:34.989Z",
+  "price": {
+    "close": "154.49300",
+    "high": "154.59801",
+    "low": "154.45900",
+    "open": "154.53000",
+    "change": "-0.02",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.52351,
+    "macd": -0.005667208,
+    "macd_signal": -0.019554233,
+    "sma20": 154.4924
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理中]",
+      "content": "当前美元/日元（USD/JPY）在154.49附近震荡整理，短期内缺乏明确的方向。价格在154.59801的高点和154.45900的低点之间波动，显示出市场情绪的谨慎。尽管当前价格略微回落，但整体趋势仍然可能维持在一个相对高位。\n\n从技术指标来看，MACD显示出轻微的负值，表明短期内可能存在卖压。然而，SMA（20）位于当前价格之上，显示出一定的支撑力度。由于RSI数据缺失，无法全面评估超买或超卖状态，但从价格走势来看，市场情绪可能趋于平稳。\n\n在支撑和阻力方面，154.45900为短期支撑位，若跌破此位，可能引发进一步下行压力；而154.59801则为阻力位，若价格突破该水平，则可能开启新的上涨空间。建议交易者关注价格在这两个关键水平的表现，以便制定相应的交易策略。\n\n综合来看，美元/日元在当前区间内维持震荡整理，建议交易者采取观望态度，耐心等待更明确的信号，再决定进场策略。同时，密切关注市场消息和经济数据，以便及时调整交易策略。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The current price action of the USD/JPY at 154.493 indicates a slight bearish sentiment, with a 24-hour change of -0.02%. The pair has shown a narrow trading range lately, with a high of 154.59801 and a low of 154.45900. This consolidation phase suggests that the market is awaiting further catalysts, potentially economic data or geopolitical events, to determine its next move. If the price can break above the recent high, it may signal a resumption of the upward trend, while a drop below the low could indicate a shift towards a bearish phase.\n\nIn terms of technical indicators, the absence of an RSI reading complicates the analysis, but the MACD's current value of -0.0057 suggests a bearish momentum that could be losing strength. This scenario may lead to a potential bullish crossover if buying pressure increases. The SMA(20) at 154.49240 acts as a dynamic support level, and a sustained move above this level could reinforce bullish sentiment. Conversely, if the price fails to hold above this average, it may trigger further selling.\n\nKey support levels to watch include the recent low of 154.45900, which, if broken, could lead to a deeper correction. Resistance is evident around the high of 154.59801. Traders should closely monitor these levels for potential breakout or breakdown opportunities. A move above resistance could open the door to a test of higher levels, while a breach of support may lead to a retest of lower ranges.\n\nFor trading strategies, consider waiting for confirmation of a breakout above 154.59801 or a breakdown below 154.45900 before entering positions. A bullish position may be warranted if the price closes above both the SMA and resistance level, indicating renewed buying interest. Conversely, a bearish stance could be considered if the price closes below support, signaling a potential downtrend. Always consider implementing stop-loss orders to manage risk effectively in these volatile market conditions."
+    }
+  }
+}

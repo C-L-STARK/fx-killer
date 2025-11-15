@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-15T18:54:14.866Z",
+  "price": {
+    "close": "0.79374999",
+    "high": "0.79438001",
+    "low": "0.79321003",
+    "open": "0.79395002",
+    "change": "-0.02",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 54.10161,
+    "macd": -8.3951137e-7,
+    "macd_signal": -0.00045605797,
+    "sma20": 0.792283
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理趋势]",
+      "content": "当前美元/瑞郎（USD/CHF）在0.7937附近震荡整理，显示出短期内缺乏强烈的趋势动力。尽管价格在24小时内小幅下跌0.02%，但整体波动幅度相对有限，表明市场参与者对未来走势持谨慎态度。当前价格接近近期低点0.7932，可能会引发买盘兴趣。\n\n在技术指标方面，由于RSI(14)和MACD信号尚未提供明确的超买或超卖信号，市场情绪仍然处于中性。20日简单移动平均线(SMA)在0.7923附近，为当前价格提供了一定的支撑。若价格突破这一水平，可能会进一步下探至更低的支撑位0.7910。\n\n从支撑与阻力位的角度来看，当前阻力位位于0.7944，若价格能有效突破该水平，将可能引发新的上涨趋势。反之，若价格再次回落至0.7932以下，市场可能会重新考量向下的风险。建议交易者密切关注价格在这些关键水平的表现，以判断入场时机。\n\n综合来看，操作策略上建议采取区间交易的方式，在支撑位附近寻找买入机会，同时在接近阻力位时考虑卖出。保持灵活应变，关注市场新闻及经济数据发布，以把握交易机会。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair currently shows a slight bearish trend, reflected in the recent price action, with the latest price at 0.79374999 and a minimal 24-hour change of -0.02%. The price has traded within a narrow range, hitting a high of 0.79438001 and a low of 0.79321003, indicating a consolidation phase. Traders should monitor this range closely, as a breakout above the high could signal a bullish reversal, while a drop below the low may further confirm bearish sentiment.\n\nIn terms of indicators, the absence of an RSI reading limits our ability to fully assess momentum; however, the MACD is currently negative at -0.00000083951137, suggesting that the downward pressure may persist. The 20-period Simple Moving Average (SMA) stands at 0.79228300, serving as a potential dynamic support level. If the price approaches this SMA, it could provide a buying opportunity if it holds, while a break below could reinforce bearish trends.\n\nKey support is identified around 0.7922, with the SMA serving as an additional layer of defense for bulls. On the upside, immediate resistance is placed at 0.7944, where the price has previously encountered selling pressure. A decisive breakout above this level may encourage bullish momentum, while failure to surpass it could lead to renewed selling interest.\n\nFor traders, a cautious approach is advisable. If the price breaks above 0.7944, a long position could be considered with a target near 0.7960. Conversely, should the price break below 0.7922, a short position may be warranted, aiming for a target around 0.7900. It’s essential to utilize stop-loss orders to manage risk effectively in this volatile market environment."
+    }
+  }
+}
