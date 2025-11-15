@@ -12,38 +12,39 @@ function TradingViewWidget({ symbol }: TradingViewWidgetProps) {
   useEffect(() => {
     if (!container.current) return;
 
+    // Clear previous content
+    container.current.innerHTML = '';
+
+    // Create wrapper div
+    const widgetDiv = document.createElement("div");
+    widgetDiv.className = "tradingview-widget-container__widget";
+    widgetDiv.style.height = "100%";
+    widgetDiv.style.width = "100%";
+
+    container.current.appendChild(widgetDiv);
+
+    // Create and append script
     const script = document.createElement("script");
     script.src = "https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js";
     script.type = "text/javascript";
     script.async = true;
     script.innerHTML = JSON.stringify({
+      width: "100%",
+      height: "100%",
+      symbol: `TICKMILL:${symbol}`,
+      interval: "D",
+      timezone: "Etc/UTC",
+      theme: "dark",
+      style: "1",
+      locale: "en",
       allow_symbol_change: true,
       calendar: false,
-      details: true,
-      hide_side_toolbar: false,
-      hide_top_toolbar: false,
-      hide_legend: false,
-      hide_volume: false,
-      hotlist: true,
-      interval: "1",
-      locale: "en",
-      save_image: true,
-      style: "1",
-      symbol: `TICKMILL:${symbol}`,
-      theme: "dark",
-      timezone: "Etc/UTC",
-      backgroundColor: "#0F0F0F",
-      gridColor: "rgba(242, 242, 242, 0.06)",
-      watchlist: [],
-      withdateranges: true,
-      compareSymbols: [],
-      studies: ["STD;EMA"],
-      autosize: true
+      support_host: "https://www.tradingview.com"
     });
 
     container.current.appendChild(script);
 
-    // Cleanup function to remove script when component unmounts or symbol changes
+    // Cleanup function
     return () => {
       if (container.current) {
         container.current.innerHTML = '';
@@ -52,9 +53,11 @@ function TradingViewWidget({ symbol }: TradingViewWidgetProps) {
   }, [symbol]);
 
   return (
-    <div className="tradingview-widget-container w-full h-screen" ref={container}>
-      <div className="tradingview-widget-container__widget h-full w-full"></div>
-    </div>
+    <div
+      ref={container}
+      className="tradingview-widget-container"
+      style={{ height: '100vh', width: '100%' }}
+    />
   );
 }
 
