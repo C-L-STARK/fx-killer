@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { motion } from 'motion/react';
 import { TrendingUp, TrendingDown, ArrowLeft, Clock, Activity } from 'lucide-react';
 import InterviewCTA from '@/components/custom/InterviewCTA';
+import TradingViewWidget from '@/components/market/TradingViewWidget';
 
 interface AnalysisData {
   symbol: string;
@@ -227,6 +228,14 @@ export default function MarketDetailClient({ analysis, language }: MarketDetailC
                     : 'This analysis is for reference only and does not constitute investment advice. Forex trading involves risks; please make decisions carefully.'}
                 </p>
               </div>
+            </div>
+
+            {/* TradingView Chart */}
+            <div className="mt-8 bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-800 p-6">
+              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+                {isZh ? '实时图表' : 'Live Chart'}
+              </h3>
+              <TradingViewWidget symbol={analysis.symbol.replace('/', '')} />
             </div>
 
             {/* Back Button */}
