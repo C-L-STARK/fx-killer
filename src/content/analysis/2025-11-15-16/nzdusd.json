@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-15T16:14:40.920Z",
+  "price": {
+    "close": "0.56821412",
+    "high": "0.56821412",
+    "low": "0.56785917",
+    "open": "0.56785917",
+    "change": "0.08",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 53.81125,
+    "macd": 0.00031084264,
+    "macd_signal": 0.00039834938,
+    "sma20": 0.56824182
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋势]",
+      "content": "目前，纽元/美元在0.5682附近震荡整理，整体趋势偏向横盘，缺乏明确的突破信号。近期价格波动在高点0.56821412和低点0.56785917之间，显示出市场参与者的犹豫情绪。虽然短期内存在小幅波动，但整体趋势依然较为平稳。\n\n从技术指标来看，虽然RSI和MACD的具体数值缺失，但结合市场现状，我们可以推测出市场情绪较为中性。SMA(20)为0.56824182，价格轻微下穿此均线，可能暗示短期内的压力位。若价格持续在该均线下方，则可能会面临进一步的下行风险。\n\n支撑位方面，0.5679附近可能成为关键支撑，若有效跌破则可能引发更大的下行空间。抵抗位则在0.5685区域，若突破该水平，则可能迎来上涨动能。交易者需密切关注这些关键价位，以便及时调整策略。\n\n建议短期内采取观望策略，等待更明确的价格突破信号再进行进场操作。同时，设置合理的止损和止盈水平，以控制风险。市场情绪仍需进一步确认，投资者应保持谨慎。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair currently trades at 0.5682, reflecting a slight upward movement of 0.08% over the past 24 hours. This price action suggests a consolidation phase following recent volatility. The high and low of the trading day indicate a tight range, which may signal indecision among traders. A break above the recent high could indicate a bullish sentiment, while a drop below the low may trigger further bearish pressure.\n\nIn terms of technical indicators, the absence of the RSI(14) limits our ability to assess overbought or oversold conditions. However, the MACD is showing a positive value of 0.00031084264, suggesting that momentum is slightly in favor of the bulls. The SMA(20) at 0.5682 is almost aligned with the current price, illustrating that the market is hovering around its short-term average, further reinforcing the idea of a consolidation phase.\n\nKey support is observed around the recent low of 0.5679, which could act as a safety net for buyers. If this level holds, it may provide an opportunity for a rebound towards resistance at 0.5685. Conversely, if the price breaks below this support, it could open the door to a deeper correction, potentially targeting the next support level around 0.5670. \n\nTraders may consider a cautious approach, watching for breakout signals. A move above 0.5685 could present a buying opportunity, while a failure to hold above 0.5679 might prompt short positions. Utilizing stop-loss orders is advisable to manage risk effectively in this uncertain market environment."
+    }
+  }
+}
