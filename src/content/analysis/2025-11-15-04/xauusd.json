@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-15T04:17:56.561Z",
+  "price": {
+    "close": "4080.47219",
+    "high": "4080.64183",
+    "low": "4080.3973",
+    "open": "4080.45848",
+    "change": "-0.00",
+    "datetime": "2025-11-15 15:00:00"
+  },
+  "indicators": {
+    "rsi": 32.30211,
+    "macd": -22.58795,
+    "macd_signal": -24.28837,
+    "sma20": 4096.62108
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理趋势]",
+      "content": "当前黄金/美元（XAU/USD）价格处于4080.47附近，显示出震荡整理的趋势。尽管价格未出现明显波动，但市场仍在高位附近徘徊，投资者需保持警惕。短期内，价格在4080.39和4080.64之间波动，形成了一个狭窄的区间。\n\n从技术指标来看，当前的MACD值为-22.59，显示出市场缺乏强劲的买入动能，短期内可能继续维持弱势。此外，SMA(20)为4096.62，价格在此均线下方，进一步确认了当前的下行压力。由于RSI数据缺失，需结合其他指标进行综合分析。\n\n支撑位方面，4080.39将是关键支撑，若跌破该位，则可能进一步回调；而上方的阻力位在4096.62附近，需密切关注价格能否突破该区域。突破后，可能迎来新的上涨机会。\n\n交易建议方面，建议投资者短期内采取观望态度，等待价格突破支撑或阻力位后再进行交易。此外，考虑使用止损策略以控制潜在风险，确保在市场波动中保护投资本金。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of Gold against the US Dollar (XAU/USD) is hovering around 4080.47, reflecting a very slight change over the past 24 hours. Given the recent high of 4080.64 and a low of 4080.40, the market appears to be consolidating within a tight range. This sideways movement suggests indecision among traders, which may lead to a breakout in either direction. A close above 4096.62, marked by the 20-period Simple Moving Average (SMA), could signal a bullish reversal, while failure to hold above the recent lows may lead to further downside pressure.\n\nThe MACD currently shows a negative value of -22.59, indicating bearish momentum in the market. Without a signal line to compare, it’s difficult to ascertain a clear crossover point for potential buy signals. However, the RSI is not provided, which limits our ability to gauge overbought or oversold conditions. Traders should remain cautious and monitor these indicators closely, as a shift in momentum could occur with increased volume or news catalyst.\n\nIn terms of support and resistance, the immediate support level appears to be around the recent low of 4080.40. If this level is broken, the next significant support may be found at previous lows. Conversely, resistance is seen at 4096.62, aligning with the SMA, which could act as a psychological barrier for bullish traders. A breakout above this level would likely attract more buying interest, while a breach below support could trigger stop-loss orders and accelerate downward movement.\n\nFor trading strategies, a cautious approach is warranted due to the current consolidation phase. Traders might consider employing range-bound strategies, buying near support and selling near resistance. However, if a breakout occurs, positioning for a trend-following strategy could be beneficial. Always ensure proper risk management protocols are in place, especially in the face of potential volatility."
+    }
+  }
+}

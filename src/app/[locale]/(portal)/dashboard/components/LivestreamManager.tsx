@@ -10,6 +10,8 @@ export default function LivestreamManager() {
   const [loading, setLoading] = useState(true);
   const [editingStream, setEditingStream] = useState<LiveStream | null>(null);
   const [showForm, setShowForm] = useState(false);
+  const [clearingCache, setClearingCache] = useState(false);
+  const [cacheMessage, setCacheMessage] = useState('');
 
   const [formData, setFormData] = useState<LiveStream>({
     nickname: '',
@@ -37,6 +39,31 @@ export default function LivestreamManager() {
   useEffect(() => {
     fetchStreams();
   }, []);
+
+  // Clear Next.js cache for live-trading page
+  const handleClearCache = async () => {
+    setClearingCache(true);
+    setCacheMessage('');
+    try {
+      const response = await fetch('/api/revalidate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ path: '/live-trading' }),
+      });
+
+      if (response.ok) {
+        setCacheMessage(language === 'zh' ? '✓ 缓存已清除，前台将显示最新数据' : '✓ Cache cleared, frontend will show latest data');
+      } else {
+        setCacheMessage(language === 'zh' ? '✗ 清除失败' : '✗ Failed to clear cache');
+      }
+    } catch (error) {
+      console.error('Failed to clear cache:', error);
+      setCacheMessage(language === 'zh' ? '✗ 清除失败' : '✗ Failed to clear cache');
+    } finally {
+      setClearingCache(false);
+      setTimeout(() => setCacheMessage(''), 3000);
+    }
+  };
 
   // Handle create/update
   const handleSubmit = async (e: React.FormEvent) => {
@@ -99,12 +126,26 @@ export default function LivestreamManager() {
         <h1 className="text-3xl font-black text-black dark:text-white">
           {language === 'zh' ? '实时直播管理' : 'Livestream Management'}
         </h1>
-        <button
-          onClick={() => setShowForm(!showForm)}
-          className="px-6 py-3 bg-black dark:bg-white text-white dark:text-black font-bold hover:opacity-80 transition-opacity"
-        >
-          {showForm ? (language === 'zh' ? '取消' : 'Cancel') : (language === 'zh' ? '添加新直播' : 'Add New Stream')}
-        </button>
+        <div className="flex gap-3 items-center">
+          {cacheMessage && (
+            <span className={`text-sm ${cacheMessage.includes('✓') ? 'text-green-600 dark:text-green-400' : 'text-red-600 dark:text-red-400'}`}>
+              {cacheMessage}
+            </span>
+          )}
+          <button
+            onClick={handleClearCache}
+            disabled={clearingCache}
+            className="px-4 py-3 bg-blue-600 text-white font-bold hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            {clearingCache ? (language === 'zh' ? '清除中...' : 'Clearing...') : (language === 'zh' ? '🔄 清除缓存' : '🔄 Clear Cache')}
+          </button>
+          <button
+            onClick={() => setShowForm(!showForm)}
+            className="px-6 py-3 bg-black dark:bg-white text-white dark:text-black font-bold hover:opacity-80 transition-opacity"
+          >
+            {showForm ? (language === 'zh' ? '取消' : 'Cancel') : (language === 'zh' ? '添加新直播' : 'Add New Stream')}
+          </button>
+        </div>
       </div>
 
       {showForm && (

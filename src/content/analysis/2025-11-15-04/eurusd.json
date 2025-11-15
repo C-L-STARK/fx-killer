@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-15T04:12:37.341Z",
+  "price": {
+    "close": "1.16154",
+    "high": "1.16239",
+    "low": "1.16154",
+    "open": "1.16211",
+    "change": "-0.05",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 45.36101,
+    "macd": -0.00020076625,
+    "macd_signal": 0.000024967323,
+    "sma20": 1.16275
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理，谨慎观望]",
+      "content": "当前欧元/美元的价格为1.16154，整体呈现出震荡整理的走势。虽然24小时变化仅为-0.05%，但在高点和低点之间的波动表明市场缺乏明确的方向。投资者可能在等待更强的市场信号，导致当前的交易活动相对谨慎。\n\n从技术指标来看，SMA(20)为1.16275，显示出短期内的下行压力。MACD处于负值，表明卖方仍然占据一定的优势。而RSI目前未能提供数据，但若低于30，可能表明超卖状态，反之则可能提示卖压减弱。因此，关注RSI的变化将是关键。\n\n在支撑和阻力位方面，1.16100可能成为重要支撑位，而1.16300则是主要阻力位。突破1.16300将可能引发新一轮上涨，而跌破1.16100则可能加剧下跌风险。因此，投资者应密切关注这些关键水平。\n\n交易建议方面，建议在当前水平采取观望态度，等待更明确的市场信号。如果价格突破1.16300，可以考虑做多；若跌破1.16100，则可能需要考虑做空风险。保持灵活的交易策略，并随时调整以应对市场变化。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD currency pair is currently trading at 1.16154, reflecting a minor decline of 0.05% over the last 24 hours. This slight bearish movement suggests a consolidation phase following a recent uptick that brought the price close to the resistance level at 1.16239. The price movement indicates that the market is testing this resistance, and a successful breach could lead to further upward momentum. Conversely, a failure to break above this level may see the pair retreat towards established support.\n\nIn terms of technical indicators, the absence of RSI data makes it difficult to assess overbought or oversold conditions directly; however, the MACD shows a slight bearish crossover at -0.00020076625, suggesting that momentum is currently favoring the downside. The SMA(20) at 1.16275 also adds context, indicating that the recent price is below the short-term moving average. This positioning can be interpreted as a potential signal for traders to be cautious regarding long positions, especially if the price continues to struggle around the SMA.\n\nSupport levels for the EUR/USD can be identified just below the current price, with potential strong support around 1.16000. Should the market test this level, it could provide a buying opportunity for those looking to enter at a lower price. Conversely, if selling pressure continues and the support is broken, the next key level to watch would be 1.15800, where further downside movement could accelerate.\n\nIn light of current market conditions, traders may consider a cautious approach. For those looking to enter long positions, waiting for a confirmed break above the resistance at 1.16239 would be prudent, while setting stop-loss orders just below the support at 1.16000 can help mitigate risks. For short positions, a confirmation of bearish momentum through a break below this support level could offer a favorable entry point."
+    }
+  }
+}

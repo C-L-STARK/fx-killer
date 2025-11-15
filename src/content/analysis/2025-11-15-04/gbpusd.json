@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-15T04:13:18.335Z",
+  "price": {
+    "close": "1.31747",
+    "high": "1.31749",
+    "low": "1.31660",
+    "open": "1.31688",
+    "change": "0.04",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 56.053543,
+    "macd": 0.00024417619,
+    "macd_signal": 0.000054046077,
+    "sma20": 1.31561
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理，关注关键支撑位]",
+      "content": "当前英镑/美元交易于1.31747，显示出轻微的上涨趋势，但整体表现出震荡整理的格局。从技术角度看，价格接近短期均线SMA(20)的1.31561水平，这往往被视为一个重要的支撑位。如果价格持续维持在此之上，可能会进一步上涨。\n\n关于技术指标，目前RSI和MACD数据不完整，无法全面判断超买或超卖状态。但观察到MACD的值为0.00024417619，显示出多头动能尚可。若RSI值回升至50以上，可能进一步确认市场的上涨动能。\n\n在支撑位方面，1.31660是最近的低点，若突破则可能引发进一步下行风险。另一方面，上行阻力位在1.31800附近，若突破该水平，可能吸引更多买盘，推动价格上行。\n\n综合来看，建议交易者关注1.31561和1.31660的支撑位，若价格在此区间内震荡，可以考虑低位买入。而若价格突破1.31800，则可考虑加仓多头头寸。保持谨慎，密切关注市场动态，适时调整策略。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD currency pair is currently trading at 1.31747, showing a slight increase of 0.04% over the past 24 hours. This stability indicates a consolidation phase, as the price has remained within a narrow range between the high of 1.31749 and the low of 1.31660. The market appears to be in a bullish sentiment in the short term, especially given that the price is above the 20-day simple moving average (SMA) at 1.31561, suggesting potential upward momentum.\n\nIn terms of technical indicators, while the Relative Strength Index (RSI) is unavailable, the MACD value of 0.00024417619 points to a potential bullish crossover. This can indicate a strengthening momentum for the GBP/USD pair. As the market continues to consolidate, traders should keep an eye on the MACD for any changes that may suggest a shift in trend, particularly as the pairs approach resistance levels.\n\nKey support for the GBP/USD can be identified around the 1.3150 mark, where buyers may step in to prevent further declines. Conversely, resistance can be observed at 1.3200, a psychological level that traders often monitor. A breakout above this level could pave the way for a more sustained bullish rally, while a drop below 1.3150 may trigger a shift toward a bearish outlook.\n\nFor traders, considering the current market conditions, a cautious approach may be warranted. Entering long positions near the support level of 1.3150 could provide risk-reward opportunities, especially if the price shows signs of bouncing back. Conversely, setting stop-loss orders just below this level can help manage risks. Overall, remaining vigilant for potential breaks in either direction will be crucial in navigating the GBP/USD landscape effectively."
+    }
+  }
+}

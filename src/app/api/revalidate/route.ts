@@ -1,51 +1,34 @@
-import { revalidatePath } from 'next/cache';
 import { NextRequest, NextResponse } from 'next/server';
+import { revalidatePath } from 'next/cache';
 
-/**
- * API endpoint to revalidate (clear cache) specific pages
- * Usage: GET /api/revalidate?path=/zh/splan/blog&secret=your_secret
- */
-export async function GET(request: NextRequest) {
-  const searchParams = request.nextUrl.searchParams;
-  const path = searchParams.get('path');
-  const secret = searchParams.get('secret');
-
-  // Verify secret token (optional but recommended for security)
-  const revalidateSecret = process.env.REVALIDATE_SECRET || 'dev_secret_change_in_production';
-
-  if (secret !== revalidateSecret) {
-    return NextResponse.json(
-      { error: 'Invalid secret' },
-      { status: 401 }
-    );
-  }
-
-  if (!path) {
-    return NextResponse.json(
-      { error: 'Missing path parameter' },
-      { status: 400 }
-    );
-  }
-
+export async function POST(request: NextRequest) {
   try {
-    // Revalidate the specific path
-    revalidatePath(path);
+    const body = await request.json();
+    const { path } = body;
 
-    console.log(`[Revalidate] Cache cleared for path: ${path}`);
+    if (!path) {
+      return NextResponse.json(
+        { error: 'Path is required' },
+        { status: 400 }
+      );
+    }
+
+    // Revalidate the specified path for both locales
+    revalidatePath(`/zh${path}`);
+    revalidatePath(`/en${path}`);
+
+    // Also revalidate the root paths
+    revalidatePath(path);
 
     return NextResponse.json({
       success: true,
-      message: `Cache cleared for ${path}`,
-      revalidated: true,
-      now: Date.now(),
+      message: `Revalidated path: ${path}`,
+      timestamp: new Date().toISOString()
     });
   } catch (error) {
-    console.error('[Revalidate] Error:', error);
+    console.error('Revalidation error:', error);
     return NextResponse.json(
-      {
-        error: 'Error revalidating',
-        message: error instanceof Error ? error.message : 'Unknown error'
-      },
+      { error: 'Failed to revalidate' },
       { status: 500 }
     );
   }

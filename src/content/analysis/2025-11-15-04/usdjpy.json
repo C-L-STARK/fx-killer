@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-15T04:14:09.498Z",
+  "price": {
+    "close": "154.49300",
+    "high": "154.59801",
+    "low": "154.45900",
+    "open": "154.53000",
+    "change": "-0.02",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.52351,
+    "macd": -0.005667208,
+    "macd_signal": -0.019554233,
+    "sma20": 154.4924
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理趋势]",
+      "content": "当前美元/日元在154.49300附近震荡整理，短期内趋势偏向横盘。24小时变化为-0.02%，显示出市场情绪较为平稳。近期高点154.59801和低点154.45900的区间为市场提供了明确的支撑与阻力，投资者需密切关注价格在这一区间内的表现。\n\n在技术指标方面，RSI(14)尚未提供数据，但MACD指标显示出-0.0057的数值，暗示当前市场可能处于弱势。虽然SMA(20)在154.49240附近，价格略高于此水平，但整体势头未能转强，显示出多头力量不足，空头仍具备一定的优势。\n\n支撑位方面，154.45900是关键支撑位，若价格跌破该水平，可能加速下行；而154.59801则是短期阻力位，突破该点位将有助于恢复上涨动能。投资者可以在接近支撑位时考虑布局多单，而在接近阻力位时则应谨慎，考虑减持或做空。\n\n综上所述，当前美元/日元在154.49300附近震荡整理，市场情绪相对稳定。建议密切关注关键支撑和阻力位的突破情况，以便把握短期交易机会。保持灵活应对市场变化，将有助于降低风险并提高收益潜力。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY currency pair is currently trading at 154.493, showing a slight decline of 0.02% over the past 24 hours. This minor price movement suggests a period of consolidation following recent volatility. The high of 154.598 and low of 154.459 indicate that the market is maintaining a tight range, which could signify indecision among traders. As the pair hovers near the 20-day simple moving average (SMA) of 154.49240, it presents a critical juncture that may dictate the next directional move.\n\nFrom a trend perspective, the USD/JPY has been in a bullish phase over the longer term, supported by a series of higher highs and higher lows. However, the recent price action reflects a potential exhaustion of this upward momentum. Observing the Relative Strength Index (RSI) and MACD would provide further clarity, but the absence of these indicators at the moment limits our analysis. Traders should remain vigilant for signs of reversal patterns or continued bullish behavior, especially as the price approaches the upper boundary of the current range.\n\nIn terms of support and resistance levels, the immediate resistance lies near the recent high of 154.598, while key support can be identified at the recent low of 154.459. A breakout above the resistance could open the door for further upside, potentially targeting 155.00. Conversely, if the price breaks below support, it may indicate a shift in sentiment, leading to a retest of the lower support levels that could extend down to the 154.30 area.\n\nFor traders, the current market presents an opportunity to consider a range-bound strategy. A buy position near the support level of 154.459 with a tight stop-loss could be favorable, given the potential for a bounce. Alternatively, a sell position could be considered upon a confirmed break below this support, targeting further downside movement. Overall, maintaining a disciplined approach and monitoring key price levels will be crucial in navigating this market effectively."
+    }
+  }
+}

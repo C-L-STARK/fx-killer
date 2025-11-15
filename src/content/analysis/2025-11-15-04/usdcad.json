@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-15T04:15:42.049Z",
+  "price": {
+    "close": "1.40213",
+    "high": "1.40276",
+    "low": "1.40120",
+    "open": "1.40258",
+    "change": "-0.03",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 46.62505,
+    "macd": 0.000088553031,
+    "macd_signal": 0.00024427299,
+    "sma20": 1.40281
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡整理中]",
+      "content": "当前美元/加元（USD/CAD）交易在1.40213附近，呈现出震荡整理的趋势。价格在过去24小时内略微下跌0.03%，显示出市场缺乏明确方向。高点1.40276和低点1.40120之间的窄幅波动，表明市场参与者在等待进一步的市场信号。\n\n从技术指标来看，虽然RSI(14)数据缺失，但当前的MACD值为0.000088553031，意味着短期内动能略显疲软。20日简单移动平均线（SMA）为1.40281，价格在此附近交易，显示出市场的短期均衡状态。投资者需要关注这些指标，以判断未来价格走势。\n\n在支撑和阻力方面，1.40120的低点形成了强支撑位，而1.40276的高点则是关键阻力位。若价格突破1.40276，有望进一步上涨；反之，跌破1.40120则可能引发更大的下行压力。投资者应密切关注这两个关键价位。\n\n基于当前的市场态势，建议投资者采取观望态度，避免在震荡区间内进行过多交易。如果价格突破关键阻力位，可以考虑做多；如果跌破支撑位，则可考虑做空。保持灵活应变的交易策略，将有助于在市场波动中把握机会。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD pair currently trades at 1.40213, reflecting a slight decline of 0.03% over the past 24 hours. The price has oscillated between a high of 1.40276 and a low of 1.40120, indicating a relatively tight range during this period. This stability suggests a consolidation phase, as market participants await further economic data or central bank signals. A sustained breakout above 1.4030 could indicate a bullish trend, while a drop below 1.4000 might prompt further selling pressure.\n\nExamining the moving average, the 20-period SMA stands at 1.40281, indicating that the pair is currently trading just below this level. This proximity to the SMA suggests a potential resistance point, which could impede upward momentum. Traders should closely monitor price action around this moving average, as a decisive close above it could signal a shift towards bullish sentiment. Conversely, failure to breach this level may reinforce the bearish outlook.\n\nAs for support and resistance levels, immediate support can be identified at 1.40120, which aligns with the recent low. Should the price breach this level, further support may be found at 1.4000, a significant psychological barrier. On the upside, resistance is evident at 1.40276 and then at 1.4030. These levels will be critical in determining the next movement, as traders often make decisions based on price action at these thresholds.\n\nFor traders looking to enter the market, a cautious approach is warranted. A buy signal could be considered if the price convincingly breaks above the 1.4030 level, potentially targeting 1.4050. On the other hand, a break below 1.40120 could trigger a sell signal, with targets set at 1.4000, providing a favorable risk-reward ratio. It is essential to employ stop-loss orders to manage risk effectively, especially given the prevailing uncertainty in the market."
+    }
+  }
+}
