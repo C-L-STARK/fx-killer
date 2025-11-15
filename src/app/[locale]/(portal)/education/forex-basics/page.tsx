@@ -1,4 +1,5 @@
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getBrandConfig } from '@/lib/brand-config';
 import { forexBasicsContent } from '@/content/education/forex-basics.content';
 import EducationPageTemplate from '@/components/education/EducationPageTemplate';
 import Link from 'next/link';
@@ -6,6 +7,7 @@ import Link from 'next/link';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
 
   return generateBilingualMetadata(
     forexBasicsContent.zh.title,
@@ -15,6 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     forexBasicsContent.zh.keywords,
     forexBasicsContent.en.keywords,
     lang,
+    brandConfig,
     {
       url: '/education/forex-basics',
       type: 'article',
