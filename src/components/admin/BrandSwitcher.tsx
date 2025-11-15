@@ -18,14 +18,14 @@ export default function BrandSwitcher() {
   const [message, setMessage] = useState('');
   const [isOpen, setIsOpen] = useState(false);
 
+  useEffect(() => {
+    loadPresets();
+  }, []);
+
   // Only show in development mode
   if (process.env.NODE_ENV !== 'development') {
     return null;
   }
-
-  useEffect(() => {
-    loadPresets();
-  }, []);
 
   const loadPresets = async () => {
     try {
