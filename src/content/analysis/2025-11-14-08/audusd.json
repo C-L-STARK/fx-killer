@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-14T08:17:27.948Z",
+  "price": {
+    "close": "0.65251",
+    "high": "0.65287",
+    "low": "0.65235",
+    "open": "0.65282",
+    "change": "-0.05",
+    "datetime": "2025-11-14 19:00:00"
+  },
+  "indicators": {
+    "rsi": 38.86263,
+    "macd": -0.00048184161,
+    "macd_signal": -0.00037381932,
+    "sma20": 0.653732
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[弱势整理阶段]",
+      "content": "当前澳元/美元(AUD/USD)的价格为0.65251，整体呈现出弱势整理的走势。从24小时变化来看，价格微幅下滑0.05%，显示出市场缺乏明确的方向。高点和低点之间的窄幅波动表明市场参与者的谨慎态度，可能在等待进一步的宏观经济数据或事件。\n\n技术指标方面，MACD目前处于负值区域，表明卖方力量仍占主导。尽管RSI(14)数据缺失，但结合当前价格走势，市场可能处于超卖状态，短期内有反弹的潜力。20日简单移动平均线(SMA)在0.65373200附近，为目前价格提供了一个潜在的阻力位。\n\n从支撑和阻力位来看，0.65235为近期的重要支撑位，若下破该水平，可能加剧下行风险。另一方面，0.65373附近的SMA则构成了短期内的阻力位，若价格突破，将有助于恢复上行动能。综合考虑，短期内建议交易者保持观望，关注价格在支撑位附近的反应，以捕捉潜在的交易机会。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.65251, reflecting a slight decline of 0.05% over the past 24 hours. This modest movement suggests a consolidation phase after reaching a high of 0.65287 and a low of 0.65235 within the same period. The price action indicates that the market is uncertain, possibly awaiting further economic data from both Australia and the U.S. to establish a clearer direction. \n\nFrom a trend analysis perspective, the recent price behavior suggests that the AUD/USD is currently within a bearish trend, having failed to maintain higher levels. The current price sits below the 20-day Simple Moving Average (SMA) of 0.65373200, reinforcing the bearish outlook. Traders should watch for a potential reversal if the price can break above the 20-day SMA, which may indicate renewed bullish momentum. \n\nIndicator interpretations present a mixed picture. The MACD at -0.00048184161 indicates a bearish sentiment, although the absence of the signal line data makes it challenging to assess potential crossovers or divergences. The RSI(14) is not available, but if it were to be calculated, an RSI below 30 would suggest oversold conditions, while above 70 would indicate overbought conditions. Traders should consider these indicators in conjunction with price action for a clearer trading strategy.\n\nIn terms of support and resistance levels, immediate support can be identified around the recent low of 0.65235, while resistance is seen at 0.65373, aligning with the 20-day SMA. A break below the support level could prompt a test of lower levels, potentially around 0.6500. Conversely, a sustained move above the resistance level may indicate a bullish reversal. Traders might consider short positions near resistance with tight stop-loss orders, while potential long positions could be evaluated if the price shows strength above the SMA."
+    }
+  }
+}

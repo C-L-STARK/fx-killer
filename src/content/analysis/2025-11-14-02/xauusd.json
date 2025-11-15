@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-14T02:57:52.504Z",
+  "price": {
+    "close": "4208.86197",
+    "high": "4209.35984",
+    "low": "4189.51188",
+    "open": "4190.36409",
+    "change": "0.44",
+    "datetime": "2025-11-14 13:00:00"
+  },
+  "indicators": {
+    "rsi": 57.40638,
+    "macd": -0.75947162,
+    "macd_signal": 0.75682465,
+    "sma20": 4200.74003
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，待突破]",
+      "content": "当前黄金/美元（XAU/USD）价格稳定在4200附近，显示出短期内震荡整理的趋势。尽管价格略有上涨，但整体波动幅度有限，市场情绪相对谨慎。投资者需要保持关注，尤其是在即将到来的经济数据发布前。\n\n技术指标方面，当前的移动平均线（SMA 20）为4200.74，价格略高于此水平，表明短期内存在一定的上行动能。然而，MACD指标显示负值，表明多头力量不足，可能会限制进一步的上涨空间。RSI指标缺失，无法提供超买或超卖的明确信号。\n\n从支撑和阻力位来看，当前支撑位设在4189.51，若跌破该水平，则可能引发更深的调整。相反，4209.36是关键阻力位，若突破这一水平，可能引发新的买盘进入市场。投资者应密切关注这些关键价位的变化，以便及时调整交易策略。\n\n综合考虑，建议投资者在当前区间内采取区间交易策略。若价格接近支撑位可考虑小幅买入，但在触及阻力位时需谨慎，建议设置止损，以降低风险。在市场趋势不明朗的情况下，保持灵活应变的交易策略至关重要。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current market dynamics for XAU/USD indicate a cautiously bullish trend, with the latest price trading at 4208.86. This represents a modest increase of 0.44% over the past 24 hours, suggesting a degree of market stability. The price has recently oscillated between a high of 4209.36 and a low of 4189.51, highlighting a relatively tight trading range. Should the price break above the recent high, we could see further bullish momentum, potentially targeting the next resistance level around 4220.\n\nFrom an indicator perspective, the MACD reading of -0.76 suggests that the momentum is currently bearish; however, the lack of a defined signal indicates uncertainty in the short term. The absence of an RSI value makes it difficult to gauge overbought or oversold conditions. Nonetheless, the SMA(20) at 4200.74 provides a useful reference point, indicating that the price is currently above this moving average, which may act as a support level in the event of a pullback.\n\nKey support is observed at 4189.51, with the potential for further downside towards 4180 should bearish pressure increase. Conversely, resistance is established around the recent high of 4209.36. If the price breaches this level, it could pave the way for a rally towards 4220, which would be a crucial psychological level for traders. Monitoring these levels is essential for identifying potential entry and exit points.\n\nFor traders, a cautious approach is advisable. Buying on dips near the SMA(20) could yield potential rewards, while placing stop-loss orders just below the support level at 4189.51 would help manage risk. Conversely, observing for a breakout above 4209.36 may present a buying opportunity, particularly if accompanied by increasing volume, signaling a stronger bullish sentiment."
+    }
+  }
+}

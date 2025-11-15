@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-14T16:15:58.926Z",
+  "price": {
+    "close": "0.65472",
+    "high": "0.65478",
+    "low": "0.65439",
+    "open": "0.65439",
+    "change": "0.04",
+    "datetime": "2025-11-15 03:00:00"
+  },
+  "indicators": {
+    "rsi": 57.52007,
+    "macd": -0.00022477945,
+    "macd_signal": -0.00046852864,
+    "sma20": 0.653178
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡调整，关注支撑与阻力]",
+      "content": "当前澳元/美元的价格在0.65472附近震荡整理，显示出短期内市场情绪的谨慎。最近24小时的微幅变化（0.04%）表明，市场尚未找到明确的方向。高点和低点的相对接近（0.65478 / 0.65439）暗示出市场参与者正在等待更强的动能来推动价格突破。\n\n技术指标方面，虽然RSI未提供，但MACD的负值（-0.00022477945）显示出当前市场处于看跌状态，这可能预示着短期内的下行压力。然而，20日简单移动平均线（SMA）在0.65317800附近为价格提供了一定的支撑，若价格跌破此水平，可能会引发进一步的卖盘。\n\n在支撑和阻力位的分析中，当前支撑位在0.65318附近，若价格下跌至此水平，可能会吸引买盘介入。而阻力位则位于0.65500附近，若价格突破该水平，将可能重新点燃多头情绪。建议交易者关注这两个关键水平，以捕捉可能的反转或突破机会。\n\n综上所述，当前市场处于震荡调整阶段，投资者需保持警惕，密切关注技术指标和价格行为。适时的进出场策略将有助于在这段时间内实现更好的交易收益。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) is currently trading at 0.65472 against the US Dollar (USD), reflecting a modest 24-hour change of 0.04%. The price movement has experienced a slight range, with a high of 0.65478 and a low of 0.65439, indicating a period of consolidation. This behavior suggests that the market is currently indecisive, with neither buyers nor sellers taking control. Assessing the broader trend, the AUD/USD pair appears to be in a downtrend, with the current price below the 20-period Simple Moving Average (SMA) of 0.653178. \n\nIn terms of technical indicators, the absence of RSI data limits our ability to gauge overbought or oversold conditions effectively. However, the MACD value of -0.00022477945 reinforces the downtrend, indicating bearish momentum. Traders should monitor the MACD closely for any potential crossover that might signal a change in momentum. Given the current price action and technical indicators, it would be prudent for traders to remain cautious, as the lack of strong bullish signals suggests limited upside potential in the near term.\n\nIdentifying key support and resistance levels is crucial for trading decisions. The immediate support level can be observed around the 0.65439 low, which, if broken, could lead to further downside movement toward the next support around 0.65000. Conversely, resistance is established near the recent high of 0.65478. A sustained move above this level might indicate a shift in market sentiment, potentially leading to a retracement toward higher levels. \n\nFor traders considering entry points, a conservative approach would be to wait for a confirmed breakout above resistance or a solid bounce from support. Setting stop-loss orders just below support levels can help manage risk effectively. Given the current technical landscape, traders should focus on short-term strategies while remaining alert to any fundamental news that could impact the AUD/USD dynamics."
+    }
+  }
+}

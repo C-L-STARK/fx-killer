@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-14T14:52:57.711Z",
+  "price": {
+    "close": "0.79075003",
+    "high": "0.79105997",
+    "low": "0.78909999",
+    "open": "0.78951001",
+    "change": "0.16",
+    "datetime": "2025-11-15 01:00:00"
+  },
+  "indicators": {
+    "rsi": 41.38774,
+    "macd": -0.0012451419,
+    "macd_signal": -0.001199885,
+    "sma20": 0.79190401
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[当前处于震荡整理阶段]",
+      "content": "当前美元/瑞郎的价格为0.79075，近期表现出一定的震荡整理特征。价格在0.79106的高点和0.7891的低点之间波动，显示出市场未能明确突破近期区间。这种震荡可能是市场等待更强的推动因素来决定下一步的方向。\n\n从技术指标来看，虽然RSI未提供，但MACD指标略微为负，显示出短期内卖方力量依然占优。SMA(20)位于0.7919，意味着当前价格低于该均线，可能表明短期内价格面临压力。若价格未能有效突破这一均线，可能会继续维持在当前区间内。\n\n在支撑和阻力方面，短期内的支撑位位于0.7891，而阻力位则在0.7911附近。如果价格突破0.7911，可能会引发进一步的上涨动能；反之，跌破0.7891则可能导致进一步回调。投资者应关注这些关键水平的变化。\n\n总体而言，建议投资者在当前震荡行情中保持谨慎，关注价格在支撑和阻力之间的表现。可考虑在支撑位附近寻找买入机会，而在接近阻力位时则考虑获利了结或卖出，确保风险控制。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair currently trades at 0.79075, reflecting a slight upward movement of 0.16% over the past 24 hours. The recent price action indicates a consolidation phase, with the pair oscillating between the intraday high of 0.79106 and the low of 0.78910. This range-bound behavior suggests a lack of strong directional momentum, which could signal a buildup for a potential breakout in either direction. Traders should closely monitor the price action around these levels to gauge the next move.\n\nFrom a technical standpoint, the absence of the RSI(14) data limits our momentum analysis, but the MACD value of -0.00125 suggests bearish momentum is still present. Although the MACD is negative, its proximity to the zero line indicates a possible shift in momentum. The SMA(20) at 0.79190 serves as a dynamic resistance level, and a sustained break above this level could signal a shift toward bullish sentiment, whereas a failure to overcome this resistance may reinforce bearish pressures.\n\nKey support can be identified around the recent low of 0.78910, which may act as a psychological barrier for traders. A drop below this support could lead to further declines, potentially targeting the next support level near 0.78800. Conversely, if the price manages to hold above 0.78910 and break the SMA(20), traders may consider entering long positions, aligning with a potential upward trend.\n\nGiven the current market conditions, a cautious approach is advisable. Traders should look for confirmation signals, such as a bullish engulfing pattern or a MACD crossover, before entering positions. Setting stop-loss orders just below key support levels will help mitigate risks, while profit targets can be set near the SMA(20) or previous highs, ensuring a favorable risk-reward ratio."
+    }
+  }
+}

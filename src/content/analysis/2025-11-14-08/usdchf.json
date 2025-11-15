@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-14T08:20:05.549Z",
+  "price": {
+    "close": "0.79095000",
+    "high": "0.79196000",
+    "low": "0.79053003",
+    "open": "0.79152000",
+    "change": "-0.07",
+    "datetime": "2025-11-14 19:00:00"
+  },
+  "indicators": {
+    "rsi": 31.38481,
+    "macd": -0.0012060021,
+    "macd_signal": -0.0012646043,
+    "sma20": 0.792562
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡格局中的谨慎态度]",
+      "content": "当前美元/瑞郎（USD/CHF）在0.7900附近震荡，价格略微下跌0.07%。从短期来看，该货币对进入了一个窄幅波动区间，未能有效突破0.7925的阻力位。整体趋势呈现出一定的疲软，若未能持续站稳该阻力位，可能进一步向下测试支撑位0.7905。\n\n技术指标方面，MACD显示出负值，表明卖方力量略占上风，虽然RSI未提供最新数据，但在震荡区间内，市场可能面临短期超卖或超买的风险。20日简单移动平均线（SMA）在0.7925附近，为短期反弹提供了参考，但若价格持续低于该水平，可能会对多头构成压力。\n\n支撑位方面，0.7905是关键的心理关口，若跌破这一水平，可能引发更大幅度的回调，进一步支撑位在0.7890附近；而在阻力位方面，0.7925及0.7935分别是短期内的关注点。投资者应密切关注这些关键价位的突破情况，以便调整交易策略。\n\n基于当前市场状况，建议投资者保持谨慎，待价格确认突破信号后再进行交易。若价格向上突破0.7925，可考虑做多，而在下行测试0.7905时，建议设置止损以控制风险。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair is currently trading at 0.79095, exhibiting a slight decline of 0.07% over the last 24 hours. This recent price action indicates a potential bearish trend, particularly as the pair has failed to maintain momentum above the 0.79256 SMA(20). The high for the period was at 0.79196, which suggests that resistance at this level remains significant. A sustained move below the recent low of 0.79053 could further reinforce bearish sentiment and open the door for a test of lower support levels.\n\nIn terms of technical indicators, the MACD value of -0.0012060021 signals a weak bearish momentum, as it remains below zero. However, the RSI(14) is currently unavailable, limiting our ability to fully gauge overbought or oversold conditions. Traders should monitor these indicators closely for shifts that could indicate a reversal or continuation of the current trend. A rebound above the SMA(20) may suggest a potential buying opportunity, as the market could seek to test higher resistance levels.\n\nKey support for USD/CHF is seen at 0.79053, and a break below this level may trigger further selling pressure, potentially targeting 0.78900 as the next significant support. Conversely, resistance remains strong at 0.79256, with traders likely looking for a breakout above this level to confirm bullish sentiment. A failure to breach this resistance could lead to consolidation or a continuation of the downward trend.\n\nGiven the current market conditions, traders may consider short positions if the pair breaks below 0.79053, targeting lower support levels. Alternatively, a confirmed breakout above 0.79256 could present a buying opportunity, with a focus on capitalizing on potential upward momentum. Maintaining a watchful eye on economic indicators and geopolitical developments will be crucial, as these factors can significantly impact the USD/CHF pair's direction."
+    }
+  }
+}

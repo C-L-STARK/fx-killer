@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-14T13:51:05.345Z",
+  "price": {
+    "close": "4053.96642",
+    "high": "4117.82145",
+    "low": "4048.66771",
+    "open": "4114.04142",
+    "change": "-1.46",
+    "datetime": "2025-11-15 00:00:00"
+  },
+  "indicators": {
+    "rsi": 19.35957,
+    "macd": -20.17877,
+    "macd_signal": -7.93211,
+    "sma20": 4167.92504
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[短期看空，需关注支撑位]",
+      "content": "当前黄金/美元的价格为4053.97，24小时内下跌1.46%，显示出短期内的看空趋势。价格在高点4117.82和低点4048.67之间波动，表明市场情绪偏向谨慎。若价格持续低于20日简单移动平均线(SMA)，则可能进一步下探。\n\n技术指标方面，MACD显示出负值-20.18，表明当前市场动能偏弱，可能会对后续价格走势形成压制。由于RSI数据缺失，建议关注后续的技术指标变化，以确认市场是否存在超卖或超买的情况。\n\n支撑位方面，4050附近是一个关键支撑，若跌破可能会引发进一步下探，目标可能在4000区域。阻力位则在4167附近，若价格回升突破此水平，可能会重新获得上涨动能。\n\n综合来看，短期内建议投资者保持谨慎，若价格回落至支撑位附近可考虑低位买入，但需设定止损以降低风险。同时，若价格突破阻力位，可适时调整策略，关注后续走势。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4053.97 indicates a bearish sentiment after a 24-hour decline of 1.46%. This downward movement follows a recent high of 4117.82, suggesting that gold has faced significant resistance at this level. The failure to sustain upward momentum raises concerns about further price erosion. Traders should monitor price action closely as a break below the recent low of 4048.67 could signal a deeper retracement toward key support levels.\n\nTechnical indicators paint a mixed picture for gold. The recent MACD value of -20.18 suggests a bearish crossover, indicating that momentum is favoring sellers. Meanwhile, the absence of an RSI reading complicates the assessment of overbought or oversold conditions. The SMA(20) at 4167.93 remains above the current price, reinforcing the bearish outlook and highlighting the potential for further downside. Traders should consider waiting for confirmation of reversal patterns before entering long positions.\n\nSupport levels are crucial for determining potential price floors. The immediate support at 4048.67 is critical for maintaining bullish sentiment; a breach here could open the door to further declines toward psychological levels, such as 4000. Conversely, resistance is clearly established at 4117.82, where selling pressure has previously emerged. The market could consolidate within this range, providing traders with opportunities to capitalize on price swings.\n\nGiven the current technical landscape, a cautious approach is warranted. Short positions may be appropriate near resistance levels, particularly if price action confirms bearish signals. Conversely, traders looking for long entries should wait for a clear reversal signal, ideally accompanied by bullish divergence in momentum indicators. Overall, maintaining a flexible strategy will be essential in navigating the inherent volatility of the gold market."
+    }
+  }
+}

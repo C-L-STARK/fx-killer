@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-14T12:26:39.264Z",
+  "price": {
+    "close": "0.78999001",
+    "high": "0.79158002",
+    "low": "0.78975999",
+    "open": "0.79137999",
+    "change": "-0.18",
+    "datetime": "2025-11-14 23:00:00"
+  },
+  "indicators": {
+    "rsi": 30.84712,
+    "macd": -0.0010966483,
+    "macd_signal": -0.0011345061,
+    "sma20": 0.7921345
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[当前趋势偏弱]",
+      "content": "当前美元/瑞郎的市场表现显示出一定的疲软趋势。最新价格为0.78999001，相比于24小时之前小幅下跌0.18%。在高点0.79158002和低点0.78975999之间的波动，表明市场情绪略显谨慎，投资者对该货币对的看法趋向保守。\n\n从技术指标来看，MACD处于负值区间，显示出卖方的强势，而RSI指标的缺失让我们无法进一步确认超买或超卖情况。20日简单移动平均线(SMA)为0.79213450，价格在此下方，进一步验证了当前的下行动能。投资者应密切关注这些技术信号，以判断市场进一步的走向。\n\n在支撑和阻力位方面，当前支撑位可关注0.7897，而阻力位则在0.7920附近。一旦价格跌破支撑位，可能会引发进一步的下行压力，而若能够突破阻力位，则有可能反弹至更高水平。因此，交易者应根据这些关键位置制定相应的交易策略。\n\n总体而言，建议投资者采取谨慎态度，若价格接近支撑位时可考虑小幅做多，而在接近阻力位时则可以考虑做空。同时，密切关注市场动态和技术指标的变化，以便及时调整策略。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The current market for USD/CHF shows a slight bearish trend, with the latest price at 0.78999, reflecting a 0.18% decline over the past 24 hours. The price movement has been contained between a high of 0.79158 and a low of 0.78976, indicating a consolidation phase. This behavior suggests that traders are waiting for a clear signal to determine the next directional move. The prevailing sentiment may be influenced by broader economic factors, including interest rate differentials and geopolitical developments impacting both currencies.\n\nIn terms of technical indicators, the absence of the RSI (Relative Strength Index) value makes it difficult to assess overbought or oversold conditions; however, the MACD (Moving Average Convergence Divergence) is currently negative at -0.0011. This may suggest a bearish momentum, although the lack of a defined signal line means caution is warranted in interpretation. The SMA (Simple Moving Average) of 20 days stands at 0.79213, which can act as a dynamic resistance level. If the price fails to break above this level, we may see further downside pressure.\n\nSupport levels are crucial in this analysis, with the recent low of 0.78976 providing a potential floor for buyers. A strong hold above this level may indicate buyers stepping in, while a breach could lead to further declines towards the next significant support around 0.78850. Conversely, if the price moves above the SMA of 0.79213, it could trigger a rally towards 0.79400, which would serve as a key resistance level. \n\nTraders should consider a cautious approach, focusing on potential breakout strategies. A buy signal could emerge if the price reclaims the SMA, with targets set at resistance levels. Conversely, maintaining a watchful eye on support levels will be vital for managing risk in the event of a breakdown. Employing stop-loss orders just below the support could help protect against adverse movements while allowing for potential upside if the trend reverses."
+    }
+  }
+}

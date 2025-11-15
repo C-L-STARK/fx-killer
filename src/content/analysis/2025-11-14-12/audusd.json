@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-14T12:24:10.625Z",
+  "price": {
+    "close": "0.65107",
+    "high": "0.65121",
+    "low": "0.65084",
+    "open": "0.65088",
+    "change": "0.03",
+    "datetime": "2025-11-14 23:00:00"
+  },
+  "indicators": {
+    "rsi": 32.85531,
+    "macd": -0.0008224011,
+    "macd_signal": -0.00056596835,
+    "sma20": 0.6530265
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理，风险偏好待考量]",
+      "content": "当前澳元/美元的价格为0.65107，处于近期震荡整理的区间内。市场在0.65084至0.65121之间波动，显示出买卖双方的力量暂时平衡。短期内，市场情绪较为谨慎，投资者需关注即将发布的经济数据及风险事件，以判断后市趋势。\n\n从技术指标来看，MACD指标为负值，表明卖方占据主导地位，但未能形成强烈的下行趋势。尽管当前RSI值未提供，若后续数据表明超卖情况，可能引发反弹。20日简单移动平均线（SMA）为0.6530，显示出阻力位的存在，价格若能突破该水平，可能会吸引更多买盘。\n\n支撑位方面，0.65084是当前的关键支撑位，若该水平被有效突破，可能会加大下行风险。另一方面，若价格企稳于该支撑之上，投资者可考虑低位买入，待反弹时适时获利。建议关注市场动态，灵活调整交易策略，以应对不断变化的市场环境。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.65107, showing a slight upward shift of 0.03% over the last 24 hours. This modest movement suggests a sideways trend in the short term. The price has encountered resistance near the 0.6530 level, aligning with the 20-day Simple Moving Average (SMA). A sustained move above this area could signal a potential reversal or bullish sentiment, while failure to breach this resistance may lead to further consolidation or downward pressure.\n\nThe recent high of 0.65121 and low of 0.65084 indicate a tight trading range, reflecting indecisiveness among traders. The absence of a calculated RSI prevents us from gauging overbought or oversold conditions clearly; however, the MACD’s negative value suggests bearish momentum. If the MACD begins to converge towards the signal line, it may indicate a potential shift in momentum, which traders should watch closely for confirmation of a trend change.\n\nKey support levels are identified around the 0.6500 psychological mark, which may provide a buffer against further declines. If the price breaks below this level, it could open the door for a move towards 0.6480, reinforcing the bearish outlook. Conversely, a strong bounce from support could lead to a retest of recent highs, particularly if market sentiment shifts positively due to external factors such as economic data releases or geopolitical developments.\n\nTraders may consider a cautious approach, utilizing a range trading strategy given the current market conditions. A buy order could be placed near the support level of 0.6500 with a tight stop-loss to manage risk. Alternatively, in the event of a breakout above the 0.6530 resistance zone, traders might look for buying opportunities, anticipating further upside potential. Monitoring broader market trends and economic indicators will be crucial for making informed decisions in this fluctuating environment."
+    }
+  }
+}

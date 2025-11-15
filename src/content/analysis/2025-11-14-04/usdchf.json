@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-14T04:20:08.871Z",
+  "price": {
+    "close": "0.79206997",
+    "high": "0.79242998",
+    "low": "0.79188001",
+    "open": "0.79234999",
+    "change": "-0.04",
+    "datetime": "2025-11-14 15:00:00"
+  },
+  "indicators": {
+    "rsi": 35.94723,
+    "macd": -0.0012307111,
+    "macd_signal": -0.0013572043,
+    "sma20": 0.79333601
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理中]",
+      "content": "当前美元/瑞郎的价格为0.7921，显示出轻微的下跌趋势。从最近的24小时变化来看，价格下跌了0.04%，反映出市场的疲软。虽然价格在高点和低点之间波动，但整体趋势显示出缺乏明确方向，可能处于震荡整理阶段。\n\n在技术指标方面，RSI尚未提供相关数据，而MACD指标的值为-0.0012，表明短期内动能偏弱。20日简单移动平均线(SMA)为0.7933，当前价格低于该水平，进一步强化了看跌信号。在这种背景下，短期内价格继续承压的可能性较大。\n\n支撑位方面，0.7919附近的低点可能成为价格企稳的关键区域。如果价格跌破该支撑位，可能会进一步向0.7900靠近。阻力位则位于0.7933，若价格突破该水平，可能会引发短期反弹，进而挑战更高的阻力。\n\n综合来看，建议交易者保持观望态度，等待更清晰的趋势信号。如果价格有效突破0.7933的阻力位，可以考虑短线买入机会，反之则可考虑在支撑位附近寻找卖出机会。保持谨慎，设定合理的止损位以控制风险。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF currency pair is currently trading at 0.7921, showing a slight decline of 0.04% over the past 24 hours. This modest decrease suggests that the pair remains under gentle bearish pressure. The high of 0.7924 and low of 0.7919 indicate a range-bound market, which could signal indecision among traders. The prevailing trend appears to be sideways, as the price oscillates around the 0.7920 mark, reflecting a potential consolidation phase.\n\nIn terms of technical indicators, the MACD is currently negative at -0.0012, indicating that the bearish momentum might be gaining traction. However, the absence of a signal line hinders a more detailed analysis of potential reversals or continuations. The 20-period Simple Moving Average (SMA) is positioned at 0.7933, serving as a dynamic resistance level. If the price fails to breach this SMA, it could reinforce the current bearish sentiment in the short term.\n\nKey support for USD/CHF lies at 0.7919, which aligns closely with the recent low. A break below this level could lead to further downside, potentially targeting 0.7900 as the next psychological support. Conversely, should the price manage to reclaim the SMA at 0.7933, it may attract buyers and shift the momentum back towards the bullish territory, possibly aiming for the resistance around 0.7950.\n\nTraders should consider a cautious approach in this environment. A short position could be viable if the price breaks below 0.7919, with a target near 0.7900. Conversely, a bullish reversal above the SMA could prompt a long position with a target at 0.7950. Monitoring the MACD and other indicators will be essential to refining entry and exit points in this developing market scenario."
+    }
+  }
+}

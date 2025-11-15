@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-14T06:57:01.671Z",
+  "price": {
+    "close": "1.31416",
+    "high": "1.31582",
+    "low": "1.31416",
+    "open": "1.31473",
+    "change": "-0.05",
+    "datetime": "2025-11-14 17:00:00"
+  },
+  "indicators": {
+    "rsi": 42.61396,
+    "macd": -0.00022236379,
+    "macd_signal": 0.00032965072,
+    "sma20": 1.31704
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[短期震荡走势]",
+      "content": "当前GBP/USD的市场表现显示出短期震荡的趋势。最新价格为1.31416，24小时内小幅下跌0.05%。目前价格接近日内低点1.31416，表明市场在这一水平附近缺乏明显的方向性，投资者可能在等待更明确信息以决定下一步行动。\n\n从技术指标来看，当前未提供RSI和MACD的完整数据，但MACD值略微为负，暗示卖方可能在主导市场。SMA(20)的水平为1.31704，价格在此之下，显示出短期内承压的状态。投资者应关注这些指标的变化，以判断短期反弹的可能性。\n\n重要的支撑位在1.31300附近，若跌破该水平，可能引发空头进一步加码。阻力位则处于1.31700，突破此水平可能会激发买盘，形成上涨趋势。投资者需密切关注这些关键价位，以便及时调整交易策略。\n\n综合来看，当前GBP/USD处于震荡整理阶段，建议投资者采取观望态度，避免在缺乏明确信号的情况下贸然入场。若价格突破1.31700，可考虑做多；反之，如跌破1.31300，需谨慎评估空头机会。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The current price of GBP/USD is at 1.31416, reflecting a slight decline of 0.05% over the past 24 hours. This minor pullback comes after the pair reached a recent high of 1.31582, indicating that short-term bullish momentum may be waning. The price is currently hovering near the previous support level of 1.3140, which has held up well in recent trading sessions. A break below this level could trigger further selling pressure, potentially pushing the price towards the next support at 1.3100.\n\nThe absence of a calculated RSI(14) makes it challenging to gauge the market's momentum directly; however, the MACD reading of -0.000222 suggests a bearish sentiment. This negative MACD value indicates that the short-term moving average is below the longer-term average, reinforcing the idea of weakening buying interest. Traders should watch for a potential crossover in the MACD as an early signal for a reversal or continuation of the current trend.\n\nThe 20-day Simple Moving Average (SMA) at 1.31704 acts as a significant resistance level. If the price can overcome this hurdle, it may indicate a renewed bullish trend. Conversely, if the price remains below this SMA and the support level at 1.3140 fails, it could lead to a downward trend. The market's reaction to these key levels will be crucial in determining the next directional move.\n\nIn terms of trading strategy, traders may consider short positions near the current price, especially if it fails to reclaim the 20-day SMA. However, a solid stop-loss above the SMA would help mitigate potential losses. Alternatively, bullish traders might wait for a confirmed breakout above 1.31704 before entering long positions, ensuring that they align with the prevailing market trend for optimal risk-reward ratios."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-14T12:27:21.273Z",
+  "price": {
+    "close": "4119.05541",
+    "high": "4139.79919",
+    "low": "4113.05882",
+    "open": "4133.43454",
+    "change": "-0.35",
+    "datetime": "2025-11-14 23:00:00"
+  },
+  "indicators": {
+    "rsi": 28.54033,
+    "macd": -11.86007,
+    "macd_signal": -4.79289,
+    "sma20": 4175.55879
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[短期下行趋势显现]",
+      "content": "当前黄金/美元（XAU/USD）价格为4119.05541，近期价格走势显示出短期下行趋势。24小时内，价格小幅下跌0.35%，并在4139.79919和4113.05882之间波动。市场情绪似乎偏向谨慎，投资者可能在寻求更明确的方向信号。\n\n从技术指标来看，MACD值为-11.86007，表明卖方力量相对较强，且尚未出现反转信号。由于RSI未提供，短期内可能会出现更多的卖压。20日简单移动平均线（SMA）为4175.55879，显示当前价格相对均线处于下方，进一步支持了看跌的观点。\n\n对于支撑和阻力位的分析，当前的支撑位在4113.05882，若跌破此水平，可能会引发更大幅度的下行。上方阻力位则在20日SMA附近的4175.55879，若价格能够有效突破此阻力，可能会迎来反弹行情。 \n\n基于上述分析，建议短期内关注下行机会，若价格接近支撑位时可适度考虑短线交易。同时，保持警惕，关注宏观经济数据及市场情绪变化，以便及时调整交易策略。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current market for Gold against the US Dollar (XAU/USD) shows a slight downtrend, with the latest price at 4119.06, reflecting a 0.35% decline over the past 24 hours. The recent high of 4139.80 indicates potential resistance near the 4140 level, while the low of 4113.06 serves as a crucial support point. Traders should monitor these levels closely, as a break below support could lead to further selling pressure, while a rally above resistance may signal a reversal.\n\nIn terms of technical indicators, the MACD stands at -11.86, suggesting bearish momentum in the market. A negative MACD value typically indicates that sellers are in control; however, without the signal line data, further confirmation is limited. The absence of a current RSI reading makes it challenging to assess whether Gold is entering overbought or oversold territory, which could present trading opportunities. Traders should keep an eye on the development of these indicators for clearer signals.\n\nThe 20-day Simple Moving Average (SMA) at 4175.56 indicates that the short-term trend is still below this key level, reinforcing the bearish sentiment. If prices remain below the SMA, it could suggest a continuation of the downtrend. A decisive move above the SMA could shift sentiment, providing a potential entry point for bullish positions. Conversely, staying below this level may encourage traders to consider short positions or wait for further confirmation of a trend reversal.\n\nIn summary, traders should watch for price action around the identified support and resistance levels while paying close attention to the MACD and SMA for additional insights. A breakout above resistance could open up opportunities for long trades, whereas a drop below support would likely prompt selling. Maintaining a disciplined approach with stop-loss orders is advisable to manage risk in this volatile market."
+    }
+  }
+}

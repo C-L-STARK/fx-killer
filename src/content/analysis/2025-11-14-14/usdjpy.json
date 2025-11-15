@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-14T14:49:32.486Z",
+  "price": {
+    "close": "154.27299",
+    "high": "154.30099",
+    "low": "153.97900",
+    "open": "154.082993",
+    "change": "0.12",
+    "datetime": "2025-11-15 01:00:00"
+  },
+  "indicators": {
+    "rsi": 45.058585,
+    "macd": -0.077277306,
+    "macd_signal": -0.034265617,
+    "sma20": 154.4877
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[短期震荡，谨慎观望]",
+      "content": "当前美元/日元的价格为154.27299，显示出短期内的震荡走势。价格在154.30099的高点和153.97900的低点之间波动，表明市场尚未形成明确的趋势。交易者应关注即将到来的经济数据，以便捕捉可能的突破信号。\n\n技术指标方面，RSI和MACD的缺失使得我们无法全面评估市场的超买或超卖状态。然而，SMA(20)的水平为154.48770，可能作为短期阻力位，若价格上破此水平，可能会引发进一步的上涨。反之，若价格回落至153.97900以下，则可能会加剧下行压力。\n\n在支撑和阻力方面，短期内154.30099被视为重要的阻力位，而153.97900则是关键支撑位。若价格在这一区间内震荡，交易者可在接近支撑位时考虑做多，而在接近阻力位时则可考虑做空，以捕捉短期波动。\n\n综上所述，当前美元/日元市场处于观望状态，建议交易者保持谨慎，关注即将发布的经济数据，并在关键价位附近寻找交易机会。合理设定止损和止盈，以降低风险。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 154.273, showing a modest 24-hour change of 0.12%. This slight uptick occurs within a recent range marked by a high of 154.301 and a low of 153.979. The market appears to be consolidating around the 154.200 level, suggesting that traders are waiting for a clearer directional signal. The trend remains bullish in the short term, but the inability to breach the 154.500 resistance level may indicate potential exhaustion in buying momentum.\n\nTechnical indicators reveal a mixed picture. The MACD is currently negative at -0.077, indicating that the momentum is bearish, but this could change if the price breaks above key resistance levels. The absence of an RSI reading limits our ability to assess overbought or oversold conditions. However, the SMA(20) at 154.488 provides a critical moving average resistance level that traders should monitor closely. A sustained move above this level could signal a resumption of bullish momentum.\n\nKey support levels to watch are around 153.980 and 153.800, where buying interest may emerge. On the upside, resistance is evident at 154.500, and a break above this level could open the door for further gains towards 155.000. A failure to hold above 154.000 may prompt a retest of lower support levels, potentially leading to increased selling pressure. \n\nTraders may consider a cautious long position if the price breaks above the SMA(20) and the 154.500 resistance level, with a target toward 155.000. Conversely, a move below 154.000 could trigger short positions, targeting the support levels mentioned earlier. Employing stop-loss orders will be essential to manage risk effectively in this volatile environment."
+    }
+  }
+}

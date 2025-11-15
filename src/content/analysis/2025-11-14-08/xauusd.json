@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-14T08:20:57.427Z",
+  "price": {
+    "close": "4177.28144",
+    "high": "4181.87443",
+    "low": "4172.98652",
+    "open": "4180.21106",
+    "change": "-0.07",
+    "datetime": "2025-11-14 19:00:00"
+  },
+  "indicators": {
+    "rsi": 45.0024315,
+    "macd": -2.06087,
+    "macd_signal": -0.25448984,
+    "sma20": 4188.11066
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[短期震荡，等待突破]",
+      "content": "当前黄金/美元(XAU/USD)价格在4177.28附近震荡，显示出短期内缺乏明确的趋势方向。尽管价格略有回落，但整体波动幅度较小，表明市场参与者对未来走势持谨慎态度。当前市场情绪可能受到全球经济数据和地缘政治事件的影响，导致投资者观望。\n\n从技术指标来看，MACD显示出负值，暗示短期内可能面临下行压力。但RSI尚未提供数据，无法进一步确认超买或超卖情况。20日简单移动平均线(SMA)位于4188.11，作为近期的阻力位，若价格突破该水平，可能引发新的买盘。相反，若价格跌破支撑位4172.99，可能加剧下行风险。\n\n支撑位方面，4172.99是一个关键水平，若价格有效跌破，将可能导致进一步下探至4160.00区域。阻力位方面，4188.11的突破将开启更高的目标，可能会测试4200.00。市场情绪和技术面结合，有助于投资者制定合理的交易策略。\n\n建议投资者在当前价位附近保持谨慎，关注价格在4172.99和4188.11之间的波动。如果价格突破关键水平，可以考虑适时进场，反之则应保持观望，控制风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4177.28 indicates a slight bearish sentiment, with a 24-hour change of -0.07%. This price movement suggests a consolidation phase after a previous uptrend. The high of 4181.87 and low of 4172.99 highlight a narrow trading range, indicating indecision among traders. If the price breaks below the support level of 4172.99, it could lead to further declines, while a rally above 4181.87 may signal a continuation of the uptrend.\n\nThe Moving Average analysis shows the 20-day SMA at 4188.11, which acts as a critical resistance level. The current price trading below this moving average suggests that sellers are currently in control. Meanwhile, the MACD reading of -2.060870 indicates bearish momentum, but without the signal line data, its effectiveness in driving decisions is limited. Traders should monitor MACD for crossovers that may provide clearer signals.\n\nSupport levels are found at 4172.99, with further support anticipated around 4165.00, where buyers may step in if the price continues to decline. Conversely, resistance is established at the 20-day SMA of 4188.11, where selling pressure could intensify. A breakout above this level may target 4200.00, while a drop below 4172.99 could lead to a retest of lower support levels.\n\nFor trading strategies, a cautious approach is recommended. Traders may consider short positions if the price breaks below 4172.99, with a stop-loss set just above this level. Alternatively, buying opportunities may arise if the price exceeds 4188.11, targeting the next resistance level. It is crucial to maintain a risk management strategy, given the current market volatility and the lack of conclusive RSI data."
+    }
+  }
+}

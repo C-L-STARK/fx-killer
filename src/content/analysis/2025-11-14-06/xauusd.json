@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-14T07:01:16.280Z",
+  "price": {
+    "close": "4173.89785",
+    "high": "4193.89085",
+    "low": "4171.28877",
+    "open": "4189.35555",
+    "change": "-0.37",
+    "datetime": "2025-11-14 17:00:00"
+  },
+  "indicators": {
+    "rsi": 43.14752,
+    "macd": -0.66798816,
+    "macd_signal": 0.598192,
+    "sma20": 4193.81
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[短期下行趋势]",
+      "content": "当前黄金/美元(XAU/USD)的价格为4173.90，较24小时前微跌0.37%。从高点4193.89和低点4171.29来看，短期内金价走势呈现出一定的下行压力。市场情绪趋于谨慎，投资者在此价位附近可能会选择观望，等待更明确的市场信号。\n\n技术指标方面，MACD显示为负值，表明短期内卖压较强，市场可能面临进一步的回调。虽然RSI指标未提供，但从SMA(20)来看，当前价格已低于该均线，显示出短期趋势疲软。若无法突破4193.81的阻力位，金价可能会继续下探。\n\n支撑位方面，4171.29是当前的重要支撑水平，若价格跌破该点位，将增加进一步下行的可能性。反之，若金价回升至4193.81之上，则可能重新测试前高。因此，投资者需密切关注这些关键价位。\n\n在交易策略上，建议短线交易者考虑在支撑位附近寻找买入机会，但需设定止损以应对潜在的下行风险。对于中长线投资者，可以考虑观察市场动态，再做进一步决策，避免在当前波动区间内贸然进场。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4173.90 indicates a slight bearish sentiment, as evidenced by a 24-hour change of -0.37%. The recent high of 4193.89 suggests that sellers are gaining traction, especially as the price hovers near the lower end of the daily range. This consolidation phase may signal indecision in the market, but the overall trend appears to be downward as the price struggles to maintain levels above the 4200 mark.\n\nTechnical indicators provide further insights into market dynamics. The MACD reading of -0.668 indicates a bearish momentum, suggesting that the downward pressure may continue in the near term. Although the RSI(14) is currently unavailable, the proximity to the previous high and the SMA(20) at 4193.81 reinforces the notion that resistance is strong around the 4190-4200 zone. This could imply that any upward movements may be limited unless a significant change in sentiment occurs.\n\nSupport levels are critical for gauging potential buy opportunities. The recent low of 4171.29 serves as an immediate support level, and a break below this could lead to further declines, possibly targeting the 4150 psychological level. Conversely, should the price manage to hold above this support, traders may look for a bounce-back towards resistance at 4193.89. A successful test of this level could prompt a short-term buying opportunity for those looking to capitalize on a potential reversal.\n\nIn terms of trading strategy, it would be prudent to adopt a cautious approach. Short positions may be warranted if the price breaches the 4171.29 support, with targets set around 4150. Alternatively, if a bullish reversal occurs and the price breaks above 4193.89, it may present a lucrative long opportunity. Monitoring market sentiment closely will be vital for making informed trading decisions in this current environment."
+    }
+  }
+}

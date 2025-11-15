@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-14T10:53:19.315Z",
+  "price": {
+    "close": "0.65199",
+    "high": "0.65255",
+    "low": "0.65188",
+    "open": "0.65221",
+    "change": "-0.04",
+    "datetime": "2025-11-14 21:00:00"
+  },
+  "indicators": {
+    "rsi": 36.32928,
+    "macd": -0.00058419303,
+    "macd_signal": -0.00043380675,
+    "sma20": 0.653462
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理，关注支撑位]",
+      "content": "当前AUD/USD在0.65199附近震荡整理，未能突破近期的高点0.65255，显示出买方动能不足。虽然24小时变化仅为-0.04%，但整体趋势似乎偏向于下行。投资者需关注市场情绪及即将公布的重要经济数据，以判断未来的价格走向。\n\n从技术指标来看，当前未提供RSI和信号线的数据，使得对超买或超卖的判断较为困难。然而，MACD指标为负值，表明卖方占据主导地位。SMA(20)也显示出价格在其下方运行，进一步暗示短期内可能存在下行压力。\n\n支撑位方面，0.65188是近期低点，若价格跌破此位，可能会引发更大幅度的回调。另一方面，阻力位于0.65346附近，若价格成功反弹并突破该阻力位，可能会引发更强的买盘。投资者应密切关注这两个关键水平。\n\n综合考虑，建议短期内采取观望策略，等待价格确认方向再考虑进场。如果价格下破支撑位，可考虑做空，反之则可寻找短期多头机会。保持灵活，及时调整交易策略，以应对市场的变化。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.65199, with a slight decline of 0.04% over the past 24 hours. This price action suggests that the market is experiencing a consolidation phase after recent fluctuations. The recent high of 0.65255 and low of 0.65188 indicate a tight trading range, which may lead to increased volatility as traders await further direction. The overall trend appears bearish, and a sustained move below the recent low could confirm a continuation of this downward trajectory.\n\nIn terms of technical indicators, the MACD is currently negative at -0.00058419303, suggesting weak momentum for the AUD against the USD. Although the RSI(14) is not provided, it typically serves as a valuable tool for assessing overbought or oversold conditions. If the RSI were available and indicated levels below 30, it might suggest a potential reversal, but without that data, caution should be exercised. The SMA(20) at 0.65346200 acts as a dynamic resistance level; if the price approaches this level without breaking above, it could reaffirm the bearish outlook.\n\nKey support levels to monitor are around 0.65188, which, if breached, could prompt further selling pressure. Conversely, resistance is indicated by the SMA(20) at 0.65346200. A breakout above this level could shift the sentiment, suggesting a possible bullish reversal. Traders should remain vigilant for these critical levels and consider using stop-loss orders to manage risk effectively.\n\nFor trading strategies, a short position could be considered if the price remains below the SMA(20) and the support level of 0.65188 is tested. A break below this level could open possibilities for further downside, while a reversal from these levels could offer opportunities for long positions, especially if subsequent price action indicates strength. Keeping an eye on economic indicators and geopolitical events will also be crucial for making informed trading decisions in this volatile market."
+    }
+  }
+}

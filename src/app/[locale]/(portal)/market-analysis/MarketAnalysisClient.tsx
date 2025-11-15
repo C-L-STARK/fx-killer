@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { motion } from 'motion/react';
 import { TrendingUp, TrendingDown, Activity, BarChart3 } from 'lucide-react';
 import InterviewCTA from '@/components/custom/InterviewCTA';
+import LiveTickerTape from '@/components/market/LiveTickerTape';
 
 interface AnalysisData {
   symbol: string;
@@ -100,6 +101,11 @@ export default function MarketAnalysisClient({ analyses, language }: MarketAnaly
             )}
           </motion.div>
         </div>
+      </div>
+
+      {/* Live Ticker Tape */}
+      <div className="border-b-2 border-gray-200 dark:border-gray-800">
+        <LiveTickerTape />
       </div>
 
       {/* Main Content */}

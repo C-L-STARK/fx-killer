@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-14T09:42:58.157Z",
+  "price": {
+    "close": "1.40318",
+    "high": "1.40366",
+    "low": "1.40260",
+    "open": "1.40320",
+    "change": "-0.00",
+    "datetime": "2025-11-14 20:00:00"
+  },
+  "indicators": {
+    "rsi": 58.18169,
+    "macd": 0.00054235421,
+    "macd_signal": 0.00055392923,
+    "sma20": 1.40266
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡整理趋势]",
+      "content": "当前美元/加元呈现震荡整理的趋势，价格在1.40260至1.40366的区间内波动。尽管24小时内变化不大，但市场仍显示出一定的活跃性。投资者需关注这一区间的突破情况，以判断后续的市场动向。\n\n技术指标方面，尽管RSI未提供，但可以观察到MACD处于轻微正值，表明市场可能处于强势区域的边缘。SMA(20)位于1.40266，提供了短期的支撑位。若价格跌破此水平，可能会加剧下行压力。\n\n支撑位方面，1.40260是关键支撑，若有效跌破，将可能引发更大幅度的回调。阻力位则在1.40366，若突破此水平，可能引导价格向更高目标迈进。关注这两个关键价位，将有助于制定更为精准的交易策略。\n\n交易建议方面，短期内可考虑在1.40260附近寻找买入机会，目标指向1.40366。同时，若价格突破1.40366，可加大多头仓位。反之，若跌破1.40260，则应考虑止损或反向操作，灵活应对市场变化。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD currency pair currently hovers around 1.40318, reflecting a slight change of -0.00% over the past 24 hours. The price action shows a tight range, with a high of 1.40366 and a low of 1.40260, indicating a period of consolidation. This range-bound trading suggests indecision in the market, with potential for a breakout in either direction as traders assess fundamental drivers such as oil prices and economic data releases from both the U.S. and Canada.\n\nFrom a trend perspective, the recent price movement is indicative of a bearish short-term sentiment, particularly as the price remains below the 20-day Simple Moving Average (SMA) of 1.40266. This SMA could act as a dynamic resistance level, and a sustained move above this point may signal a shift in momentum. Conversely, if the price continues to fail at this level, it could reinforce bearish sentiment and lead to further downside testing towards key support levels.\n\nIn terms of technical indicators, the MACD shows a slight positive divergence, suggesting potential for upward momentum if buying pressure increases. However, the lack of an RSI value limits our ability to gauge overbought or oversold conditions effectively. Traders should monitor these indicators closely, as any bullish crossover in the MACD could provide a timely entry point for long positions, particularly if the price breaks above the SMA.\n\nSupport levels are identified at 1.40260 and potentially at 1.40000, while resistance is suggested at the recent high of 1.40366 and the SMA. For traders, the ideal strategy may involve waiting for a clear breakout above the SMA for long positions or a breakdown below the support level for short positions, allowing for a more defined risk-reward scenario. Monitoring economic data releases and geopolitical developments will be crucial for anticipating price movements in this pair."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-14T06:59:50.412Z",
+  "price": {
+    "close": "0.56831098",
+    "high": "0.56895769",
+    "low": "0.56805271",
+    "open": "0.56892532",
+    "change": "-0.11",
+    "datetime": "2025-11-14 17:00:00"
+  },
+  "indicators": {
+    "rsi": 58.37306,
+    "macd": 0.00053305328,
+    "macd_signal": 0.00028584781,
+    "sma20": 0.5669939
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋势]",
+      "content": "当前纽元/美元(NZD/USD)在0.5683附近震荡整理，短期内缺乏明确的方向。24小时内小幅下跌0.11%，显示出市场参与者对该货币对的走势持谨慎态度。近期高点0.5689和低点0.5681构成了一个窄幅的交易区间，市场情绪相对平稳。\n\n技术指标方面，尽管RSI(14)数据缺失，但MACD显示出微弱的正向动能，值为0.000533，这可能表明在短期内有一定的买盘支持。SMA(20)位于0.5669，进一步增强了短期内支撑位的有效性，若价格回调至此水平，有可能吸引买盘入场。\n\n对于支撑位，0.5669是关键的支撑区域，若跌破该水平，可能会进一步向0.5650靠拢。阻力位则在0.5689附近，突破后有可能为多头打开更大的上涨空间。考虑到当前市场的震荡特征，建议投资者在0.5669附近寻找买入机会，并在接近0.5689时考虑获利了结。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.5683, exhibiting a slight decline of 0.11% over the past 24 hours. This price action suggests a consolidation phase within a narrow range, confined between the recent high of 0.5689 and the low of 0.5681. The overall trend remains bearish, as the price has struggled to maintain upward momentum, which could indicate a lack of buying interest at these levels. Traders should remain cautious in the face of potential further declines.\n\nAnalyzing the technical indicators, the absence of the RSI reading limits our ability to assess overbought or oversold conditions directly. However, the MACD shows a positive value of 0.000533, which may indicate a potential bullish divergence if the price starts to rise. The SMA(20) at 0.5669 serves as a crucial dynamic support level. A breach below this level could trigger further selling pressure, while a bounce off this support might provide an opportunity for a short-term reversal.\n\nSupport levels are identified at 0.5681 and further down at 0.5660, while resistance is seen near 0.5690. Traders should pay close attention to price action around these levels. A break above 0.5690 could signal a shift in momentum, inviting buyers back into the market. Conversely, a sustained move below 0.5660 would indicate further bearish sentiment and open the door to a potential retest of lower support levels.\n\nIn terms of trading strategy, a cautious approach is recommended. Consider entering short positions if the price falls below 0.5660 with a stop-loss above 0.5690. Alternatively, if the price rebounds from the SMA(20) and breaks above 0.5690, traders might look to enter long positions, targeting a move toward 0.5700. Monitoring broader market sentiment and economic indicators will be essential for informed decision-making in this volatile environment."
+    }
+  }
+}

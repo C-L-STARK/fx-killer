@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-14T12:21:10.464Z",
+  "price": {
+    "close": "1.16271",
+    "high": "1.16277",
+    "low": "1.16166",
+    "open": "1.162",
+    "change": "0.07",
+    "datetime": "2025-11-14 23:00:00"
+  },
+  "indicators": {
+    "rsi": 50.96707,
+    "macd": 0.00023382588,
+    "macd_signal": 0.00058432975,
+    "sma20": 1.16337
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理趋势]",
+      "content": "当前欧元/美元（EUR/USD）在1.16271附近震荡整理，近期价格波动较小，显示出市场参与者对进一步方向的犹豫。虽然24小时变化仅为0.07%，但高点和低点的接近，表明短期内市场缺乏强烈的趋势动力。\n\n从技术指标来看，当前MACD数值略微偏正，表明短期内多头力量仍在，但信号线缺乏明确方向，可能暗示即将进入盘整阶段。SMA(20)在1.16337附近形成短期阻力位，若价格突破该位置，可能会吸引更多买盘入场。同时，RSI指标未提供，需谨慎对待。\n\n在支撑位方面，1.16166是关键支撑区域，如果价格下破此位，可能会引发进一步回调，测试更低的支撑线。投资者应密切关注该水平，若价格反弹，则可考虑短期多单策略；反之则需谨慎对待空单风险。\n\n综合来看，当前市场处于震荡整理状态，建议投资者在关键支撑和阻力位附近进行操作，保持灵活应变的交易策略，同时关注市场消息面变化，以便及时调整仓位。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The current price of EUR/USD at 1.16271 indicates a slight bullish sentiment, given the recent 24-hour change of 0.07%. The pair has been trading within a narrow range, with a high of 1.16277 and a low of 1.16166. This consolidation suggests that market participants are waiting for a clearer directional cue, potentially from upcoming economic data releases or central bank commentary. The overall trend appears to be neutral to slightly bullish, as the price is holding above the recent lows.\n\nAnalyzing the moving average, the 20-period SMA at 1.16337 serves as a key resistance level. The proximity of the current price to this SMA indicates that a breakout above this level could reinforce bullish momentum, potentially targeting the next resistance zone around 1.1650. Conversely, if the price fails to break above the SMA and starts to decline, the immediate support appears to be around 1.16166. A break below this level could signal a bearish reversal, warranting caution from long positions.\n\nRegarding momentum indicators, the MACD shows a very slight positive value, suggesting that bullish momentum is present, although it is not strong enough to indicate a clear trend. The lack of an RSI reading limits our understanding of overbought or oversold conditions, but traders should remain vigilant for any signals that might emerge. A potential RSI reading could provide further insights into market sentiment and help identify entry or exit points.\n\nFor trading strategies, maintaining a watchful eye on the SMA and the support level at 1.16166 is crucial. A conservative approach may involve waiting for a confirmed breakout above 1.16337 before entering long positions, while setting stop-loss orders just below key support to manage risk. Alternatively, bearish traders might look for short opportunities if the price decisively breaks below 1.16166, with targets set towards lower support levels."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-14T14:48:41.684Z",
+  "price": {
+    "close": "1.31662",
+    "high": "1.31766",
+    "low": "1.31496",
+    "open": "1.31659",
+    "change": "-0.01",
+    "datetime": "2025-11-15 01:00:00"
+  },
+  "indicators": {
+    "rsi": 52.95135,
+    "macd": 0.000078447406,
+    "macd_signal": -0.0000085999827,
+    "sma20": 1.31592
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理中]",
+      "content": "当前英镑/美元（GBP/USD）价格在1.31662附近波动，显示出一定的整理趋势。最近24小时的变化为-0.01%，表明市场情绪相对平稳。价格在1.31766的高点和1.31496的低点之间震荡，未能有效突破该区间，暗示短期内市场缺乏方向性。\n\n从技术指标来看，虽然RSI（相对强弱指数）数据缺失，但MACD显示出微弱的正值，表明买方力量仍在。20日简单移动平均线（SMA）为1.31592，当前价格略高于该水平，可能为多头提供支撑。若价格能够持续维持在SMA之上，可能会吸引更多买盘。\n\n在支撑和阻力位方面，1.31496可作为重要支撑位，若跌破可能会引发更多的抛售压力。上方的阻力位则在1.31766附近，突破此水平可能会引发进一步上涨。建议交易者在当前区间内进行区间交易，并密切关注市场情绪的变化，以便及时调整策略。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The British Pound (GBP) against the US Dollar (USD) is currently trading at 1.31662, reflecting a slight decline of 0.01% over the last 24 hours. This minor fluctuation indicates a period of consolidation within a narrow range, with the high and low for the day recorded at 1.31766 and 1.31496, respectively. The recent price action suggests a lack of significant momentum in either direction, which may be attributed to market participants awaiting clearer signals from economic data releases or geopolitical developments.\n\nFrom a trend perspective, the GBP/USD appears to be in a neutral to slightly bullish posture, given its proximity to the 20-day Simple Moving Average (SMA) at 1.31592. This SMA serves as an essential dynamic support level, and if prices hold above it, we could see a potential re-test of recent highs. However, a decisive break below the SMA could trigger a shift in sentiment, leading to further declines and testing lower support levels.\n\nIn terms of technical indicators, while the Relative Strength Index (RSI) is not currently available, the MACD shows a very slight positive value at 0.000078447406, indicating a mild bullish sentiment. Traders should monitor this indicator for any shifts that might confirm a change in trend. If the MACD crosses above its signal line, it could serve as a buy signal, while a decline may suggest caution. \n\nSupport and resistance levels are critical for trading strategies. Immediate support is likely at the recent low of 1.31496, while resistance can be identified around 1.31766. A breakout above this resistance could signal a stronger upward movement, while a drop below support should prompt traders to consider short positions. For a balanced approach, traders might look to set buy orders near support and sell orders at resistance to capitalize on potential range-bound trading."
+    }
+  }
+}

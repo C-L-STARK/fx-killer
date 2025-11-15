@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-14T08:18:11.513Z",
+  "price": {
+    "close": "1.40427",
+    "high": "1.40440",
+    "low": "1.40320",
+    "open": "1.40377",
+    "change": "0.03",
+    "datetime": "2025-11-14 19:00:00"
+  },
+  "indicators": {
+    "rsi": 66.99131,
+    "macd": 0.00066318361,
+    "macd_signal": 0.00057389457,
+    "sma20": 1.4026
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡整理中]",
+      "content": "当前美元/加元(USD/CAD)汇率为1.40427，显示出一定的震荡整理趋势。近期价格在1.40320至1.40440之间波动，表明市场缺乏明确的方向性，投资者需谨慎对待。考虑到短期内市场情绪的变化，可能会影响汇价的走势。\n\n从技术指标来看，尽管RSI未提供，但MACD的微幅正值说明多头仍具一定的市场支持。20日简单移动平均线(SMA)位于1.40260，成为近期的重要支撑位。如果价格能有效站稳于此之上，可能会有进一步反弹的机会。反之，若跌破该支撑位，则需警惕更深层次的回调风险。\n\n在支撑与阻力方面，当前支撑位为1.40260，若跌破则可能测试更低的支撑位1.40000。阻力位则集中在1.40500和1.40600附近，若突破将可能引发更强的上涨行情。投资者可以关注这些关键价位，结合市场情绪与基本面因素进行交易决策。\n\n综合考虑，建议投资者在当前震荡整理的行情中采取谨慎的态度。可以考虑在支撑位附近寻找买入机会，同时在阻力位附近设置止盈或卖出单，以管理风险。在未出现明确趋势前，保持灵活的交易策略是明智之举。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD currency pair is currently trading at 1.40427, reflecting a slight upward movement of 0.03% over the past 24 hours. This price action indicates a consolidation phase, as the pair oscillates between the recent high of 1.40440 and a low of 1.40320. The overall trend appears to be neutral, suggesting that traders are awaiting further catalysts to drive a more decisive move. Key economic data releases or geopolitical events could influence market sentiment and break this range.\n\nIn terms of technical indicators, the absence of a current RSI value limits our ability to gauge overbought or oversold conditions. However, the MACD shows a positive value of 0.00066318361, which might signal bullish momentum, albeit modest. The 20-period Simple Moving Average (SMA) is positioned at 1.40260, acting as a potential support level. If the price retraces towards this SMA, it could provide an attractive entry point for buyers, particularly if other indicators align.\n\nSupport and resistance levels are critical for trading decisions. The immediate support is identified at 1.40320, while resistance can be seen at the recent high of 1.40440. A breakout above this resistance could lead to further gains toward 1.40600 or higher, depending on market conditions. Conversely, a drop below the support level may prompt a deeper retracement towards 1.40000, where additional buying interest might emerge.\n\nTraders should consider a cautious approach in this current environment. A buy signal could be generated if the price breaks above 1.40440 with confirmation, while a sell signal might be warranted if it falls below 1.40320. Monitoring economic indicators and geopolitical developments will be essential, as these factors could significantly impact volatility and market direction in the USD/CAD pair."
+    }
+  }
+}

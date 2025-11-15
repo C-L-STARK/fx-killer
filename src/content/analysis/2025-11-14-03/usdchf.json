@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-14T03:41:34.309Z",
+  "price": {
+    "close": "0.79207999",
+    "high": "0.79272002",
+    "low": "0.79194999",
+    "open": "0.79271001",
+    "change": "-0.08",
+    "datetime": "2025-11-14 14:00:00"
+  },
+  "indicators": {
+    "rsi": 36.080495,
+    "macd": -0.0012689118,
+    "macd_signal": -0.0013932952,
+    "sma20": 0.79343651
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理趋势]",
+      "content": "当前美元/瑞郎的价格为0.79208，显示出市场在震荡整理状态中。近期价格在0.79195至0.79272的区间内波动，表明多空力量相对均衡。短期内，如果价格突破0.7934的20日简单移动平均线，可能会引发进一步上涨，而如果跌破0.79195，则有可能加速下行。\n\n从技术指标来看，当前的MACD值为-0.0013，表明市场处于弱势区间。尽管RSI未提供数据，但若其在未来几日内回升至50以上，可能暗示买方力量增强。当前市场缺乏明确的多头或空头信号，投资者需保持警惕，观察市场情绪变化。\n\n支撑位方面，0.79195是当前的重要支撑线，若价格跌破该水平，可能引发更大的卖压。另一方面，阻力位在0.7934，若突破该点位，可能会吸引更多买盘，推动价格进一步上行。投资者应密切关注这些关键价位，以便及时调整策略。\n\n建议在当前震荡整理的市场环境中，采取观望策略，待价格明确突破支撑或阻力位置后再进行交易。如果突破0.7934可考虑买入，反之，跌破0.79195则可考虑卖出，以控制风险并提高交易成功率。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair is currently trading at 0.79208, reflecting a minor decline of 0.08% over the past 24 hours. The price action is situated near the lower end of its recent range, with a high of 0.79272 and a low of 0.79195. This consolidation phase suggests a lack of strong directional momentum, making it essential for traders to closely monitor key support and resistance levels for potential breakouts. \n\nIn terms of trend analysis, the recent price movement indicates a bearish bias, especially as the pair has fallen below the 20-period Simple Moving Average (SMA) of 0.79344. This SMA is acting as a dynamic resistance level, suggesting that any attempts to rally may face selling pressure around this point. A sustained move below the recent low of 0.79195 could open the door for further downside, while a reclaiming of the SMA may indicate a shift in sentiment toward bullishness.\n\nTechnical indicators such as the MACD, which is currently negative at -0.00127, further support the bearish outlook. Although the Relative Strength Index (RSI) is not available, a low RSI reading, if available, would typically signal oversold conditions, presenting a potential buying opportunity. Conversely, a high reading would reinforce selling pressure. Traders should remain vigilant for any divergence that may indicate a reversal or continuation of the current trend.\n\nFor trading strategies, a conservative approach would involve waiting for confirmation of price action either breaking above the SMA or below the support level of 0.79195. A stop-loss order placed just above resistance could limit risk for bearish positions, while a bullish entry could be considered if the pair demonstrates strength and closes above the SMA. Overall, maintaining a disciplined approach amid this indecisive market will be key for successful trading in the USD/CHF pair."
+    }
+  }
+}

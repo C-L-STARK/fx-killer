@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-14T06:56:19.308Z",
+  "price": {
+    "close": "1.16346",
+    "high": "1.16488",
+    "low": "1.16335",
+    "open": "1.16477",
+    "change": "-0.11",
+    "datetime": "2025-11-14 17:00:00"
+  },
+  "indicators": {
+    "rsi": 55.60149,
+    "macd": 0.00091203777,
+    "macd_signal": 0.0010366022,
+    "sma20": 1.16345
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理中]",
+      "content": "当前欧元/美元（EUR/USD）在1.16346附近震荡整理，短期内缺乏明显的趋势。虽然价格略微下跌0.11%，但在1.16488和1.16335之间的交易区间显示出市场暂时的平衡。若价格突破上方阻力位1.16488，可能会重新测试更高的水平；反之，若跌破1.16335，则可能面临进一步下行压力。\n\n技术指标方面，当前MACD显示出微弱的上涨信号，但由于信号线数据缺失，无法做出更深层次的分析。相对强弱指数（RSI）同样缺失，使得我们无法判断市场的超买或超卖状态。因此，投资者需保持谨慎，关注后续技术指标的变化，以便更好地把握市场动向。\n\n在支撑与阻力方面，1.16488构成重要的阻力位，而1.16335则是关键的支撑位。若价格能够突破1.16488，可能会吸引更多买盘，推动价格上行；而若跌破1.16335，则可能会引发止损卖盘，进一步下探。建议交易者在这两个关键点位附近进行观察和操作。\n\n综上所述，当前欧元/美元在震荡整理的状态下，投资者需密切关注市场的动态变化，并根据支撑和阻力位灵活调整交易策略。保持灵活应变的心态，将有助于在这一不确定的市场环境中把握机会。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD pair is currently trading at 1.16346, reflecting a slight decline of 0.11% over the past 24 hours. This movement suggests a consolidation phase following a minor peak at 1.16488. The price has been oscillating within a tight range, indicating indecision among traders. Analyzing the trend, it appears that the market lacks a strong directional bias, which may lead to continued sideways movement unless a catalyst emerges to drive sentiment.\n\nIn terms of indicators, the MACD is showing a positive value at 0.00091203777, indicating a potential bullish momentum, albeit weak. However, the absence of an available RSI reading limits our ability to assess overbought or oversold conditions. The 20-period Simple Moving Average (SMA) aligns closely with the current price, suggesting that market participants are finding equilibrium at this level. Traders should monitor these indicators for any shifts that could signal a breakout or breakdown from the current range.\n\nKey support and resistance levels are crucial for gauging potential price movements. Immediate support can be identified at the recent low of 1.16335, where buying interest may emerge. Conversely, resistance is evident near the high of 1.16488. A decisive break above this level could open the door for further gains, potentially targeting 1.16600, while a failure to hold above support could lead to a retest of lower supports around 1.16200.\n\nFor traders, a wait-and-see approach might be prudent given the current indecisive price action. Short-term traders could consider scalping within the established range, capitalizing on minor fluctuations between the defined support and resistance levels. On the other hand, longer-term positions may benefit from waiting for a clear breakout confirmation before committing to a direction, ensuring optimal entry points aligned with market momentum."
+    }
+  }
+}

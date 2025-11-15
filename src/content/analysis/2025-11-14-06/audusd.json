@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-14T06:58:25.673Z",
+  "price": {
+    "close": "0.65311",
+    "high": "0.65401",
+    "low": "0.65294",
+    "open": "0.6538",
+    "change": "-0.11",
+    "datetime": "2025-11-14 17:00:00"
+  },
+  "indicators": {
+    "rsi": 42.40606,
+    "macd": -0.00038118277,
+    "macd_signal": -0.00032876594,
+    "sma20": 0.654099
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理趋势]",
+      "content": "当前澳元/美元（AUD/USD）在0.65294至0.65401的区间内震荡整理，整体走势偏弱。最新价格为0.65311，较前一日小幅下跌0.11%。短期内，市场情绪谨慎，投资者观望主要经济数据的发布，导致价格缺乏明确的方向。\n\n从技术指标来看，MACD处于负值，显示出卖方力量仍然存在。尽管RSI(14)数据尚不可用，但若市场继续承压，RSI可能会向超卖区间靠近，暗示短期内可能出现反弹的机会。20日简单移动平均线(SMA)在0.6541附近，成为价格上行的重要阻力。\n\n支撑位方面，0.65294为近期局部低点，若有效跌破此位，将可能引发进一步回调。上方阻力关注0.65401和SMA(20)，若突破则有望恢复上涨趋势。市场需关注澳洲和美国经济数据的发布，以判断短期内的价格波动。\n\n建议投资者采取谨慎态度，考虑在支撑位附近寻求买入机会，同时在遇到阻力时适时减仓。密切关注市场情绪变化，灵活调整交易策略，以应对潜在的市场波动。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair currently trades at 0.65311, reflecting a slight decline of 0.11% over the last 24 hours. The price movement suggests a consolidation phase, with recent highs capped at 0.65401 and lows at 0.65294. This range indicates a market seeking direction, highlighting the potential for a breakout in either direction. Traders should monitor these levels closely, as they may indicate a shift in market sentiment.\n\nIndicator analysis shows a MACD value of -0.00038118277, suggesting bearish momentum, although the absence of a signal line makes definitive conclusions challenging. The SMA(20) sits at 0.65409900, acting as a dynamic resistance level. A sustained move above this SMA could indicate a bullish reversal, while failure to hold above the recent lows may reinforce bearish sentiment. The RSI(14) would provide additional clarity on momentum if available, but its absence requires careful observation of price action.\n\nSupport levels appear to be forming around 0.65294, which, if breached, could lead to further downside towards the next significant support at 0.65000. Conversely, resistance is evident near 0.65401 and the SMA(20), creating a pivotal zone for traders. A breakout above this resistance could trigger a short-term upward correction, while a breakdown below support may prompt further selling pressure.\n\nTraders may consider a range-bound strategy, buying near support at 0.65294 and selling at resistance near 0.65401. However, caution is warranted, as volatility can increase rapidly with external economic data releases or geopolitical events. Establishing stop-loss orders just outside these key levels could help mitigate risk while allowing for potential profit-taking in the event of a breakout."
+    }
+  }
+}

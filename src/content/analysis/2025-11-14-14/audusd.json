@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-14T14:50:16.399Z",
+  "price": {
+    "close": "0.65342",
+    "high": "0.65367",
+    "low": "0.65213",
+    "open": "0.65252",
+    "change": "0.14",
+    "datetime": "2025-11-15 01:00:00"
+  },
+  "indicators": {
+    "rsi": 50.30313,
+    "macd": -0.00055343497,
+    "macd_signal": -0.00056296115,
+    "sma20": 0.6530115
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理中]",
+      "content": "当前澳元/美元(AUD/USD)处于震荡整理阶段，最新价格为0.65342，24小时变化仅为0.14%。在高点0.65367和低点0.65213之间波动，显示出市场缺乏明显的方向性。短期内，投资者需关注市场情绪及重大经济数据发布，以判断未来走势。\n\n从技术指标来看，MACD显示出轻微的负值，表明卖方略占优势。然而，由于RSI数据缺失，无法全面评估超买或超卖状况。SMA(20)为0.65301150，当前价格略高于此水平，可能暗示短期内的支撑位在0.6530附近。\n\n在支撑和阻力方面，支撑位在0.6520-0.6525区间，而阻力位则设在0.6540附近。如果价格突破0.6540，则可能迎来进一步上涨，反之则可能回落测试支撑位。投资者可以考虑在支撑位附近寻找买入机会，止损设置在0.6515下方，以控制风险。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) has recently shown slight bullish movement against the US Dollar (USD), currently trading at 0.65342. This marks a modest increase of 0.14% over the past 24 hours. Despite this uptick, the AUD/USD pair has struggled to break through significant resistance levels, evidenced by the recent high at 0.65367. Market participants should remain cautious, as the overall trend appears neutral, lacking strong momentum in either direction.\n\nAnalyzing the Relative Strength Index (RSI) and the Moving Average Convergence Divergence (MACD) indicators can provide deeper insights into market sentiment. The RSI, although not provided, typically serves as a useful gauge for overbought or oversold conditions. A value above 70 may indicate overbought conditions, while below 30 suggests oversold. The negative MACD value of -0.00055343497 indicates that momentum remains weak, suggesting sellers could gain control if bearish sentiment takes hold.\n\nKey support and resistance levels are critical for traders to monitor. The immediate support level lies at the recent low of 0.65213, which, if breached, could signal a further decline. Conversely, a break above the resistance at 0.65367 may open the door for a more substantial rally towards the 0.6550 area. Traders should watch these levels closely for potential entry or exit points.\n\nGiven the current market dynamics, a cautious approach is advisable. If the price approaches the support level, a potential buy opportunity may arise, particularly if bullish signals emerge from RSI or MACD. Conversely, if resistance holds at 0.65367, short positions could be considered, especially if momentum indicators suggest a weakening trend. Maintaining a disciplined trading strategy, including stop-loss orders, can help manage risk in this uncertain environment."
+    }
+  }
+}

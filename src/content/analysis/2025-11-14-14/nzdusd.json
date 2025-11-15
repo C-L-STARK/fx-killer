@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-14T14:52:01.748Z",
+  "price": {
+    "close": "0.56886059",
+    "high": "0.56886059",
+    "low": "0.56802046",
+    "open": "0.56811726",
+    "change": "0.10",
+    "datetime": "2025-11-15 01:00:00"
+  },
+  "indicators": {
+    "rsi": 59.32005,
+    "macd": 0.00050650924,
+    "macd_signal": 0.00043710388,
+    "sma20": 0.56744307
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理，等待突破]",
+      "content": "当前纽元/美元(NZD/USD)在0.5680至0.5690区间内震荡整理。最新价格为0.56886059，表明市场缺乏明确的方向。短期内，市场可能在此区间内进行横盘，投资者需关注价格是否能突破这一区间的上限或下限，以判断后续走势。\n\n从技术指标来看，虽然RSI(14)数据缺失，但可以参考其他指标。MACD显示出微弱的上涨动能，当前值为0.00050650924，表明短期内可能存在小幅反弹的可能性。同时，20日简单移动平均线(SMA)在0.56744307，提供了潜在的支撑位，进一步验证了0.5680的支撑区域。\n\n在支撑和阻力方面，0.5680是短期内的重要支撑位，而0.5700则构成了阻力位。若价格突破0.5700，可能会触发更大幅度的上涨；反之，若跌破0.5680，则可能会加剧下行压力。因此，建议交易者密切关注这些关键水平，并在价格突破时制定相应的交易策略，以降低风险并把握机会。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.56886059, reflecting a slight 0.10% increase over the past 24 hours. This price action suggests a consolidation phase after a recent low of 0.56802046. The overall trend appears to be sideways, with the pair oscillating within a narrow range. A decisive break above the recent high may signal a bullish sentiment, while a failure to hold above the support level could lead to further downside pressure.\n\nThe simple moving average (SMA) of 20 periods stands at 0.56744307, providing a key support level for traders to monitor. If the price holds above this SMA, it could indicate potential strength in the NZD, attracting buyers. Conversely, if the price dips below this level, it may confirm a bearish trend, prompting a reassessment of long positions. Careful observation of these levels will be crucial for identifying entry and exit points.\n\nCurrently, the MACD value at 0.00050650924 indicates a slight bullish momentum, but the absence of a signal line complicates the interpretation. Traders should remain cautious, as the lack of momentum indicators like the RSI leaves room for ambiguity in the market direction. Monitoring for a crossover in the MACD, along with the RSI development, will be essential for validating any potential trading signals.\n\nFor trading strategies, a buy position could be considered if the price successfully breaches and closes above the recent high, targeting resistance around the 0.5700 psychological level. Alternatively, a sell position may be warranted if the price breaks below the 20-period SMA, with potential targets set towards the 0.5650 support area. Traders should maintain a disciplined approach, utilizing stop-loss orders to manage risk effectively in this uncertain environment."
+    }
+  }
+}

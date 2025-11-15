@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-14T02:57:07.432Z",
+  "price": {
+    "close": "0.79272002",
+    "high": "0.79360002",
+    "low": "0.79259998",
+    "open": "0.79311001",
+    "change": "-0.05",
+    "datetime": "2025-11-14 13:00:00"
+  },
+  "indicators": {
+    "rsi": 38.93545,
+    "macd": -0.001278434,
+    "macd_signal": -0.0014242313,
+    "sma20": 0.79365251
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理中]",
+      "content": "当前美元/瑞郎的价格为0.79272002，显示出震荡整理的趋势。过去24小时内，价格小幅下跌0.05%，高点和低点相对接近，表明市场缺乏明确的方向性。在这种情况下，投资者应关注价格是否会突破当前区间，以便把握后市机会。\n\n从技术指标来看，RSI(14)尚未提供具体数值，但MACD指标为-0.0012784340，显示出略微的弱势。虽然价格处于相对低位，但MACD仍未出现明显的买入信号，表明短期内市场情绪依旧谨慎，投资者应保持警惕，避免盲目追涨。\n\n支撑位方面，当前价格接近0.7926，若跌破该水平，可能会进一步测试0.7910的支撑位。反之，阻力位则在0.7936附近，若突破该水平，将可能引发一波反弹行情。因此，投资者需密切关注这些关键价位的动态，以便及时调整交易策略。\n\n综合考虑，建议投资者在当前震荡行情中采取观望策略，等待价格突破关键支撑或阻力位后再进行操作。如果出现反弹，则可考虑适度介入，但需设置合理止损，以规避风险。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair is currently trading at 0.79272002, reflecting a slight decline of 0.05% over the past 24 hours. The price fluctuation has been relatively narrow, with a high of 0.79360002 and a low of 0.79259998. This indicates that the market is currently consolidating within a tight range, suggesting indecision among traders. A breakout above the recent high could signal a potential bullish trend, while a move below the low may confirm further bearish sentiment.\n\nConsidering the technical indicators, the MACD is currently at -0.0012784340, which suggests that the momentum is slightly bearish, but it is close to the zero line. This proximity indicates that a shift in momentum could occur if buying interest increases. The SMA(20) at 0.79365251 serves as a key resistance level. If the price can break above this moving average, it may attract additional buying, leading to a possible uptrend.\n\nIn terms of support and resistance levels, immediate support is found near the low of 0.79259998. A breach of this level could lead to further downside, potentially targeting lower support levels. Conversely, a breakout above the 0.79360002 high may provide a pathway for the pair to test higher resistance levels. Traders should closely monitor these levels for potential entry or exit points.\n\nFor trading strategies, a cautious approach is recommended given the current consolidation. Traders might consider initiating long positions if the price breaks above the SMA(20), with a stop-loss placed below the recent low. Alternatively, a bearish strategy could be employed if the price closes below the support level, targeting further declines. Overall, maintaining a flexible strategy will be key in navigating the current market dynamics."
+    }
+  }
+}

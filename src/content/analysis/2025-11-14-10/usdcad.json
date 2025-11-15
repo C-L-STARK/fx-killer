@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-14T10:54:07.273Z",
+  "price": {
+    "close": "1.40387",
+    "high": "1.40421",
+    "low": "1.40270",
+    "open": "1.40349",
+    "change": "0.03",
+    "datetime": "2025-11-14 21:00:00"
+  },
+  "indicators": {
+    "rsi": 63.39229,
+    "macd": 0.00063087552,
+    "macd_signal": 0.00057684855,
+    "sma20": 1.40284
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡整理中]",
+      "content": "当前美元/加元（USD/CAD）价格位于1.40387附近，整体走势呈现震荡整理的态势。虽然价格在高点1.40421附近徘徊，但未能突破该阻力位，显示出市场的犹豫。当前的价格波动幅度较小，表明市场参与者对未来走势缺乏明确方向，可能会在短期内继续维持这种状态。\n\n从技术指标来看，虽然RSI(14)数据缺失，但结合SMA(20)的表现，当前价格略高于其20日简单移动平均线，暗示短期内可能仍有上涨的动力。然而，MACD的数值较低且信号线未提供明确的买入或卖出信号，因此交易者需保持谨慎。市场情绪依然偏向观望，未出现明显的趋势转变迹象。\n\n在支撑和阻力层面，1.40270是短期支撑位，而1.40421则为关键阻力位。若价格突破1.40421，将可能引发进一步上涨，目标指向1.40600附近。反之，若跌破1.40270，则可能测试更低的支撑位。交易者可考虑在接近支撑位时寻找买入机会，反之在接近阻力位时考虑卖出，灵活应对市场变化。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD pair is currently trading at 1.40387, reflecting a slight 24-hour change of 0.03%. This stability suggests a consolidation phase, as the price is hovering near the recent high of 1.40421 and the low of 1.40270. The absence of significant volatility indicates that traders are cautious, possibly waiting for clearer directional cues. In the broader context, the pair appears to be in a bullish trend, having rallied from lower levels earlier in the month.\n\nFrom a technical standpoint, the 20-day Simple Moving Average (SMA) at 1.40284 serves as a crucial support level. The price's current position above this SMA reinforces the bullish sentiment, suggesting potential for further gains. However, traders should also monitor the high of 1.40421 closely, as a breakout above this level could signal increased upward momentum. Conversely, if the price dips below the SMA, it may indicate a reversal, warranting caution among long positions.\n\nWhile the Relative Strength Index (RSI) is not currently available, the MACD value of 0.00063087552 suggests that momentum could be shifting. If the MACD line begins to rise, it may indicate strengthening bullish momentum, providing a confirmation for potential buying opportunities. Conversely, traders should be wary of a bearish crossover in the MACD, which could prompt a reassessment of long positions or the initiation of short trades.\n\nIn summary, traders should consider a cautious approach in the USD/CAD market. Focus on the support at the 20-day SMA and the resistance at 1.40421, while remaining alert for any changes in momentum indicated by the MACD. A breakout above resistance may present buying opportunities, while a failure to hold above the SMA could signal a potential reversal, prompting a reassessment of trading strategies."
+    }
+  }
+}

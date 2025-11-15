@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-14T08:15:14.859Z",
+  "price": {
+    "close": "1.16300",
+    "high": "1.16361",
+    "low": "1.16267",
+    "open": "1.16328",
+    "change": "-0.03",
+    "datetime": "2025-11-14 19:00:00"
+  },
+  "indicators": {
+    "rsi": 51.96915,
+    "macd": 0.00070567305,
+    "macd_signal": 0.00094091135,
+    "sma20": 1.16361
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理，关注支撑与阻力]",
+      "content": "当前欧元/美元（EUR/USD）在1.16300附近震荡整理，短期内走势相对平稳。最近的高点在1.16361和低点在1.16267之间，表明市场缺乏方向性。在这种背景下，交易者需密切关注价格能否突破这些关键水平，以寻找后续趋势。\n\n技术指标方面，虽然RSI（相对强弱指数）未提供，但根据当前的价格走势，我们可以推测出市场情绪较为谨慎。MACD显示出轻微的正值，表明短期内多头可能仍有一些力量。SMA（20）在1.16361附近形成了一个动态阻力位，若价格向上突破，有望测试更高水平。\n\n在支撑位方面，1.16267是关键的心理关口，一旦跌破，可能引发进一步的卖盘压力，推动价格向下测试1.16100附近的支撑位。因此，交易者应留意这一水平，设置合理的止损和止盈点以降低风险。\n\n综合来看，建议投资者在当前区间内采取区间交易策略，关注突破信号。如果价格有效突破1.16361，可以考虑做多，反之如果跌破1.16267，则需考虑做空，灵活应对市场变化。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD pair is currently trading at 1.16300, reflecting a slight 24-hour change of -0.03%. This price action indicates a consolidation phase following a recent upward movement. The high of 1.16361 and low of 1.16267 suggest that the market is range-bound, with traders waiting for a clearer directional signal. A breakout above the recent high could potentially trigger bullish momentum, while a decline below the low may signal a bearish reversal.\n\nIn the absence of a current RSI reading, we can still analyze the market using the available MACD value of 0.00070567305. While this indicates a minor bullish sentiment, the lack of a clear signal line makes it difficult to ascertain a strong trend. Traders should monitor for changes in MACD and other indicators for confirmation of momentum. The SMA(20) at 1.16361 is acting as a dynamic resistance level, suggesting that a sustained close above this level could open the door to further gains.\n\nSupport levels are identified around 1.16267, where the price has recently bounced. A break below this level could lead to increased selling pressure, possibly targeting lower support levels around 1.16000. Conversely, should the price manage to hold above this support while testing the SMA(20), it could provide a buying opportunity for short-term traders looking to capitalize on potential upward movement.\n\nConsidering the current market conditions, traders should adopt a cautious approach. A breakout above 1.16361 could present an opportunity for long positions, while a failure to maintain above 1.16267 may warrant a reassessment of long positions. Keeping a close eye on macroeconomic indicators and potential geopolitical developments will also be crucial, as they can significantly influence the EUR/USD exchange rate in the coming days."
+    }
+  }
+}

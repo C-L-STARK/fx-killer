@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-14T12:25:50.820Z",
+  "price": {
+    "close": "0.56789142",
+    "high": "0.56831098",
+    "low": "0.56782693",
+    "open": "0.56782693",
+    "change": "0.00",
+    "datetime": "2025-11-14 23:00:00"
+  },
+  "indicators": {
+    "rsi": 54.68169,
+    "macd": 0.00039582059,
+    "macd_signal": 0.00039442902,
+    "sma20": 0.56719023
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋势]",
+      "content": "当前纽元/美元(NZD/USD)的价格在0.5678附近震荡整理，显示出市场缺乏明显的方向性。近期价格波动较小，24小时变化为0.00%，表明市场参与者的信心不足。在这种情况下，投资者需保持警惕，以防市场出现突发波动。\n\n从技术指标来看，当前未提供RSI和信号线数据，但MACD的数值接近于零，显示出市场的平衡状态。SMA(20)位于0.5671，略低于当前价格，表明短期内可能存在一定的支撑。若价格向下突破这一水平，可能会引发进一步的卖出压力。\n\n在支撑和阻力位方面，当前低点0.5678及更低的支撑位0.5673将是关键关注点。若价格反弹并突破0.5683，则可能会测试更高的阻力位。投资者可在这两个关键水平之间进行短线交易，利用价格波动获取利润。\n\n总体来看，当前市场处于震荡整理阶段，建议投资者采取谨慎的态度，关注短期技术指标的变化，适时调整交易策略。保持灵活的交易思维，能够帮助您在不确定的市场环境中把握机会。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.56789142, indicating a consolidation phase within a tight range. The recent high of 0.56831098 and low of 0.56782693 suggest that the market is experiencing limited volatility, which could imply indecision among traders. The price is hovering slightly above the 20-period simple moving average (SMA) of 0.56719023, hinting at a potential bullish sentiment if momentum builds. However, without a clear breakout, the pair may remain in this narrow channel.\n\nDespite the lack of RSI and complete MACD data, the current MACD value of 0.00039582059 indicates a very slight bullish momentum. This could suggest that buyers are attempting to gain traction, although the absence of a strong signal line makes it crucial to remain cautious. Traders should watch for a crossover in the MACD as this may provide more clarity on upcoming price movements. As the market stands, the trend appears neutral, and further confirmation is essential for establishing a direction.\n\nKey support levels can be identified around the recent low of 0.56782693, while resistance is likely near the high of 0.56831098. A break below the support level could open up a move towards lower areas, potentially testing the psychological level of 0.5650. Conversely, if the price manages to break above the resistance, this may signal a shift towards a more bullish outlook, opening the door for a rally towards 0.5700 or higher.\n\nTraders should consider monitoring these levels closely and employing a wait-and-see approach until more definitive signals arise. A breakout accompanied by increased volume would suggest a stronger trend, while a failure to break either level could lead to further consolidation. Utilizing stop-loss orders around the identified support and resistance zones may provide a safeguard against unexpected market movements."
+    }
+  }
+}

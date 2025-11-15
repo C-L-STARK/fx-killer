@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-14T08:19:07.965Z",
+  "price": {
+    "close": "0.56740808",
+    "high": "0.56773025",
+    "low": "0.56731153",
+    "open": "0.56744027",
+    "change": "-0.06",
+    "datetime": "2025-11-14 19:00:00"
+  },
+  "indicators": {
+    "rsi": 52.18767,
+    "macd": 0.00044577949,
+    "macd_signal": 0.0003498161,
+    "sma20": 0.56704213
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[当前走势偏弱，谨慎操作]",
+      "content": "当前纽元/美元（NZD/USD）在0.5674附近徘徊，整体趋势偏弱。在过去24小时内，价格小幅下跌0.06%。从高点0.56773025来看，市场尚未突破关键阻力位，显示出买方力量不足，可能会继续面临下行压力。\n\n技术指标方面，虽然RSI（相对强弱指数）数据缺失，但MACD（移动平均收敛散布指标）显示出微弱的正值，暗示短期内仍有反弹的潜力。然而，20日简单移动平均线（SMA）位于0.56704213，表明短期内市场可能受到压制，若价格持续低于此水平，卖盘可能加重。\n\n支撑位方面，0.5673是近期低点，若跌破该水平，可能会加速下行趋势。反之，若价格能有效站上SMA，则可能测试0.5680附近的阻力位。建议交易者保持谨慎，考虑在接近支撑位时寻找买入机会，或者在突破阻力位后再进行追高操作，以减少风险。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.5674, showing a slight decline of 0.06% over the last 24 hours. The price action remains relatively contained, oscillating between a high of 0.5677 and a low of 0.5673. This tight range suggests a consolidation phase, indicating market indecision. A breakout above the recent high could signal a potential bullish reversal, while a move below the low may lead to further downside pressure.\n\nIn terms of technical indicators, the absence of an available RSI limits our ability to gauge overbought or oversold conditions. However, the MACD shows a positive value of 0.0004, which may hint at underlying bullish momentum, albeit weak. The SMA(20) at 0.5670 serves as a dynamic support level, and its proximity to the current price suggests that it could act as a critical pivot point in the short term. Traders should monitor how the price interacts with this average for potential trading signals.\n\nKey support levels are identified around 0.5670, where the SMA(20) converges, while resistance is observed at 0.5680. A sustained break above this resistance could open the door to a more significant rally towards 0.5700. Conversely, a drop below 0.5670 could signal increased selling pressure, potentially targeting the next support level around 0.5650. Traders should remain vigilant for any changes in market sentiment that could influence these key levels.\n\nConsidering the current market dynamics, a cautious approach is advisable. Day traders might look for short-term trading opportunities near the support level, while swing traders could consider positioning themselves for a breakout above resistance. Risk management will be crucial, especially in a consolidating market, to protect against sudden volatility. Monitoring economic news related to New Zealand and the U.S. will also provide valuable context for potential market movements."
+    }
+  }
+}

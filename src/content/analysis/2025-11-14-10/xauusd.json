@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-14T10:56:41.749Z",
+  "price": {
+    "close": "4170.16566",
+    "high": "4170.68391",
+    "low": "4160.93468",
+    "open": "4170.41132",
+    "change": "-0.01",
+    "datetime": "2025-11-14 21:00:00"
+  },
+  "indicators": {
+    "rsi": 42.55537,
+    "macd": -4.52138,
+    "macd_signal": -1.74552,
+    "sma20": 4183.25696
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中]",
+      "content": "当前黄金/美元(XAU/USD)的价格在4170.16566附近，显示出市场在高点和低点之间的震荡整理。近期价格波动较小，24小时变化仅为-0.01%，表明市场参与者对未来走势持谨慎态度。短期内，价格未能有效突破20日简单移动平均线(SMA)的阻力位4183.25696，显示出卖压的存在。\n\n技术指标方面，MACD显示出-4.52138的负值，表明市场动能偏弱，可能暗示短期内下行风险加大。虽然RSI未提供，但从价格走势来看，市场可能处于超卖或超买区间，进一步观察将有助于确认趋势的转变。\n\n在支撑和阻力位方面，当前支撑位可关注4160.93468，若价格下破此位，可能引发更大幅度的回调。而上方阻力位在4183.25696，若突破这一位置，可能会吸引更多的买盘进场，推动价格向更高水平发展。\n\n综合考虑，建议投资者保持观望，等待更明确的信号再进行交易。若价格向下突破支撑位，可以考虑短期做空，而若突破阻力位则可适当布局做多。在当前震荡行情中，谨慎操作是关键。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of Gold against the US Dollar (XAU/USD) is 4170.16566, experiencing a marginal decline of 0.01% over the past 24 hours. This slight pullback comes after the price reached a high of 4170.68391 and a low of 4160.93468 within the same period. The market appears to be consolidating around this level, suggesting that traders are weighing their options amid mixed sentiment. The overall trend remains bullish in the longer term, but this recent price action could indicate a temporary retracement.\n\nAnalyzing the technical indicators, the MACD is currently at -4.52138, indicating potential bearish momentum. However, without a signal line available for comparison, it is difficult to draw definitive conclusions regarding the strength of this trend. The absence of an RSI value limits our ability to gauge overbought or oversold conditions. Traders should remain cautious as the market navigates through this range, closely monitoring for any shifts in momentum that could signal a breakout.\n\nKey support levels are observed at 4160.93468, which served as a recent low. A break below this level could open the door to further declines, potentially targeting the next support at around 4150. Conversely, the resistance level can be identified at 4183.25696, represented by the 20-day Simple Moving Average (SMA). A successful breach above this resistance could attract bullish momentum, leading to a test of higher levels.\n\nTrading strategies should focus on these key levels. For conservative traders, a buy signal may be warranted upon a confirmed breakout above the resistance level, while a stop-loss can be placed just below the support level to mitigate potential losses. Alternatively, aggressive traders might look for short opportunities if the price breaks below the support level, preparing for a possible downtrend. As always, risk management will be crucial in navigating this volatile market."
+    }
+  }
+}

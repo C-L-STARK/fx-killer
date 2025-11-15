@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-14T08:15:57.424Z",
+  "price": {
+    "close": "1.31334",
+    "high": "1.31468",
+    "low": "1.31253",
+    "open": "1.31446",
+    "change": "-0.12",
+    "datetime": "2025-11-14 19:00:00"
+  },
+  "indicators": {
+    "rsi": 37.95599,
+    "macd": -0.00044373783,
+    "macd_signal": 0.00008506203,
+    "sma20": 1.31678
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡走势，谨慎观望]",
+      "content": "当前英镑/美元的价格为1.31334，显示出轻微的下行趋势。过去24小时内，汇率变化仅为-0.12%，表明市场情绪相对平稳。尽管价格在1.31468附近遭遇阻力，但在1.31253形成了较强的支撑，显示出短期内的震荡走势。\n\n技术指标方面，MACD显示出微弱的负值，这可能暗示短期内卖方略占优势。然而，由于RSI数据缺失，无法全面评估超买或超卖状态。20日简单移动平均线(SMA)在1.31678，进一步确认了当前的阻力水平，投资者应关注价格是否能突破此水平。\n\n在支撑位1.31253附近，若价格维持在此之上，则有可能出现反弹。相反，如跌破此支撑位，则可能进一步测试更低的水平。建议投资者在操作上保持谨慎，考虑在支撑位附近寻找买入机会，同时在接近阻力位时考虑锁定利润或设定止损。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The current price of GBP/USD is at 1.31334, reflecting a slight decline of 0.12% over the last 24 hours. This minor decrease indicates a potential consolidation phase, with the currency pair trading within a narrow range defined by the recent high of 1.31468 and a low of 1.31253. This sideways movement suggests a lack of strong momentum in either direction, which could lead to a decision point in the near future. Traders should closely monitor price action for potential breakouts or reversals.\n\nFrom a trend analysis perspective, the pair is currently below the 20-day Simple Moving Average (SMA) of 1.31678, which may indicate a bearish sentiment in the short term. A sustained move below this SMA could reinforce the downtrend and lead to further declines. Conversely, if GBP/USD can reclaim the SMA, it may signal a shift towards bullish momentum. Hence, the SMA serves as a critical level to watch for potential trading opportunities.\n\nIn terms of support and resistance, immediate support is found around the recent low of 1.31253, while resistance is evident at the aforementioned SMA level of 1.31678. A break below the support level could open the door for further declines towards the 1.3100 psychological level. On the other hand, if the price breaks above the SMA, it could target higher resistance levels, potentially reaching the 1.3200 mark. \n\nTraders should consider employing a cautious approach given the current market conditions. A short position may be warranted if GBP/USD falls below 1.31253, with a target near 1.3100. Alternatively, a bullish stance could be taken if the price surpasses the 20-day SMA, with targets set towards the 1.3200 resistance level. Monitoring volume and market sentiment will be crucial to validate these trading strategies."
+    }
+  }
+}

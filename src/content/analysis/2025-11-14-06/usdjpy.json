@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-14T06:57:42.728Z",
+  "price": {
+    "close": "154.62801",
+    "high": "154.66100",
+    "low": "154.42700",
+    "open": "154.47600",
+    "change": "0.10",
+    "datetime": "2025-11-14 17:00:00"
+  },
+  "indicators": {
+    "rsi": 53.45493,
+    "macd": -0.020816942,
+    "macd_signal": -0.030468669,
+    "sma20": 154.50105
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理中]",
+      "content": "当前美元/日元（USD/JPY）价格为154.62801，近期走势呈现震荡整理的态势。价格在154.42700至154.66100区间内波动，显示出市场对当前价格水平的谨慎态度。若价格突破154.66100，可能会引发进一步上涨，而跌破154.42700则可能导致回调。\n\n从技术指标来看，当前的MACD为-0.0208，显示出短期内动能不足，可能表明下行风险。尽管RSI未提供，但结合SMA(20)的154.50105，短期内价格仍有支撑。若价格能够保持在SMA之上，可能会形成支撑区间。\n\n支撑位方面，154.42700是关键的支撑区域，若有效跌破，则可能进一步测试154.000的心理关口。阻力位则在154.66100，突破该水平将开启新的上升空间。投资者需关注这些关键价位，以制定相应的交易策略。\n\n综合来看，当前市场存在一定的不确定性，建议投资者采取谨慎态度。可以考虑在支撑位附近进行逢低买入，但须设定止损以控制风险。同时，若价格突破阻力位，可考虑适度增加多头仓位，抓住潜在的上涨机会。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 154.62801, exhibiting a marginal increase of 0.10% over the last 24 hours. The price has oscillated between a high of 154.66100 and a low of 154.42700, indicating a relatively stable market environment. The overall trend appears to be bullish in the short term, driven by ongoing demand for the US dollar amid fluctuations in global economic indicators. Traders should monitor this upward momentum for potential continuation or reversal signals.\n\nAnalyzing key indicators, the MACD shows a value of -0.0208, suggesting a slight bearish momentum, although it does not signal an immediate trend reversal. The absence of an RSI value makes it challenging to gauge overbought or oversold conditions at this time. The 20-day Simple Moving Average (SMA) stands at 154.50105, indicating that the current price is above this moving average. This positioning may suggest strength in the USD/JPY, as prices often gravitate towards the SMA line.\n\nIn terms of support and resistance levels, immediate support can be identified at the recent low of 154.42700, while resistance is found near the high of 154.66100. A break above this resistance could open the door for further gains, possibly targeting 155.000. Conversely, if the price slips below the support level, it may signal a potential retracement towards lower levels, warranting caution for long positions.\n\nTraders should consider taking advantage of the current bullish sentiment, but remain vigilant for potential signs of market reversal. A strategic approach would be to place buy orders near the support level, while setting stop-loss orders below this level to mitigate risk. Conversely, those looking to enter short positions might wait for a confirmed break below the support before acting, ensuring a more favorable risk-to-reward ratio."
+    }
+  }
+}

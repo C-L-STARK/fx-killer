@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-14T10:55:48.830Z",
+  "price": {
+    "close": "0.79201001",
+    "high": "0.79263997",
+    "low": "0.79192001",
+    "open": "0.79216999",
+    "change": "-0.02",
+    "datetime": "2025-11-14 21:00:00"
+  },
+  "indicators": {
+    "rsi": 39.40175,
+    "macd": -0.001037806,
+    "macd_signal": -0.0011888177,
+    "sma20": 0.79226401
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理趋势]",
+      "content": "当前美元/瑞郎的价格处于0.7920附近，近期走势表现为震荡整理。虽然价格在过去24小时内小幅下跌0.02%，但整体走势仍维持在0.7919至0.7926的区间内，未出现明显的突破信号。这种横盘状态表明市场参与者对未来方向的看法有所分歧，需密切关注即将到来的市场消息和经济数据。\n\n在技术指标方面，MACD数据显示出轻微的负值，表明卖方略占优势，但尚未形成明确的卖出信号。由于RSI数据缺失，我们无法判断市场是否处于超买或超卖状态。因此，投资者应保持谨慎，关注可能的反转信号。20日简单移动平均线（SMA）在0.7922附近提供了一定的支撑，表明短期内价格可能在此附近波动。\n\n从支撑和阻力的角度来看，当前支撑位在0.7919，而阻力位则在0.7926。若价格突破0.7926，可能会引发进一步上涨，反之则有可能测试更低的支撑位。建议交易者在此区间内进行短线交易，待价格形成更明确的趋势后再考虑长期持有，避免因市场波动而造成不必要的损失。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair is currently trading at 0.7920, reflecting a slight decline of 0.02% over the last 24 hours. The price has oscillated between a high of 0.7926 and a low of 0.7919, indicating a relatively narrow trading range. This range suggests that the market is currently consolidating, lacking a strong directional bias. Traders should closely monitor price action around these levels, as a breakout above 0.7926 could signal a bullish reversal, while a drop below 0.7919 may indicate further downside potential.\n\nIn terms of technical indicators, the absence of a current RSI value limits our ability to fully evaluate momentum. However, the MACD is in negative territory at -0.0010, suggesting that bearish momentum is present but not yet strong. The SMA(20) at 0.7923 is also positioned above the current price, acting as a dynamic resistance level. A sustained move above this SMA could pave the way for bullish sentiment, while failure to reclaim this level may keep pressure on the downside.\n\nSupport levels are critical in this analysis, with the immediate support found at 0.7919. A break below this level could lead to further declines toward 0.7900, a psychological level that may attract buyers. Conversely, significant resistance lies at 0.7926, which, if breached, may trigger additional buying interest and possibly propel prices towards the next resistance level around 0.7940. \n\nTraders should remain vigilant and consider a cautious approach. A buy position could be initiated on a confirmed breakout above 0.7926, targeting higher resistance levels. Alternatively, a sell position may be appropriate if the price breaks below 0.7919, with targets toward 0.7900. Effective risk management strategies, including stop-loss orders, will be essential to navigate this uncertain market environment."
+    }
+  }
+}

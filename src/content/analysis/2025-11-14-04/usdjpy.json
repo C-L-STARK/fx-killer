@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-14T04:16:57.194Z",
+  "price": {
+    "close": "154.49200",
+    "high": "154.55499",
+    "low": "154.45500",
+    "open": "154.53600",
+    "change": "-0.03",
+    "datetime": "2025-11-14 15:00:00"
+  },
+  "indicators": {
+    "rsi": 47.62493,
+    "macd": -0.026452481,
+    "macd_signal": -0.031350476,
+    "sma20": 154.50935
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理中]",
+      "content": "当前美元/日元的价格为154.49200，24小时内小幅回落0.03%。整体来看，汇率在154.45至154.55区间内震荡整理，表明市场情绪较为谨慎，缺乏明确的方向性突破。短期内，若价格持续在这一区间内波动，可能会延续震荡走势。\n\n技术指标方面，MACD显示出负值，表明当前市场略显弱势，但信号线尚未提供明确的卖出信号。同时，SMA(20)位于154.50935附近，若价格突破此均线，可能会引发进一步的上涨。RSI指标尚未提供，需密切关注后续数据来判断超买或超卖情况。\n\n支撑位方面，154.45为关键支撑，若出现有效跌破，可能会引发更多卖盘。而154.55则是较强的阻力位，若价格突破，可能会重新测试更高水平。交易者应密切关注这些关键价位，以制定更为有效的交易策略。\n\n综合来看，当前美元/日元处于震荡整理阶段，建议投资者谨慎操作，关注价格在支撑和阻力位的表现。若出现明显突破信号，可以考虑顺势交易，但需设定好止损以控制风险。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 154.492, reflecting a slight decline of 0.03% over the past 24 hours. This minor shift suggests a potential consolidation phase following recent volatility. The price is positioned between the day's high of 154.55499 and low of 154.45500, indicating a tight trading range. The prevailing trend appears to be bullish, but the lack of strong momentum could lead to a corrective pullback if sellers gain traction near the upper boundary of this range.\n\nIn terms of technical indicators, the MACD currently shows a value of -0.026452481, suggesting a bearish divergence that might be signaling a potential reversal or weakening momentum. However, with the SMA(20) at 154.50935, the price remains above this moving average, indicating that the short-term trend is still bullish. Traders should monitor the RSI closely once it becomes available, as a value below 30 could indicate oversold conditions, while a value above 70 could suggest overbought conditions.\n\nKey support levels are identified at 154.45500, where buyers may step in to prevent a further decline. Conversely, resistance is seen near 154.55499, which has previously capped upward movement. A breakout above this resistance could signal a continuation of the bullish trend, presenting an opportunity for traders looking to capitalize on upward momentum. Conversely, a drop below the support level could trigger selling activity, suggesting a shift in market sentiment.\n\nFor traders, a prudent approach would be to watch for price action around the established support and resistance levels. A buy position may be considered if the price bounces off the support level with confirmation from accompanying indicators. On the other hand, a clear break below support could warrant a sell position, particularly if aligned with a bearish signal from the MACD or a decline in the RSI. Maintaining a disciplined risk management strategy will be essential in navigating this technically complex environment."
+    }
+  }
+}
