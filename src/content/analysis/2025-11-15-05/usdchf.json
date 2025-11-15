@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-15T05:41:52.574Z",
+  "price": {
+    "close": "0.79374999",
+    "high": "0.79438001",
+    "low": "0.79321003",
+    "open": "0.79395002",
+    "change": "-0.02",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 54.10161,
+    "macd": -8.3951137e-7,
+    "macd_signal": -0.00045605797,
+    "sma20": 0.792283
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理走势]",
+      "content": "当前美元/瑞郎（USD/CHF）价格在0.7937附近波动，表明市场处于震荡整理阶段。近期价格未能有效突破0.7944的高点，显示出上方存在一定的阻力。而下方的0.7932则成为短期支撑位，价格在此区间内移动，投资者应关注这一范围的突破情况。\n\n从技术指标来看，RSI指标未提供数据，但MACD显示出微弱的负值，表明短期内可能存在下行压力。SMA（20）处于0.7923附近，进一步确认了当前价格的支撑区域。若价格持续在SMA之上运行，可能会继续保持震荡格局，反之，则需要警惕向下突破的风险。\n\n在支撑和阻力方面，投资者应密切关注0.7944作为关键阻力位，而0.7932则是重要的支撑位。若价格突破0.7944，可能会引发一波上涨行情，反之，跌破0.7932则可能带来更大的下行空间。建议投资者在此区间内采取区间交易策略，灵活应对市场变化。\n\n综上所述，美元/瑞郎当前呈现震荡整理走势，投资者需密切关注关键支撑与阻力位的突破情况，结合技术指标进行合理的入场和出场决策，以期在市场波动中获取盈利。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair is currently trading at 0.79374999, showing a slight decline of 0.02% over the past 24 hours. This price action suggests a consolidation phase following a recent upward movement. The high and low ranges for the day, 0.79438001 and 0.79321003 respectively, indicate a tight trading range, reflecting indecision among traders. To determine the prevailing trend, it is crucial to monitor price movements in relation to the recent high and low levels, as well as broader market sentiment.\n\nThe absence of available RSI data limits our ability to assess overbought or oversold conditions effectively. However, the MACD, currently at -0.00000083951137, indicates a bearish momentum, which could suggest that the downward pressure may persist in the short term. The Simple Moving Average (SMA) at 0.79228300 serves as a potential support level. Should the price drop below this level, we could see further declines, possibly targeting the daily low of 0.79321003.\n\nSupport levels appear to be anchored around the SMA and the recent low of 0.79321003. Conversely, resistance is found near the daily high of 0.79438001. A breakout above this level could signal a reversal in momentum, attracting buyers and pushing prices higher. Conversely, a sustained drop below the SMA could trigger sell-offs, leading to a retest of lower support levels.\n\nTraders should consider a cautious approach, closely monitoring price action around the identified support and resistance levels. If the price holds above the SMA, a bullish strategy may be warranted, targeting the resistance level at 0.79438001. Conversely, should the price break below the SMA, it may be prudent to adopt a bearish stance, aiming for lower support levels. Keeping an eye on broader market events and economic indicators will also be critical in shaping future price movements."
+    }
+  }
+}
