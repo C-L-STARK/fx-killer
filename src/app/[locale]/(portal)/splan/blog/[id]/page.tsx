@@ -1,4 +1,5 @@
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getBrandConfig } from '@/lib/brand-config';
 import { supabase, BlogPost } from '@/lib/supabase';
 import { notFound } from 'next/navigation';
 import BlogDetailClient from './BlogDetailClient';
@@ -7,6 +8,7 @@ import BlogDetailClient from './BlogDetailClient';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; id: string }> }) {
   const { locale, id } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
 
   // Fetch blog post
   const { data, error } = await supabase
@@ -66,6 +68,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     zhKeywords,
     enKeywords,
     lang,
+    brandConfig,
     {
       url: `/splan/blog/${id}`,
       type: 'article',

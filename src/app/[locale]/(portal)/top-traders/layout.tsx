@@ -1,8 +1,10 @@
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getBrandConfig } from '@/lib/brand-config';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
 
   return generateBilingualMetadata(
     '天梯榜 - 顶尖交易员实时排名丨汇刃丨外汇交易员培训、全职交易员培训',
@@ -12,6 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     '交易员排行榜, 天梯榜, 顶尖交易员, 交易员排名, 外汇交易员培训, 全职交易员培训, 月收益率, 胜率排名, 盈利因子, 夏普比率, 交易表现',
     'trader leaderboard, top traders, trader ranking, forex trader training, full-time trader training, monthly returns, win rate ranking, profit factor, sharpe ratio, trading performance',
     lang,
+    brandConfig,
     {
       url: '/top-traders',
       type: 'website',

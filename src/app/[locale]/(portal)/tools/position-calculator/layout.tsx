@@ -1,8 +1,10 @@
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getBrandConfig } from '@/lib/brand-config';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
 
   return generateBilingualMetadata(
     '仓位计算器丨汇刃丨日内交易员培训、全职交易员培训',
@@ -12,6 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     '仓位计算器, 头寸计算器, 日内交易员培训, 全职交易员培训, 日内交易员, 全职交易, 风险管理工具',
     'position calculator, lot size calculator, day trader training, full-time trader training, day trader, full-time trading, risk management tool',
     lang,
+    brandConfig,
     {
       url: '/tools/position-calculator',
       type: 'website',

@@ -1,8 +1,10 @@
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getBrandConfig } from '@/lib/brand-config';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
 
   return generateBilingualMetadata(
     '点值计算器丨汇刃丨外汇交易员培训、职业交易员培训',
@@ -12,6 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     '点值计算器, pip计算器, 外汇点值, 外汇交易员培训, 职业交易员培训, 外汇交易员, 职业交易员, 交易工具',
     'pip calculator, pip value, forex trader training, professional trader training, forex trader, professional trader, trading tool',
     lang,
+    brandConfig,
     {
       url: '/tools/pip-calculator',
       type: 'website',

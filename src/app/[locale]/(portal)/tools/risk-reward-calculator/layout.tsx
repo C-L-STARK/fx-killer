@@ -1,8 +1,10 @@
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getBrandConfig } from '@/lib/brand-config';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
+  const brandConfig = await getBrandConfig();
 
   return generateBilingualMetadata(
     '盈亏比计算器丨汇刃丨职业交易员培训、外汇交易员培训',
@@ -12,6 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     '盈亏比计算器, 风险回报比, 职业交易员培训, 外汇交易员培训, 职业交易员, 交易工具',
     'risk reward calculator, risk reward ratio, professional trader training, forex trader training, professional trader, trading tool',
     lang,
+    brandConfig,
     {
       url: '/tools/risk-reward-calculator',
       type: 'website',
