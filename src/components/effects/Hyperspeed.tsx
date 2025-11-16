@@ -595,10 +595,10 @@ const Hyperspeed = ({
       assets: any;
       disposed: boolean;
       animationFrameId: number | null;
-      road: Road;
-      leftCarLights: CarLights;
-      rightCarLights: CarLights;
-      leftSticks: LightsSticks;
+      road!: Road;
+      leftCarLights!: CarLights;
+      rightCarLights!: CarLights;
+      leftSticks!: LightsSticks;
       fovTarget: number;
       speedUpTarget: number;
       speedUp: number;
@@ -615,72 +615,98 @@ const Hyperspeed = ({
           };
         }
         this.container = container;
-        this.renderer = new THREE.WebGLRenderer({
-          antialias: false,
-          alpha: true
-        });
-        this.renderer.setSize(container.offsetWidth, container.offsetHeight, false);
-        this.renderer.setPixelRatio(window.devicePixelRatio);
-        this.composer = new EffectComposer(this.renderer);
-        container.append(this.renderer.domElement);
 
-        this.camera = new THREE.PerspectiveCamera(
-          options.fov,
-          container.offsetWidth / container.offsetHeight,
-          0.1,
-          10000
-        );
-        this.camera.position.z = -5;
-        this.camera.position.y = 8;
-        this.camera.position.x = 0;
-        this.scene = new THREE.Scene();
-        this.scene.background = null;
-
-        let fog = new THREE.Fog(options.colors.background, options.length * 0.2, options.length * 500);
-        this.scene.fog = fog;
-        this.fogUniforms = {
-          fogColor: { value: fog.color },
-          fogNear: { value: fog.near },
-          fogFar: { value: fog.far }
-        };
+        // Initialize basic properties that are always needed
         this.clock = new THREE.Clock();
         this.assets = {};
         this.disposed = false;
         this.animationFrameId = null;
-
-        this.road = new Road(this, options);
-        this.leftCarLights = new CarLights(
-          this,
-          options,
-          options.colors.leftCars,
-          options.movingAwaySpeed,
-          new THREE.Vector2(0, 1 - options.carLightsFade)
-        );
-        this.rightCarLights = new CarLights(
-          this,
-          options,
-          options.colors.rightCars,
-          options.movingCloserSpeed,
-          new THREE.Vector2(1, 0 + options.carLightsFade)
-        );
-        this.leftSticks = new LightsSticks(this, options);
-
-        this.fovTarget = options.fov;
+        this.fovTarget = options.fov || 90;
         this.speedUpTarget = 0;
         this.speedUp = 0;
         this.timeOffset = 0;
 
-        this.tick = this.tick.bind(this);
-        this.init = this.init.bind(this);
-        this.setSize = this.setSize.bind(this);
-        this.onMouseDown = this.onMouseDown.bind(this);
-        this.onMouseUp = this.onMouseUp.bind(this);
+        // Check WebGL support
+        const canvas = document.createElement('canvas');
+        const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+        if (!gl) {
+          console.warn('WebGL not supported, Hyperspeed effect disabled');
+          this.renderer = null;
+          this.composer = null;
+          this.camera = null;
+          this.scene = null;
+          this.disposed = true;
+          return;
+        }
 
-        this.onTouchStart = this.onTouchStart.bind(this);
-        this.onTouchEnd = this.onTouchEnd.bind(this);
-        this.onContextMenu = this.onContextMenu.bind(this);
+        try {
+          this.renderer = new THREE.WebGLRenderer({
+            antialias: false,
+            alpha: true,
+            powerPreference: 'high-performance',
+            failIfMajorPerformanceCaveat: false
+          });
+          this.renderer.setSize(container.offsetWidth, container.offsetHeight, false);
+          this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2)); // Limit pixel ratio for mobile
+          this.composer = new EffectComposer(this.renderer);
+          container.append(this.renderer.domElement);
 
-        window.addEventListener('resize', this.onWindowResize.bind(this));
+          this.camera = new THREE.PerspectiveCamera(
+            options.fov,
+            container.offsetWidth / container.offsetHeight,
+            0.1,
+            10000
+          );
+          this.camera.position.z = -5;
+          this.camera.position.y = 8;
+          this.camera.position.x = 0;
+          this.scene = new THREE.Scene();
+          this.scene.background = null;
+
+          let fog = new THREE.Fog(options.colors.background, options.length * 0.2, options.length * 500);
+          this.scene.fog = fog;
+          this.fogUniforms = {
+            fogColor: { value: fog.color },
+            fogNear: { value: fog.near },
+            fogFar: { value: fog.far }
+          };
+
+          this.road = new Road(this, options);
+          this.leftCarLights = new CarLights(
+            this,
+            options,
+            options.colors.leftCars,
+            options.movingAwaySpeed,
+            new THREE.Vector2(0, 1 - options.carLightsFade)
+          );
+          this.rightCarLights = new CarLights(
+            this,
+            options,
+            options.colors.rightCars,
+            options.movingCloserSpeed,
+            new THREE.Vector2(1, 0 + options.carLightsFade)
+          );
+          this.leftSticks = new LightsSticks(this, options);
+
+          this.tick = this.tick.bind(this);
+          this.init = this.init.bind(this);
+          this.setSize = this.setSize.bind(this);
+          this.onMouseDown = this.onMouseDown.bind(this);
+          this.onMouseUp = this.onMouseUp.bind(this);
+
+          this.onTouchStart = this.onTouchStart.bind(this);
+          this.onTouchEnd = this.onTouchEnd.bind(this);
+          this.onContextMenu = this.onContextMenu.bind(this);
+
+          window.addEventListener('resize', this.onWindowResize.bind(this));
+        } catch (error) {
+          console.error('Failed to initialize Hyperspeed:', error);
+          this.renderer = null;
+          this.composer = null;
+          this.camera = null;
+          this.scene = null;
+          this.disposed = true;
+        }
       }
 
       onWindowResize() {
@@ -743,6 +769,12 @@ const Hyperspeed = ({
       }
 
       init() {
+        // Early return if WebGL not supported or initialization failed
+        if (this.disposed || !this.scene || !this.camera) {
+          console.warn('Hyperspeed init skipped - WebGL not available');
+          return;
+        }
+
         this.initPasses();
         const options = this.options;
         this.road.init();
@@ -1435,7 +1467,15 @@ const Hyperspeed = ({
 
       const myApp = new App(container, options);
       appRef.current = myApp;
-      myApp.loadAssets().then(myApp.init);
+
+      // Check if initialization was successful
+      if (myApp.disposed) {
+        // WebGL not supported or initialization failed - use solid black background
+        container.style.backgroundColor = '#000000';
+        console.warn('Hyperspeed disabled, using solid black background');
+      } else {
+        myApp.loadAssets().then(myApp.init);
+      }
     })();
 
     return () => {
