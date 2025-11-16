@@ -632,12 +632,12 @@ const DummyContent = () => {
             </div>
             <div className="text-6xl text-[#dadafa]/20">|</div>
             <div className="text-center">
-              <div className="text-5xl font-black text-white mb-2">淘汰</div>
+              <div className="text-5xl font-black text-white mb-2">{t('cta.elimination.title')}</div>
               <p className="text-sm text-[#dadafa]">{t('cta.elimination')}</p>
             </div>
             <div className="text-6xl text-[#dadafa]/20">|</div>
             <div className="text-center">
-              <div className="text-5xl font-black text-white mb-2">时间</div>
+              <div className="text-5xl font-black text-white mb-2">{t('cta.time.title')}</div>
               <p className="text-sm text-[#dadafa]">{t('cta.time.cost')}</p>
             </div>
             <div className="text-6xl text-[#dadafa]/20">|</div>
