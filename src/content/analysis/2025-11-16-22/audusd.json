@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-16T22:48:23.675Z",
+  "price": {
+    "close": "0.65352",
+    "high": "0.65371",
+    "low": "0.65337",
+    "open": "0.65351",
+    "change": "-0.01",
+    "datetime": "2025-11-17 09:00:00"
+  },
+  "indicators": {
+    "rsi": 49.38819,
+    "macd": -0.000051069352,
+    "macd_signal": -0.00017167473,
+    "sma20": 0.653252
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[当前震荡整理，关注支撑与阻力]",
+      "content": "当前AUD/USD的市场表现显示出震荡整理的趋势。最新价格为0.65352，较24小时前微幅下跌0.01%。从高点0.65371和低点0.65337来看，价格在这个区间内波动，暗示市场缺乏明确的方向性。短期内，投资者需密切关注这一震荡走势是否会向上突破或向下跌破。\n\n技术指标方面，虽然RSI尚未提供，但SMA(20)为0.653252，表明价格略高于20日移动均线，可能显示出短期的上行潜力。然而，MACD为负值且接近于零，暗示卖压仍在，市场情绪偏向谨慎。整体来看，当前市场仍需等待进一步的明确信号。\n\n在支撑和阻力位方面，0.65337的低点可视为关键支撑位，而0.65371的高点则是重要阻力位。当价格接近支撑位时，可能会吸引买盘，而接近阻力位时则可能会出现卖盘。因此，投资者应当密切关注这些关键水平。\n\n建议交易者在当前震荡区间内采取观望态度，等待价格突破关键支撑或阻力位后再决定进场。若价格上破0.65371，可考虑做多；反之，如跌破0.65337，则可考虑做空。保持灵活应变，适时调整仓位是当前市场环境中的重要策略。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) against the US Dollar (USD) is currently hovering around 0.65352, showing a slight decline of 0.01% over the last 24 hours. The price action has been relatively contained within a narrow range, with a high of 0.65371 and a low of 0.65337. Given this tight price movement, the market appears to be consolidating, indicating a potential indecision among traders. A break above the recent high could signal a bullish move, while a drop below the low could indicate further bearish pressure.\n\nIn terms of technical indicators, the absence of the RSI(14) makes it challenging to gauge the momentum. However, the MACD value of -0.000051 suggests a bearish sentiment, albeit with minimal conviction. The Simple Moving Average (SMA) of 20 at 0.653252 provides a useful benchmark. If the price remains above this SMA, it may imply a potential support level, while a significant move below could indicate a shift in market sentiment.\n\nInvestors should closely monitor the support and resistance levels around the current price point. The immediate support can be found at the recent low of 0.65337, while resistance is established at the high of 0.65371. A confirmed breakout above these levels could provide trading opportunities, with potential targets extending towards 0.65400. Conversely, a sustained move below the support level could trigger a bearish trend, prompting traders to consider short positions.\n\nIn conclusion, the AUD/USD pair is currently in a consolidation phase, characterized by tight price ranges and a bearish MACD. Traders should remain vigilant for breakout opportunities while considering the established support and resistance levels. Careful risk management is essential, particularly in a market that shows signs of indecision. With the right strategies, there may be opportunities for both short-term and longer-term trades."
+    }
+  }
+}

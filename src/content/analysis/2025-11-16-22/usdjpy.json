@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-16T22:47:37.032Z",
+  "price": {
+    "close": "154.49300",
+    "high": "154.59801",
+    "low": "154.45900",
+    "open": "154.53000",
+    "change": "-0.02",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.52351,
+    "macd": -0.005667208,
+    "macd_signal": -0.019554233,
+    "sma20": 154.4924
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理中]",
+      "content": "当前美元/日元在154.49300附近震荡整理，价格略微下跌0.02%。短期内，市场情绪趋于谨慎，投资者关注更广泛的经济数据和日美货币政策动态。整体来看，虽然短期有所回调，但长期趋势仍然偏强，可能会继续在当前区间内波动。\n\n从技术指标来看，RSI指标尚未提供明确信号，MACD则处于负值区域，显示出卖压存在。20日简单移动平均线(SMA)位于当前价格附近，表明市场在此水平形成了一定的支撑。若价格企稳在此水平之上，可能会再次测试近期高点154.59801。\n\n支撑位方面，154.45900是一个关键支撑区域，若价格跌破该水平，则可能会引发更深的调整。相对的，154.59801则是重要的阻力位，突破后将进一步确认多头趋势。因此，投资者需密切关注这些关键水平。\n\n建议交易者在当前价格附近观望，若价格回调至154.45900附近，可考虑布局多单，同时设置止损以应对风险。如若价格突破154.59801，短线交易者可适时进场，抓住潜在的上涨机会。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 154.49300, showing a slight decline of 0.02% over the last 24 hours. The recent price action has oscillated between a high of 154.59801 and a low of 154.45900, indicating a tight range that may suggest consolidation. This lateral movement could reflect indecision among traders, as the market awaits further catalysts that could drive significant price changes. A breakout above the recent high could signal a bullish trend, while a drop below the low may indicate a bearish reversal.\n\nIn terms of technical indicators, the lack of a calculated RSI(14) and a MACD value of -0.0057 suggests the current momentum is weak, with little conviction behind recent price movements. The MACD being negative indicates that sellers are slightly in control, but the absence of a clear signal line provides no strong trend cues. The 20-period Simple Moving Average (SMA) at 154.49240 aligns closely with the current price, reinforcing the idea of a neutral market sentiment. Observing these indicators collectively, traders should remain cautious and attentive to any shifts in momentum.\n\nSupport and resistance levels are critical for determining potential entry and exit points. The immediate support level can be identified around the low of 154.45900, which, if broken, could expose further downside potential toward the next support zone. Conversely, resistance is found near the high of 154.59801; a break above this level may encourage buyers to re-enter the market, potentially targeting higher levels. Traders should monitor these key levels closely for any breakout or breakdown opportunities.\n\nIn light of the current technical landscape, a wait-and-see approach is advisable. Traders might consider placing buy orders above the resistance level of 154.59801, while selling could be warranted below the support level of 154.45900. This strategy allows for a more disciplined approach, capitalizing on volatility while managing risk effectively. As always, broader market trends and economic indicators should be taken into account for a comprehensive trading strategy."
+    }
+  }
+}

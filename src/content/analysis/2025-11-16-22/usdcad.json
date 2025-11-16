@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-16T22:49:04.410Z",
+  "price": {
+    "close": "1.40213",
+    "high": "1.40276",
+    "low": "1.40120",
+    "open": "1.40258",
+    "change": "-0.03",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 46.62505,
+    "macd": 0.000088553031,
+    "macd_signal": 0.00024427299,
+    "sma20": 1.40281
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[当前震荡区间内的整理走势]",
+      "content": "当前美元/加元（USD/CAD）在1.40213附近震荡整理，近期价格在1.40120至1.40276之间波动。整体来看，市场情绪略显谨慎，短期内难以形成明显的上涨或下跌趋势。投资者应关注即将发布的经济数据，这可能会影响市场的走向。\n\n技术指标方面，虽然RSI尚未提供，MACD指标显示出微弱的正值，这表明市场可能存在一定的上涨动能。20日简单移动平均线（SMA）在1.40281，作为当前的阻力位，价格若突破此水平，可能会引发更强的买盘。而如果价格跌破1.40120，则可能会测试更低的支撑位。\n\n在支撑位方面，1.40120是关键的心理关口，一旦失守，可能会引发进一步的下行压力。相反，若能有效突破1.40281的阻力位，可能会吸引更多的多头进场。投资者应密切关注价格在这个区间内的表现，综合技术指标与市场情绪来制定交易策略。\n\n综上所述，建议投资者在当前区间内保持观望，待价格突破关键支撑或阻力位后再做出交易决策。同时，设置合理的止损和止盈点，以降低风险并保护利润。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD pair is currently showing a slight downward movement, with a 24-hour change of -0.03% and a trading range between 1.40120 and 1.40276. The price is hovering just below the 20-day simple moving average (SMA) of 1.40281, indicating a bearish sentiment in the short term. A consistent failure to break above this SMA could reinforce the downtrend, while a sustained move above it may signal potential bullish momentum.\n\nIn terms of support and resistance levels, the recent low of 1.40120 serves as a critical support level. If this level holds, it may provide an opportunity for buyers to enter the market. Conversely, a break below this support could lead to further decline, targeting the next significant support around 1.40000. On the upside, resistance is observed near the recent high of 1.40276, with any breakout above this level offering a potential rally towards 1.40500.\n\nThe MACD is currently showing a minimal value of 0.000088553031, which suggests that momentum remains weak. Without a pronounced crossover or a significant signal line, traders should remain cautious. The lack of an RSI reading also complicates the analysis, indicating that momentum indicators may not yet provide clear directional guidance. Traders are advised to monitor these indicators closely for potential shifts.\n\nFor trading strategies, a conservative approach would be to wait for confirmation of price action around the key support and resistance levels. A long position could be considered if price breaks and closes above 1.40276, while a short position may be warranted if the price breaches 1.40120. This strategy allows traders to capitalize on confirmed movements, reducing the risk of entering trades prematurely in a choppy market environment."
+    }
+  }
+}
