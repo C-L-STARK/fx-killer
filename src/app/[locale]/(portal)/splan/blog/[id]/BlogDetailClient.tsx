@@ -7,10 +7,19 @@ import { motion } from 'motion/react';
 import InterviewCTA from '@/components/custom/InterviewCTA';
 import type { BlogPost } from '@/lib/supabase';
 
+interface NewsItem {
+  slug: string;
+  title: string;
+  date: string;
+  description: string;
+  source: string;
+  category: string;
+}
+
 interface BlogDetailClientProps {
   post: BlogPost;
   relatedPosts: BlogPost[];
-  latestNews: any[];
+  latestNews: NewsItem[];
   locale: string;
 }
 
@@ -128,7 +137,7 @@ export default function BlogDetailClient({ post, relatedPosts, latestNews, local
             <div className="grid md:grid-cols-2 gap-6">
               {latestNews.map((news) => (
                 <motion.div
-                  key={news.id}
+                  key={news.slug}
                   whileHover={{ y: -4 }}
                   onClick={() => router.push(`/${locale}/news/${news.slug}`)}
                   className="bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-800 hover:border-black dark:hover:border-white transition-all cursor-pointer p-6"
@@ -139,17 +148,25 @@ export default function BlogDetailClient({ post, relatedPosts, latestNews, local
                       <path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z" />
                     </svg>
                     <h3 className="text-lg font-bold text-gray-900 dark:text-white line-clamp-2">
-                      {language === 'zh' ? news.title : (news.title_en || news.title)}
+                      {news.title}
                     </h3>
                   </div>
                   <p className="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3 ml-8">
-                    {language === 'zh' ? news.summary : (news.summary_en || news.summary)}
+                    {news.description}
                   </p>
-                  <div className="flex items-center gap-2 text-xs text-gray-500 dark:text-gray-500 ml-8">
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                    <span>{new Date(news.created_at).toLocaleDateString(language === 'zh' ? 'zh-CN' : 'en-US', { month: 'short', day: 'numeric' })}</span>
+                  <div className="flex items-center gap-4 text-xs text-gray-500 dark:text-gray-500 ml-8">
+                    <div className="flex items-center gap-1">
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                      </svg>
+                      <span>{new Date(news.date).toLocaleDateString(language === 'zh' ? 'zh-CN' : 'en-US', { month: 'short', day: 'numeric' })}</span>
+                    </div>
+                    {news.source && (
+                      <span className="text-gray-400 dark:text-gray-600">•</span>
+                    )}
+                    {news.source && (
+                      <span>{news.source}</span>
+                    )}
                   </div>
                 </motion.div>
               ))}

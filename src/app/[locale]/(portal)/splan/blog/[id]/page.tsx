@@ -2,6 +2,55 @@ import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServe
 import { supabase, BlogPost } from '@/lib/supabase';
 import { notFound } from 'next/navigation';
 import BlogDetailClient from './BlogDetailClient';
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+
+interface NewsItem {
+  slug: string;
+  title: string;
+  date: string;
+  description: string;
+  source: string;
+  category: string;
+}
+
+// Get latest news from markdown files
+async function getLatestNews(language: 'zh' | 'en', limit: number = 4): Promise<NewsItem[]> {
+  const newsDir = path.join(process.cwd(), 'src/content/news');
+  const allNews: NewsItem[] = [];
+
+  if (!fs.existsSync(newsDir)) {
+    return [];
+  }
+
+  const folders = fs.readdirSync(newsDir).filter(item => {
+    const itemPath = path.join(newsDir, item);
+    return fs.statSync(itemPath).isDirectory();
+  });
+
+  for (const folder of folders) {
+    const filePath = path.join(newsDir, folder, `${language}.md`);
+
+    if (fs.existsSync(filePath)) {
+      const fileContent = fs.readFileSync(filePath, 'utf8');
+      const { data } = matter(fileContent);
+
+      allNews.push({
+        slug: folder,
+        title: data.title,
+        date: data.date,
+        description: data.description || '',
+        source: data.source,
+        category: data.category,
+      });
+    }
+  }
+
+  // Sort by date descending and take latest N
+  allNews.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  return allNews.slice(0, limit);
+}
 
 // Generate metadata for SEO
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; id: string }> }) {
@@ -119,21 +168,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
     }
   }
 
-  // Fetch latest 4 news articles
-  let latestNews: any[] = [];
-  try {
-    const { data: newsData } = await supabase
-      .from('News')
-      .select('id, title, title_en, summary, summary_en, created_at, slug')
-      .order('created_at', { ascending: false })
-      .limit(4);
-
-    if (newsData) {
-      latestNews = newsData;
-    }
-  } catch (error) {
-    console.error('Error fetching latest news:', error);
-  }
+  // Fetch latest 4 news from markdown files
+  const latestNews = await getLatestNews(lang, 4);
 
   return <BlogDetailClient post={post} relatedPosts={relatedPosts} latestNews={latestNews} locale={locale} />;
 }
