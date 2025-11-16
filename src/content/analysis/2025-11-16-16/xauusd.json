@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-16T16:16:09.170Z",
+  "price": {
+    "close": "4080.44254",
+    "high": "4080.63644",
+    "low": "4080.3925",
+    "open": "4080.45349",
+    "change": "0.00",
+    "datetime": "2025-11-17 03:00:00"
+  },
+  "indicators": {
+    "rsi": 32.30284,
+    "macd": -11.0075512,
+    "macd_signal": -14.44539,
+    "sma20": 4080.50976
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，短期偏弱]",
+      "content": "当前黄金/美元（XAU/USD）价格在4080附近徘徊，显示出震荡整理的趋势。在短期内，市场缺乏明确方向，交易者需关注价格在4080.6与4080.4之间的波动。若价格突破4080.6，可能会引发短期反弹；若跌破4080.4，则可能进一步下探。\n\n技术指标方面，虽然RSI(14)数据缺失，但MACD显示出负值，表明市场动能偏弱，很可能会限制价格的上行空间。同时，20日简单移动平均线（SMA）位于4080.5附近，为短期支撑提供了一定的参考。若价格持续在此线下方，将增加看空的可能性。\n\n支撑位方面，4080.4是短期关键支撑，若价格有效跌破这一水平，可能会加速下行趋势，目标指向4075区域。阻力位则在4080.6附近，若突破此位，可能带来短期反弹至4090的机会。\n\n综合来看，建议交易者在当前震荡行情中采取观望态度，等待价格突破关键支撑或阻力后再做决定。日内交易者可考虑在支撑位附近寻找低买机会，同时在阻力位附近设置止损，控制风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD is hovering around 4080.44, indicating a period of consolidation following recent volatility. The lack of significant movement in the 24-hour change suggests that traders are awaiting further market cues. The high and low levels of 4080.64 and 4080.39 illustrate tight trading ranges, highlighting a potential equilibrium between buyers and sellers. This consolidation phase could precede a breakout, either upward or downward, depending on forthcoming economic data or geopolitical events.\n\nFrom a technical perspective, the absence of a clear trend is evident, with the price trading close to the 20-period Simple Moving Average (SMA) at 4080.51. The MACD indicator, currently at -11.01, suggests a bearish momentum, although the lack of a signal line complicates the interpretation. Traders should closely monitor the MACD for potential crossovers that may indicate a shift in momentum. The RSI is not available, but its inclusion could provide insights into overbought or oversold conditions.\n\nIn terms of support and resistance levels, the immediate support zone appears to be around the low of 4080.39, while resistance is identified near the high of 4080.64. A decisive move beyond these levels could signal stronger momentum in either direction. Should the price break above 4080.64, it may attract bullish sentiment, targeting higher resistance levels. Conversely, a drop below 4080.39 could trigger further selling pressure, leading to a test of lower support levels.\n\nFor trading strategies, it may be prudent to adopt a wait-and-see approach until a clear breakout materializes. Traders could consider setting pending orders just above resistance and below support to capitalize on potential moves. Additionally, risk management strategies should be in place, including stop-loss orders to protect against adverse price movements. Monitoring broader market trends and economic indicators will also be essential in making informed trading decisions in this uncertain environment."
+    }
+  }
+}
