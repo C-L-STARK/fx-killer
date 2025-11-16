@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-16T20:12:12.615Z",
+  "price": {
+    "close": "1.31747",
+    "high": "1.31749",
+    "low": "1.31660",
+    "open": "1.31688",
+    "change": "0.04",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 56.053543,
+    "macd": 0.00024417619,
+    "macd_signal": 0.000054046077,
+    "sma20": 1.31561
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理，等待突破]",
+      "content": "当前英镑/美元(GBP/USD)在1.31660至1.31749区间内震荡整理，短期内缺乏明显趋势。价格接近20日简单移动平均线(SMA)的支撑位1.31561，可能为多头提供支撑。如果价格有效突破当前区间上方，将有可能重新测试1.3200的心理关口。\n\n从技术指标来看，MACD显示出微弱的看涨信号，但RSI尚未提供足够的数据来确认超买或超卖状态。市场情绪仍然谨慎，投资者可能会等待更明确的经济数据或政策信号来决定方向。\n\n支撑位方面，1.31561的SMA以及1.31600的心理支撑位值得关注。若价格下行破位，则可能进一步回落至1.31400附近。而阻力位则在1.3200和1.3225，若突破这些阻力，将有助于恢复上涨趋势。\n\n建议投资者密切关注市场动态，若价格在1.31750上方站稳，可以考虑轻仓做多，若跌破1.31560则可考虑短线做空。同时，保持警惕，合理设置止损，以控制风险。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently trading at 1.31747, showing a minimal change of 0.04% over the last 24 hours. The recent price action has been relatively stable, with a high of 1.31749 and a low of 1.31660. This tight range suggests a phase of consolidation, indicating that traders are awaiting further market catalysts. Analyzing the trend, the pair appears to be in a slight upward movement, supported by its position above the 20-period Simple Moving Average (SMA), which currently stands at 1.31561.\n\nIn terms of technical indicators, the absence of the RSI and the MACD signal limits our ability to gauge the momentum effectively. However, the MACD value of 0.00024417619 indicates that the bullish momentum is present, albeit weak. Traders should remain cautious, as a lack of strong momentum could lead to potential reversals. Monitoring the price action around the current levels is crucial, as a break above 1.31800 could encourage further buying, while a drop below 1.31600 may trigger selling pressure.\n\nSupport is identified at the 1.31600 level, which aligns with recent lows and could act as a strong floor in the event of a pullback. Should the price drop below this level, it may expose the next support around 1.31450. Conversely, resistance is seen at 1.31800, a critical psychological level that has historically attracted sellers. A breakthrough here could pave the way towards 1.32000, where additional selling interest may emerge.\n\nFor traders considering positions, a cautious approach is advisable. A buy signal could be established upon a decisive break above 1.31800, with a target towards 1.32000. Conversely, if the price fails to maintain above 1.31600, short positions may be warranted, targeting the support at 1.31450. Risk management strategies, including stop-loss orders, should be employed to mitigate potential losses in this relatively tight trading range."
+    }
+  }
+}

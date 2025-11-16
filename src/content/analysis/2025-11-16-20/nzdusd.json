@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-16T20:14:56.055Z",
+  "price": {
+    "close": "0.56821412",
+    "high": "0.56821412",
+    "low": "0.56785917",
+    "open": "0.56785917",
+    "change": "0.08",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 53.81125,
+    "macd": 0.00031084264,
+    "macd_signal": 0.00039834938,
+    "sma20": 0.56824182
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理走势]",
+      "content": "当前纽元/美元(NZD/USD)的价格为0.5682，显示出震荡整理的趋势。最近24小时价格变化仅为0.08%，表明市场缺乏明显的方向性。高点与低点的接近也反映出市场参与者在该区间内的观望情绪，可能等待更明确的信号来决策。\n\n从技术指标来看，当前的简单移动平均线(SMA)在20日线附近为0.5682，显示出价格在这一线上方波动，暗示短期内可能维持在此区间内。MACD指标当前为0.0003，虽然信号线数据缺失，但相对平稳的MACD值说明市场并无强烈的买入或卖出压力，可能继续在窄幅区间内波动。\n\n在支撑和阻力位方面，当前支撑位可设定在0.5679，阻力位则在0.5685附近。若价格突破0.5685，将有可能引发新的上行趋势，反之跌破支撑位可能导致进一步下探。投资者在操作时应关注这些关键水平，以制定合理的交易策略。\n\n建议交易者在当前价格附近采取观望策略，耐心等待市场走势的进一步确认。在支撑位和阻力位附近设置止损，以应对潜在的价格波动。同时，关注全球经济数据及政策变化，以便及时调整交易策略。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD currency pair is currently trading at 0.5682, showing a minor increase of 0.08% over the past 24 hours. This slight upward movement indicates a potential consolidation phase following recent volatility. The price has oscillated within a narrow range, marked by a high of 0.5682 and a low of 0.5679. This behavior suggests the market is in a wait-and-see mode, potentially gearing up for a more decisive move depending on forthcoming economic data or geopolitical developments.\n\nIn the absence of a clear RSI value, traders can rely on other indicators for insights. The MACD shows a positive reading of 0.0003, indicating bullish momentum, albeit weak. This could suggest that if the price consolidates around its current level, a breakout above 0.5685 may trigger further buying interest. Conversely, a drop below 0.5678 could initiate a bearish trend, encouraging sellers to enter the market.\n\nSupport levels are observed around 0.5678, while resistance is seen at 0.5685. The proximity of the current price to these levels highlights the importance of monitoring them closely. A sustained break above the resistance could open the door for a move towards 0.5700, while a breach below support might lead to a retest of 0.5665. Traders should remain vigilant around these levels, as they could serve as crucial pivots in the coming sessions.\n\nGiven the current market structure, a cautious approach is advisable. Traders might consider a buy position if the price breaks above 0.5685 with confirmation from the MACD. Conversely, a sell position could be warranted if the price falls below 0.5678, especially if accompanied by increasing volume. Utilizing stop-loss orders will be essential to mitigate risks in this uncertain environment."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-16T20:11:31.036Z",
+  "price": {
+    "close": "1.16154",
+    "high": "1.16239",
+    "low": "1.16154",
+    "open": "1.16211",
+    "change": "-0.05",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 45.36101,
+    "macd": -0.00020076625,
+    "macd_signal": 0.000024967323,
+    "sma20": 1.16275
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[短期横盘整理，趋势待定]",
+      "content": "近期，欧元/美元(EUR/USD)的价格在1.16154附近波动，表现出短期横盘整理的特征。24小时内小幅下跌0.05%，显示出市场活跃度不足，投资者可能在等待更明确的方向信号。从技术面来看，当前价格接近20日简单移动平均线(SMA)，这可能成为短期内的支撑位。\n\n在技术指标方面，MACD显示出微弱的空头信号，当前的值为-0.00020076625，表明卖方力量略占优势。然而，由于RSI指标尚未提供，无法全面评估超买或超卖状态。这使得市场情绪保持谨慎，可能会在短期内维持横向整理。\n\n支撑位方面，若价格下探，有可能在1.16000附近找到支撑，而上方阻力位在1.16500，突破该水平可能会引发更强的买盘。投资者应密切关注即将发布的经济数据和市场消息，这些因素可能会影响价格走势。\n\n综合考虑，短期内建议投资者采取观望策略，等待价格突破关键支撑或阻力位后再做出交易决策。如果价格成功突破1.16500，可以考虑做多，而若跌破1.16000，则可能需要考虑做空。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD pair is currently trading at 1.16154, reflecting a slight decline of 0.05% over the past 24 hours. The recent price action has seen a high of 1.16239 and a low of 1.16154, indicating a narrow trading range. This suggests a consolidation phase, as the market appears to be weighing its next move amid mixed sentiment. A close examination of the price behavior indicates that the pair has been oscillating around the 1.1620 level, which may serve as a critical pivot point in the near term.\n\nFrom a technical standpoint, the absence of available RSI data complicates momentum analysis; however, the MACD reading of -0.00020076625 suggests a bearish momentum, albeit weak. The Simple Moving Average (SMA) of 20 periods at 1.16275 provides a potential resistance level, indicating that upward momentum may be capped unless a convincing breach occurs. Traders should watch for a crossover in the MACD towards the zero line for potential bullish confirmation, which could signal a change in momentum.\n\nIn terms of support and resistance, the current price is positioned near the lower end of its recent range. A significant support level appears to be around 1.1600, which could provide a cushion against further declines. Conversely, resistance is established just above the SMA at 1.16275. If the price can break above this level, it may lead to a retest of the 1.1650 area. Traders should remain cautious, as volatility can increase with upcoming economic data releases.\n\nFor trading strategies, a cautious approach is advisable. Traders could consider selling near the SMA resistance level while placing stop-loss orders just above it to manage risk. Conversely, if the pair breaks through the resistance level convincingly, a buy position could be warranted with a target set at higher resistance levels. Monitoring economic indicators and geopolitical developments will be essential in assessing potential price movements in this pair."
+    }
+  }
+}

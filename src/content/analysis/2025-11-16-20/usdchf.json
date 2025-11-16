@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-16T20:15:41.579Z",
+  "price": {
+    "close": "0.79374999",
+    "high": "0.79438001",
+    "low": "0.79321003",
+    "open": "0.79395002",
+    "change": "-0.02",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 54.10161,
+    "macd": -8.3951137e-7,
+    "macd_signal": -0.00045605797,
+    "sma20": 0.792283
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理中]",
+      "content": "当前美元/瑞郎（USD/CHF）在0.7937附近震荡整理，显示出多头和空头力量的平衡。近期价格未能突破0.7944的高点，表明上行压力较大。同时，最低点0.7932为近期支撑位，若价格跌破该水平，可能会引发进一步的回调。\n\n从技术指标来看，RSI（相对强弱指数）尚未提供明确信号，但若后续数据出现，需关注其是否接近超买或超卖区域。MACD呈现弱势，且接近零轴，显示出动能减弱，短期内可能维持震荡走势。SMA（20日简单移动平均线）在0.7923附近，作为短期支撑，值得关注。\n\n当前市场面临的关键支撑位在0.7932，若突破此位可考虑空头策略；而0.7944为阻力位，突破后可能引发多头进场。建议交易者密切关注价格在这两个关键水平的表现，并结合技术指标做出相应决策。在市场波动较小的情况下，采取观望策略可能是更明智的选择。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair is currently exhibiting a slight bearish trend, with the latest price at 0.79374999 and a modest 24-hour change of -0.02%. The high and low for this trading session, 0.79438001 and 0.79321003 respectively, indicate limited volatility, suggesting that the market is consolidating within this range. The recent price action reflects a cautious sentiment among traders, likely influenced by broader economic factors and market sentiment surrounding the US dollar's strength against the Swiss franc.\n\nTechnical indicators provide further insight into potential price movements. The absence of a reported RSI value makes it difficult to assess overbought or oversold conditions, but the MACD reading of -0.00000083951137 signals a bearish divergence, indicating that momentum may be waning. The 20-period simple moving average (SMA) at 0.79228300 acts as a key support level, which, if breached, could lead to further declines in the pair. Traders should monitor this level closely, as a breach might trigger additional selling pressure.\n\nIn terms of support and resistance levels, the immediate support is seen at the SMA level of 0.79228300, while resistance can be identified around the recent high of 0.79438001. A break above this resistance could pave the way for a move toward 0.7950, reinforcing bullish sentiment. Conversely, if the price closes below the support level, it may indicate a shift towards a more bearish outlook, potentially targeting lower supports around 0.7900.\n\nFor traders considering positions in USD/CHF, it may be prudent to adopt a cautious approach. A breakout above the 0.7944 resistance could offer a buying opportunity, while a sustained close below the 0.7923 support might warrant short positions. Given the current market conditions, maintaining a watchful eye on both technical indicators and fundamental developments will be crucial in navigating this pair effectively."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-16T20:16:22.054Z",
+  "price": {
+    "close": "4080.53812",
+    "high": "4080.62975",
+    "low": "4080.38806",
+    "open": "4080.45515",
+    "change": "0.00",
+    "datetime": "2025-11-17 07:00:00"
+  },
+  "indicators": {
+    "rsi": 32.50379,
+    "macd": -8.30995,
+    "macd_signal": -11.28546,
+    "sma20": 4080.47875
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，关注支撑和阻力]",
+      "content": "当前黄金/美元（XAU/USD）价格在4080.53附近震荡整理，短期内缺乏明显的趋势。虽然价格维持在高位，但未能突破4080.63的高点，显示出市场的犹豫情绪。这种震荡走势可能预示着即将出现的方向性突破，投资者需保持警惕。\n\n从技术指标来看，MACD值为-8.31，表明当前市场动能偏弱，尚未形成明确的买入信号。同时，SMA（20）显示出价格在其附近波动，表明短期内市场可能继续保持在4080.47至4080.63的区间内运作。RSI指标缺失，但需关注后续的超买或超卖情况。\n\n在支撑和阻力方面，4080.63为短期阻力位，而4080.39则为支撑位。若价格突破4080.63，可能会迎来新的上涨机会；反之，如果跌破4080.39，则可能引发进一步下行。投资者应密切关注这两个关键价位。\n\n总体而言，建议投资者在当前震荡整理阶段保持谨慎，可以考虑在支撑位附近寻找买入机会，而在接近阻力位时则应考虑获利了结或设置止损，以规避潜在风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current market price for Gold against the US Dollar (XAU/USD) stands at 4080.54, showing no change over the last 24 hours. This stability suggests a period of consolidation, which is often a precursor to a significant move in either direction. Traders should closely monitor any breakout above the recent high of 4080.63 or a drop below the low of 4080.39, as these levels could signal the next trend direction.\n\nThe absence of a current RSI reading makes it challenging to assess whether the asset is overbought or oversold. However, the MACD at -8.31 indicates bearish momentum, suggesting that sellers are in control. If the MACD begins to converge towards the signal line in the future, it may indicate a potential reversal or weakening of the bearish trend. Observing the MACD crossover could provide valuable insight into upcoming price movements.\n\nThe 20-period Simple Moving Average (SMA) at 4080.48 acts as a dynamic support level, reinforcing the current price action. Should prices decline and break below this SMA, it could open the door for further downside, targeting the psychological level of 4080.00. Conversely, if the price manages to hold above the SMA and approaches the resistance at 4080.63, it may encourage buying interest, leading to a test of higher resistance levels.\n\nFor traders, the market's current state calls for a cautious approach. A breakout above the resistance may present a buying opportunity, while a breach of support could trigger a short position. Setting stop-loss orders just below key support levels is advisable to manage risk effectively. Overall, maintaining a close watch on the indicators and price action will be crucial in navigating this market."
+    }
+  }
+}
