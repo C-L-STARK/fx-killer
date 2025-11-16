@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-15T06:51:31.646Z",
+  "price": {
+    "close": "1.16154",
+    "high": "1.16239",
+    "low": "1.16154",
+    "open": "1.16211",
+    "change": "-0.05",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 45.36101,
+    "macd": -0.00020076625,
+    "macd_signal": 0.000024967323,
+    "sma20": 1.16275
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理，待突破]",
+      "content": "当前欧元/美元(EUR/USD)的市场表现显示出震荡整理的趋势。价格在1.16154附近徘徊，未能有效突破近期高点1.16239，显示出市场在等待进一步的方向指引。短期内，若价格持续低于1.16275的20日简单移动平均线(SMA)，可能会加大下行压力。\n\n技术指标方面，MACD目前为负值，表明市场动能偏弱。虽然RSI尚未提供明确的超买或超卖信号，但结合当前价格走势，可能意味着市场情绪较为谨慎。投资者需要密切关注指标的变化，以确定潜在的反转信号。\n\n就支撑和阻力位而言，当前支撑位在1.16000附近，若价格进一步下探，可能会测试该水平。而阻力位则在1.16239，若价格突破该水平，可能会引发进一步的上涨行情。交易者应关注这些关键价格水平，以制定入场和出场策略。\n\n综合来看，建议投资者采取观望态度，待价格突破重要支撑或阻力位后再做决策。如果价格突破上行，可以考虑逢低买入；反之，若下破支撑位，则需谨慎对待，可能会出现进一步的下行风险。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD pair currently trades at 1.16154, showing a slight decline of 0.05% over the past 24 hours. This minor pullback indicates that the market is experiencing a period of consolidation after recent fluctuations. The price remains near the recent high of 1.16239, suggesting that the bullish momentum may be losing steam. However, the overall trend appears to be neutral at this juncture, requiring traders to remain vigilant for any signs of direction.\n\nTechnical indicators provide a mixed picture. The lack of available RSI data limits our ability to gauge overbought or oversold conditions, while the MACD value is slightly negative at -0.00020076625, indicating potential bearish momentum. The SMA(20) at 1.16275 serves as a critical resistance level, highlighting the need for the price to break above this threshold to regain bullish strength. Conversely, traders should monitor for a move below the current price, which could signal a deeper retracement.\n\nKey support levels are established at 1.16000 and 1.15800, which may attract buying interest if tested. Conversely, resistance at 1.16275 is a pivotal point; a breakout above this level could lead to a retest of higher levels, potentially targeting 1.16500. Given the current market dynamics, investors might consider a cautious approach, looking for confirmations before entering trades, especially in light of the mixed indicators.\n\nIn summary, traders should remain flexible, considering both the resistance at 1.16275 and the support at 1.16000. A breakout above the resistance could open up opportunities for long positions, while a failure to maintain above support may prompt short strategies. Employing tight stop-loss orders will be essential to manage risk effectively in this uncertain environment."
+    }
+  }
+}

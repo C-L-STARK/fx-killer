@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-15T05:39:45.233Z",
+  "price": {
+    "close": "0.65359",
+    "high": "0.65386",
+    "low": "0.65342",
+    "open": "0.65351",
+    "change": "0.01",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.90043,
+    "macd": -0.0000534858,
+    "macd_signal": -0.00020182608,
+    "sma20": 0.6533045
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理，关注关键支撑位]",
+      "content": "当前澳元/美元（AUD/USD）交易于0.65359附近，表现出震荡整理的趋势。价格在高点0.65386和低点0.65342之间波动，显示出市场缺乏方向性。投资者需关注市场情绪变化，以便及时把握潜在的突破机会。\n\n从技术指标来看，当前的SMA(20)为0.6533045，表明短期内价格仍处于均线之上，可能会继续支撑当前价格。然而，MACD指标接近零轴，显示出市场动能不足，短期内可能面临进一步的震荡调整。\n\n在支撑和阻力位方面，0.65342是短期支撑位，如果价格跌破该水平，可能会引发更大的卖压。另一方面，0.65400的心理关口和前高点0.65386则是主要阻力位，突破后可能会吸引更多买盘进入市场。\n\n对于交易策略，建议交易者保持观望，待价格确认突破支撑或阻力位后再做出交易决策。若价格持续维持在0.65342之上，则可考虑小幅做多，反之则可寻求做空机会。保持风险控制，适时调整仓位。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) against the US Dollar (USD) is currently showing a slight positive shift, with a latest price of 0.65359. This marks a modest 24-hour change of 0.01%. The price has oscillated between a high of 0.65386 and a low of 0.65342, indicating limited volatility within this range. The overall trend appears neutral, as the currency pair has not exhibited a strong directional bias in the short term. Traders should remain vigilant for any breakout from this range to gauge potential future movement.\n\nIn terms of technical indicators, the MACD value is currently negative at -0.000053485800, suggesting bearish momentum. However, without the signal value for context, it is essential to monitor closely for any signs of convergence or divergence with price action. The absence of an RSI reading limits our ability to assess overbought or oversold conditions, making it crucial to incorporate other tools or fundamental analysis for a comprehensive view.\n\nThe 20-period Simple Moving Average (SMA) is positioned at 0.6533045, acting as a potential support level. Should the price dip below this level, it could attract selling pressure, pushing the AUD/USD towards further support at 0.65200. Conversely, a break above 0.65400 may indicate a shift in momentum, suggesting a bullish reversal and targeting resistance at 0.65500. Traders could look for confirmation through candlestick patterns or volume spikes to strengthen their positions.\n\nGiven the current market conditions, a cautious approach is advisable. Short-term traders might consider scalping opportunities around the established range, while longer-term investors could wait for clearer signals before entering positions. Maintaining awareness of macroeconomic factors affecting both currencies will be essential, as developments can swiftly alter the technical landscape."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-16T02:56:57.729Z",
+  "price": {
+    "close": "1.16154",
+    "high": "1.16239",
+    "low": "1.16154",
+    "open": "1.16211",
+    "change": "-0.05",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 45.36101,
+    "macd": -0.00020076625,
+    "macd_signal": 0.000024967323,
+    "sma20": 1.16275
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理趋势]",
+      "content": "当前欧元/美元的走势呈现出震荡整理的特征。最新价格为1.16154，略低于20日简单移动平均线(SMA)的1.16275，这表明短期内可能面临卖压。虽然24小时变化为-0.05%，但整体波动幅度较小，显示出市场参与者的谨慎态度。\n\n从技术指标来看，MACD值为-0.00020076625，虽然信号线数据缺失，但负值表明当前动能偏弱。相对强弱指数(RSI)数据未提供，但若RSI持续低于30，可能预示着超卖状态，反之则可能显示超买。因此，需密切关注RSI的变化，以判断后续动向。\n\n在支撑与阻力方面，当前的支撑位可观察1.1600区域，而阻力位则在1.1625附近。若价格突破1.1625，将可能迎来上涨动能，反之跌破1.1600则可能加速下行。建议交易者在当前区间内保持观望，待价格突破关键支撑或阻力位后再决策，以降低风险并把握更佳入场时机。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The current price of the Euro against the US Dollar is 1.16154, which indicates a slight decline of 0.05% over the past 24 hours. The recent high of 1.16239 suggests a resistance level that traders are closely monitoring, while the price's proximity to this level indicates a struggle for upward momentum. A firm break above 1.16239 could trigger further bullish sentiment, while a failure to hold this level may lead to bearish pressure towards the next significant support around 1.16000.\n\nIn terms of technical indicators, the current MACD value at -0.00020076625 suggests a lack of momentum in the recent price action. Although the absence of a signal line reading limits the analysis, the negative MACD could point to potential weakness in the Euro. The SMA(20) at 1.16275 remains above the current price, indicating a bearish short-term trend. Traders should watch for a crossover where the price may retest the SMA, which could act as an additional resistance barrier.\n\nSupport levels appear to be forming around 1.16000. If the price retreats to this area, it may provide a buying opportunity for those looking to capitalize on a potential rebound. Conversely, if the Euro breaks below this support, it could open the door for further declines. In the event of a successful bounce from this level, traders may look to enter long positions targeting the SMA and resistance at 1.16239 as profit objectives.\n\nOverall, the EUR/USD pair is caught in a narrow range, with key levels defining the current trading environment. Monitoring price action around the resistance and support levels will be crucial for making informed trading decisions. A cautious approach is advisable, given the mixed indications from the indicators and the recent price movements. Traders should remain vigilant for potential breakouts or breakdowns, adjusting their strategies accordingly to optimize their positions."
+    }
+  }
+}

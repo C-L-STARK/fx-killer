@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-15T13:42:00.899Z",
+  "price": {
+    "close": "0.56821412",
+    "high": "0.56821412",
+    "low": "0.56785917",
+    "open": "0.56785917",
+    "change": "0.08",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 53.81125,
+    "macd": 0.00031084264,
+    "macd_signal": 0.00039834938,
+    "sma20": 0.56824182
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[短期震荡，关注支撑]",
+      "content": "当前纽元/美元(NZD/USD)的价格为0.5682，显示出短期震荡的趋势。24小时内价格变化仅为0.08%，表明市场情绪相对平稳，但缺乏明确的方向。高点和低点的接近，进一步强调了这一点，投资者应保持谨慎。\n\n技术指标方面，虽然RSI(14)尚未提供，但MACD显示出微弱的正值，这可能意味着短期内的买盘压力。20日简单移动平均线(SMA)为0.5682，价格略低于此水平，可能暗示短期内存在一定的卖压。整体来看，市场仍需观察更清晰的信号。\n\n支撑位方面，0.5679是一个重要的支撑区间，若价格跌破此位，可能会引发进一步的下行压力。阻力位则在0.5685附近，若突破此水平，则有可能开启新的上涨空间。投资者应密切关注这些关键价位，以便做出及时反应。\n\n针对当前行情，建议投资者采取灵活的策略。在接近支撑位时考虑逢低买入，而在接近阻力位时则可以适度减仓。保持耐心，等待市场提供更明确的信号，以优化交易决策。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently exhibiting a relatively stable trend, with a minor upward shift of 0.08% over the past 24 hours. The price has recently tested a high of 0.56821412, indicating that the market is consolidating within a tight range. This slight upward movement suggests that bulls are attempting to gain a foothold, but the lack of significant momentum could imply that traders are awaiting further confirmation before committing to larger positions.\n\nFrom a technical perspective, the absence of an RSI reading limits our ability to gauge overbought or oversold conditions effectively. However, the MACD value of 0.00031084264 indicates a very slight bullish momentum that may encourage traders to consider further upside potential. The SMA(20) at 0.56824182 is in close proximity to the current price, acting as a dynamic resistance level. A sustained move above this SMA could signal a stronger bullish sentiment, while a retreat below it might reaffirm bearish pressure.\n\nKey support levels are observed around 0.56785917, which could act as a crucial buffer for downside risk. A break below this level may open the door for further declines, while a rebound from this support could provide an opportunity for bullish traders. Conversely, resistance is established at the recent high of 0.56821412. A decisive breakout above this level could pave the way for a more substantial upward movement, targeting higher resistance levels in the near term.\n\nTraders may consider a cautious approach in the current environment, watching for clear signals from price action around the SMA(20) and support at 0.56785917. A potential buy signal could emerge if the price holds above the SMA and the recent high, while a break below the support level may warrant a short position. Monitoring market sentiment and economic indicators will be essential for informed decision-making in this fluctuating market."
+    }
+  }
+}

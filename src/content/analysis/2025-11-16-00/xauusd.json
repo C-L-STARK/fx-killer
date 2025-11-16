@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-16T00:58:05.593Z",
+  "price": {
+    "close": "4080.42743",
+    "high": "4080.64181",
+    "low": "4080.39587",
+    "open": "4080.45682",
+    "change": "-0.00",
+    "datetime": "2025-11-15 23:00:00"
+  },
+  "indicators": {
+    "rsi": 32.27506,
+    "macd": -14.35388,
+    "macd_signal": -17.98936,
+    "sma20": 4083.16397
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中]",
+      "content": "当前黄金/美元(XAU/USD)的价格维持在4080附近，显示出震荡整理的趋势。在没有明显的上行动能和下行压力的情况下，市场情绪较为谨慎。投资者需关注即将公布的经济数据，以判断未来价格走势。\n\n从技术指标来看，MACD显示出负值，表明短期内空头势力占据主导，但由于RSI数据缺失，无法全面评估超买或超卖情况。SMA(20)在4083附近，若价格突破该水平，可能引发短期上涨；反之，则需关注下方支撑位。\n\n支撑位方面，4080.39587为重要支撑，若跌破该水平，可能导致进一步调整。阻力位在4083.16397，若突破则有望回升至4100附近。市场参与者应密切关注这些关键价位，以制定相应的交易策略。\n\n综合来看，建议投资者采取观望策略，待价格突破关键支撑或阻力位后再进行进场操作。同时，保持对市场消息的敏感，及时调整交易计划，以应对潜在的波动风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current market data for XAU/USD indicates a stable price around 4080.42743, with minimal movement over the past 24 hours. Given the recent high of 4080.64181 and a low of 4080.39587, the market appears to be consolidating within this narrow range. This consolidation may suggest indecision among traders, and further price action will be crucial to determine the next directional move. A breakout above the recent high could signal bullish momentum, while a drop below the low may indicate bearish sentiment.\n\nThe RSI(14) is currently not available, limiting our ability to assess overbought or oversold conditions. However, the MACD reading of -14.35388 indicates a bearish momentum, suggesting that short-term sellers are in control. The SMA(20) at 4083.16397 serves as a potential resistance level, and if the price manages to break above this moving average, it could lead to renewed buying interest. Conversely, if the price continues to trade below this level, it may reinforce bearish sentiment.\n\nSupport levels for XAU/USD can be identified around 4075 and 4065, which may provide a cushion for the price should it experience downward pressure. If the price approaches these levels, traders should watch for potential reversals. Resistance is clearly defined at the SMA(20) and the recent high of 4080.64181. A sustained move above these levels might encourage buyers to enter the market, potentially leading to an upward trend.\n\nTraders might consider a wait-and-see approach in the current market environment, monitoring for breakout signals. A buy position could be established if the price decisively surpasses the SMA(20) and prior highs, while a sell position could be warranted if the price breaks below support levels at 4075 or 4065. Risk management strategies should be employed to protect against potential losses as the market navigates through this range-bound phase."
+    }
+  }
+}

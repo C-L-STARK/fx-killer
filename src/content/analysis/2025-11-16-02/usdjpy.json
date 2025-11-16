@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-16T02:58:22.447Z",
+  "price": {
+    "close": "154.49300",
+    "high": "154.59801",
+    "low": "154.45900",
+    "open": "154.53000",
+    "change": "-0.02",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.52351,
+    "macd": -0.005667208,
+    "macd_signal": -0.019554233,
+    "sma20": 154.4924
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理中]",
+      "content": "当前美元/日元的价格为154.493，整体呈现震荡整理的趋势。24小时内小幅下跌0.02%，显示出市场的谨慎情绪。高点154.598与低点154.459之间的波动幅度较小，表明投资者对未来走势的分歧加大，可能会在短期内保持区间震荡。\n\n从技术指标来看，RSI(14)数据尚不可用，但MACD的值为-0.0057，显示出短期内的卖压。虽然SMA(20)为154.49240，与当前价格接近，但未能形成明显的买入信号。这些指标共同暗示，市场可能处于观望状态，等待更明确的方向。\n\n在支撑与阻力方面，154.460作为支撑位，若价格下破将可能引发更大幅度的回调。而154.600则是关键的阻力位，突破后可能引发多头进一步进场。投资者应密切关注这两个价位，作为交易决策的参考。\n\n建议交易者在当前价格附近采取观望策略，尤其是在未能确认突破发生之前。如果价格向上突破154.600，可以考虑做多，但需设定合理止损位；反之，若跌破154.460，则可考虑做空。保持灵活的交易思维，以应对市场的不确定性。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY currency pair is currently showing signs of consolidation around the 154.49 level, indicating a potential pause in momentum following a slight downward movement of 0.02% over the last 24 hours. The price range for the day has been relatively tight, with a high of 154.59801 and a low of 154.45900. This suggests that traders are awaiting further economic data or geopolitical developments that could influence market sentiment. The ongoing higher price levels reflect a bullish trend that remains intact, although caution is advised given the recent minor pullback.\n\nTechnical indicators provide a mixed picture, with the MACD showing a slight negative value of -0.00567, indicating potential bearish pressure. However, without the RSI data, it's challenging to ascertain overbought or oversold conditions definitively. The SMA(20) is closely aligned with the current price, reinforcing the idea of a consolidation phase. Traders should watch for any significant breaks above the SMA or below the recent low, as these could indicate the next directional move.\n\nSupport levels are currently found around the low of 154.45900, which may act as a psychological barrier for sellers. If the price breaks below this level, it could trigger further selling pressure, bringing the next support around 154.30 into focus. Conversely, resistance is seen at 154.60, where the recent highs have stalled. A break above this level could invite bullish momentum, aiming for the next psychological resistance at 155.00.\n\nIn terms of trading strategy, a cautious approach is advisable. Traders may consider looking for long positions if the price convincingly breaks above 154.60, with an initial target near 155.00. Conversely, if the price breaches the support at 154.45900, short positions could be considered, targeting levels near 154.30. Setting stop-loss orders just beyond these key levels will help manage risk while navigating the current market conditions."
+    }
+  }
+}

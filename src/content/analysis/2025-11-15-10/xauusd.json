@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-15T10:52:11.887Z",
+  "price": {
+    "close": "4080.53116",
+    "high": "4080.64207",
+    "low": "4080.39374",
+    "open": "4080.45682",
+    "change": "0.00",
+    "datetime": "2025-11-15 21:00:00"
+  },
+  "indicators": {
+    "rsi": 32.2951,
+    "macd": -16.26674,
+    "macd_signal": -19.79949,
+    "sma20": 4084.85536
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[横盘整理，待突破]",
+      "content": "当前黄金/美元(XAU/USD)的价格为4080.53，24小时内保持不变，显示出市场的观望情绪。近期黄金价格在4080.39至4080.64区间内波动，形成了一种横盘整理的趋势。投资者需关注这一区间的突破情况，以确定接下来的交易方向。\n\n技术指标方面，MACD目前处于负值-16.27，这表明短期内卖方占据主导地位，而RSI尚未提供数据，意味着市场动能不足。20日简单移动平均线(SMA)在4084.86，显现出市场的短期阻力位。若价格突破这一水平，可能会吸引更多买盘进场。\n\n在支撑与阻力方面，下方支撑位可关注4080.39，若价格跌破此位，可能会进一步下探。上方阻力位则在4084.86，若突破此位，可能会引发更强的上涨动能。市场情绪仍趋向谨慎，需密切关注美联储的政策动向及全球经济数据。\n\n建议交易者保持观望，待价格突破关键支撑或阻力位后再考虑进场交易，避免在横盘区间内盲目追单。同时，保持合理的止损设置，以降低潜在风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD stands at 4080.53, reflecting a stable market with no significant change over the past 24 hours. Price action indicates a narrow trading range, with a high of 4080.64 and a low of 4080.39. This tight consolidation suggests indecision among traders, which could lead to a breakout in either direction. Observing the broader trend, it appears that the price is hovering just below the recent SMA(20) at 4084.86, indicating potential resistance.\n\nThe MACD value of -16.27 suggests a bearish sentiment in the short term, although without a signal line for confirmation, traders should exercise caution. The lack of an RSI reading complicates the analysis, but the prevailing negative MACD indicates that selling pressure may persist. A close watch on these indicators in the coming sessions will be crucial for identifying potential trend shifts, as a crossover above the MACD signal line would signify a bullish reversal.\n\nSupport levels are identified at 4080.39, where the price managed to find a temporary floor. Should this level be breached, the next support may emerge around 4075. Conversely, resistance at 4084.86 aligns with the SMA(20) and could serve as a pivotal point for potential short positions. Traders should consider these levels while setting stop-loss orders to manage risk effectively.\n\nIn light of the current analysis, traders might look for opportunities to enter short positions if the price fails to break above the SMA(20) resistance zone. Conversely, a successful breakout above this level could pave the way for a bullish trend, making long positions more attractive. Monitoring the interplay of these technical indicators will be essential for positioning effectively in this market."
+    }
+  }
+}

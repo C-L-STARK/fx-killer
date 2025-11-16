@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-15T10:51:29.928Z",
+  "price": {
+    "close": "0.79374999",
+    "high": "0.79438001",
+    "low": "0.79321003",
+    "open": "0.79395002",
+    "change": "-0.02",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 54.10161,
+    "macd": -8.3951137e-7,
+    "macd_signal": -0.00045605797,
+    "sma20": 0.792283
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理趋势]",
+      "content": "当前美元/瑞郎(USD/CHF)的价格处于0.7937附近，近期价格波动相对有限，显示出震荡整理的趋势。市场在0.7944的高点和0.7932的低点之间徘徊，短期内缺乏明确的方向性。此时需关注市场情绪及宏观经济数据，以判断后续走势。\n\n从技术指标来看，虽然RSI未提供，但MACD显示出负值，表明卖方力量略占优势，短期内可能继续承压。结合20日简单移动平均线(SMA)在0.7923附近，可作为重要支撑位，若价格跌破该水平或将引发进一步的下行风险。\n\n在支撑与阻力方面，0.7944为上方强阻力位，若突破此水平，则有望迎来反弹，进一步挑战0.7960区域。同时，0.7932为下方支撑位，跌破后可能加速下行，目标指向0.7920。投资者应密切关注这些关键价位，以制定相应的交易策略。\n\n建议投资者在当前震荡行情中采取谨慎态度，适时观察市场动态。短线交易者可考虑在支撑位附近逢低买入，而在阻力位附近则可以考虑适度获利了结或卖出。保持灵活应变的策略，将有助于在波动的市场中获得收益。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair is currently trading at 0.79375, reflecting a slight decline of 0.02% over the last 24 hours. This minor retracement follows a recent peak at 0.79438, suggesting that the market is experiencing some volatility within a narrow range. The price action indicates a consolidation phase, with the pair testing the lower boundary of this range near the 0.79321 level. A sustained move below this support could open the door for further downside, while a rebound could signal a continuation of the upward trend.\n\nThe absence of a current RSI reading limits our ability to assess momentum, but the MACD value of -0.00000083951137 suggests a potential bearish sentiment. This indicates that selling pressure may be gaining traction, particularly if the MACD crosses below its signal line in the future. Traders should closely monitor this indicator, as a shift towards more bearish momentum could prompt a reevaluation of long positions.\n\nIn terms of moving averages, the 20-period SMA at 0.79228 serves as a significant support level. If the price can maintain above this SMA, it may indicate a bullish bias in the short term. Conversely, should the price break below this moving average, it could signal further weakness, prompting traders to consider short positions. Resistance can be identified near the recent high of 0.79438, which could act as a barrier for upward movement.\n\nGiven the current market conditions, traders may consider a cautious approach. A buy recommendation could be warranted if the price successfully holds above the 20-period SMA and reclaims the 0.79438 resistance level. Alternatively, a break below the 0.79321 support would likely justify a short position, targeting the next support level. Risk management is essential, with stop-loss orders placed strategically to mitigate potential losses."
+    }
+  }
+}

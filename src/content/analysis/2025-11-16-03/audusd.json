@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-16T03:42:40.373Z",
+  "price": {
+    "close": "0.65359",
+    "high": "0.65386",
+    "low": "0.65342",
+    "open": "0.65351",
+    "change": "0.01",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.90043,
+    "macd": -0.0000534858,
+    "macd_signal": -0.00020182608,
+    "sma20": 0.6533045
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理中]",
+      "content": "当前澳元/美元（AUD/USD）在0.65359附近震荡整理，价格波动相对平稳，24小时变化仅为0.01%。从高点0.65386和低点0.65342来看，市场缺乏方向性，可能受到市场情绪和经济数据影响。整体来看，短期趋势偏向横盘整理，投资者需保持谨慎。\n\n技术指标方面，虽然RSI（相对强弱指数）数据缺失，但结合当前价格与20日简单移动平均线（SMA）0.6533045的关系，价格略高于SMA，显示出短期内可能存在上涨动力。然而，MACD指标接近零值，表明市场动能不足，未能形成明确的买入或卖出信号。\n\n在支撑和阻力位方面，0.65342是近期的强支撑位，若价格跌破该水平，可能会加大下行风险。上方阻力位则在0.65400附近，若突破该位将可能引发更多买盘。因此，投资者需密切关注这两个关键水平，以制定相应的交易策略。\n\n综上所述，建议投资者在当前震荡行情中采取观望态度，关注支撑和阻力位的突破情况，适时调整仓位。同时，可以考虑在接近支撑位时寻找买入机会，而在接近阻力位时则考虑获利了结或做空策略，以降低风险。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) against the US Dollar (USD) is currently trading at 0.65359, reflecting a slight change of 0.01% over the last 24 hours. The price action has been relatively contained, with a high of 0.65386 and a low of 0.65342. This narrow range suggests a period of consolidation, as traders await further catalysts to drive momentum. The overall trend appears neutral, indicating that market sentiment is indecisive at this moment, which could pave the way for a breakout in either direction.\n\nTechnical indicators provide additional insights into the market conditions. The 20-period Simple Moving Average (SMA) at 0.6533045 is currently acting as a dynamic support level. This SMA aligns closely with the recent lows, emphasizing its significance for traders. The absence of RSI and MACD data limits a comprehensive analysis of momentum and trend strength; however, the near-zero MACD value hints at a lack of strong buying or selling pressure. This suggests that traders should remain cautious until clearer signals emerge.\n\nSupport levels are established around the recent low of 0.65342, while resistance can be identified at the recent high of 0.65386. A breakout above this resistance could open the door for a rally toward higher levels, potentially targeting 0.65500. Conversely, if the price breaks below the support level, it may lead to further declines, potentially retesting the 0.65200 region. Traders should watch for price action around these key levels to inform their strategies.\n\nIn terms of trading suggestions, traders might consider a wait-and-see approach until a definitive breakout occurs. A buy position could be warranted if the price surpasses 0.65386 with strong volume, while a sell signal may be appropriate if it breaches 0.65342. Utilizing stop-loss orders just outside these key levels would help manage risk effectively. Overall, patience and vigilance are crucial in navigating the current market conditions of AUD/USD."
+    }
+  }
+}

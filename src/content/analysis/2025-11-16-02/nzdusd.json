@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-16T03:00:25.371Z",
+  "price": {
+    "close": "0.56821412",
+    "high": "0.56821412",
+    "low": "0.56785917",
+    "open": "0.56785917",
+    "change": "0.08",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 53.81125,
+    "macd": 0.00031084264,
+    "macd_signal": 0.00039834938,
+    "sma20": 0.56824182
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理中]",
+      "content": "当前NZD/USD在0.5682附近震荡整理，显示出短期内缺乏明确的趋势动能。价格在高点0.5682和低点0.5679之间波动，表明市场参与者在等待新的驱动因素。此外，24小时变化为正，显示出市场情绪略微偏向乐观，但整体趋势尚不明朗。\n\n从技术指标来看，MACD值为0.0003，显示出微弱的上行动能，然而RSI指标未能提供，限制了对于超买或超卖状态的判断。SMA(20)位于0.5682，表明短期内价格在均线附近整理，可能会形成支撑位。若价格突破此均线，可能会引发进一步的买入兴趣。\n\n在支撑和阻力方面，当前支撑位位于0.5679，若跌破则可能进一步回调，而阻力位则在0.5685附近，突破后可能会引发新的上涨动能。市场参与者应关注这两个关键水平，以便在价格突破时做出相应的交易决策。\n\n交易建议方面，建议投资者保持观望态度，等待价格突破关键水平后再进行操作。如果价格有效突破0.5685，可考虑建仓多单；反之，若跌破0.5679，则可考虑短线做空，控制风险并灵活调整仓位。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.5682, showing a slight increase of 0.08% over the past 24 hours. This modest uptick indicates a consolidation phase following a recent decline, suggesting that the market may be attempting to find a bottom. The price has been oscillating around the 0.5682 level, indicating that traders are weighing potential bullish and bearish signals. A breakout above this level could open the door for a rally towards the next resistance zone near 0.5700.\n\nIn terms of technical indicators, the absence of the RSI and SMA metrics makes it challenging to gauge momentum and trends comprehensively. However, the current MACD value of 0.00031, while positive, suggests a weak bullish sentiment. If the MACD continues to rise, it could indicate increasing buying pressure. Traders should monitor this closely, as a shift in momentum could signal a more significant price movement.\n\nKey support levels can be identified near 0.5679, coinciding with the current low of 0.5679. A sustained break below this support could lead to further declines, potentially targeting the 0.5660 region. Conversely, if the price holds above this level and manages to push through the immediate resistance at 0.5700, it may attract additional buyers and lead to a more pronounced bullish trend.\n\nIn light of the current market dynamics, traders may consider adopting a cautious approach. Buying on dips near the support level of 0.5679 could be a viable strategy, with a stop-loss set just below this level to manage risk. Alternatively, watching for a bullish confirmation above 0.5700 could provide a clearer entry point for long positions. Overall, maintaining a vigilant stance in this uncertain environment is essential for successful trading."
+    }
+  }
+}

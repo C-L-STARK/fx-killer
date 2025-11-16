@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-15T10:46:51.982Z",
+  "price": {
+    "close": "1.16154",
+    "high": "1.16239",
+    "low": "1.16154",
+    "open": "1.16211",
+    "change": "-0.05",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 45.36101,
+    "macd": -0.00020076625,
+    "macd_signal": 0.000024967323,
+    "sma20": 1.16275
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理趋势]",
+      "content": "当前欧元/美元的价格为1.16154，显示出短期内的震荡整理趋势。近期价格略微回落，24小时变化为-0.05%。整体走势并未表现出明显的上升或下降趋势，市场情绪较为谨慎，投资者需密切关注即将发布的经济数据和消息面变化。\n\n在技术指标方面，当前的MACD为-0.0002，表明空头力量仍在，但幅度较小，未形成强烈的卖出信号。由于RSI(14)数据缺失，无法对超买或超卖情况进行评估。20日简单移动平均线(SMA)为1.16275，价格在其下方，暗示短期内仍有下行压力。\n\n支撑位方面，1.1600是一个重要的心理关口，如果价格跌破该水平，可能会进一步向下探测至1.1580附近。而阻力位则位于1.1625和1.1650附近，若价格成功突破这两个阻力位，可能会引发短期反弹。建议交易者可在支撑位附近寻找买入机会，同时在接近阻力位时设置止盈。保持灵活的交易策略，以应对市场波动。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The Euro vs. US Dollar (EUR/USD) is currently exhibiting a slight bearish trend, with the latest price hovering at 1.16154. The 24-hour change of -0.05% suggests a lack of significant momentum in either direction. The recent high of 1.16239 and low of 1.16154 indicate a narrow trading range, which may reflect market indecision. This consolidation phase could precede a breakout; traders should watch for a decisive move beyond these levels for clearer direction.\n\nFrom a technical perspective, the Simple Moving Average (SMA) over the last 20 periods is positioned at 1.16275, indicating a resistance level that the price has struggled to maintain. The negative MACD value at -0.00020076625 suggests that bearish momentum may be present, while the absence of RSI data limits our ability to assess overbought or oversold conditions. Traders should be cautious, as a breach of the SMA could signal a potential reversal or continuation of the downward trend.\n\nKey support levels for the EUR/USD can be identified around 1.1600, where previous price action has shown buying interest. If this level is breached, further downside may be anticipated, potentially targeting 1.1580. Conversely, should the price manage to break above the SMA at 1.16275, it could open up further resistance at 1.1650, indicating a possible shift in market sentiment. \n\nIn terms of trading strategy, a cautious approach may be prudent. A short position could be considered if the price breaks below 1.1600, with a tight stop-loss above recent highs to manage risk. Conversely, a breakout above the SMA could present a buying opportunity, with the first target set at 1.1650. Monitoring market sentiment and upcoming economic data will be essential for making informed trading decisions in this current environment."
+    }
+  }
+}

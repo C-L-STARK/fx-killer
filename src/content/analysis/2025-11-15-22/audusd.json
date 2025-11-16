@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-15T22:48:31.356Z",
+  "price": {
+    "close": "0.65359",
+    "high": "0.65386",
+    "low": "0.65342",
+    "open": "0.65351",
+    "change": "0.01",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.90043,
+    "macd": -0.0000534858,
+    "macd_signal": -0.00020182608,
+    "sma20": 0.6533045
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理阶段]",
+      "content": "当前AUD/USD在0.65359附近震荡整理，短期内缺乏明确的趋势。由于价格波动幅度较小，市场情绪相对谨慎。整体来看，若价格持续维持在0.6533和0.6540之间，可能会形成一个短期的区间交易模式。\n\n从技术指标来看，尽管RSI尚未提供数据，但根据现有的SMA(20)指标，价格略高于0.6533的均线水平，表明短期内可能存在一定的支撑。MACD数值接近零线，显示出市场力量的平衡状态，短期内未出现明显的买入或卖出信号。\n\n支撑位方面，0.6533是关键支撑，若跌破则可能加大下行压力。阻力位则可关注0.6540，若突破则有望推动价格向上反弹。建议交易者在此区间内寻求短线操作，待价格突破关键支撑或阻力位后再做决策，避免在震荡阶段过度交易。保持关注相关经济数据发布，以便及时调整策略。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.65359, showing a modest 24-hour change of 0.01%. This slight movement suggests a consolidation phase following recent volatility. The price has been fluctuating between a high of 0.65386 and a low of 0.65342, indicating a narrow trading range. This tight price action could suggest a buildup of momentum, with traders watching for a breakout in either direction. The overall trend remains bearish, as the pair struggles to reclaim higher levels established in previous months.\n\nFrom an indicator perspective, the absence of a calculated RSI limits our ability to assess momentum effectively; however, the MACD reading of -0.000053485800 indicates that bearish momentum is still present, albeit weak. The simple moving average (SMA) of 20 periods at 0.6533045 acts as a dynamic support level, suggesting that as long as the price remains above this mark, there is potential for a short-term rebound. Traders should monitor the interaction with this SMA to gauge market sentiment.\n\nKey support levels to watch include the recent low at 0.65342, which, if breached, could open the door for further declines toward 0.65200. Conversely, resistance is currently positioned at the recent high of 0.65386. A sustained break above this level might indicate a shift in sentiment, potentially attracting bullish momentum toward the 0.65500 psychological barrier. \n\nFor traders looking to navigate this market, a cautious approach is warranted. Consider placing buy orders near the SMA level, with tight stop-losses to mitigate risk. Conversely, any decisive break below 0.65342 could warrant short positions, with targets set towards the next support level. As always, maintaining a disciplined risk management strategy is essential in this volatile environment."
+    }
+  }
+}

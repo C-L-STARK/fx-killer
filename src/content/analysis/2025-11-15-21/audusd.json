@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-15T21:32:30.322Z",
+  "price": {
+    "close": "0.65359",
+    "high": "0.65386",
+    "low": "0.65342",
+    "open": "0.65351",
+    "change": "0.01",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.90043,
+    "macd": -0.0000534858,
+    "macd_signal": -0.00020182608,
+    "sma20": 0.6533045
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理，需关注关键水平]",
+      "content": "当前澳元/美元(AUD/USD)价格在0.65359附近波动，显示出一定的震荡整理趋势。近期价格在0.65342至0.65386之间反复测试，表明市场参与者对当前水平的观望态度。若价格突破上方阻力位0.65386，将有可能开启进一步上涨的空间。\n\n技术指标方面，虽然RSI(14)数据缺失，但从MACD来看，当前值为-0.000053485800，显示出略微的看跌信号。20日简单移动平均线(SMA)处于0.6533045，意味着短期内价格依然处于低位整理阶段。整体来看，市场情绪较为谨慎，需谨防价格进一步下行的风险。\n\n支撑位方面，0.65342是关键支撑，如若跌破，可能会引发更深层次的调整，目标指向0.65250。而上方阻力位则在0.65386和0.65450之间，突破这些位置可能会引发买盘涌入，推动价格回升。交易者应密切关注这些关键水平的表现。\n\n综合来看，建议投资者在当前价格附近采取谨慎态度，优先考虑短线交易策略。若价格有效突破阻力位，可适当布局多单；反之，若跌破支撑位，则应考虑短期的空单策略，控制风险，灵活应对市场波动。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) against the US Dollar (USD) is currently trading at 0.65359, reflecting a marginal 24-hour change of 0.01%. The price action over the past day has remained relatively stable, with a high of 0.65386 and a low of 0.65342. This tight range indicates a period of consolidation, suggesting that market participants are awaiting further catalysts that could drive momentum in either direction.\n\nFrom a trend perspective, the AUD/USD pair appears to be in a relatively neutral phase, oscillating around the 20-period Simple Moving Average (SMA) at 0.6533045. This positioning implies indecision among traders, as the price is hovering just above the SMA, which can act as a dynamic support level. A sustained break below this level could signal a bearish sentiment, while a move above 0.65400 may attract buyers and lead to a potential upward trend.\n\nTechnical indicators provide additional insights into market dynamics. The MACD value is slightly negative, indicating a lack of bullish momentum, while the absence of an RSI reading suggests that this analysis lacks the context of overbought or oversold conditions. Traders should remain vigilant for changes in these indicators, as they could signal emerging trends. A robust bullish signal would require a crossover in the MACD or a rise in the RSI above 50.\n\nIn terms of support and resistance levels, immediate support is seen around 0.65300, with resistance forming near 0.65400. Traders may consider a long position if the price breaks above resistance, targeting further gains toward 0.65500. Conversely, a decline below the support level could prompt a short position, with targets set at 0.65200. Maintaining a disciplined approach with proper risk management will be key in navigating this current market environment."
+    }
+  }
+}

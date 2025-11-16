@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-16T05:37:42.934Z",
+  "price": {
+    "close": "1.16154",
+    "high": "1.16239",
+    "low": "1.16154",
+    "open": "1.16211",
+    "change": "-0.05",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 45.36101,
+    "macd": -0.00020076625,
+    "macd_signal": 0.000024967323,
+    "sma20": 1.16275
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理中]",
+      "content": "当前欧元/美元（EUR/USD）在1.16154附近震荡整理，市场情绪较为谨慎。虽然短期内价格略微下跌0.05%，但整体趋势仍需进一步观察。价格未能突破1.16239的高点，显示出当前的上行动力不足，可能在接下来的交易时段继续维持区间波动。\n\n从技术指标来看，MACD显示出微弱的负值，预示着短期内下行压力存在，但由于RSI未提供数据，尚无法全面评估超买或超卖情况。20日简单移动平均线（SMA）位于1.16275，形成了一个潜在的阻力位，若价格反弹至此水平，可能会面临卖压。\n\n支撑位方面，1.16000是一个关键水平，若价格跌破该位，可能会引发进一步的下行趋势。交易者应密切关注这一水平的表现。同时，建议在1.16200附近设立卖出订单，以便在价格回调时捕捉利润，若价格反弹至1.16275则可考虑减仓或止损，以降低风险。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD pair is currently trading at 1.16154, reflecting a slight decline of 0.05% over the past 24 hours. The recent high of 1.16239 indicates that the market is experiencing a range-bound scenario, with the price hovering near the lower end of this range. This consolidation phase suggests potential indecision among traders, making it crucial to observe upcoming price actions for clearer directional cues. \n\nIn terms of technical indicators, the absence of an RSI value limits our ability to gauge overbought or oversold conditions effectively. However, the MACD is slightly negative at -0.00020076625, indicating bearish momentum in the short term. The SMA(20) at 1.16275 serves as a critical resistance level, and a break above this could signal a potential bullish reversal, while sustained trading below could reinforce the downtrend.\n\nSupport levels can be identified around the 1.1600 mark, which may act as a psychological barrier for traders. If the price breaks below this level, it could lead to a more profound decline, possibly testing lower support levels. Conversely, if the price manages to hold above this support and breaks through the SMA(20), it could present an opportunity for long positions with a target towards the recent high of 1.16239.\n\nTraders should consider adopting a wait-and-see approach, monitoring price action closely around the key support and resistance levels. A break above 1.16275 could provide a buying opportunity, while a failure to hold above 1.1600 may warrant short positions. Overall, careful attention to market sentiment and broader economic factors will be essential for navigating this pair in the near term."
+    }
+  }
+}

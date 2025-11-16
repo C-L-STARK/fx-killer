@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-15T22:49:22.464Z",
+  "price": {
+    "close": "1.40213",
+    "high": "1.40276",
+    "low": "1.40120",
+    "open": "1.40258",
+    "change": "-0.03",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 46.62505,
+    "macd": 0.000088553031,
+    "macd_signal": 0.00024427299,
+    "sma20": 1.40281
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[横盘整理中的短期调整]",
+      "content": "当前美元/加元（USD/CAD）在1.40213附近交易，整体走势呈现横盘整理的态势。近期的高点1.40276与低点1.40120之间的波动幅度有限，市场缺乏明显的方向性。投资者需关注即将发布的经济数据，可能会引发价格波动。\n\n从技术指标来看，RSI未提供，但可观察到当前的MACD指标接近零轴，表明市场情绪趋于中立，买卖力量相对平衡。SMA(20)为1.40281，显示短期内价格在该均线附近波动，进一步验证了市场的横盘状态。\n\n支撑位方面，1.40120是关键支撑位，若价格跌破该水平，可能会引发进一步回调。相反，1.40276作为阻力位，若价格突破则可能带动上涨。投资者应密切关注这些关键水平，以制定相应的交易策略。\n\n基于当前市场情况，建议投资者采取观望态度，等待价格突破关键支撑或阻力位后再进行操作。同时，关注即将发布的经济数据，可能对短期走势产生重要影响。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD pair is currently exhibiting a narrow trading range, with the latest price at 1.40213. This slight decline of 0.03% over the last 24 hours suggests a consolidation phase following recent fluctuations. The price has tested both a high of 1.40276 and a low of 1.40120, indicating a lack of strong momentum in either direction. The market appears to be in a waiting pattern, possibly anticipating economic data releases or geopolitical developments that could influence the pair.\n\nFrom a technical standpoint, the SMA(20) at 1.40281 suggests that the price is trading just below this short-term moving average, which can act as a dynamic resistance level. If the price can break above this moving average and hold, it may signal a potential bullish shift, targeting higher resistance levels. Conversely, a sustained move below the recent low of 1.40120 could open the door for further downside, potentially testing significant support levels around 1.40000.\n\nIndicators like the MACD, although not fully detailed, show a slight positive divergence, hinting at potential upward momentum if confirmed by additional bullish price action. The RSI(14) is unavailable, but should it be calculated, a reading above 50 would suggest bullish sentiment, while a reading below 30 could indicate oversold conditions, presenting a buying opportunity. Traders should monitor these indicators closely for signs of a trend reversal or continuation.\n\nIn terms of trading strategy, a breakout above the SMA(20) could provide a buying opportunity with a target around the next resistance level at 1.40500. Conversely, a decisive break below 1.40120 may serve as a trigger for short positions, with an eye on the support around 1.40000. Risk management is crucial, and traders should consider setting stop-loss orders to protect against unexpected volatility."
+    }
+  }
+}

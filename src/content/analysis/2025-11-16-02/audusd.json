@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-16T02:59:05.402Z",
+  "price": {
+    "close": "0.65359",
+    "high": "0.65386",
+    "low": "0.65342",
+    "open": "0.65351",
+    "change": "0.01",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.90043,
+    "macd": -0.0000534858,
+    "macd_signal": -0.00020182608,
+    "sma20": 0.6533045
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理中]",
+      "content": "当前AUD/USD在0.65359附近震荡整理，走势相对平稳。虽然24小时变化仅为0.01%，但市场仍显示出一定的波动性。近期价格在0.65386和0.65342之间反复测试，表明市场参与者在此区间内缺乏明确方向，短期内可能继续维持震荡格局。\n\n从技术指标来看，RSI尚未提供具体数值，因此无法判断超买或超卖情况。MACD呈现轻微的负值，表明当前市场动能略显疲软，但并未形成明显的卖出信号。SMA(20)在0.6533045附近为价格提供了一定的支撑，若价格跌破该水平，可能会引发更大的回调。\n\n在支撑位上，0.65342为短期关键支撑，若跌破则可能测试更低的水平。阻力位方面，0.65386为重要的上行阻力，突破后将有助于价格向0.6540及以上区域发展。交易者需密切关注这些关键价位，以便捕捉短期交易机会。\n\n建议投资者在当前区间内保持观望，待价格突破0.65386或跌破0.65342后再做出相应的交易决策。保持谨慎，灵活应对市场变化是当前阶段的最佳策略。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) against the US Dollar (USD) is currently trading at 0.65359, reflecting a slight upward movement of 0.01% over the past 24 hours. This price action indicates a consolidation phase following a recent decline. The high and low of the last 24 hours, at 0.65386 and 0.65342 respectively, suggest that the market is currently maneuvering within a tight range. A break beyond these levels could provide further directional cues for traders.\n\nIn terms of technical indicators, the MACD shows a negative value of -0.000053485800, which indicates bearish momentum, although without a signal line for comparison, its implications are limited. The absence of an RSI(14) value prevents a full assessment of overbought or oversold conditions, but the SMA(20) at 0.6533045 suggests that the short-term trend is currently bullish. This moving average may act as a dynamic support level, and traders should monitor price action around this level for potential entry points.\n\nKey support is identified at the recent low of 0.65342, which, if breached, could signal further downside potential toward deeper support levels. Conversely, resistance at 0.65386 is pivotal; a breakout above this level could herald a potential rally toward the next resistance zone. Given the current market conditions, traders may consider a cautious approach, looking for confirmation on either side before entering significant positions.\n\nFor trading strategies, a wait-and-see approach is recommended. If the price consolidates above the SMA(20) and breaks the resistance at 0.65386, a buy position could be warranted. Conversely, if the price falls below 0.65342, consider a sell opportunity. Risk management is crucial; placing stop-loss orders just beyond these key levels will help to mitigate potential losses while allowing for participation in potential breakout trades."
+    }
+  }
+}

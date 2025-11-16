@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-15T14:50:33.774Z",
+  "price": {
+    "close": "0.56821412",
+    "high": "0.56821412",
+    "low": "0.56785917",
+    "open": "0.56785917",
+    "change": "0.08",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 53.81125,
+    "macd": 0.00031084264,
+    "macd_signal": 0.00039834938,
+    "sma20": 0.56824182
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[短期震荡，关注支撑和阻力]",
+      "content": "当前纽元/美元在0.5682附近震荡，短期趋势呈现出横盘整理的特征。24小时内价格微幅变化0.08%，显示市场情绪较为平稳。投资者在此价位附近持观望态度，可能等待更明确的方向信号。\n\n从技术指标来看，MACD显示出微弱的看涨信号，但RSI数据缺失使得超买或超卖状态尚不明确。20日简单移动平均线（SMA）为0.5682，价格略低于该水平，暗示短期内可能存在一定的卖压。整体来看，市场尚未形成明显的趋势，投资者应保持谨慎。\n\n支撑位方面，0.5679是关键支撑，如果价格跌破该水平，可能会引发进一步下行；而0.5685则是短期阻力位，突破后有望引发新的买盘。市场的盘整可能会为突破提供动力，因此需密切关注这些关键点位的表现。\n\n建议交易者在当前价格附近采取区间交易策略，设置合理的止损位，并关注相关经济数据的发布，以把握可能的突破机会。谨慎操作，保持灵活应变的策略，将有助于在这一震荡市场中获得收益。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD currency pair is currently showing a slight upward movement, with the latest price at 0.5682, reflecting a 0.08% increase over the past 24 hours. This modest gain suggests a consolidation phase after recent fluctuations. The high and low of the day demonstrate a narrow trading range, indicating limited volatility. Traders should watch for a breakout above the recent high to confirm a potential bullish trend or a drop below the low for a bearish signal.\n\nTechnical indicators, while sparse at the moment, provide some insights into the market's momentum. The MACD shows a positive value, suggesting that the short-term momentum may be gaining strength. However, without the accompanying signal line, caution is advised. The absence of an RSI reading limits the ability to assess overbought or oversold conditions, which could be critical for short-term trading decisions. The SMA(20) at 0.5682 serves as a dynamic support level, providing insight into the overall trend direction.\n\nIn terms of support and resistance, the immediate support level appears to be at the recent low of 0.5679. A failure to hold above this level may trigger further selling pressure. On the upside, the resistance level is identified close to 0.5685, where a breakout could lead to increased buying interest. Traders should look for confirmation with volume to ensure that any breakout is sustainable.\n\nFor trading strategies, maintaining a watchful eye on price action around the identified levels is crucial. A buy position could be considered if the price closes above 0.5685, ideally accompanied by increased volume. Conversely, a sell position may be warranted if the price breaks below 0.5679, particularly if confirmed by bearish momentum indicators. Risk management remains essential, utilizing appropriate stop-loss orders to protect against unexpected market movements."
+    }
+  }
+}

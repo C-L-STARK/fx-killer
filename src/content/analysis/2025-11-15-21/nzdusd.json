@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-15T21:33:55.579Z",
+  "price": {
+    "close": "0.56821412",
+    "high": "0.56821412",
+    "low": "0.56785917",
+    "open": "0.56785917",
+    "change": "0.08",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 53.81125,
+    "macd": 0.00031084264,
+    "macd_signal": 0.00039834938,
+    "sma20": 0.56824182
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋势]",
+      "content": "当前纽元/美元(NZD/USD)在0.5682附近震荡整理，近期价格波动相对较小，显示出市场的观望情绪。考虑到24小时变化仅为0.08%，表明多空双方暂时未能形成明确的趋势。该货币对可能在短期内继续维持这种横盘状态，投资者需关注即将发布的经济数据。\n\n从技术指标来看，虽然RSI(14)值尚未提供，但根据当前价格与20日简单移动平均线(SMA)的关系，价格略低于SMA，可能暗示近期的卖压。MACD指标也显示出微弱的上行动能，但由于信号线缺失，尚需进一步确认。整体来看，市场情绪较为谨慎，短期内可能出现反复的震荡行情。\n\n在支撑和阻力方面，0.5679附近的支撑位值得关注，若价格跌破此位，可能会加剧下行压力。而在0.5685附近存在阻力位，若价格突破该水平，则有可能重新测试更高点。交易者可以关注这两个关键价位，以便制定相应的交易策略。\n\n基于当前市场状况，建议投资者保持观望，待价格突破关键支撑或阻力位后再考虑入场。如果价格进一步下探并确认支撑位，可以考虑短期买入策略；反之，若价格突破阻力位，则可考虑短期卖出。保持谨慎，合理控制风险是成功交易的关键。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The New Zealand Dollar against the US Dollar is currently trading at 0.5682, exhibiting a slight upward movement of 0.08% over the past 24 hours. The price action is displaying a consolidation phase, as indicated by the recent high and low levels around 0.5682 and 0.5679, respectively. This tight range suggests that the market is currently undecided, which may lead to a breakout in either direction. Traders should closely monitor these levels to gauge potential momentum shifts.\n\nWhile the RSI(14) is not available for analysis, the MACD shows a positive value of 0.00031, indicating bullish momentum in the short term. This could suggest that buyers are gradually gaining strength, hinting at a potential upward trend if this momentum continues. The SMA(20) is positioned at 0.5682, which aligns closely with the current price, further reinforcing the potential for a continuation of the current trend. However, cautious traders should look for additional confirmation before making significant moves.\n\nKey support levels are established around the recent low of 0.5679, which, if broken, could prompt a deeper correction. Conversely, resistance is observed near the 0.5684 level, just above the SMA(20). A successful breach above this resistance could open the door for further upside towards the 0.5700 psychological level. Conversely, a drop below the support level would signal a reconsideration of bullish positions.\n\nIn terms of trading strategy, a conservative approach would involve waiting for a clear breakout above the resistance level for a potential long position, while a move below the support could signal a short entry. Additionally, employing stop-loss orders just beyond these levels can help manage risk effectively. As the market continues to evolve, traders should remain vigilant and adapt their strategies accordingly."
+    }
+  }
+}

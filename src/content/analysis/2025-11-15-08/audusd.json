@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-15T08:15:07.143Z",
+  "price": {
+    "close": "0.65359",
+    "high": "0.65386",
+    "low": "0.65342",
+    "open": "0.65351",
+    "change": "0.01",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.90043,
+    "macd": -0.0000534858,
+    "macd_signal": -0.00020182608,
+    "sma20": 0.6533045
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理趋势]",
+      "content": "当前AUD/USD的最新价格为0.65359，维持在一个相对平稳的水平，24小时变化仅为0.01%。从高点和低点来看，价格波动较小，显示出市场在震荡整理。整体趋势上，尽管未出现明显的上涨或下跌信号，但投资者需保持警惕，随时关注市场的变化。\n\n在技术指标方面，MACD值为-0.000053485800，表明当前市场动能微弱，尚未形成明确的买入或卖出信号。同时，由于RSI数据缺失，无法全面评估市场的超买或超卖情况。20日简单移动平均线（SMA）为0.6533045，价格略高于这一水平，可能暗示短期内有一定的支撑。\n\n支撑位方面，初步支撑可在0.65342附近找到，而阻力位则在0.65386区域。若价格突破这些关键水平，将可能引发更大的波动。建议投资者密切关注这些技术水平，并在价格接近支撑位时考虑逢低买入，而在接近阻力位时则可以考虑逢高卖出，以捕捉短期交易机会。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair currently trades at 0.65359, showing a slight 24-hour change of 0.01%. This stability suggests a phase of consolidation following recent fluctuations. The price is situated near the 20-period simple moving average (SMA) at 0.6533045, indicating that the market may be seeking direction. A break above the recent high of 0.65386 could signal a bullish shift, while a drop below 0.65342 might reinforce bearish sentiment.\n\nIn terms of momentum indicators, the MACD is currently in negative territory at -0.000053485800, which suggests that selling pressure could be outweighing buying interest. Without a provided RSI value, we cannot assess overbought or oversold conditions, but the MACD's positioning indicates caution for bullish traders. A watchful approach is warranted, particularly as price action hovers near key moving averages, which often serve as pivotal points for market sentiment.\n\nKey support is identified at 0.65342, while resistance lies at 0.65386. A decisive move below the support level could trigger further selling, potentially targeting the next support zone around 0.65200. Conversely, a break above resistance may open the door to a rally, with potential targets around 0.65500. Traders should monitor these levels closely, as they will likely dictate the short-term direction of the AUD/USD pair.\n\nIn summary, the current market context suggests a cautious stance. Traders might consider employing a range trading strategy, capitalizing on the defined support and resistance levels. Additionally, incorporating other technical indicators, such as the RSI and moving averages, could enhance decision-making. As the market develops, flexibility in strategy will be key to navigating potential volatility in the AUD/USD pair."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-15T17:36:35.965Z",
+  "price": {
+    "close": "4080.42743",
+    "high": "4080.64181",
+    "low": "4080.39587",
+    "open": "4080.45682",
+    "change": "-0.00",
+    "datetime": "2025-11-15 23:00:00"
+  },
+  "indicators": {
+    "rsi": 32.27506,
+    "macd": -14.35388,
+    "macd_signal": -17.98936,
+    "sma20": 4083.16397
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中]",
+      "content": "当前黄金/美元(XAU/USD)的价格为4080.42743，整体呈现出震荡整理的趋势。在过去24小时内，价格变化非常微小，显示出市场的谨慎情绪。虽然短期内未能突破4080.64181的高点，但下方的4080.39587低点也未被有效击穿，表明市场仍在寻找方向。\n\n从技术指标来看，RSI尚未提供明确的超买或超卖信号，而MACD指标显示出负值，暗示短期内可能存在下行压力。20日简单移动平均线(SMA)位于4083.16397，形成了当前价格的一个阻力位，若价格无法突破此水平，可能会继续维持区间震荡。\n\n支撑位方面，4080.39587是关键的支撑水平，如果价格跌破此位，可能引发进一步的下行调整。反之，若价格突破4083.16397的阻力位，则有望向上挑战更高的水平。在当前市场环境下，建议投资者谨慎操作，关注价格的突破信号，适时进出场。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of Gold against the US Dollar (XAU/USD) is hovering around 4080.43, reflecting a stable market dynamic with a negligible 24-hour change of -0.00%. This price action indicates a consolidation phase after recent volatility, suggesting that traders are adopting a wait-and-see approach. The high and low of the day, at 4080.64 and 4080.40 respectively, reveal a tight trading range, highlighting the lack of strong momentum in either direction.\n\nFrom a technical perspective, the absence of a definitive trend signals potential indecision among market participants. The 20-period Simple Moving Average (SMA) at 4083.16 serves as a critical resistance level, indicating that a sustained move above this level would be necessary to confirm a bullish reversal. Conversely, if prices break below the intraday low of 4080.40, it could trigger further selling pressure, pointing toward potential bearish sentiment in the short term.\n\nThe MACD indicator, currently at -14.35, suggests that momentum is leaning bearish, but with no signal line available, it’s essential to monitor how this indicator evolves in the coming sessions. Although the RSI is not available, traders should remain attentive to further developments, as a reading below 30 could indicate oversold conditions, presenting a buying opportunity. This analysis emphasizes the need for caution in the current environment, given the tight price action and mixed signals.\n\nFor traders considering entry points, a break above the 4083.16 level could provide a bullish signal, potentially targeting the next psychological level around 4100. On the downside, a breach below 4080.40 may warrant a reevaluation of long positions, with initial targets set at 4070. Overall, a keen eye on volume and broader market sentiment will be crucial in navigating this range-bound environment effectively."
+    }
+  }
+}

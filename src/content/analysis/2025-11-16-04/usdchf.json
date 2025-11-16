@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-16T04:22:15.988Z",
+  "price": {
+    "close": "0.79374999",
+    "high": "0.79438001",
+    "low": "0.79321003",
+    "open": "0.79395002",
+    "change": "-0.02",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 54.10161,
+    "macd": -8.3951137e-7,
+    "macd_signal": -0.00045605797,
+    "sma20": 0.792283
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[当前走势偏弱，谨慎看空]",
+      "content": "当前美元/瑞郎的价格为0.79374999，短期内表现出一定的弱势，24小时变化为-0.02%。从高点0.79438001和低点0.79321003来看，价格在一个狭窄区间内波动，显示出市场缺乏明显的方向性。整体趋势判断上，目前更倾向于看空。\n\n在技术指标方面，虽然RSI未提供，但可以通过观察SMA(20)的表现来分析。当前价格已在SMA(20)之上，表明短期趋势仍有支撑。然而，MACD指标显示出负值，暗示下行压力，若价格持续未能突破0.7944的阻力位，可能会出现进一步回调。\n\n支撑位方面，0.7923和0.7920是关键关注区域，一旦跌破可能加速下行趋势。相对的，0.7944则是当前的阻力位，若价格突破该点位，可能会引发一波反弹行情。投资者在操作时应关注这些关键价位，以便及时调整策略。\n\n综合来看，建议投资者在当前市场条件下采取谨慎的看空策略。可以考虑在接近阻力位0.7944时进行卖出，同时在支撑位0.7920附近设置止损，以控制风险。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair is currently trading at 0.79375, reflecting a slight decline of 0.02% over the last 24 hours. The price has fluctuated between a high of 0.79438 and a low of 0.79321 during this period, indicating a narrow trading range. This range-bound movement suggests a consolidation phase, with market participants likely waiting for clearer directional cues. A sustained break above the recent high could signal a bullish reversal, while a breach below the low may reinforce bearish sentiment.\n\nThe absence of RSI data complicates momentum analysis, but the MACD is slightly negative, suggesting potential bearish pressure. The MACD's proximity to zero indicates that momentum is weak, which may lead to indecision among traders. The 20-day Simple Moving Average (SMA) stands at 0.79228, providing a critical support level. If the price holds above this SMA, it could indicate a potential bullish opportunity. Conversely, a drop below this level might accelerate selling.\n\nIn terms of support and resistance, the immediate support level is found at 0.79228, coinciding with the SMA. A breach of this level could expose the pair to further downside, potentially targeting the next support at 0.79000. Conversely, resistance is established near the recent high of 0.79438. A successful breakout above this level could pave the way for a rally toward 0.79600, reinforcing bullish momentum.\n\nTraders should consider employing a cautious approach due to the current market conditions. Those looking for long positions might wait for a confirmed breakout above 0.79438, ideally supported by strong volume and momentum indicators. Conversely, a short position could be considered if the price closes below the 20-day SMA, particularly if accompanied by bearish confirmation from the MACD. Monitoring economic news and events related to both currencies will be crucial for making informed trading decisions."
+    }
+  }
+}

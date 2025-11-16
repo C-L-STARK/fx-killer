@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-15T14:49:00.963Z",
+  "price": {
+    "close": "0.65359",
+    "high": "0.65386",
+    "low": "0.65342",
+    "open": "0.65351",
+    "change": "0.01",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.90043,
+    "macd": -0.0000534858,
+    "macd_signal": -0.00020182608,
+    "sma20": 0.6533045
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理趋势]",
+      "content": "当前AUD/USD在0.6530附近震荡整理，显示出短期内缺乏明确的方向。价格在0.65386的高点和0.65342的低点之间波动，表明市场参与者在该区间内观望情绪较浓，可能等待进一步的宏观经济数据或市场消息以做出决策。\n\n技术指标方面，虽然RSI尚不可用，但MACD指标显示出微弱的负值，表明短期内卖压存在。SMA(20)为0.6533045，当前价格略高于该均线，暗示短期内仍有一定的支撑。然而，若价格持续低于该均线，可能会引发更深的回调。\n\n在支撑和阻力位方面，0.65386是近期的强阻力位，若突破该水平，可能会引发进一步的上涨。而0.65342则是关键支撑位，若跌破该水平，可能会加剧下行风险。交易者应密切关注这两个关键价格水平，以便及时调整交易策略。\n\n综合来看，建议投资者在当前水平附近采取观望策略，等待市场进一步信号。如果价格突破0.65386，可以考虑做多，而跌破0.65342则需谨慎并考虑做空。务必设置止损，以降低潜在风险。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair currently trades at 0.65359, reflecting a slight 24-hour change of 0.01%. This minimal fluctuation suggests a relatively stable market environment, though the pair appears to be oscillating within a narrow range defined by the recent high of 0.65386 and low of 0.65342. The price action indicates a consolidation phase, which may precede a breakout, either upwards or downwards, depending on forthcoming economic data or geopolitical developments.\n\nFrom a trend analysis perspective, the pair has shown signs of indecision, with the price hovering around the recent SMA(20) of 0.6533045. This moving average serves as a potential support level, while the recent high may act as resistance. Traders should monitor these levels closely to gauge potential breakouts. If the price can sustain above the SMA, it may signal bullish momentum, while a failure to hold above could lead to further downside pressure.\n\nIndicator interpretation remains challenging due to the lack of available RSI data, but the MACD shows a marginally negative value of -0.000053485800, indicating a potential bearish bias. This negative reading, coupled with the current price action, suggests traders should remain cautious. A crossover in the MACD could provide a clearer signal for a change in momentum, making it essential to monitor any shifts in this indicator for trading strategies.\n\nIn terms of trading suggestions, a prudent approach would be to establish pending orders near key support and resistance levels. A buy order could be positioned above 0.65386, targeting subsequent resistance levels, while a sell order below 0.65342 may capitalize on potential bearish movements. Additionally, maintaining a close watch on economic indicators from both Australia and the U.S. will be crucial for anticipating market volatility and making informed trading decisions."
+    }
+  }
+}

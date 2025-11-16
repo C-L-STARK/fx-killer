@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-15T08:18:05.368Z",
+  "price": {
+    "close": "4080.41731",
+    "high": "4080.62955",
+    "low": "4080.38598",
+    "open": "4080.44849",
+    "change": "-0.00",
+    "datetime": "2025-11-15 19:00:00"
+  },
+  "indicators": {
+    "rsi": 32.27393,
+    "macd": -18.31191,
+    "macd_signal": -21.53294,
+    "sma20": 4083.36351
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理趋势]",
+      "content": "当前黄金/美元(XAU/USD)的最新价格为4080.41731，市场呈现出震荡整理的趋势。价格在4080.62955和4080.38598之间波动，显示出短期内缺乏明确的方向。在这种情况下，投资者应保持谨慎，关注价格的突破动向。\n\n从技术指标来看，MACD显示出负值-18.31191，表明当前市场可能偏向卖方，尚未形成明确的买入信号。虽然RSI数据缺失，但结合其他指标，我们可以推测市场情绪相对平稳，未出现超买或超卖的极端情况。SMA(20)为4083.36351，显示出短期内的价格压力。\n\n支撑位方面，4080.38598是当前的关键支撑，如果价格突破该水平，可能会引发进一步的下行趋势。上方的阻力位在4083.36351附近，突破此水平可能会带动价格回升。基于当前市场状况，建议投资者可关注价格在这两个水平的表现，适时调整策略，保持灵活应对。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4080.42 indicates a consolidation phase, showing minimal movement over the past 24 hours with a change of just -0.00%. This stability occurs within a narrow trading range defined by recent high and low levels of 4080.63 and 4080.39, respectively. The market appears to be in equilibrium, suggesting that traders are awaiting further catalysts to drive a more definitive trend. A breakout above resistance at 4083 could signal a bullish move, while a drop below 4080 might indicate bearish sentiment.\n\nThe absence of a current RSI reading limits our ability to assess momentum; however, the MACD at -18.31 suggests a bearish bias, indicating that the selling pressure may be stronger than buying interest at this moment. The 20-period Simple Moving Average (SMA) at 4083.36 provides a potential resistance level, and if prices can reclaim this level, it may trigger renewed buying interest. Conversely, sustained trading below this SMA could reinforce bearish sentiment, prompting further declines in price.\n\nSupport levels are crucial in the current context, with immediate support anticipated around 4080.39, the recent low. A breach below this level may expose further downside, potentially targeting lower support levels around 4075. In contrast, if buyers manage to reclaim the 4083 area, it would pave the way for an upward movement, with traders likely to eye 4090 as the next resistance zone. \n\nTraders should consider a cautious approach, monitoring for breakouts or breakdowns from the established range. A long position could be initiated upon a successful move above 4083, while a short position may be warranted if the price slips below 4080. Maintaining awareness of broader market developments and economic indicators will be essential in guiding trading strategies in this current environment."
+    }
+  }
+}

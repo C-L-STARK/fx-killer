@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-15T17:32:31.835Z",
+  "price": {
+    "close": "1.31747",
+    "high": "1.31749",
+    "low": "1.31660",
+    "open": "1.31688",
+    "change": "0.04",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 56.053543,
+    "macd": 0.00024417619,
+    "macd_signal": 0.000054046077,
+    "sma20": 1.31561
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡走势，短期关注支撑位]",
+      "content": "当前英镑/美元（GBP/USD）汇率在1.31747附近波动，24小时内变化微小，显示出市场缺乏方向性。结合高低点数据，当前价格处于1.31660和1.31749的区间内，表明短期内可能维持震荡走势。市场情绪谨慎，投资者需关注即将发布的经济数据。\n\n从技术指标来看，虽然RSI和MACD的部分数据缺失，但SMA(20)为1.31561，表明短期均线向上倾斜，可能暗示出上行趋势的潜力。若价格突破1.3180的阻力位，可能会加速上涨；反之如跌破1.3160支撑位，则可能面临进一步回调风险。\n\n支撑位方面，1.3160是关键支撑，若价格跌破该水平，可能会引发更多卖盘，进一步测试1.3140。阻力位则关注1.3180和1.3200，若成功突破，将为进一步上涨提供动力。\n\n基于当前市场环境，建议投资者采取观望态度，等待价格走势明确后再进行操作。若价格回调至支撑位附近，可考虑短线买入机会；而若突破阻力位，则可适当追入。确保在交易中设置合理止损，以控制风险。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently trading at 1.31747, showing a slight daily increase of 0.04%. The price action has been relatively stable, with a high of 1.31749 and a low of 1.31660 over the past 24 hours. This narrow trading range suggests a period of consolidation, which may indicate indecision among traders. Observing the recent trend, the pair has maintained an upward trajectory, supported by the SMA(20) at 1.31561, indicating a bullish sentiment in the near term.\n\nIn terms of technical indicators, the absence of the RSI data limits our ability to assess overbought or oversold conditions directly; however, the MACD value of 0.00024417619 suggests a potential bullish crossover in the near future. This may serve as a positive signal for traders looking for entry points. Should the MACD signal line emerge and confirm a bullish trend, this could further solidify the upward momentum of the GBP/USD pair.\n\nKey support and resistance levels are essential for gauging potential price movements. Immediate support can be identified around the SMA(20) at 1.31561, while resistance is likely to be found at the recent high near 1.31749. A break above this level may lead to further upward movement, potentially targeting the next resistance around 1.32000. Conversely, a decline below the support level could open the door to further downside, with the next support level potentially located at 1.31200.\n\nFor traders, the current market conditions suggest a cautious but optimistic approach. A breakout above 1.31749 could present a buying opportunity, particularly if accompanied by strong volume. Conversely, traders might consider short positions if the price decisively falls below the 1.31561 support level, with a target towards 1.31200. As always, maintaining a risk management strategy is crucial in navigating the inherent volatility of the forex market."
+    }
+  }
+}

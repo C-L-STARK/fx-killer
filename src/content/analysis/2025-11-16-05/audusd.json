@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-16T05:39:55.401Z",
+  "price": {
+    "close": "0.65359",
+    "high": "0.65386",
+    "low": "0.65342",
+    "open": "0.65351",
+    "change": "0.01",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.90043,
+    "macd": -0.0000534858,
+    "macd_signal": -0.00020182608,
+    "sma20": 0.6533045
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[当前震荡趋势]",
+      "content": "当前澳元/美元（AUD/USD）在0.65359附近震荡整理，24小时变化仅为0.01%。短期走势显示市场缺乏方向性，价格在0.65386和0.65342之间波动。若价格突破上方阻力位0.65386，可能会出现短期反弹；反之，若跌破下方支撑位0.65342，则有可能进一步下探。\n\n在技术指标方面，虽然RSI和MACD的具体数值尚不可得，但从当前市场波动来看，可能存在一定的超卖或超买情况。20日简单移动平均线（SMA）为0.6533045，表明价格在此水平附近运行时，市场可能会寻求突破或回调。投资者可关注这些技术指标的变化，以判断市场情绪。\n\n支撑位方面，0.65342是关键的心理关口，若跌破该位可能引发较强的卖盘压力。上方阻力位0.65386则是多头反弹的关键区域，突破后将可能吸引更多买盘介入。在此背景下，建议投资者采取谨慎态度，短线操作以降低风险，同时关注市场消息面对走势的影响。\n\n综上所述，当前AUD/USD呈现出震荡的格局，短期内投资者应密切关注支撑与阻力位的变化，同时结合技术指标的走势，灵活调整交易策略，以应对市场的不确定性。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) against the US Dollar (USD) is currently trading at 0.65359, showing a marginal increase of 0.01% over the past 24 hours. This subtle upward movement suggests that the market is experiencing a period of consolidation within a defined range. The recent high of 0.65386 and low of 0.65342 indicate a narrow trading band, which may signal indecision among traders. A breakout from this range could provide insight into the next significant price movement.\n\nIn terms of technical indicators, the absence of an available Relative Strength Index (RSI) makes it challenging to assess overbought or oversold conditions. However, the MACD reading of -0.000053485800 suggests a mild bearish momentum, indicating that the sellers are slightly in control. The Simple Moving Average (SMA) of 20 periods at 0.6533045 is positioned below the current price, which may act as a dynamic support level. If the price retraces, this SMA could provide a buffer against further declines.\n\nKey support is identified at the recent low of 0.65342, while resistance is evident at the high of 0.65386. A decisive move above the resistance level might attract bullish sentiment, potentially leading the price towards the next psychological level of 0.65500. Conversely, a break below 0.65342 could open the door for a more significant downward correction, testing lower support levels.\n\nTraders may consider adopting a range-bound strategy for the time being, capitalizing on the fluctuations within the established high and low. A long position could be initiated near the support level with a tight stop-loss, while shorting near resistance may also present viable opportunities. Monitoring any upcoming economic data releases or geopolitical developments will be crucial, as these factors can influence market sentiment and price action significantly."
+    }
+  }
+}

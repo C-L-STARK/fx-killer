@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-15T09:34:50.912Z",
+  "price": {
+    "close": "0.65359",
+    "high": "0.65386",
+    "low": "0.65342",
+    "open": "0.65351",
+    "change": "0.01",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.90043,
+    "macd": -0.0000534858,
+    "macd_signal": -0.00020182608,
+    "sma20": 0.6533045
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理中]",
+      "content": "当前AUD/USD的价格为0.65359，处于24小时内微幅波动的状态，变化幅度仅为0.01%。从高点0.65386和低点0.65342来看，市场呈现出明显的震荡整理特征。该货币对在这一价位区间内可能面临短期内的横盘整理，投资者应保持谨慎。\n\n技术指标方面，虽然RSI(14)数据缺失，但目前的MACD显示出微弱的负值，表明下行动能不足。与此同时，20日简单移动平均线(SMA)在0.6533045附近形成了初步支撑，提供了下行风险的保护。整体而言，技术面尚未显现强烈的买入或卖出信号。\n\n在支撑和阻力位方面，当前的支撑位位于0.65330，若价格突破这一支撑，可能会进一步下探。另一方面，阻力位则在0.65400附近，若能突破该点位，则可能会引发一波反弹。投资者可关注这些关键价位，以制定相应策略。\n\n综合考虑，建议投资者在当前震荡行情中采取观望态度，耐心等待更清晰的趋势信号。如果价格突破阻力位，考虑逐步建立多头头寸；若跌破支撑位，则可考虑短期空头交易。切勿盲目追单，风险管理仍需优先。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) against the US Dollar (USD) is currently trading at 0.65359, reflecting a slight increase of 0.01% over the past 24 hours. The price has shown limited volatility, with a high of 0.65386 and a low of 0.65342 during the same period. This tight range suggests a consolidation phase, possibly indicating indecision among traders regarding the next significant move. A break above the recent high could signal a bullish sentiment, while a fall below the low might indicate bearish pressure.\n\nIn terms of technical indicators, the absence of a clear Relative Strength Index (RSI) reading limits our ability to assess overbought or oversold conditions. However, the MACD value is marginally negative, suggesting that momentum is weak but not yet decisively bearish. The 20-period Simple Moving Average (SMA) sits at 0.6533045, acting as a potential support level. Should the price move closer to this SMA, traders may look for buying opportunities if it holds.\n\nIdentifying key support and resistance levels is crucial for trade planning. Immediate support is found around the SMA at 0.65330, while resistance lies just above the current price at 0.65386. A decisive move above this resistance could trigger further buying interest, potentially targeting higher levels. Conversely, if the price breaks below the support level, it may open the door for a downward correction, with the next support level likely tested around 0.65200.\n\nFor traders, a cautious approach is advisable given the current consolidation. If the price breaks above the resistance level with strong volume, it may be a signal to go long, targeting the next significant resistance zone. Conversely, a break below the support level could present a shorting opportunity, with careful risk management in place. Monitoring upcoming economic data and geopolitical developments will also be essential, as these factors can influence market sentiment and volatility."
+    }
+  }
+}

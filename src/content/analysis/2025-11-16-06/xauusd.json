@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-16T06:57:41.504Z",
+  "price": {
+    "close": "4080.42743",
+    "high": "4080.64181",
+    "low": "4080.39587",
+    "open": "4080.45682",
+    "change": "-0.00",
+    "datetime": "2025-11-15 23:00:00"
+  },
+  "indicators": {
+    "rsi": 32.27506,
+    "macd": -14.35388,
+    "macd_signal": -17.98936,
+    "sma20": 4083.16397
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，等待突破]",
+      "content": "当前黄金/美元（XAU/USD）价格在4080附近震荡整理，短期内缺乏明确的方向。价格维持在20日简单移动平均线（SMA）4083.16之下，显示出一定的弱势。若不能有效突破这一阻力位，可能会继续在狭窄区间内波动。\n\n技术指标方面，MACD显示出-14.35的负值，表明目前市场情绪偏向看空，但尚未形成明确的卖出信号。相对强弱指数（RSI）尚未提供数据，结合现有信息，市场可能需要更多的时间来消化当前的价格水平，等待进一步的市场动向。\n\n从支撑和阻力来看，4080.39为近期支撑位，若价格跌破该水平，可能会加速下行。而4083.16则为主要阻力位，突破后有望吸引更多买盘。投资者应密切关注这些关键水平，以制定相应的交易策略。\n\n建议投资者在当前市场环境中保持谨慎，考虑在支撑位附近寻找买入机会，同时在接近阻力位时设定止盈，避免因市场波动导致的风险。保持灵活应变的交易思路，将有助于在不确定的市场中获得机会。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD indicates a market that is relatively stable, with a slight negative change over the last 24 hours. The price is hovering near the recent high of 4080.64181, suggesting a consolidation phase. In this context, the trend appears to be neutral as it lacks a clear direction. A break above the recent high could signal a bullish momentum, while a drop below the recent low of 4080.39587 may indicate bearish sentiment.\n\nTechnical indicators, such as the MACD, show a negative value of -14.35388, indicating potential bearish pressure. However, the absence of a signal line complicates the interpretation, suggesting that traders should remain cautious. The 20-period Simple Moving Average (SMA) at 4083.16397 serves as a dynamic resistance level, and if the price breaks below this SMA, it may reinforce bearish sentiment. Conversely, if XAU/USD manages to reclaim this level, it could trigger renewed buying interest.\n\nSupport levels are identified near the recent low of 4080.39587, which could act as a critical barrier against downward movement. If this level is breached, further support may be found at 4075, where traders might look to enter long positions. On the resistance side, a sustained move above 4083 will be crucial for bullish traders, potentially opening the way towards 4090 and beyond.\n\nGiven the current market dynamics, traders should consider a cautious approach. A breakout above the 20-day SMA might offer a good buying opportunity, while a confirmed move below the recent low could prompt selling. Keeping an eye on the overall trend and market sentiment is essential, as external factors like economic data releases and geopolitical developments could influence price action significantly."
+    }
+  }
+}

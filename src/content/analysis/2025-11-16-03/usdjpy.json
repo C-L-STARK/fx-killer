@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-16T03:41:45.560Z",
+  "price": {
+    "close": "154.49300",
+    "high": "154.59801",
+    "low": "154.45900",
+    "open": "154.53000",
+    "change": "-0.02",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.52351,
+    "macd": -0.005667208,
+    "macd_signal": -0.019554233,
+    "sma20": 154.4924
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理，等待方向明朗]",
+      "content": "当前美元/日元的市场走势显示出震荡整理的特征，最新价格为154.49300，24小时变化幅度较小，仅为-0.02%。在154.59801至154.45900之间的区间波动，表明市场尚未找到明确的方向，投资者情绪谨慎。\n\n从技术指标来看，虽然RSI未提供，但MACD的数值为-0.0057，显示出短期内卖压略显不足，市场有可能在此水平进行反弹。SMA(20)处于154.49240，价格在其附近徘徊，进一步确认了当前的整理状态。\n\n支撑位方面，154.45900区域可能会吸引买盘，而154.59801则是短期的阻力位。若价格突破阻力位，可能会引发进一步上行趋势；反之，则需关注支撑位的有效性。\n\n建议投资者保持观望，待市场突破关键支撑或阻力位后再做决策。如果价格向上突破154.59801，可以考虑适度做多；若下破154.45900，则应谨慎防守，考虑做空的可能性。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY currency pair is currently trading at 154.493, showing a slight decline of 0.02% over the past 24 hours. This minor dip comes after a recent peak at 154.598, indicating a possible resistance level around this price point. As the pair fluctuates within a narrow range, it suggests a consolidation phase, and traders should remain vigilant for breakout signals. The market sentiment appears cautiously bullish, but any sustained movement below the recent low of 154.459 could indicate a shift in momentum.\n\nIn terms of technical indicators, the MACD is at -0.0057, which hints at a bearish divergence since the value is below zero. This could suggest that the downward pressure may continue unless there’s a significant reversal. Furthermore, the absence of an RSI value complicates the momentum assessment; however, the SMA(20) at 154.4924 aligns closely with the current price, reinforcing its role as a potential support level. If prices dip below this average, it may trigger further selling interest.\n\nTraders should closely monitor the support level at 154.492, as a breach below this level could pave the way for a deeper correction towards the next support around 154.400. Conversely, a successful test of this support might provide a buying opportunity, especially if accompanied by bullish signals from other indicators. It’s essential to watch for potential reversals at both the support and resistance levels to capitalize on short-term trades.\n\nOverall, the current market dynamics suggest a cautious approach. Traders are advised to set tight stop-loss orders to manage risks, particularly given the close proximity of the SMA(20) to the current price. As the market continues to consolidate, potential trading strategies could involve range trading between the established support and resistance levels while staying alert for any signs of a breakout that could signal a new trend direction."
+    }
+  }
+}

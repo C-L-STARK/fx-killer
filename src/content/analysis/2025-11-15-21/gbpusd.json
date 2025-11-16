@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-15T21:31:10.807Z",
+  "price": {
+    "close": "1.31747",
+    "high": "1.31749",
+    "low": "1.31660",
+    "open": "1.31688",
+    "change": "0.04",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 56.053543,
+    "macd": 0.00024417619,
+    "macd_signal": 0.000054046077,
+    "sma20": 1.31561
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理，等待突破]",
+      "content": "当前英镑/美元的走势显现出震荡整理的特征。价格在1.31660至1.31749区间内波动，显示出市场缺乏明确方向。投资者在观望即将发布的经济数据和政策动向，使得短期内价格保持在相对窄幅的区间内。\n\n从技术指标来看，虽然RSI和MACD数据缺失，但20日简单移动平均线(SMA)在1.31561处提供了支撑。价格若能持续稳固在此水平之上，可能会为后续上涨提供动力。反之，若跌破此支撑位，则需谨慎对待，可能面临进一步下行风险。\n\n对于支撑和阻力位，当前支撑位在1.31560附近，而上方阻力位则在1.31800一线。突破这些关键水平将可能引发更大的市场波动，值得投资者密切关注。\n\n建议投资者在当前区间内保持观望，等待价格突破1.31800或跌破1.31560后再进行操作。如果价格突破阻力位，可以考虑做多，而一旦跌破支撑位，则应及时止损。保持灵活应对，谨慎操作将有助于降低风险。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently showcasing a slight bullish trend, trading at 1.31747 with a marginal 24-hour change of 0.04%. This stability indicates a potential consolidation phase following recent fluctuations. The price has maintained its position above the 20-period Simple Moving Average (SMA) at 1.31561, suggesting that the short-term momentum is favoring buyers. However, this upward movement needs to be validated by further buying pressure to establish a more robust bullish sentiment.\n\nIn terms of indicators, the MACD shows a minimal positive value of 0.00024417619, hinting at a potential bullish crossover if the momentum continues to strengthen. Meanwhile, the absence of an RSI reading limits our ability to assess overbought or oversold conditions accurately. Traders should keep an eye on these indicators for signs of a shift in momentum, particularly if the MACD starts to show a more pronounced divergence from the price action.\n\nSupport and resistance levels are critical for gauging potential price movements. The immediate support level is observed around 1.31660, which coincides with recent lows, while resistance is seen at 1.31749, the recent high. A breakout above this resistance could pave the way for further gains, potentially targeting 1.32000. Conversely, if the support level is breached, sellers may gain control, leading to a test of lower support zones.\n\nFor trading strategies, a cautious approach is warranted. Traders may consider entering long positions on a confirmed breakout above 1.31749 with tight stop-loss orders just below 1.31660. Conversely, a breakdown below the support level could present short-selling opportunities, especially if accompanied by increasing volume. Monitoring these levels will be essential for making informed trading decisions in the current market context."
+    }
+  }
+}

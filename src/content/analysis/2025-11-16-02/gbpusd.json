@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-16T02:57:38.310Z",
+  "price": {
+    "close": "1.31747",
+    "high": "1.31749",
+    "low": "1.31660",
+    "open": "1.31688",
+    "change": "0.04",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 56.053543,
+    "macd": 0.00024417619,
+    "macd_signal": 0.000054046077,
+    "sma20": 1.31561
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理中]",
+      "content": "当前英镑/美元（GBP/USD）在1.31747附近波动，表明市场呈现出短期震荡整理的趋势。昨日价格高点1.31749与低点1.31660之间的狭窄区间显示出投资者情绪的谨慎，市场尚未找到明确的方向。在这种环境下，交易者需要保持高度关注即将发布的经济数据和政策动态。\n\n从技术指标来看，20日简单移动平均线（SMA）位于1.31561，提供了一定的支撑位，表明若价格回落至此水平，可能会引发买入信号。然而，MACD指标显示出微弱的上行动能，尽管信号线数据缺失，但当前的交叉表明短期内可能出现反弹。\n\n支撑位方面，1.31660是重要的心理关口，一旦跌破可能会引发更多的卖盘。相对而言，1.3200的阻力位则是突破的关键区域，若价格能有效突破此水平，可能会引导更大的上涨动能。建议交易者在支撑位附近考虑逢低买入，而在接近阻力位时则可考虑适当获利了结或设定止损。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently trading at 1.31747, showing a slight upward movement of 0.04% over the last 24 hours. The price action indicates a consolidation phase, with the recent high of 1.31749 and a low of 1.31660 suggesting a tight range that traders should be mindful of. The overall trend appears neutral to slightly bullish, as the price is hovering above the 20-period simple moving average (SMA), which is currently at 1.31561. A sustained move above this level could signal further upside potential.\n\nIn terms of technical indicators, the MACD value of 0.00024417619 indicates a bullish momentum, although the absence of a signal line makes it difficult to ascertain the strength of this momentum. The RSI is currently unavailable, but should it be included, a reading above 50 would suggest bullish sentiment, while a reading below would indicate bearish pressure. Traders should monitor these indicators closely, as they could provide insights into potential reversals or continuations of the current trend.\n\nSupport levels are established around 1.31660, with the recent low acting as a critical zone for buyers. A breach below this level could signal a shift in sentiment, potentially opening the door for a test of lower support areas. Conversely, resistance is observed at the recent high of 1.31749, which traders should watch closely. If the price breaks above this level, it could trigger further buying interest, leading to a potential retest of higher resistance levels.\n\nIn light of the current market conditions, traders might consider a cautious approach. A buy position could be initiated upon a confirmed break above 1.31749, with a target near the psychological level of 1.3200. Alternatively, if the price falls below 1.31660, a short position could be warranted, targeting the next support level. By employing tight stop-loss orders, traders can manage risk effectively while navigating this relatively balanced market environment."
+    }
+  }
+}

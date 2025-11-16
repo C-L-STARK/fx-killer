@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-16T00:57:26.521Z",
+  "price": {
+    "close": "0.79374999",
+    "high": "0.79438001",
+    "low": "0.79321003",
+    "open": "0.79395002",
+    "change": "-0.02",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 54.10161,
+    "macd": -8.3951137e-7,
+    "macd_signal": -0.00045605797,
+    "sma20": 0.792283
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理趋势]",
+      "content": "当前美元/瑞郎（USD/CHF）在0.7937附近震荡整理，反映出市场对美元前景的谨慎态度。短期内，价格未能突破0.7944的高点，显示出上涨势头受限。若价格跌破0.7932，可能会引发更大的下行压力，进一步验证震荡整理的趋势。\n\n从技术指标来看，MACD接近零轴，显示出市场动能不足，且相对强弱指标（RSI）尚未提供有效信号，暗示当前缺乏明确的买入或卖出机会。20日简单移动平均线（SMA）位于0.7923，提供了一定的支撑，但若持续低于该水平，市场情绪可能转向悲观。\n\n支撑位方面，0.7923为关键支撑，若价格跌破此位，可能会加速下探至0.7900。而在阻力位方面，0.7944为重要的压力区域，突破后将可能引发更强的买入信号。交易者应密切关注这一水平的突破情况，以判断后市动向。\n\n因此，建议交易者在当前价位附近采取观望策略，等待价格突破关键支撑或阻力位再做决定。在市场不确定性较高的情况下，风险管理尤为重要，避免仓位过重，以防市场波动带来的潜在损失。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair is currently experiencing a slight bearish trend, with the latest price at 0.79375, reflecting a marginal decline of 0.02% over the past 24 hours. The trading range has been relatively tight, with highs of 0.79438 and lows of 0.79321, indicating limited volatility. This price action suggests that market participants are in a consolidation phase, as they await further cues to determine the pair's next directional move. \n\nFrom a technical perspective, the Relative Strength Index (RSI) is not available, making it difficult to assess the momentum. However, the MACD is showing a value of -0.00000083951137, which indicates that bearish momentum is present, albeit weak. The 20-day Simple Moving Average (SMA) at 0.792283 serves as a potential support level. If the price manages to hold above this SMA, it may signal a reversal or a stronger bullish move in the near term.\n\nResistance is identified near the recent high of 0.79438, where sellers may emerge to push the price lower if tested again. A breach above this level could trigger further buying interest, opening the door to higher targets. Conversely, if the price breaks below the 20-day SMA, the next key support level could be around 0.79200, where buyers may step in again to support the pair.\n\nTraders should consider a cautious approach in the current market environment. A potential buying opportunity could present itself if the pair holds above the 20-day SMA, while a break below this level should prompt a reassessment of long positions. Monitoring price action around the identified resistance and support levels will be crucial for making informed trading decisions in the USD/CHF market."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-15T21:34:41.555Z",
+  "price": {
+    "close": "0.79374999",
+    "high": "0.79438001",
+    "low": "0.79321003",
+    "open": "0.79395002",
+    "change": "-0.02",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 54.10161,
+    "macd": -8.3951137e-7,
+    "macd_signal": -0.00045605797,
+    "sma20": 0.792283
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理趋势]",
+      "content": "在当前市场环境中，美元/瑞郎(USD/CHF)显示出震荡整理的趋势，当前价格为0.79374999，略微回落0.02%。在过去24小时内，价格在0.79438001至0.79321003之间波动，表明市场缺乏明显的方向性动能。投资者应关注市场情绪及经济数据对该货币对的影响。\n\n从技术指标来看，RSI(14)值尚未提供，但可以推测市场处于中性区间。MACD指标接近零轴，表明趋势变化的可能性较小。20日简单移动平均线(SMA)在0.79228300附近，为价格提供了短期支撑。若价格持续维持在该水平之上，可能会吸引更多买盘。\n\n支撑位方面，0.7923附近的SMA可能是关键支撑，若跌破该水平，则可能进一步测试0.7900的心理关口。阻力位则在0.7950附近，若价格突破该水平，可能会引发新的买入信号。投资者需密切关注这些关键水平的突破情况。\n\n建议方面，若价格回调至0.7923附近，可考虑逢低买入，止损设置在0.7900以下，以控制风险。同时，若价格突破0.7950，则可考虑短期内跟进买入，抓住潜在上涨机会。整体而言，保持谨慎态度，密切关注市场变化。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF currency pair is currently trading at 0.79374999, reflecting a slight decline of 0.02% over the past 24 hours. The price has oscillated between a high of 0.79438001 and a low of 0.79321003, indicating a relatively tight trading range. This price action suggests a consolidation phase, which could precede a breakout in either direction. Traders should monitor this range closely, as a decisive move beyond these levels may provide insight into the next major trend.\n\nTechnical indicators are revealing mixed signals. The absence of an RSI value means we cannot gauge overbought or oversold conditions, while the MACD reading of -0.00000083951137 indicates a bearish momentum, although it is very close to neutral. The 20-day Simple Moving Average (SMA) at 0.79228300 serves as a potential support level, which, if breached, could signal further downside. Conversely, resistance is likely found near the recent high of 0.79438001, where selling pressure may emerge.\n\nSupport and resistance levels are crucial for traders. The immediate support at 0.79228300 aligns with the SMA, and a break below this level could lead to a test of the lower boundary at 0.79321003. On the upside, the high of 0.79438001 presents a resistance level that traders should watch closely. A breakout above this resistance may trigger bullish momentum, potentially leading to a retest of higher levels.\n\nGiven the current market conditions, a cautious approach is recommended. Traders might consider waiting for a clear breakout above 0.79438001 or a decisive move below 0.79228300 before entering positions. Additionally, incorporating risk management strategies, such as stop-loss orders, will be essential to navigate the potential volatility in this pair."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-15T05:39:04.016Z",
+  "price": {
+    "close": "154.49300",
+    "high": "154.59801",
+    "low": "154.45900",
+    "open": "154.53000",
+    "change": "-0.02",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.52351,
+    "macd": -0.005667208,
+    "macd_signal": -0.019554233,
+    "sma20": 154.4924
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理中]",
+      "content": "当前美元/日元价格为154.49300，近期走势显示出震荡整理的特征。价格在154.45900至154.59801之间波动，表明市场对未来方向的选择尚不明确。短期内，如果价格突破154.59801，可能会吸引更多买盘，推动价格向上发展。\n\n在技术指标方面，虽然RSI数据缺失，但MACD显示出轻微的负值（-0.00567），暗示市场可能处于弱势状态。SMA(20)的值恰好与当前价格相近，表明短期均线对价格形成支持。若价格持续低于此均线，则可能会加大下行风险。\n\n支撑位方面，154.45900是关键的支撑水平，若跌破该位，将可能引发进一步的下行压力。而154.59801则是重要的阻力位，一旦突破，可能会刺激进一步上涨。因此，投资者应密切关注这两个价位的表现，以便抓住交易机会。\n\n建议短线交易者在接近支撑位时考虑建立多头头寸，而在触及阻力位时则考虑获利了结或反向操作。同时，保持警惕，关注整体市场情绪变化，以调整交易策略。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 154.49300, reflecting a slight decline of 0.02% over the last 24 hours. The recent price action suggests a consolidation phase, with the pair oscillating between a high of 154.59801 and a low of 154.45900. This indicates a tight trading range, which could lead to a breakout in either direction. Traders should watch for a close above the recent high or a breakdown below the low to confirm the next significant move.\n\nIn terms of technical indicators, the current MACD value is -0.0057, suggesting a bearish momentum; however, the absence of a signal line complicates the interpretation. The SMA(20) stands at 154.49240, reinforcing the idea of a neutral trend. Without clear momentum from the RSI, which is currently unavailable, traders may find it prudent to adopt a cautious approach, awaiting more definitive signals before committing to positions.\n\nKey support levels are identified at 154.45900, where buying interest may emerge, while resistance is observed at 154.59801. A breach of the support level could lead to further downside, potentially targeting 154.4000 as the next psychological barrier. Conversely, if the resistance level is surpassed, the pair may rally towards 154.7000, which could attract further bullish sentiment.\n\nGiven the current market conditions, traders are advised to monitor price action closely. A breakout above resistance or below support could provide compelling trade opportunities. In the meantime, employing a range-bound trading strategy may be beneficial, with tight stop-loss orders to mitigate risks while seeking small profits from fluctuations within the established range."
+    }
+  }
+}

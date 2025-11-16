@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-15T12:23:21.484Z",
+  "price": {
+    "close": "4080.45766",
+    "high": "4080.64181",
+    "low": "4080.39805",
+    "open": "4080.45682",
+    "change": "0.00",
+    "datetime": "2025-11-15 23:00:00"
+  },
+  "indicators": {
+    "rsi": 32.30991,
+    "macd": -14.35147,
+    "macd_signal": -17.98888,
+    "sma20": 4083.16548
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[当前走势震荡整理]",
+      "content": "当前黄金/美元(XAU/USD)的价格在4080.45766附近波动，整体呈现震荡整理的态势。过去24小时内价格变化不大，显示出市场参与者的观望情绪。短期内，黄金未能突破4083.16548的SMA(20)均线，可能意味着短期内缺乏强烈的买入动能。\n\n从技术指标来看，MACD显示出负值，说明短期内卖压仍然存在，但未能提供明确的卖出信号。RSI指标数据缺失，无法全面评估超买或超卖状态，因此需密切关注市场情绪的变化。此外，若价格持续在4080.39805的低点上方，则可能构成短期支撑位。\n\n在支撑和阻力方面，4083.16548是短期阻力位，若突破该点位，可能会引发进一步的上涨。而4080.39805的低点则是关键支撑位，跌破后可能会导致更大幅度的下滑。建议交易者在当前震荡行情中采取观望策略，待价格有效突破阻力或支撑位后再考虑入场。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current market price of Gold against the US Dollar (XAU/USD) is trading at 4080.45766, reflecting a stable 24-hour change of 0.00%. This stability suggests a consolidation phase, where the price has been oscillating between the high of 4080.64181 and the low of 4080.39805. In the absence of a clear trend, traders should monitor for potential breakouts or breakdowns from this range to identify the next directional move.\n\nIn terms of technical indicators, the current MACD value of -14.35147 indicates bearish momentum, although the lack of a signal line complicates the interpretation. The absence of a clear RSI value also limits our ability to assess overbought or oversold conditions. Traders should keep an eye on these indicators for potential crossovers or divergences that may signal a shift in momentum. \n\nSupport and resistance levels are crucial in navigating the current market. The first level of support can be identified around the recent low of 4080.39805, while resistance is seen at the high of 4080.64181. A break below support could lead to further declines, while a breach above resistance might trigger upward momentum. Such levels should be watched closely for valid entry or exit points.\n\nConsidering the current market conditions, a cautious approach is advisable. Traders may consider waiting for a confirmed breakout beyond the established range before entering positions. If the price breaks above resistance, it could provide a buying opportunity, while a drop below support may present a chance for shorting. Risk management is essential, given the current volatility and the unclear momentum signals from the indicators."
+    }
+  }
+}

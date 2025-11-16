@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-15T20:12:54.741Z",
+  "price": {
+    "close": "0.65359",
+    "high": "0.65386",
+    "low": "0.65342",
+    "open": "0.65351",
+    "change": "0.01",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.90043,
+    "macd": -0.0000534858,
+    "macd_signal": -0.00020182608,
+    "sma20": 0.6533045
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[当前震荡整理]",
+      "content": "当前，澳元/美元（AUD/USD）在0.65359附近震荡整理，显示出短期内缺乏明确的趋势。价格在0.65386和0.65342之间波动，表明市场参与者在这一价位区域内观望情绪较浓，尚未形成强烈的买入或卖出信号。\n\n从技术指标方面来看，尽管MACD处于负值区域，表明短期内可能存在卖压，但RSI数据缺失使得我们难以判断超买或超卖状态。20日简单移动平均线（SMA）为0.6533045，进一步支撑了当前的震荡格局，价格在此上下波动，显示出短期可能的支撑位。\n\n在支撑和阻力位方面，0.65342构成有效支撑，而0.65386则是短期阻力位。若价格突破阻力位，有可能迎来新一轮的上涨；反之，跌破支撑位则可能加剧下行风险。投资者应密切关注这些关键价位，以便及时调整交易策略。\n\n建议交易者在当前市场环境中保持谨慎，考虑在支撑位附近寻找买入机会，同时在接近阻力位时寻找卖出信号，灵活应对市场变化。保持风险管理意识，以减少不必要的损失。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) against the US Dollar (USD) is currently trading at 0.65359, showing minimal fluctuation in the last 24 hours with a change of just 0.01%. The price action has been relatively tight, with a high of 0.65386 and a low of 0.65342. This narrow range suggests a consolidation phase, as traders may be awaiting significant economic data or geopolitical developments that could influence market sentiment. A break above 0.6540 could indicate a potential bullish reversal, while downside pressure may intensify if the price drops below 0.6530.\n\nIn terms of technical indicators, the absence of an RSI reading limits our ability to gauge overbought or oversold conditions at this moment. The MACD is slightly negative at -0.000053485800, suggesting a mild bearish momentum, but it is crucial to await further confirmation through crossovers or changes in direction. The 20-period Simple Moving Average (SMA) at 0.6533045 is currently providing dynamic support, indicating that if prices drift lower, this level could act as a buffer against further declines.\n\nSupport is identified around the 0.6530 level, while resistance can be established at 0.6540. A sustained move above this resistance could attract buyers and lead to a retest of the next significant resistance at 0.6560. Conversely, a failure to hold above the support level may prompt a bearish outlook, possibly targeting the 0.6500 psychological level. Traders should closely monitor these levels and be prepared for volatility, especially surrounding any upcoming economic releases from either the US or Australia.\n\nIn terms of trading strategy, it may be prudent to adopt a wait-and-see approach. For those with a bullish outlook, consider entering long positions above 0.6540, with an initial target around 0.6560. Alternatively, for bearish sentiment, a short position could be warranted if prices breach 0.6530, targeting the psychological 0.6500. Using appropriate risk management techniques is essential, given the current sideways market conditions."
+    }
+  }
+}

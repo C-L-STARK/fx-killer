@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-15T05:42:37.731Z",
+  "price": {
+    "close": "4080.4417",
+    "high": "4080.64017",
+    "low": "4080.39564",
+    "open": "4080.45848",
+    "change": "-0.00",
+    "datetime": "2025-11-15 16:00:00"
+  },
+  "indicators": {
+    "rsi": 32.2896,
+    "macd": -21.53075,
+    "macd_signal": -23.73633,
+    "sma20": 4092.1241
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中]",
+      "content": "当前黄金/美元（XAU/USD）价格保持在4080.4417附近，市场表现出窄幅震荡的特征。整体来看，金价在4080.39564至4080.64017的区间内波动，未能突破明显的支撑和阻力位，显示出多空双方在此水平的拉锯。\n\n从技术指标来看，RSI(14)尚未提供具体数值，无法准确判断市场超买或超卖状态。MACD值为-21.53075，表明当前市场情绪偏向弱势，可能暗示短期内仍需谨慎对待。SMA(20)处于4092.12410，进一步确认了当前金价的弱势趋势，短期内反弹可能受限于该均线的压制。\n\n支撑位方面，4080.39564将成为短期关键支撑，若跌破该位置，可能引发更深的回调。相反，若金价突破4080.64017，则可能向4092.12410寻求进一步的阻力位。建议投资者在当前区间内采取观望策略，待确认突破信号后再做决策，以降低风险并把握更好的入场时机。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current market price of XAU/USD stands at 4080.4417, reflecting a stable atmosphere with a minimal 24-hour change of -0.00%. Price action has exhibited a tight range, with a high of 4080.64017 and a low of 4080.39564, suggesting a period of consolidation. This stability may indicate indecision among traders, as neither bulls nor bears have gained significant control. Identifying the next directional move will be crucial as the market navigates through these tight confines.\n\nTrend analysis indicates a bearish sentiment, given the recent price action below the 20-period Simple Moving Average (SMA) of 4092.12410. This suggests that sellers may be gaining traction, particularly if the price fails to reclaim the SMA. A sustained move below this level could further reinforce bearish pressure, leading to potential declines. Conversely, a break above the SMA could signal a shift in momentum, providing an opportunity for buyers to re-enter the market.\n\nKey support levels can be identified near the recent low of 4080.39564, which may serve as a crucial point for buyers to step in. A breakdown below this level could open the door for further declines, with subsequent support emerging around 4070. On the resistance side, the 20-period SMA at 4092.12410 serves as an immediate barrier, while the high at 4080.64017 could also act as a resistance point. Traders should closely monitor these levels for potential breakout or breakdown signals.\n\nFor trading strategies, a cautious approach is advised given the current market conditions. Traders may consider waiting for a confirmed breakout above the 20-period SMA to initiate long positions, while a breakdown below the support level at 4080.39564 could trigger short positions. Utilizing stop-loss orders will be essential to manage risk effectively, especially in this period of consolidation where volatility may increase unexpectedly."
+    }
+  }
+}

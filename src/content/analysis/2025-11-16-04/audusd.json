@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-16T04:20:00.592Z",
+  "price": {
+    "close": "0.65359",
+    "high": "0.65386",
+    "low": "0.65342",
+    "open": "0.65351",
+    "change": "0.01",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.90043,
+    "macd": -0.0000534858,
+    "macd_signal": -0.00020182608,
+    "sma20": 0.6533045
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理中]",
+      "content": "当前AUD/USD的价格为0.65359，近期表现出一定的震荡特征。在高点0.65386和低点0.65342之间交易，表明市场尚未形成明确的趋势方向。短期内，价格可能会在这些区间内反复波动，等待进一步的市场信号来确认下一步走势。\n\n技术指标方面，虽然RSI和MACD数据缺失，但20日简单移动平均线(SMA)为0.6533045，显示出该价格水平可能作为短期支撑位。若价格跌破此水平，可能会引发进一步回调，反之若突破则有望向上测试更高的阻力位。\n\n在支撑和阻力方面，当前的支撑位在0.65330附近，而阻力位则在0.65400左右。交易者应密切关注价格在这些关键水平的表现，以确认潜在的买入或卖出信号。若突破阻力位，买入信号可能会增强；反之，跌破支撑位则需考虑风险控制。\n\n综合来看，AUD/USD在震荡整理中，建议交易者保持谨慎，适时调整仓位。关注技术指标和价格走势的变化，以把握可能的交易机会。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.65359, exhibiting a slight upward movement of 0.01% over the past 24 hours. The price has been relatively stable within the range of 0.65342 to 0.65386, indicating a consolidation phase. This stability suggests that traders are assessing the broader market sentiment and potential catalysts that could drive the pair out of its current range. A breakout above 0.65386 might indicate bullish momentum, while a dip below 0.65342 could signal a bearish trend.\n\nIn terms of technical indicators, the absence of a clear RSI reading limits our ability to gauge overbought or oversold conditions. The MACD value is slightly negative at -0.000053485800, which could imply that bearish sentiment is present, albeit weak. Meanwhile, the 20-period Simple Moving Average (SMA) at 0.6533045 serves as a dynamic support level. If the price holds above this level, it may indicate a potential bullish reversal; however, sustained trading below could confirm a bearish trend.\n\nSupport levels are established at 0.65342 and further down at 0.65250, while resistance is noted at 0.65386 and 0.65500. Traders should monitor these levels closely, as they represent potential entry and exit points. A break above 0.65500 could trigger further buying interest, while a failure to maintain above the 0.65342 support could lead to increased selling pressure.\n\nFor trading strategies, a cautious approach may be prudent given the current market conditions. Traders could consider entering long positions if the price breaks above 0.65386, with a target around 0.65500. Conversely, a short position may be warranted if the price falls below 0.65342, targeting the next support level at 0.65250. Risk management strategies, including stop-loss orders, should be implemented to mitigate potential losses."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-15T12:20:18.212Z",
+  "price": {
+    "close": "0.65359",
+    "high": "0.65386",
+    "low": "0.65342",
+    "open": "0.65351",
+    "change": "0.01",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.90043,
+    "macd": -0.0000534858,
+    "macd_signal": -0.00020182608,
+    "sma20": 0.6533045
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理，谨慎观望]",
+      "content": "当前澳元/美元（AUD/USD）在0.65359附近波动，24小时变化幅度仅为0.01%，显示出市场情绪相对平稳。根据最新的高点和低点数据，价格在0.65386和0.65342之间震荡整理，表明短期内缺乏明确的方向性趋势。\n\n技术指标方面，尽管RSI和MACD的具体数值尚不可得，但MACD指标的微弱负值显示出卖方力量仍在主导市场。20日简单移动平均线（SMA）在0.6533045附近，为近期价格提供了一定的支撑。若价格下破该水平，可能会引发进一步的下行压力。\n\n在支撑与阻力方面，0.65342是近期的短期支撑位，而0.65386则是阻力位。若价格突破0.65386，可能会吸引更多买盘，但若下破0.65342，则可能加剧下行趋势。因此，投资者在操作时应关注这些关键价位。\n\n基于当前市场情况，建议投资者采取谨慎观望的态度，待价格突破关键支撑或阻力位后再进行交易决策，避免在震荡行情中盲目入场。保持灵活的交易策略，关注市场动态，以应对潜在的价格波动。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.65359, showing a slight increase of 0.01% over the past 24 hours. The price movement has been relatively confined within a narrow range, with a high of 0.65386 and a low of 0.65342. This indicates a period of consolidation, which could suggest indecision in the market. Traders should watch for a breakout above the recent high or a slide below the low to determine potential future direction.\n\nFrom a technical perspective, the absence of a calculated RSI and MACD signal complicates momentum analysis. However, the MACD value of -0.000053485800 indicates a slight bearish sentiment, suggesting that sellers may have a marginal advantage at this time. The SMA(20) at 0.6533045 serves as a short-term trend indicator, and with the current price above this moving average, it may imply that the upward momentum remains intact.\n\nIn terms of support and resistance levels, the immediate support can be identified around 0.65342, with a critical resistance level at 0.65386. A decisive break above the resistance could lead to further bullish momentum, potentially targeting the next psychological level at 0.6550. Conversely, if the price breaches the support level, traders may look for a deeper retracement towards the 0.6520 region.\n\nFor trading strategies, a cautious approach is advisable. Traders could consider entering long positions if the price confirms a breakout above 0.65386 with volume support. Conversely, short positions may be warranted if the price falls below 0.65342, with a target aligned with the next support zone. Risk management should remain a priority, with appropriate stop-loss levels to minimize potential losses in this uncertain market environment."
+    }
+  }
+}

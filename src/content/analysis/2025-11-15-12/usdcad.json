@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-15T12:21:06.706Z",
+  "price": {
+    "close": "1.40213",
+    "high": "1.40276",
+    "low": "1.40120",
+    "open": "1.40258",
+    "change": "-0.03",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 46.62505,
+    "macd": 0.000088553031,
+    "macd_signal": 0.00024427299,
+    "sma20": 1.40281
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡走势，关注支撑与阻力]",
+      "content": "当前美元/加元（USD/CAD）在1.40213附近震荡整理，24小时变化为-0.03%。在高点1.40276和低点1.40120之间的波动表明市场情绪相对谨慎，投资者在等待进一步的市场信号。整体趋势呈现出横盘整理特征，尚未出现明显的上升或下降趋势。\n\n从技术指标来看，尽管RSI(14)数据缺失，MACD数值接近零，显示出市场缺乏明确的方向性。20日简单移动平均线(SMA)位于1.40281，提供了短期的阻力位。若价格突破此水平，可能会吸引更多多头参与，反之则可能再次测试支撑位。\n\n支撑位方面，1.40120是一个关键心理关口，若价格跌破该水平，可能引发进一步的卖压。另一方面，若能稳住在此支撑之上，反弹的潜力将增加。投资者应密切关注价格行为，以制定相应的交易策略。\n\n建议短期内采取观望态度，等待价格突破关键阻力或支撑位后再进行交易。如突破1.40281，可以考虑做多；如跌破1.40120，则可考虑做空。保持灵活应变的策略，以应对市场的变化。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD pair is currently trading at 1.40213, reflecting a slight decline of 0.03% over the past 24 hours. The price has oscillated within a narrow range, with a high of 1.40276 and a low of 1.40120. This tight range suggests a period of consolidation, which could lead to a breakout in either direction. Analyzing the broader trend, the pair has shown a tendency to remain within an upward channel, but the recent price action indicates a potential weakening of bullish momentum.\n\nIn terms of technical indicators, the absence of a calculated RSI means we need to rely on other metrics for insights. The MACD shows a value of 0.000088553031, indicating slight bullish momentum, although the lack of a signal line makes interpretation challenging. The 20-period Simple Moving Average (SMA) stands at 1.40281, providing a dynamic resistance level. A close above this level could signal renewed bullish interest, while a failure to break it may lead to further downside risks.\n\nSupport is currently found around the 1.40120 level, which coincides with the recent low. A sustained move below this level could trigger further selling pressure, potentially targeting the next support around 1.40000. Conversely, if the pair can hold above the 1.40120 support and break through the 1.40281 SMA, it may pave the way for a rally towards 1.40500 or higher, suggesting a cautious bullish outlook.\n\nTraders should consider adopting a wait-and-see approach in the current market conditions. A short position could be entertained if the price decisively breaks below the 1.40120 level, while a break above the SMA at 1.40281 may warrant a long position. Employing a tight stop-loss strategy will be crucial, given the current volatility and the potential for rapid price movements in either direction."
+    }
+  }
+}

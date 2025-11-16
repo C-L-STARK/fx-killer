@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-16T09:34:03.151Z",
+  "price": {
+    "close": "1.16154",
+    "high": "1.16239",
+    "low": "1.16154",
+    "open": "1.16211",
+    "change": "-0.05",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 45.36101,
+    "macd": -0.00020076625,
+    "macd_signal": 0.000024967323,
+    "sma20": 1.16275
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理，谨慎观望]",
+      "content": "当前欧元/美元在1.16154附近震荡整理，显示出短期内缺乏明确的趋势。市场保持在高点1.16239和低点1.16154之间，表明买卖力量相对均衡。投资者需关注即将发布的经济数据，以评估市场情绪是否会发生改变。\n\n技术指标方面，虽然RSI(14)数据缺失，但根据MACD的负值显示，短期内趋势偏向下行。SMA(20)在1.16275附近提供了一定的阻力，若价格突破该水平，可能会引发更大的上涨动力。反之，若持续在1.16154下方运行，则可能会测试更低支撑位。\n\n在支撑与阻力位方面，1.16154作为短期支撑位，若跌破此位，可能会测试1.16000心理关口。上方阻力则在1.16275和随后1.16400附近，突破这些阻力位将可能改变当前的震荡格局。\n\n鉴于当前市场的震荡态势，建议投资者在待观察的基础上进行交易，避免在无明确信号时贸然入场。可以考虑在接近支撑位时寻找买入机会，并在靠近阻力位时逐步获利了结。保持灵活应对市场变化非常重要。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD pair is currently exhibiting a slight bearish trend, reflected by the recent price of 1.16154, which is marginally lower than the previous day’s high of 1.16239. This slight dip in price over the last 24 hours indicates that the market sentiment is somewhat cautious. Traders should watch for potential continuation of this trend, particularly if price action remains below the 20-period simple moving average (SMA) at 1.16275, which could act as a dynamic resistance level.\n\nIn terms of technical indicators, the MACD is currently negative, suggesting that bearish momentum may be gaining strength. However, the absence of the RSI value limits the ability to gauge overbought or oversold conditions. Traders should be vigilant for potential divergences in momentum indicators, as these could signal a reversal or strengthening of the current trend. A close above the SMA could indicate a shift in momentum, leading to potential buying opportunities.\n\nKey support levels to consider are around 1.16000, where previous price action suggests buying interest may emerge. Should the price breach this level, a further decline could lead to targets toward 1.15800. Conversely, if the pair retraces and tests the SMA, a rejection at this level could reinforce bearish sentiment and provide a shorting opportunity. \n\nOverall, traders should remain cautious and monitor price action closely. A break below support or a rejection at resistance could provide clear trading signals. Implementing stop-loss orders near these key levels can help manage risk effectively while allowing for the possibility of capitalizing on emerging trends in the EUR/USD pair."
+    }
+  }
+}

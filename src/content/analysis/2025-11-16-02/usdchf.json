@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-16T03:01:05.400Z",
+  "price": {
+    "close": "0.79374999",
+    "high": "0.79438001",
+    "low": "0.79321003",
+    "open": "0.79395002",
+    "change": "-0.02",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 54.10161,
+    "macd": -8.3951137e-7,
+    "macd_signal": -0.00045605797,
+    "sma20": 0.792283
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理趋势]",
+      "content": "当前美元/瑞郎(USD/CHF)的走势呈现出震荡整理的态势。最新价格为0.79374999，日内波动较小，显示出市场参与者的谨慎情绪。价格在高点0.79438001和低点0.79321003之间徘徊，表明市场尚未形成明确的方向。\n\n在技术指标方面，RSI(14)尚未提供数据，但从MACD来看，目前的值为-0.00000083951137，显示出弱势信号。SMA(20)为0.79228300，作为短期趋势的参考，价格在此之上运行可能表明短期内仍有支撑。\n\n支撑位方面，0.7923的SMA(20)可能成为关键支撑，而0.7944则为重要阻力位。若价格突破0.7944，可能会引发更强的上涨动能，反之则可能向下测试支撑位。对于交易者而言，可以考虑在支撑位附近寻找买入机会，而在接近阻力位时则应谨慎，防止价格反转带来的风险。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF currency pair currently shows a slight bearish trend, trading at 0.79375 after experiencing a minor decline of 0.02% over the past 24 hours. The price movement has remained within a narrow range, with a high of 0.79438 and a low of 0.79321. This consolidation phase suggests indecision in the market, potentially setting the stage for a breakout. Traders should monitor for a decisive movement beyond these boundaries to gauge the next direction for the currency pair.\n\nTechnical indicators provide further insights into the current market sentiment. The absence of a recent RSI reading limits our understanding of momentum, but the MACD value near zero indicates a lack of strong directional momentum. Meanwhile, the 20-day Simple Moving Average (SMA) at 0.792283 serves as a critical support level. If the price holds above this SMA, it may suggest continued bullish potential. Conversely, a break below could indicate a shift toward bearish sentiment.\n\nSupport and resistance levels are key for trading decisions. The current support level is established at 0.792283, coinciding with the SMA, while the resistance level lies near the recent high of 0.79438. A sustained move above this resistance may trigger a bullish rally, while a breach below support could lead to further downside potential, possibly targeting the lower end of the recent trading range. \n\nFor traders considering entry points, watching for price action around these technical levels will be critical. A breakout above 0.79438 could provide a buying opportunity, while a drop below 0.792283 may warrant a more cautious approach or a short position. Given the current market dynamics, a wait-and-see strategy could be prudent until clearer signals emerge from the price action."
+    }
+  }
+}

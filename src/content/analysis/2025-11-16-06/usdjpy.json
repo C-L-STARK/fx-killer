@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-16T06:54:07.133Z",
+  "price": {
+    "close": "154.49300",
+    "high": "154.59801",
+    "low": "154.45900",
+    "open": "154.53000",
+    "change": "-0.02",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.52351,
+    "macd": -0.005667208,
+    "macd_signal": -0.019554233,
+    "sma20": 154.4924
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理，等待突破信号]",
+      "content": "当前美元/日元（USD/JPY）在154.49300附近震荡整理，短期内走势缺乏明确方向。从最近的高点154.59801和低点154.45900来看，市场正处于横盘区间，投资者需关注关键价格水平的突破情况以确定后市走向。\n\n技术指标方面，MACD显示出微弱的负值，表明卖方略占优势，但尚未形成明确的卖出信号。由于RSI数据缺失，难以全面评估市场的超买或超卖状态。SMA(20)与当前价格接近，显示出市场可能在此区域构筑支撑，若价格持续维持在此之上，可能会吸引更多买盘。\n\n支撑位方面，154.45900是当前关键支撑区域，若跌破该位，可能引发更深的调整。而154.59801则为阻力位，若突破，可能会吸引更多的买入信号。投资者应密切关注这些关键价位，以便及时调整交易策略。\n\n综合来看，当前市场处于震荡整理阶段，建议保持观望，等待明确的突破信号后再进行操作。若价格突破154.59801，可考虑适度介入多单；反之，若跌破154.45900，应谨慎评估风险，考虑适度减仓或做空。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 154.49300, reflecting a slight decline of 0.02% over the last 24 hours. This minor pullback suggests a period of consolidation after reaching a recent high of 154.59801. The overall trend remains bullish, as the price continues to trade above the 20-period simple moving average (SMA) of 154.49240, indicating a potential continuation of upward momentum. However, traders should remain vigilant for any signs of reversal given the proximity to established resistance levels.\n\nIn terms of technical indicators, the MACD shows a value of -0.0056672080, suggesting a slight bearish sentiment in the short term. The lack of a defined signal line makes it difficult to ascertain the strength of this bearish momentum. Traders should watch for divergence between the price and the MACD, as this could indicate a potential reversal. Without the RSI data, it's crucial to keep an eye on price action and volume for additional confirmation of momentum shifts.\n\nKey support levels are observed around the recent low of 154.45900, which could act as a floor for the pair should selling pressure intensify. Conversely, resistance remains firmly established near the recent high of 154.59801. A breakout above this level could open the door for further gains, while a drop below the support level could signal a shift in market sentiment. Traders should consider these levels when planning their entries and exits.\n\nFor trading strategies, a bullish breakout above 154.59801 could present a buying opportunity, potentially targeting higher resistance levels. Conversely, a decline below 154.45900 may suggest a short position, with targets set at lower support levels. Employing appropriate risk management techniques such as stop-loss orders will be essential to mitigate potential losses in this volatile environment."
+    }
+  }
+}

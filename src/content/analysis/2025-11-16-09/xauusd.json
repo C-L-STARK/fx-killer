@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-16T09:39:03.360Z",
+  "price": {
+    "close": "4080.42743",
+    "high": "4080.64181",
+    "low": "4080.39587",
+    "open": "4080.45682",
+    "change": "-0.00",
+    "datetime": "2025-11-15 23:00:00"
+  },
+  "indicators": {
+    "rsi": 32.27506,
+    "macd": -14.35388,
+    "macd_signal": -17.98936,
+    "sma20": 4083.16397
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，谨慎观望]",
+      "content": "当前黄金/美元(XAU/USD)的价格稳定在4080.42附近，显示出市场在高位的震荡整理态势。近期没有显著的波动，24小时变化为-0.00%，表明买卖双方力量对比平衡。短期内，价格在4080.64和4080.40之间波动，反映出市场情绪的谨慎。\n\n从技术指标来看，MACD值为-14.35，表明当前市场可能处于空头趋势，尽管尚未确认转折信号。由于RSI(14)数据缺失，无法进行超买或超卖的判断。20日简单移动平均线(SMA)在4083.16附近，可能成为短期内的压力位，阻碍价格进一步上行。\n\n支撑位方面，4080.40附近是关键水平，若价格跌破这一点，可能会引发进一步的下行压力。反之，若突破4083.16的阻力位，可能会吸引更多买盘，推动价格上涨。建议投资者在当前震荡行情中保持观望，等待更明确的趋势信号出现后再做决策。适度的风险管理将有助于在不确定的市场中保护资本。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of gold against the US dollar (XAU/USD) is trading at 4080.43, exhibiting minimal fluctuation over the past 24 hours. The price has remained within a tight range, with a high of 4080.64 and a low of 4080.40. This stability suggests a consolidation phase, as the market appears to be waiting for a catalyst to drive momentum in either direction. Overall, this sideways movement indicates uncertainty among traders, underscoring the need for close observation of upcoming economic data that may influence the market.\n\nThe moving average (SMA) at 20 periods is positioned at 4083.16, providing a potential resistance level. If the price can break above this level, it may signal a bullish reversal, attracting buying interest. Conversely, should the price remain below this level, it could reinforce bearish sentiment, making it essential for traders to watch for a decisive break. The absence of an RSI reading limits our ability to gauge market momentum, but the MACD figure of -14.35 suggests that the current bearish trend may still have some strength.\n\nSupport levels appear to be forming near the recent low of 4080.40, which could act as a safety net for buyers. Should the price dip below this support, the next level to watch would likely be around 4075, where buying interest may emerge. Conversely, if buyers successfully push the price above the SMA resistance, potential targets may lie around 4090, which could attract further bullish momentum.\n\nIn terms of trading strategies, traders might consider establishing a short position if the price fails to maintain above the SMA and breaks below the support level. Alternatively, a long position could be warranted if the price surpasses the SMA, especially if accompanied by increased volume. The current market conditions suggest that caution is advised, and traders should remain vigilant for breakout opportunities in either direction."
+    }
+  }
+}
