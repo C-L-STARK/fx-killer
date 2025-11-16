@@ -69,7 +69,7 @@ export default function BlogAIGenerator({ onGenerated, onClose }: BlogAIGenerato
 
       const decoder = new TextDecoder();
       let fullContent = '';
-      let buffer = ''; // Buffer for incomplete lines
+      let buffer = ''; // Buffer for incomplete SSE messages
 
       while (true) {
         const { done, value } = await reader.read();
@@ -78,58 +78,72 @@ export default function BlogAIGenerator({ onGenerated, onClose }: BlogAIGenerato
         const chunk = decoder.decode(value, { stream: true });
         buffer += chunk; // Append to buffer
 
-        // Split by newlines but keep the last incomplete line in buffer
-        const lines = buffer.split('\n');
-        // The last element might be incomplete, so keep it in buffer
-        buffer = lines.pop() || '';
+        // Process complete SSE messages (separated by double newline)
+        const messages = buffer.split('\n\n');
+        // Keep the last potentially incomplete message in buffer
+        buffer = messages.pop() || '';
 
-        for (const line of lines) {
-          if (line.startsWith('data: ')) {
-            try {
-              const jsonStr = line.slice(6).trim();
-              if (!jsonStr) continue; // Skip empty lines
+        for (const message of messages) {
+          if (!message.trim()) continue;
 
-              console.log('[BlogAI] Parsing JSON:', jsonStr.substring(0, 200));
-              const data = JSON.parse(jsonStr);
+          // Extract data from SSE format: "data: {...}"
+          const lines = message.split('\n');
+          for (const line of lines) {
+            if (line.startsWith('data: ')) {
+              try {
+                const jsonStr = line.slice(6).trim();
+                if (!jsonStr) continue;
 
-              if (data.type === 'content') {
-                fullContent += data.data;
-                setStreamContent(fullContent);
-                // Update progress based on content length (estimate)
-                const estimatedTotal = 5000; // Rough estimate for full JSON
-                setProgress(Math.min(90, (fullContent.length / estimatedTotal) * 100));
-              } else if (data.type === 'complete') {
-                console.log('[BlogAI] Complete event received:', data.data);
-                setProgress(100);
-                // Call onGenerated which will handle closing the modal
-                onGenerated({ ...data.data, author: 'FX Killer Team' });
-                // Modal will be closed by parent component (BlogManager)
-              } else if (data.type === 'error') {
-                throw new Error(data.data);
+                console.log('[BlogAI] Parsing JSON:', jsonStr.substring(0, 200));
+                const data = JSON.parse(jsonStr);
+
+                if (data.type === 'content') {
+                  fullContent += data.data;
+                  setStreamContent(fullContent);
+                  const estimatedTotal = 5000;
+                  setProgress(Math.min(90, (fullContent.length / estimatedTotal) * 100));
+                } else if (data.type === 'complete') {
+                  console.log('[BlogAI] Complete event received:', {
+                    hasTitle: !!data.data?.title,
+                    hasContent: !!data.data?.content,
+                    contentLength: data.data?.content?.length
+                  });
+                  setProgress(100);
+                  onGenerated({ ...data.data, author: 'FX Killer Team' });
+                } else if (data.type === 'error') {
+                  throw new Error(data.data);
+                }
+              } catch (e) {
+                const error = e as Error;
+                console.error('[BlogAI] JSON parse error:', error.message);
+                console.error('[BlogAI] Failed line:', line.substring(0, 500));
               }
-            } catch (e) {
-              const error = e as Error;
-              console.error('[BlogAI] JSON parse error:', error.message, 'Line length:', line.length);
-              // Don't throw, just log and continue
             }
           }
         }
       }
 
       // Process any remaining data in buffer
-      if (buffer.trim() && buffer.startsWith('data: ')) {
-        try {
-          const jsonStr = buffer.slice(6).trim();
-          console.log('[BlogAI] Processing final buffer:', jsonStr.substring(0, 200));
-          const data = JSON.parse(jsonStr);
+      if (buffer.trim()) {
+        const lines = buffer.split('\n');
+        for (const line of lines) {
+          if (line.startsWith('data: ')) {
+            try {
+              const jsonStr = line.slice(6).trim();
+              if (!jsonStr) continue;
 
-          if (data.type === 'complete') {
-            console.log('[BlogAI] Complete event from buffer:', data.data);
-            setProgress(100);
-            onGenerated({ ...data.data, author: 'FX Killer Team' });
+              console.log('[BlogAI] Processing final buffer:', jsonStr.substring(0, 200));
+              const data = JSON.parse(jsonStr);
+
+              if (data.type === 'complete') {
+                console.log('[BlogAI] Complete event from buffer');
+                setProgress(100);
+                onGenerated({ ...data.data, author: 'FX Killer Team' });
+              }
+            } catch (e) {
+              console.error('[BlogAI] Error processing final buffer:', e);
+            }
           }
-        } catch (e) {
-          console.error('[BlogAI] Error processing final buffer:', e);
         }
       }
     } catch (err: any) {
