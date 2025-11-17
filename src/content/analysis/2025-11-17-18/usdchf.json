@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-17T18:58:11.437Z",
+  "price": {
+    "close": "0.79582000",
+    "high": "0.79610002",
+    "low": "0.79558003",
+    "open": "0.79566002",
+    "change": "0.02",
+    "datetime": "2025-11-18 05:00:00"
+  },
+  "indicators": {
+    "rsi": 59.55254,
+    "macd": 0.0005867073,
+    "macd_signal": 0.00053346487,
+    "sma20": 0.79498999
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理中]",
+      "content": "当前美元/瑞郎的价格为0.79582000，24小时变化幅度仅为0.02%，显示出市场在这一水平附近的震荡整理。高点和低点分别为0.79610002和0.79558003，表明短期内缺乏明确的趋势，市场参与者可能在等待更强的信号以决定方向。\n\n在技术指标方面，RSI(14)未提供，无法判断超买或超卖状态。MACD值为0.00058670730，表明当前没有强烈的买入或卖出动能。SMA(20)为0.79498999，价格略高于该均线，可能为短期多头提供支撑，但未能突破重要阻力位。\n\n支撑位方面，0.79558003可能是短期的强支撑，若下破则可能会引发更深的回调。阻力位在0.79610002附近，突破后可能会吸引更多买盘。建议投资者在当前行情中保持观望，等待价格突破关键支撑或阻力位后再做决定，以降低风险并提高成功率。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair appears to be consolidating around the current price of 0.7958, reflecting a slight 24-hour change of 0.02%. This stability suggests that the market is in a wait-and-see mode, likely influenced by recent economic data releases and geopolitical developments. The recent high of 0.7961 and low of 0.7956 indicate a narrow trading range, which may signal a buildup of momentum as traders look for a breakout in either direction.\n\nFrom a technical perspective, the absence of an RSI reading makes it challenging to assess overbought or oversold conditions. However, the MACD value of 0.0005867 indicates a bullish sentiment, albeit weak. The SMA(20) at 0.79499 provides a key support level, and price action above this level could lead to further advances. Conversely, a drop below this moving average could trigger selling pressure, suggesting a bearish outlook in the short term.\n\nKey resistance is identified at the recent high of 0.7961, which, if breached, could open the door for further gains towards the next psychological level around 0.8000. On the downside, the immediate support at 0.79499, followed by the low of 0.7956, will be crucial in maintaining bullish sentiment. A clear break below these levels could lead traders to reassess their positions and potentially initiate short trades.\n\nTraders should consider a cautious approach, monitoring for signs of breakout or reversal. A close above 0.7961 could present a buying opportunity, while a sustained move below 0.79499 may warrant a short position. As always, employing stop-loss orders and maintaining awareness of broader market trends will be essential for managing risk effectively in this currency pair."
+    }
+  }
+}

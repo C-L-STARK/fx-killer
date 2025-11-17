@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-17T18:57:30.539Z",
+  "price": {
+    "close": "0.56647593",
+    "high": "0.56708634",
+    "low": "0.56647593",
+    "open": "0.56708634",
+    "change": "-0.10",
+    "datetime": "2025-11-18 05:00:00"
+  },
+  "indicators": {
+    "rsi": 43.68419,
+    "macd": -0.00017045906,
+    "macd_signal": -0.00013209511,
+    "sma20": 0.56707065
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理中的下行压力]",
+      "content": "当前纽元兑美元(NZD/USD)的价格表现出一定的下行压力，最近交易价格为0.5665，较24小时前小幅下跌0.10%。在高点0.5671和低点0.5665之间的波动显示出市场仍处于震荡整理阶段，短期内缺乏明确的方向性。\n\n在技术指标方面，虽然RSI(14)数据缺失，但MACD指标显示为-0.00017，表明卖方力量略占优势。20日简单移动平均线(SMA)为0.5671，价格低于该水平，进一步确认了短期内的弱势。若价格持续低于SMA，可能会继续测试更低的支撑位。\n\n支撑位方面，近期低点0.5665将是关键支撑，若跌破该水平，可能会引发进一步下行，目标指向0.5650。相对而言，上方的阻力位在0.5671附近，若价格突破此位，可能会引发短期反弹。\n\n综合来看，建议投资者在当前价格附近采取谨慎态度，关注支撑位的表现。如果价格企图反弹至0.5671，可考虑适量做空，但若跌破0.5665则应及时止损，避免进一步损失。保持灵活应对市场变化，将是成功交易的关键。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD currency pair is currently trading at 0.5665, showing a slight decline of 0.10% over the past 24 hours. This minor downturn follows a recent high of 0.5671, indicating a potential resistance level around this price. The overall trend appears to be bearish in the short term as the market struggles to maintain upward momentum. A sustained close below the SMA(20) at 0.5671 could reinforce selling pressure, suggesting that traders should watch for further downside movement.\n\nIn terms of technical indicators, the MACD is currently at -0.00017, which may imply that bearish momentum is gaining traction. However, the absence of a clear signal line makes interpretation challenging. Traders should remain cautious and monitor the MACD closely for potential crossovers that could indicate a shift in momentum. The RSI is not provided, but if it were available, it would be prudent to assess whether the pair is approaching oversold conditions, which may present a buying opportunity.\n\nKey support levels to observe lie around 0.5650, where buying interest might emerge if prices continue to decline. A break below this level could lead to further downside towards 0.5630. Conversely, resistance remains strong at 0.5671; a breakout above this zone could suggest a reversal in the current bearish trend, allowing the pair to test higher levels, potentially aiming for 0.5700.\n\nFor traders, a short-term strategy could involve selling near the resistance level at 0.5671 with a stop-loss set just above this threshold. Conversely, if the price breaks through this resistance, a long position may be warranted with targets set towards the next resistance level. Active monitoring of the MACD and any emerging patterns will be essential for making informed trading decisions in this fluctuating market."
+    }
+  }
+}

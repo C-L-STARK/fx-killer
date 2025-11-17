@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-17T18:54:21.983Z",
+  "price": {
+    "close": "1.31648",
+    "high": "1.31705",
+    "low": "1.31627",
+    "open": "1.31699",
+    "change": "-0.04",
+    "datetime": "2025-11-18 05:00:00"
+  },
+  "indicators": {
+    "rsi": 49.94255,
+    "macd": 0.00037291694,
+    "macd_signal": 0.00032744077,
+    "sma20": 1.31635
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理中]",
+      "content": "当前英镑/美元（GBP/USD）交易于1.31648附近，近期走势显示出震荡整理的特征。价格在1.31705的高点和1.31627的低点之间波动，表明市场缺乏明确的方向。在这种情况下，投资者需谨慎对待短期内可能出现的波动。\n\n从技术指标来看，虽然RSI（相对强弱指数）数据尚缺失，但根据现有的SMA（20日简单移动平均线）位于1.31635，可以看出当前价格略高于这一均线，显示出一定的上行动能。然而，MACD值接近零，表明市场的动能相对疲软，短期内可能维持在窄幅区间内整理。\n\n支撑位方面，1.31627将是关键支撑区域，若价格跌破此位，可能引发进一步下行。反之，1.31705是短期阻力位，若突破，则可能开启进一步上涨的空间。因此，投资者需关注这些关键价位，以制定相应的交易策略。\n\n建议交易者在当前区域内寻找短线交易机会，利用震荡行情进行区间交易。若价格回调至支撑位附近，可考虑做多；而若价格接近阻力位，则可考虑获利了结或做空。但需注意风险管理，以应对市场的潜在波动。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD currency pair is currently experiencing a slight bearish trend, with the latest price at 1.31648, reflecting a minor 24-hour change of -0.04%. The price action has been relatively tight over the last day, oscillating between a high of 1.31705 and a low of 1.31627. This consolidation suggests indecision among traders, indicating that a breakout in either direction may be imminent. Monitoring the price closely will be essential to identify potential trading opportunities.\n\nFrom an indicator perspective, the current lack of RSI and MACD data limits our ability to assess momentum accurately. However, the 20-period Simple Moving Average (SMA) sits at 1.31635, acting as a dynamic support level. The proximity of the latest price to the SMA suggests a potential area of buying interest. A sustained move above this level could indicate a shift in sentiment, while a break below might confirm ongoing bearish pressure.\n\nKey support is identified at the recent low of 1.31627, which, if breached, may expose the pair to further downside risks. Conversely, resistance is seen at the high of 1.31705, which traders should watch for potential reversal signals. A break above this resistance could lead to a retest of higher levels, possibly targeting the 1.3200 psychological barrier. \n\nTraders should consider adopting a cautious approach given the current market conditions. A buy position could be initiated on a breakout above 1.31705, while a sell position may be warranted if the price falls below 1.31627. Employing stop-loss orders to manage risk will be crucial in this environment of uncertainty, as price action may remain choppy in the near term."
+    }
+  }
+}

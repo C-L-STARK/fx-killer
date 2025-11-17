@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-17T18:58:55.810Z",
+  "price": {
+    "close": "4064.15561",
+    "high": "4076.92006",
+    "low": "4064.15561",
+    "open": "4073.23827",
+    "change": "-0.22",
+    "datetime": "2025-11-18 05:00:00"
+  },
+  "indicators": {
+    "rsi": 42.70527,
+    "macd": -4.86633,
+    "macd_signal": -4.5644,
+    "sma20": 4076.72003
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，关注支撑与阻力]",
+      "content": "当前黄金/美元的价格为4064.16，显示出小幅下跌的趋势。最近的高点4076.92未能突破，表明市场在短期内处于震荡整理阶段。由于价格未能有效突破前高，后市可能会面临进一步调整。\n\n从技术指标来看，MACD值为-4.87，显示出一定的卖压，尽管当前RSI数据缺失，仍需关注超卖或超买的信号。20日简单移动平均线（SMA）在4076.72，作为短期阻力位，若价格持续低于该水平，可能会加大下行风险。\n\n在支撑位方面，4060.00是关键心理关口，若跌破该水平，可能引发更多卖盘，进一步测试更低的支撑位。在阻力方面，4076.92将是市场反弹的重要阻力位，突破后可能引发上行趋势。\n\n综合以上分析，建议交易者在4060.00附近寻找买入机会，设定止损在4050.00，若价格反弹至4076.92，考虑适时获利了结或建立空头头寸，以应对可能的回调。保持谨慎，关注市场情绪变化。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current market data for XAU/USD indicates a slight bearish pressure, with the latest price at 4064.15, reflecting a 24-hour change of -0.22%. This minor decline follows a recent high of 4076.92, suggesting that the recent upward momentum may be losing steam. The overall trend appears to be consolidating around this level, signaling potential indecision among traders. A decisive break below the recent low may indicate a shift towards a more bearish sentiment, while a move above 4076 could renew bullish interest.\n\nAnalyzing the technical indicators, the MACD shows a negative value of -4.86633, which suggests that momentum is currently weak. This bearish reading may further support the notion that sellers are gaining control in the short term. Without the RSI(14) data available, it is difficult to gauge whether XAU/USD is in overbought or oversold territory. However, the SMA(20) at 4076.72 serves as a dynamic resistance level; maintaining price below this level could lead to further declines.\n\nSupport levels are critical in determining potential price reversals. The immediate support can be identified just below the current price, around 4060. If this level is breached, a deeper pullback towards 4050 may occur, potentially attracting buyers. Conversely, if the price holds above 4060, it could present a buying opportunity, especially if it rallies towards the SMA. Watching these key levels will be essential for traders in determining their entry and exit points.\n\nIn conclusion, the current technical landscape suggests caution for traders. A wait-and-see approach may be prudent, particularly as the market grapples with direction. Should a clear trend emerge, either through a breakout above the SMA or a failure to hold above 4060, traders can adjust their strategies accordingly. Monitoring these developments closely will be essential for capitalizing on potential price movements in the XAU/USD pair."
+    }
+  }
+}
