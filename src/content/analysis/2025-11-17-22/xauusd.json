@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-17T22:52:48.830Z",
+  "price": {
+    "close": "4045.72782",
+    "high": "4046.01074",
+    "low": "4045.02505",
+    "open": "4045.79517",
+    "change": "-0.00",
+    "datetime": "2025-11-18 09:00:00"
+  },
+  "indicators": {
+    "rsi": 42.030029,
+    "macd": -10.80809,
+    "macd_signal": -8.013911,
+    "sma20": 4066.13579
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中]",
+      "content": "当前黄金/美元(XAU/USD)的价格在4045.73附近，显示出震荡整理的趋势。虽然24小时变化为0.00%，但高点4046.01与低点4045.03之间的波动，表明市场存在一定的不确定性。此时，交易者应关注价格在这个区间内的走势，以判断后续的方向。\n\n从技术指标来看，MACD目前为负值，显示出下行压力。尽管RSI未提供，但如果RSI在未来几日回升至30以上，可能会暗示超卖情况，并为价格反弹提供信号。SMA(20)位于4066.14，成为短期内的重要阻力位，若价格突破该位，则有望恢复上升趋势。\n\n支撑位方面，4045.00是当前关键支撑线，若价格跌破该位，可能会加速向下调整。相对地，若价格突破4066.14，可能会引发更多买盘，推动黄金价格进一步上涨。建议交易者在区间内灵活操作，关注突破信号，并设置合理的止损和止盈点，以管控风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD stands at 4045.73, reflecting a stable market with minimal fluctuation over the past 24 hours. The recent high and low values indicate a tight trading range, suggesting indecision among traders. This consolidation phase could precede a breakout in either direction, making it crucial to monitor key resistance and support levels. The previous SMA(20) at 4066.14 highlights the potential for upward movement if the price can breach this level.\n\nIndicators such as MACD, currently at -10.81, suggest a bearish momentum, although the absence of a signal line complicates the interpretation. The lack of an RSI value also limits insights into overbought or oversold conditions. However, the recent price action is indicative of a cautious market sentiment, with traders awaiting clearer signals that may emerge from upcoming economic data or geopolitical developments.\n\nKey support is identified at 4045.03, the low of the recent trading session, while the noted SMA(20) at 4066.14 serves as a significant resistance level. A break below the support could signal further declines, potentially targeting 4030 as the next support level. Conversely, if the price breaks above the SMA, it may lead to renewed buying interest, with a potential target of 4080.\n\nTraders should consider adopting a wait-and-see approach until a more defined trend emerges. If the price breaks above 4066.14, long positions may be warranted, targeting the 4080 mark. Conversely, a dip below 4045.03 could trigger short positions, with traders looking to capitalize on potential downward momentum. Active monitoring of market news and technical indicators will be essential in navigating this consolidation phase effectively."
+    }
+  }
+}
