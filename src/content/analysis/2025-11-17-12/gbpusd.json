@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-17T12:21:57.506Z",
+  "price": {
+    "close": "1.31817",
+    "high": "1.31846",
+    "low": "1.31778",
+    "open": "1.31778",
+    "change": "0.02",
+    "datetime": "2025-11-17 23:00:00"
+  },
+  "indicators": {
+    "rsi": 58.39357,
+    "macd": 0.00034842343,
+    "macd_signal": 0.000095293407,
+    "sma20": 1.31615
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理，短期关注支撑位]",
+      "content": "当前英镑/美元的价格为1.31817，24小时内变化幅度较小，仅为0.02%。从价格走势来看，当前市场处于震荡整理状态，未能有效突破1.31846的高点，显示出短期内多空双方的争夺较为激烈。\n\n在技术指标方面，虽然RSI和MACD的具体数值未提供，但可参考SMA(20)的水平。当前的SMA(20)为1.31615，这一均线可作为短期支撑位。若价格跌破此支撑，可能会引发进一步回调。而若维持在此之上，则有望重新挑战上方阻力位。\n\n关于支撑与阻力的判断，1.31615一线是关键支撑位，而1.31846则是近期高点形成的阻力位。投资者需密切关注这两个价位的突破情况，特别是在市场波动加大的情况下，可能会出现快速的价格反应。\n\n综合来看，建议投资者在接近支撑位时可考虑逢低买入，而在接近阻力位时则可考虑部分获利了结或做空。保持灵活的交易策略，并注意市场情绪变化，以应对可能的价格波动。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently trading at 1.31817, reflecting a modest 24-hour change of 0.02%. This slight movement suggests a period of consolidation following recent volatility. The price has oscillated between a high of 1.31846 and a low of 1.31778, indicating a narrow trading range. This range-bound activity may suggest indecision among traders, potentially leading to a breakout if either support or resistance levels are convincingly breached.\n\nFrom a trend analysis perspective, the recent price action appears to be in a bullish formation, given that the current price is above the 20-period Simple Moving Average (SMA) at 1.31615. This SMA can act as a dynamic support level. A sustained move above the recent high of 1.31846 could signal further bullish momentum, while a drop below the SMA may prompt a reevaluation of this bullish outlook, suggesting the potential for a bearish reversal.\n\nIn terms of key support and resistance levels, immediate support is observed at 1.31615, the SMA(20), followed by 1.31500, which may be a psychological level. On the upside, resistance is noted at 1.32000, a key psychological barrier that traders may watch closely. A break above this level could attract further buying interest, while a failure to hold above immediate support could lead to a retraction towards lower levels.\n\nFor traders, the current market conditions suggest a cautious approach. Those with a bullish outlook may look for entry points near the SMA(20) or at the support level of 1.31615, with a stop-loss below 1.31500. Conversely, bearish traders may consider short positions if the price breaks below the SMA, targeting support levels for potential profit. Overall, the market's direction will depend on upcoming economic data releases and geopolitical developments that could influence trader sentiment."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-17T12:23:53.549Z",
+  "price": {
+    "close": "0.65199",
+    "high": "0.65199",
+    "low": "0.65165",
+    "open": "0.65181",
+    "change": "0.03",
+    "datetime": "2025-11-17 23:00:00"
+  },
+  "indicators": {
+    "rsi": 44.84919,
+    "macd": -0.00041411986,
+    "macd_signal": -0.00035958499,
+    "sma20": 0.6526865
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理趋势]",
+      "content": "当前AUD/USD的市场走势呈现震荡整理的局面，最新价格为0.65199，24小时变化幅度较小，仅为0.03%。在高点和低点的区间内，价格未能有效突破，显示出市场参与者的犹豫情绪。短期内，若价格持续在当前水平附近波动，可能会形成进一步的整固。\n\n从技术指标来看，虽然RSI（相对强弱指数）数据缺失，但MACD指标显示出微弱的负值，表明卖方力量略占上风。SMA(20)的值为0.65268650，价格未能突破这一均线，可能暗示短期内存在一定的卖出压力。因此，投资者需关注价格是否能够有效站稳在均线之上。\n\n在支撑和阻力方面，当前价格接近0.65165的低点，若跌破此水平，可能进一步测试0.65000心理关口。而上方阻力位则在0.6527附近，若能突破该水平，将有机会恢复升势并挑战更高的价格区间。\n\n综合来看，建议投资者在短期内保持观望，待价格突破关键支撑或阻力位后再做决策。如果突破0.6527，可考虑逢低买入，而跌破0.65165则可考虑做空，以控制风险并把握市场机会。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.65199, reflecting a modest 24-hour change of 0.03%. This stability suggests that the market is consolidating within a tight range, with recent highs and lows indicating a lack of decisive momentum. The proximity of the current price to the 20-period Simple Moving Average (SMA) at 0.65268650 indicates that the market is in a neutral phase, providing traders with critical insight into potential short-term price action.\n\nFrom a technical standpoint, the absence of a clear trend complicates the outlook for AUD/USD. The MACD reading of -0.0004 suggests bearish momentum, but without a corresponding signal line, it's challenging to derive a definitive trading strategy. As such, traders should remain cautious, monitoring any potential crossovers or shifts in momentum that could signal a change in trend direction.\n\nKey support for the pair is identified at the recent low of 0.65165, while resistance is likely encountered around the 0.6527 level, near the SMA. A break below the support could prompt further selling pressure, targeting the next psychological level at 0.6500. Conversely, a move above 0.6527 may open the door for a rally towards 0.6550, making these levels critical for setting trading strategies.\n\nIn light of the current technical indicators and price action, a cautious approach is advisable. Traders may consider waiting for a clear breakout above resistance or a confirmation of support before initiating positions. Given the current market conditions, employing tight stop-loss orders will help manage risk effectively in this uncertain environment."
+    }
+  }
+}
