@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-17T16:20:37.541Z",
+  "price": {
+    "close": "4062.05856",
+    "high": "4065.30131",
+    "low": "4052.67111",
+    "open": "4065.10424",
+    "change": "-0.08",
+    "datetime": "2025-11-18 03:00:00"
+  },
+  "indicators": {
+    "rsi": 41.19033,
+    "macd": -5.37156,
+    "macd_signal": -4.63851,
+    "sma20": 4077.45105
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[当前震荡趋势]",
+      "content": "当前黄金/美元(XAU/USD)价格为4062.06，表现出轻微的下跌趋势，24小时内变化为-0.08%。在此价位附近，市场似乎正在整理期内，投资者需关注可能的支撑和阻力区域。短期内，若价格突破4065.30的高点，可能会引发短线买入信号；反之，若跌破4052.67的低点，可能会加大市场的卖出压力。\n\n从技术指标来看，MACD目前显示为负值，表明短期内卖方力量较强，而RSI尚未提供相关数据，需关注其后续变化。短期均线SMA(20)为4077.45，进一步确认了当前价格位于均线下方，显示市场可能处于调整阶段。投资者应密切关注这些指标，以便做出更为精准的交易决策。\n\n在支撑和阻力位方面，4052.67是一个重要的支撑位，一旦突破可能会导致更深的回调；而4065.30则是关键的阻力位，突破后有望引发进一步上涨。投资者可以考虑在接近支撑位时寻找买入机会，反之在接近阻力位时则应保持警惕，适时选择获利了结。\n\n综上所述，当前黄金市场呈现震荡趋势，投资者需灵活应对，结合技术指标和支撑阻力位进行操作。在交易策略上，建议关注市场的短期波动，合理配置仓位，以应对可能的价格波动。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The XAU/USD pair is currently trading at 4062.06, reflecting a slight decline of 0.08% over the last 24 hours. This price action suggests that the market is experiencing a consolidation phase following the recent highs. The high of 4065.30 indicates a resistance level that the bulls have struggled to breach, while the low of 4052.67 serves as a potential support level. A break below this support could signal a further downturn, while a sustained move above 4065.30 may attract additional buying interest.\n\nIn terms of technical indicators, the MACD at -5.37 indicates bearish momentum, suggesting that sellers are currently in control. Although the RSI(14) data is not available, a generally low RSI reading in conjunction with the MACD could further confirm the downtrend. The SMA(20) at 4077.45 also reinforces the bearish outlook, as the price is trading below this moving average. A crossover where the price moves above the SMA could be a key indicator for traders to watch for potential bullish reversals.\n\nTraders should closely monitor the current support level around 4052.67; a decisive break below this could open the door for further downside, possibly targeting the next support at around 4040. Conversely, if the price manages to hold above this level and mounts a challenge to the resistance at 4065.30, it may lead to a reversal or at least a short-term bounce. Setting stop-loss orders just below key support levels would be prudent for risk management.\n\nIn conclusion, the XAU/USD market presents a cautious trading environment with a bearish bias. Traders may consider short positions if the price breaks below support, while those looking for long opportunities should wait for clear bullish signals, particularly a sustained move above the SMA and resistance levels. Keeping an eye on macroeconomic factors influencing gold prices will also be essential for making informed trading decisions."
+    }
+  }
+}
