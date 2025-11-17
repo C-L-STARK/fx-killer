@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-17T06:58:50.338Z",
+  "price": {
+    "close": "0.65254",
+    "high": "0.65261",
+    "low": "0.65183",
+    "open": "0.65229",
+    "change": "0.04",
+    "datetime": "2025-11-17 17:00:00"
+  },
+  "indicators": {
+    "rsi": 45.8581,
+    "macd": -0.00038513885,
+    "macd_signal": -0.00031634366,
+    "sma20": 0.6529705
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理中]",
+      "content": "当前澳元/美元的最新价格为0.65254，显示出震荡整理的趋势。过去24小时内，价格波动幅度较小，最高触及0.65261，最低则下探至0.65183，显示出市场缺乏明显的方向性动能。短期内，价格在此区间内整理，可能会继续维持这种状态，等待更明确的驱动因素出现。\n\n从技术指标来看，当前RSI尚未提供明确的超买或超卖信号，MACD略微负值，表明短期内卖压存在，但尚未形成明确的下行趋势。同时，20日简单移动平均线（SMA）处于0.65297，价格在此均线下方运行，进一步支持了短期内偏弱的判断。\n\n支撑位方面，0.65180是一个关键的支撑区域，若价格跌破该水平，可能会加剧下行风险。相反，0.65300附近则是重要的阻力位，一旦突破，可能会带动价格向上反弹。交易者应密切关注这些关键水平，以便调整策略。\n\n建议交易者在当前市场环境中采取观望策略，等待价格突破支撑或阻力位后再做进一步的交易决策。如果价格有效突破0.65300，可以考虑短期多头布局；反之，若跌破0.65180，则应考虑短期空头机会。保持灵活应对，合理控制风险。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) against the US Dollar (USD) is currently trading at 0.65254, reflecting a slight upward movement of 0.04% over the past 24 hours. The price has oscillated between a high of 0.65261 and a low of 0.65183, indicating a relatively narrow trading range. This range suggests a period of consolidation, with traders possibly awaiting further economic indicators or geopolitical developments to determine the next directional move. The overall trend appears to be bearish, given the recent price action below the 20-day Simple Moving Average (SMA) at 0.65297050.\n\nIn terms of technical indicators, the MACD value of -0.00038513885 indicates a weak bearish momentum, as the MACD line is below the signal line. While the RSI(14) is not available, it is crucial to monitor this indicator closely as it can provide insights into potential overbought or oversold conditions. If the RSI approaches the 30 level, it could signal an oversold market, presenting a potential buying opportunity. Conversely, if it nears the 70 level, a pullback may be imminent.\n\nKey support levels to watch include the recent low at 0.65183, which could act as a psychological barrier for sellers. Should the price breach this level, the next support could be found around 0.65000. On the upside, resistance is seen at the 20-day SMA of 0.65297050. A sustained breach above this resistance level could attract bullish momentum, potentially driving the price towards the next target around 0.65500.\n\nFor traders, a cautious approach is advisable. A break below 0.65183 may warrant selling positions, while a confirmed move above the 20-day SMA could trigger buying opportunities. Incorporating additional risk management strategies, such as stop-loss orders, will be essential to mitigate potential losses in this volatile market environment. Monitoring upcoming economic data releases and global events will also be critical in shaping market sentiment and price direction."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-17T06:58:02.252Z",
+  "price": {
+    "close": "154.64799",
+    "high": "154.81300",
+    "low": "154.63400",
+    "open": "154.68300",
+    "change": "-0.03",
+    "datetime": "2025-11-17 17:00:00"
+  },
+  "indicators": {
+    "rsi": 53.096253,
+    "macd": 0.040888605,
+    "macd_signal": 0.020349588,
+    "sma20": 154.53675
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理，关注支撑与阻力]",
+      "content": "当前美元/日元价格为154.64799，近期走势显现出震荡整理的特征。价格在154.63400至154.81300之间波动，市场情绪较为谨慎，主要受美元强势和日本央行货币政策影响。短期内，若价格突破154.81300，可能会引发进一步上涨，反之则需警惕下行风险。\n\n从技术指标来看，虽然RSI(14)数据缺失，但MACD显示出微弱的上行动能，当前数值为0.0409，表明市场尚未形成明确的趋势。SMA(20)位于154.53675，作为短期支撑位，若价格回落至该水平，则可能吸引买盘介入。此外，关注RSI的变化也将有助于判断市场超买或超卖的情况。\n\n支撑位方面，154.63400是关键的短期支撑，若跌破该位，可能引发更大的抛售压力。而154.81300则是主要的阻力位，若价格突破，将可能带动多头进一步进场。投资者应密切关注这两个关键水平，以制定相应的交易策略。\n\n总体而言，建议投资者在当前区间内保持观望，等待价格突破支撑或阻力位后再行决策。短期内，建议采用区间交易策略，合理设置止损，以控制风险。中长期投资者可关注基本面变化，以判断更大幅度的价格波动可能性。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY currency pair is currently trading at 154.64799, exhibiting a slight decline of 0.03% over the past 24 hours. The price movement is within a narrow range, with a high of 154.81300 and a low of 154.63400. This indicates a consolidation phase, suggesting that market participants are evaluating their positions and awaiting further catalysts for direction. The overall trend appears to be bullish, as the pair remains above its recent support levels, indicating a potential continuation of upward momentum if buyers regain control.\n\nIn terms of technical indicators, the MACD shows a positive value of 0.040888605, suggesting that bullish momentum may still be present, although the absence of a signal line makes it difficult to ascertain the strength of this trend. The 20-period Simple Moving Average (SMA) at 154.53675 serves as a key support level; if the price dips below this level, it could signal a bearish reversal. Conversely, a sustained move above the recent high of 154.81300 would likely attract further buying interest and confirm a stronger bullish outlook.\n\nSupport can be identified around the 154.63400 low, while resistance is evident at 154.81300. Traders should monitor these levels closely; a break below support could lead to a test of further support zones, while a break above resistance may open the door for an upward rally toward the next psychological level of 155.00. Market sentiment will play a critical role in determining whether these levels hold or break.\n\nFor trading strategies, consider a cautious approach in the current consolidation phase. A buy position could be initiated upon a confirmed breakout above 154.81300, targeting higher resistance levels. Conversely, if the price breaches the support at 154.63400, it may be prudent to consider short positions with a target near the 20 SMA. Always implement appropriate risk management measures to safeguard against potential volatility."
+    }
+  }
+}

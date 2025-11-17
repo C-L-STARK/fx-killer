@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-17T06:57:11.602Z",
+  "price": {
+    "close": "1.31494",
+    "high": "1.31517",
+    "low": "1.31375",
+    "open": "1.31435",
+    "change": "0.04",
+    "datetime": "2025-11-17 17:00:00"
+  },
+  "indicators": {
+    "rsi": 46.87677,
+    "macd": -0.00024542961,
+    "macd_signal": -0.000083201672,
+    "sma20": 1.31573
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理中]",
+      "content": "当前英镑/美元(GBP/USD)在1.31494附近交易，表现出一定的震荡整理特征。价格在过去24小时内仅小幅波动0.04%，显示出市场参与者的谨慎情绪。高点和低点之间的微小差距，表明短期内缺乏明确的方向性突破，投资者应关注市场消息面变化以获取进一步指引。\n\n从技术指标来看，目前的MACD值为-0.000245，表明短期内的卖压略微增强，但尚未形成明显的卖出信号。SMA(20)在1.31573附近，价格目前略低于该均线，可能暗示短期内下行压力。由于RSI(14)数据缺失，无法全面评估超买或超卖情况，但可关注未来几日的动态。\n\n支撑位方面，1.31375是一个关键的支撑区域，若价格跌破该水平，可能引发更多的卖盘，目标可能下探至1.31000。而在阻力位方面，1.31517构成近期的强阻力，突破此位则可能引发更大的买盘，推动价格向上测试1.32000。\n\n综合来看，建议投资者在当前区间内进行短线交易，关注1.31375和1.31517的关键水平，等待价格突破后的清晰信号再做进一步决策。同时，保持对市场消息面的敏感，以应对可能的波动。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently trading at 1.31494, showing a modest 24-hour change of 0.04%. The price has remained relatively stable within a narrow range, having reached a high of 1.31517 and a low of 1.31375. This consolidation suggests that traders are awaiting further catalysts, potentially from economic data releases or geopolitical developments, which could provide direction. The overall trend appears neutral, as the pair has been confined within a tight band, indicating indecision in the market.\n\nThe Simple Moving Average (SMA) of 20 periods at 1.31573 serves as a crucial indicator for short-term traders. Currently, the price is slightly below this SMA, which may indicate a bearish short-term sentiment if the price fails to reclaim this level. Additionally, the MACD value of -0.00024542961 suggests that momentum is lacking, with potential bearish pressure prevailing. Without a clear bullish signal from other indicators, traders should remain cautious about entering long positions.\n\nLooking at support and resistance levels, immediate support is found at 1.31375, which corresponds to the recent low. A break below this level could signal further downside potential, possibly targeting the next support around 1.31200. Conversely, resistance is situated at 1.31517, and a break above this level could open the door for a retest of the SMA and potentially higher levels around 1.31650. Traders should monitor these levels closely for breakout opportunities.\n\nGiven the current market conditions, a wait-and-see approach may be prudent. Traders could consider short positions if the price moves below 1.31375, with a stop-loss above the recent high. On the flip side, a breakout above 1.31517 could justify long positions, targeting the SMA and further resistance levels. Keeping an eye on economic indicators and news events will be crucial for making informed trading decisions in this environment."
+    }
+  }
+}
