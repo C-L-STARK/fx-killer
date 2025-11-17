@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-17T14:55:29.690Z",
+  "price": {
+    "close": "1.40320",
+    "high": "1.40418",
+    "low": "1.40280",
+    "open": "1.40372",
+    "change": "-0.04",
+    "datetime": "2025-11-18 01:00:00"
+  },
+  "indicators": {
+    "rsi": 53.5922,
+    "macd": 0.00013440845,
+    "macd_signal": 0.000095181338,
+    "sma20": 1.40279
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡整理走势]",
+      "content": "当前美元/加元（USD/CAD）在1.40320附近震荡整理，24小时内小幅下跌0.04%。从价格走势来看，近期的高点1.40418和低点1.40280显示出市场的横向波动特征，短期内缺乏明显的趋势方向。投资者需关注后续是否会突破这一区间。\n\n技术指标方面，虽然RSI和MACD的具体数值尚不可得，但SMA(20)为1.40279，显示出当前价格略低于短期均线，暗示市场可能存在调整压力。若RSI在超卖区间反弹，可能会为价格回升提供支撑。\n\n支撑位方面，1.40280是关键的支撑水平，若跌破可能会加剧卖压，进一步测试1.40000心理关口。相对的，1.40418则是重要的阻力位，突破后可能引发更大的买盘动能。因此，短期内操作应保持谨慎。\n\n交易建议方面，考虑到当前市场震荡整理的特征，建议投资者采取区间交易策略，关注支撑和阻力位的突破情况。如果价格回调至支撑位附近，可考虑轻仓布局多单；若向上突破阻力位，可适度加仓以把握上涨机会。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD pair is currently trading at 1.40320, showing a slight decrease of 0.04% over the past 24 hours. This minor fluctuation indicates a relatively stable market environment, with the price oscillating between a high of 1.40418 and a low of 1.40280. The recent price action suggests a consolidation phase, as the pair remains caught within a narrow range. Traders should remain vigilant for any breakout opportunities, as a decisive move beyond this range could signal the next trend direction.\n\nFrom a technical perspective, the 20-day Simple Moving Average (SMA) at 1.40279 acts as a potential support level. This level coincides closely with the recent low, reinforcing its significance. If the pair were to breach this support, there could be a further decline towards the next strong support at around 1.4000. Conversely, if the price rallies above the recent high of 1.40418, it may attract buying interest, potentially leading to a retest of the psychological resistance level at 1.4100.\n\nThe absence of RSI and MACD data limits a comprehensive momentum analysis; however, the positive MACD reading indicates that bullish momentum may still be present, albeit weak. Traders should consider monitoring the MACD for any crossover signals, which could provide insights into potential trend reversals. As the market consolidates, a breakout accompanied by a robust MACD signal could present a viable trading opportunity.\n\nIn conclusion, traders should adopt a cautious approach with USD/CAD, focusing on the key support and resistance levels. A break below 1.40279 may open up selling opportunities, while a move above 1.40418 could prompt buying interest. Keeping an eye on broader economic indicators and developments in the oil market, given Canada’s heavy reliance on oil exports, will also be crucial for informed trading decisions."
+    }
+  }
+}

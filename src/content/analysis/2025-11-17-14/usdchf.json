@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-17T14:57:12.425Z",
+  "price": {
+    "close": "0.79558998",
+    "high": "0.79620999",
+    "low": "0.79528999",
+    "open": "0.79582000",
+    "change": "-0.03",
+    "datetime": "2025-11-18 01:00:00"
+  },
+  "indicators": {
+    "rsi": 58.30665,
+    "macd": 0.00058970284,
+    "macd_signal": 0.000463244,
+    "sma20": 0.79465549
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理中]",
+      "content": "当前美元/瑞郎的价格在0.7955附近震荡整理，显示出短期内缺乏明显的趋势。高点0.7962和低点0.7953的区间表明市场参与者对当前价位的看法相对谨慎，可能等待更明确的市场信号。整体来看，短期内汇价似乎在盘整，未能突破重要的阻力位。\n\n从技术指标来看，MACD显示出微弱的买入信号，但由于信号线数据缺失，未能提供更多的确认。SMA(20)在0.7947附近为支撑位，如果价格跌破此线，可能会引发进一步的卖盘。RSI指标尚未提供，因此需关注未来的更新数据，以更好地判断超买或超卖情况。\n\n在支撑和阻力方面，当前支撑位可见于0.7947，而阻力位则在0.7962。若价格突破0.7962，可能会引发更大的上涨势头，反之若下破0.7947，则可能加速下行。交易者应密切关注此区间的突破情况，以寻找入场机会。\n\n综合来看，建议交易者在当前震荡市场中保持谨慎，优先关注价格行为在支撑和阻力位的反应。若价格突破关键水平，可考虑采取相应的交易策略。同时，保持对技术指标的持续观察，以便及时调整交易计划。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF currency pair is currently showing a slight bearish trend, evidenced by the 24-hour change of -0.03%. The price is hovering near the lower end of its recent range, with a high of 0.79620999 and a low of 0.79528999. This consolidation phase suggests indecision among traders, which may lead to a breakout in either direction. The market appears to be influenced by broader economic factors, including interest rate expectations and geopolitical developments, which can significantly impact USD and CHF valuations.\n\nIn terms of technical indicators, the absence of an RSI value makes it challenging to assess momentum directly. However, the MACD at 0.00058970284 indicates a slight bullish bias, though it is essential to consider this in conjunction with other indicators. The SMA(20) at 0.79465549 serves as a critical reference point, with the price currently trading above this level, suggesting potential support. A sustained move below the SMA could signal a shift towards bearish sentiment.\n\nSupport levels are evident around the recent low of 0.79528999, while resistance is likely to be encountered near the high of 0.79620999. A break above this resistance could open up further upside potential, possibly targeting the next psychological level around 0.7970. Conversely, if the price breaches the support level, it may lead to further declines, potentially testing lower support zones.\n\nTraders may consider a cautious approach in the current market environment. A breakout above 0.7962 could present a buying opportunity, while a drop below 0.7953 might warrant a reassessment of long positions. Employing stop-loss orders can help manage risk effectively, given the current volatility. Staying informed on macroeconomic indicators and geopolitical events will also be crucial for making informed trading decisions in this pair."
+    }
+  }
+}

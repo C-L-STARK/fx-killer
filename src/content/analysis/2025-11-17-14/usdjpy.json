@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-17T14:53:46.006Z",
+  "price": {
+    "close": "154.91400",
+    "high": "155.0030060",
+    "low": "154.86099",
+    "open": "154.88499",
+    "change": "0.02",
+    "datetime": "2025-11-18 01:00:00"
+  },
+  "indicators": {
+    "rsi": 62.26297,
+    "macd": 0.089735428,
+    "macd_signal": 0.064436409,
+    "sma20": 154.6899
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理，谨慎观望]",
+      "content": "当前美元/日元的价格位于154.91400，显示出短期内震荡整理的趋势。最近的高点155.0030060和低点154.86099表明，市场未能突破关键阻力位155.00，显示出买卖双方的力量相对均衡。投资者需要关注接下来的价格走势，以判断是否会出现趋势反转或持续整理。\n\n从技术指标来看，虽然当前RSI未提供数据，但价格的微幅波动和MACD的轻微正值0.089735428表明市场可能处于一个相对强势的状态。SMA(20)在154.68990处提供了一定的支撑，若价格回调至此水平，可能吸引买盘介入。然而，若价格持续向下突破该水平，可能引发更大的卖压。\n\n在支撑和阻力方面，155.00是当前的关键阻力位，一旦突破，将可能引发进一步上涨。下方154.6900则是重要的支撑位，若突破则需警惕后市的下行风险。短期内，投资者应关注这些关键水平，并结合市场动态做出相应的交易策略。\n\n综合考虑，建议投资者在未突破155.00之前保持观望，避免追高，同时关注154.6900的支撑位。如果价格在支撑位附近出现反弹信号，可以考虑适量布局多单，以期迎接潜在的上涨机会。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 154.914, showing a slight upward movement of 0.02% over the last 24 hours. The recent price action suggests a consolidation phase as the pair oscillates around the key psychological level of 155. The recent high at 155.003 indicates potential resistance, while the low at 154.860 provides a critical support level. The price's ability to break above 155 could signal a continuation of the bullish trend, while a drop below 154.860 may indicate a reversal.\n\nIn terms of technical indicators, the MACD shows a positive value of 0.0897, suggesting that bullish momentum is present, albeit weak. The absence of the RSI data limits our ability to assess overbought or oversold conditions; however, the existing SMA(20) at 154.6899 provides a reliable gauge for potential pullbacks. If the price retraces towards this moving average, it could present an attractive buying opportunity, particularly if other indicators align to support the bullish thesis.\n\nSupport and resistance levels are critical in determining potential entry and exit points. A break above 155.003 could open the door for further upside, targeting the next resistance at approximately 155.500. Conversely, if the price falls below 154.860, traders should watch for further downside towards the SMA(20), where buyers may step in. The current market sentiment appears cautiously optimistic, and traders should remain vigilant for breakout signals.\n\nFor trading strategies, a bullish stance may be favored, particularly if price action confirms a break above 155. Traders could consider entering long positions near the SMA(20) if the price retraces. Additionally, setting stop-loss orders below the 154.860 support level can help manage risk effectively. Conversely, for those preferring a bearish outlook, waiting for a confirmed breakdown below support might offer a more advantageous entry point. Overall, disciplined risk management and close monitoring of price levels will be essential in navigating this market."
+    }
+  }
+}
