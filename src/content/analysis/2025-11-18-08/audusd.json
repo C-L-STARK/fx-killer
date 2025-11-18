@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-18T08:18:01.466Z",
+  "price": {
+    "close": "0.64951",
+    "high": "0.64953",
+    "low": "0.64855",
+    "open": "0.64857",
+    "change": "0.14",
+    "datetime": "2025-11-18 19:00:00"
+  },
+  "indicators": {
+    "rsi": 47.83354,
+    "macd": -0.00091943384,
+    "macd_signal": -0.0010016379,
+    "sma20": 0.649389
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡走势中的谨慎态度]",
+      "content": "当前AUD/USD在0.6495附近波动，显示出短期内震荡整理的趋势。价格在高点0.64953和低点0.64855之间波动，表明市场缺乏明确的方向。投资者需关注即将到来的经济数据，可能会对该货币对产生影响。\n\n从技术指标来看，MACD处于负值区间，表明当前市场情绪偏向于卖出，虽然信号线数据缺失，但仍需保持警惕。RSI指标未提供，但若在未来几日回升至30以下，则可能意味着超卖信号出现，市场反弹的机会增大。\n\n在支撑位方面，0.6485是一个关键的支撑区域，如果价格跌破该水平，可能会加剧下行压力。而在阻力位方面，0.6500是一个心理关口，突破该位置将为上涨提供动力。投资者应关注这些关键价位，以制定相应的交易策略。\n\n综合分析，建议投资者在当前震荡行情中保持谨慎，避免盲目追涨或杀跌。如价格接近支撑位可考虑小额做多，反之在接近阻力位时可考虑做空，务必设定止损以降低风险。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) is currently trading against the US Dollar (USD) at 0.64951, reflecting a slight uptick of 0.14% over the last 24 hours. This modest increase comes after a period of consolidation, with the price oscillating between a high of 0.64953 and a low of 0.64855. The prevailing trend appears neutral to slightly bullish, suggesting that traders should remain cautious while monitoring for potential breakout scenarios.\n\nIn terms of technical indicators, the absence of the Relative Strength Index (RSI) and the current MACD value of -0.00091943384 suggests a lack of momentum in either direction. The 20-period Simple Moving Average (SMA) stands at 0.64938900, indicating a slight bullish bias as the price is trading above this level. Traders should watch for any significant changes in these indicators, as they could provide clues regarding future price movements.\n\nKey support is identified at the recent low of 0.64855, which may provide a safety net for buyers if the price retraces. Conversely, resistance is likely to form around the high of 0.64953. A sustained break above this resistance could open the door to further gains, while a dip below 0.64855 might signal a shift in momentum and prompt traders to reevaluate their positions.\n\nFor trading strategies, consider entering long positions near the support level of 0.64855 with a target at the resistance level of 0.64953. Tight stop-loss orders just below the support can help manage risk. Alternatively, should the price breach the resistance convincingly, traders might look for extended upward movement, while a failure to hold above support indicates a potential shift towards bearish sentiment."
+    }
+  }
+}

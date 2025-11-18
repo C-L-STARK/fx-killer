@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-18T08:21:02.561Z",
+  "price": {
+    "close": "4024.30514",
+    "high": "4025.36483",
+    "low": "4010.886",
+    "open": "4013.28709",
+    "change": "0.27",
+    "datetime": "2025-11-18 19:00:00"
+  },
+  "indicators": {
+    "rsi": 42.3505,
+    "macd": -15.72108,
+    "macd_signal": -15.073821,
+    "sma20": 4038.1093
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[短期震荡，关注支撑与阻力]",
+      "content": "目前XAU/USD的价格在4024.30附近波动，显示出短期震荡的趋势。该区间内，金价未能突破4038.11的20日简单移动平均线，表明多头动能不足，市场仍需关注下行风险。\n\n从技术指标来看，MACD值为-15.72108，显示出一定的空头压力，而RSI因缺乏数据暂时无法参考。短期内，若金价继续维持在4010.89以上，将可能形成支撑位，反之，一旦跌破则可能进一步下探。\n\n支撑位方面，4010.89为关键支撑，若金价回测该水平并企稳，可能会吸引买盘。阻力位则在4038.11附近，突破该点位将有助于恢复上涨趋势，激发多头参与市场。\n\n综上所述，建议交易者在当前区间内采取观望态度，密切关注支撑和阻力的变动，待确认趋势后再做出交易决策。在短期内，谨慎操作是明智之举。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of Gold against the US Dollar (XAU/USD) stands at 4024.30, reflecting a slight increase of 0.27% over the last 24 hours. Analyzing the recent high of 4025.36 and a low of 4010.89, we can observe a relatively tight trading range. This suggests a period of consolidation, where price movement is limited, indicating that traders are awaiting a breakout to determine the next directional move. The overall trend appears neutral as neither bulls nor bears have gained significant control.\n\nFrom a technical perspective, the absence of the RSI (Relative Strength Index) data limits our ability to assess overbought or oversold conditions. However, the MACD (Moving Average Convergence Divergence) reading of -15.72 indicates bearish momentum, which could suggest further downside potential if economic conditions support it. The SMA (Simple Moving Average) at 4038.11 acts as a dynamic resistance level. If the price can break above this SMA, it would signal a potential bullish reversal, attracting more buyers into the market.\n\nKey support levels can be identified at the recent low of 4010.89, which may provide a cushion against further declines. Should the price break below this level, additional support could be found around the psychological threshold of 4000. On the upside, a decisive move above 4025 could pave the way for a test of 4038, where the SMA resides. Traders should closely monitor these levels to gauge market sentiment and potential reversals.\n\nFor trading strategies, a cautious approach is advisable given the current market dynamics. A buy position could be considered if XAU/USD breaks above the SMA with strong volume, confirming bullish momentum. Conversely, traders may look to sell if the price breaches the support level of 4010, as this could signal a continuation of bearish trends. Staying alert to economic indicators and geopolitical events will also be crucial for making informed trading decisions in this volatile market."
+    }
+  }
+}

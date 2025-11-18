@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-18T08:16:29.901Z",
+  "price": {
+    "close": "1.31737",
+    "high": "1.31763",
+    "low": "1.31506",
+    "open": "1.31506",
+    "change": "0.16",
+    "datetime": "2025-11-18 19:00:00"
+  },
+  "indicators": {
+    "rsi": 56.99857,
+    "macd": -0.000061694588,
+    "macd_signal": -0.00014311289,
+    "sma20": 1.31598
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理中]",
+      "content": "当前英镑/美元在1.31737附近震荡整理，24小时变化为0.16%。从价格走势来看，当前未能突破1.3180的阻力位，显示出短期内多头动能不足。同时，低点1.31506提供了较强的支撑，若价格跌破此位，可能会引发进一步的回调。\n\n技术指标方面，虽然RSI(14)数据缺失，但结合当前的MACD数值来看，指标在负值区间震荡，暗示市场情绪偏向谨慎。SMA(20)为1.31598，价格轻微高于该均线，表明短期内多头仍有机会，但需注意市场的波动性。\n\n支撑位方面，1.31506至1.31550区域是关键支撑，如果价格跌破，可能会加速向下测试1.3130的心理关口。而在阻力位方面，1.3180是关键压力位，若突破，可能会引发更大幅度的上涨。投资者应关注这些关键价位，以便进行适时的交易决策。\n\n综合来看，建议投资者在此区间内采取区间交易策略，短线操作时可考虑在支撑位附近做多，止损设于1.3145，若突破阻力位则可跟随做多，设定目标位于1.3200。保持灵活应对市场变化，谨慎操作。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD currency pair is currently exhibiting a slight bullish sentiment with a latest price of 1.31737, reflecting a 0.16% increase over the past 24 hours. The price action has remained relatively stable, oscillating between a high of 1.31763 and a low of 1.31506. This narrow range suggests a period of consolidation, where traders are looking for a decisive breakout. If the price surpasses the recent high of 1.31763, we could see a continuation of the upward trend, potentially targeting the next resistance level around 1.3200.\n\nFrom a technical perspective, the absence of the RSI and MACD signals limits our ability to gauge momentum effectively. However, the 20-period Simple Moving Average (SMA) at 1.31598 serves as a crucial support level. The price is trading slightly above this SMA, indicating that the short-term trend is bullish. Traders should monitor the price's interaction with the SMA; a decisive move below this level could signal a shift in sentiment and prompt a reevaluation of bullish positions.\n\nIn terms of support and resistance, immediate support can be identified at the recent low of 1.31506. A break below this level may open the door for further declines, with the next significant support seen around 1.31300. Conversely, if the price holds above the SMA and breaks the resistance at 1.31763, it may lead to a test of the psychological level at 1.3200, which could attract additional buying interest.\n\nFor traders considering their positions, a bullish strategy could be employed with a buy order placed above the recent high of 1.31763, targeting profits near 1.3200 while setting a stop-loss just below the SMA at 1.31598. Alternatively, if the price falls below the support at 1.31506, traders may want to consider short positions, with targets aligned towards the next support level. Monitoring market sentiment and any upcoming economic data releases will be essential in navigating this currency pair in the near term."
+    }
+  }
+}
