@@ -59,6 +59,7 @@ export function generateBilingualMetadata(
       languages: {
         'zh-CN': `${baseUrl}/zh${url}`,
         'en-US': `${baseUrl}/en${url}`,
+        'x-default': `${baseUrl}/zh${url}`,
       },
     } : undefined,
     openGraph: {
