@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-18T09:41:42.333Z",
+  "price": {
+    "close": "155.19501",
+    "high": "155.25101",
+    "low": "155.078003",
+    "open": "155.12300",
+    "change": "0.05",
+    "datetime": "2025-11-18 20:00:00"
+  },
+  "indicators": {
+    "rsi": 57.63038,
+    "macd": 0.078868019,
+    "macd_signal": 0.1064323,
+    "sma20": 155.165
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[上涨趋势中的震荡整理]",
+      "content": "当前美元/日元在155.19501附近运行，整体趋势仍然偏向上涨。过去24小时价格波动较小，仅有0.05%的变化，显示出市场的谨慎情绪。虽然短期内有些震荡，但从长期趋势来看，美元/日元依然维持在一个相对高位，显示出买方仍然占据主导地位。\n\n技术指标方面，SMA(20)位于155.16500，表明价格仍在其上方运行，支持了上涨的观点。虽然RSI和MACD数据缺失，但根据当前价格走势，短期内可能会出现一定的回调，尤其是在接近155.25的高点附近。\n\n支撑位方面，155.08提供了较强的支撑。如果价格跌破此位，可能会激发进一步的卖盘压力。而阻力位则在155.25附近，若突破该水平，可能会引发新的买入潮。因此，投资者应密切关注这两个关键价位的变化。\n\n基于当前市场情况，建议投资者可以在155.08附近寻找买入机会，同时在155.25附近设置止盈位。若价格突破155.25，则可以考虑进一步加仓，但需保持警惕，以应对潜在的市场震荡。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 155.19501, reflecting a slight upward movement of 0.05% over the past 24 hours. The price action suggests a consolidation phase after testing the higher range, with a recent high of 155.25101 and a low of 155.078003. The market appears to be in a bullish trend, supported by the price holding above the 20-period Simple Moving Average (SMA) at 155.16500. This positioning indicates that buyers are maintaining control, and any dips toward the SMA may present buying opportunities.\n\nIn terms of momentum indicators, the MACD (0.078868019) is currently positive, suggesting that the bullish trend is likely to continue in the short term. However, without an available RSI reading, we cannot ascertain overbought or oversold conditions. Traders should monitor for divergence or convergence with the MACD to gauge potential reversals. A continued rise in the MACD would reinforce the strength of the current bullish sentiment.\n\nKey support is identified at the recent low of 155.078003, which could act as a critical level for buyers to step in. If this support holds, it may encourage further upside momentum. Conversely, resistance is noted at the recent high of 155.25101. A breakout above this level could lead to a test of even higher targets, possibly reaching the psychological level of 156.00. \n\nTraders should consider a cautious approach, looking for confirmation of bullish momentum through price action, particularly if the market approaches the SMA or support levels. A buy-on-dip strategy seems prudent, with stop-loss orders placed below the identified support to manage risks effectively. If the pair breaks above resistance, it may present an opportunity to capitalize on further upward movement."
+    }
+  }
+}

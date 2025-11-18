@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-18T09:42:27.756Z",
+  "price": {
+    "close": "0.64937",
+    "high": "0.6498",
+    "low": "0.64918",
+    "open": "0.64939",
+    "change": "-0.00",
+    "datetime": "2025-11-18 20:00:00"
+  },
+  "indicators": {
+    "rsi": 46.9855,
+    "macd": -0.00081963778,
+    "macd_signal": -0.00096676952,
+    "sma20": 0.6493005
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理走势]",
+      "content": "当前AUD/USD的市场表现显示出震荡整理的趋势，最新价格为0.64937，24小时变化微乎其微。近期价格在0.6498和0.64918之间波动，表明市场缺乏明确方向，投资者可能在等待更强的市场信号。\n\n从技术指标来看，虽然RSI和MACD的具体数值尚未提供，但结合当前价格表现，AUD/USD的动能似乎处于低迷状态。SMA(20)为0.64930050，表明短期内价格接近这一均线，可能会对价格形成一定的支撑。若价格持续维持在此均线之上，可能会吸引买盘介入。\n\n在支撑和阻力位方面，当前的支撑位在0.64918，而阻力位则在0.6498。如果价格突破这两条关键水平，可能会引发进一步的波动。突破上行阻力位可能会吸引多头进场，而下破支撑位则可能会引发卖盘回补，导致价格进一步下探。\n\n基于当前的市场数据，短期内建议投资者关注价格在支撑位和阻力位的表现。若价格企稳于0.6493附近，可考虑适度的短线多头布局；反之，若跌破0.64918，则建议谨慎观望，或考虑适度的空头操作。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently exhibiting a tight trading range, with the latest price at 0.64937. The market has shown minimal volatility, as reflected in the 24-hour change of -0.00%. This stability suggests the presence of a consolidation phase, where traders are likely waiting for a catalyst to drive the next significant move. Observing the recent high of 0.6498 and low of 0.64918, we can see that the pair is oscillating within this narrow band, indicating a lack of strong directional momentum.\n\nFrom a technical perspective, the absence of a defined trend highlights the importance of monitoring key support and resistance levels. The immediate support level appears to be around the 0.64918 low, while resistance is set at 0.6498. A break below the support could trigger further selling pressure, potentially leading towards 0.6480. Conversely, if the price manages to breach the resistance at 0.6498, it may open the door for a retest of higher levels, possibly aiming for 0.6510.\n\nThe current MACD reading of -0.00082 suggests bearish momentum, although the lack of a signal line complicates interpretation. This indicates that while the market may be leaning toward a downward bias, the strength of that bias isn't currently robust. Coupled with the SMA(20) of 0.64930050, which is closely aligned with the current price, traders may want to watch for a potential crossover. If the price moves above this average, it could signal a bullish shift.\n\nFor trading strategies, a cautious approach is advised given the current market conditions. Traders could consider setting buy orders just above 0.6498, with a stop-loss positioned below 0.64918. Alternatively, if bearish sentiment prevails, selling near the resistance level with a target at the support level may be a prudent strategy. Overall, maintaining a flexible approach while monitoring market developments will be key in navigating this range-bound environment."
+    }
+  }
+}
