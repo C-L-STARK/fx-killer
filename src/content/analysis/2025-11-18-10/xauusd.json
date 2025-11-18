@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-18T10:58:22.433Z",
+  "price": {
+    "close": "4046.42108",
+    "high": "4048.69445",
+    "low": "4038.10567",
+    "open": "4040.39901",
+    "change": "0.15",
+    "datetime": "2025-11-18 21:00:00"
+  },
+  "indicators": {
+    "rsi": 51.47566,
+    "macd": -10.29928,
+    "macd_signal": -13.5916,
+    "sma20": 4036.053947
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理趋势]",
+      "content": "当前黄金/美元(XAU/USD)价格为4046.42，显示出震荡整理的趋势。在过去24小时内，价格波动幅度较小，最高点为4048.69，最低点为4038.11。这种横盘整理的形态表明市场参与者在等待更加明确的方向，可能受到宏观经济数据和地缘政治因素的影响。\n\n从技术指标来看，MACD值为-10.30，表明短期内卖压较强，但尚未形成明显的反转信号。由于RSI数据缺失，目前无法判断超买或超卖的状态。20日简单移动平均线(SMA)在4036.05附近，作为支撑位，提供了一定的买入信号，显示出短期内市场可能维持在这一水平附近运行。\n\n在支撑和阻力位方面，关键支撑位在4036附近，而阻力位则在4050以上。交易者可以考虑在支撑位附近寻找买入机会，同时在接近阻力位时进行卖出操作。短期内，建议保持谨慎，关注市场动态，以便及时调整交易策略。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD is at 4046.42, reflecting a modest 0.15% increase over the past 24 hours. A closer examination of the recent trading range reveals a high of 4048.69 and a low of 4038.11. The price has been hovering near the upper end of this range, indicating a potential continuation of bullish momentum if it can break through the resistance level at 4048.69. Conversely, a decline below the support level at 4038.11 could signal a bearish reversal.\n\nIn terms of technical indicators, the MACD shows a negative value of -10.30, suggesting that the momentum may be weakening. However, without a signal line available, caution should be exercised when interpreting this information. The absence of an RSI value inhibits a thorough assessment of overbought or oversold conditions. Nevertheless, the SMA(20) at 4036.05 provides a dynamic support level that traders could monitor for potential buying opportunities, particularly if the price retraces towards it.\n\nKey support is identified at 4038.11, while resistance is located at 4048.69. The market's ability to maintain above the SMA(20) reinforces the potential for upward movement. A successful breakout above 4048.69 would likely attract further buying interest, leading to a target range of 4055.00 to 4060.00. Traders should remain alert for shifts in sentiment and volume that could validate these levels.\n\nFor trading strategies, a cautious approach is recommended. Buyers may consider entering positions if the price consolidates above 4048.69, with a stop-loss set below 4038.11 to manage risk. On the other hand, sellers might look for opportunities if the price fails to maintain above the SMA(20), especially if it breaks below 4038.11, targeting a potential move towards the next support level. Overall, maintaining a flexible strategy in response to market dynamics is essential."
+    }
+  }
+}

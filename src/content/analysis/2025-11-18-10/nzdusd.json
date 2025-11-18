@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-18T10:56:37.665Z",
+  "price": {
+    "close": "0.56644386",
+    "high": "0.56666851",
+    "low": "0.56618732",
+    "open": "0.56663644",
+    "change": "-0.05",
+    "datetime": "2025-11-18 21:00:00"
+  },
+  "indicators": {
+    "rsi": 51.65331,
+    "macd": -0.00018948141,
+    "macd_signal": -0.00035830915,
+    "sma20": 0.56599751
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理中]",
+      "content": "当前纽元/美元汇率在0.5664附近波动，整体趋势表现出震荡整理的特征。24小时内价格小幅下跌0.05%，显示出市场缺乏明确的方向。高点和低点之间的窄幅波动说明多空力量相对均衡，投资者需关注后续走势的突破。\n\n技术指标方面，虽然RSI(14)数据未提供，但根据当前价格与SMA(20)的关系来看，价格略高于20日简单移动平均线，表明短期内可能存在一定的上涨动能。MACD指标为负值，显示出卖压仍然存在，但尚未形成明显的下行趋势。\n\n在支撑位和阻力位方面，当前支撑位在0.5662附近，而阻力位则在0.5667附近。若价格突破阻力位，可能会迎来一波反弹；反之，跌破支撑位则可能加速下行。因此，建议投资者密切关注这两个关键价位，以便及时调整交易策略。\n\n综合来看，鉴于市场目前的震荡状态，建议投资者采取观望策略，待价格突破关键支撑或阻力位后再考虑入场。同时，保持警惕，关注全球经济数据及地缘政治因素对市场情绪的影响。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.5664, exhibiting a slight decline of 0.05% over the past 24 hours. The price has oscillated between a high of 0.5667 and a low of 0.5662, indicating a narrow trading range. This behavior suggests a consolidation phase, where the market is assessing further directional cues. Traders should watch for any breakout beyond these levels, as it could signal a continuation of the existing trend or a potential reversal.\n\nIn terms of technical indicators, the absence of the RSI(14) and Signal line for the MACD limits a comprehensive analysis. However, the current MACD value of -0.00018948141 hints at a bearish momentum. The 20-period Simple Moving Average (SMA) at 0.5660 is just below the current price, providing a potential support level. A sustained move below this SMA could trigger further selling pressure, while a bounce off this level might indicate a bullish reversal.\n\nKey support for NZD/USD is identified at the 0.5650 level, which, if breached, could lead to a test of the 0.5640 region. Conversely, resistance is observed at the recent high of 0.5667. A break above this resistance might initiate a rally toward 0.5680. Traders should monitor these levels closely, as they could provide excellent entry and exit points for trades.\n\nFor trading strategies, a cautious approach is advisable given the current market conditions. A buy signal could be considered if the price convincingly breaks above the resistance at 0.5667, with a target set near 0.5680. Conversely, a sell position could be initiated if the price drops below the support level of 0.5650, targeting the next support at 0.5640. Risk management should be prioritized in this volatile environment."
+    }
+  }
+}
