@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-18T19:00:21.060Z",
+  "price": {
+    "close": "0.56660438",
+    "high": "0.56698984",
+    "low": "0.56644386",
+    "open": "0.56644386",
+    "change": "0.02",
+    "datetime": "2025-11-19 05:00:00"
+  },
+  "indicators": {
+    "rsi": 52.24737,
+    "macd": -0.0000068876447,
+    "macd_signal": -0.000088369744,
+    "sma20": 0.5660406
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋向]",
+      "content": "在当前市场环境中，纽元/美元（NZD/USD）表现出一定的震荡整理趋势。最新价格为0.56660438，24小时变化仅为0.02%，表明市场买卖双方力量相对均衡，短期内可能缺乏明确方向。高点和低点的相对接近，进一步印证了这一整理状态。\n\n从技术指标来看，虽然RSI(14)数据缺失，但当前MACD处于负值区域，显示出卖方依然占据一定优势。20日简单移动平均线（SMA）位于0.56604060，价格略高于此水平，表明短期内可能存在一定的支撑。然而，后续走势仍需密切关注市场情绪的变化。\n\n支撑位方面，0.56644386的低点可以视为关键支撑，若价格跌破此位，可能会引发更大的下行空间。相反，阻力位则在0.56698984，突破该水平将有助于推动价格向上回升，吸引更多买盘入场。\n\n在交易策略方面，建议投资者在支撑位附近寻找买入机会，同时设定止损以控制风险。若价格突破阻力位，可以考虑加仓，利用市场反弹带来的机会。保持灵活应变的交易策略，将有助于在震荡市中把握盈利机会。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD currency pair is currently trading at 0.5666, showing a slight 24-hour change of 0.02%. The high and low for the past day are 0.5669 and 0.5664, respectively, indicating a narrow trading range. This suggests a period of consolidation, where neither buyers nor sellers have been able to gain significant momentum. The overall trend appears to be sideways, but the proximity to the recent high indicates potential upward pressure if momentum builds.\n\nTechnical indicators are limited due to the absence of the RSI and SMA values. However, the current price is above the SMA(20) at 0.5660, indicating a short-term bullish sentiment. The MACD value is marginally negative, suggesting a lack of strong bearish momentum, but it remains close to the zero line, which leaves the door open for a potential reversal. Traders should watch for any break above the high of 0.5669, which could signal further bullish action.\n\nKey support and resistance levels are critical for trading decisions. Immediate resistance is found at 0.5669, while support is situated around 0.5664. A breakout above 0.5669 could target the next resistance level, potentially around 0.5680. Conversely, a drop below 0.5664 might bring additional selling pressure, pushing prices towards 0.5650. Traders should remain vigilant for price action around these levels.\n\nFor trading strategies, a cautious approach may be warranted given the current market conditions. A buy position could be considered on a confirmed break above resistance at 0.5669, with a stop-loss placed just below the support level. Conversely, if the price breaks below 0.5664, a short position may be appropriate, with a target set at the next support level. Monitoring additional market developments and economic indicators will further enhance decision-making."
+    }
+  }
+}

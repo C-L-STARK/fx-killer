@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-18T18:57:08.523Z",
+  "price": {
+    "close": "1.31548",
+    "high": "1.31565",
+    "low": "1.31416",
+    "open": "1.31416",
+    "change": "0.10",
+    "datetime": "2025-11-19 05:00:00"
+  },
+  "indicators": {
+    "rsi": 50.59119,
+    "macd": -0.00025968445,
+    "macd_signal": -0.0002570826,
+    "sma20": 1.3152
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[短期震荡走势]",
+      "content": "当前英镑/美元（GBP/USD）价格为1.31548，近期呈现震荡走势，24小时变化仅为0.10%。在高点1.31565和低点1.31416之间波动，显示出市场缺乏方向性。短期内，价格可能会继续在这一区域内整理，投资者需关注市场情绪的变化，以判断后续走势。\n\n从技术指标来看，当前的简单移动平均线（SMA）20日位于1.31520，价格略高于此水平，暗示短期内存在一定的上行动能。然而，MACD指标为负值，显示出潜在的卖压，短期市场可能面临调整风险。RSI指标尚不可用，无法进行超买超卖的判断。\n\n支撑位方面，1.31416是重要的支撑水平，一旦跌破该位，可能引发进一步回调。阻力位则在1.31600附近，若突破该水平，则可能开启新的上涨空间。投资者应密切关注这两个关键价位，制定相应的交易策略。\n\n综合来看，建议投资者在此震荡区间内采取谨慎的交易策略，适时进行短线交易。考虑到当前市场的不确定性，保持灵活应变的态度非常重要。同时，应利用止损保护资金，规避潜在的风险。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD currency pair is currently trading at 1.31548, showing a slight upward movement of 0.10% over the past 24 hours. The price action suggests a consolidation phase, as it oscillates between the high of 1.31565 and the low of 1.31416. This narrow trading range indicates a lack of strong momentum, which may lead to a breakout in either direction. Traders should monitor this range closely for potential signals that could suggest the next move.\n\nIn terms of technical indicators, the absence of a calculated RSI and MACD signal limits our ability to assess momentum and trend strength. However, the 20-period Simple Moving Average (SMA) stands at 1.31520, providing a potential dynamic support level. If the price holds above this SMA, it could reinforce a bullish sentiment, while a drop below may signal a bearish reversal. Traders should remain vigilant for any shifts in these indicators, as they could provide critical insights into market direction.\n\nKey support is identified at 1.31416, the recent low, which, if breached, may trigger further selling pressure. On the upside, the immediate resistance level lies at 1.31565. A breakout above this level could open the door for further gains, potentially targeting higher resistance levels. Conversely, if the pair fails to break through resistance and instead declines, traders may want to consider short positions near the support level to capitalize on potential downward movement.\n\nGiven the current market conditions, traders should adopt a cautious approach. A breakout above 1.31565 could provide a buying opportunity, while a decisive move below 1.31416 may present a chance to sell. It is essential to use proper risk management strategies, including stop-loss orders, to protect capital in this uncertain environment. Engaging in breakout strategies while keeping an eye on the overall market trend will be crucial for navigating the GBP/USD pair effectively."
+    }
+  }
+}
