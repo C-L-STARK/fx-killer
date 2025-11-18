@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-18T00:53:23.473Z",
+  "price": {
+    "close": "4034.28593",
+    "high": "4039.67785",
+    "low": "4026.50741",
+    "open": "4033.88867",
+    "change": "-0.00",
+    "datetime": "2025-11-18 11:00:00"
+  },
+  "indicators": {
+    "rsi": 38.74096,
+    "macd": -12.3046,
+    "macd_signal": -9.46593,
+    "sma20": 4061.46987
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中]",
+      "content": "当前黄金/美元的价格在4034.28附近运行，整体呈现震荡整理态势。价格在过去24小时内变化不大，显示出市场的观望情绪。尽管短期内缺乏明确趋势，但高点和低点的相对接近也暗示着市场可能在寻找新的方向。\n\n从技术指标来看，MACD值为-12.30，表明当前市场处于弱势状态，进一步确认了整理的特征。不过，由于RSI指标未提供，无法全面评估超买或超卖情况。需要关注SMA(20)的表现，目前该均线在4061.47附近，可能成为短期阻力位。\n\n在支撑和阻力方面，价格上方的强阻力位在4061.47，若突破该水平，可能引发进一步上涨。下方支撑位则在4026.51附近，若价格跌破此位，可能会加剧下行风险。因此，短期内的交易策略可以考虑在支撑位附近逢低买入，而在接近阻力位时则考虑适量获利了结。保持耐心，等待市场的明确信号。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4034.29 suggests a consolidation phase after a recent period of volatility. The price has not moved significantly within the past 24 hours, indicating a potential equilibrium between buyers and sellers. Observing the high and low of 4039.68 and 4026.51, we can identify immediate resistance at 4040 and support around 4026. If the price breaks below this support level, it may signal a bearish trend, while a breakout above resistance could lead to renewed bullish momentum.\n\nIn terms of technical indicators, the negative MACD value of -12.30 suggests bearish pressure in the market, although the lack of a signal line makes it challenging to establish a clear entry point. The absence of an RSI reading prevents us from gauging whether the asset is overbought or oversold. However, traders should keep an eye on these indicators, as any shifts could provide valuable insights into market sentiment and potential reversal points.\n\nThe 20-day Simple Moving Average (SMA) at 4061.47 highlights the short-term trend, indicating that the market remains below this moving average, which may serve as resistance. If the price approaches this SMA, it would be prudent to watch for a potential rejection, reinforcing the bearish outlook. Conversely, if the market can sustain a rally above the SMA, it could indicate a shift in sentiment, allowing for a potential long position.\n\nFor trading strategies, maintaining a cautious approach is advisable. Traders might consider placing buy orders near the support level of 4026, with a tight stop-loss to mitigate risks. Alternatively, a sell signal could be activated if the price breaks below this support. Monitoring the resistance level of 4040 will be crucial; a successful breakout here could provide a more favorable risk-reward ratio for bullish positions."
+    }
+  }
+}

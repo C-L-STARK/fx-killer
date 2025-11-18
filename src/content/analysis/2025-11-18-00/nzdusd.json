@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-18T00:51:57.763Z",
+  "price": {
+    "close": "0.56535506",
+    "high": "0.56554687",
+    "low": "0.56509942",
+    "open": "0.56554687",
+    "change": "-0.03",
+    "datetime": "2025-11-18 11:00:00"
+  },
+  "indicators": {
+    "rsi": 39.01875,
+    "macd": -0.00047987172,
+    "macd_signal": -0.00034549011,
+    "sma20": 0.56670523
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋势]",
+      "content": "当前纽元/美元(NZD/USD)的价格为0.56535506，全天变动幅度微小，显示出市场进入震荡整理阶段。近期价格未能有效突破0.5667的20日简单移动平均线(SMA)，这表明上行压力仍然存在，但动能不足。投资者需关注此区域作为短期阻力位。\n\n技术指标方面，尽管RSI未提供，但我们看到MACD处于负值区域，表明卖方力量较强，且缺乏强烈的买入信号。这种情形可能使得短期内价格难以突破当前阻力，维持在0.5650至0.5667的区间内波动。\n\n支撑位方面，0.5651是当前价格的重要支撑水平，如果突破此位，可能引发进一步下行，目标指向0.5640。而若价格成功反弹并突破0.5667，则有望测试更高的阻力位。因此，市场参与者应重点关注这些关键价位。\n\n综合考虑，短期内建议保持观望，待价格突破关键支撑或阻力位后再采取行动。如果您倾向于短线交易，可以在支撑位附近寻找买入机会，而在接近阻力位时则考虑适度获利了结。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.5654, reflecting a slight decline of 0.03% over the past 24 hours. The price has fluctuated between 0.5655 and 0.5651, indicating a tight range. This behavior suggests a period of consolidation following a recent downtrend. The inability to sustain higher levels raises concerns about the strength of buying interest, and traders should watch for a potential breakout below the recent low, which could signal further weakness in the New Zealand Dollar.\n\nIn terms of technical indicators, the MACD is currently negative at -0.00048, which indicates bearish momentum, although the absence of a signal line makes it difficult to draw definitive conclusions. The absence of a Relative Strength Index (RSI) reading complicates the analysis of overbought or oversold conditions. However, the 20-day Simple Moving Average (SMA) at 0.5667 serves as a potential resistance level. A sustained move below the current price could trigger selling pressure, while a rally back above the SMA may suggest renewed bullish sentiment.\n\nSupport levels are crucial to monitor, with the immediate floor identified around 0.5651, where sellers might step in to halt further declines. Conversely, if the price breaks below this level, it could pave the way for a deeper retracement towards 0.5640. On the upside, resistance is clearly defined near the SMA at 0.5667, which traders should observe closely for potential reversal signals. A breakthrough here could open the door for a retest of previous highs.\n\nFor traders, a cautious approach is advisable. A short position could be considered if the price breaks below 0.5651, targeting a move towards 0.5640. Conversely, if the price manages to reclaim the SMA, it may present an opportunity for a long position, aiming for 0.5680 as a potential target. As always, risk management should be a priority, given the current volatility and uncertainty surrounding the pair."
+    }
+  }
+}
