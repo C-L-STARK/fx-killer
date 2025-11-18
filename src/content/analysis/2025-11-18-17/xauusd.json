@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-18T17:44:37.106Z",
+  "price": {
+    "close": "4073.38494",
+    "high": "4073.51866",
+    "low": "4061.35646",
+    "open": "4068.18791",
+    "change": "0.13",
+    "datetime": "2025-11-19 04:00:00"
+  },
+  "indicators": {
+    "rsi": 59.32721,
+    "macd": 2.79852,
+    "macd_signal": -3.99893,
+    "sma20": 4037.49684
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[短期震荡区间内的上升趋势]",
+      "content": "当前黄金/美元（XAU/USD）的价格表现出一定的上行趋势，最新价格为4073.38494，24小时内变化为0.13%。虽然价格在4061.35646至4073.51866之间波动，但整体趋势显示出上涨的潜力。短期内，投资者应关注这一震荡区间的突破，尤其是突破4073.5的强阻力位。\n\n技术指标方面，虽然RSI（相对强弱指标）尚未提供，但MACD指标为2.79852，表明短期内买方力量较强，市场情绪偏向多头。结合SMA（20日简单移动平均）为4037.49684，价格位于此水平之上，进一步确认了上行趋势的有效性。\n\n支撑位方面，4061.35646提供了较强的支撑，若价格回调至此位置，则可能吸引买盘进场。阻力位在4073.51866，突破此点可能引发更强的上涨动能。投资者需密切关注这两个关键价位，以便制定相应的交易策略。\n\n综上所述，建议投资者在当前价格附近进行短期多头布局，关注突破4073.5的机会。同时，设立止损位于4061附近，以控制风险。保持灵活应变的交易思路，将有助于在波动的市场中把握盈利机会。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of gold against the US dollar (XAU/USD) is showing a slight upward trend, with a 24-hour change of 0.13%. This modest increase indicates a stable market environment after a recent pullback. The price has tested the recent low of 4061.35646, which appears to be a key support level. If the price manages to hold above this point, it could signal a continuation of bullish sentiment, pushing towards the recent high of 4073.51866. Traders should keep an eye on these levels for potential breakout opportunities.\n\nIndicator analysis reveals that the MACD is currently at 2.79852, suggesting that the momentum is in favor of buyers. Although the RSI(14) is not available at the moment, the MACD reading indicates that there is still room for further upside before hitting overbought territory. This reinforces the notion that the current trend may have the strength to continue in the short term. However, without RSI data, traders should be cautious and consider other indicators to validate their positions.\n\nIn terms of support and resistance, the immediate support level is at 4061.35646, while the resistance is seen near 4073.51866. A break above this resistance could open the door for further gains, potentially targeting 4080 as the next psychological level. Conversely, if prices fall below the support level, traders might look to establish short positions, especially if additional bearish signals emerge from other indicators.\n\nFor trading strategies, a conservative approach could involve waiting for confirmation of a breakout above 4073.51866 before entering long positions. Conversely, if the price retraces and closes below 4061.35646, it may be prudent to consider short positions, especially if coupled with bearish divergence on the MACD. Overall, maintaining a flexible strategy that adapts to market movements will be essential for navigating the current volatility in the gold market."
+    }
+  }
+}

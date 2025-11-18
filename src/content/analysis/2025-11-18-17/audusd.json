@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-18T17:41:40.726Z",
+  "price": {
+    "close": "0.64999",
+    "high": "0.65064",
+    "low": "0.64948",
+    "open": "0.65051",
+    "change": "-0.08",
+    "datetime": "2025-11-19 04:00:00"
+  },
+  "indicators": {
+    "rsi": 50.23416,
+    "macd": -0.00013699587,
+    "macd_signal": -0.00037476915,
+    "sma20": 0.649283
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理中]",
+      "content": "当前澳元/美元在0.64999附近交易，整体呈现震荡整理的趋势。24小时内小幅下跌0.08%，显示出市场参与者的犹豫情绪。近期的高点为0.65064，低点为0.64948，表明价格在这些水平之间波动，短期内缺乏明确的方向。\n\n从技术指标来看，虽然RSI和MACD数据尚未完全提供，但SMA（20）为0.64928，表明价格略高于该均线，可能支撑短期走势。MACD的负值显示出卖压存在，短期内可能会面临进一步回调的风险。\n\n在支撑和阻力位方面，0.64948作为近期的支撑位，若跌破该水平，可能会引发更深的调整。而0.65064则是主要的阻力位，若突破该水平，有望重新测试更高价位。投资者应密切关注这些关键水平的突破情况。\n\n综合来看，建议投资者在当前市场环境下采取观望态度，避免在震荡区间内盲目交易。如果价格突破0.65064，可考虑适度做多；如果跌破0.64948，则可考虑短线做空，以控制风险。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.64999, reflecting a slight decline of 0.08% over the last 24 hours. The price movement remains confined within a narrow range, with recent highs around 0.65064 and lows at 0.64948. This consolidation suggests a lack of strong conviction in either direction, which may indicate a waiting period for market participants as they assess upcoming economic indicators or geopolitical developments. The overall trend appears to be bearish, but a decisive break of key levels could provide further clarity on the market's direction.\n\nTechnical indicators reveal mixed signals. While the MACD is marginally negative at -0.000137, indicating potential bearish momentum, the absence of a significant RSI reading leaves the market somewhat ambiguous. The 20-period Simple Moving Average (SMA) at 0.64928 acts as a crucial support level. A sustained trading below this level could reinforce bearish sentiment, while a rally above the SMA may attract buyers looking for a reversal. Traders should monitor these indicators closely for any signs of momentum shift.\n\nIn terms of support and resistance, immediate support is found at 0.64948, with a more significant level at 0.64800. Conversely, resistance is established at the recent high of 0.65064, followed by psychological resistance around 0.65200. A breakout above 0.65200 could signal a bullish trend, while a drop below 0.64800 may trigger further selling pressure. Traders should remain vigilant around these levels for potential trading opportunities.\n\nFor trading strategies, a cautious approach is advisable. Short positions may be considered if price action confirms a break below the 0.64948 support level, targeting the next support around 0.64800. Conversely, if the pair crosses above the 0.65064 resistance, a long position could be executed, aiming for a target near 0.65200. Tight stop-loss orders should be employed to manage risk effectively in this uncertain market environment."
+    }
+  }
+}
