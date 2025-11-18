@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-18T16:15:28.939Z",
+  "price": {
+    "close": "1.31389",
+    "high": "1.31467",
+    "low": "1.31370",
+    "open": "1.31451",
+    "change": "-0.04",
+    "datetime": "2025-11-19 03:00:00"
+  },
+  "indicators": {
+    "rsi": 41.55457,
+    "macd": -0.00034161988,
+    "macd_signal": -0.00025769951,
+    "sma20": 1.31522
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理趋势]",
+      "content": "当前英镑/美元在1.31389附近交易，短期内呈现出震荡整理的趋势。尽管价格略微下跌0.04%，但整体区间仍保持相对稳定。市场情绪可能受到经济数据和地缘政治因素的影响，导致价格在高点1.31467和低点1.31370之间波动。\n\n从技术指标来看，目前的MACD值为-0.00034，表明市场动能略显疲弱，可能面临进一步回调的风险。SMA(20)在1.31522附近提供了一定的阻力，若价格突破该水平，可能会引发更强的上涨动能。同时，RSI指标虽然未提供，但若低于30，则可能出现超卖信号。\n\n支撑位方面，1.31370是短期内的重要支撑区，若跌破该水平，可能加大下行风险。反之，若价格能够有效突破1.31522的阻力位，可能会迎来新的上涨机会。建议投资者在此区间内采取谨慎的交易策略，关注市场动态，以便及时调整头寸。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently trading at 1.31389, showing a slight decline of 0.04% over the past 24 hours. This minor pullback comes after the price peaked at 1.31467, suggesting a potential resistance level in the short term. The recent high indicates that the market is encountering selling pressure, which could limit any upward momentum. Conversely, the low of 1.31370 serves as a critical support level that traders should monitor closely, as a breach below this level could trigger further selling.\n\nIn terms of technical indicators, the absence of the RSI(14) makes it challenging to assess overbought or oversold conditions. However, the MACD is currently negative at -0.00034161988, which may indicate bearish momentum in the short term. The SMA(20) at 1.31522 acts as a dynamic resistance level, and a sustained move below this average could reinforce a bearish outlook. Traders should consider the MACD's negative positioning as a signal to be cautious about entering long positions until a positive shift occurs.\n\nSupport and resistance levels are crucial for effective trading strategies. The immediate support at 1.31370 should be watched closely, as a break below this level could lead to increased downside risk, potentially targeting 1.31250. On the other hand, if the price manages to reclaim the SMA(20) at 1.31522, it could open the door for a challenge of the recent high at 1.31467, and subsequently, the next resistance level around 1.31600.\n\nFor traders looking to capitalize on this setup, it may be prudent to adopt a wait-and-see approach. A confirmation of the price maintaining above the SMA(20) could provide a buying opportunity, while a decisive break below 1.31370 may present a shorting opportunity. Position sizing and risk management will be essential in navigating this relatively tight trading range, as volatility can quickly shift market sentiment."
+    }
+  }
+}

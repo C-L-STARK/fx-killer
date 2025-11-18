@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-18T16:20:50.826Z",
+  "price": {
+    "close": "4055.84834",
+    "high": "4056.79787",
+    "low": "4043.54376",
+    "open": "4055.05063",
+    "change": "0.02",
+    "datetime": "2025-11-19 03:00:00"
+  },
+  "indicators": {
+    "rsi": 53.71018,
+    "macd": -0.11950909,
+    "macd_signal": -5.89449,
+    "sma20": 4035.50301
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，等待突破]",
+      "content": "当前黄金/美元（XAU/USD）价格在4055.84834附近震荡整理，24小时变化仅为0.02%。尽管市场显示出一定的稳定性，但由于缺乏显著的方向性，短期内可能会继续在高点4056.79787和低点4043.54376之间波动。投资者需关注突破信号，以判断未来的趋势。\n\n从技术指标来看，MACD目前处于负值区间，表明市场可能处于弱势状态，虽然RSI尚未提供数据，通常情况下，RSI指标的值低于30会提示超卖，而高于70则提示超买。因此，投资者在操作时应谨慎，等待更明确的趋势确认。\n\n支撑位方面，4043.54376将是关键的支撑层，若价格跌破该水平，可能会引发进一步的回调。另一方面，若价格突破4056.79787的阻力位，则可能会吸引更多买盘，进一步推动价格上行。因此，密切监测这两个价位的变动非常重要。\n\n基于当前的市场状况，建议投资者采取观望策略，等待价格突破关键支撑或阻力位后再进行交易。若市场突破上行，考虑适度进场做多；而若价格跌破支撑位，则应考虑做空，以规避潜在风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current trading environment for XAU/USD reflects a relatively stable price action, with the latest price at 4055.85, showing a marginal increase of 0.02% over the last 24 hours. This slight upward movement indicates a consolidation phase after recent fluctuations. The price has established a high of 4056.80 and a low of 4043.54, suggesting that the market is currently bounded within this range. A breakout above the high could signal a bullish trend, while a move below the low may indicate bearish sentiment.\n\nIn terms of technical indicators, the absence of a current RSI reading limits our analysis of overbought or oversold conditions. However, the MACD at -0.1195 suggests a bearish momentum, albeit weak. The Simple Moving Average (SMA) at 4035.50 serves as a critical support level. If prices remain above this SMA, it can be interpreted as a sign of ongoing bullish sentiment, while a drop below could trigger further selling pressure, reinforcing the bearish outlook suggested by the MACD.\n\nSupport and resistance levels are crucial for traders in making informed decisions. The immediate support level is located at the low of 4043.54, which, if breached, could lead to further declines. Conversely, resistance appears at the high of 4056.80; a successful breakout above this level might open the door for a retest of higher price levels, potentially aiming for the 4070 mark. Traders should closely monitor these levels for potential trading opportunities.\n\nFor trading suggestions, a cautious approach is advisable. Long positions could be considered if the price breaks above the resistance at 4056.80, ideally with confirmation from volume and additional indicators. Conversely, if the price falls below the support level at 4043.54, short positions may be warranted. It's essential to maintain a disciplined risk management strategy, given the current market volatility and mixed signals from indicators."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-18T16:16:30.711Z",
+  "price": {
+    "close": "155.36700",
+    "high": "155.43300",
+    "low": "155.25301",
+    "open": "155.27400",
+    "change": "0.06",
+    "datetime": "2025-11-19 03:00:00"
+  },
+  "indicators": {
+    "rsi": 60.30679,
+    "macd": 0.088673509,
+    "macd_signal": 0.093867159,
+    "sma20": 155.21085
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[当前走势偏强，短期关注调整]",
+      "content": "当前美元/日元（USD/JPY）的价格为155.367，显示出一定的上涨趋势。近期价格在155.25301至155.43300之间波动，表明市场存在一定的买盘支持。考虑到当前的市场环境，美元的强势表现可能会继续支撑这一货币对的上行。\n\n技术指标方面，虽然RSI(14)数据缺失，但MACD显示出0.0887的正值，表明短期内仍然存在买入动能。结合20日简单移动平均线(SMA)的155.21085，可以看出当前价格已明显高于该均线，进一步确认了短期内的上涨趋势。\n\n在支撑和阻力位方面，当前155.43300的高点将是关键的阻力位，若突破该水平可能会引发进一步上涨。而155.25301则是重要的支撑位，若价格跌破该水平，可能会引发短期的调整。因此，投资者需密切关注这些关键价位的变动。\n\n综合来看，当前美元/日元显示出强劲的上行趋势，但短期可能会面临调整压力。建议投资者在接近阻力位时保持谨慎，并考虑适时入场或止损策略，以应对市场波动。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY currency pair is currently exhibiting a bullish trend, trading at 155.36700 after a slight increase of 0.06% over the past 24 hours. The price has maintained a position above the 20-day Simple Moving Average (SMA) of 155.21085, indicating a sustained upward momentum. The recent high of 155.43300 suggests a potential test of this resistance level, while the low of 155.25301 establishes a nearby support, providing traders with a clear range to monitor for potential breakout or reversal opportunities.\n\nIn terms of technical indicators, the MACD value of 0.0887 indicates that bullish momentum is present, although the absence of a signal line complicates the assessment of potential buy or sell signals. The RSI is not available, making it challenging to gauge overbought or oversold conditions. Traders should remain vigilant for changes in these indicators, as they could provide further insights into market sentiment and trend strength. A confirmed MACD crossover could reinforce the bullish outlook, while divergence might signal a potential pullback.\n\nSupport levels are firmly established around the 155.25301 mark, which may provide a solid base for buyers to re-enter the market if prices dip. Conversely, the resistance near 155.43300 will be crucial for traders to watch; a breakout above this level could pave the way for further gains, potentially targeting 156.00 in the medium term. A failure to breach this resistance could lead to a consolidation phase or a correction back toward the support level.\n\nTraders are advised to consider a cautious bullish stance, entering long positions on dips near support levels, particularly if additional bullish signals emerge from the MACD or other technical indicators. Conversely, if the price fails to hold above the key support level, a reassessment of positions may be warranted to mitigate risk. Overall, maintaining a close watch on price action and market sentiment will be essential in navigating the USD/JPY landscape in the coming sessions."
+    }
+  }
+}

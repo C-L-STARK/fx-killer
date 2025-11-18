@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-18T16:17:12.217Z",
+  "price": {
+    "close": "0.64901",
+    "high": "0.64903",
+    "low": "0.64838",
+    "open": "0.64903",
+    "change": "0.00",
+    "datetime": "2025-11-19 03:00:00"
+  },
+  "indicators": {
+    "rsi": 44.2905,
+    "macd": -0.00027808018,
+    "macd_signal": -0.00045607002,
+    "sma20": 0.6491775
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理中]",
+      "content": "当前澳元/美元(AUD/USD)价格为0.64901，近期走势呈现震荡整理的状态。经过24小时的横盘波动，价格未能突破高点0.64903或低点0.64838，显示出市场的犹豫和不确定性。短期内，投资者需密切关注价格是否能够突破这一区间，以判断后续的趋势。\n\n从技术指标来看，虽然当前RSI未提供，但MACD显示为负值，表明卖方力量仍然存在，且市场可能处于弱势。此外，20日简单移动平均线(SMA)在0.64917750附近提供了一定的阻力，若价格向上突破该水平，可能会吸引更多买入情绪。\n\n在支撑和阻力位方面，当前的支撑位位于0.64838，若价格下破此位，可能会加大下行风险，进一步测试更低的支撑位。而阻力位则在0.64903和0.65000附近，突破这些水平将可能开启新的上涨空间。\n\n综合来看，建议投资者保持观望，待价格突破关键支撑或阻力位后再进行交易。谨慎的止损设置将有助于控制风险，尤其是在市场波动性较大的情况下。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) is currently trading at 0.64901 against the US Dollar (USD), showing a stable range with minimal fluctuations over the past 24 hours. The price has oscillated between a high of 0.64903 and a low of 0.64838, indicating a consolidation phase. This sideways movement suggests that the market is currently lacking a strong directional bias, which may be indicative of traders waiting for more decisive economic data or geopolitical events to drive the next move.\n\nFrom a technical perspective, the AUD/USD is hovering near its 20-period Simple Moving Average (SMA) at 0.64917750. This SMA acts as a dynamic support/resistance level, and the proximity to it could signal potential price reactions. If the pair maintains its position above this SMA, it may attract bullish sentiment, potentially aiming for higher resistance levels. Conversely, a break below this SMA could point to increased selling pressure, testing lower support levels around 0.64800.\n\nThe current MACD reading of -0.00027808018 further emphasizes the lack of momentum in the market. As the MACD remains close to the zero line, it suggests that there is no clear trend direction. Traders should watch for the MACD to cross above its signal line for bullish confirmation or below for bearish signals. Additionally, the Relative Strength Index (RSI) would be helpful to gauge overbought or oversold conditions, but as it is currently unavailable, traders might rely on price action for insights.\n\nIn terms of trading suggestions, it would be prudent to remain cautious until clearer signals emerge. A breakout above the recent high of 0.64903 could present a buying opportunity, with a target around 0.65000. Conversely, a drop below the low of 0.64838 could trigger a short position, potentially aiming for the next support level at 0.64800. Monitoring economic news releases, especially from Australia and the US, will be essential for anticipating volatility in this currency pair."
+    }
+  }
+}
