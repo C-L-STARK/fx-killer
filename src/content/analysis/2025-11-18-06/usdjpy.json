@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-18T06:56:47.143Z",
+  "price": {
+    "close": "155.12900",
+    "high": "155.19099",
+    "low": "154.86200",
+    "open": "155.076996",
+    "change": "0.03",
+    "datetime": "2025-11-18 17:00:00"
+  },
+  "indicators": {
+    "rsi": 56.73423,
+    "macd": 0.098409446,
+    "macd_signal": 0.13050038,
+    "sma20": 155.12245
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理中]",
+      "content": "当前美元/日元（USD/JPY）的价格为155.12900，整体走势呈现震荡整理的状态。尽管24小时内价格变化不大，但市场在155.19099的高点和154.86200的低点之间波动，显示出短期内缺乏明确的方向。投资者需关注即将到来的经济数据，以判断市场情绪的变化。\n\n从技术指标来看，虽然RSI(14)目前无法提供，但MACD指标显示出0.098的正值，暗示短期内可能存在一定的上涨动能。SMA(20)的值为155.12245，与当前价格接近，表明市场可能会在此附近形成支撑。若价格下探至此水平，可能会吸引买盘进场。\n\n支撑位建议关注154.86200，若价格跌破该水平，可能会引发进一步下跌，进而测试更低的支撑区间。阻力位则位于155.19099，若价格突破此水平，可能会引发多头的进一步追捧，推动价格上涨至156.000的心理关口。\n\n基于当前的市场情况，建议投资者采取观望策略，待价格确认突破支撑或阻力位后再进行交易。同时，密切关注宏观经济数据和市场情绪变化，以便适时调整交易策略。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently showing a slight positive momentum, trading at 155.12900 with a minimal 24-hour change of 0.03%. The price is positioned near the recent high of 155.19099, indicating that the pair is testing resistance levels. A sustained break above this resistance could signal a bullish trend continuation, while failure to maintain above these highs may lead to a reversal toward lower support levels.\n\nThe 20-period Simple Moving Average (SMA) is positioned at 155.12245, acting as a dynamic support level. As the price hovers just above this moving average, it suggests that the short-term trend remains bullish. However, without additional momentum indicators like RSI or a defined MACD signal, traders should exercise caution. Monitoring price action around the SMA is essential; a move below could signal a potential reversal in sentiment.\n\nFor traders, key support is found around the recent low of 154.86200. This level may provide a buying opportunity should the price retrace, especially if accompanied by bullish candlestick patterns. Conversely, if the pair breaks below this support, it could open the door for further downside, targeting the next support level. To capitalize on potential moves, setting stop-loss orders is advisable to manage risk effectively.\n\nIn conclusion, the USD/JPY pair is positioned in a delicate state between bullish and bearish influences. Traders should watch for decisive moves above 155.19099 to confirm the bullish trend or a breakdown below 154.86200 to signal bearish sentiment. Utilizing these levels along with the SMA can provide a framework for making informed trading decisions in this dynamic market environment."
+    }
+  }
+}
