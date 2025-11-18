@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-18T22:48:19.774Z",
+  "price": {
+    "close": "1.15813",
+    "high": "1.15823",
+    "low": "1.15779",
+    "open": "1.15804",
+    "change": "0.00",
+    "datetime": "2025-11-19 09:00:00"
+  },
+  "indicators": {
+    "rsi": 43.19824,
+    "macd": -0.00040698235,
+    "macd_signal": -0.00037851601,
+    "sma20": 1.15882
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理趋势]",
+      "content": "当前欧元/美元（EUR/USD）在1.15813附近震荡整理，整体趋势表现出一定的横盘特征。价格在1.15823的高点和1.15779的低点之间波动，表明市场暂时缺乏明确的方向。投资者需关注即将发布的经济数据，以判断未来可能的走势。\n\n技术指标方面，RSI(14)暂时缺失，但MACD指标显示出轻微的下行趋势，当前值为-0.0004，暗示短期内卖压可能有所增加。SMA(20)为1.15882，价格在此均线下方，表明短期走势略偏弱。需密切关注市场情绪的变化，可能会影响技术指标的走向。\n\n在支撑与阻力位方面，当前1.15779为重要支撑位，若突破该水平，可能会测试更低的价格区域。上方1.15823为初步阻力位，若突破，后续可能挑战1.1600的心理关口。投资者应设定合理的止损位，以防止突发的市场波动。\n\n综合来看，建议投资者维持观望态度，等待价格突破关键支撑或阻力位后再做决策。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD pair is currently trading at 1.15813, showing a stable price movement with a 24-hour change of 0.00%. This stability suggests that the market is in a consolidation phase, as indicated by the narrow trading range between the high of 1.15823 and the low of 1.15779. Traders should closely monitor this range; a breakout above the resistance at 1.15823 could signal a continuation of upward momentum, while a drop below 1.15779 might indicate bearish sentiment.\n\nThe absence of recent RSI data limits the assessment of overbought or oversold conditions, but the MACD reading of -0.0004 suggests a slight bearish bias. This negative MACD indicates that the momentum is currently weak, which aligns with the flat price action observed. Traders should consider waiting for confirmation from the RSI or other momentum indicators before making significant moves. Additionally, the 20-period Simple Moving Average (SMA) at 1.15882 serves as a potential resistance level, further reinforcing the need for caution.\n\nSupport levels are identified around the 1.15779 mark, where buying interest could emerge if the price approaches this point. Should this support level hold, it may present a buying opportunity for traders looking to capitalize on a potential bounce back towards the resistance at 1.15823. Conversely, if the price breaks below this support, it could lead to further declines, with the next support level likely around 1.15650.\n\nIn terms of trading suggestions, a wait-and-see approach is prudent until clearer signals emerge. If the price breaks above 1.15823, traders might consider entering long positions with a target toward the 1.1600 psychological level. Conversely, a breach below 1.15779 could trigger short positions, targeting the next support at 1.15650. Risk management strategies should be implemented to protect against potential volatility, particularly in the current environment of low momentum."
+    }
+  }
+}

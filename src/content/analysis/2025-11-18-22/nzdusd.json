@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-18T22:51:40.678Z",
+  "price": {
+    "close": "0.56602705",
+    "high": "0.56631553",
+    "low": "0.56586689",
+    "open": "0.56615525",
+    "change": "0.02",
+    "datetime": "2025-11-19 09:00:00"
+  },
+  "indicators": {
+    "rsi": 47.22658,
+    "macd": -0.000041200883,
+    "macd_signal": -0.000041865085,
+    "sma20": 0.56617833
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：当前市场处于震荡整理阶段",
+      "content": "当前纽元/美元(NZD/USD)价格为0.56602705，近期走势显示出震荡整理的特征。价格在0.5659到0.5663之间波动，缺乏明显的上行动能。虽然24小时变化仅为0.02%，表明市场情绪相对平淡，但这也为后续的趋势反转提供了可能的基础。\n\n从技术指标来看，当前没有RSI和MACD的完整数据，但SMA(20)为0.56617833，显示出短期内价格可能受到这一均线的支撑。若价格持续在此均线之上运行，有可能迎来小幅反弹。相反，若跌破这一水平，则可能进一步测试低点0.5659的支撑位。\n\n在支撑和阻力方面，当前的支撑位在0.5659，而阻力位则在0.5663附近。投资者可以关注这些关键水平，作为短期交易的参考。若价格突破阻力位，可能会引发更大的买盘；而跌破支撑位则可能引发抛盘压力。\n\n综合来看，建议投资者在当前震荡整理的市场中采取观望态度，关注价格在关键支撑和阻力位的表现，灵活调整交易策略。若有突破信号出现，再考虑进场交易。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.5660, showing a slight upward movement of 0.02% over the last 24 hours. The price action remains constrained within a narrow range, with the recent high at 0.5663 and a low of 0.5659. This stagnation indicates a potential consolidation phase, where traders are awaiting further catalysts to drive price action. A breakout above the recent high could signal bullish momentum, while a drop below the low may trigger bearish sentiment.\n\nThe 20-period Simple Moving Average (SMA) at 0.5662 serves as a dynamic support level in the short term. Currently, the price is trading slightly below this SMA, which may suggest a potential bearish bias unless the price can reclaim this level. Traders should monitor the SMA closely, as a decisive move above it could open the door for further upside, targeting resistance near 0.5675. Conversely, a failure to hold above the SMA could lead to increased selling pressure and a test of support at 0.5650.\n\nWhile the RSI and MACD indicators are not currently available, their absence should not deter traders from analyzing price action patterns. If the RSI were to be calculated, a reading below 30 would indicate oversold conditions, while readings above 70 would suggest overbought conditions. The MACD, when available, can help confirm potential reversals or continuations in trend. Until then, traders should exercise caution and consider using other technical analysis methods, such as candlestick patterns, to assess market sentiment.\n\nIn terms of trading strategy, a cautious approach is advisable given the current consolidation. A buy position could be considered if the price breaks above 0.5663, with a stop-loss placed below 0.5655 to manage risk. Alternatively, a short position could be triggered if the price breaches 0.5658, targeting a move toward 0.5650. Overall, maintaining a flexible and responsive trading plan will be crucial in this uncertain market environment."
+    }
+  }
+}

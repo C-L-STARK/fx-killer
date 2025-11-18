@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-18T22:51:00.012Z",
+  "price": {
+    "close": "1.39856",
+    "high": "1.39870",
+    "low": "1.39790",
+    "open": "1.39852",
+    "change": "0.00",
+    "datetime": "2025-11-19 09:00:00"
+  },
+  "indicators": {
+    "rsi": 28.021116,
+    "macd": -0.0015486437,
+    "macd_signal": -0.0011193105,
+    "sma20": 1.40173
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡整理中]",
+      "content": "当前美元/加元（USD/CAD）价格在1.39856附近，近期走势表现出窄幅震荡的特征。价格在1.39790至1.39870区间内波动，显示出市场的犹豫态度。考虑到缺乏明显的趋势方向，短期内可能会继续维持这种整理态势。\n\n从技术指标来看，当前的MACD值为-0.0015，表明卖方略占优势，但信号线数据缺失使得判断变得复杂。同时，20日简单移动平均线（SMA）在1.40173附近，显示出潜在的阻力位。如果价格回升至该水平，可能会吸引卖盘，增加下行压力。\n\n在支撑位方面，1.39790是关键的短期支撑，若价格跌破该水平，可能会进一步下探至1.39500。反之，若能有效突破1.40173，将有助于恢复多头信心。综合考虑，建议交易者在当前区间内进行短线操作，关注突破信号以把握更大的交易机会。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD pair currently trades at 1.39856, showing a neutral stance with no change over the past 24 hours. This stability follows a recent consolidation phase, where the price oscillated between the high of 1.39870 and the low of 1.39790. The absence of significant movement suggests that the market is waiting for a catalyst, possibly from upcoming economic data releases or geopolitical developments, to drive the pair in either direction.\n\nFrom a technical perspective, the 20-period Simple Moving Average (SMA) at 1.40173 indicates a bearish trend in the short term, as the current price is below this moving average. The MACD value of -0.0015 further confirms this bearish sentiment, although the lack of a signal line makes it difficult to gauge momentum accurately. Traders should monitor this indicator closely for potential crossovers that could signal a shift in momentum.\n\nSupport and resistance levels are crucial for identifying potential entry and exit points. Immediate support appears to be at the recent low of 1.39790, while resistance can be observed near the SMA at 1.40173. A break below the support level may lead to further downside, potentially targeting the next significant support around 1.3950. Conversely, a move above the SMA would suggest bullish sentiment, opening the door to test higher resistance levels around 1.4050.\n\nFor traders looking to capitalize on potential price movements, a cautious approach is warranted. A breakout above the SMA could present a buying opportunity, while a failure to hold above the support level may signal a short position. Monitoring economic indicators such as Canadian employment data or U.S. inflation figures could provide additional insights into market direction, making it essential to stay informed of macroeconomic trends."
+    }
+  }
+}

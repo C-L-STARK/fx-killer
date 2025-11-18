@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-18T22:53:01.627Z",
+  "price": {
+    "close": "4068.38057",
+    "high": "4068.48966",
+    "low": "4066.06822",
+    "open": "4067.40578",
+    "change": "0.02",
+    "datetime": "2025-11-19 09:00:00"
+  },
+  "indicators": {
+    "rsi": 55.67668,
+    "macd": 6.4535,
+    "macd_signal": 2.77276,
+    "sma20": 4047.53604
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[短期震荡，上行趋势待确认]",
+      "content": "当前黄金/美元(XAU/USD)价格在4068.38附近震荡，表现出一定的短期整理特征。从近期的高点和低点来看，价格波动范围相对有限，市场尚未显示出明确的上涨或下跌趋势。投资者需关注市场情绪变化，以判断后续走势的可能方向。\n\n在技术指标方面，MACD值为6.4535，表明市场仍有一定的买盘动力，尽管信号线尚未给出明确的交易信号。由于RSI值缺失，无法判断超买或超卖状态，因此建议密切关注后续指标的变化。此外，20日简单移动平均线(SMA)在4047.54，作为短期支撑位，可以为市场提供一定的防守。\n\n从支撑和阻力来看，当前支撑位在4066.07附近，而阻力位则在4068.49一线。突破4068.49可能会继续推高至4080区域，反之若跌破4066.07，则可能回调至4050附近。因此，建议投资者在操作时设定合理的止损位，灵活应对市场波动，以控制风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of Gold against the US Dollar (XAU/USD) stands at 4068.38, indicating a modest 24-hour change of 0.02%. This slight movement suggests a consolidation phase as the price remains near recent highs. The high and low range for the last 24 hours shows a limited volatility, with values fluctuating between 4068.49 and 4066.07. This stability may signal a potential breakout or breakdown as traders await further market direction.\n\nFrom a technical perspective, the Simple Moving Average (SMA) over the last 20 periods at 4047.54 provides a key support level. This SMA indicates that the bullish trend remains intact as long as the price stays above this level. The MACD reading of 6.45 suggests a favorable bullish momentum, although the absence of a signal line complicates a more detailed momentum analysis. Traders should closely monitor any shifts in these indicators for signs of a potential trend reversal or continuation.\n\nKey resistance levels are identified around 4070, where previous price action has struggled to break through. If the price can rally above this threshold, it may indicate a stronger bullish sentiment, potentially opening pathways towards higher resistance levels. Conversely, if the price dips below the SMA support, the next significant support level could be tested around 4035, suggesting a heightened risk for long positions.\n\nIn terms of trading strategy, traders may consider entering long positions on a confirmed breakout above the 4070 resistance, with a stop-loss set just below the SMA support. Conversely, if the price breaks below the 4047.54 SMA, a short position may be warranted, targeting the next support level at 4035. It is essential to maintain a risk management strategy to navigate potential market volatility effectively."
+    }
+  }
+}
