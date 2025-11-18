@@ -24,6 +24,10 @@ export default function UnifiedNavbar() {
       link: "/splan/join-us",
     },
     {
+      name: t('nav.propfirm'),
+      link: "/propfirm",
+    },
+    {
       name: language === 'zh' ? '教育' : 'Education',
       link: "/education",
       hasDropdown: true,
@@ -143,10 +147,10 @@ export default function UnifiedNavbar() {
           : 'bg-white dark:bg-gray-900'
       } border-b border-gray-200 dark:border-gray-800`}
     >
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-[1400px] mx-auto px-2">
         <div className="flex items-center justify-between h-16">
           {/* Logo - 靠左 */}
-          <div className="flex items-center space-x-6">
+          <div className="flex items-center space-x-4">
             <LocaleLink href="/" className="flex items-center group">
               <span className="text-2xl"><BrandName inNavbar={true} /></span>
             </LocaleLink>
@@ -162,7 +166,7 @@ export default function UnifiedNavbar() {
               >
                 <LocaleLink
                   href={item.link}
-                  className="relative px-3 py-2 text-sm font-medium transition-colors group flex items-center gap-1"
+                  className="relative px-2.5 py-2 text-sm font-medium transition-colors group flex items-center gap-1"
                 >
                   <span
                     className={`relative z-10 ${
