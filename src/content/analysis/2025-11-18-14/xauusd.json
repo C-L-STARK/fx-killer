@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-18T14:57:41.188Z",
+  "price": {
+    "close": "4066.03317",
+    "high": "4079.86217",
+    "low": "4064.9663",
+    "open": "4069.21893",
+    "change": "-0.08",
+    "datetime": "2025-11-19 01:00:00"
+  },
+  "indicators": {
+    "rsi": 58.10092,
+    "macd": -2.47279,
+    "macd_signal": -8.94809,
+    "sma20": 4032.51228
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理趋势]",
+      "content": "当前黄金/美元(XAU/USD)的市场表现显示出震荡整理的趋势，最新价格为4066.03，较24小时前微幅下跌0.08%。虽然价格未能突破4079.86的高点，但相对稳健的低点4064.97为市场提供了一定的支撑。整体来看，短期内价格可能维持在此区间内波动。\n\n技术指标方面，MACD目前显示为负值-2.47279，表明当前市场存在一定的卖压，但尚未形成明确的下行趋势。RSI指标尚未提供，但从当前价格走势来看，可能接近超卖区域，若出现反弹，可能会为后续上涨提供动力。20日简单移动平均线(SMA)在4032.51为短期支撑位，值得关注。\n\n在支撑和阻力方面，4064.97的低点将是关键支撑位，而4079.86则是重要的阻力位，一旦突破，有可能引发更大的上涨动能。投资者应密切关注这些关键价位，以便把握交易机会。\n\n综合来看，建议投资者在4064.97支撑位附近寻找买入机会，同时注意在4079.86附近设定止盈策略。如果价格突破此阻力位，可以考虑进一步加仓，但在市场动荡时应保持谨慎，及时调整策略以应对潜在风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The recent price action of Gold against the US Dollar (XAU/USD) indicates a slightly bearish sentiment, with the asset currently trading at 4066.03. The 24-hour change of -0.08% suggests a consolidation phase after hitting a high of 4079.86. The market appears to be testing the lower bounds of this range, which could lead to further downside if sellers maintain their momentum. However, the overall trend remains upward, as the price is still above the 20-period Simple Moving Average (SMA) of 4032.51, indicating potential support.\n\nIn terms of technical indicators, the MACD reading of -2.47279 suggests bearish momentum, although the absence of a signal line makes it difficult to determine a definitive trend direction. This negative MACD value may attract cautious traders, especially if it continues to decline. A closer watch on the RSI (14), once available, will be essential for gauging overbought or oversold conditions, providing further insight into potential reversals or confirmations of the current trend.\n\nKey support levels to monitor include the recent low of 4064.97, which, if breached, could open the door for deeper corrections towards the next psychological level around 4000. Conversely, resistance is observed at 4079.86, the recent high, which would need to be broken for a more bullish outlook. A sustained move above this level could signal renewed buying interest and potentially target higher resistance levels.\n\nFor traders considering entry points, waiting for a confirmation of price action around the support level of 4064.97 may prove prudent. If the price holds above this level, it could present a buying opportunity. Conversely, if the price breaks below this support, it may be wise to adopt a more bearish stance, looking for short positions with a target near 4000. Overall, maintaining a flexible trading strategy that accounts for both bullish and bearish scenarios will be crucial in navigating the current market landscape for XAU/USD."
+    }
+  }
+}
