@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-18T20:14:32.057Z",
+  "price": {
+    "close": "155.48000",
+    "high": "155.53400",
+    "low": "155.47800",
+    "open": "155.52100",
+    "change": "-0.03",
+    "datetime": "2025-11-19 07:00:00"
+  },
+  "indicators": {
+    "rsi": 59.26519,
+    "macd": 0.1350516,
+    "macd_signal": 0.11776359,
+    "sma20": 155.28015
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理趋势]",
+      "content": "当前美元/日元（USD/JPY）交易在155.48附近，显示出震荡整理的趋势。过去24小时内，价格小幅下跌0.03%，表明市场缺乏强烈的方向性。日内高点为155.534，低点为155.478，反映出短期内波动幅度有限，市场可能在等待进一步的经济数据或政策指引。\n\n从技术指标来看，虽然RSI(14)数据缺失，但MACD值为0.13505160，表明当前市场存在一定的上行动能，但力量较弱。20日简单移动平均线（SMA）在155.28015附近，为价格提供了潜在的支撑位。若价格持续在此水平之上，可能会吸引多头入场。\n\n支撑位方面，155.280的SMA将是关键支撑，而155.478的低点也提供了额外的保护。若价格突破155.534的高点，可能会出现进一步的上涨动能，目标可看向156.000。相反，若跌破155.280，则需警惕进一步回调的风险。\n\n交易建议方面，建议短线交易者在155.480附近进行观望，寻找突破信号。如果价格突破155.534，可以考虑做多，反之则可以关注短期空头机会。在当前市场环境中，保持谨慎态度，密切关注技术指标的变化将是重要策略。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 155.480, exhibiting a slight decline of 0.03% over the last 24 hours. This minor pullback follows a recent upward trend, suggesting that the market may be consolidating after reaching a high of 155.534. The overall bullish sentiment remains intact, but traders should be cautious of potential corrections. A sustained move above the recent high could signal further upside momentum, while a drop below the recent low of 155.478 may indicate a shift in sentiment.\n\nIn terms of technical indicators, the MACD shows a positive value of 0.135, suggesting that the momentum favors the bulls. However, without a signal line available, traders should be attentive to any crossover that could indicate a change in trend direction. The absence of an RSI reading limits our ability to assess overbought or oversold conditions, but the price action itself provides insights. The 20-period simple moving average (SMA) at 155.280 acts as a critical support level, and a test of this level could provide buying opportunities for traders looking to capitalize on the prevailing bullish trend.\n\nSupport and resistance levels are vital for determining potential price action. The immediate support is found at the SMA level of 155.280, while resistance is established at the recent high of 155.534. A break above this level could open the door for further advances, potentially targeting psychological levels like 156.00. Conversely, if the price breaches the support level, it may trigger a more significant pullback, warranting a reassessment of long positions.\n\nTraders are advised to monitor price action closely around these key levels. A strategic approach could involve setting buy orders slightly above resistance to catch upward breaks, while considering stop-loss orders just below the support level to mitigate risk. The current market conditions suggest that maintaining a bullish bias, while being prepared for short-term volatility, is essential for navigating the USD/JPY landscape effectively."
+    }
+  }
+}

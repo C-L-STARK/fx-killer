@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-18T20:16:38.982Z",
+  "price": {
+    "close": "0.56676489",
+    "high": "0.56682914",
+    "low": "0.56676489",
+    "open": "0.56682914",
+    "change": "0.01",
+    "datetime": "2025-11-19 07:00:00"
+  },
+  "indicators": {
+    "rsi": 53.54479,
+    "macd": 0.000053901563,
+    "macd_signal": -0.00004162821,
+    "sma20": 0.56617359
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋势]",
+      "content": "当前纽元/美元(NZD/USD)的走势呈现出震荡整理的状态。最新价格为0.56676489，24小时变化不大，显示出市场情绪较为平稳。尽管价格未能显著突破高点或低点，但这种整理状态可能为后续的突破奠定基础。\n\n从技术指标来看，虽然RSI(14)缺失，但MACD指标显示出微弱的正值，可能暗示短期内存在一定的买盘力量。SMA(20)的支持位在0.56617359附近，表明如果价格回落至此水平，可能会吸引买盘。市场参与者需关注价格是否能够维持在此均线之上。\n\n在支撑和阻力方面，当前的支撑位在0.56617359，而阻力位则在0.56682914附近。若价格突破阻力位，可能会引发更强的上行动能；反之，若跌破支撑位，可能会加剧卖盘压力。投资者应密切关注这些关键价格水平。\n\n综合考虑当前市场状况，建议投资者在此区间内进行短线操作，利用支撑和阻力位进行买卖。若价格突破关键阻力位，可考虑增加仓位；而若跌破支撑位，则应考虑止损以规避风险。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD currency pair is currently trading at 0.56676489, reflecting a slight 24-hour change of 0.01%. This stability suggests a consolidation phase in the market, where traders may be hesitant to commit to significant positions. The recent high of 0.56682914 and low of 0.56676489 indicate a tight range, which could be indicative of an impending breakout. Market participants should closely monitor price movements around these levels for potential trading opportunities.\n\nFrom a technical perspective, the absence of RSI data limits our ability to gauge overbought or oversold conditions. However, the MACD value is minimal, suggesting a lack of momentum in the current price action. The 20-period Simple Moving Average (SMA) at 0.56617359 serves as a dynamic support level. Should the price dip below this level, it may indicate further bearish sentiment, while a move above the recent high could signal a bullish reversal.\n\nKey support can be identified around the 0.56617359 level, where the SMA aligns with prior price action, reinforcing its importance. Resistance is observed slightly above the current price, with the recent high of 0.56682914 acting as a critical barrier. A break above this level could enhance bullish momentum, while a failure to sustain above this could lead to a retest of the support level mentioned earlier.\n\nTraders may consider a cautious approach, observing how the price interacts with the mentioned support and resistance levels. A breakout above 0.56682914 could present a buying opportunity, while a breakdown below the 20-period SMA may warrant a sell signal. As always, maintaining a risk management strategy is essential in navigating the inherent volatility of the forex market."
+    }
+  }
+}

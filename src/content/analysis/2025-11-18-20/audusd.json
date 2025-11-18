@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-18T20:15:14.517Z",
+  "price": {
+    "close": "0.65158",
+    "high": "0.65181",
+    "low": "0.65157",
+    "open": "0.65164",
+    "change": "-0.01",
+    "datetime": "2025-11-19 07:00:00"
+  },
+  "indicators": {
+    "rsi": 58.46784,
+    "macd": 0.0002587021,
+    "macd_signal": -0.00009504949,
+    "sma20": 0.649694
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理中]",
+      "content": "当前澳元/美元的价格为0.65158，呈现出轻微的下跌趋势。价格在过去24小时内变化不大，显示出市场的犹豫和整理态势。由于缺乏明显的上升或下降动能，短期内可能会在0.65157和0.65181之间波动，投资者需保持警惕。\n\n从技术指标来看，虽然RSI(14)和MACD的具体数值暂时无法获取，但结合SMA(20)的值0.649694，表明近期价格仍在该均线之上，显示出一定的多头支撑。如果价格能够保持在SMA上方，将为继续上行提供基础，而若跌破则可能引发短期空头情绪。\n\n在支撑和阻力位方面，当前的支撑位在0.649694附近，而阻力位则在0.65181。如果价格突破阻力位，可能会吸引更多买盘，进一步上涨至0.6530。然而，若价格跌破支撑位，可能会导致更大幅度的回调，目标可能指向0.6480。\n\n综合来看，建议投资者保持观望，密切关注价格在这两个关键水平的表现。若价格突破阻力位，可考虑适度介入多单；反之，若跌破支撑位，则应考虑止损或开设空单，以降低风险。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.65158, reflecting a slight decline of 0.01% over the past 24 hours. This price action takes place within a narrow range, with the high and low recorded at 0.65181 and 0.65157, respectively. The recent price movement suggests a consolidation phase as the market seeks direction. The pair has been struggling to break above the key resistance level at approximately 0.6520, indicating selling pressure in this area. A sustained move above this resistance could lead to a bullish outlook, while failure to maintain above the support level of 0.6497 could trigger further bearish sentiment.\n\nIn terms of technical indicators, the Simple Moving Average (SMA) of 20 periods at 0.649694 provides a baseline for assessing short-term price movements. The current price is situated above this SMA, indicating bullish momentum; however, the proximity to the SMA suggests potential volatility. The MACD value of 0.00025870210 indicates minimal momentum, and without additional context from the signal line, caution is warranted. Traders should watch for a crossover in the MACD to confirm any emerging trends.\n\nSupport and resistance levels are crucial for determining entry and exit points. The immediate support level is positioned at 0.6497, which traders should monitor closely as a break below could lead to further declines toward the 0.6480 mark. On the upside, resistance at 0.6520 remains significant. A breakout above this level could see the AUD/USD test higher levels, potentially reaching 0.6540, contingent on broader market sentiment and economic data releases.\n\nTraders may consider a strategy of buying on dips near the support level of 0.6497, with a stop-loss positioned just below this threshold to manage risk. Conversely, selling near the resistance level at 0.6520 could be a viable strategy, especially if there are signs of rejection at this point. Maintaining a close watch on the broader economic indicators and geopolitical developments will be essential in navigating the current market landscape effectively."
+    }
+  }
+}

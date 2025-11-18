@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-18T20:18:02.629Z",
+  "price": {
+    "close": "4074.46601",
+    "high": "4081.72149",
+    "low": "4074.12551",
+    "open": "4081.01883",
+    "change": "-0.16",
+    "datetime": "2025-11-19 07:00:00"
+  },
+  "indicators": {
+    "rsi": 58.53299,
+    "macd": 6.73905,
+    "macd_signal": 0.78967057,
+    "sma20": 4043.10178
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理趋势]",
+      "content": "当前黄金/美元(XAU/USD)在4074.46附近震荡整理，价格略微下跌0.16%。从近期的高点4081.72和低点4074.13来看，市场呈现出较为明显的横盘走势，短期内缺乏明确的方向性。投资者应关注该区间的突破情况，以判断后续的市场走向。\n\n从技术指标来看，虽然RSI尚未提供数据，但MACD显示出6.73905的正值，表明当前市场仍有一定的上行动能。结合20日简单移动平均线(SMA)的4043.10，我们可以推测短期内黄金价格可能会受到该均线的支撑或阻力。\n\n支撑位方面，4074.13为关键支撑水平，若价格跌破该位，可能会引发进一步的下行。相对的，4081.72则是短期内的阻力位，突破后有望迎来更大的上涨空间。投资者需保持警惕，关注这些关键水平的动态。\n\n建议投资者在当前价位附近采取观望态度，等待价格在支撑和阻力位附近的反应。如果价格突破4081.72，可考虑适量介入多头交易；若跌破4074.13，则应考虑止损或调整策略，以规避风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD is showing a slight decline of 0.16% over the last 24 hours, indicating a potential consolidation phase after recent price movements. The price remains close to the recent high of 4081.72149, suggesting that the market is testing the upper resistance level. A sustained break above this high could signal a bullish continuation, while failure to hold above it might result in a pullback toward lower support levels.\n\nThe moving average (SMA) of 20 periods at 4043.10178 serves as a crucial support level. If price retraces towards this SMA, it could provide a buying opportunity for those looking to enter long positions. Conversely, if the price breaks below this level, it may trigger a more significant sell-off, with the next support likely found around 4000. This level could act as a psychological barrier and an area where buyers may re-enter the market.\n\nThe MACD indicator currently shows a positive value at 6.73905, suggesting that momentum is still leaning bullish. However, without the corresponding signal line data, caution is warranted. Traders should watch for any divergence in momentum, which could indicate a potential reversal. The RSI is not available, but monitoring this indicator will be essential in identifying overbought or oversold conditions in the near term.\n\nIn terms of trading strategies, consider placing buy orders near the SMA support level while setting stop-loss orders below the 4000 psychological level for risk management. Conversely, if the price breaks above 4081.72149, traders might look for short-term buy opportunities, aiming for a target around 4100. The key here is to remain vigilant of market sentiment and any economic news that could impact gold prices."
+    }
+  }
+}

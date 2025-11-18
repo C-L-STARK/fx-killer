@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-18T20:15:56.771Z",
+  "price": {
+    "close": "1.39794",
+    "high": "1.39813",
+    "low": "1.39730",
+    "open": "1.39760",
+    "change": "0.00",
+    "datetime": "2025-11-19 07:00:00"
+  },
+  "indicators": {
+    "rsi": 21.71507,
+    "macd": -0.0015301752,
+    "macd_signal": -0.00087626012,
+    "sma20": 1.40237
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡整理中]",
+      "content": "当前美元/加元（USD/CAD）在1.39794附近震荡整理，显示出市场在等待进一步的方向确认。价格在高点1.39813和低点1.39730之间波动，表明短期内缺乏强势趋势。投资者需关注即将发布的经济数据，以判断未来的价格走势。\n\n从技术指标来看，RSI和MACD的缺失使得短期动量分析受到限制。目前，SMA(20)位于1.40237，显示出价格有可能回调至该均线附近。若价格突破此水平，可能会迎来更多的买入机会，但需谨慎对待。\n\n支撑位设置在1.39730，若价格跌破该水平，可能会进一步向下测试1.39500的关键支撑。而阻力位则在1.39850和1.40000处，突破这些阻力位可能会引发多头的进一步进攻。投资者应密切关注这些关键水平的突破情况。\n\n交易建议方面，建议在1.39730附近寻找买入机会，止损设定在1.39650。若价格突破1.40000，则可以考虑加仓做多。同时，保持灵活的交易策略，以应对市场的潜在波动。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD currency pair is currently trading at 1.39794, reflecting a period of consolidation around this level. The recent high of 1.39813 suggests a resistance level that may challenge bullish momentum, while the low of 1.39730 indicates a support level that has held firm. The market appears to be in a neutral position, as the lack of significant movement over the past 24 hours (0.00% change) suggests indecision among traders.\n\nAnalyzing technical indicators, the moving average is a key point of reference. The 20-day Simple Moving Average (SMA) stands at 1.40237, indicating that the pair is currently trading below this level. This positioning can be interpreted as a bearish signal, as it suggests a potential downward trend if the price continues to remain below the SMA. The MACD value of -0.00153 further supports this notion, indicating that the bearish momentum may be gaining traction.\n\nIn terms of support and resistance, the immediate support level at 1.39730 is critical for traders to watch. A sustained break below this level could open the door for further declines, potentially targeting the next support at approximately 1.39500. Conversely, should the price break above the resistance at 1.39813, it may signal a potential recovery towards the SMA at 1.40237, providing a more bullish outlook.\n\nFor traders looking to navigate this market, a wait-and-see approach may be prudent. If the price breaks decisively above 1.39813, a long position could be considered, with targets set at the SMA and beyond. Alternatively, a break below 1.39730 may warrant a short position, with stops placed just above this level to manage risk effectively. As always, monitoring broader economic events and news that could impact the USD/CAD exchange rate will be vital for informed trading decisions."
+    }
+  }
+}
