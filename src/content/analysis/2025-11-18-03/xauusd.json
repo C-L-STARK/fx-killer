@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-18T03:41:45.650Z",
+  "price": {
+    "close": "4019.90039",
+    "high": "4020.07163",
+    "low": "4009.59427",
+    "open": "4016.10993",
+    "change": "0.08",
+    "datetime": "2025-11-18 14:00:00"
+  },
+  "indicators": {
+    "rsi": 35.76185,
+    "macd": -15.25046,
+    "macd_signal": -11.91047,
+    "sma20": 4054.15659
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中]",
+      "content": "当前黄金/美元(XAU/USD)价格在4019.90附近，近期表现出震荡整理的特征。高点和低点分别为4020.07和4009.59，显示出市场在此区间内反复试探。短期内，趋势未能明确向上或向下突破，投资者需保持谨慎，关注突破信号。\n\n从技术指标来看，MACD目前为负值(-15.25046)，表明短期动能较弱，市场可能面临抛压。同时，20日简单移动平均线(SMA)在4054.16，显示出目前价格距离均线还有一定距离，预示着可能的回调压力。尽管RSI(14)数据缺失，通常情况下需要关注超卖或超买信号。\n\n支撑位方面，4009.59是短期内的关键支撑位，一旦跌破，可能引发进一步的下行压力。相反，4020.07则是短期阻力位，突破后有望向上测试4050的水平。交易者应密切关注这些关键价位，以制定相应的交易策略。\n\n建议短期内以区间交易为主，关注市场波动。在价格接近支撑位时可考虑轻仓买入，而在接近阻力位时则可考虑卖出。同时，保持对市场消息和技术指标变化的敏感性，以便及时调整交易策略。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4019.90 suggests that gold is trading within a narrow range, indicating indecision among traders. The recent high of 4020.07 and low of 4009.59 demonstrate a lack of strong momentum in either direction. This consolidation phase may precede a breakout, making it crucial for traders to monitor upcoming price movements closely. If gold can breach the critical resistance level at 4054.16, it could signal a potential upward trend, while a drop below 4009.59 may invite further bearish sentiment.\n\nIndicator analysis reveals a mixed picture. The MACD value of -15.25 indicates a bearish momentum, suggesting that selling pressure could dominate in the near term. The absence of an RSI value limits our ability to assess overbought or oversold conditions, yet the current price positioning below the SMA (20) at 4054.16 supports a bearish outlook. Traders should remain vigilant for any shifts in these indicators that may signal a change in market sentiment.\n\nSupport levels are currently identified at 4009.59, providing a critical floor for price action. Should this level fail to hold, further support can be anticipated around 4000. On the upside, resistance is clearly established near the SMA (20) at 4054.16. A sustained break above this level could attract buyers and reinvigorate bullish momentum. Conversely, failure to reclaim this level could reinforce bearish sentiment, leading to a potential test of lower support zones.\n\nFor trading strategies, a cautious approach is advisable. Traders may consider short positions if the price breaks below 4009.59, targeting lower support at 4000. Alternatively, a confirmed break above 4054.16 could present a buying opportunity, with targets set toward recent highs. Risk management remains paramount, as volatility can swiftly change market dynamics. Monitoring economic indicators and geopolitical developments will also be essential in navigating this complex market."
+    }
+  }
+}

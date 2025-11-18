@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-18T03:37:57.867Z",
+  "price": {
+    "close": "155.17999",
+    "high": "155.19501",
+    "low": "155.10600",
+    "open": "155.18800",
+    "change": "-0.00",
+    "datetime": "2025-11-18 14:00:00"
+  },
+  "indicators": {
+    "rsi": 60.83876,
+    "macd": 0.14127351,
+    "macd_signal": 0.15229748,
+    "sma20": 155.075551
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理态势]",
+      "content": "当前美元/日元（USD/JPY）交易于155.18附近，日内略微回落，显示出市场在高位附近的震荡整理。考虑到最近的高点155.19501和低点155.10600，价格在这一区域内波动，表明短期内缺乏明确的方向性趋势。投资者在这一关键价位附近需要保持谨慎。\n\n技术指标方面，虽然RSI（相对强弱指数）数据尚不可用，但当前的MACD显示出0.14127351的正值，表明短期内仍有潜在的上涨动能。结合SMA（20日简单移动平均线）在155.075551处的支撑，短期内可能会保持在这一水平之上，进一步确认多头趋势的有效性。\n\n支撑位方面，155.10是一个关键的心理支撑水平，若价格下破则可能引发进一步的卖压。而上方的阻力位在155.20附近，突破该水平将可能开启新的上涨空间。投资者应密切关注这些关键价位，以便捕捉潜在的交易机会。\n\n综合来看，建议投资者在155.10至155.20区间内进行区间交易，等待价格突破或回调确认后再做进一步操作。同时，保持风险管理意识，设置合理的止损位，以应对市场波动带来的风险。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 155.17999, showing a slight change of -0.00% over the past 24 hours. The recent price action suggests a consolidation phase following a brief upward move. The high and low of 155.19501 and 155.10600 indicate a tight trading range, which could signal indecision in the market. Traders should observe the price's interaction with these boundaries to identify potential breakout or reversal opportunities.\n\nIn terms of technical indicators, the absence of the RSI(14) limits our ability to assess overbought or oversold conditions effectively. However, the MACD reading of 0.14127351 suggests a bullish momentum, albeit weak. The 20-period Simple Moving Average at 155.075551 indicates that the short-term trend remains positive. A sustained move above this SMA could confirm bullish sentiment, while a drop below may signal a potential bearish reversal.\n\nKey support levels can be identified near the recent low of 155.10600, which, if breached, may open the door for further declines. Conversely, resistance is observed around 155.19501, a level that has previously capped upward movement. A clear break above this resistance could lead to a test of higher levels, while failure to hold above support might prompt a reassessment of bullish positions.\n\nTraders might consider a wait-and-see approach until the price decisively breaks either the support or resistance levels. A breakout above 155.19501 could present a buying opportunity, especially if accompanied by an increase in trading volume, while a drop below 155.10600 could trigger a short position. Risk management should be prioritized, with appropriate stop-loss orders in place to mitigate potential losses in either scenario."
+    }
+  }
+}
