@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-19T10:52:27.052Z",
+  "price": {
+    "close": "156.21001",
+    "high": "156.22701",
+    "low": "155.92999",
+    "open": "155.94701",
+    "change": "0.16",
+    "datetime": "2025-11-19 21:00:00"
+  },
+  "indicators": {
+    "rsi": 76.86776,
+    "macd": 0.1549362,
+    "macd_signal": 0.099455446,
+    "sma20": 155.53015
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[短期上升趋势]",
+      "content": "当前美元/日元（USD/JPY）交易在156.21001附近，显示出短期上升趋势。价格在过去24小时内小幅上涨0.16%，并在156.22701的高点附近受到阻力，而155.92999的低点则形成了强支撑。这表明市场情绪依然偏向买方，投资者可能在等待进一步的价格突破。\n\n从技术指标来看，虽然相对强弱指数（RSI）和移动平均收敛发散指标（MACD）的数据暂时缺失，但我们可以关注20日简单移动平均线（SMA）目前的水平为155.53015，显示出中期的支撑力量。如果价格能够稳定在此水平之上，可能会进一步吸引买盘。\n\n支撑位方面，155.9300是关键支撑区域，若价格跌破该水平，可能会引发更大幅度的回调。而阻力位则在156.2300附近，如果价格突破此水平，可能会加速上涨至156.5000。投资者应密切关注这些关键价位，以制定相应策略。\n\n交易建议方面，短期内建议投资者在156.2300附近寻找做多机会，止损设在155.9000下方，以控制风险。若市场突破156.2300，则可考虑加仓，目标指向156.5000。同时，保持对市场动态的关注，以便及时调整策略。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 156.21001, reflecting a modest increase of 0.16% over the past 24 hours. The price movement suggests that the pair is in a bullish trend, supported by recent highs around 156.22701. This suggests a continuation of upward momentum, particularly if the price holds above the previous low of 155.92999. Traders should monitor this level closely, as a breach could indicate a shift in market sentiment.\n\nIn terms of technical indicators, the MACD reading of 0.15493620 signals a positive momentum, although the absence of the signal line prevents a clearer interpretation of trend strength. The 20-period Simple Moving Average (SMA) at 155.53015 further reinforces the bullish outlook, serving as a potential support level. Traders may look for buying opportunities as the price remains above this moving average, which suggests a healthy uptrend.\n\nKey support can be identified at the SMA level of 155.53015, while resistance is established near the recent high of 156.22701. A successful test of these levels can provide trading signals; a bounce from support could attract buyers, while a breakout above resistance might encourage further upward movement. Conversely, a decline below the SMA could signal a trend reversal, warranting caution for long positions.\n\nFor traders considering entry points, monitoring price action around the key levels of support and resistance is crucial. A breakout above 156.22701 may present a favorable buying opportunity, targeting higher levels. Conversely, a decisive close below 155.53015 could suggest a bearish reversal, prompting a reassessment of long positions. Risk management strategies should be employed to safeguard against potential volatility, ensuring traders remain agile in response to market movements."
+    }
+  }
+}

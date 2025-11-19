@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-19T10:56:37.241Z",
+  "price": {
+    "close": "4112.1696",
+    "high": "4117.97765",
+    "low": "4110.57683",
+    "open": "4114.39014",
+    "change": "-0.05",
+    "datetime": "2025-11-19 21:00:00"
+  },
+  "indicators": {
+    "rsi": 65.17875,
+    "macd": 12.80838,
+    "macd_signal": 9.16059,
+    "sma20": 4078.27202
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理趋势]",
+      "content": "当前黄金/美元(XAU/USD)价格为4112.1696，市场显示出震荡整理的趋势。过去24小时内，价格略微下跌0.05%，并在4110.57683至4117.97765间波动。尽管近期表现疲软，但整体趋势仍然可能受到市场情绪和地缘政治因素的影响。\n\n从技术指标来看，SMA(20)显示出4078.27202的支撑位，表明短期内价格有可能在此水平附近找到买盘支撑。MACD值为12.80838，表明市场可能存在一定的上行动能。尽管RSI未提供，但当前价格区间显示出市场没有明显的超买或超卖信号。\n\n在支撑和阻力方面，4110.57683将作为短期支撑位，而4117.97765则是重要的阻力位。如果价格突破阻力位，可能会带来进一步的上涨动能。交易者可以在支撑位附近寻找买入机会，而在接近阻力位时应考虑获利了结或设定止损。\n\n总体而言，当前黄金/美元处于震荡整理阶段，交易者应保持谨慎，关注市场动态和技术指标的变化，以便做出更为明智的交易决策。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The XAU/USD pair is currently trading at 4112.1696, showing a slight decline of 0.05% over the past 24 hours. The price movement has remained relatively stable, with a daily high of 4117.97765 and a low of 4110.57683, indicating a consolidation phase. This range-bound trading suggests that market participants are assessing the next significant price direction, potentially influenced by macroeconomic factors and geopolitical events.\n\nIn terms of technical indicators, the absence of an RSI(14) reading makes it challenging to gauge the momentum. However, the MACD value of 12.80838 indicates bullish momentum, although without a signal line for comparison, caution is warranted. The 20-period Simple Moving Average (SMA) at 4078.27202 serves as a critical support level. Should the price retrace towards this SMA, it may provide a buying opportunity, while a break below could signal further downside.\n\nSupport levels are identified at approximately 4110, as seen in the recent low, while resistance is likely around the recent high of 4117. This tight range suggests that traders should closely monitor these levels for potential breakouts. A sustained movement above 4118 could trigger a bullish sentiment, while a drop below 4110 could prompt selling pressure, reinforcing the need for active risk management.\n\nTraders may consider a wait-and-see approach until a clearer trend emerges. A breakout above resistance could provide a buying signal, targeting the next psychological level around 4125. Conversely, if the price breaks below support, a short position could be warranted, with targets set towards the 4075 area. Maintaining a disciplined approach with stop-loss orders will be essential in navigating this current market volatility."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-19T10:50:56.036Z",
+  "price": {
+    "close": "1.15721",
+    "high": "1.15772",
+    "low": "1.15674",
+    "open": "1.15738",
+    "change": "-0.02",
+    "datetime": "2025-11-19 21:00:00"
+  },
+  "indicators": {
+    "rsi": 38.077047,
+    "macd": -0.00035623497,
+    "macd_signal": -0.00030208155,
+    "sma20": 1.15807
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理，短期承压]",
+      "content": "当前欧元/美元交易在1.15721附近，24小时微幅下跌0.02%。近期价格波动在1.15674与1.15772之间，显示出市场处于震荡整理状态。考虑到价格未能突破1.15807的20日简单移动平均线，短期内可能面临进一步的下行压力。\n\n技术指标方面，当前缺乏RSI和信号线数据，但MACD指标为-0.00036，表明市场动能不足，卖方力量仍然较强。若能收复1.15807这一阻力位，可能会激励多头反击，但目前趋势显示出疲软迹象。\n\n对于支撑位，1.15674将是关键水平，一旦跌破，可能引发更深的调整。相反，若价格回升至1.15807之上，可能重新点燃买盘兴趣。交易者需关注市场情绪变化，以确定最佳入场时机。\n\n建议短期内保持观望，待价格突破关键阻力或支撑位再作进一步决策。若出现明显的回调信号，可以考虑短线做空，目标指向1.15674附近的支撑位。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD pair is currently trading at 1.15721, showcasing a slight decline of 0.02% over the last 24 hours. The price action remains confined within a narrow range, with a recent high of 1.15772 and a low of 1.15674. This consolidation suggests indecision among traders as they await further market catalysts. A sustained break below the low could indicate a bearish sentiment, while a move above the recent high may open the door for upward momentum.\n\nIn terms of technical indicators, the absence of a current RSI reading limits our ability to assess overbought or oversold conditions. The MACD is slightly negative at -0.00035623497, indicating a potential bearish trend, but without the signal line data, caution is warranted. The 20-period simple moving average (SMA) at 1.15807 serves as a dynamic resistance level. If the price can reclaim this SMA, it may suggest a shift in sentiment toward bullish territory.\n\nSupport levels are identified near the recent low of 1.15674, which could act as a floor for any downside movement. A further breakdown below this support could lead to a test of lower levels, particularly around 1.15500. Conversely, if the price breaks above the SMA at 1.15807, we could see resistance at 1.16000, which has historically been a significant psychological barrier for traders.\n\nFor traders, the current market conditions suggest a cautious approach. A breakout strategy could be employed, looking to enter long positions above the 1.15807 level while keeping an eye on the downside risks. Conversely, short positions could be considered if the price decisively falls below 1.15674, targeting the next support at 1.15500. Overall, maintaining a flexible trading strategy will be crucial as market dynamics evolve."
+    }
+  }
+}
