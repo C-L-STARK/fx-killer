@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-19T21:31:18.940Z",
+  "price": {
+    "close": "1.15281",
+    "high": "1.15284",
+    "low": "1.15237",
+    "open": "1.15267",
+    "change": "0.01",
+    "datetime": "2025-11-20 08:00:00"
+  },
+  "indicators": {
+    "rsi": 28.54799,
+    "macd": -0.0015567108,
+    "macd_signal": -0.0011170484,
+    "sma20": 1.15623
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理，短期观望]",
+      "content": "当前欧元/美元的价格在1.15281附近震荡整理，短期内缺乏明确的趋势。24小时变化仅为0.01%，显示出市场参与者的谨慎情绪。高点和低点相对接近，表明价格波动幅度较小，市场正处于一种观望状态。\n\n从技术指标来看，MACD处于负值区域，显示出短期内卖压较重，但由于缺乏RSI数据，不能全面评估超买或超卖状况。20日简单移动平均线(SMA)在1.15623，作为短期阻力位，若价格突破此水平，可能会引发进一步上涨。\n\n支撑位方面，1.15237附近可以视为重要支撑，若价格下破该水平，可能会进一步回调至1.1500关口。综合来看，当前市场处于震荡期，建议交易者在未出现清晰的突破信号前，保持观望，耐心等待更具操作性的信息出现。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD pair is currently trading at 1.15281, reflecting a marginal increase of 0.01% over the past 24 hours. The price action remains within a narrow range, with a high of 1.15284 and a low of 1.15237. This tight consolidation suggests indecision in the market, with neither bulls nor bears gaining significant control. A breakout above the recent high could indicate a bullish reversal, while a drop below the low may confirm continued bearish pressure.\n\nIn terms of indicators, the MACD reading of -0.0015567108 suggests a bearish sentiment, albeit muted. The absence of a signal line reading limits deeper analysis, but the negative MACD indicates that momentum might be waning. The 20-period Simple Moving Average (SMA) at 1.15623 is currently above the market price, reinforcing a short-term bearish outlook. Traders should monitor these indicators closely for shifts that could provide clearer entry points.\n\nKey support is identified around the recent low of 1.15237, which, if breached, may open the door to further declines. Conversely, resistance is present near the SMA at 1.15623. A break above this level could signal a potential trend reversal, allowing for a rally towards higher targets. Traders should remain vigilant for price action around these critical levels, as they will likely dictate the next significant move for EUR/USD.\n\nFor trading strategies, a cautious approach is recommended. Consider waiting for a confirmed breakout above resistance or a decisive move below support. Implementing a stop-loss strategy is prudent to manage risk in this range-bound environment. If bullish momentum emerges, targeting the SMA level could offer viable profit opportunities, while bearish traders should look for potential short positions if the price fails to hold above support."
+    }
+  }
+}

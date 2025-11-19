@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-19T21:36:50.673Z",
+  "price": {
+    "close": "4081.12829",
+    "high": "4081.12829",
+    "low": "4067.10951",
+    "open": "4075.82524",
+    "change": "0.13",
+    "datetime": "2025-11-20 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.21467,
+    "macd": 3.14673,
+    "macd_signal": 7.40769,
+    "sma20": 4091.45037
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中，待突破]",
+      "content": "当前黄金/美元(XAU/USD)价格在4081.12829附近震荡整理，仍处于高位区间。短期内，市场情绪较为谨慎，投资者对后市的方向尚未形成共识。若价格突破当前区间的上限4091.45037，可能引发进一步的上行趋势；反之，若跌破下方支撑4067.10951，则需警惕回调风险。\n\n从技术指标来看，MACD显示出一定的上涨动能，而RSI尚未提供，可能需要进一步观察。当前20日简单移动平均线(SMA)位于4091.45037，形成了短期阻力线，若价格持续在此下方运行，可能会加大回调压力。因此，投资者应关注价格相对SMA的表现，以判断未来走势。\n\n在支撑与阻力方面，4081.12829作为近期支撑位，若突破可能会吸引买盘进入，而上方的4091.45037则是关键阻力位。突破该位置将可能引发多头交易，反之，跌破4067.10951则可能引发卖盘压力。因此，投资者应密切关注这两个关键水平，以便及时调整交易策略。\n\n综合考虑，建议投资者在当前震荡行情中保持观望，待价格突破关键支撑和阻力位后再进行交易决策。短期内，建议设定合理的止损位，以控制风险。同时，可以利用区间交易策略，在支撑位附近寻找买入机会，而在阻力位附近适时获利了结。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of Gold against the US Dollar (XAU/USD) stands at 4081.12829, reflecting a modest 0.13% increase over the past 24 hours. This slight upward movement suggests a consolidation phase after recent fluctuations, with the price oscillating between the high of 4081.12829 and the low of 4067.10951. The overall trend appears to be neutral, indicating that traders may be awaiting further directional cues to establish more significant positions.\n\nFrom a technical standpoint, the absence of a recent RSI value limits our ability to assess overbought or oversold conditions. However, the MACD reading at 3.14673 points towards potential bullish momentum, provided it continues to maintain positive divergence. The 20-day Simple Moving Average (SMA) at 4091.45037 serves as a key benchmark, acting as dynamic resistance. A move above this level could signify a shift towards bullish sentiment, while a failure to break through may reinforce a bearish outlook.\n\nSupport levels are critical in this context, with the recent low of 4067.10951 acting as immediate support. Should the price decline further, the next significant support level could be found around 4050, a psychological barrier that traders often monitor. Conversely, if the price manages to breach the 4091.45037 SMA, resistance may be encountered at around 4100, where selling pressure could re-emerge.\n\nTraders should consider a cautious approach, watching for price action around the identified levels. A breakout above the 4091.45037 SMA could present a buying opportunity, while a dip below the 4067.10951 support may trigger selling interest. Implementing stop-loss orders and maintaining a disciplined risk management strategy will be essential in navigating the current market dynamics effectively."
+    }
+  }
+}

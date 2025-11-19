@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-19T21:33:05.486Z",
+  "price": {
+    "close": "157.10500",
+    "high": "157.14999",
+    "low": "156.95399",
+    "open": "156.95900",
+    "change": "0.09",
+    "datetime": "2025-11-20 08:00:00"
+  },
+  "indicators": {
+    "rsi": 79.53952,
+    "macd": 0.42194298,
+    "macd_signal": 0.33900804,
+    "sma20": 156.15595
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡上行趋势]",
+      "content": "当前美元/日元价格稳定在157.10附近，整体呈现震荡上行趋势。尽管24小时内变化不大，但市场情绪依然乐观，投资者对美元的需求较强。高点157.14999和低点156.95399表明市场在这一区间内反复试探，短期内可能会继续维持这种波动状态。\n\n从技术指标来看，虽然RSI未提供具体数据，但MACD显示出0.4219的正值，表明市场存在一定的上行动能。20日简单移动平均线（SMA）位于156.15595，作为短期支撑位，若价格回调，可能会吸引买盘介入，进一步推高价格。\n\n支撑位方面，156.95是短期关键支撑区域，若价格跌破这一线，可能会引发更深的回调。阻力位则在157.15附近，突破该点位后，可能会加速上涨至157.50。因此，交易者应密切关注这些关键水平，制定相应的交易策略。\n\n综合来看，投资者可以考虑在156.95附近寻找买入机会，设置合理的止损位以控制风险。同时，若价格突破157.15，则可增加仓位，抓住上涨机会。始终保持警惕，密切关注市场动态，以便及时调整策略。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY currency pair is currently trading at 157.10500, reflecting a slight increase of 0.09% over the last 24 hours. The price has been oscillating within a defined range, with a high of 157.14999 and a low of 156.95399. This price action suggests a consolidation phase, as the market appears to be searching for direction. The prevailing trend has been bullish, indicating that buyers have been in control, but recent price movements indicate a potential exhaustion of this upward momentum.\n\nIn terms of technical indicators, while the RSI(14) is not available, the MACD shows a positive value of 0.42194298, suggesting that the current bullish momentum is still intact. However, without a signal line for the MACD, it’s difficult to ascertain any imminent trend reversals or buy/sell signals. The 20-period Simple Moving Average (SMA) at 156.15595 serves as a key support level, and a move below this level could trigger a bearish shift, while a sustained move above 157.14999 could validate further bullish momentum.\n\nTraders should closely monitor the 157.14999 resistance level, as a breakout above this could lead to increased buying interest. Conversely, a drop below the SMA at 156.15595 would suggest that sellers are gaining control, potentially leading to a retest of the lower range. The current market conditions favor a cautious approach, with traders advised to watch for clear breakout signals or reversals before entering new positions.\n\nOverall, maintaining a balanced perspective is crucial. A bullish scenario would see the price rally above the resistance, with potential targets at higher psychological levels. On the other hand, if the support level fails, traders may consider shorting the pair, focusing on key retracement levels to identify potential profit-taking opportunities."
+    }
+  }
+}

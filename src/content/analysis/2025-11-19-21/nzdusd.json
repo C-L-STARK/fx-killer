@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-19T21:35:22.741Z",
+  "price": {
+    "close": "0.56050670",
+    "high": "0.56050670",
+    "low": "0.55969107",
+    "open": "0.55984771",
+    "change": "0.11",
+    "datetime": "2025-11-20 08:00:00"
+  },
+  "indicators": {
+    "rsi": 34.31033,
+    "macd": -0.0014121971,
+    "macd_signal": -0.0012403604,
+    "sma20": 0.56216086
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋势]",
+      "content": "当前纽元/美元(NZD/USD)的价格在0.5605附近震荡整理，显示出短期内缺乏强烈的趋势动能。24小时内仅上涨0.11%，表明市场参与者对该汇率保持观望态度。整体来看，汇率在0.5597至0.5622的区间内波动，未能突破明显的支撑或阻力水平。\n\n在技术指标方面，虽然RSI(14)数据缺失，但MACD的负值（-0.0014）表明市场仍处于弱势，未能显示出明确的买入信号。20日简单移动平均线(SMA)位于0.5622，若汇率持续低于此水平，可能会加剧卖压，导致进一步下行调整。\n\n从支撑与阻力的角度来看，当前的支撑位在0.5597，而阻力位则在0.5622。如果价格突破0.5622，可能会吸引更多买盘，推动汇率上涨。反之，一旦跌破0.5597，可能会引发更深幅度的回调。\n\n综合来看，建议交易者在当前震荡区间内进行短线交易，关注关键支撑和阻力水平的突破情况。同时，保持警惕，等待更清晰的趋势信号，以便做出相应的交易决策。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.5605, reflecting a slight increase of 0.11% over the past 24 hours. The price has shown a narrow range, with a high of 0.5605 and a low of 0.5597. This consolidation phase may suggest indecision in the market, indicating that traders are awaiting further cues to establish a clear direction. A break above the recent high could signal a bullish reversal, while a drop below the low might confirm continued bearish momentum.\n\nThe absence of a calculated RSI and a MACD value of -0.0014 indicates a lack of strong momentum in either direction. However, the proximity of the current price to the 20-day simple moving average (SMA) at 0.5622 suggests potential resistance. If the price can breach this SMA, it could attract more buying interest, leading to a more sustained upward movement. Conversely, if the market fails to overcome this level, it may continue to test lower support levels.\n\nIn terms of support and resistance, immediate support is observed at 0.5597, with a stronger level at 0.5580. Should prices decline further, traders should closely monitor these levels for potential buying opportunities. Resistance remains at the 20-day SMA, and a decisive close above this level could pave the way for a test of the 0.5650 region, where further selling may emerge. \n\nTraders may consider adopting a cautious stance, seeking long positions if the price breaks above the SMA while placing stop-loss orders just below the nearest support level. Alternatively, a short position could be viable if the price falls below 0.5597, targeting a move toward 0.5580. Overall, a disciplined approach and attentiveness to market developments will be crucial in navigating the current landscape."
+    }
+  }
+}

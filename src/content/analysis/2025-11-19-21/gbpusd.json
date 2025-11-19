@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-19T21:32:17.688Z",
+  "price": {
+    "close": "1.30497",
+    "high": "1.30497",
+    "low": "1.30445",
+    "open": "1.30497",
+    "change": "-0.00",
+    "datetime": "2025-11-20 08:00:00"
+  },
+  "indicators": {
+    "rsi": 25.47293,
+    "macd": -0.0024689841,
+    "macd_signal": -0.0017907236,
+    "sma20": 1.31064
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理中]",
+      "content": "当前英镑/美元(GBP/USD)在1.30497附近震荡整理，价格变动幅度较小，显示出市场的谨慎情绪。短期内，汇价已触及1.30445的低点，表明卖方在该水平处存在一定的压力。若汇价突破此支撑位，可能会进一步下探至1.30200。\n\n在技术指标方面，尽管当前未提供RSI和信号线数据，但MACD显示出负值，表明短期内可能存在下行风险。20日简单移动平均线(SMA)位于1.31064，成为潜在的阻力位。若价格能反弹至此水平，可能会吸引更多买盘，从而形成反弹。\n\n支撑位方面，1.30445被视为重要支撑，若跌破该水平，可能会加大下行压力。相对地，1.31000也是一个关键心理阻力位，若汇价能够突破并站稳该水平，可能会为进一步上涨提供动力。\n\n综合来看，建议交易者在当前震荡区间内保持谨慎，密切关注1.30445支撑位的表现。如果汇价向上突破1.31000，考虑短期看涨策略；相反，若跌破1.30445，则可以考虑看空。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The current price of GBP/USD at 1.30497 indicates a period of consolidation, with minimal movement reflected in the 24-hour change of -0.00%. The recent high of 1.30497 and low of 1.30445 suggest a tight trading range. This stagnation may signal indecision in the market, likely influenced by broader economic factors or upcoming data releases. Traders should closely monitor price action around these levels, as a breakout could set the tone for subsequent moves.\n\nIn terms of indicators, the absence of an available RSI(14) limits potential momentum analysis, but the MACD reading of -0.00247 indicates a bearish bias. A negative MACD suggests that the short-term momentum is weaker than the long-term trend, which may deter bullish positions. Traders should remain cautious and consider waiting for a bullish reversal signal before entering long positions. Conversely, if the MACD continues to decline, it may reinforce a bearish outlook.\n\nThe SMA(20) is currently positioned at 1.31064, serving as a significant resistance level. This moving average can act as a barrier for upward price movement, and traders should watch for potential rejections at this level. On the downside, the recent low of 1.30445 provides a critical support level. If the price breaks below this level, it could signal further downside potential, leading to increased selling pressure.\n\nIn terms of trading strategy, a conservative approach may involve waiting for a clear breakout above 1.31064 for a long position, with a target towards the next resistance level. Alternatively, if the price approaches the support at 1.30445 and shows signs of rejection, a short-term long position could be considered. Monitoring key economic indicators and news surrounding both currencies will be vital for making informed trading decisions in the current environment."
+    }
+  }
+}
