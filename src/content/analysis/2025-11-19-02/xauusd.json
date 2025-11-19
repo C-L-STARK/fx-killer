@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-19T02:57:05.291Z",
+  "price": {
+    "close": "4077.32832",
+    "high": "4080.66983",
+    "low": "4057.0592",
+    "open": "4057.79948",
+    "change": "0.48",
+    "datetime": "2025-11-19 13:00:00"
+  },
+  "indicators": {
+    "rsi": 57.29736,
+    "macd": 6.36269,
+    "macd_signal": 4.9432,
+    "sma20": 4058.99973
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[短期震荡趋势，关注关键支撑位]",
+      "content": "当前黄金/美元（XAU/USD）价格为4077.33，显示出短期内的震荡趋势。价格在过去24小时内波动较小，达到的高点为4080.67，低点则为4057.06。这表明市场对于当前价格区间的反应相对平稳，投资者情绪谨慎。\n\n在技术指标方面，虽然RSI数据缺失，但MACD指标显示出当前的多头趋势，MACD值为6.36，表明买方力量略强。SMA（20）位于4059附近，作为短期趋势的参考线，若价格持续在此之上，可能会进一步吸引买入情绪。\n\n支撑位方面，4057.06是一个关键的支撑区域，若价格跌破该水平，可能会引发进一步的下行压力。相对的，4080.67则是近期阻力位，突破该位将可能刺激多头进一步上攻。投资者应密切关注这些关键价位，以制定相应的交易策略。\n\n交易建议方面，若价格回调至4057.06附近，可考虑逢低买入，目标指向4080.67。然而，若价格有效突破4080.67，则应考虑加仓多单。反之，若跌破4057.06，应及时止损，规避潜在风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4077.33 suggests a bullish momentum, given the 24-hour change of 0.48%. This upward movement appears to be supported by the recent high of 4080.67, indicating a potential resistance level that traders may watch closely. If the price can break above this level, it could signal further upside potential, while failure to maintain momentum could see a retreat toward the recent low of 4057.06.\n\nIn analyzing the indicators, the MACD value of 6.36 indicates a strong bullish sentiment, although the absence of a signal line makes it challenging to derive a clear trading strategy. The SMA(20) at 4059.00 serves as a dynamic support level, suggesting that as long as the price remains above this moving average, the bullish outlook may persist. Traders should monitor the interaction between the current price and the SMA to gauge market strength.\n\nKey support levels can be identified around the recent low of 4057.06 and the SMA(20) at 4059.00. If the price retraces, these levels may provide buying opportunities for those who believe in the continuation of the bullish trend. Conversely, a break below these levels could indicate a shift in sentiment and a potential bearish reversal, prompting traders to reconsider long positions.\n\nFor trading strategies, a cautious approach could involve waiting for a confirmed breakout above the resistance level of 4080.67 before entering new long positions. Alternatively, traders may consider placing buy orders near the support levels, particularly if bullish reversal patterns emerge. Effective risk management will be crucial, with stop-loss orders positioned strategically to protect against unforeseen market movements."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-19T02:55:43.857Z",
+  "price": {
+    "close": "0.56388861",
+    "high": "0.56439775",
+    "low": "0.56388861",
+    "open": "0.56407940",
+    "change": "-0.01",
+    "datetime": "2025-11-19 13:00:00"
+  },
+  "indicators": {
+    "rsi": 32.42538,
+    "macd": -0.00044971916,
+    "macd_signal": -0.00018733782,
+    "sma20": 0.56605892
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[熊市趋势持续，谨慎操作]",
+      "content": "当前纽元/美元的价格为0.56388861，近期在低位震荡，显示出一定的熊市趋势。24小时内价格微幅下跌0.01%，表明市场缺乏强烈的买盘动能。高点和低点分别为0.56439775和0.56388861，显示出价格在窄幅区间内波动，短期内可能继续保持弱势。\n\n从技术指标来看，虽然RSI(14)数据缺失，但MACD显示出微弱的负值，表明市场情绪偏向下行。20日简单移动平均线(SMA)为0.56605892，当前价格远低于此水平，进一步确认了短期内市场的弱势。需要关注的是，若价格未能突破这一均线，可能会继续走低。\n\n在支撑和阻力位方面，当前价格接近短期支撑位0.5635，若跌破该水平，可能会加速下行。阻力位则在0.5660附近，突破该点位可能会引发反弹。投资者应密切关注市场动向，谨慎操作，避免在不确定的市场中盲目进场。\n\n综上所述，建议投资者在当前市场环境中采取观望态度，等待更明确的信号再做决策。如果出现反弹到阻力位附近，可以考虑适当做空。然而，若支撑位被有效突破，短期内可能会加大空头仓位的风险。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair currently trades at 0.56388861, reflecting a slight decline of 0.01% over the last 24 hours. The price has been oscillating within a narrow range, with a recent high of 0.56439775 and a low of 0.56388861. This movement suggests a prevailing bearish sentiment, as the price struggles to break above recent resistance levels. Traders should remain cautious and monitor for potential breakouts or further declines that could define the next trend direction.\n\nThe absence of a calculated RSI(14) limits the ability to assess overbought or oversold conditions accurately. However, the MACD indicator shows a slight negative value of -0.00044971916, indicating a bearish momentum, albeit weak. The 20-period Simple Moving Average (SMA) is positioned at 0.56605892, acting as a potential resistance level. A failure to overcome this SMA could signal continued selling pressure, while a breakthrough might suggest a shift towards bullish sentiment.\n\nIn terms of support levels, the recent low of 0.56388861 serves as a critical threshold. A sustained move below this level could open the door to further declines, potentially targeting the next support around 0.5620. Conversely, should the price manage to rally and reclaim the SMA at 0.56605892, it could pave the way for a bullish reversal, with subsequent targets near 0.5680. Traders should closely watch these levels for confirmation of the prevailing trend.\n\nFor trading strategies, a cautious approach is advisable. Consider entering short positions if the price breaks below 0.5635, with a stop-loss above 0.5650 to manage risk. Conversely, if a bullish reversal occurs and the price climbs above the SMA, a long position could be viable, targeting gains near 0.5680. Overall, volatility may persist, and traders should remain vigilant for shifts in market sentiment."
+    }
+  }
+}
