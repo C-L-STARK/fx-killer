@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-19T13:51:04.262Z",
+  "price": {
+    "close": "0.56265122",
+    "high": "0.56322163",
+    "low": "0.56265122",
+    "open": "0.56287289",
+    "change": "-0.06",
+    "datetime": "2025-11-20 00:00:00"
+  },
+  "indicators": {
+    "rsi": 33.72123,
+    "macd": -0.00083072716,
+    "macd_signal": -0.00072869363,
+    "sma20": 0.56434367
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[当前处于弱势震荡趋势]",
+      "content": "目前，纽元/美元的价格处于0.5626附近，显示出一定的弱势。24小时变化为-0.06%，表明市场缺乏强烈的买入或卖出动力。结合最近的高点和低点来看，价格波动较小，显示出市场在观望和整理中，短期内仍可能维持震荡走势。\n\n在技术指标方面，当前未提供RSI和MACD的信号，但可以看出，MACD值为-0.0008，显示出卖方力量略强。SMA(20)为0.5643，当前价格低于该均线，进一步确认了短期内的下行压力。若没有新的利好消息，价格可能会继续维持在当前水平附近。\n\n支撑位方面，0.5620是一个关键心理关口，若跌破该位，可能会导致更大幅度的下跌。上方阻力位在0.5643附近，若反弹突破，将有机会重拾上涨趋势。投资者应重点关注这些关键价位，作为交易决策的参考。\n\n建议交易者在当前市场环境中采取谨慎态度，短期内可考虑在支撑位附近寻找买入机会，但要注意设立止损，避免不必要的损失。同时，保持对市场消息面的敏感性，以便及时调整交易策略。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.5627, reflecting a minor decline of 0.06% over the last 24 hours. The price action suggests a consolidation phase following a recent downtrend, as the pair has encountered resistance near the SMA(20) level of 0.5643. The inability to break above this moving average may indicate a prevailing bearish sentiment, which could lead to further downward pressure if the current trend continues.\n\nThe absence of a current RSI reading limits our ability to assess momentum accurately; however, the MACD value of -0.00083 suggests that bearish momentum is present. Traders may want to monitor the MACD closely for any signs of divergence or a potential crossover that could indicate a shift in momentum. Without significant bullish signals, it is prudent to remain cautious and look for confirmation before entering long positions.\n\nSupport levels for NZD/USD are found at the recent low of 0.5627, with further support anticipated around 0.5610. If the price breaks below these levels, it may open the door for a more significant decline. Conversely, resistance remains firmly at the SMA(20) level of 0.5643, with the next resistance level potentially positioned around 0.5650. A successful break above this resistance could signal a bullish reversal.\n\nTraders may consider adopting a cautious short approach, particularly if the price consolidates near current levels or declines further. Conversely, should the price reclaim the SMA(20) and demonstrate strong bullish momentum, a long position could be warranted. Keeping a close eye on developments in the broader market and economic indicators will be key in navigating this pair effectively."
+    }
+  }
+}

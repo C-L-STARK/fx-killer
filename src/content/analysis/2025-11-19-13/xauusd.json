@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-19T13:52:44.323Z",
+  "price": {
+    "close": "4113.33437",
+    "high": "4117.10527",
+    "low": "4101.06731",
+    "open": "4114.96176",
+    "change": "-0.04",
+    "datetime": "2025-11-20 00:00:00"
+  },
+  "indicators": {
+    "rsi": 64.38769,
+    "macd": 14.88384,
+    "macd_signal": 11.71153,
+    "sma20": 4085.40651
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，关注支撑与阻力]",
+      "content": "当前黄金/美元（XAU/USD）价格在4113.33附近，24小时内变化不大，显示出市场的震荡整理趋势。高点和低点分别为4117.10和4101.07，价格在这个区间内波动，表明市场尚未找到明确的方向。短期内，投资者需关注价格的突破情况。\n\n从技术指标来看，虽然RSI数据尚不可用，但MACD显示出14.88的值，表明市场可能处于弱势。SMA（20）位于4085.41，作为短期支撑位，若价格回调至该水平将是一个重要的观察点。若价格突破这一点，可能会进一步测试4101.07的低点。\n\n支撑位方面，4101.07是近期较强的支撑水平，若跌破该位，可能会导致更大幅度的回调。阻力位则在4117.10和更高的4130区域。突破这些阻力位可能会引发新的上涨趋势，建议投资者密切关注这些关键价位。\n\n综合考虑，当前市场处于震荡整理阶段，建议投资者采取观望策略，待价格明确突破支撑或阻力位后再进行交易。保持灵活性，合理控制风险，将有助于在波动的市场中把握机会。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4113.33 reflects a slight decline of 0.04% over the past 24 hours. This minor fluctuation suggests a consolidation phase after a brief rally, with the recent high at 4117.10 acting as a potential resistance level. If the price can break above this level convincingly, it may signal a continuation of the upward trend. Conversely, the low of 4101.07 could serve as a critical support level, indicating where buyers might step in if bearish pressure intensifies.\n\nThe absence of an RSI value limits our ability to analyze momentum, but the MACD at 14.88 indicates a bullish sentiment, which may support further upward movement. Traders should keep an eye on the relationship between the MACD and its signal line—should the MACD continue to rise, it could suggest increasing buying interest. The SMA(20) at 4085.41 also provides a reliable reference point, indicating that the market is currently trading above this moving average, which is typically a bullish signal.\n\nGiven the current market dynamics, traders may consider a cautious bullish approach. A break above the 4117.10 resistance could present a buying opportunity, targeting higher price levels while placing stop-loss orders below the support level at 4101.07 to manage risk. Conversely, if price action indicates a failure to maintain above the SMA(20), traders should reassess their positions and consider shorting opportunities.\n\nIn summary, the XAU/USD market is characterized by a delicate balance between buyers and sellers. The established support and resistance levels, combined with the bullish MACD, suggest a potential for upward movement if key levels are breached. Monitoring these indicators and price levels will be crucial for effective trading decisions in this evolving market."
+    }
+  }
+}
