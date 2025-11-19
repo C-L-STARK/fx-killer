@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-19T16:18:36.497Z",
+  "price": {
+    "close": "0.56050670",
+    "high": "0.56088394",
+    "low": "0.56031823",
+    "open": "0.56088394",
+    "change": "-0.04",
+    "datetime": "2025-11-20 03:00:00"
+  },
+  "indicators": {
+    "rsi": 23.92552,
+    "macd": -0.0011339664,
+    "macd_signal": -0.00087528773,
+    "sma20": 0.56353309
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋势]",
+      "content": "当前纽元/美元(NZD/USD)的市场表现表现出震荡整理的趋势。最新价格为0.5605，24小时内小幅下跌0.04%。当前价格接近近期的低点，显示出市场缺乏明显的方向性，投资者可能在等待更强的市场信号。\n\n从技术指标来看，MACD值为-0.0011，仍处于负区间，表明卖方稍占优势。然而，由于RSI未提供数据，无法全面评估超买或超卖情况。20日简单移动平均线(SMA)为0.5635，显示出短期内价格仍低于均线水平，进一步支持了看空情绪。\n\n在支撑和阻力位方面，当前支撑位约在0.5603附近，而阻力位则在0.5635附近。若价格突破阻力位，可能会引发短期反弹；相反，若跌破支撑位，则可能进一步下探。投资者应密切关注这两个关键水平，以制定相应的交易策略。\n\n基于当前的市场状况，建议投资者采取观望态度，等待价格明确突破支撑或阻力位后再做决策。如果突破阻力位，可考虑适度入场做多；若跌破支撑位，则应考虑做空以控制风险。保持灵活的交易策略将是应对市场波动的关键。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.5605, reflecting a slight decline of 0.04% over the past 24 hours. The recent price action indicates a bearish trend, with the pair failing to maintain momentum above the key psychological level of 0.5635, represented by the 20-period Simple Moving Average (SMA). This suggests that sellers are gaining control, and a further downward movement could be expected if support levels do not hold.\n\nSupport is identified at the recent low of 0.5603, which, if breached, could lead to a deeper decline towards the next critical support level around 0.5580. Conversely, resistance is situated at 0.5609, near the recent high, which may serve as a barrier for upward price movement. If the pair can break above this level, it may indicate a potential reversal, providing an opportunity for traders to position for a bullish retracement.\n\nTechnical indicators such as the MACD are currently negative, indicating a lack of buying momentum. Without a signal line available, the MACD’s position suggests that the bearish sentiment may persist in the near term. The Relative Strength Index (RSI) has not been provided, but monitoring its development will be crucial for spotting oversold conditions that might trigger a corrective bounce.\n\nTraders should consider a cautious approach, focusing on potential short positions if price action confirms a break below 0.5603. Conversely, a clear break and close above 0.5609 could present a buying opportunity, particularly if accompanied by a favorable shift in momentum indicators. It is essential to manage risk effectively, utilizing stop-loss orders to mitigate potential losses in this volatile market environment."
+    }
+  }
+}

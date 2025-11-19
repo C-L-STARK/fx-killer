@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-19T16:14:29.533Z",
+  "price": {
+    "close": "1.15401",
+    "high": "1.15471",
+    "low": "1.15399",
+    "open": "1.15467",
+    "change": "-0.06",
+    "datetime": "2025-11-20 03:00:00"
+  },
+  "indicators": {
+    "rsi": 27.9276,
+    "macd": -0.00087377296,
+    "macd_signal": -0.00050184255,
+    "sma20": 1.15753
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[当前震荡趋势]",
+      "content": "当前欧元/美元的市场表现显示出震荡趋势，价格在1.15471和1.15399之间波动。尽管近期价格略有下跌，24小时变化为-0.06%，但整体趋势尚未明确。投资者需关注即将发布的经济数据，以确认未来的市场方向。\n\n技术指标方面，虽然RSI(14)数据缺失，但MACD显示出负值，表明短期内卖压相对强劲。SMA(20)目前位于1.15753，作为短期阻力位，若价格反弹至该水平，则可能面临进一步的下行压力。市场情绪仍处于谨慎状态，需密切关注后续走势。\n\n从支撑与阻力水平来看，1.15399是短期支撑位，若跌破该水平，可能加速跌势，进一步测试1.15000的心理关口。反之，若突破1.15753，则可能打开进一步反弹的空间。交易者应密切关注这些关键价位的变化，以便及时调整策略。\n\n建议交易者在当前震荡局势中采取观望态度，谨慎入场。若价格成功突破1.15753，可以考虑做多，而若跌破1.15399则建议做空。保持风险管理意识，避免在不确定性较大的市场环境中承担过大的风险。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD currency pair is currently trading at 1.15401, reflecting a minor decline of 0.06% over the last 24 hours. The price has shown a lack of significant volatility, with a high of 1.15471 and a low of 1.15399, indicating a period of consolidation. This sideways movement suggests a market indecision, potentially setting the stage for a breakout in either direction. Traders should closely monitor upcoming economic data releases, as they could provide the catalyst needed to drive price action.\n\nFrom a technical perspective, the 20-period Simple Moving Average (SMA) at 1.15753 is currently acting as a dynamic resistance level. The price is trading below this SMA, indicating a bearish sentiment in the short term. The MACD value of -0.00087 further reinforces this outlook, suggesting that downward momentum may persist. Without a clear bullish signal, traders should exercise caution, especially given the absence of an RSI reading, which limits our understanding of potential overbought or oversold conditions.\n\nCritical support levels can be identified around the recent low of 1.15399, which may act as a psychological barrier for sellers. A decisive break below this level could open the door for further declines towards the next support level near 1.15000. Conversely, resistance remains firmly established at the 1.15753 SMA; a breakthrough above this level would suggest a shift in sentiment and could attract buyers looking for a reversal.\n\nConsidering the current market dynamics, a prudent trading strategy could involve waiting for a clear breakout above the SMA for long positions, or a breakdown below the recent low for short opportunities. Incorporating stop-loss orders just outside these levels would help manage risk effectively. Overall, the market remains in a cautious phase, and traders should be prepared for potential volatility as key technical levels are tested."
+    }
+  }
+}

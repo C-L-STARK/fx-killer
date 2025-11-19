@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-19T16:17:44.094Z",
+  "price": {
+    "close": "1.40401",
+    "high": "1.40442",
+    "low": "1.40320",
+    "open": "1.40360",
+    "change": "0.03",
+    "datetime": "2025-11-20 03:00:00"
+  },
+  "indicators": {
+    "rsi": 69.36013,
+    "macd": 0.00036749887,
+    "macd_signal": -0.00022526908,
+    "sma20": 1.40016
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[横盘整理中，短期内关注突破]",
+      "content": "当前美元/加元（USD/CAD）在1.40401的价格附近徘徊，显示出横盘整理的趋势。市场在1.40442的高点与1.40320的低点之间波动，表明买卖力量较为平衡。随着价格接近这些关键水平，投资者应密切关注可能的突破。\n\n技术指标方面，虽然RSI和MACD数据暂缺，但20日简单移动平均线（SMA）位于1.40016，可能为价格提供支撑。若价格进一步下探，1.40000附近的心理关口也可能成为支撑位。若价格突破1.40442，则有望继续上行，反之若跌破1.40320，则可能引发更大幅度的回调。\n\n支撑位方面，1.40000和1.39800是较为重要的水平，能有效限制下行空间。阻力位则在1.40442和1.40600附近，投资者需关注这些关键点位的反应，以便做出相应的交易决策。\n\n交易建议方面，建议投资者在接近支撑位时考虑逢低买入，而在遇到阻力时则可选择获利了结或做空。若价格突破阻力位，短期内可考虑加仓，而若跌破支撑位，则应及时止损，以降低风险。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD pair is currently trading at 1.40401, reflecting a slight increase of 0.03% over the past 24 hours. The price has remained within a narrow range, with a high of 1.40442 and a low of 1.40320. This stability suggests a period of consolidation, as the market awaits further catalysts that could drive a breakout. The recent price action indicates that the pair is testing upper resistance levels, which could signal a continuation of the bullish trend if surpassed.\n\nIn terms of trend analysis, the USD/CAD appears to be maintaining an upward trajectory since bouncing off the 20-period Simple Moving Average (SMA) at 1.40016. This SMA serves as a dynamic support level, reinforcing the bullish sentiment. A close above the recent high of 1.40442 could further validate the upward momentum, potentially targeting psychological resistance around 1.4100. Conversely, a drop below the SMA might indicate a reversal, leading to a test of the lower support around 1.3980.\n\nAlthough the Relative Strength Index (RSI) is not available, the MACD reading of 0.00036749887 suggests a slight bullish momentum, albeit weak. Traders should monitor the histogram for any signs of divergence, which could indicate a shift in momentum. Without the RSI, it's crucial to observe price movements and candlestick patterns for confirmation. If the MACD crosses above its signal line, it could provide additional bullish confirmation.\n\nFor trading suggestions, it may be prudent to consider a long position if the pair breaks above 1.40442, with an initial target at 1.4100 and a stop-loss just below the 20 SMA. Conversely, if the price fails to hold above this resistance and shows weakness, a short position could be explored with targets around the support level at 1.3980. Proper risk management will be essential in navigating this pair's current market dynamics."
+    }
+  }
+}
