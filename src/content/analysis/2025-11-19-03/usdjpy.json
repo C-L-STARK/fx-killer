@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-19T03:37:24.903Z",
+  "price": {
+    "close": "155.29401",
+    "high": "155.38400",
+    "low": "155.24600",
+    "open": "155.34801",
+    "change": "-0.04",
+    "datetime": "2025-11-19 14:00:00"
+  },
+  "indicators": {
+    "rsi": 48.14625,
+    "macd": 0.080639569,
+    "macd_signal": 0.11079529,
+    "sma20": 155.3972
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理中的上行趋势]",
+      "content": "当前美元/日元的价格为155.29401，近期价格波动较小，24小时内变化仅为-0.04%。从高点155.38400和低点155.24600来看，市场正处于震荡整理的状态。尽管短期内缺乏明显的趋势，但整体上行趋势依然存在，投资者应关注后续的市场动向。\n\n在技术指标方面，MACD显示出微弱的上行动能，当前值为0.0806，表明短期内多头力量仍然存在。然而，RSI指标尚未提供，因此难以判断市场是否过热或超卖。结合20日简单移动平均线（SMA）155.39720，当前价格依旧维持在该均线附近，显示出市场的平衡状态。\n\n支撑位方面，155.24600为重要的支撑线，一旦跌破可能会引发更多的卖压。而155.38400则是短期内的阻力位，一旦突破，有望进一步上探。建议投资者在当前区间内采取区间交易策略，关注市场消息面变化，以便调整持仓策略。若价格向上突破阻力位，可考虑短期多头布局。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently exhibiting a slight bearish trend, with the latest price at 155.29401, reflecting a 24-hour change of -0.04%. The price movement has been relatively contained within a narrow range, oscillating between the recent high of 155.38400 and low of 155.24600. This consolidation suggests that traders are awaiting a catalyst to drive the pair in either direction. The overall trend remains upward, but the current price action indicates a potential pause or correction in momentum.\n\nAnalyzing the technical indicators, the MACD reading of 0.080639569 points to a weak bullish momentum, yet the absence of a signal line hampers a more profound interpretation. The SMA(20) at 155.39720 is currently acting as a minor resistance level, with the price trading slightly below it. If the USD/JPY can breach this moving average, it may attract buyers and push the price higher towards the next resistance level at 155.5000. Conversely, failure to maintain above the SMA could lead to further downside pressure.\n\nSupport levels are critical to monitor in the current context. The lower boundary of the recent range at 155.24600 serves as an essential support level. A break below this level could trigger a more significant sell-off, prompting traders to reassess their positions. Conversely, if the price holds above this support and shows signs of recovery, traders might consider entering long positions, especially if additional bullish signals emerge from momentum indicators like RSI in the coming sessions.\n\nTraders should remain vigilant for potential breakout scenarios. A sustained move above the SMA(20) and the recent high of 155.38400 could signal a continuation of the bullish trend, presenting an opportunity for long trades. On the other hand, a decisive break below the 155.24600 support level would likely warrant a bearish stance. Maintaining a balanced approach and setting appropriate stop-loss orders will be crucial in managing risk in the current market environment."
+    }
+  }
+}

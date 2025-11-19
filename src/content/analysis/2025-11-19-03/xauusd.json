@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-19T03:41:02.545Z",
+  "price": {
+    "close": "4072.58954",
+    "high": "4078.0283",
+    "low": "4070.53295",
+    "open": "4076.31536",
+    "change": "-0.09",
+    "datetime": "2025-11-19 14:00:00"
+  },
+  "indicators": {
+    "rsi": 55.21355,
+    "macd": 6.25926,
+    "macd_signal": 5.19386,
+    "sma20": 4061.86953
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中]",
+      "content": "当前黄金/美元(XAU/USD)的价格在4072.59附近波动，表现出一定的震荡整理趋势。尽管价格在过去24小时内略微下跌0.09%，但整体仍维持在4060至4080的区间内，显示出买卖双方的力量相对均衡，市场情绪较为谨慎。\n\n从技术指标来看，MACD显示出正值6.25926，表明短期内仍有上行动能，尽管RSI指标缺失未能提供超买或超卖的信号。20日简单移动平均线(SMA)在4061.87附近，作为短期支撑位，若价格回调至此水平，可能吸引买入，形成反弹机会。\n\n在支撑和阻力位方面，4078.03是短期的阻力位，突破后可能引发进一步上涨。而在下方，4070.53则是关键支撑位，如果价格跌破该水平，可能会引发更大的调整。因此，投资者应密切关注这两个价格点的动态。\n\n建议交易者在当前区间内采取区间交易策略，若价格接近支撑位可考虑逢低买入，而在接近阻力位时则可适当减仓或做空。同时，保持灵活应对市场变化，关注相关经济数据对金价的影响。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The XAU/USD pair is currently trading at 4072.59, reflecting a slight decline of 0.09% over the last 24 hours. The price has oscillated between a high of 4078.03 and a low of 4070.53, indicating a narrow trading range. This consolidation phase suggests a market that is weighing its next move, likely influenced by broader economic factors and market sentiment. Traders should be attentive to potential breakouts, as the current price action may signal an impending trend direction.\n\nIn terms of technical indicators, the absence of an RSI reading limits our analysis of overbought or oversold conditions. However, the MACD at 6.26 indicates bullish momentum, suggesting that the market may still favor upward price movement. The SMA(20) at 4061.87 serves as a vital support level; if the price holds above this figure, it could reinforce bullish sentiment. Conversely, a break below the SMA could signal a shift in momentum and warrant caution from buyers.\n\nIdentifying key support and resistance levels is crucial for trading decisions. A strong support level is evident at 4070.53, where buying interest may emerge if the price tests this area. On the resistance side, the high of 4078.03 will be critical; a breakout above this level could open the door for further gains, potentially targeting new highs. Traders should closely monitor these levels to gauge market sentiment and potential reversals.\n\nFor trading strategies, maintaining a watchful eye on price action around the support and resistance levels is essential. A bounce off the support level may present a buying opportunity, while a failure to hold could trigger sell signals. Conversely, a breakout above resistance may encourage aggressive buying, especially if accompanied by increased volume. Implementing stop-loss orders around key levels can help manage risk effectively in this uncertain market."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-19T03:39:30.477Z",
+  "price": {
+    "close": "0.56376141",
+    "high": "0.56385678",
+    "low": "0.56357080",
+    "open": "0.56369781",
+    "change": "-0.01",
+    "datetime": "2025-11-19 14:00:00"
+  },
+  "indicators": {
+    "rsi": 31.74614,
+    "macd": -0.00054840995,
+    "macd_signal": -0.00025995849,
+    "sma20": 0.56594084
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理，趋势不明]",
+      "content": "当前纽元/美元(NZD/USD)在0.5637附近震荡整理，短期内趋势不明。价格在高点0.56385678和低点0.56357080之间波动，显示出市场缺乏方向性。考虑到24小时变化仅为-0.01%，市场情绪相对平稳，投资者在等待进一步的市场指引。\n\n技术指标方面，RSI指标尚未提供数据，MACD显示出负值(-0.0005484)，这意味着短期内可能面临卖压。尽管SMA(20)在0.5659处提供了一定的阻力，但价格未能突破此水平，反映出多头力量不足。若无法维持在当前价位之上，可能会引发进一步回调。\n\n支撑位方面，0.5635是关键支撑区域，若价格跌破此水平，可能进一步下探至0.5630。而上方阻力位则集中在0.5650和0.5660区域，这些都是市场关注的关键点。投资者应密切关注这些价位的突破情况。\n\n在交易建议方面，考虑到当前市场的震荡特征，建议采取观望态度，耐心等待更明确的信号。如果价格突破0.5650可考虑做多，反之若跌破0.5635则可以考虑做空。保持灵活应对市场变化，降低风险。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair currently trades at 0.56376, reflecting a minor decline of 0.01% over the past 24 hours. The price action remains within a narrow range, oscillating between a high of 0.56385 and a low of 0.56357. This tight consolidation suggests indecision among traders, leading to a cautious approach in the market. The absence of significant momentum points to a potential continuation of the current trend, characterized by a bearish bias.\n\nTechnical indicators provide further insight into the pair's performance. The MACD shows a slight negative value of -0.00055, indicating that bearish momentum is present, albeit weak. The 20-day Simple Moving Average (SMA) at 0.56594 serves as a key resistance level, suggesting that any upward movement will likely encounter selling pressure around this mark. Traders should closely monitor the price action as it approaches the SMA for potential reversal signals.\n\nSupport levels can be identified around the recent low of 0.56357, which could act as a buffer against further downside movement. A break below this level may trigger additional selling, opening the door for a test of lower targets. Conversely, if the pair manages to hold above this support, a rebound toward the SMA could present a short-term buying opportunity, especially if accompanied by bullish signals from momentum indicators.\n\nIn terms of trading strategy, participants might consider adopting a cautious stance. A breakout below the support at 0.56357 could warrant short positions, while a sustained move above the SMA at 0.56594 might indicate a reversal, suggesting long positions. Risk management is crucial, and traders should utilize appropriate stop-loss orders to navigate this uncertain market environment effectively."
+    }
+  }
+}

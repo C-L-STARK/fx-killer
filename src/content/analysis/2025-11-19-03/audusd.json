@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-19T03:38:08.175Z",
+  "price": {
+    "close": "0.6492",
+    "high": "0.64921",
+    "low": "0.64869",
+    "open": "0.64916",
+    "change": "0.01",
+    "datetime": "2025-11-19 14:00:00"
+  },
+  "indicators": {
+    "rsi": 42.5588,
+    "macd": -0.00011449483,
+    "macd_signal": 0.000025835236,
+    "sma20": 0.6502685
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理中]",
+      "content": "当前澳元/美元（AUD/USD）在0.6492附近震荡整理，短期内缺乏明确的趋势方向。考虑到24小时变化仅为0.01%，市场情绪相对谨慎，投资者可能在等待更明确的经济数据或政策指引。整体来看，短期内可能维持在当前价位附近震荡。\n\n技术指标方面，虽然RSI（相对强弱指数）和MACD（指数平滑异同移动平均线）的具体数据尚不可得，但从现有的价格波动来看，AUD/USD的走势可能处于调整阶段。20日简单移动平均线（SMA）在0.6503附近，显示出短期内仍存在一定的下行压力。\n\n在支撑与阻力位方面，当前支撑位可关注0.6487，若跌破此位则可能进一步回调至0.6470。另一方面，0.6503作为阻力位，将成为后市反弹的重要关口。若价格突破此水平，则可能重新测试更高的价位。\n\n综合考虑，建议交易者在此区间内采取区间交易策略，适时把握短期波动机会。若价格接近支撑位，可考虑轻仓试多，反之在接近阻力位时可适度试空。同时，保持关注经济数据发布，以便及时调整策略。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.6492, showing a slight increase of 0.01% over the last 24 hours. This stability indicates a consolidation phase after recent fluctuations. The price remains near the recent high of 0.64921, suggesting a potential resistance level around this area. Conversely, the low of 0.64869 establishes a support floor. A break below this level could indicate increased bearish momentum, while a move above 0.6503 may signal an opportunity for bullish traders.\n\nAnalyzing the available technical indicators, the MACD shows a slight negative value at -0.00011449483, indicating that the momentum is currently bearish. However, the absence of a signal line complicates the overall picture. The SMA(20) at 0.65026850 further supports the notion of resistance, as it remains above the current price. Traders should watch for a crossover of the MACD into positive territory, which would suggest a potential reversal in momentum.\n\nThe RSI (14) is not available at the moment, limiting our analysis of overbought or oversold conditions. However, if the RSI were included and indicated a lower value, it could suggest that the AUD/USD is nearing oversold conditions, possibly leading to a corrective bounce. Conversely, if the RSI were to rise significantly, it would signal overbought conditions, potentially inviting profit-taking from long positions.\n\nFor traders looking to engage with the AUD/USD, a cautious approach is warranted. A buy position may be considered if the price breaks above the SMA and retests the 0.6503 resistance level. Conversely, a sell signal could arise if the support at 0.64869 fails, as this could lead to further declines toward 0.6470. Monitoring these levels closely will be crucial for making informed trading decisions in the current market environment."
+    }
+  }
+}
