@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-19T20:13:17.054Z",
+  "price": {
+    "close": "156.99600",
+    "high": "157.046005",
+    "low": "156.97000",
+    "open": "157.020996",
+    "change": "-0.02",
+    "datetime": "2025-11-20 07:00:00"
+  },
+  "indicators": {
+    "rsi": 79.27132,
+    "macd": 0.4075106,
+    "macd_signal": 0.3188167,
+    "sma20": 156.076201
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理中]",
+      "content": "当前美元/日元处于156.99附近，表现出一定的震荡整理特征。价格在157.046和156.970之间波动，显示出市场对方向的犹豫。虽然近期24小时变化为-0.02%，但整体趋势仍有向上的潜力，需关注后续走势。\n\n技术指标方面，MACD值为0.4075，表明当前动能维持在正区间，暗示买方力量仍然存在。虽然RSI未提供，但结合SMA(20)的156.0762，可以看出价格相对强势，短期内有可能继续向上测试阻力位。\n\n在支撑和阻力方面，当前的支撑位可以设定在156.970，若价格突破该水平，可能会引发进一步的下行压力。相反，157.046作为短期阻力位，若突破，将可能开启新的上涨空间。\n\n交易建议上，建议投资者关注156.970的支撑位，若价格保持在此之上，可以考虑寻找买入机会，目标指向157.046。反之，若跌破支撑位，则需谨慎处理，考虑减仓或观望。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 156.996, showing a slight decline of 0.02% over the last 24 hours. This minor movement indicates a consolidation phase after reaching a high of 157.046 and a low of 156.970. The pair appears to be oscillating within this range, suggesting a market indecision. Traders should closely monitor price action around these levels to assess potential breakout opportunities.\n\nThe absence of an available RSI complicates momentum analysis; however, the MACD value of 0.4075 indicates a bullish sentiment in the short term. This value suggests that the upward momentum remains intact, albeit with caution due to the recent price stagnation. If the MACD continues to rise, it may reinforce the bullish view, but traders should watch for any bearish divergence that could signal a reversal.\n\nIn terms of support and resistance, the immediate support level lies around 156.970, while resistance is evident at 157.046. A break below support could lead to further declines, potentially testing the next support zone near 156.076, represented by the 20-period SMA. Conversely, a sustained move above the resistance level could open the door for an upward rally towards 157.200, where further resistance is anticipated.\n\nTraders may consider a cautious approach in this environment. Buying near the support level of 156.970 could provide a favorable risk-to-reward ratio if a bounce occurs. Conversely, failing to hold above this level could trigger sell signals. Alternatively, a breakout above 157.046 might offer a buying opportunity, especially if confirmed by increased volume and positive momentum indicators."
+    }
+  }
+}
