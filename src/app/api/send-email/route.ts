@@ -30,7 +30,7 @@ const replaceVariables = (template: string, data: Record<string, string>) => {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { submissionId, useTemplate, templateId, customSubject, customContent, emailLanguage } = body;
+    const { submissionId, useTemplate, templateId, customSubject, customContent } = body;
 
     // Get submission data
     const { data: submission, error: submissionError } = await supabase
@@ -45,8 +45,6 @@ export async function POST(request: NextRequest) {
 
     let subject: string;
     let content: string;
-    // Use emailLanguage if provided, otherwise fall back to submission language
-    const isZh = (emailLanguage || submission.language) === 'zh';
 
     if (useTemplate && templateId) {
       // Use template
@@ -60,21 +58,37 @@ export async function POST(request: NextRequest) {
         return NextResponse.json({ error: 'Template not found' }, { status: 404 });
       }
 
-      subject = isZh ? template.subject_zh : template.subject_en;
-      content = isZh ? template.content_zh : template.content_en;
-
-      // Replace variables
+      // Replace variables for both languages
       const variables: Record<string, string> = {
         name: submission.name,
         email: submission.email,
         phone: submission.phone,
         plan: submission.plan || '',
         price: submission.price_cny ? `${submission.price_cny} / ${submission.price_usd}` : '',
-        date: new Date(submission.created_at).toLocaleString(isZh ? 'zh-CN' : 'en-US'),
+        date: new Date(submission.created_at).toLocaleString('zh-CN'),
       };
 
-      subject = replaceVariables(subject, variables);
-      content = replaceVariables(content, variables);
+      const variablesEn: Record<string, string> = {
+        ...variables,
+        date: new Date(submission.created_at).toLocaleString('en-US'),
+      };
+
+      // Create bilingual subject and content
+      const subjectZh = replaceVariables(template.subject_zh, variables);
+      const subjectEn = replaceVariables(template.subject_en, variablesEn);
+      const contentZh = replaceVariables(template.content_zh, variables);
+      const contentEn = replaceVariables(template.content_en, variablesEn);
+
+      // Bilingual subject
+      subject = `${subjectZh} | ${subjectEn}`;
+
+      // Bilingual content: Chinese first, then English
+      content = `
+        ${contentZh}
+        <hr style="border: none; border-top: 1px solid #e5e7eb; margin: 30px 0;" />
+        <div style="color: #6b7280; font-size: 12px; margin-bottom: 10px;">English Version / 英文版本</div>
+        ${contentEn}
+      `;
     } else {
       // Use custom content
       if (!customSubject || !customContent) {

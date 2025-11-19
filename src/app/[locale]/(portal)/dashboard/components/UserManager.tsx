@@ -99,9 +99,6 @@ export default function UserManager() {
   });
   const [savingUser, setSavingUser] = useState(false);
 
-  // Email language selection
-  const [emailLanguage, setEmailLanguage] = useState<'zh' | 'en'>('zh');
-
   // Fetch submissions
   const fetchSubmissions = async () => {
     setLoading(true);
@@ -335,7 +332,6 @@ export default function UserManager() {
     setSelectedTemplateId('');
     setCustomSubject('');
     setCustomContent('');
-    setEmailLanguage(submission.language as 'zh' | 'en');
     setShowEmailModal(true);
 
     // Fetch templates
@@ -375,7 +371,6 @@ export default function UserManager() {
           templateId: emailMode === 'template' ? selectedTemplateId : undefined,
           customSubject: emailMode === 'custom' ? customSubject : undefined,
           customContent: emailMode === 'custom' ? customContent : undefined,
-          emailLanguage: emailLanguage,
         }),
       });
 
@@ -724,33 +719,6 @@ export default function UserManager() {
                   }`}
                 >
                   {language === 'zh' ? '自定义内容' : 'Custom Content'}
-                </button>
-              </div>
-
-              {/* Email Language Selection */}
-              <div className="flex items-center gap-4 mb-4">
-                <span className="text-sm font-medium">
-                  {language === 'zh' ? '发送语言：' : 'Send in:'}
-                </span>
-                <button
-                  onClick={() => setEmailLanguage('zh')}
-                  className={`px-3 py-1 text-sm ${
-                    emailLanguage === 'zh'
-                      ? 'bg-black dark:bg-white text-white dark:text-black'
-                      : 'bg-gray-200 dark:bg-gray-700'
-                  }`}
-                >
-                  中文
-                </button>
-                <button
-                  onClick={() => setEmailLanguage('en')}
-                  className={`px-3 py-1 text-sm ${
-                    emailLanguage === 'en'
-                      ? 'bg-black dark:bg-white text-white dark:text-black'
-                      : 'bg-gray-200 dark:bg-gray-700'
-                  }`}
-                >
-                  English
                 </button>
               </div>
 

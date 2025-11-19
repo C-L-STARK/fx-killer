@@ -79,22 +79,37 @@ export async function GET(request: NextRequest) {
         continue;
       }
 
-      const isZh = submission.language === 'zh';
-      const subject = isZh ? template.subject_zh : template.subject_en;
-      const content = isZh ? template.content_zh : template.content_en;
-
-      // Prepare template variables
+      // Prepare template variables for both languages
       const variables: Record<string, string> = {
         name: submission.name,
         email: submission.email,
         phone: submission.phone,
         plan: submission.plan || '',
         price: submission.price_cny ? `${submission.price_cny} / ${submission.price_usd}` : '',
-        date: new Date(submission.created_at).toLocaleString(isZh ? 'zh-CN' : 'en-US'),
+        date: new Date(submission.created_at).toLocaleString('zh-CN'),
       };
 
-      const finalContent = replaceVariables(content, variables);
-      const finalSubject = replaceVariables(subject, variables);
+      const variablesEn: Record<string, string> = {
+        ...variables,
+        date: new Date(submission.created_at).toLocaleString('en-US'),
+      };
+
+      // Create bilingual subject and content
+      const subjectZh = replaceVariables(template.subject_zh, variables);
+      const subjectEn = replaceVariables(template.subject_en, variablesEn);
+      const contentZh = replaceVariables(template.content_zh, variables);
+      const contentEn = replaceVariables(template.content_en, variablesEn);
+
+      // Bilingual subject
+      const finalSubject = `${subjectZh} | ${subjectEn}`;
+
+      // Bilingual content: Chinese first, then English
+      const finalContent = `
+        ${contentZh}
+        <hr style="border: none; border-top: 1px solid #e5e7eb; margin: 30px 0;" />
+        <div style="color: #6b7280; font-size: 12px; margin-bottom: 10px;">English Version / 英文版本</div>
+        ${contentEn}
+      `;
 
       try {
         await transporter.sendMail({
