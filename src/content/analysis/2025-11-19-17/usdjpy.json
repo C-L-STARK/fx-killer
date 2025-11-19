@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-19T17:36:31.860Z",
+  "price": {
+    "close": "156.79800",
+    "high": "156.81599",
+    "low": "156.61600",
+    "open": "156.63100",
+    "change": "0.11",
+    "datetime": "2025-11-20 04:00:00"
+  },
+  "indicators": {
+    "rsi": 77.75484,
+    "macd": 0.34903436,
+    "macd_signal": 0.25124606,
+    "sma20": 155.86465
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[短期强势，趋势向上]",
+      "content": "当前美元/日元的价格为156.798，延续了近期的上升趋势。虽然24小时内仅小幅波动0.11%，但整体走势依旧强劲。观察高点156.81599与低点156.61600，市场在这一区间内表现出一定的震荡整理，表明投资者对当前价格水平的看法分歧。\n\n技术指标方面，MACD显示出积极的动能，当前值为0.349，表明多头力量依然占据主导地位。尽管RSI尚未提供具体数据，但结合价格的上升趋势，投资者可推测RSI可能接近超买区域，需谨慎操作。SMA(20)位于155.86465，为短期支撑位，提供了一定的安全边际。\n\n从支撑和阻力的角度来看，156.80是近期的心理阻力位，一旦突破，有望进一步上探至157.00。然而，如果价格回落，155.86作为支撑位将是关键，跌破后可能会引发更大幅度的调整。建议短期交易者关注156.80的突破情况，选择适时进场，保持灵活应对市场变动。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently exhibiting a bullish trend, trading at 156.79800, which is near its recent high of 156.81599. This upward movement indicates that buyers are maintaining control, particularly as the price has remained above the 20-day simple moving average (SMA) of 155.86465. A sustained trading pattern above this SMA can further reinforce the bullish sentiment, suggesting that the pair may continue to rally towards the psychological resistance level of 157.00.\n\nIn terms of technical indicators, the MACD reading of 0.34903436 points to a positive momentum in the market, although the lack of a signal line complicates a comprehensive interpretation. Investors should watch for potential crossovers in the MACD, which can provide clearer buy or sell signals. Given the current price action and positive MACD, a continuation of the upward trend seems plausible unless there is a significant reversal in momentum.\n\nKey support levels to monitor include 156.61600, which marks the recent low and acts as a critical threshold for buyers. Should the price dip below this level, it could signal a potential reversal, prompting traders to reassess their positions. On the upside, if the price breaks through the recent high of 156.81599, it could open the door for further gains, possibly targeting 157.30 as the next resistance level.\n\nFor traders, the current market conditions suggest a cautious bullish approach. Long positions may be suitable near the support level of 156.61600, particularly if accompanied by bullish signals from oscillators or other indicators. Conversely, those considering short positions should wait for a clear break below the support level and confirmatory signals from the MACD or RSI before entering the market. This strategy allows for a balanced approach while managing risk effectively."
+    }
+  }
+}
