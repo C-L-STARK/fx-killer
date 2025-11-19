@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-19T14:56:19.261Z",
+  "price": {
+    "close": "1.40106",
+    "high": "1.40230",
+    "low": "1.40030",
+    "open": "1.40165",
+    "change": "-0.03",
+    "datetime": "2025-11-20 01:00:00"
+  },
+  "indicators": {
+    "rsi": 54.91565,
+    "macd": -0.00012427636,
+    "macd_signal": -0.00049192133,
+    "sma20": 1.39958
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡整理，短期承压]",
+      "content": "当前美元/加元（USD/CAD）在1.40106附近震荡整理，较昨日小幅回落0.03%。从技术面来看，价格在1.40030和1.40230之间波动，显示出短期内市场缺乏明确方向，可能受到多重因素的影响，包括经济数据和市场情绪的变化。\n\n在技术指标方面，20日简单移动平均线（SMA）为1.39958，价格略高于该水平，表明短期内仍有支撑。MACD指标显示出微弱的负值，暗示卖压可能仍在，但尚未形成强烈的下行动能。RSI指标缺失，但需关注该指标在超买或超卖区域的变化。\n\n支撑位方面，1.40030为重要心理关口，如若跌破，可能引发进一步回调，测试更低的支撑位。阻力位则在1.40230上方，若能突破将为多头提供动力。综合来看，短期内建议投资者保持观望，等待市场明确方向后再做决策，避免在震荡行情中贸然入场。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD pair is currently trading at 1.40106, displaying a minor decline of 0.03% over the past 24 hours. The price action has remained relatively stable, oscillating between a high of 1.40230 and a low of 1.40030. This tight range suggests a consolidative phase, as traders weigh fundamental factors such as interest rates and commodity prices that heavily influence the Canadian dollar due to its ties to oil.\n\nFrom a trend analysis perspective, the pair appears to be in a neutral phase, with the price hovering around the 20-day Simple Moving Average (SMA) at 1.39958. The proximity to the SMA indicates a potential pivot point, where traders may look for signals to either buy or sell. Should the price break above the recent high of 1.40230, it may signal a bullish trend, while a drop below 1.40030 could indicate a bearish sentiment gaining traction.\n\nTechnical indicators are currently limited, with the MACD showing a slight bearish divergence. This indicates that the momentum may be weakening, despite the price being relatively stable. The absence of an RSI value makes it challenging to ascertain overbought or oversold conditions, but traders should remain cautious and monitor for any forthcoming signals. A more comprehensive analysis may emerge as new data points become available.\n\nFor trading strategies, it would be prudent to consider a breakout approach. A move above 1.40230 could be an opportunity for long positions, targeting resistance levels above 1.40500. Conversely, if the price dips below 1.40030, a short position may be warranted, with a target near the psychological level of 1.39500. Tight stop-loss orders should be utilized to manage risk effectively in this uncertain environment."
+    }
+  }
+}

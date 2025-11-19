@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-19T14:55:32.489Z",
+  "price": {
+    "close": "0.64875",
+    "high": "0.64893",
+    "low": "0.64793",
+    "open": "0.64837",
+    "change": "0.06",
+    "datetime": "2025-11-20 01:00:00"
+  },
+  "indicators": {
+    "rsi": 45.036508,
+    "macd": -0.00039569022,
+    "macd_signal": -0.00035943603,
+    "sma20": 0.649421
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理趋势]",
+      "content": "当前澳元/美元汇率在0.64875附近震荡整理，近期价格波动较小，显示出市场缺乏明确的方向。考虑到高点和低点分别为0.64893和0.64793，可以看出价格在窄幅区间内波动，短期内可能继续保持这种震荡格局。\n\n从技术指标来看，当前的MACD值为-0.00039，显示出空头略占优势。然而，由于RSI指标未提供，难以全面判断超买或超卖情况。20日简单移动平均线(SMA)为0.64942，价格尚未突破这一水平，表明短期内仍有反弹阻力。\n\n支撑位方面，0.64793是关键支撑区域，若突破该水平，可能会进一步下探。阻力位则在0.64942附近，若突破将有可能恢复上涨趋势。投资者需密切关注这些关键价位，以便及时调整交易策略。\n\n综合来看，建议投资者在当前震荡市场中保持谨慎，若价格接近支撑位可考虑逢低买入，而接近阻力位时则可适当减仓或做空，以控制风险并把握短期波动机会。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) against the US Dollar (USD) is presently trading at 0.64875, reflecting a modest increase of 0.06% over the past 24 hours. The recent price action suggests a consolidation phase, with the currency pair oscillating between the daily high of 0.64893 and a low of 0.64793. This tight range indicates a lack of strong directional momentum, potentially setting the stage for a breakout. Traders should closely monitor price action to determine if a decisive move occurs.\n\nFrom a trend perspective, the AUD/USD remains under pressure, as evidenced by its proximity to the 20-period Simple Moving Average (SMA) at 0.64942100. Currently, the price is trading below this key moving average, suggesting bearish sentiment may persist in the short term. A sustained move above the SMA could provide a bullish signal, while failure to reclaim this level may reinforce the downtrend, increasing the likelihood of further declines.\n\nIn terms of support and resistance levels, immediate support is seen at the recent low of 0.64793, which, if broken, could open the door to further downside toward psychological levels around 0.64500. Conversely, resistance is established near the SMA at 0.64942100, followed by the previous high around 0.65000. A break above these resistance levels could signal a reversal, allowing traders to reassess their positions.\n\nFor trading strategies, a cautious approach is warranted at this juncture. Day traders might consider short positions near the resistance level, especially if the price fails to break above the SMA. Conversely, a breakout above 0.6494 could offer opportunities for long positions, targeting higher resistance levels. As always, incorporating stop-loss orders is prudent to manage risk effectively, given the current uncertain market conditions."
+    }
+  }
+}

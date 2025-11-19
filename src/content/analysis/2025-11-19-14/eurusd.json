@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-19T14:52:48.793Z",
+  "price": {
+    "close": "1.15586",
+    "high": "1.15742",
+    "low": "1.15573",
+    "open": "1.15726",
+    "change": "-0.12",
+    "datetime": "2025-11-20 01:00:00"
+  },
+  "indicators": {
+    "rsi": 35.005425,
+    "macd": -0.00046338206,
+    "macd_signal": -0.00033697768,
+    "sma20": 1.15795
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理，等待突破]",
+      "content": "当前欧元/美元的价格处于1.15586附近，市场在24小时内小幅下跌0.12%，显示出短期内的震荡整理趋势。价格在1.15742的高点与1.15573的低点之间波动，表明市场尚未形成明确的方向。投资者需密切关注即将到来的经济数据，以判断市场的进一步走向。\n\n技术指标方面，虽然RSI(14)数据缺失，MACD指标显示出微弱的负值，表明短期内卖压略显。SMA(20)的水平在1.15795附近，当前价格低于该均线，进一步支持了短期看空的观点。投资者应关注均线的变化，以捕捉可能的趋势反转信号。\n\n在支撑与阻力位方面，1.15573为短期支撑位，若有效跌破，可能进一步测试1.15300附近的更强支撑。而1.15742则是关键阻力位，突破后有可能引发一波上涨行情。投资者需注意价格在这些关键点位的反应。\n\n基于目前的市场状况，建议投资者采取观望策略，待价格突破重要支撑或阻力位后再进行操作。同时，保持对经济数据和市场情绪的关注，以便及时调整交易策略。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD pair is currently trading at 1.15586, reflecting a slight decline of 0.12% over the past 24 hours. This modest movement suggests the market is in a consolidation phase, oscillating around key levels. The high and low of the day, 1.15742 and 1.15573 respectively, indicate a range that traders are closely monitoring. Given the absence of a strong directional trend, the market may be awaiting fresh catalysts to drive the next significant move.\n\nIn terms of technical indicators, the current MACD value of -0.00046338206 suggests a bearish momentum, although the lack of a signal line hinders further interpretation. The SMA(20) at 1.15795 serves as a critical resistance level, indicating that any upward movement would need to break through this average to gain traction. Traders should keep an eye on these indicators, as a crossover or a shift in momentum could provide valuable trading signals.\n\nSupport levels are identified at 1.15573, which corresponds to the daily low, and a further support zone can be observed around 1.15450. Conversely, resistance is firmly established at the SMA(20) near 1.15795 and the recent high of 1.15742. A break above these levels could signal a bullish reversal, while a drop below support may lead to further declines, emphasizing the need for cautious positioning.\n\nFor traders, it may be prudent to adopt a wait-and-see approach. A bounce off the support level at 1.15573 could present a buying opportunity, especially if accompanied by a bullish reversal pattern. Conversely, if the price breaks below this level, it may trigger a short position as further weakness could unfold. Monitoring volume and market sentiment will be essential in determining the next steps in this currency pair's movement."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-19T14:59:03.359Z",
+  "price": {
+    "close": "4117.26117",
+    "high": "4118.41203",
+    "low": "4103.98199",
+    "open": "4108.68218",
+    "change": "0.21",
+    "datetime": "2025-11-20 01:00:00"
+  },
+  "indicators": {
+    "rsi": 65.77913,
+    "macd": 15.35682,
+    "macd_signal": 12.38209,
+    "sma20": 4087.56955
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：当前趋势看涨",
+      "content": "当前黄金/美元（XAU/USD）的价格为4117.26，整体呈现出温和上涨的趋势。近期价格在4100上方企稳，表明市场对于黄金的需求依然强劲。尽管24小时变化仅为0.21%，但高点和低点之间的波动显示出市场参与者的活跃度，可能为后续的进一步上涨奠定基础。\n\n从技术指标来看，MACD值为15.36，显示出当前市场存在一定的上行动能，尽管信号线数据缺失，但可以推测短期内仍将保持看涨的趋势。SMA(20)在4087.57处提供了重要的支撑位，若价格下跌至该水平，可能吸引买盘，进一步支撑上涨趋势。\n\n在支撑和阻力位方面，当前支撑位在4087.57附近，而阻力位则在4120一线。若价格突破4120，可能进一步加速上行，挑战4150的关键心理关口。建议交易者关注价格在支撑位附近的反弹机会，适时布局多单，以把握潜在的上涨收益。保持警惕，及时调整止损，以应对市场波动。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of Gold against the US Dollar (XAU/USD) stands at 4117.26, reflecting a modest 24-hour change of 0.21%. Analyzing the recent price action reveals a bullish trend, as the market has consistently traded above the 20-day Simple Moving Average (SMA) of 4087.57. This indicates that momentum remains positive, suggesting potential for further upward movement. The recent high of 4118.41 serves as a key resistance level, while the low of 4103.98 provides a nearby support level.\n\nIn terms of technical indicators, the MACD reading of 15.36 indicates a strong bullish momentum, although the absence of a Signal line makes it challenging to assess crossover points. Without the RSI data, it's difficult to gauge overbought or oversold conditions; however, the price's proximity to its recent high suggests that caution may be warranted for buyers. Traders should watch for any divergence that might indicate a shift in momentum, especially if price action approaches significant resistance.\n\nThe immediate support level at 4103.98 may act as a buffer for any potential pullbacks, while a sustained breach above the resistance at 4118.41 could open up further upside potential, targeting levels above 4120. In such a scenario, traders might consider entering long positions, keeping a close eye on volume to confirm the move. Conversely, a decisive drop below 4103.98 could signal a bearish reversal, prompting a reassessment of long positions.\n\nFor trading strategies, a prudent approach would involve setting buy orders near the support level, particularly if the price consolidates above 4105. A stop-loss can be strategically placed below 4100 to manage risk. Conversely, should the resistance hold firm, traders may consider short positions while monitoring for confirmation of a reversal. Overall, maintaining vigilance on both technical indicators and price levels will be essential for effective trading in this dynamic market environment."
+    }
+  }
+}

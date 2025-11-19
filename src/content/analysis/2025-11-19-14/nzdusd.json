@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-19T14:57:21.811Z",
+  "price": {
+    "close": "0.56230319",
+    "high": "0.56255627",
+    "low": "0.56189245",
+    "open": "0.56255627",
+    "change": "-0.02",
+    "datetime": "2025-11-20 01:00:00"
+  },
+  "indicators": {
+    "rsi": 31.7814,
+    "macd": -0.00088206127,
+    "macd_signal": -0.00076219417,
+    "sma20": 0.56411754
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理中]",
+      "content": "目前纽元/美元(NZD/USD)的价格为0.5623，近期波动幅度较小，显示出一定的震荡整理趋势。尽管24小时变化仅为-0.02%，但价格在高点0.5626和低点0.5619之间反复横跳，表明市场缺乏明显的方向性。短期内，投资者需关注市场情绪的变化，可能会影响后续走势。\n\n技术指标方面，MACD值为-0.00088，显示出价格的弱势，短期内仍有下行风险。虽然RSI(14)未能提供，但结合SMA(20)的值0.5641，可以看出当前价格处于其下方，这暗示着价格可能会继续承压，反弹动力不足。走势的疲软可能导致投资者谨慎入市。\n\n从支撑与阻力位来看，当前支撑位可观察在0.5619附近，若跌破该水平，将可能加速下行。而上方阻力位则在0.5641附近，若突破此位，可能会吸引更多买盘。因此，投资者应密切关注这些关键价位，以制定相应的交易策略。\n\n在交易建议方面，建议短期内保持观望，待价格确认突破关键阻力或支撑位后再考虑入市。如果价格跌破0.5619，可以考虑做空，风险管理上需设定合理止损，反之若突破0.5641，则可考虑做多，捕捉反弹机会。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.5623, reflecting a slight decline of 0.02% over the last 24 hours. Price action has moved within a narrow range, with a high of 0.5626 and a low of 0.5619. This consolidation phase may suggest indecision in the market, but overall, the pair appears to be under bearish pressure as it trades below the recent 20-day Simple Moving Average (SMA) of 0.5641. A sustained move below this SMA could indicate further downside potential.\n\nIn terms of technical indicators, the MACD is currently negative at -0.00088, which signals bearish momentum is in play. Although the RSI(14) is not available, the MACD indicates that sellers are gaining an advantage. If the MACD continues to trend lower or crosses below the zero line, it could reinforce a bearish outlook for the pair. Traders should monitor any potential divergence in the MACD as it may provide early signals of trend reversal.\n\nKey support levels to watch are around the recent low of 0.5619, a breach of which could lead to further declines towards the psychological level of 0.5600. Conversely, resistance is established at the 20-day SMA of 0.5641 and the recent high of 0.5626. A breakout above these levels could prompt a reassessment of the bearish sentiment and open the door for bullish opportunities.\n\nFor traders looking to capitalize on the current market conditions, a cautious approach may be prudent. Consider entering short positions if the price fails to break above the 20-day SMA, particularly if confirmed by bearish MACD signals. Conversely, a breakout above 0.5641 could trigger a long position, but it is essential to manage risk with appropriate stop-loss orders to mitigate potential losses in this volatile market environment."
+    }
+  }
+}
