@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-19T18:54:31.032Z",
+  "price": {
+    "close": "156.76199",
+    "high": "156.85001",
+    "low": "156.68600",
+    "open": "156.74899",
+    "change": "0.01",
+    "datetime": "2025-11-20 05:00:00"
+  },
+  "indicators": {
+    "rsi": 77.30632,
+    "macd": 0.36109878,
+    "macd_signal": 0.27260391,
+    "sma20": 155.9247
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理中]",
+      "content": "当前美元/日元在156.76附近震荡整理，市场情绪相对谨慎。价格在156.85001的高点附近受到压力，显示出短期内可能出现回调的风险。若能突破该高点，则可能进一步挑战更高的水平。反之，若跌破156.68600的低点，则有可能引发一波下行趋势。\n\n在技术指标方面，MACD显示出正值0.36109878，表明短期内买方力量仍然占优，但缺乏明显的买入信号。由于RSI指标缺失，难以判断当前是否处于超买或超卖状态。市场需关注未来几日的价格走势，以便更好地评估风险。\n\n支撑位方面，156.68600将是关键支撑，若有效跌破，可能导致价格进一步回调至155.92的SMA(20)区域。反之，抵抗位在156.85001，突破该水平，将有利于推动价格向更高的目标发展。\n\n基于当前的市场状况，建议交易者保持观望，等待价格突破关键支撑或阻力位后再决定进场策略。保持风险控制并密切关注市场情绪变化，以制定相应的交易计划。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 156.76199, reflecting a slight increase of 0.01% over the past 24 hours. This position indicates the ongoing strength of the US dollar against the Japanese yen, which has been part of a longer-term bullish trend. The recent high of 156.85001 suggests that the market is testing resistance levels, while the low of 156.68600 indicates a potential support zone. Traders should closely monitor these levels, as a break above 156.85 could lead to further gains, possibly targeting the next key resistance around 157.50.\n\nFrom a technical perspective, the absence of a calculated RSI(14) makes it challenging to assess overbought or oversold conditions. However, the MACD value of 0.36109878 suggests bullish momentum, indicating that the buyers are currently in control. As the market consolidates, observing the MACD's movement can provide insights into potential trend reversals or continuations. If the MACD crosses above its signal line in the near term, it would reinforce bullish sentiment.\n\nThe 20-period Simple Moving Average (SMA) at 155.92470 serves as an important indicator of market direction. Currently, the price is well above this SMA, affirming the bullish trend. Traders might look for pullback opportunities near this level as a potential entry point, especially if confirmation comes from other indicators. A successful test of this SMA would reinforce the support level, making it an attractive area for long positions.\n\nIn terms of trading suggestions, caution is advised. While the bullish trend suggests potential upside, traders should remain vigilant for signs of reversal or weakness around the key resistance level. If the price approaches 156.85 and fails to break through, it may prompt a short-term corrective move downwards. Conversely, a strong breakout could open up a pathway to higher targets. Therefore, employing a strategy that includes both breakout and pullback scenarios could be beneficial in capturing potential market movements."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-19T18:55:16.548Z",
+  "price": {
+    "close": "0.64674",
+    "high": "0.64683",
+    "low": "0.64593",
+    "open": "0.64593",
+    "change": "0.12",
+    "datetime": "2025-11-20 05:00:00"
+  },
+  "indicators": {
+    "rsi": 38.34977,
+    "macd": -0.00082503891,
+    "macd_signal": -0.00057235405,
+    "sma20": 0.6485085
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理，待突破]",
+      "content": "当前，澳元/美元在0.64593至0.64683区间内震荡整理，短期内呈现出较弱的走势。价格在这一区间内波动，未能有效突破20日简单移动平均线(SMA)，显示出市场多头力量不足，空头压力依旧存在。\n\n技术指标方面，虽然RSI(14)数据缺失，但从MACD来看，当前值为-0.00082503891，说明价格动能趋于疲软，市场情绪偏向谨慎。若后续再出现负向交叉，可能会加大卖出信号，进一步加剧下行风险。\n\n在支撑与阻力位方面，0.64500是关键支撑位，一旦跌破，可能引发更大幅度的下探。反之，若价格突破0.6485，意味着短期内可能会迎来反弹走势，测试更高的阻力位0.6500。\n\n基于当前市场状况，建议投资者保持观望，耐心等待价格突破关键支撑或阻力位后再做决策。如果出现向下突破，考虑适度做空，而如突破上行，则可寻找适时的买入机会。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) against the US Dollar (USD) is currently trading at 0.64674, showing a slight increase of 0.12% over the last 24 hours. The price has experienced minimal volatility, with a high of 0.64683 and a low of 0.64593, indicating a consolidation phase. This price action suggests that the market may be in a temporary equilibrium, but traders should watch for potential breakout opportunities as the currency pair approaches key support and resistance levels.\n\nFrom a trend analysis perspective, the AUD/USD appears to be in a downtrend, given that it is trading below the 20-period Simple Moving Average (SMA) of 0.6485. This SMA serves as a dynamic resistance level, and price action that remains below it could indicate continued bearish sentiment. For traders, this suggests that short positions may be favorable, especially if the pair tests the SMA and fails to break above it. \n\nWhile the RSI(14) is not available, the current MACD reading of -0.00082503891 suggests a bearish momentum, as it is below zero. Traders should consider this indicator alongside price action to gauge potential reversals or continuation patterns. A sustained move below the recent low of 0.64593 could trigger further declines, while a move above the SMA could indicate a shift in momentum and prompt reconsideration of short positions.\n\nKey support levels are found at 0.64500, which could act as a psychological barrier for traders, while resistance is observed at 0.6485. A break below 0.64500 may lead to further downside, possibly targeting 0.6440. Conversely, a decisive move above 0.6485 could open the door for a rally toward higher resistance levels. Traders should remain vigilant for these key levels and use them to inform their trading strategies."
+    }
+  }
+}
