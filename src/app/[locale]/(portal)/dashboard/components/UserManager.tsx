@@ -227,6 +227,10 @@ export default function UserManager() {
       stage: submission.stage,
       message: submission.message || '',
       language: submission.language,
+      plan: submission.plan || '',
+      price_usd: submission.price_usd || '',
+      price_cny: submission.price_cny || '',
+      payment_method: submission.payment_method || 'wechat',
     });
     setShowUserModal(true);
   };
