@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-19T05:43:46.575Z",
+  "price": {
+    "close": "0.56325334",
+    "high": "0.56341201",
+    "low": "0.56312650",
+    "open": "0.56328505",
+    "change": "-0.01",
+    "datetime": "2025-11-19 16:00:00"
+  },
+  "indicators": {
+    "rsi": 29.12112,
+    "macd": -0.00075370793,
+    "macd_signal": -0.0004302785,
+    "sma20": 0.56557866
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理，谨慎观望]",
+      "content": "当前纽元/美元的价格为0.56325334，24小时变化微幅下跌0.01%。整体来看，汇价在短期内呈现震荡整理的态势，未能突破之前的高点0.56341201，显示出市场的犹豫情绪。考虑到当前市场环境，投资者应关注后续的价格走势，以确定进一步的交易方向。\n\n在技术指标方面，MACD显示出微弱的负值，表明短期内卖方占据优势，但未形成明显的趋势信号。由于RSI(14)数据缺失，无法对超买或超卖状态进行评估，建议关注后续数据发布。SMA(20)处于0.56557866，进一步表明价格在均线之下，可能面临强阻力。\n\n从支撑和阻力的角度分析，当前支撑位可设在0.56312650，若价格跌破这一水平，可能进一步下探。而阻力位则在0.5650附近，若汇价突破该区域，可能开启新的上涨空间。因此，投资者在操作上应保持谨慎，等待确认信号后再入场。\n\n综上所述，当前纽元/美元的走势依然处于震荡整理阶段，建议投资者密切关注重要技术指标的变化，同时关注支撑和阻力位的有效性，以指导后续交易决策。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.56325334, reflecting a slight decline of 0.01% over the past 24 hours. The price has remained in a narrow range, with a high of 0.56341201 and a low of 0.56312650, indicating a consolidation phase. This behavior suggests a possible indecision in market sentiment, as traders await further directional cues. The overall trend appears to be bearish, given the recent price action below the 20-period Simple Moving Average (SMA), which stands at 0.56557866.\n\nIn terms of technical indicators, the MACD is currently at -0.00075370793, signifying a bearish momentum, although the absence of a signal line makes it challenging to draw definitive conclusions. The Relative Strength Index (RSI) is not available at this time, which limits an assessment of whether the pair is overbought or oversold. However, given the current price below the SMA, there is a likelihood that the bearish trend may continue unless buyers step in to push the price above the SMA level.\n\nKey support and resistance levels are essential for traders to identify potential entry and exit points. The immediate support is located at the low of 0.56312650, while a break below this level could trigger further declines towards the next significant support around 0.5600. Conversely, resistance can be found at 0.5655, just above the SMA, which traders should monitor closely. A decisive breakout above this resistance could signal a possible reversal in trend.\n\nFor trading strategies, a cautious approach is advisable. Traders may consider short positions near the resistance level of 0.5655, with a stop-loss order just above this point to manage risk. Conversely, if the price successfully breaches the support level, it could be an opportunity to enter short positions targeting the next support at 0.5600. Overall, maintaining vigilance on market developments and adjusting positions based on price action will be crucial in navigating the current market dynamics."
+    }
+  }
+}

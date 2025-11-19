@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-19T05:42:22.755Z",
+  "price": {
+    "close": "0.64842",
+    "high": "0.6485",
+    "low": "0.64808",
+    "open": "0.6483",
+    "change": "0.02",
+    "datetime": "2025-11-19 16:00:00"
+  },
+  "indicators": {
+    "rsi": 38.64775,
+    "macd": -0.00037320255,
+    "macd_signal": -0.0001146307,
+    "sma20": 0.6501095
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[当前震荡走势中寻找突破机会]",
+      "content": "当前澳元/美元在0.6480至0.6500区间内震荡，短期内未能显著突破此区间的上限。考虑到24小时变化仅为0.02%，市场情绪较为谨慎，投资者可能在等待更明确的方向信号。若价格持续在0.6480之上，可能会形成小幅反弹的机会。\n\n从技术指标来看，虽然RSI数据缺失，但MACD值为-0.00037，表明短期内卖压略显不足，市场尚未形成强烈的下行趋势。同时，SMA(20)为0.6501，显示出短期内价格仍处于其下方，暗示短期内有反弹的可能性。整体来看，市场处于谨慎的调整阶段。\n\n在支撑位方面，0.6480是关键支撑位，若价格跌破此位，可能会进一步向下测试0.6450。而在阻力位方面，0.6500则是重要的心理关口，突破该水平后，可能会引发更大幅度的上涨。投资者应密切关注这些水平的表现。\n\n建议交易者在当前震荡区间内采取观望策略，等待价格突破0.6500后再考虑多头入场，或若跌破0.6480后采取空头策略。切勿在市场不确定时盲目入场，以避免不必要的风险。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.64842, reflecting a slight increase of 0.02% over the last 24 hours. This modest upward movement suggests a consolidation phase following a recent bearish trend. The price is hovering near the recent high of 0.6485, which may act as a resistance level. A sustained break above this level could indicate a potential shift in momentum, while failure to do so may lead to further testing of the support level at 0.64808.\n\nIn terms of technical indicators, the MACD is currently at -0.000373, signaling a bearish sentiment as it remains below the zero line. However, without the signal line data, it's difficult to gauge the momentum shift accurately. The absence of a definitive RSI reading complicates the analysis as well; nevertheless, traders should monitor these indicators closely for potential divergence or convergence, which could provide further insight into market sentiment.\n\nThe 20-day Simple Moving Average (SMA) is positioned at 0.6501, indicating that the pair is still experiencing a downward trend in the short term. If the price continues to remain below this SMA, it could reinforce bearish outlooks, suggesting that traders should remain cautious. A potential scenario to watch for is a pullback towards the SMA, where sellers may re-enter the market if the price fails to break above.\n\nFor trading strategies, traders might consider a wait-and-see approach until clearer signals emerge. A break above 0.6485 could provide an opportunity for long positions, targeting the next resistance level around 0.6501. Conversely, if the price retraces below 0.64808, it may provide short-selling opportunities, with targets set at lower support levels. Risk management is essential; setting stop-loss orders just above resistance or below support will help mitigate potential losses in this volatile market."
+    }
+  }
+}
