@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-19T12:23:32.007Z",
+  "price": {
+    "close": "0.64899",
+    "high": "0.6492",
+    "low": "0.64893",
+    "open": "0.64893",
+    "change": "0.01",
+    "datetime": "2025-11-19 23:00:00"
+  },
+  "indicators": {
+    "rsi": 46.031374,
+    "macd": -0.00038421554,
+    "macd_signal": -0.00033488059,
+    "sma20": 0.6496855
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理中]",
+      "content": "当前，澳元/美元在0.64899附近波动，显示出短期内震荡整理的特征。价格在0.6492的高点与0.64893的低点之间徘徊，表明市场缺乏明显的方向性。若突破0.6492，则可能重拾上涨动能，反之则可能进一步下探。\n\n从技术指标来看，当前尚未提供RSI数据，但MACD数值为-0.00038421554，显示出弱势的市场情绪。尽管短期均线SMA(20)在0.64968550附近，价格低于该水平，表明卖方仍占据主导地位，后市需关注价格与均线的关系。\n\n支撑位方面，0.64893为短期关键支撑，若跌破则可能引发更大幅度的回调，目标指向0.6470附近。而在阻力位上，0.6492则成为短期阻力，若突破该水平，则可能带来短线反弹机会。\n\n综合来看，建议交易者保持观望，等待价格突破关键支撑或阻力位后再做决策。若市场确认向上突破，考虑进场做多；若继续向下跌破支撑，则应谨慎布局，控制风险。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.64899, showing a minimal positive change of 0.01% over the last 24 hours. The price is hovering just below the 20-period simple moving average (SMA) of 0.64968550, indicating that the pair is experiencing bearish pressure. This positioning suggests that the market may be favoring downward momentum, although the proximity to the SMA could lead to potential volatility around this level. Traders should monitor the price action closely to identify potential reversals or continuations.\n\nIn terms of support and resistance levels, the immediate resistance appears to be at 0.6492, which is the recent high, while the lower boundary is at 0.64893, marking the recent low. Should the price break above the resistance level, it could signal a bullish reversal, with potential targets at the next resistance around 0.6500. Conversely, a breach below the support level may lead to further declines, warranting caution for long positions. \n\nFrom an indicator perspective, the MACD is currently negative, indicating that the bearish sentiment is still prevalent. The absence of the RSI value limits our view on overbought or oversold conditions but suggests that traders should remain cautious. If the MACD begins to show signs of convergence, it could provide an early signal for a potential upward correction.\n\nFor traders looking at the AUD/USD pair, a wait-and-see approach may be prudent. Entering long positions could be considered if the price breaks above 0.6492 with strong momentum, while short positions may be warranted if the pair breaches the support at 0.64893. Establishing clear stop-loss orders will be essential to manage risk effectively in this potentially volatile environment."
+    }
+  }
+}

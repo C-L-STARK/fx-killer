@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-19T12:26:44.208Z",
+  "price": {
+    "close": "4115.23433",
+    "high": "4119.789",
+    "low": "4112.91243",
+    "open": "4113.31221",
+    "change": "0.05",
+    "datetime": "2025-11-19 23:00:00"
+  },
+  "indicators": {
+    "rsi": 65.38566,
+    "macd": 14.53534,
+    "macd_signal": 10.92269,
+    "sma20": 4083.41431
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中]",
+      "content": "近期黄金/美元（XAU/USD）的走势呈现震荡整理的状态，当前价格为4115.23美元，24小时内微幅变动0.05%。从高点4119.79美元与低点4112.91美元来看，价格波动幅度较小，表明市场参与者观望情绪浓厚，短期内缺乏明确的方向。\n\n在技术指标方面，虽然RSI和MACD的信号尚未完全呈现，但当前SMA(20)位于4083.41美元，显示出市场在该水平附近存在一定的支撑。若价格向下回调，4083.41美元可能成为关键支撑位，而向上突破则需关注4120美元的阻力位。\n\n综合考虑，建议投资者在当前震荡区间内采取观望策略，待价格有效突破上下支撑/阻力位后再做决策。如果价格突破4120美元，可能会引发一波买入潮，反之则需警惕下行风险，关注4083美元的强支撑。保持灵活的交易策略，将有助于在市场波动中把握机会。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of gold against the US dollar (XAU/USD) is at 4115.23, reflecting a minor increase of 0.05% over the past 24 hours. The price action indicates a consolidation phase, given the tight range between the high of 4119.79 and the low of 4112.91. This sideways movement suggests that the market is seeking direction, and traders should be cautious as momentum may build in either direction.\n\nThe absence of the RSI and Signal values limits our ability to assess overbought or oversold conditions. However, the MACD value of 14.54 indicates a bullish momentum, suggesting that buyers have the upper hand in the short term. The current position relative to the 20-period Simple Moving Average (SMA) at 4083.41 further supports this bullish outlook, as the price is trading above the SMA, indicating a potential uptrend in the near future.\n\nKey support levels are identified around 4112.91, where buying interest may emerge. Should the price break below this level, a retest of the SMA at 4083.41 could be expected. Conversely, resistance can be seen at 4119.79, which, if overcome, may trigger further bullish momentum potentially leading to new highs. Monitoring these levels will be vital as they could serve as pivot points for short-term trading strategies.\n\nTraders might consider a buy position if the price successfully breaks and holds above the resistance at 4119.79, particularly if supported by bullish momentum indicators. Conversely, a break below 4112.91 should prompt caution, as it could signal a shift in market sentiment. Implementing stop-loss orders around these key levels will be crucial for managing risk in this potentially volatile environment."
+    }
+  }
+}

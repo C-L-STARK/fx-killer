@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-19T12:25:59.334Z",
+  "price": {
+    "close": "0.80201000",
+    "high": "0.80204999",
+    "low": "0.80106997",
+    "open": "0.80166000",
+    "change": "0.04",
+    "datetime": "2025-11-19 23:00:00"
+  },
+  "indicators": {
+    "rsi": 64.9255,
+    "macd": 0.0011807931,
+    "macd_signal": 0.0010694324,
+    "sma20": 0.80016
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理中]",
+      "content": "当前美元/瑞郎（USD/CHF）在0.8020附近波动，显示出短期内的震荡整理趋势。价格在过去24小时内仅有0.04%的小幅变化，表明市场情绪较为平稳，缺乏明确的方向性。近期的高点与低点分别为0.8020与0.8010，显示出市场在这一区间内的反复争夺。\n\n从技术指标来看，MACD显示出微弱的正向动能，当前值为0.00118，表明多头力量在增强。然而，由于RSI数据缺失，我们无法准确评估市场的超买或超卖状态。结合20日简单移动平均线（SMA）0.8002的支撑水平，短期内价格有可能维持在此区间内。\n\n在支撑与阻力位方面，0.8010可能作为关键支撑位，而0.8020则是重要的阻力位。交易者可以考虑在支撑位附近寻找入场机会，同时在接近阻力位时设置止盈点。建议保持谨慎，关注市场消息面变化，以便及时调整交易策略。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair is currently trading at 0.80201000, exhibiting a slight upward movement of 0.04% over the last 24 hours. This modest change indicates that the market sentiment remains relatively stable, with the price hovering near its recent high of 0.80204999. A closer inspection of the price action reveals a bullish trend that has been developing since the recent low of 0.80106997, suggesting that buyers are gradually gaining control. Continued upward momentum could see the pair testing the next resistance level around 0.8050.\n\nIn terms of technical indicators, the absence of an RSI (Relative Strength Index) reading limits our assessment of overbought or oversold conditions. However, the MACD value of 0.0011807931 indicates a potential bullish crossover, suggesting that upward price movement may continue in the near term. Meanwhile, the 20-period Simple Moving Average (SMA) at 0.80016000 serves as a dynamic support level. A price retracement towards this SMA could provide a favorable buying opportunity, particularly if accompanied by increased buying volume.\n\nTraders should closely monitor the established support and resistance levels. The immediate support can be identified at 0.8010, where buyers may step in to prevent further declines. Conversely, if the price breaks above the aforementioned resistance at 0.8050, it could signal a stronger bullish trend, prompting traders to consider long positions. Conversely, a break below the 0.8000 level may indicate a shift in sentiment, warranting caution.\n\nIn summary, the USD/CHF pair is demonstrating a slight bullish trend, supported by its recent price action and technical indicators. Traders should keep an eye on key levels and remain adaptable to market movements. A prudent approach would involve waiting for confirmation before entering trades, ensuring that positions are aligned with the prevailing market sentiment."
+    }
+  }
+}

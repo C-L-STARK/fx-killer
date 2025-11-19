@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-19T12:25:12.838Z",
+  "price": {
+    "close": "0.56328505",
+    "high": "0.56350726",
+    "low": "0.56328505",
+    "open": "0.56341201",
+    "change": "0.00",
+    "datetime": "2025-11-19 23:00:00"
+  },
+  "indicators": {
+    "rsi": 37.66297,
+    "macd": -0.00078320467,
+    "macd_signal": -0.00069863207,
+    "sma20": 0.56455078
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理中]",
+      "content": "当前纽元/美元(NZD/USD)的价格为0.56328505，市场表现出震荡整理的趋势。价格在0.56350726的高点与0.56328505的低点之间波动，显示出短期内缺乏明显的方向性。投资者需关注市场情绪的变化，以判断后续走势。\n\n在技术指标方面，虽然RSI(14)数据缺失，但MACD显示出轻微的负值(-0.00078320467)，暗示短期内卖方稍占优势。此外，20日简单移动平均线(SMA)位于0.56455078，显示出价格仍处于其下方，这可能是一个潜在的阻力位。\n\n支撑位方面，0.56328505附近可能成为短期支撑，若价格跌破该水平，后续支撑位可能在0.5625。反之，若突破0.5645，可能会吸引更多买盘，进一步上行至0.5650。此时需密切关注市场反应，以便及时调整策略。\n\n交易建议方面，考虑到当前市场的震荡特征，建议投资者采取区间交易策略。在支撑位附近寻求买入机会，并在接近阻力位时考虑卖出。不过，需密切关注市场动态，以应对可能的趋势反转。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD currency pair currently trades at 0.56328505, showing a stable performance with a 24-hour change of 0.00%. This price action indicates a period of consolidation, given the proximity to the recent high of 0.56350726. The lack of significant movement suggests indecision in the market, which could lead to a breakout in either direction. Traders should monitor key levels closely, as a sustained move above 0.5645 may signal a bullish reversal, while a drop below 0.5630 could indicate a bearish trend.\n\nTechnical indicators present a mixed picture. The MACD shows a slight negative divergence at -0.00078320467, suggesting that bearish momentum is weakening. However, the absence of an RSI reading limits our ability to assess overbought or oversold conditions effectively. The 20-day Simple Moving Average (SMA) at 0.56455078 serves as a critical resistance level; a decisive break above this level might attract buyers and catalyze a move toward higher targets, while failure to breach this resistance could lead to further downside pressure.\n\nSupport levels are currently identified around 0.5630 and 0.5625, which could provide a cushion for the pair if selling intensifies. Should these levels hold, it may offer a buying opportunity for traders looking to capitalize on potential reversals. Conversely, if the price breaks below these support levels, traders should be prepared for a potential fall toward 0.5610, which would further confirm bearish sentiment in the market.\n\nIn terms of trading strategy, it would be prudent to adopt a wait-and-see approach. Traders might consider placing buy orders near the support zone around 0.5630 with a tight stop-loss just below this level. Alternatively, selling could be considered if the price decisively breaks below 0.5625, with profit targets aimed at the next key support level at 0.5610. This balanced approach allows traders to adapt to prevailing market conditions while managing risk effectively."
+    }
+  }
+}

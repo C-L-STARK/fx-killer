@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-19T12:22:44.325Z",
+  "price": {
+    "close": "156.17799",
+    "high": "156.17900",
+    "low": "156.059998",
+    "open": "156.10100",
+    "change": "0.05",
+    "datetime": "2025-11-19 23:00:00"
+  },
+  "indicators": {
+    "rsi": 71.78414,
+    "macd": 0.20638691,
+    "macd_signal": 0.13449198,
+    "sma20": 155.61
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理中]",
+      "content": "当前美元/日元处于156.17799，整体呈现出震荡整理的趋势。尽管24小时变化仅为0.05%，市场仍显示出一定的波动性。短期内，价格在156.059998至156.17900之间波动，暗示市场尚未形成明确的方向。\n\n从技术指标来看，虽然RSI(14)数据缺失，但MACD显示出0.20638691的正值，表明短期内买方力量略强。不过，由于缺乏进一步的信号确认，市场仍需关注关键的支撑和阻力位。20日简单移动平均线(SMA)为155.61000，可能为短期支撑位。\n\n在支撑和阻力方面，当前的支撑位在156.059998，而阻力位则在156.17900。建议交易者在接下来的交易中保持谨慎，关注价格是否突破这些关键水平。如果价格突破156.17900，可能会引发进一步上涨，而跌破156.059998则可能导致下行风险加大。适时调整仓位以应对市场变化。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 156.178, showing a slight increase of 0.05% over the last 24 hours. This price action indicates a mild bullish sentiment. The recent high of 156.179 suggests a resistance level that traders should monitor closely. Conversely, the low of 156.059998 establishes a support level. A break below this support could indicate weakness, while a strong close above the resistance could open the door for further upside movement.\n\nIn terms of technical indicators, the MACD reading of 0.20638691 reflects a positive momentum, signaling potential bullish continuation. However, it is essential to consider that the lack of an RSI reading limits our ability to assess overbought or oversold conditions. Additionally, the SMA(20) at 155.610 suggests that the pair is trading significantly above its average price over the last 20 periods, reinforcing the bullish outlook. Traders may want to keep an eye on divergence with the MACD as price moves forward.\n\nSupport and resistance levels are crucial for determining potential entry and exit points. The immediate support at 156.059998 provides a safety net for long positions, while the resistance at 156.179 could be a target for profit-taking. If the price successfully breaks above this level, the next resistance could be identified around the psychological level of 157.00. Conversely, any significant drop below the support may prompt a reevaluation of long positions.\n\nFor trading suggestions, maintaining a long position seems favorable as long as the price remains above the SMA(20) and the support level. A stop-loss order below 156.059998 could help manage risk. Traders might also consider scaling into positions as the price approaches resistance levels, utilizing tight stop-loss orders to protect profits. Monitoring geopolitical events and economic data releases will be essential in navigating potential volatility in this currency pair."
+    }
+  }
+}
