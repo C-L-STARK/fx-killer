@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-19T08:16:54.751Z",
+  "price": {
+    "close": "155.51601",
+    "high": "155.53300",
+    "low": "155.47400",
+    "open": "155.51100",
+    "change": "0.00",
+    "datetime": "2025-11-19 19:00:00"
+  },
+  "indicators": {
+    "rsi": 58.51179,
+    "macd": 0.065009933,
+    "macd_signal": 0.077934411,
+    "sma20": 155.43555
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理趋势]",
+      "content": "当前美元/日元的价格为155.51601，短期内呈现震荡整理的趋势。虽然价格在155.53300和155.47400之间波动，但缺乏明确的方向指引。市场情绪较为谨慎，投资者在等待更强的信号来决定后续的交易策略。\n\n从技术指标来看，RSI尚未提供数据，但MACD显示出0.065009933的微弱正值，表明短期内买盘略强。20日简单移动平均线(SMA)为155.43555，价格目前在其上方，显示出一定的多头支持。若价格能够突破155.53300高点，可能会引发进一步的上涨。\n\n支撑位方面，155.47400是关键的支撑区域，若价格跌破此位，可能会导致更多的抛售行为。反之，若价格能够在此支撑位之上保持稳健，可能会吸引更多买盘进场。投资者应关注这些关键水平，以捕捉潜在的交易机会。\n\n基于当前市场状况，建议投资者采取观望态度，等待价格突破关键支撑或阻力位后再做决策。若突破155.53300可考虑多头布局，反之若跌破155.47400则需谨慎，适时止损。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 155.51601, reflecting a stable market with a 24-hour change of 0.00%. The recent price action suggests a consolidation phase, with a high of 155.53300 and a low of 155.47400. This range indicates that traders are assessing the market before making significant moves. The trend appears to be bullish in the short term, as the price remains above the 20-period simple moving average (SMA) of 155.43555, indicating upward momentum.\n\nThe MACD value of 0.065009933 suggests a slight bullish sentiment, although the absence of a signal line makes it challenging to draw definitive conclusions. A further examination of momentum oscillators like the RSI would be beneficial, but its current unavailability limits comprehensive analysis. Traders should watch for potential divergence; if the price continues to rise while momentum indicators weaken, it may signal an impending reversal.\n\nKey support levels can be identified at 155.47400, which has held firm in recent trading sessions. A break below this level could lead to further downside, potentially targeting the next significant support around the 155.40 area. Conversely, resistance is found at the recent high of 155.53300. A sustained breach above this level may attract more buying interest, pushing the pair toward 155.60 and beyond.\n\nFor trading strategies, a cautious approach is advisable. Traders may consider buying on dips near the support level of 155.47400, especially if confirmation from other indicators supports this move. Conversely, if the price breaks below this support, it may be prudent to adopt a bearish stance. Monitoring economic data releases and geopolitical developments will also be crucial in making informed trading decisions."
+    }
+  }
+}

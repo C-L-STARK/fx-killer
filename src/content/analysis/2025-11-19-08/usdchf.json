@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-19T08:20:00.858Z",
+  "price": {
+    "close": "0.79933000",
+    "high": "0.79953003",
+    "low": "0.79892999",
+    "open": "0.79934001",
+    "change": "-0.01",
+    "datetime": "2025-11-19 19:00:00"
+  },
+  "indicators": {
+    "rsi": 55.67837,
+    "macd": 0.00080004615,
+    "macd_signal": 0.00097998047,
+    "sma20": 0.7992695
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理，短期走势谨慎]",
+      "content": "当前美元/瑞郎（USD/CHF）价格在0.7993附近震荡整理，显示出市场对该货币对的走势保持谨慎。尽管24小时变化仅为-0.01%，但高低点的接近表明市场缺乏方向性，可能面临短期震荡的局面。\n\n从技术指标来看，MACD显示出轻微的正值，表明短期内买方力量尚存，但信号线缺失使得走势判断变得复杂。20日简单移动平均线（SMA）为0.7993，价格略微高于此水平，进一步支持了短期内维持在这一区间的可能性。\n\n支撑位方面，0.7989附近为重要支撑，若跌破该水平，则可能引发进一步的回调。相对而言，0.7995为近期的阻力位，若能突破该水平，可能会引发短期反弹。因此，投资者应密切关注这些关键价位。\n\n建议交易者在当前市场环境中采取谨慎态度，可以考虑在支撑位附近寻找买入机会，而在接近阻力位时则考虑减仓或止盈。保持灵活的交易策略，以适应市场的不确定性。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair is currently trading at 0.79933, showing a marginal decline of 0.01% over the last 24 hours. This slight decrease suggests a period of consolidation after recent fluctuations. The price has tested both a high of 0.79953 and a low of 0.79893, indicating a tight trading range that traders should monitor closely. The market appears to be in a neutral trend, as neither buyers nor sellers are exhibiting strong momentum in the current environment.\n\nThe absence of an RSI value limits our ability to gauge overbought or oversold conditions. However, the MACD shows a positive value at 0.0008, hinting at potential bullish momentum, albeit weak. The SMA(20) at 0.79927 further supports a sideways trend and could serve as a dynamic support level. Traders should keep an eye on how the price interacts with this moving average, as a bounce could signal a short-term buying opportunity.\n\nKey support is identified at 0.79893, where buying interest may emerge if the price tests this level again. Conversely, resistance is seen at 0.79953, suggesting a potential barrier for upward movement. A breakout above this level could lead to a more bullish scenario, while a failure to hold above the support level may trigger further downside. Utilizing these levels can help traders set strategic entry and exit points.\n\nIn terms of trading strategy, a cautious approach is advisable. For those considering long positions, waiting for a confirmed bounce off the support level or a breakout above resistance could provide more favorable trade setups. Conversely, short positions may be considered if the price fails to hold above the SMA(20) and starts to break below the key support level, indicating a potential shift in trend."
+    }
+  }
+}

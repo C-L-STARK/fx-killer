@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-19T08:20:47.204Z",
+  "price": {
+    "close": "4081.57986",
+    "high": "4089.09925",
+    "low": "4079.3566",
+    "open": "4089.09625",
+    "change": "-0.18",
+    "datetime": "2025-11-19 19:00:00"
+  },
+  "indicators": {
+    "rsi": 55.80032,
+    "macd": 8.97183,
+    "macd_signal": 7.41947,
+    "sma20": 4073.76613
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理趋势]",
+      "content": "当前黄金/美元（XAU/USD）价格在4081.58附近震荡整理，短期内市场表现出一定的疲软迹象。24小时变化为-0.18%，表明多头力量有所减弱，可能会导致价格在短期内维持在当前区间内。投资者需密切关注市场情绪，以判断后续走势。\n\n从技术指标来看，MACD值为8.97183，显示出当前市场仍然处于相对强势的状态，但由于信号线数据缺失，需谨慎解读。SMA(20)在4073.77附近，可能作为短期支撑位，若价格跌破该水平，则可能会加剧空头压力；反之，若能有效突破4089.10的阻力位，短期内可能会引发进一步上涨。\n\n支撑位方面，4079.36是近期低点，若价格跌破该水平，可能会加速下行；而在阻力位方面，4089.10则是关注的关键点，突破该位可能会吸引更多买盘进入市场。因此，投资者可以考虑在支撑位附近寻找买入机会，同时在接近阻力位时设置止损以控制风险。\n\n综上所述，当前黄金/美元市场处于震荡整理状态，短期内可能继续在区间内波动。建议投资者保持观望，耐心等待明确的趋势信号再做出决策，以降低交易风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD stands at 4081.58, reflecting a slight decline of 0.18% over the past 24 hours. This minor pullback may indicate a consolidation phase after a rally that has seen gold test the 4089.10 resistance level. The price action suggests that while the upward momentum remains intact, traders should remain cautious as the market approaches key resistance. A sustained break above 4090 could signal a continuation of the bullish trend, while a failure to do so may lead to further selling pressure.\n\nIn terms of technical indicators, the MACD is currently at 8.97, indicating bullish momentum, although the absence of a signal line makes it difficult to gauge the strength of this trend definitively. The SMA(20) at 4073.77 provides a dynamic support level that traders should monitor closely. Should the price retrace towards this moving average, it could present a buying opportunity for those looking to capitalize on potential rebounds. A decisive move below this level may indicate a shift in market sentiment towards a bearish outlook.\n\nSupport levels can be identified around the recent low of 4079.36, while the primary resistance remains at 4089.10. A breach below 4079 could open the door for a deeper correction towards the next significant support around 4065. Conversely, if buyers manage to hold the price above the SMA(20) and break through the resistance at 4090, it could trigger a rally towards the psychological level of 4100. \n\nTraders are advised to remain vigilant and consider entering long positions near the SMA(20) with a stop-loss just below 4070 to manage risk effectively. Conversely, those looking to trade short should wait for confirmation of a breakdown below the key support level of 4079 before entering positions. This approach allows for better risk management while capitalizing on potential price movements."
+    }
+  }
+}
