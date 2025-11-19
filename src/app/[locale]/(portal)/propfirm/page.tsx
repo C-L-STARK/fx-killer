@@ -1,9 +1,10 @@
 "use client";
 
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion } from 'motion/react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import LocaleLink from '@/components/navigation/LocaleLink';
+import UnifiedFormModal from '@/components/custom/UnifiedFormModal';
 
 // 价格数据 (FTMO × 1.1)
 const pricingPlans = [
@@ -43,208 +44,6 @@ const pricingPlans = [
     popular: false,
   },
 ];
-
-// Plan Selection Modal Component
-function PlanSelectionModal({
-  isOpen,
-  onClose,
-  selectedPlan,
-  language,
-}: {
-  isOpen: boolean;
-  onClose: () => void;
-  selectedPlan: typeof pricingPlans[0] | null;
-  language: string;
-}) {
-  const [formData, setFormData] = useState({
-    email: '',
-    phone: '',
-    paymentMethod: 'wechat',
-  });
-
-  const isZh = language === 'zh';
-  const emailAddress = "x.stark.dylan@gmail.com";
-  const siteUrl = "https://fxkiller.com";
-
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
-  ) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
-
-  if (!isOpen || !selectedPlan) return null;
-
-  return (
-    <AnimatePresence>
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80"
-        onClick={onClose}
-      >
-        <motion.div
-          initial={{ scale: 0.9, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          exit={{ scale: 0.9, opacity: 0 }}
-          className="bg-white dark:bg-gray-900 w-full max-w-md"
-          onClick={(e) => e.stopPropagation()}
-        >
-          {/* Header */}
-          <div className="bg-[#ff102a] text-white px-6 py-4 flex items-center justify-between">
-            <h3 className="text-lg font-bold">
-              {isZh ? `选择计划: ${selectedPlan.size}` : `Selected Plan: ${selectedPlan.size}`}
-            </h3>
-            <button
-              onClick={onClose}
-              className="hover:scale-110 transition-transform"
-              aria-label={isZh ? '关闭' : 'Close'}
-            >
-              <svg
-                className="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-            </button>
-          </div>
-
-          {/* Form */}
-          <form
-            action={`https://formsubmit.co/${emailAddress}`}
-            method="POST"
-            className="p-6 space-y-4"
-          >
-            {/* Hidden Fields */}
-            <input
-              type="hidden"
-              name="_next"
-              value={`${siteUrl}/${language}/thank-you`}
-            />
-            <input
-              type="hidden"
-              name="_subject"
-              value={`FTMO挑战计划申请 - ${selectedPlan.size}`}
-            />
-            <input type="hidden" name="_captcha" value="false" />
-            <input
-              type="hidden"
-              name="plan"
-              value={selectedPlan.size}
-            />
-            <input
-              type="hidden"
-              name="price_usd"
-              value={`$${selectedPlan.usdPrice}`}
-            />
-            <input
-              type="hidden"
-              name="price_cny"
-              value={`¥${selectedPlan.cnyPrice}`}
-            />
-
-            {/* Plan Info */}
-            <div className="bg-gray-100 dark:bg-gray-800 p-4 mb-4">
-              <div className="flex justify-between items-center">
-                <span className="font-bold text-black dark:text-white">{selectedPlan.size}</span>
-                <span className="text-[#ff102a] font-bold">
-                  ¥{selectedPlan.cnyPrice.toLocaleString()} / ${selectedPlan.usdPrice}
-                </span>
-              </div>
-            </div>
-
-            {/* Email Field */}
-            <div>
-              <label
-                htmlFor="email"
-                className="block text-sm font-bold mb-2 text-black dark:text-white"
-              >
-                {isZh ? '邮箱 *' : 'Email *'}
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                required
-                value={formData.email}
-                onChange={handleChange}
-                className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-black dark:text-white focus:border-[#ff102a] outline-none transition-colors"
-                placeholder={isZh ? '请输入您的邮箱' : 'Enter your email'}
-              />
-            </div>
-
-            {/* Phone Field */}
-            <div>
-              <label
-                htmlFor="phone"
-                className="block text-sm font-bold mb-2 text-black dark:text-white"
-              >
-                {isZh ? '手机号码 *' : 'Phone Number *'}
-              </label>
-              <input
-                type="tel"
-                id="phone"
-                name="phone"
-                required
-                value={formData.phone}
-                onChange={handleChange}
-                className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-black dark:text-white focus:border-[#ff102a] outline-none transition-colors"
-                placeholder={isZh ? '请输入您的手机号码' : 'Enter your phone number'}
-              />
-            </div>
-
-            {/* Payment Method */}
-            <div>
-              <label
-                htmlFor="paymentMethod"
-                className="block text-sm font-bold mb-2 text-black dark:text-white"
-              >
-                {isZh ? '支付方式 *' : 'Payment Method *'}
-              </label>
-              <select
-                id="paymentMethod"
-                name="paymentMethod"
-                required
-                value={formData.paymentMethod}
-                onChange={handleChange}
-                className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-black dark:text-white focus:border-[#ff102a] outline-none transition-colors"
-              >
-                <option value="wechat">{isZh ? '微信支付' : 'WeChat Pay'}</option>
-                <option value="alipay">{isZh ? '支付宝' : 'Alipay'}</option>
-                <option value="usdt">USDT</option>
-              </select>
-            </div>
-
-            {/* Submit Button */}
-            <button
-              type="submit"
-              className="w-full px-6 py-3 bg-[#ff102a] text-white font-bold hover:bg-[#eb383e] transition-colors"
-            >
-              {isZh ? '提交申请' : 'Submit Application'}
-            </button>
-
-            {/* Note */}
-            <p className="text-xs text-gray-600 dark:text-gray-400 text-center">
-              {isZh
-                ? '提交后我们会尽快联系您完成支付'
-                : 'We will contact you shortly to complete payment'}
-            </p>
-          </form>
-        </motion.div>
-      </motion.div>
-    </AnimatePresence>
-  );
-}
 
 export default function PropFirmPage() {
   const { language } = useLanguage();
@@ -797,11 +596,15 @@ export default function PropFirmPage() {
       </section>
 
       {/* Plan Selection Modal */}
-      <PlanSelectionModal
+      <UnifiedFormModal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
-        selectedPlan={selectedPlan}
-        language={language}
+        formType="propfirm"
+        planData={selectedPlan ? {
+          size: selectedPlan.size,
+          usdPrice: selectedPlan.usdPrice,
+          cnyPrice: selectedPlan.cnyPrice,
+        } : undefined}
       />
     </div>
   );

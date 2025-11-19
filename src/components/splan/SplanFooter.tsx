@@ -129,6 +129,11 @@ export default function SplanFooter() {
                 </LocaleLink>
               </li>
               <li>
+                <LocaleLink href="/propfirm" className="text-gray-400 hover:text-white transition-colors">
+                  {language === 'zh' ? '自营交易' : 'PropFirm'}
+                </LocaleLink>
+              </li>
+              <li>
                 <LocaleLink href="/education" className="text-gray-400 hover:text-white transition-colors">
                   {language === 'zh' ? '教育' : 'Education'}
                 </LocaleLink>

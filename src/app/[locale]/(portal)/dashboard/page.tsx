@@ -8,6 +8,8 @@ import LivestreamManager from './components/LivestreamManager';
 import BlogManager from './components/BlogManager';
 import ConfigManager from './components/ConfigManager';
 import TopTradersManager from './components/TopTradersManager';
+import UserManager from './components/UserManager';
+import EmailTemplateManager from './components/EmailTemplateManager';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function TradingDashboard() {
@@ -62,6 +64,10 @@ export default function TradingDashboard() {
             <TiantiPanel />
           </div>
         );
+      case 'users':
+        return <UserManager />;
+      case 'email-templates':
+        return <EmailTemplateManager />;
       case 'livestream':
         return <LivestreamManager />;
       case 'blog':

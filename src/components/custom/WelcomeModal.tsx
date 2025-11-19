@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef, useImperativeHandle, forwardRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { useRouter } from 'next/navigation';
 
 type ModalState = 'closed' | 'expanded' | 'minimized';
 
@@ -21,13 +22,13 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
     phone: '',
     message: '',
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const iframeRef = useRef<HTMLIFrameElement>(null);
   const { language } = useLanguage();
+  const router = useRouter();
   const isZh = language === 'zh';
 
-  const emailAddress = "x.stark.dylan@gmail.com";
-  const siteUrl = "https://fxkiller.com";
   // B站视频嵌入地址
   const bilibiliEmbedUrl = "//player.bilibili.com/player.html?isOutside=true&aid=258136585&bvid=BV19a411X7eY&cid=767139112&p=1";
 
@@ -55,8 +56,39 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
   };
 
   const handleEmailSubmit = async (e: React.FormEvent) => {
-    // FormSubmit.co will handle the submission
-    // No need to prevent default
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    try {
+      const submitData = {
+        formType: 'membership',
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone || '',
+        message: formData.message,
+        language,
+      };
+
+      const response = await fetch('/api/form-submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(submitData),
+      });
+
+      if (!response.ok) {
+        throw new Error('Submission failed');
+      }
+
+      // Close modal and redirect
+      setModalState('closed');
+      router.push(`/${language}/thank-you`);
+    } catch (err) {
+      alert(isZh ? '提交失败，请稍后重试' : 'Submission failed, please try again');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (
@@ -331,18 +363,9 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
                       </div>
 
                       <form
-                        action={`https://formsubmit.co/${emailAddress}`}
-                        method="POST"
                         onSubmit={handleEmailSubmit}
                         className="space-y-4"
                       >
-                        <input type="hidden" name="_next" value={`${siteUrl}/${language}/thank-you`} />
-                        <input
-                          type="hidden"
-                          name="_subject"
-                          value={isZh ? '交易资料领取 - 欢迎弹窗' : 'Trading Resources Request - Welcome Modal'}
-                        />
-                        <input type="hidden" name="_captcha" value="false" />
 
                         {/* 姓名字段 */}
                         <div>
@@ -412,9 +435,36 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
 
                         <button
                           type="submit"
-                          className="w-full px-6 py-3 bg-black dark:bg-white text-white dark:text-black font-bold border-2 border-black dark:border-white hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors"
+                          disabled={isSubmitting}
+                          className="w-full px-6 py-3 bg-black dark:bg-white text-white dark:text-black font-bold border-2 border-black dark:border-white hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                         >
-                          {isZh ? '立即领取资料' : 'Get Resources Now'}
+                          {isSubmitting ? (
+                            <>
+                              <svg
+                                className="animate-spin h-5 w-5"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                              >
+                                <circle
+                                  className="opacity-25"
+                                  cx="12"
+                                  cy="12"
+                                  r="10"
+                                  stroke="currentColor"
+                                  strokeWidth="4"
+                                />
+                                <path
+                                  className="opacity-75"
+                                  fill="currentColor"
+                                  d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                                />
+                              </svg>
+                              {isZh ? '提交中...' : 'Submitting...'}
+                            </>
+                          ) : (
+                            isZh ? '立即领取资料' : 'Get Resources Now'
+                          )}
                         </button>
                       </form>
 
