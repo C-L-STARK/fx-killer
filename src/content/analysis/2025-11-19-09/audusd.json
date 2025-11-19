@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-19T09:42:22.501Z",
+  "price": {
+    "close": "0.64813",
+    "high": "0.64846",
+    "low": "0.64768",
+    "open": "0.64813",
+    "change": "-0.00",
+    "datetime": "2025-11-19 20:00:00"
+  },
+  "indicators": {
+    "rsi": 38.83257,
+    "macd": -0.00046523363,
+    "macd_signal": -0.00027892685,
+    "sma20": 0.6498005
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡走势中寻求方向]",
+      "content": "当前澳元/美元(AUD/USD)在0.64813附近震荡整理，价格未能突破0.6498的20日简单移动平均线(SMA)，显示出市场的横盘趋势。尽管近期波动幅度较小，价格仍在高点0.64846和低点0.64768之间徘徊，暗示短期内缺乏明确的方向。\n\n技术指标方面，MACD仍处于负值区域，显示出卖方力量略占上风，且RSI未提供足够的数据支持进一步的超买或超卖信号。这种情况可能导致市场参与者在等待更明确的信号之前保持观望态度。短期内，若价格突破0.6498，可能会引发更强的买入情绪。\n\n支撑位方面，0.64768为关键支撑水平，一旦跌破，可能会引发更多的抛售压力。而在阻力位方面，0.6500整数关口将是关注的重点。如果价格能够有效突破这一阻力，可能会吸引更多的买盘。\n\n综合考虑，建议交易者在当前震荡行情中采取宽幅震荡策略，关注支撑与阻力的突破情况。在0.64768附近寻找买入机会，同时在接近0.6500时考虑适度获利了结，以降低风险。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.64813, showing minimal movement in the last 24 hours with a change of -0.00%. The price action remains confined within a narrow range, with a high of 0.64846 and a low of 0.64768. This consolidation suggests a market indecision, possibly influenced by broader economic factors affecting both currencies. Traders should monitor this tight range closely, as a breakout could signal the next significant move in either direction.\n\nFrom a trend analysis perspective, the recent price behavior indicates a bearish sentiment, particularly as the current price is below the 20-period Simple Moving Average (SMA), which stands at 0.64980050. This positioning suggests that the sellers are in control, and the market may continue to test lower support levels. Investors should remain cautious and be prepared for potential downward pressure, particularly if the price breaches the key support level around 0.64768.\n\nIn terms of technical indicators, the absence of a reliable RSI reading limits our understanding of market momentum. However, the current MACD value of -0.00046523363 indicates that the bearish momentum is slight but persistent. Traders should watch for any shifts in these indicators that could provide clearer signals for entering or exiting positions. A crossover in the MACD or a move above the 20-SMA could indicate a potential reversal or strengthening of the bullish trend.\n\nFor trading strategies, it may be prudent to adopt a wait-and-see approach until a definitive breakout occurs. Traders could look for short positions if the price falls below 0.64768, targeting lower support levels. Conversely, should the price rise above the 20-SMA at 0.64980050, it might present an attractive opportunity for long positions, with potential gains towards 0.6500. Maintaining a flexible approach will be key in navigating this current market landscape."
+    }
+  }
+}

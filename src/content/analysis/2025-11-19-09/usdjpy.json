@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-19T09:41:36.209Z",
+  "price": {
+    "close": "155.78700",
+    "high": "155.83701",
+    "low": "155.55000",
+    "open": "155.63000",
+    "change": "0.10",
+    "datetime": "2025-11-19 20:00:00"
+  },
+  "indicators": {
+    "rsi": 67.97909,
+    "macd": 0.095384316,
+    "macd_signal": 0.082904928,
+    "sma20": 155.47235
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[短期震荡，关注关键支撑位]",
+      "content": "当前美元/日元汇率为155.78700，显示出短期内小幅震荡的趋势。尽管价格在高点155.83701附近波动，但未能突破，表明市场仍存在一定的卖压。若下行突破155.55000的低点，可能会引发进一步的回调，需谨慎关注。\n\n从技术指标来看，虽然RSI和MACD数据尚不可用，但20日简单移动平均线(SMA)显示价格略高于155.47235，暗示短期内有一定的支撑力度。若价格跌破此水平，可能会加大下行风险。投资者需关注市场情绪变化，以便及时调整策略。\n\n在支撑和阻力位方面，155.55000为关键支撑位，若价格下破，可能会引发更大的卖盘压力。上方阻力位则在155.83701，突破该点位将为多头提供强有力的信号。投资者可以根据这些关键水平进行相应的交易策略调整。\n\n建议投资者在当前市场环境下保持谨慎，考虑在接近支撑位时寻找买入机会，或在接近阻力位时考虑卖出。灵活运用止损策略以控制风险，将有助于在波动的外汇市场中保护投资。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 155.787, reflecting a slight increase of 0.10% over the past 24 hours. This modest uptick follows a recent high of 155.837 and a low of 155.550, suggesting a consolidation phase within this range. The prevailing trend appears to be bullish, supported by the upward movement over the last few sessions. Traders should closely monitor price action around these levels, as a breakout above 155.837 may signal further bullish momentum, while a drop below 155.550 could indicate a potential reversal.\n\nIn terms of technical indicators, the absence of an RSI value limits our ability to assess overbought or oversold conditions effectively. However, the MACD at 0.095 indicates a positive momentum, suggesting that the bulls are currently in control. The 20-period Simple Moving Average (SMA) at 155.47235 serves as a critical support level, highlighting a strong trend foundation. Should the price retrace toward this SMA, it could present a buying opportunity for traders looking to capitalize on potential rebounds.\n\nSupport and resistance levels are crucial for gauging market sentiment. The immediate resistance is seen at 155.837, while the support level is aligned with the recent low of 155.550. A confirmed break above resistance could open the pathway toward the psychological level of 156.00. Conversely, if support fails, a deeper correction could lead prices toward the next support around 155.200, which may attract additional selling pressure.\n\nFor trading strategies, a conservative approach would involve waiting for confirmation on price action near the key levels mentioned. A bullish breakout could be an opportunity for long positions, while a breakdown below support might warrant short positions. Utilizing tight stop-loss orders can help manage risk effectively in this volatile environment, ensuring that traders can capitalize on the prevailing trends while safeguarding their capital."
+    }
+  }
+}
