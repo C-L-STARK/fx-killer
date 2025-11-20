@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-20T17:36:45.180Z",
+  "price": {
+    "close": "1.30719",
+    "high": "1.30820",
+    "low": "1.30719",
+    "open": "1.30794",
+    "change": "-0.04",
+    "datetime": "2025-11-21 04:00:00"
+  },
+  "indicators": {
+    "rsi": 46.97328,
+    "macd": -0.00021244512,
+    "macd_signal": -0.00065062834,
+    "sma20": 1.30681
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理，谨慎观望]",
+      "content": "目前，英镑/美元在1.30719附近震荡整理，显示出短期内缺乏明确的趋势方向。24小时变化仅为-0.04%，表明市场参与者在该价格水平上保持谨慎。若突破1.30820的高点，可能会引发进一步上涨；反之，若跌破1.30681的20日简单移动平均线(SMA)，则有可能形成下行压力。\n\n技术指标方面，MACD显示出微弱的负值，暗示卖方稍占优势，但尚未形成强烈的卖出信号。由于RSI未提供具体数值，无法判断市场是否处于超买或超卖状态。投资者应关注市场情绪变化，以便及时调整策略。\n\n支撑位方面，1.30681的20日SMA可能成为重要支撑，而上方的1.30820则是关键阻力位。若价格在此区间内波动，建议投资者采取观望态度，等待更明确的突破信号。若价格向上突破，可考虑短线多单；若向下突破，则可考虑短线空单。\n\n总体来看，英镑/美元在当前水平上仍存在一定的不确定性。建议投资者保持灵活的交易策略，注意市场动态，及时调整仓位，以应对可能的价格波动。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The current market data for GBP/USD indicates a subtle bearish trend, with the latest price at 1.30719 reflecting a minor 24-hour change of -0.04%. The price has established a recent high of 1.30820 and a low of 1.30719, suggesting a narrow trading range. This limited volatility may indicate indecision among traders. A sustained breach below the recent low could signal a deeper pullback, while a push above the high may offer a short-term bullish opportunity.\n\nTechnical indicators currently present a mixed picture. The absence of a Relative Strength Index (RSI) reading complicates momentum analysis, but the MACD is slightly negative at -0.00021, indicating waning bullish momentum. The 20-period Simple Moving Average (SMA) at 1.30681 serves as a potential support level. A close below this SMA could strengthen the bearish outlook, while a rebound from this level may suggest a potential reversal or consolidation phase.\n\nKey support levels to watch include the SMA mentioned above and the psychological level of 1.3050, which has historically attracted buying interest. Conversely, resistance is noted around 1.3100, where selling pressure may intensify. Traders should monitor these levels closely, as price action around them can provide insight into the market's sentiment and potential direction.\n\nFor trading strategies, a cautious approach seems prudent at this juncture. Consider waiting for a confirmed breakout above resistance or a clear breakdown below support before entering positions. Utilizing stop-loss orders is essential to manage risk, particularly in a market exhibiting low volatility. This strategy can help capitalize on potential price movements while safeguarding against unexpected shifts in market sentiment."
+    }
+  }
+}

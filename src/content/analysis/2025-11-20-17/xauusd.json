@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-20T17:41:22.925Z",
+  "price": {
+    "close": "4050.71379",
+    "high": "4061.69253",
+    "low": "4045.62352",
+    "open": "4051.75904",
+    "change": "-0.02",
+    "datetime": "2025-11-21 04:00:00"
+  },
+  "indicators": {
+    "rsi": 42.25495,
+    "macd": -4.35317,
+    "macd_signal": -3.011317,
+    "sma20": 4073.40162
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，短期承压]",
+      "content": "当前黄金/美元价格在4050.71附近震荡整理，较24小时变化幅度微弱，显示出市场的观望情绪。虽然价格未能突破4061.69的高点，但也没有跌破4045.62的低点，表明市场在短期内处于横盘整理状态，投资者需保持谨慎。\n\n从技术指标来看，MACD目前呈现负值，显示出卖方力量较强，且RSI尚未提供明确的超买或超卖信号，说明市场动能不足。SMA(20)在4073.40附近，形成了短期的压力位，意味着价格需要有效突破这一阻力位，才能恢复上涨趋势。\n\n在支撑和阻力方面，4045.62是关键支撑位，若价格下行突破此处，可能进一步回调至4020附近。而上方的阻力位则集中在4061.69及4073.40，若能突破这些阻力，可能会引发一波上涨行情。\n\n综合来看，建议投资者在当前区间内观望为主，避免盲目追涨。若价格向下突破支撑位则可考虑短期做空，而若突破阻力位，则可适度考虑做多，需设定合理止损以控制风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "Gold has recently exhibited a slight bearish trend, currently trading at 4050.71, down by 0.02% over the last 24 hours. The price has remained within a narrow range, with a high of 4061.69 and a low of 4045.62. This consolidation phase suggests that market participants are awaiting a catalyst for a more definitive price movement. A decisive break below the recent low of 4045.62 could signal further downside potential, while a move above 4061.69 may provide a short-term bullish outlook.\n\nThe absence of a current RSI reading limits our ability to analyze momentum, but the MACD value of -4.35 indicates bearish momentum. This negative MACD suggests that sellers are in control, and caution is warranted for bullish trades at this juncture. The 20-period Simple Moving Average (SMA) at 4073.40 serves as immediate resistance, while the MACD divergence may indicate a potential reversal if buyers begin to enter the market. Traders should monitor these indicators closely for any signs of a momentum shift.\n\nIn terms of support and resistance levels, the immediate support is found at 4045.62, which, if breached, could expose lower levels around 4030. Conversely, the resistance at 4073.40, coupled with the recent high of 4061.69, will be critical in determining the next market direction. A sustained move above the SMA could attract buyers and potentially lead to a retest of the 4080 level, while failure to hold above the support may result in further declines.\n\nFor trading strategies, considering the current market conditions, a cautious approach is advisable. Short positions could be taken if the price breaks below the 4045.62 support level, with a target around 4030. Alternatively, if a bullish reversal occurs above 4073.40, traders may contemplate long positions, targeting the 4080 area. Risk management through stop-loss orders remains essential, given the current volatility and uncertainty in the market."
+    }
+  }
+}

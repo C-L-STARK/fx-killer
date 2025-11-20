@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-20T17:39:44.344Z",
+  "price": {
+    "close": "0.55925286",
+    "high": "0.56022412",
+    "low": "0.55925286",
+    "open": "0.56016135",
+    "change": "-0.09",
+    "datetime": "2025-11-21 04:00:00"
+  },
+  "indicators": {
+    "rsi": 37.051764,
+    "macd": -0.0003592206,
+    "macd_signal": -0.00031956331,
+    "sma20": 0.56117651
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理，谨慎观望]",
+      "content": "当前纽元/美元（NZD/USD）在0.5592附近震荡整理，短期内趋势偏弱。考虑到24小时变化为-0.09%，市场缺乏明显的方向性，投资者应保持谨慎。价格未能突破近期高点0.5602，显示出卖压的存在。\n\n技术指标方面，虽然RSI(14)数据缺失，但MACD显示出负值，这表明当前市场动能较弱。20日简单移动平均线（SMA）位于0.5612，形成一定的阻力。若价格无法突破该水平，可能会继续维持在低位震荡。\n\n支撑位方面，0.5580是较为重要的心理关口，若跌破该水平，可能引发进一步的下行压力。相对而言，0.5602则是近期的阻力位，若成功突破，可能会促使价格反弹至0.5620附近。\n\n综上所述，建议投资者在当前市场环境中保持观望，切勿盲目追单。若出现突破信号，可以考虑适时介入。同时，严格设置止损，以控制潜在风险。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently displaying a slight bearish trend, given its recent price movement and a modest 24-hour change of -0.09%. The latest price of 0.55925286 is approaching the recent low of 0.55925286, suggesting a potential continuation of the downward momentum. A break below this level could signal further weakness, potentially targeting the next support level, which is anticipated around 0.5580. Conversely, if the price manages to hold above this support, a recovery towards the SMA(20) at 0.56117651 could be on the horizon.\n\nIn terms of technical indicators, the MACD at -0.00035922060 indicates a bearish sentiment, albeit with limited momentum at this stage. The absence of a robust RSI reading limits the insights we can glean from this momentum oscillator, but the prevailing bearish MACD suggests that sellers are currently in control. Traders should watch for any divergence between price action and MACD, as it could signal a potential reversal if the momentum begins to shift.\n\nSupport and resistance levels are crucial for trading decisions in this context. The immediate support level is at 0.55925086, while further support can be found near 0.5580. On the resistance side, the SMA(20) at 0.56117651 serves as the first hurdle for any upward movement. A sustained break above this moving average could provide a more bullish outlook, encouraging buyers to enter the market. \n\nIn summary, traders should remain cautious in the current environment. A break below the immediate support may provide short-selling opportunities, while a rebound towards the SMA(20) could present a buying opportunity for those looking to capitalize on a potential reversal. Monitoring the MACD for any shifts in momentum will be essential in making informed trading decisions in the coming sessions."
+    }
+  }
+}

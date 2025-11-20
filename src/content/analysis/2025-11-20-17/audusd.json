@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-20T17:38:11.533Z",
+  "price": {
+    "close": "0.64431",
+    "high": "0.64538",
+    "low": "0.64428",
+    "open": "0.64491",
+    "change": "-0.09",
+    "datetime": "2025-11-21 04:00:00"
+  },
+  "indicators": {
+    "rsi": 32.87793,
+    "macd": -0.00051132455,
+    "macd_signal": -0.00020998771,
+    "sma20": 0.6478565
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理趋势]",
+      "content": "当前澳元/美元（AUD/USD）的最新价格为0.64431，显示出短期内的震荡整理趋势。价格在高点0.64538和低点0.64428之间波动，表明市场缺乏明确的方向性。随着市场情绪的变化，投资者需密切关注后续的价格波动，以判断未来的走势。\n\n从技术指标来看，MACD显示出微弱的负值，表明卖方略占优势，但尚未形成明显的下行趋势。由于RSI数据缺失，无法准确评估超买或超卖状况。20日简单移动平均线（SMA）位于0.64785650，显示出价格仍低于该均线，暗示下行压力可能持续。\n\n支撑位方面，当前价格接近0.64428，若跌破该水平，可能会进一步测试更低的支撑区域。而阻力位则在0.64538附近，突破该位置可能引发短期反弹。投资者应关注这些关键水平，以制定相应的交易策略。\n\n综上所述，建议投资者在当前震荡整理的市场环境中保持谨慎，关注支撑和阻力位的突破情况。可以考虑在支撑位附近寻找买入机会，而在接近阻力位时则适度获利了结或采取防御措施，以降低风险。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) is currently trading at 0.64431 against the US Dollar (USD), showing a minor decline of 0.09% over the last 24 hours. The price action remains within a tight range, with a recent high of 0.64538 and a low of 0.64428. This consolidation phase suggests that traders are awaiting further catalysts to establish a clearer directional bias. Overall, the prevailing trend appears bearish, as the price is trading below the 20-period Simple Moving Average (SMA), which is currently at 0.64785650.\n\nIn terms of technical indicators, the MACD is slightly negative at -0.00051132455, indicating a potential bearish momentum. However, without the Signal line data, caution is warranted in making definitive conclusions about trend strength. The absence of a calculated RSI also limits our ability to assess overbought or oversold conditions. Traders should monitor these indicators closely for any changes that might signal a reversal or continuation of the current trend.\n\nKey support and resistance levels are essential for identifying potential entry and exit points. The immediate support level can be identified around 0.64428, which coincides with the recent low. A break below this level could lead to further downside, targeting the next support at approximately 0.64300. Conversely, resistance is observed at 0.64538; a breakout above this level could initiate a corrective rally, potentially testing the SMA at 0.64785650.\n\nFor traders, a cautious approach is recommended. A sell entry could be considered if the price breaks below 0.64428, with targets set around the next support level. Conversely, a buy position may be explored if the price breaches 0.64538, with the SMA as a key target. Risk management strategies should be employed, particularly in light of the current volatility and the need for further confirmation from technical indicators."
+    }
+  }
+}

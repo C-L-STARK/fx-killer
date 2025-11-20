@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-20T17:40:30.409Z",
+  "price": {
+    "close": "0.80570000",
+    "high": "0.80593002",
+    "low": "0.80486000",
+    "open": "0.80540001",
+    "change": "0.03",
+    "datetime": "2025-11-21 04:00:00"
+  },
+  "indicators": {
+    "rsi": 52.88669,
+    "macd": 0.00074847139,
+    "macd_signal": 0.0010751764,
+    "sma20": 0.80624101
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[短期震荡，支撑显现]",
+      "content": "当前美元/瑞郎（USD/CHF）价格在0.8057附近，显示出短期震荡走势。近期价格波动在0.8059的高点和0.8049的低点之间，表明市场在寻找明确方向。若价格突破0.8062的20日简单移动平均线（SMA），可能会引发更多上涨动能。\n\n在技术指标方面，MACD略微呈现出积极的趋势，但由于信号线数据缺失，需谨慎解读。相对强弱指数（RSI）未提供，故需关注后续的市场变化。若RSI出现超买或超卖情况，可能会加大价格波动的幅度。\n\n支撑位方面，0.8049为关键支撑，一旦跌破，可能会引发进一步下行至0.8040附近。阻力位则在0.8062一线，突破后将有助于打开更高的上涨空间。投资者应关注这两个价位的变化，作为交易决策的参考。\n\n综上所述，短期内建议采取区间交易策略，在支撑位附近寻找买入机会，而在阻力位附近则考虑卖出。保持警惕，密切关注技术指标的变化，以便及时调整交易策略。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair is currently trading at 0.8057, reflecting a slight upward movement of 0.03% over the last 24 hours. This stability suggests a consolidation phase within a narrow range, primarily between the high of 0.8059 and the low of 0.8049. Traders should monitor this range closely as a breakout could signal the next significant move. A sustained close above 0.8062, near the 20-period Simple Moving Average (SMA), could indicate a bullish trend, while support at 0.8049 may provide a floor for price action.\n\nIn terms of technical indicators, the MACD is showing a slight positive momentum at 0.00074847139, although the lack of a corresponding signal line makes it difficult to draw definitive conclusions. The absence of an RSI value limits our ability to assess overbought or oversold conditions, making it crucial to wait for further data before establishing a definitive trend. Nonetheless, if the MACD continues to rise, it could reinforce bullish sentiment in the short term.\n\nSupport and resistance levels play a pivotal role in shaping trading strategies. Immediate support is observed at 0.8049, where buyers may attempt to enter the market if prices dip. Conversely, resistance is identified at 0.8062, which could act as a barrier for upward momentum. A clear break above this level may attract further buying interest, while a decline below 0.8049 could trigger selling pressure.\n\nTraders looking to capitalize on upcoming price movements should consider a cautious approach. A buy position may be warranted if prices break above 0.8062, targeting the next resistance level around 0.8075. Conversely, if the price falls below 0.8049, a sell position could be initiated, with a target near 0.8040. As always, employing appropriate risk management techniques is vital to safeguard against market volatility."
+    }
+  }
+}
