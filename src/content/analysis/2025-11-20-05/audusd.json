@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-20T05:42:13.683Z",
+  "price": {
+    "close": "0.64804",
+    "high": "0.64886",
+    "low": "0.64798",
+    "open": "0.64864",
+    "change": "-0.09",
+    "datetime": "2025-11-20 16:00:00"
+  },
+  "indicators": {
+    "rsi": 48.3385,
+    "macd": -0.00021738917,
+    "macd_signal": -0.00039155193,
+    "sma20": 0.647847
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[当前市场震荡，需谨慎操作]",
+      "content": "当前澳元/美元（AUD/USD）价格为0.64804，近期表现出一定的震荡趋势。价格在高点0.64886和低点0.64798之间波动，显示出市场参与者的犹豫。这一趋势可能受到全球经济不确定性和商品价格波动的影响，交易者需关注后市动态。\n\n技术指标方面，虽然RSI（相对强弱指数）和MACD（移动平均收敛发散指标）的具体数值尚未提供，但从SMA（简单移动平均线）20的水平0.647847来看，价格若能突破该水平，可能会引发短期反弹。当前MACD值接近于零，说明市场缺乏明确的方向。\n\n支撑位方面，0.64700区域可能成为关键支撑位，若价格跌破则可能加大下行风险。阻力位则在0.65000附近，若价格上破该位，可能会吸引更多买盘。市场情绪的变化将直接影响这些水平的有效性。\n\n交易建议上，建议投资者在当前震荡市中保持谨慎，观望市场走势，待价格确认突破信号后再进行操作。如果价格持续在支撑位之上，可以考虑小幅多单，但若出现下破，则需及时止损以控制风险。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair currently trades at 0.64804, reflecting a slight decline of 0.09% over the last 24 hours. Analyzing the recent high and low, we observe a tight range between 0.64886 and 0.64798, indicating a period of consolidation. This range-bound movement suggests that traders are awaiting a catalyst to break the current trend. A sustained move above 0.64886 could signal a bullish reversal, while a breach below 0.64798 may lead to further downside pressure.\n\nThe absence of the RSI(14) makes it challenging to gauge overbought or oversold conditions, but the current MACD reading of -0.000217 suggests a bearish momentum with potential for divergence. This could indicate a weakening bearish trend, prompting traders to watch for any signs of reversal. Meanwhile, the 20-day Simple Moving Average (SMA) at 0.647847 serves as a critical support level. If prices approach this SMA and bounce back, it may signal a buying opportunity.\n\nInvestors should remain vigilant for upcoming economic indicators that could impact the AUD/USD pair, such as U.S. employment data or Australian trade figures. These reports could provide the necessary impetus for a breakout from the current consolidation phase. A close above the SMA could trigger a short-term buying strategy, while a failure to hold above 0.647847 may suggest re-evaluating long positions.\n\nIn summary, traders should closely monitor the 0.64886 resistance and 0.64798 support levels for potential breakout opportunities. The current technical setup indicates a cautious approach, with the possibility of a bullish reversal if key resistance is breached. Conversely, a failure to maintain above support could lead to further declines, necessitating a reassessment of trading strategies."
+    }
+  }
+}
