@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-20T00:48:54.772Z",
+  "price": {
+    "close": "157.12700",
+    "high": "157.18201",
+    "low": "156.87300",
+    "open": "156.99001",
+    "change": "0.09",
+    "datetime": "2025-11-20 11:00:00"
+  },
+  "indicators": {
+    "rsi": 74.93541,
+    "macd": 0.42210288,
+    "macd_signal": 0.38071741,
+    "sma20": 156.4174
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡上行趋势]",
+      "content": "当前美元/日元处于震荡上行的趋势中，最新价格为157.12700，接近24小时内的高点157.18201。这表明市场对美元的需求仍然强劲，尽管短期内存在一定的波动性。投资者需关注市场情绪及经济数据的影响，以判断未来的走势。\n\n在技术指标方面，MACD显示出一定的上涨动能，目前值为0.42210288，表明多头趋势依然占据主导地位。不过，由于RSI数据缺失，我们需谨慎观察超买或超卖的情况。此外，20日简单移动平均线(SMA)在156.41740，提供了强有力的支撑位，若价格回调至此位置，可视为买入机会。\n\n支撑位方面，156.87300是近期的低点，若价格下破该水平，可能会引发更大的回调。而上方阻力位在157.18201，若突破该水平，有望进一步测试更高的价位。交易者应密切关注这些关键价位，以制定相应的交易策略。\n\n建议投资者在当前价位附近谨慎操作，可以选择在156.87300附近建立多头仓位，止损设在156.50000，同时关注157.18201的突破情况，以把握进一步上涨的机会。保持灵活应变的交易策略，将有助于在波动的市场中获取利润。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 157.127, showing a slight 24-hour change of 0.09%. This modest movement suggests that the market is in a consolidation phase after reaching a recent high of 157.182. The overall trend appears to be bullish, as the price remains significantly above the 20-period simple moving average (SMA) of 156.417. Traders should monitor this level closely, as a firm break below the SMA could indicate a shift in momentum, potentially signaling a retracement.\n\nIn terms of technical indicators, the MACD shows a value of 0.422, indicating bullish momentum, although the absence of a signal line makes it difficult to draw definitive conclusions. The Relative Strength Index (RSI) is not available, but traders should consider its importance in assessing overbought or oversold conditions. A rising MACD coupled with a potential future RSI reading above 70 might suggest that the pair is overextended, prompting a possible pullback.\n\nKey support and resistance levels are crucial for trading decisions. The immediate support level lies at the recent low of 156.873, while resistance is identified at 157.182. A move above this resistance could open the door for further gains, possibly targeting the psychological level of 158. Conversely, should the price fall below the support level, it may signal a deeper correction towards the 20 SMA or lower.\n\nTraders might consider a cautious approach, looking for breakout opportunities above the resistance level at 157.182 while managing risk with stop-loss orders just below the support at 156.873. For those favoring a conservative strategy, waiting for clearer signals from indicators like the RSI and MACD may provide additional confirmation before entering new positions."
+    }
+  }
+}

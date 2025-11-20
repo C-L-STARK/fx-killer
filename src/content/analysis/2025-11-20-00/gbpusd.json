@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-20T00:48:07.281Z",
+  "price": {
+    "close": "1.30531",
+    "high": "1.30596",
+    "low": "1.30518",
+    "open": "1.30596",
+    "change": "-0.06",
+    "datetime": "2025-11-20 11:00:00"
+  },
+  "indicators": {
+    "rsi": 29.76513,
+    "macd": -0.0023439241,
+    "macd_signal": -0.0020567757,
+    "sma20": 1.30946
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理，短期承压]",
+      "content": "当前英镑/美元汇率在1.30531附近震荡整理，整体趋势显得略显疲软。近期的价格波动在高点1.30596和低点1.30518之间，显示出市场的谨慎情绪。考虑到24小时变化为-0.06%，表明买卖双方对于当前价格水平存在分歧，短期内可能会继续维持在此区间内震荡。\n\n从技术指标来看，虽然RSI未提供，但MACD值为-0.0023，显示出市场动能偏弱。此外，20日简单移动平均线（SMA）位于1.30946，表明短期均线向下倾斜，进一步印证了当前的下行压力。若价格未能有效突破SMA，可能会进一步测试支撑位。\n\n支撑位方面，1.30518一线是当前的关键支撑，若跌破此位，可能会加速下行。而在阻力方面，1.30946的SMA提供了初步的阻力位，若能突破该水平，可能会为反弹提供机会。\n\n基于当前的市场环境，建议交易者在1.30518附近寻找短期买入机会，止损设置在1.30450下方。如果价格反弹至1.30946，则可以考虑部分获利了结，关注后续市场动向。保持灵活的交易策略，以应对市场的动态变化。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently trading around 1.30531, reflecting a slight decline of 0.06% over the past 24 hours. This subtle movement suggests a period of consolidation as the pair hovers between its recent high of 1.30596 and low of 1.30518. The lack of significant momentum indicates that traders are awaiting further catalysts, likely from macroeconomic data or geopolitical developments, to drive the pair decisively in one direction.\n\nCurrently, the 20-period Simple Moving Average (SMA) at 1.30946 serves as a critical resistance level. If the price can reclaim this level, it may signal a bullish reversal, with potential targets around 1.31200 and 1.31500. Conversely, the recent low of 1.30518 acts as a support level. A breach below this level could open the door for further downside, potentially retesting the 1.30200 area.\n\nIn terms of momentum indicators, the negative MACD value of -0.00234 suggests that bearish pressure remains, although the absence of the RSI data limits comprehensive analysis. Traders should keep an eye on the MACD crossing above its signal line for potential buy signals, while a continuation of the downtrend may prompt selling opportunities if the price fails to hold above support levels.\n\nGiven the current market conditions, traders might consider a cautious approach. A breakout above 1.30946 could present a buying opportunity, particularly for short-term trades. Conversely, if the price breaks below 1.30518, it may be prudent to look for short positions, targeting lower support levels. Overall, maintaining a watchful eye on upcoming economic indicators will be essential for informed trading decisions."
+    }
+  }
+}
