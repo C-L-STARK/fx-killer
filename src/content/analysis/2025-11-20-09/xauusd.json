@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-20T09:44:15.607Z",
+  "price": {
+    "close": "4064.67013",
+    "high": "4071.73787",
+    "low": "4055.16588",
+    "open": "4067.94864",
+    "change": "-0.08",
+    "datetime": "2025-11-20 20:00:00"
+  },
+  "indicators": {
+    "rsi": 44.31327,
+    "macd": -4.41204,
+    "macd_signal": -1.40506,
+    "sma20": 4080.0016655
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，谨慎操作]",
+      "content": "当前黄金/美元(XAU/USD)市场表现出震荡整理的趋势，最新价格4064.67接近短期均线SMA(20)4080.00的水平，表明市场缺乏明确方向。24小时变化为-0.08%，显示出市场参与者情绪的谨慎，可能受到全球经济数据和地缘政治因素的影响。\n\n从技术指标来看，MACD值为-4.41204，表明短期内卖压仍然存在，但尚未形成明显的卖出信号。相对强弱指数(RSI)尚未提供数据，但若继续保持在30以下，可能表明超卖状态，从而为反弹提供机会。投资者需密切关注后续的价格走势及指标变化，以便及时调整策略。\n\n在支撑和阻力位方面，当前支撑位可以参考4055.17，而阻力位则在4071.74附近。如果价格突破4071.74，可能会进一步向上测试4080.00的阻力区间。反之，若跌破4055.17，则可能开启下行趋势。\n\n建议投资者在当前形势下采取谨慎态度，控制风险，考虑在支撑位附近寻找买入机会，同时在阻力位附近设定止盈。保持灵活的交易策略，以应对市场的快速变化。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4064.67 suggests a market experiencing slight bearish pressure, evidenced by the recent 24-hour change of -0.08%. The price has struggled to maintain momentum above the significant psychological level of 4080, as indicated by the 20-period Simple Moving Average (SMA) at 4080.00. This level has historically acted as a dynamic resistance, and a sustained move below it may suggest a further decline towards support levels.\n\nIn terms of support, the recent low of 4055.17 could provide a critical barrier against further downward movement. A breach of this level may open the door for a more significant sell-off, possibly targeting the next support zone around 4040. On the upside, the high of 4071.73 represents immediate resistance; a break above this level could signal a reversal in sentiment and lead to a retest of the SMA and potentially higher levels.\n\nThe MACD indicator, currently at -4.41, indicates bearish momentum, but further analysis is needed as the signal line is not available for comparison. The absence of RSI data complicates our understanding of overbought or oversold conditions. Traders should remain cautious and look for potential divergence in these indicators before making any significant moves. \n\nFor trading strategies, a prudent approach would involve monitoring the price action around the support and resistance levels mentioned. A confirmed break above 4071.73 could prompt a buying opportunity targeting 4080 and beyond, while a drop below 4055.17 may warrant short positions with targets set at 4040. As always, risk management should be prioritized, given the market's inherent volatility."
+    }
+  }
+}

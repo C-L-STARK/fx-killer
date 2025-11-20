@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-20T09:38:34.362Z",
+  "price": {
+    "close": "1.15246",
+    "high": "1.15261",
+    "low": "1.15179",
+    "open": "1.15205",
+    "change": "0.03",
+    "datetime": "2025-11-20 20:00:00"
+  },
+  "indicators": {
+    "rsi": 38.83428,
+    "macd": -0.0012621175,
+    "macd_signal": -0.0013780739,
+    "sma20": 1.15291
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[短期震荡趋势]",
+      "content": "当前欧元/美元（EUR/USD）最新价格为1.15246，整体呈现出短期震荡的趋势。从24小时变化来看，该货币对上涨幅度较小，仅为0.03%。在高点1.15261和低点1.15179之间的波动表明，市场并未产生显著的方向性变化。\n\n技术指标方面，MACD目前为负值-0.0012621175，表明短期内卖方力量略显强势。同时，20日简单移动平均线（SMA）为1.15291，价格接近此水平，显示出一定的阻力。由于RSI数据缺失，无法全面评估超买或超卖状态，但当前价格相对稳定。\n\n在支撑和阻力位方面，1.15180区域可视为强支撑位，而1.15290则是关键阻力位。若价格突破1.15290，可能会引发进一步上涨；反之，跌破1.15180则会增加下行风险。建议投资者在当前区间内灵活操作，关注市场动态，适时调整仓位以应对潜在波动。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD pair is currently trading at 1.15246, reflecting a modest 24-hour change of 0.03%. This slight upward movement indicates a range-bound market, with the recent high at 1.15261 and low at 1.15179 suggesting a consolidation phase. The absence of a clear trend makes it essential for traders to remain cautious, as price action could break either way, leading to potential volatility. Observing the price behavior around these levels will be crucial for assessing the next directional move.\n\nAnalyzing the short-term SMA(20) at 1.15291, the price is trading slightly below this average, indicating a bearish sentiment in the immediate term. Additionally, the MACD value of -0.00126 suggests a weak bearish momentum, although the lack of a signal line complicates the interpretation. Traders should monitor for potential bullish crossovers in the MACD for signs of a reversal. If the price can reclaim the SMA(20), it may indicate a shift in momentum favoring the bulls.\n\nKey support is identified at the low of 1.15179, which, if broken, could lead to further downside towards 1.1500, a psychologically significant level. Conversely, resistance is seen near 1.15261 and the SMA(20). A breakout above this level may encourage buying interest, possibly targeting 1.1550 in the near term. Traders should closely observe price action around these critical levels for entry and exit points.\n\nIn trading this pair, a prudent approach would be to adopt a wait-and-see strategy. A confirmed breakout above the SMA or a decisive move below the support level could provide clearer signals for entry. Additionally, employing risk management strategies, such as setting stop-loss orders just beyond these critical levels, can help mitigate potential losses in this uncertain market environment."
+    }
+  }
+}

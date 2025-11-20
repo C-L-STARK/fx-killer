@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-20T09:41:10.647Z",
+  "price": {
+    "close": "0.64784",
+    "high": "0.6479",
+    "low": "0.64746",
+    "open": "0.64776",
+    "change": "0.01",
+    "datetime": "2025-11-20 20:00:00"
+  },
+  "indicators": {
+    "rsi": 47.29957,
+    "macd": -0.00020035443,
+    "macd_signal": -0.00027944626,
+    "sma20": 0.6476755
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理中]",
+      "content": "当前AUD/USD的市场状态呈现震荡整理的趋势，价格在0.64746至0.6479区间内波动。由于价格未能有效突破近期高点，短期内可能继续维持此区间。若价格能够突破上方阻力位0.6479，则有可能引发进一步的上行走势；反之，若向下跌破0.64746，则需警惕可能的回调风险。\n\n从技术指标来看，虽然RSI和MACD的具体数值未完全提供，但当前MACD值为负，显示出短期内卖压较重。结合20日简单移动平均线（SMA）0.64767550，若价格持续在该均线下方运行，可能会进一步弱化多头力量，投资者需谨慎对待潜在的下行风险。\n\n在支撑和阻力方面，当前支撑位在0.64746，若跌破将可能引发更深的调整，需关注0.6450的心理支撑位。而上方阻力则在0.6479，如果突破则有望测试0.6500的关键水平。投资者应密切关注这些价位的突破情况，以便及时调整交易策略。\n\n综合来看，建议投资者在当前区间内采取短线交易策略，关注技术指标的变化和关键价位的突破情况，灵活应对市场波动。同时，保持风险管理意识，设置合理的止损位，以保障投资安全。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) against the US Dollar (USD) is currently exhibiting a sideways trend, with the latest price at 0.64784. The recent 24-hour change of 0.01% indicates a lack of significant volatility, suggesting that traders may be in a wait-and-see mode. The high and low in this period, at 0.6479 and 0.64746 respectively, highlight a narrow trading range, reinforcing the notion of a consolidating market. \n\nFrom an indicator perspective, while the Relative Strength Index (RSI) is not available, the MACD shows a slight negative value at -0.00020, indicating a bearish momentum, albeit weak. The 20-day Simple Moving Average (SMA) stands at 0.64767550, providing a reference point for potential support. If the price can maintain above this SMA level, it may signify a stabilization phase, while a breach could lead to further downside pressure.\n\nIn terms of support and resistance levels, the immediate support can be observed around the recent low of 0.64746, while resistance is found at the high of 0.6479. A breakout above the resistance could trigger a bullish sentiment, potentially targeting higher levels. Conversely, a breakdown below the support may open the door for further declines, prompting traders to reassess their positions.\n\nFor traders considering short-term strategies, monitoring price action around the established support and resistance levels is crucial. A breakout above 0.6479 might present a buying opportunity, while a fall below 0.64746 could signal a sell. Maintaining a close watch on upcoming economic indicators and geopolitical developments will also be essential for making informed trading decisions in this currently subdued market environment."
+    }
+  }
+}

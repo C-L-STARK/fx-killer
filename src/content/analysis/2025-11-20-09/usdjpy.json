@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-20T09:40:16.006Z",
+  "price": {
+    "close": "157.18900",
+    "high": "157.27800",
+    "low": "157.13600",
+    "open": "157.14500",
+    "change": "0.03",
+    "datetime": "2025-11-20 20:00:00"
+  },
+  "indicators": {
+    "rsi": 59.051704,
+    "macd": 0.36803493,
+    "macd_signal": 0.41488108,
+    "sma20": 157.1079
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理趋势]",
+      "content": "当前美元/日元（USD/JPY）价格位于157.18900，近期走势表现出震荡整理的特征。在过去24小时内，价格变化不大，仅为0.03%。高点和低点分别为157.27800和157.13600，显示出市场情绪相对谨慎，缺乏明确的方向性。\n\n从技术指标来看，MACD指标为0.368，表明短期内上行动能略显强劲，但由于缺乏RSI数据，无法全面评估市场超买或超卖的状态。20日简单移动平均线（SMA）在157.10790，作为支撑位，对价格提供了一定的支撑，若价格回调至该水平，可能会吸引买盘。\n\n在支撑和阻力方面，157.13600构成近期的关键支撑位，而157.27800则是重要的阻力位。若价格突破阻力位有望继续上行，反之若跌破支撑位，则可能引发更深的回调。因此，建议交易者关注这两个关键水平，结合技术指标进行交易决策，保持灵活应对市场变化的策略。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair currently trades at 157.189, showing a modest 24-hour change of 0.03%. This slight increase suggests a consolidation phase after recent fluctuations. The price has been hovering between the high of 157.278 and the low of 157.136. Such tight ranges indicate indecision in the market, but the prevailing trend remains bullish as the pair continues to trade above the 20-day Simple Moving Average (SMA) of 157.10790, reinforcing a positive sentiment among traders.\n\nIn terms of indicators, the MACD is currently at 0.368, indicating a bullish momentum, although the absence of a signal line makes it difficult to determine potential crossovers. Without the RSI data, we lack a complete picture of overbought or oversold conditions. Nevertheless, the current MACD value suggests that the USD is still maintaining strength against the JPY. Traders should watch for any divergence that may signal a change in momentum.\n\nSupport levels are identified at 157.136, with 157.107 as a critical psychological level given its proximity to the 20-day SMA. A break below these levels could prompt a shift in sentiment toward a bearish bias. On the upside, resistance is met at 157.278. A sustained breach above this level could open the door for further gains towards 157.400. Monitoring these key levels will be essential for traders looking to capitalize on potential price movements.\n\nFor trading strategies, consider entering long positions above 157.278 while placing stop-loss orders around 157.136 to mitigate risk. Conversely, if the price falls below the support level of 157.136, a short position may be warranted, targeting a retest of the 20-day SMA at 157.10790. As always, employing sound risk management techniques will be crucial in navigating this potentially volatile market."
+    }
+  }
+}
