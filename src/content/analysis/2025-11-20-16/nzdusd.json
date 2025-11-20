@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-20T16:17:41.999Z",
+  "price": {
+    "close": "0.56145078",
+    "high": "0.56170309",
+    "low": "0.56145078",
+    "open": "0.56154537",
+    "change": "-0.02",
+    "datetime": "2025-11-21 03:00:00"
+  },
+  "indicators": {
+    "rsi": 47.63444,
+    "macd": -0.000063811578,
+    "macd_signal": -0.00028257333,
+    "sma20": 0.56132406
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理中]",
+      "content": "根据最新市场数据，纽元/美元(NZD/USD)目前处于震荡整理阶段，价格在0.5614附近波动。近期价格未能突破0.5617的高点，显示出市场缺乏明确的方向。当前的24小时变化幅度仅为-0.02%，进一步表明市场情绪较为谨慎，交易者可能在等待更明确的趋势信号。\n\n从技术指标来看，虽然目前RSI(14)数据缺失，但MACD显示出微弱的负值，表明卖方力量稍强。20日简单移动平均线(SMA)为0.5613，价格已在其上方运行，可能为短期的支撑位。若价格能稳定在此之上，短期内有可能进一步测试更高的阻力位。\n\n在支撑和阻力方面，0.5613为关键支撑位，若跌破该水平，则可能向0.5600水平回撤。上方阻力位在0.5617，若突破该水平，则可能引发进一步的上涨，目标指向0.5630区域。交易者应密切关注这些关键水平，以决定进出场时机。\n\n综合分析，建议交易者在当前震荡行情中保持观望，耐心等待价格突破关键支撑或阻力位后再采取行动。同时，注意市场新闻和经济数据的发布，这可能会影响纽元/美元的走势。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD currency pair is currently trading at 0.56145078, exhibiting a slight decline of 0.02% over the last 24 hours. This price movement suggests a consolidation phase within a relatively tight range, characterized by a high of 0.56170309 and a low of 0.56145078. The overall trend appears to be bearish, as the price struggles to maintain momentum above the 0.5620 resistance level, which has proven to be a significant barrier in recent sessions.\n\nAnalyzing technical indicators, the current MACD value of -0.00006381 indicates weak bearish momentum, although the absence of a signal line makes it difficult to draw definitive conclusions. The RSI(14) is currently unavailable; however, monitoring this indicator will be crucial in assessing overbought or oversold conditions in the future. The SMA(20) at 0.56132406 serves as a potential support level, suggesting that a move below this average could trigger further selling pressure, while a bounce off this level may present a buying opportunity.\n\nIn terms of support and resistance levels, the immediate support appears to be around the SMA(20) at 0.56132406, with a critical support zone near 0.5600, which could act as a psychological barrier for traders. Conversely, resistance is seen at 0.5620, and a breakthrough above this level could lead to a retest of the 0.5630 mark. Traders should watch these levels closely for potential reversals or continuation patterns.\n\nFor trading strategies, a cautious approach is recommended. A buy position could be considered if the price rebounds from the SMA(20) support, with a target set around 0.5620. Conversely, a break below 0.56132406 may warrant a short position, targeting the next support at 0.5600. Maintaining a disciplined risk management strategy will be essential in navigating the current market volatility."
+    }
+  }
+}
