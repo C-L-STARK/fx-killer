@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-20T10:52:54.718Z",
+  "price": {
+    "close": "157.34801",
+    "high": "157.36501",
+    "low": "157.14700",
+    "open": "157.17500",
+    "change": "0.11",
+    "datetime": "2025-11-20 21:00:00"
+  },
+  "indicators": {
+    "rsi": 62.28152,
+    "macd": 0.3467173,
+    "macd_signal": 0.4007889,
+    "sma20": 157.1423
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[短期震荡，长期看涨]",
+      "content": "当前美元/日元的走势呈现出短期震荡的态势，价格在157.14700至157.36501区间内波动。由于市场情绪的影响，短期内可能会出现反复试探该区间的情况。若价格突破上方阻力位，将可能引发进一步的上涨，反之则可能回落至支撑位。\n\n从技术指标来看，MACD显示出一定的上行动能，当前值为0.34671730，表明多头力量仍在。但由于RSI尚未提供数据，无法全面评估超买或超卖状态。结合SMA(20)的支持，当前价格位于157.14230之上，进一步增强了上涨的可能性。\n\n在支撑和阻力方面，157.14700是关键支撑位，若跌破该水平，将可能引发进一步回调。而157.36501则是短期阻力位，突破该价位将为多头提供更强的信心。投资者需密切关注这两条重要价格水平的变动。\n\n基于当前的市场状况，建议投资者在157.36501附近寻找卖出机会，若价格回落至157.14700附近则可考虑买入。保持灵活的交易策略，并关注市场消息，以应对潜在的价格波动。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 157.34801, reflecting a modest 0.11% increase over the past 24 hours. The price action suggests a bullish trend, as the pair is hovering near its recent high of 157.36501. This upward momentum indicates the potential for further gains; however, traders should remain vigilant about potential reversals, especially given the proximity to the high. A breakout above this resistance level could signal a continued upward trajectory, potentially targeting the psychological level of 158.00.\n\nIn assessing the technical indicators, the MACD shows a value of 0.34671730, suggesting positive momentum. While the absence of a signal line complicates the interpretation, a rising MACD often confirms the strength of the current trend. Additionally, the 20-period Simple Moving Average (SMA) at 157.14230 serves as a dynamic support level. As long as the price remains above this SMA, the bullish outlook remains intact, but a break below this level could indicate a shift in sentiment.\n\nKey support levels for this pair can be identified around 157.14700, which aligns closely with the recent low, and further down, the 20-SMA. Traders should monitor these levels closely, as a breach could trigger short positions or caution in long trades. Conversely, resistance at 157.36501 should be watched for potential breakouts. If the price sustains above this level, it could attract additional buying pressure, reinforcing bullish sentiment.\n\nFor trading strategies, considering a long position near the 20-SMA could be prudent, with a stop-loss placed below 157.14700 to manage risk. If the price breaks above 157.36501, traders may look to increase their long exposure targeting higher levels. Conversely, if bearish signals develop, particularly through a drop below the SMA or support levels, short positions may be warranted, especially if accompanied by strong volume."
+    }
+  }
+}

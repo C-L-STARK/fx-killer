@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-20T10:53:45.217Z",
+  "price": {
+    "close": "0.6485",
+    "high": "0.6486",
+    "low": "0.64819",
+    "open": "0.64822",
+    "change": "0.04",
+    "datetime": "2025-11-20 21:00:00"
+  },
+  "indicators": {
+    "rsi": 52.38508,
+    "macd": -0.00011935761,
+    "macd_signal": -0.00024283365,
+    "sma20": 0.6476575
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[短期震荡，潜在反弹]",
+      "content": "当前，澳元/美元在0.6485附近震荡整理，显示出短期内的横向走势。价格在0.6486的高点和0.64819的低点之间波动，表明市场缺乏明确的方向。由于缺少强烈的买入或卖出信号，短期内可能维持这种震荡格局。\n\n从技术指标来看，虽然RSI(14)和MACD的信号尚不明确，但SMA(20)已显示出一定的支撑作用。价格目前略高于20日简单移动平均线，若能维持在此之上，可能会吸引更多买盘，推动价格向上测试更高的阻力位。\n\n在支撑和阻力方面，0.6482可视为短期支撑位，若突破该水平，可能会加速下行，而0.6500则是重要的心理阻力位，突破后可能会引发更大幅度的反弹。投资者需密切关注价格在这些关键水平的表现。\n\n交易建议方面，建议在接近支撑位时考虑逢低买入，设置止损在0.6480以下，同时在遇到阻力位时逐步减仓以降低风险。保持灵活的交易策略将有助于应对市场的短期波动。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) is currently trading against the US Dollar (USD) at 0.6485, reflecting a modest 24-hour change of 0.04%. The price action has remained constrained within a narrow range, with a high of 0.6486 and a low of 0.64819. This consolidation suggests a period of indecision among traders, with the market awaiting further directional cues. The overall trend appears neutral, as the lack of significant movement indicates that neither buyers nor sellers have established clear control.\n\nIn terms of technical indicators, the absence of an available RSI (14) limits our ability to gauge momentum effectively. However, the MACD reading of -0.00011935761 suggests a bearish bias, albeit slight. This could imply that the recent price action may favor selling pressure in the short term. The Simple Moving Average (SMA) of 20 periods at 0.64765750 serves as a local benchmark, indicating that the price is trading above this average. This positioning could provide a level of support, but its effectiveness will depend on broader market sentiment.\n\nIdentifying key support and resistance levels is crucial for developing a trading strategy. Immediate support can be seen around 0.64819, which has held up as the recent low. Should the price breach this level, the next support may emerge at 0.6465. On the upside, resistance is likely at 0.6500, a psychological level where selling interest may increase. A breakout above this resistance could signal a bullish reversal, while a sustained move below support may indicate bearish sentiment.\n\nFor traders, a cautious approach is advisable given the current market conditions. A potential strategy could involve looking for short positions near the 0.6500 resistance, while monitoring for any bearish signals around the SMA and MACD indicators. Conversely, if the price holds above 0.64819 and shows signs of strength, a long position targeting the next resistance level may be warranted. Overall, maintaining a balanced perspective will be essential in navigating the current market dynamics."
+    }
+  }
+}
