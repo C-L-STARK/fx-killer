@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-20T08:17:29.915Z",
+  "price": {
+    "close": "157.31200",
+    "high": "157.5",
+    "low": "157.28700",
+    "open": "157.45000",
+    "change": "-0.09",
+    "datetime": "2025-11-20 19:00:00"
+  },
+  "indicators": {
+    "rsi": 63.10801,
+    "macd": 0.41433236,
+    "macd_signal": 0.42925688,
+    "sma20": 157.06955
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理趋势]",
+      "content": "当前美元/日元（USD/JPY）价格为157.312，24小时变化微幅下跌0.09%。从价格走势来看，当前市场处于震荡整理状态，短期内未能突破157.5的高点，表明卖方在这一区域具有一定的压力。同时，157.287的低点则是短期支撑位，若价格跌破此位，可能进一步下探。\n\n技术指标方面，MACD值为0.414，表明市场仍有一定的上行动能，但缺乏强烈的买入信号。此外，由于RSI数据缺失，暂时无法判断市场是否处于超买或超卖状态。20日简单移动平均线（SMA）位于157.069，显示出整体趋势依然偏向于多头，但震荡幅度较大。\n\n支撑位方面，157.287是关键支撑，若突破则可能引发进一步下跌，目标可看向156.800。阻力位则在157.5附近，若突破该水平，可能重启上涨趋势。综合考虑，建议交易者在157.287附近逢低买入，设置止损于157.0，目标可看向157.5，保持灵活应变的交易策略。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair currently trades at 157.31200, showing a slight decline of 0.09% over the past 24 hours. The recent high of 157.5 suggests a robust resistance level, while the low of 157.28700 indicates immediate support. The price action remains within a narrow range, which could signify a consolidation phase. Traders should monitor for potential breakouts above resistance or breakdowns below support to determine the next directional move.\n\nFrom a trend analysis perspective, the USD/JPY has shown a bullish trend in recent weeks, supported by upward momentum. The current price is above the 20-day Simple Moving Average (SMA) of 157.069550, reinforcing the bullish outlook. However, the lack of an available RSI value means we cannot ascertain overbought or oversold conditions. Traders should exercise caution, watching for any divergence in momentum indicators that could signal a reversal.\n\nThe MACD reading of 0.41433236 indicates that the bullish momentum is still intact, as it remains above zero. However, without a signal line for further analysis, it is crucial to remain vigilant for potential shifts in momentum. If the MACD begins to trend downward, it could hint at a weakening bullish trend, warranting closer attention to existing support and resistance levels.\n\nFor trading strategies, a cautious approach is recommended. A breakout above 157.5 could present a buying opportunity, targeting further highs with a stop-loss just below the breakout point. Conversely, if the price breaks below 157.28700, it may trigger a selling opportunity, with potential targets toward the next support zone. Traders should remain attentive to broader market sentiment and geopolitical factors that could influence the USD/JPY pair in the coming sessions."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-20T08:19:44.697Z",
+  "price": {
+    "close": "0.56063241",
+    "high": "0.56082106",
+    "low": "0.56063241",
+    "open": "0.56082106",
+    "change": "-0.04",
+    "datetime": "2025-11-20 19:00:00"
+  },
+  "indicators": {
+    "rsi": 40.96772,
+    "macd": -0.00065350123,
+    "macd_signal": -0.00085209939,
+    "sma20": 0.56077176
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋势]",
+      "content": "当前纽元/美元(NZD/USD)处于震荡整理的趋势中，最新价格为0.56063241，24小时变化微幅下跌0.04%。价格在0.56082106和0.56063241之间波动，显示出市场缺乏明显的方向性。投资者需关注即将到来的经济数据，以判断可能的突破方向。\n\n技术指标方面，虽然RSI暂未提供，但MACD显示出-0.00065350123的负值，表明短期内卖压略微强于买盘。同时，20日简单移动平均线(SMA)为0.56077176，价格目前低于这一水平，可能意味着短期内的看跌情绪仍然存在。投资者应谨慎对待当前市场环境。\n\n支撑位在0.5606300附近，而阻力位则在0.5608000附近。若价格突破阻力位，可能会迎来反弹，反之则可能测试支撑位。交易者应密切关注这些关键价格水平，以便及时调整策略。\n\n建议投资者在当前震荡市场中采取观望态度，待价格突破支撑或阻力位后再做进一步决策。切勿盲目跟风，确保在交易前做好风险管理，保持资金安全。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.5606, reflecting a slight decline of 0.04% over the past 24 hours. The price movement has been relatively tight, with a high of 0.5608 and a low of 0.5606. This indicates a consolidation phase, suggesting that market participants are awaiting more definitive signals for potential breakout directions. The current trend appears neutral, limited by the recent high and low levels, which could act as immediate support and resistance.\n\nIn terms of technical indicators, the absence of a defined RSI makes it challenging to assess overbought or oversold conditions. However, the MACD value of -0.00065 indicates a slight bearish momentum. This could suggest a continued downward pressure if the MACD line remains below its signal line, which is currently unavailable. Traders may want to monitor the MACD closely for potential crossovers that could signal a shift in momentum.\n\nThe 20-period Simple Moving Average (SMA) is currently positioned at 0.5608, slightly above the current market price. This level may serve as a resistance point, where sellers could emerge if the price attempts to rally. Conversely, the recent low of 0.5606 could provide a crucial support level. A breakdown below this support may prompt further selling interest, while a sustained move above the SMA might encourage bullish sentiment.\n\nFor trading strategies, it may be prudent to adopt a wait-and-see approach. Traders could consider placing buy orders above the SMA level of 0.5608 to capitalize on potential upward momentum. Conversely, sell orders could be placed below the support level of 0.5606 to take advantage of any bearish movements. Close monitoring of the MACD and any new developments in the economic landscape will be essential for making informed trading decisions."
+    }
+  }
+}

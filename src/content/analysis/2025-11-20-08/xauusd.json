@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-20T08:21:12.689Z",
+  "price": {
+    "close": "4047.44043",
+    "high": "4061.9282",
+    "low": "4044.52616",
+    "open": "4059.6745",
+    "change": "-0.30",
+    "datetime": "2025-11-20 19:00:00"
+  },
+  "indicators": {
+    "rsi": 37.76196,
+    "macd": -5.56414,
+    "macd_signal": -0.98211151,
+    "sma20": 4081.17096
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡调整期的下行压力]",
+      "content": "当前黄金/美元价格处于4047.44附近，显示出一定的下行压力。从24小时的变化来看，价格微幅下跌0.30%，表明市场情绪较为谨慎。虽然短期内出现了小幅波动，但整体趋势依旧偏弱，暗示可能会继续向下调整。\n\n技术指标方面，MACD的值为-5.56414，显示出当前的卖压明显，而RSI指标暂时无法计算，可能意味着市场缺乏明确的超买或超卖信号。此外，20日简单移动平均线(SMA)在4081.17附近，成为后市反弹的重要阻力位。若价格持续在SMA下方，进一步下行的可能性加大。\n\n在支撑和阻力位方面，当前的支撑位可关注4044.53，若突破该水平，可能会加速下行趋势。相反，若价格反弹至4062以上，则可视为短期阻力位。整体来看，市场需关注这些关键价位的变动，以便做出相应的交易决策。\n\n交易建议方面，建议投资者在出现反弹时考虑短期做空，以利用下行的潜力，止损设置在4085附近。同时，密切关注市场情绪的变化，以便及时调整策略。保持灵活的交易心态，有助于在当前震荡的市场环境中获得更好的收益。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of Gold against the US Dollar (XAU/USD) is 4047.44, reflecting a slight decline of 0.30% over the last 24 hours. The recent high of 4061.93 and low of 4044.53 indicate a narrow trading range, suggesting that the market is currently consolidating. This sideways movement may signify indecision among traders, and a break above the recent high could signal a potential reversal to the upside, while a sustained move below the low could lead to further bearish pressure.\n\nIn terms of technical indicators, the Simple Moving Average (SMA) of 20 periods stands at 4081.17, indicating that the price is trading below this key level. This situation suggests a bearish trend in the short term, as prices consistently underperform relative to this average. The MACD value of -5.56414 also points to bearish momentum, although the absence of a signal line makes it difficult to gauge short-term shifts. Traders should watch for any potential crossovers or divergences that may provide clearer signals.\n\nSupport levels are currently identified at 4044.53, the recent low, which could provide a cushion against further declines. If this level is breached, the next significant support may be found around the 4030 mark. Conversely, resistance is positioned at the recent high of 4061.93, with additional resistance likely near the SMA of 4081.17. A successful break above these resistance levels could indicate a shift in sentiment and open the door for further gains.\n\nFor trading strategies, cautious investors may consider waiting for a clear breakout above 4061.93 before entering long positions. Alternatively, short positions could be contemplated if there is a decisive move below 4044.53, targeting the next support level. Given the current market dynamics, a wait-and-see approach may prove prudent until clearer directional signals emerge."
+    }
+  }
+}

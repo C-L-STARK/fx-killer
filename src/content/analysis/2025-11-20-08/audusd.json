@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-20T08:18:11.954Z",
+  "price": {
+    "close": "0.6473",
+    "high": "0.64772",
+    "low": "0.64713",
+    "open": "0.64772",
+    "change": "-0.07",
+    "datetime": "2025-11-20 19:00:00"
+  },
+  "indicators": {
+    "rsi": 43.34251,
+    "macd": -0.00024485059,
+    "macd_signal": -0.00030671779,
+    "sma20": 0.6476785
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理中]",
+      "content": "当前澳元/美元的价格为0.6473，24小时内小幅下跌0.07%，整体市场呈现震荡整理的态势。在高点0.64772和低点0.64713之间波动，显示出市场的谨慎情绪。短期内，价格未能突破关键阻力位0.6480，可能会继续在当前区间内震荡。\n\n从技术指标来看，尽管RSI未提供，但MACD接近零轴，表明市场动能较弱。SMA(20)为0.64767850，价格略低于该均线，暗示短期内可能面临一定的下行压力。若RSI数据提供后出现超卖信号，可能会引发反弹。\n\n支撑位方面，0.6460是关键支撑区域，若跌破该水平，可能会加剧下行风险。相对的，0.6480为重要阻力位，若价格成功突破该位，或将引发新的上涨趋势。交易者应密切关注这些关键水平，以制定相应的交易策略。\n\n综合考虑，建议交易者在0.6460附近寻找买入机会，同时在接近0.6480时设定止盈点。保持谨慎态度，关注市场动态，以便及时调整策略应对可能的波动。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.6473, reflecting a slight decline of 0.07% over the past 24 hours. This minor movement indicates a consolidation phase following previous volatility, with today's high and low established at 0.64772 and 0.64713, respectively. The price movement suggests that the market is waiting for a clear directional cue, which may come from upcoming economic data or geopolitical developments affecting both currencies.\n\nFrom a trend analysis perspective, the recent price action is indicative of a bearish sentiment, as the market struggles to maintain levels above the 0.6477 SMA (20). The inability to break higher could signify a potential continuation of the downtrend, particularly if the price breaches the immediate support level at 0.6471. A sustained move below this threshold could invite more selling pressure, potentially targeting the next support around 0.6450.\n\nTechnical indicators provide further insight into the pair's dynamics. The MACD is currently in negative territory, suggesting that bearish momentum remains intact. Although the RSI (14) is not available, monitoring this indicator in future sessions will be crucial to identify potential oversold conditions. Traders should keep an eye on the MACD's behavior for any signs of divergence that could indicate a shift in trend.\n\nFor trading strategies, a cautious approach is advisable. Short positions might be considered if the price breaks below the 0.6471 support level, with a target at 0.6450. Conversely, a reversal above 0.6477 could provide a buying opportunity, especially if supported by positive economic data or a confirmation of bullish momentum in technical indicators. Keeping tight stop-loss orders is essential to manage risk in this volatile market."
+    }
+  }
+}
