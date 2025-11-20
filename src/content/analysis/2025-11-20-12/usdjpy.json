@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-20T12:22:36.242Z",
+  "price": {
+    "close": "157.65100",
+    "high": "157.68300",
+    "low": "157.50101",
+    "open": "157.50400",
+    "change": "0.09",
+    "datetime": "2025-11-20 23:00:00"
+  },
+  "indicators": {
+    "rsi": 67.63876,
+    "macd": 0.34559241,
+    "macd_signal": 0.38079021,
+    "sma20": 157.24545
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[短期震荡走高]",
+      "content": "当前美元/日元的市场表现显示出短期内的震荡走高趋势，价格在157.65100附近波动。尽管24小时内的变化幅度仅为0.09%，但市场仍在157.50101至157.68300的区间内进行整理，近期价格接近高点，显示出一定的买盘力量。\n\n从技术指标来看，当前的MACD值为0.3455，表明市场存在一定的上行动能。虽然RSI指标尚未提供，但结合SMA(20)的表现，157.24545的移动平均线提供了良好的支撑位，若价格回调至此水平，可能会吸引多头进场。同时，短期内的阻力位则位于157.68300，突破该水平将有助于进一步确认上涨趋势。\n\n建议交易者在当前价格附近谨慎布局，若价格回调至支撑位157.24545附近可以考虑买入，目标看向157.68300的阻力位。同时需关注市场消息面变化，以防突发事件带来波动风险。保持良好的风险管理策略，有助于在震荡行情中实现盈利。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY currency pair is currently trading at 157.65100, reflecting a slight increase of 0.09% over the past 24 hours. The price action has remained within a range defined by a high of 157.68300 and a low of 157.50101, indicating a consolidation phase. This stability suggests that traders are assessing market conditions before determining the next directional move. Given the recent uptrend, the bias remains bullish, but traders should remain attentive to potential reversals or breakout opportunities.\n\nTechnical indicators provide additional insights into the market sentiment. The MACD is currently at 0.34559241, indicating positive momentum, though the absence of a signal line makes it difficult to determine the strength of this momentum. Meanwhile, the 20-period Simple Moving Average at 157.24545 serves as a dynamic support level, providing a buffer against downward price movements. A close below this SMA would raise concerns about the sustainability of the current bullish trend.\n\nKey support and resistance levels are critical for guiding trading decisions. Immediate support is identified at the recent low of 157.50101, while resistance is established near the high of 157.68300. A breakout above this resistance could open the door for further gains, potentially targeting the 158.000 psychological level. Conversely, a failure to hold above the support level may lead to a retracement towards lower support zones.\n\nFor traders, a cautious approach is advisable. A buy position could be considered on a confirmed breakout above 157.68300, with a stop-loss set below the 20-SMA to mitigate risk. Conversely, if the price breaks below 157.50101, a short position may be warranted, targeting lower support levels. Monitoring the MACD for any crossover signals will also enhance decision-making in this dynamic market environment."
+    }
+  }
+}

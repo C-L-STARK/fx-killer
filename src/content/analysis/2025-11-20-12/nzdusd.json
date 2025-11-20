@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-20T12:25:08.831Z",
+  "price": {
+    "close": "0.56145078",
+    "high": "0.56151384",
+    "low": "0.56129324",
+    "open": "0.56145078",
+    "change": "0.01",
+    "datetime": "2025-11-20 23:00:00"
+  },
+  "indicators": {
+    "rsi": 48.11203,
+    "macd": -0.00033363344,
+    "macd_signal": -0.00058270902,
+    "sma20": 0.56081709
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋势]",
+      "content": "目前，纽元/美元呈现震荡整理的趋势。最新价格为0.56145078，24小时内微幅上涨0.01%。价格波动在0.56129324至0.56151384之间，显示出市场处于相对平稳的区间，投资者情绪谨慎，可能在等待更明确的方向信号。\n\n从技术指标来看，短期内相对强弱指数（RSI）数据缺失，无法提供过度买入或卖出的信号。此外，移动平均线（SMA）显示20日均线在0.56081709，可能成为支撑位。MACD指标略微负值，表明当前动能偏弱，需警惕价格回调风险。\n\n在支撑和阻力位方面，当前支撑位设在0.5605附近，若价格跌破该水平，可能会引发进一步的下行压力。阻力位则在0.5620附近，突破该水平可能会引发新的买盘。建议投资者在此区间内灵活操作，短线交易者可考虑在支撑位附近寻求买入机会，而在接近阻力位时则应谨慎获利了结。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.56145078, reflecting a slight 24-hour change of 0.01%. The price has been relatively stable, oscillating between a high of 0.56151384 and a low of 0.56129324. This narrow range suggests a consolidation phase, indicating that traders may be hesitant to take strong positions until a clear breakout occurs. The recent trend shows a mild bullish sentiment, albeit lacking strong momentum, which may lead to a potential upward move if buying pressure increases.\n\nFrom a technical perspective, the absence of reliable RSI data makes it challenging to assess overbought or oversold conditions accurately. However, the MACD value of -0.00033363344 indicates a bearish momentum, suggesting that sellers could remain active. The 20-period Simple Moving Average (SMA) at 0.56081709 provides a crucial support level, and a sustained move below this point could signal further declines. Conversely, if the price manages to stay above the SMA, it could pave the way for a recovery towards resistance levels.\n\nKey support is identified around the SMA at 0.56081709, while immediate resistance can be observed near the recent high of 0.56151384. A break above this resistance could trigger increased buying interest, potentially leading to a rally towards higher levels. Conversely, a breakdown below the support level could signal a bearish reversal, leading traders to reevaluate their positions. Monitoring these key levels will be essential for any upcoming trades.\n\nFor traders, the current market conditions suggest a cautious approach. Given the lack of strong momentum and the proximity to key support and resistance levels, it may be prudent to wait for a definitive breakout before entering new positions. A buy signal could be considered if the price breaks above 0.56151384, whereas a sell signal might be warranted if it falls below the SMA. Engaging in range-bound strategies could also be viable in this context, focusing on the established support and resistance levels for potential trading opportunities."
+    }
+  }
+}
