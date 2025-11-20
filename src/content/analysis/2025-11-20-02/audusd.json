@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-20T02:52:05.893Z",
+  "price": {
+    "close": "0.64762",
+    "high": "0.64804",
+    "low": "0.64739",
+    "open": "0.64796",
+    "change": "-0.05",
+    "datetime": "2025-11-20 13:00:00"
+  },
+  "indicators": {
+    "rsi": 45.72533,
+    "macd": -0.00038753442,
+    "macd_signal": -0.00053212658,
+    "sma20": 0.647903
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[短期下行趋势显现]",
+      "content": "当前澳元/美元（AUD/USD）在0.64762附近交易，展现出短期下行趋势。过去24小时内，价格波动幅度较小，显示出市场的谨慎情绪。高点与低点均未突破前期水平，反映出多空力量的胶着状态，市场可能将继续在窄幅区间内震荡。\n\n从技术指标来看，当前MACD值为负，表明卖方力量占据主导。同时，SMA(20)为0.647903，价格已经接近这一水平，可能构成短期的阻力位。由于RSI数据缺失，我们无法进行更深入的超买或超卖分析，但可以认为当前市场情绪偏向于卖出。\n\n支撑位方面，0.64739是近期的低点，若价格下破此位，可能会进一步增强下行压力。另一方面，若价格反弹突破0.64804，可能会引发空头回补，推动价格走高。建议交易者在当前市场情形下，保持谨慎，考虑在接近支撑位时适度布局多单，而在接近阻力位时则考虑适量减仓或做空。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) against the US Dollar (USD) is currently trading at 0.64762, showing a slight decline of 0.05% over the past 24 hours. The price action has been relatively stable within a narrow range, with a high of 0.64804 and a low of 0.64739. This tight trading range suggests a phase of consolidation, which may precede a potential breakout. Traders should keep a close eye on any significant movement outside this range, as it could indicate the next directional bias.\n\nThe absence of RSI data limits the assessment of momentum, but the MACD indicator shows a negative value of -0.00038753442, indicating bearish momentum in the short term. This aligns with the current price behavior, suggesting that sellers are dominating the market. The SMA(20) at 0.647903 serves as a dynamic resistance level, and should price action approach this area, it may encounter selling pressure. Conversely, if the price breaks below the recent low of 0.64739, it could trigger further downside momentum.\n\nFrom a support and resistance perspective, the immediate support level can be identified around the recent low of 0.64739, while resistance is evident at the SMA(20) and the recent high of 0.64804. A successful breach above the SMA could open up further upside potential, targeting levels around 0.6500. Conversely, a drop below the support level may trigger a bearish sentiment, leading traders to consider short positions with targets set lower.\n\nTraders might consider a wait-and-see approach, closely monitoring the price action around these critical levels. A bullish reversal above the SMA(20) could signal a buying opportunity, while a confirmed break below 0.64739 may warrant short entries. Implementing tight stop-loss orders would be prudent to manage risk effectively, given the current market volatility and the potential for sudden price movements."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-20T02:51:24.323Z",
+  "price": {
+    "close": "157.31700",
+    "high": "157.47800",
+    "low": "157.28300",
+    "open": "157.41499",
+    "change": "-0.06",
+    "datetime": "2025-11-20 13:00:00"
+  },
+  "indicators": {
+    "rsi": 74.63474,
+    "macd": 0.44037103,
+    "macd_signal": 0.40125087,
+    "sma20": 156.61105
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理趋势]",
+      "content": "当前美元/日元的价格在157.31700，近期呈现出震荡整理的趋势。尽管价格略有回落，但整体仍在高位运行，显示出强劲的多头动能。市场在157.47800的高点处遇到一定阻力，而157.28300的低点则表现出一定的支撑力度，短期内可能仍会在此区间内波动。\n\n从技术指标来看，MACD显现出0.44037103的正值，表明短期内买方力量仍占主导地位，尽管RSI数据缺失，但若整体保持在50以上，可能预示着上涨动能的持续。20日简单移动平均线(SMA)在156.61105，为价格走势提供了支撑，若价格回调至此水平，可能会吸引买盘介入。\n\n对于交易策略，建议投资者关注157.47800的阻力位及157.28300的支撑位。若价格突破上方阻力位，可以考虑做多，目标看向158.0000附近；若价格跌破支撑位，则需谨慎，可能会出现更深的调整，考虑做空的机会，风险控制应适当设置在支撑位下方。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 157.317, reflecting a slight decline of 0.06% over the past 24 hours. The recent price action indicates that the pair is in a consolidation phase, oscillating between the established high of 157.478 and the low of 157.283. This tight range suggests a potential buildup of momentum as traders await further catalysts that could drive the next significant move. Given the current price, the trend appears to be moderately bullish, although a breakout in either direction is necessary to confirm a more definitive trend.\n\nAnalyzing the technical indicators, the MACD shows a value of 0.44037, which suggests bullish momentum, though it is crucial to consider that the absence of a signal line complicates a definitive interpretation. The lack of an RSI reading limits our ability to assess overbought or oversold conditions. However, the SMA(20) at 156.61105 provides a key reference point, indicating that any price action above this level could reinforce bullish sentiment, while a drop below may suggest bearish intentions.\n\nIn terms of support and resistance, the immediate support level can be observed at 157.283, which aligns with the recent low, while the resistance is established at 157.478. A break above this resistance could invite additional buying interest, potentially targeting the next psychological level at 158.00. Conversely, a breach of the support level could lead to a retest of the SMA(20), raising caution among bulls and indicating a potential shift in momentum.\n\nFor traders, the current scenario presents an opportunity for a range-bound strategy. Watching for a breakout beyond 157.478 could provide a long entry signal, while a close below 157.283 may trigger short positions. As always, maintaining a disciplined approach with proper risk management is essential, particularly in a market characterized by potential volatility."
+    }
+  }
+}

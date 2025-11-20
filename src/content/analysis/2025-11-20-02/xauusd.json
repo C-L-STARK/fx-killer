@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-20T02:55:05.398Z",
+  "price": {
+    "close": "4067.69265",
+    "high": "4083.88579",
+    "low": "4044.95331",
+    "open": "4083.79322",
+    "change": "-0.40",
+    "datetime": "2025-11-20 13:00:00"
+  },
+  "indicators": {
+    "rsi": 44.13672,
+    "macd": 1.50296,
+    "macd_signal": 4.3136,
+    "sma20": 4092.76192
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中]",
+      "content": "当前黄金/美元价格为4067.69，较昨日小幅下跌0.40%。价格在4083.89的高点和4044.95的低点之间波动，显示出市场的震荡整理特征。短期内，价格未能突破阻力位，显示出买方动能不足，可能继续在现有区间内调整。\n\n在技术指标方面，MACD显示出1.50296的正值，表明短期内市场仍有一定的上行动能。然而，由于RSI数据缺失，我们无法全面评估超买或超卖状况。SMA(20)位于4092.76，价格在其下方，进一步确认了当前的下行压力。\n\n支撑位方面，4044.95是关键的心理关口，若跌破该水平，可能引发进一步的卖压，导致价格向下测试更低的支撑位。反之，4083.89则为短期阻力位，突破该位置可能为多头提供新的入场机会。\n\n基于当前的市场情绪和技术面分析，建议交易者密切关注4044.95和4083.89的关键水平。若价格持续在此区间内波动，可以考虑进行区间交易，但需谨慎对待突破风险，做好止损设置。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4067.69 indicates a slight bearish sentiment, as reflected by the 24-hour change of -0.40%. The recent high at 4083.89 and low at 4044.95 suggest a range-bound market, where prices are oscillating within these levels. This consolidation phase may be indicative of indecision among traders, potentially leading to a breakout in either direction. A sustained move above 4084 could signal a bullish trend, while a breach below 4045 might confirm further downside pressure.\n\nTechnical indicators present a mixed picture for gold. The MACD at 1.50296 suggests some bullish momentum, although without a corresponding signal line, caution is warranted in interpreting this as a definitive buy signal. The absence of an RSI value limits the ability to assess overbought or oversold conditions. However, the SMA(20) at 4092.76 acts as a dynamic resistance level, which could hinder upward movement if tested. Traders should monitor these indicators closely for any divergences that may emerge.\n\nKey support and resistance levels are crucial for guiding trading decisions. The immediate support level at 4045 is critical; a break below this level could lead to further declines, potentially targeting the next support zone around 4020. Conversely, resistance at 4092.76 must be overcome for a bullish outlook to gain traction. A close above this level could open the door for a rally towards the 4100 psychological barrier, where profit-taking could occur.\n\nFor trading strategies, a wait-and-see approach may be prudent given the current market conditions. Traders could look to sell near the resistance level, particularly if price action shows signs of rejection. Conversely, a confirmed breakout above resistance could provide a buying opportunity, with tight stop-loss orders placed to manage risk effectively. Careful monitoring of upcoming economic data releases and geopolitical developments is also advised, as these factors can greatly influence gold prices."
+    }
+  }
+}
