@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-20T03:37:58.027Z",
+  "price": {
+    "close": "0.56113577",
+    "high": "0.56132472",
+    "low": "0.56075811",
+    "open": "0.56132472",
+    "change": "0.06",
+    "datetime": "2025-11-20 14:00:00"
+  },
+  "indicators": {
+    "rsi": 43.022796,
+    "macd": -0.00091792361,
+    "macd_signal": -0.0011072327,
+    "sma20": 0.56134033
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋势]",
+      "content": "当前纽元/美元（NZD/USD）价格在0.56113577附近震荡整理，整体趋势表现出一定的横盘特征。24小时内价格变化仅为0.06%，显示出市场参与者保持谨慎，未能形成明显的趋势方向。高点和低点分别为0.56132472和0.56075811，表明短期内价格波动幅度有限。\n\n从技术指标来看，短期的简单移动平均线(SMA)显示出价格在0.56134033附近受阻，表明卖盘压力逐渐加大。尽管MACD值为负（-0.00091792361），但未看到强烈的卖出信号，表明市场可能在进行调整。由于RSI(14)数据缺失，无法对超买或超卖状态进行进一步分析。\n\n在支撑与阻力方面，当前支撑位位于0.56075811，若价格突破该水平，可能会引发进一步下行。而阻力位则在0.56134033附近，若突破该水平，可能会刺激买盘情绪。投资者应关注这些关键水平，以便及时调整交易策略。\n\n建议交易者在当前震荡整理中保持观望，等待价格突破支撑或阻力位后再进行操作。若价格突破阻力位，可以考虑做多，若跌破支撑位，则应考虑做空。同时，建议设定合理止损，以控制风险。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair currently trades at 0.5611, reflecting a minor 24-hour change of 0.06%. In the context of recent price action, the pair has been oscillating within a range defined by a high of 0.5613 and a low of 0.5608. This consolidation suggests a period of indecision among traders, with a potential breakout either way. Monitoring these levels closely will be crucial for understanding future price movements, as they may signal the next significant trend.\n\nFrom a trend analysis perspective, the pair appears to be in a sideways movement, which is reinforced by the proximity of the current price to the 20-period simple moving average (SMA) at 0.5613. The inability of the price to break above this SMA suggests that bullish momentum may be lacking at this stage. Conversely, should the price breach the low of 0.5608, it could reveal bearish sentiment, prompting a test of lower support levels.\n\nIn terms of technical indicators, the MACD is currently negative at -0.0009, indicating a bearish bias in the short term. Although the RSI is not provided, typically, an RSI reading below 30 would indicate oversold conditions, while above 70 would suggest overbought conditions. Traders should be cautious, as a sustained period of bearish momentum could lead to further declines, particularly if the MACD continues to trend downward.\n\nFor trading strategies, a cautious approach is advisable. A potential buy signal could emerge if the price breaks decisively above the 20 SMA at 0.5613, with targets set at higher resistance levels. Conversely, a break below 0.5608 should be considered a sell signal, with the next support level likely around 0.5590. Establishing tight stop-loss orders will be essential to mitigate risk in this uncertain market environment."
+    }
+  }
+}

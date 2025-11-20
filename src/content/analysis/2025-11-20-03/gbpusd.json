@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-20T03:35:14.210Z",
+  "price": {
+    "close": "1.30494",
+    "high": "1.30553",
+    "low": "1.30463",
+    "open": "1.30553",
+    "change": "-0.03",
+    "datetime": "2025-11-20 14:00:00"
+  },
+  "indicators": {
+    "rsi": 31.18767,
+    "macd": -0.002263708,
+    "macd_signal": -0.0021748311,
+    "sma20": 1.308
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡走弱，短期承压]",
+      "content": "当前英镑/美元（GBP/USD）的走势显示出一定的震荡走弱迹象。最新价格为1.30494，24小时变化为-0.03%，表明市场情绪相对谨慎。尽管价格一度触及1.30553的高点，但未能有效突破，可能会导致短期内承压。\n\n技术指标方面，MACD显示出微弱的负值，表明卖方力量略占优势。由于RSI（相对强弱指数）数据缺失，目前无法全面评估市场超买或超卖状态。此外，20日简单移动平均线（SMA）处于1.30800，成为当前关键阻力位，若价格未能突破，将可能延续下行趋势。\n\n从支撑和阻力位来看，当前支撑位在1.30463附近，若跌破该水平，可能引发进一步的下行调整。反之，若突破1.30800的阻力位，则可能引发短期反弹。结合当前技术情况，建议交易者在短期内关注区间交易，考虑在接近支撑位时寻找买入机会，而在接近阻力位时则考虑卖出。保持谨慎，密切关注市场动态和消息面变化。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently experiencing a slight bearish trend, trading at 1.30494, reflecting a minor decline of 0.03% over the last 24 hours. The price action has been constrained within a narrow range, having established a high of 1.30553 and a low of 1.30463. This tight trading range suggests indecision among traders, which may lead to a breakout in one direction. Observing the price movement closely is crucial as a decisive break below 1.30463 might lead to further downside, while a break above 1.30553 could signal a potential reversal.\n\nTechnical indicators provide insight into the current market sentiment. The MACD is slightly negative at -0.00226, indicating a weak bearish momentum. Although the RSI(14) is not available, the MACD hints that sellers are currently in control, but the lack of significant momentum suggests that any downward movement may be limited. The SMA(20) at 1.30800 acts as an immediate resistance level, and if the price can regain this level, it may open up opportunities for bullish traders.\n\nKey support levels to watch include the recent low of 1.30463, which, if broken, could lead to further declines towards lower targets. Conversely, resistance at 1.30800 remains critical for bulls, and a sustained close above this level could indicate a shift in market sentiment. Traders should monitor these levels closely, as they will likely dictate the next move in the pair.\n\nIn terms of trading strategy, a cautious approach is advisable. A sell position can be considered if the price breaks below 1.30463, targeting lower levels, while a buy position could be initiated if the price recovers above 1.30800. Setting stop-loss orders around these levels will be essential to manage risk effectively, ensuring protection against unexpected market fluctuations."
+    }
+  }
+}

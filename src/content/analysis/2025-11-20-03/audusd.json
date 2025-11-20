@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-20T03:36:33.832Z",
+  "price": {
+    "close": "0.64856",
+    "high": "0.64889",
+    "low": "0.64782",
+    "open": "0.64791",
+    "change": "0.10",
+    "datetime": "2025-11-20 14:00:00"
+  },
+  "indicators": {
+    "rsi": 51.76357,
+    "macd": -0.00028194696,
+    "macd_signal": -0.00047813396,
+    "sma20": 0.647879
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理中]",
+      "content": "当前AUD/USD在0.64856附近震荡整理，短期内缺乏明确的趋势方向。最近24小时内，价格变化仅为0.10%，显示出市场参与者的谨慎态度。由于缺乏强劲的买入或卖出信号，预计短期内价格将继续在0.64889和0.64782之间波动。\n\n从技术指标来看，RSI和MACD的缺失使得趋势判断较为困难。20日简单移动平均线（SMA）在0.647879附近，为当前价格提供了支撑。若价格跌破此支撑位，可能会加大向下调整的风险，进一步测试0.64500的心理关口。\n\n在支撑位方面，0.64782一线将是关键防线，若能稳住该水平，则有望出现反弹。反之，若突破该支撑位，市场可能会进一步走弱。上方阻力位则在0.64889附近，若价格突破此水平，可能会带来短期的上涨动能。\n\n建议交易者在当前区间内采取谨慎策略，适度参与短线交易。在接近支撑位时考虑轻仓买入，而在接近阻力位时则可以考虑适度卖出，控制风险并关注市场动态。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD currency pair is currently trading at 0.64856, exhibiting a mild upward trend with a 24-hour change of 0.10%. This subtle movement suggests a consolidation phase following the recent price action that has seen the pair oscillate between the high of 0.64889 and the low of 0.64782. The market appears to be testing the stability of the recent support level around 0.6478, which, if held, could pave the way for a potential upward breakout.\n\nTechnical indicators provide mixed signals. The MACD is currently negative at -0.00028194696, indicating bearish momentum in the short term. However, the absence of a signal line complicates the analysis. The RSI is not available, which limits our ability to gauge overbought or oversold conditions. The 20-day Simple Moving Average (SMA) at 0.64787900 suggests that the price is trading just above this moving average, providing a potential support level that could attract buying interest.\n\nKey support can be identified at the 0.6478 level, while resistance is likely to emerge around the 0.6490 level. A break above this resistance could signal a more pronounced bullish move, potentially targeting the 0.6500 psychological level. Conversely, if the price fails to hold above the SMA and breaks below 0.6478, we may see further downside towards the next support at 0.6450.\n\nTraders may consider a cautious approach in the current market context. Monitoring for a breakout above 0.6490 could provide an entry point for long positions, while a close below the 0.6478 support may warrant a reevaluation of bullish sentiment. Given the volatility and uncertainty, employing stop-loss orders and maintaining a disciplined risk management strategy will be essential for navigating this market."
+    }
+  }
+}

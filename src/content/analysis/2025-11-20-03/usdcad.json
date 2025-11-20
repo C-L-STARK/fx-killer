@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-20T03:37:18.177Z",
+  "price": {
+    "close": "1.40540",
+    "high": "1.40576",
+    "low": "1.40460",
+    "open": "1.40567",
+    "change": "-0.02",
+    "datetime": "2025-11-20 14:00:00"
+  },
+  "indicators": {
+    "rsi": 64.87835,
+    "macd": 0.0011995612,
+    "macd_signal": 0.0010567305,
+    "sma20": 1.40345
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡整理中]",
+      "content": "当前美元/加元（USD/CAD）在1.40540附近震荡整理，价格波动较小。在24小时内，仅录得-0.02%的微幅变化，显示出市场缺乏强烈的方向性。短期内，价格在1.40460至1.40576的区间内波动，表明投资者情绪谨慎，市场等待更明确的指引。\n\n从技术指标来看，SMA(20)位于1.40345，显示出市场可能在这一水平附近获得支撑。虽然RSI和MACD的具体数值未提供，但在震荡行情中，通常需要关注超买或超卖信号，以便捕捉短期交易机会。若RSI接近70，可能预示超买，反之则为超卖。\n\n支撑位方面，1.40460将是关键支撑，如果价格跌破这个水平，可能引发进一步下行。而在阻力位方面，1.40576为短期阻力，突破该水平可能引发多头进攻。投资者可以考虑在支撑位附近逢低买入，设置止损以控制风险，同时在接近阻力位时考虑获利了结。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD pair is currently trading at 1.40540, reflecting a slight decline of 0.02% over the past 24 hours. The price movement has been relatively stable, with the high and low for the day recorded at 1.40576 and 1.40460, respectively. This range indicates a consolidation phase, suggesting that market participants are assessing the next directional move. Given the recent price action, traders should closely monitor the support level at 1.40460, which could serve as a critical point for potential bullish reversals.\n\nIn terms of technical indicators, the absence of a calculated RSI(14) limits our ability to gauge overbought or oversold conditions. However, the MACD reading of 0.0011995612 indicates a slight bullish momentum, though it remains weak. The 20-period Simple Moving Average (SMA) at 1.40345 is currently below the market price, suggesting that the short-term trend may lean bullish. A sustained move above the SMA could strengthen buying interest, while a drop below could signal a bearish undertone.\n\nKey resistance is identified at the day's high of 1.40576, which, if breached, could open the door for further upside towards 1.40700. Conversely, if the price fails to maintain above the 1.40460 support, a retracement towards the SMA at 1.40345 or even lower levels may occur. Traders should remain vigilant for price action around these key levels, as they are likely to influence upcoming trading decisions.\n\nFor traders looking to capitalize on potential movements, a long position could be considered if the price breaks above 1.40576, with targets set around 1.40700. Conversely, a short position may be warranted if the market breaches the support at 1.40460, with a focus on the SMA as the next target. Risk management through stop-loss orders will be essential to navigate the current market dynamics effectively."
+    }
+  }
+}
