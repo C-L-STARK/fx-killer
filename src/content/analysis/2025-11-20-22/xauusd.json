@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-20T22:51:40.538Z",
+  "price": {
+    "close": "4077.04138",
+    "high": "4078.29701",
+    "low": "4077.04138",
+    "open": "4077.16301",
+    "change": "-0.00",
+    "datetime": "2025-11-21 09:00:00"
+  },
+  "indicators": {
+    "rsi": 50.89241,
+    "macd": -1.076453,
+    "macd_signal": -2.21039,
+    "sma20": 4070.85343
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中]",
+      "content": "当前黄金/美元(XAU/USD)的价格在4077.04附近波动，显示出震荡整理的趋势。考虑到价格在高点4078.29和低点4077.04之间小幅波动，市场缺乏明确方向，投资者情绪趋于谨慎。短期内，若无法突破当前区间，可能会继续维持横盘整理。\n\n从技术指标来看，虽然RSI(14)数据缺失，但MACD显示负值(-1.076453)，暗示短期内卖方占据主导地位。结合SMA(20)的支撑位4070.85，若价格下破该水平，则可能引发进一步的卖压。反之，若价格成功突破4078.29，将可能开启新的上涨空间。\n\n在支撑和阻力位方面，目前的支撑位为4070.85，而阻力位则位于4078.29。投资者应密切关注这两个关键价位，突破其中任一水平都可能引发强烈的市场反应。若价格突破4078.29，建议考虑多头进场；若下破4070.85，则可能考虑短线空头策略。\n\n总体而言，在黄金/美元当前的震荡行情中，投资者需保持灵活应变，合理配置仓位，关注市场情绪的变化，以捕捉可能的交易机会。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current market price of XAU/USD stands at 4077.04138, exhibiting a slight decline of 0.00% over the past 24 hours. The price action suggests a consolidation phase, as it remains tightly bound between the recent high of 4078.29701 and the low of 4077.04138. This narrow range indicates indecision among traders, making it essential to monitor any potential breakouts or breakdowns that could signal the next directional move. \n\nIn terms of technical indicators, the MACD is currently at -1.076453, suggesting a bearish momentum; however, the absence of a clear signal line complicates the interpretation. The SMA(20) sits at 4070.85343, which may act as a crucial support level. If the price retraces towards this moving average and holds above it, it could attract buyers looking for a low-risk entry point. Conversely, a drop below this level may trigger further selling pressure, warranting caution among long positions.\n\nSupport levels can be identified around the SMA(20) at 4070.85343, while immediate resistance appears at the recent high of 4078.29701. A sustained move above this resistance could pave the way for a potential rally toward higher targets, while failure to hold above the support could open the door for a deeper correction. Traders should watch these levels closely for signs of reversal or continuation.\n\nIn terms of trading strategy, it may be prudent to adopt a wait-and-see approach until clearer signals emerge. If the price establishes a strong move above the resistance level, consider entering long positions, targeting incremental gains. Conversely, if the price breaks below the support, shorting may present a viable opportunity. Risk management will be key in navigating this current phase of uncertainty."
+    }
+  }
+}
