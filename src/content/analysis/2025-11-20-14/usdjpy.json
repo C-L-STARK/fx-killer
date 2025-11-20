@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-20T14:49:36.593Z",
+  "price": {
+    "close": "157.68800",
+    "high": "157.83099",
+    "low": "157.48801",
+    "open": "157.56400",
+    "change": "0.08",
+    "datetime": "2025-11-21 01:00:00"
+  },
+  "indicators": {
+    "rsi": 66.16196,
+    "macd": 0.33793859,
+    "macd_signal": 0.36605012,
+    "sma20": 157.33365
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[短期上涨趋势]",
+      "content": "当前美元/日元（USD/JPY）最新价格为157.68800，整体趋势呈现出短期上涨的态势。从24小时变化来看，价格小幅上涨0.08%，显示出市场的稳定性。最近的高点为157.83099，低点为157.48801，价格在此区间内波动，表明买方力量依然占据主导。\n\n技术指标方面，MACD值为0.33793859，虽然信号线数据缺失，但MACD正值通常预示着市场处于上涨趋势。相对强弱指数（RSI）数据缺失，无法提供超买或超卖的判断，但结合当前的价格走势，市场情绪似乎偏向于多头。\n\n在支撑与阻力位方面，157.5000附近可以视为短期支撑位，而157.8000则是重要的阻力位。若价格突破阻力位，可能会进一步推动上涨，反之则需关注支撑位的有效性。交易者可以考虑在支撑位附近寻找买入机会，同时设定合理的止损，以应对市场波动风险。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 157.68800, showing a slight upward movement of 0.08% over the last 24 hours. This price action indicates a continuation of a bullish trend, which has been evident since the pair reached a low of 157.48801. The recent high of 157.83099 suggests the possibility of upward momentum, reinforcing the view that the market sentiment remains strong for the US dollar against the Japanese yen.\n\nIn terms of technical indicators, the absence of a current RSI reading prevents a comprehensive momentum analysis. However, the MACD value of 0.3379 suggests a positive momentum, indicating that buyers remain in control. The simple moving average (SMA) of 20 days at 157.33365 serves as a crucial support level. A price dip towards this SMA would provide a potential buying opportunity, particularly if the price bounces back, confirming the strength of the bullish trend.\n\nSupport levels are identified at 157.48801, the recent low, and further down at the SMA. Resistance is evident at 157.83099, where the market may face selling pressure. Traders should monitor these levels closely, as a breakout above the resistance could lead to further gains, potentially targeting the psychological level of 158.00. Conversely, a drop below the support might indicate a reversal, warranting a reassessment of long positions.\n\nFor traders, maintaining a long position appears favorable, particularly if the price holds above the SMA and shows strength near the support level. Implementing stop-loss orders just below the SMA can help manage risk, while profit targets can be set around the resistance level of 157.83099. This strategy allows traders to capitalize on the ongoing bullish trend while safeguarding against sudden market reversals."
+    }
+  }
+}

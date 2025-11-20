@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-20T14:54:00.439Z",
+  "price": {
+    "close": "4099.45299",
+    "high": "4110.93765",
+    "low": "4073.85582",
+    "open": "4074.20578",
+    "change": "0.61",
+    "datetime": "2025-11-21 01:00:00"
+  },
+  "indicators": {
+    "rsi": 58.99058,
+    "macd": -1.26726,
+    "macd_signal": -2.86162,
+    "sma20": 4076.02991
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，谨慎操作]",
+      "content": "当前黄金/美元(XAU/USD)的价格为4099.45，处于高点4110.93与低点4073.86之间，显示出市场在此区间内震荡整理的趋势。尽管24小时内价格上升了0.61%，但整体走势仍显疲弱，投资者应保持谨慎态度。\n\n从技术指标来看，MACD值为-1.26726，表明卖压依然存在，短期内可能难以形成强劲反弹。由于RSI(14)数据缺失，无法全面评估超买或超卖情况，但结合SMA(20)在4076.03附近的支撑位，可以推测市场情绪较为谨慎。\n\n在支撑和阻力方面，4073.86为关键支撑位，若价格跌破该水平，可能会引发进一步回调。相对的，4110.93则是重要阻力位，突破该水平将有助于恢复上涨动能。投资者应密切关注这些关键价位，以便及时调整交易策略。\n\n建议投资者在当前震荡行情中采取观望策略，避免盲目追高或追低。可考虑在接近支撑位时进行小规模买入，而在接近阻力位时逐步获利了结，以降低风险并提高收益的可能性。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4099.45 suggests a cautious bullish sentiment, especially following a 0.61% increase over the past 24 hours. The price has fluctuated within a range of 4110.94 as the recent high and 4073.86 as the low, indicating a consolidation phase. This behavior in price action suggests that traders are weighing potential upward momentum against resistance levels, notably around 4110, which may pose a challenge for continued bullish advances.\n\nIn terms of technical indicators, the MACD at -1.26726 indicates a bearish momentum, although it should be interpreted cautiously given the absence of a signal line. The lack of an RSI value prevents a full assessment of overbought or oversold conditions, but the current SMA (20) at 4076.03 serves as a key support level. If prices dip towards this moving average, it may provide a buying opportunity for traders looking to capitalize on potential rebounds.\n\nThe immediate support level appears to be around the 4076 mark, coinciding with the SMA, while the resistance level remains firmly established at 4110. Traders should monitor these levels closely for potential breakouts. A sustained move above 4110 could signal a stronger bullish trend, while a failure to maintain above the 4076 support could lead to further declines, testing the lower bounds of the recent range.\n\nFor trading strategies, a cautious approach may be warranted. Buying on dips towards the 4076 support while placing stop-loss orders below this level could mitigate risks. Conversely, traders might consider selling if the price approaches the 4110 resistance and shows signs of rejection. Monitoring volume and price action around these key levels will be crucial to gauge market sentiment and potential future movements."
+    }
+  }
+}
