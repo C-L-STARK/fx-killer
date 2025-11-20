@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-20T13:50:30.376Z",
+  "price": {
+    "close": "4081.23817",
+    "high": "4094.36191",
+    "low": "4071.7467",
+    "open": "4079.49751",
+    "change": "0.05",
+    "datetime": "2025-11-21 00:00:00"
+  },
+  "indicators": {
+    "rsi": 52.52482,
+    "macd": -3.25246,
+    "macd_signal": -3.15557,
+    "sma20": 4075.60228
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中]",
+      "content": "当前黄金/美元市场价格在4081附近波动，整体走势呈现出震荡整理的形态。从技术面来看，价格在4094.36的高点和4071.75的低点之间反复测试，短期内缺乏明确的方向。市场情绪相对平稳，但仍需关注潜在的波动性。\n\n在技术指标方面，虽然RSI和MACD的部分数据尚不可用，但从现有的SMA(20)来看，当前价格略高于4075.60的均线水平，显示出一定的上行动能。然而，MACD处于负值区域，表明短期内下行压力依然存在，需谨慎对待。\n\n支撑位方面，4071.75是一个关键的支撑区域，如果价格进一步跌破，可能会导致更深的回调。阻力位则在4094.36附近，若价格突破此阻力，可能会开启新的上涨空间。在此区间内，投资者应密切关注价格的变化。\n\n建议投资者在当前震荡区间内采取观望策略，耐心等待明确的突破信号。如果价格突破4094.36，可以考虑短线多单；而若跌破4071.75，则应及时止损并考虑空单入场。保持灵活应变的交易策略，将有助于在当前市场中获取更好的交易机会。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of Gold against the US Dollar (XAU/USD) stands at 4081.24, showing a slight increase of 0.05% over the last 24 hours. The market has experienced a range from a high of 4094.36 to a low of 4071.75, suggesting a relatively narrow trading range. This consolidation phase may indicate indecision among traders, but it could also precede a breakout. Given the recent price action, the trend appears to be neutral, necessitating close monitoring for potential directional shifts.\n\nThe absence of the RSI reading limits our ability to assess momentum, but the MACD value of -3.25 indicates bearish momentum, suggesting that sellers have controlled the market in the short term. Meanwhile, the 20-period Simple Moving Average at 4075.60 acts as a dynamic support level. If prices remain above this level, it could signal a potential bullish reversal. Conversely, a break below this moving average may attract further selling pressure, confirming a bearish sentiment.\n\nSupport levels are clearly defined, with the recent low at 4071.75 acting as the first line of defense for bulls. Should this level be breached, the next significant support can be expected around the psychological level of 4000. On the upside, resistance is seen at the recent high of 4094.36. A sustained move above this resistance could open the door for a more significant rally, targeting levels around 4120 and beyond.\n\nIn terms of trading strategy, a cautious approach is recommended. Traders may consider buying near the 4075.60 support level with a stop-loss just below 4071.75 to manage risk. Alternatively, if the price breaks convincingly above 4094.36, a breakout buy strategy could be employed to capitalize on potential upward momentum. It’s essential to remain vigilant to broader market influences, including economic data releases and geopolitical events, which may impact gold prices in the near term."
+    }
+  }
+}

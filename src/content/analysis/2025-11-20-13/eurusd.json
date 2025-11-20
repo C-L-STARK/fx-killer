@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-20T13:44:44.035Z",
+  "price": {
+    "close": "1.15335",
+    "high": "1.15393",
+    "low": "1.15082",
+    "open": "1.15112",
+    "change": "0.19",
+    "datetime": "2025-11-21 00:00:00"
+  },
+  "indicators": {
+    "rsi": 49.34689,
+    "macd": -0.00098324058,
+    "macd_signal": -0.0012053615,
+    "sma20": 1.15249
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理，寻求突破]",
+      "content": "当前欧元/美元在1.15335附近震荡整理，走势仍然相对平稳。近期价格在1.15082至1.15393区间内波动，显示出市场买卖力量的均衡。短期内，若能突破1.1540的阻力位，可能会引发进一步上涨，反之则可能回落至支撑位1.1500附近。\n\n从技术指标来看，虽然RSI数据缺失，但MACD显示出微弱的负值，表明当前市场动能略显不足。SMA(20)位于1.15249，进一步支持了当前的震荡趋势。投资者需要密切关注MACD的变化，以判断市场是否有反转的可能。\n\n在支撑与阻力方面，1.1500是关键支撑位，一旦跌破，可能导致更大的下行风险。反之，1.1540则是主要阻力位，突破后可能带动进一步上涨。交易者应关注这些关键价位，以制定相应的交易策略。\n\n建议投资者在当前区间内采取区间交易策略，适时进出，控制风险。如果价格成功突破1.1540，可考虑做多，而若跌破1.1500，则需谨慎应对，考虑止损。保持灵活应变的交易态度，将是应对市场波动的关键。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD currency pair is currently trading at 1.15335, reflecting a slight upward movement of 0.19% over the past 24 hours. The price has established a range between a high of 1.15393 and a low of 1.15082. This range-bound behavior suggests a consolidation phase, as traders await further catalysts for direction. The overall trend appears neutral, but a break above the recent high could signal a bullish reversal, while a drop below the low would indicate renewed bearish momentum.\n\nIn terms of technical indicators, the 20-period Simple Moving Average (SMA) at 1.15249 is providing immediate support. The price currently sits just above this level, reinforcing its significance. The absence of the Relative Strength Index (RSI) and MACD signal complicates the analysis, but the current MACD value of -0.00098324058 indicates that selling pressure may be present. Further monitoring is essential, as a shift in these indicators could provide insights into future price movements.\n\nKey support is identified at 1.15082, while resistance is found at 1.15393. Traders should watch these levels closely; a breakout above resistance could open the door to a move towards 1.15600 or higher, whereas a breach of support may lead to a test of 1.14800 or lower. A clear break in either direction could set the tone for the near-term outlook, and traders should remain vigilant for any signals that confirm a shift in momentum.\n\nFor trading strategies, it may be prudent to adopt a wait-and-see"
+    }
+  }
+}

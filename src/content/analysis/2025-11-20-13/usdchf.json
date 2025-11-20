@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-20T13:49:45.526Z",
+  "price": {
+    "close": "0.80681002",
+    "high": "0.80773002",
+    "low": "0.80517000",
+    "open": "0.80747002",
+    "change": "-0.08",
+    "datetime": "2025-11-21 00:00:00"
+  },
+  "indicators": {
+    "rsi": 62.88029,
+    "macd": 0.0011862972,
+    "macd_signal": 0.0013489445,
+    "sma20": 0.80620251
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理趋势]",
+      "content": "当前美元/瑞郎（USD/CHF）在0.8068附近震荡整理，且24小时变化微幅下跌0.08%。在高点0.8077与低点0.8052之间的波动显示市场尚未形成明确的趋势，投资者应关注即将到来的技术信号。\n\n从技术指标来看，虽然RSI目前未提供，但MACD值为0.0012，表明短期内动能较弱。20日简单移动平均线（SMA）在0.8062附近，提供了短期支撑线。若价格持续维持在该水平之上，可能会为后续上涨提供动力。\n\n在支撑位方面，0.8052为关键支撑区域，一旦跌破可能引发更大幅度的下行风险。而阻力位则在0.8077，若突破该水平，将为多头提供进一步进场的机会。市场需注意此区间的突破情况。\n\n交易建议上，投资者可在支撑位附近寻找买入机会，同时在阻力位附近设置止盈点。若市场进一步确认上行趋势，考虑适度加仓；反之，若价格跌破支撑位，则应及时止损，以控制风险。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair is currently exhibiting a slight bearish trend, with a recent price of 0.80681002 reflecting a modest 24-hour decline of 0.08%. This movement indicates a consolidation phase following the recent high of 0.80773002. Traders should monitor this pair closely, as a continued drop towards the recent low of 0.80517000 may signal further weakness. The underlying trend suggests a cautious sentiment among investors, which could lead to increased volatility in the near term.\n\nIn terms of technical indicators, the absence of a calculated RSI(14) limits our ability to assess overbought or oversold conditions. However, the MACD value of 0.0011862972 indicates a potential bullish momentum, albeit weak. The 20-day Simple Moving Average (SMA) at 0.80620251 serves as a dynamic support level. If the price remains above this SMA, it might provide a buffer against further declines, while a break below could lead to a retest of the lower support.\n\nKey support levels are evident around 0.80517000, where buying interest may emerge if the price tests this area. Conversely, resistance can be identified near 0.80773002, which may hinder any upward movement in the short term. A sustained breach above this resistance level could signal a potential reversal, encouraging bullish positions. Conversely, failure to maintain above the SMA could trigger bearish sentiment.\n\nTraders should consider a cautious approach, potentially looking for short positions near resistance levels while monitoring for signs of a reversal at key support. A clear breakout above 0.80773002 could warrant long positions, while a failure to hold above the SMA may suggest further downside risk. Employing a risk management strategy is crucial in this volatile environment to safeguard against unexpected market movements."
+    }
+  }
+}

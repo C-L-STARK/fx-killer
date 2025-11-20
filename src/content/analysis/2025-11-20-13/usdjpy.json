@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-20T13:46:32.663Z",
+  "price": {
+    "close": "157.49800",
+    "high": "157.875",
+    "low": "157.21100",
+    "open": "157.69501",
+    "change": "-0.12",
+    "datetime": "2025-11-21 00:00:00"
+  },
+  "indicators": {
+    "rsi": 62.0062846,
+    "macd": 0.33423542,
+    "macd_signal": 0.37204093,
+    "sma20": 157.28505
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理，待突破]",
+      "content": "当前美元/日元的价格为157.498，近期在157.211至157.875区间内震荡整理。虽然价格略有下跌，但整体趋势仍然保持在相对高位，显示出一定的强势。市场情绪在高位震荡，投资者需关注价格是否能有效突破当前区间。\n\n从技术指标来看，MACD显示出0.334的正值，表明短期内仍存在上行动能，但缺乏强烈的买入信号。SMA(20)处于157.28505，提供了一定的支撑位。若价格能成功突破157.875的阻力位，可能会引发进一步的上涨空间。\n\n支撑位方面，157.211是关键支撑，若跌破此位，可能会加大下行压力，测试更低的价格水平。在此背景下，投资者应密切关注价格走势，并做好相应的风险管理。\n\n综合而言，当前美元/日元在震荡整理中，建议投资者采取观望态度，待价格明确突破157.875或157.211后再做出相应的交易决策。在未突破前，保持谨慎，避免过度追涨或追跌。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 157.498, showing a slight decline of 0.12% over the last 24 hours. This price action suggests a consolidation phase after reaching a recent high of 157.875. The overall trend appears bullish, supported by the recent highs, but the market is experiencing some short-term weakness. Traders should watch for potential reversal patterns that could signal a shift in momentum, especially if prices approach the lower boundary of the recent range.\n\nThe absence of the RSI(14) makes it difficult to assess the momentum definitively, but the MACD value of 0.334 indicates that the bullish momentum is still present, albeit potentially weakening. The recent price close relative to the 20-day Simple Moving Average (SMA) at 157.285 suggests that the market is maintaining an upward bias, as prices are trading above this key moving average. A close above the SMA could provide further confirmation for bullish sentiment.\n\nKey support levels can be identified at 157.211, which is near the recent low and could act as a significant barrier against further declines. Conversely, the resistance level at 157.875 remains pivotal for the continuation of the bullish trend. If the price breaks above this level, it may open up further upside potential. Conversely, if the pair falls below 157.211, it could signal a more considerable bearish retracement.\n\nFor traders, the current environment presents a cautious approach. A wait-and-see strategy could be beneficial, allowing for confirmation of a breakout above resistance or a rebound off support. If the price holds above the SMA and exhibits bullish signals, entering long positions could be favorable. Conversely, if bearish signals emerge below support, short positions may be warranted, with strict risk management in place."
+    }
+  }
+}
