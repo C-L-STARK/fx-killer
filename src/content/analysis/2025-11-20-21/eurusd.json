@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-20T21:32:17.179Z",
+  "price": {
+    "close": "1.15261",
+    "high": "1.15267",
+    "low": "1.15244",
+    "open": "1.15261",
+    "change": "0.00",
+    "datetime": "2025-11-21 08:00:00"
+  },
+  "indicators": {
+    "rsi": 45.6061,
+    "macd": -0.00036320007,
+    "macd_signal": -0.00059645819,
+    "sma20": 1.15246
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理趋势]",
+      "content": "当前欧元/美元（EUR/USD）价格为1.15261，昨日价格变动不大，显示出市场在这个水平附近的震荡整理。由于缺乏明显的趋势指引，短期内可能会保持在高点1.15267与低点1.15244之间的区间波动。投资者需关注即将发布的经济数据，以便更好地判断后市走向。\n\n技术指标方面，SMA(20)值为1.15246，表明市场短期均线支持位在该水平附近，提供一定的支撑。虽然当前RSI(14)未更新，但一般情况下，RSI值靠近中性区间（50）通常意味着市场缺乏方向性。而MACD为负值，表明短期内卖方可能占据优势，但需结合其他指标进行综合判断。\n\n在支撑和阻力方面，当前支撑位为1.15244，若跌破该水平可能会进一步回调，目标可以关注1.15000。而阻力位则在1.15267，若突破该水平，可能会触发多头情绪，推动价格上行至1.15500。交易者可考虑在支撑位附近寻找买入机会，而在接近阻力位时则考虑获利了结或做空。\n\n总体来看，欧元/美元在当前水平震荡整理，方向不明。在缺乏强劲数据支持的情况下，建议投资者保持谨慎，关注市场动态，以便及时调整策略。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD pair is currently trading at 1.15261, reflecting a stagnant 24-hour change of 0.00%. This stability suggests a period of consolidation following previous fluctuations. The price action is tightly bound between the intraday high of 1.15267 and low of 1.15244, indicating a lack of momentum in either direction. Traders should closely monitor this range, as a breakout above or below could signal the next move for the pair.\n\nIn terms of trend analysis, the recent price action indicates a potential bullish bias, given that the current price is above the 20-period Simple Moving Average (SMA) at 1.15246. However, the lack of significant movement suggests that market participants may be waiting for additional catalysts before committing to a direction. The MACD is currently negative, hinting at a bearish sentiment in the short term, but without a clear signal line, it remains inconclusive.\n\nSupport and resistance levels are crucial for identifying potential entry and exit points. The immediate support level lies at 1.15244, which has held firm during the recent trading sessions. Conversely, resistance is observed at 1.15267, where the market has struggled to maintain upward momentum. A sustained break above 1.15267 could lead to further gains, while a drop below 1.15244 may trigger a more pronounced downward trend.\n\nFor trading strategies, it would be prudent to adopt a wait-and-see approach in the current environment. Traders might consider placing buy orders just above the resistance level at 1.15267 and sell orders below the support at 1.15244. This strategy allows for capturing potential breakouts while limiting exposure to false moves in a low-volatility market. As always, incorporating stop-loss orders is essential to manage risk effectively."
+    }
+  }
+}

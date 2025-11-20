@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-20T21:32:58.469Z",
+  "price": {
+    "close": "1.30698",
+    "high": "1.30722",
+    "low": "1.30685",
+    "open": "1.30700",
+    "change": "-0.01",
+    "datetime": "2025-11-21 08:00:00"
+  },
+  "indicators": {
+    "rsi": 46.62559,
+    "macd": -0.00023472521,
+    "macd_signal": -0.00038535234,
+    "sma20": 1.30721
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理中]",
+      "content": "当前英镑/美元在1.30698附近震荡整理，24小时变化仅为-0.01%。从高点1.30722和低点1.30685来看，价格波动幅度相对较小，表明市场缺乏明确的方向性。短期内，市场情绪可能会继续保持谨慎，待进一步的经济数据或消息刺激。\n\n技术指标方面，虽然RSI和MACD的数据缺失，但现有的20日简单移动平均线(SMA)在1.30721附近，为价格提供了短期支撑。若价格能够稳住在这一水平之上，有望出现反弹。反之，若跌破此水平，可能会引发进一步的下行风险。\n\n支撑位初步设在1.30685，若该水平被有效击穿，下一支撑位则在1.30550。而重要的阻力位则在1.30800，若突破该点，则有可能向1.31000进发。市场关注经济数据发布后，可能会出现价格的突破或反转。\n\n综上所述，交易者应谨慎操作，建议在支撑位附近寻找买入机会，而在接近阻力位时则考虑获利了结或做空。保持对市场动态的关注，以应对可能的波动。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently trading at 1.30698, showing a slight decline of 0.01% over the last 24 hours. The price action remains constrained within a narrow range, with a high of 1.30722 and a low of 1.30685. This consolidation indicates indecision in the market, as traders await further developments or signals that might provide direction. A breakout above the recent high could signal renewed bullish momentum, while a dip below the low may suggest a bearish reversal.\n\nIn terms of technical indicators, the absence of the RSI(14) and SMA(20) suggests a neutral stance from momentum indicators, but the SMA(20) at 1.30721 serves as a key reference point. If the price holds above this moving average, it could indicate a potential bullish trend continuation. Conversely, a close below this level may trigger further selling pressure. The MACD value of -0.00023472521 indicates a slight bearish divergence, warranting caution for long positions in the near term.\n\nSupport levels are identified at 1.30685, while resistance can be found near 1.30722. Traders should monitor these levels closely, as a break below support could lead to a retest of lower levels, potentially down to 1.30500. Conversely, a successful breach of resistance may pave the way for a move toward 1.31000, where further resistance is anticipated. \n\nFor trading strategies, a cautious approach is advisable. Traders might consider waiting for a clear breakout above resistance before entering long positions, while those favoring short trades could look for confirmation of a break below support. Utilizing tight stop-loss orders can help manage risk in this uncertain environment, especially given the current lack of momentum signals."
+    }
+  }
+}

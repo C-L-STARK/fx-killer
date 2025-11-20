@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-20T21:35:42.006Z",
+  "price": {
+    "close": "0.55878407",
+    "high": "0.55912775",
+    "low": "0.55865926",
+    "open": "0.55912775",
+    "change": "-0.07",
+    "datetime": "2025-11-21 08:00:00"
+  },
+  "indicators": {
+    "rsi": 37.048932,
+    "macd": -0.00067467274,
+    "macd_signal": -0.0004693947,
+    "sma20": 0.5608643
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡走势]",
+      "content": "当前纽元/美元(NZD/USD)的最新价格为0.55878407，显示出一定的震荡走势。近期价格在0.55912775和0.55865926之间波动，表明市场情绪较为谨慎。价格未能突破前期高点，可能意味着买方力量不足，短期内将面临一定的下行压力。\n\n从技术指标来看，MACD目前为负值，表明卖方占据主导地位。尽管RSI(14)数据缺失，但结合当前的价格走势，可以推测出市场可能处于超卖状态。此外，20日简单移动平均线(SMA)为0.56086430，价格低于此水平，进一步确认了空头趋势的延续。\n\n在支撑和阻力位方面，0.5586是关键支撑位，一旦跌破，可能会引发进一步下行。而0.5608则是主要阻力位，若价格能够突破，可能会吸引更多买盘。建议投资者在此区间内采取观望策略，待价格确认突破后再考虑入场交易，以降低风险。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The New Zealand Dollar (NZD) has shown a modest decline against the US Dollar (USD), with the current price at 0.5588. This slight downward movement indicates a bearish sentiment, particularly as the price is trading below the 20-period Simple Moving Average (SMA) of 0.5609. This SMA acts as a dynamic resistance level, suggesting that a sustained move above this threshold is necessary for any bullish reversal in the near term.\n\nAnalyzing the recent price action, the NZD/USD pair encountered resistance at the high of 0.5591 and support near the low of 0.5587. The proximity of current prices to these levels indicates a potential consolidation phase. A break below 0.5586 could suggest further downside momentum, potentially targeting lower support levels. Conversely, a successful breach of the resistance at 0.5591 may open the door for a short-term recovery towards the SMA.\n\nThe MACD indicator, currently showing a negative value, reflects bearish momentum, which aligns with the recent price action. Although the RSI(14) is not available, the MACD's positioning suggests that the market may continue to experience downward pressure unless a significant catalyst emerges. Traders should monitor these indicators closely for any signs of divergence that could hint at a potential reversal.\n\nIn terms of trading strategy, a cautious approach is warranted. Short positions may be considered if the price breaches the support level of 0.5586, with the potential target at 0.5570. On the flip side, if the price breaks above the SMA, traders might look to enter long positions, targeting a return to the 0.5600 psychological level. As always, risk management strategies should be prioritized to protect against unexpected volatility."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-20T21:33:38.690Z",
+  "price": {
+    "close": "157.54201",
+    "high": "157.59599",
+    "low": "157.47301",
+    "open": "157.56900",
+    "change": "-0.02",
+    "datetime": "2025-11-21 08:00:00"
+  },
+  "indicators": {
+    "rsi": 59.43618,
+    "macd": 0.22236733,
+    "macd_signal": 0.27681795,
+    "sma20": 157.48275
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[短期震荡趋势]",
+      "content": "当前美元/日元（USD/JPY）在157.54附近震荡，较24小时前略微下跌0.02%。从技术面来看，价格在157.59的高点附近遇到一定的阻力，而157.47的低点则成为短期支撑。这一价格区间可能引导市场的后续走向。\n\nRSI指标目前缺失，但从价格走势来看，市场情绪趋于谨慎，可能预示着短期内缺乏强烈的买入或卖出动能。MACD指标显示出轻微的正值，表明多头仍占据一定优势，但未能形成明显的趋势，市场可能继续维持震荡格局。\n\n支撑位方面，157.47是关键支撑线，如果价格跌破此位，可能会引发更大幅度的回调。相对的，阻力位在157.59，若突破此位，可能进一步上行至158.00。交易者应密切关注这两个关键价位的突破情况，以制定相应的交易策略。\n\n综合来看，考虑到当前市场的震荡模式，建议交易者采取区间交易策略，在157.47附近寻找买入机会，而在157.59附近则考虑卖出。同时，保持灵活应变的心态，随时关注市场动态调整策略。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 157.54201, showing a slight decline of 0.02% over the past 24 hours. The price movement has remained relatively contained between the high of 157.59599 and the low of 157.47301, indicating a consolidation phase. This sideways movement suggests that market participants are currently indecisive, and further direction will likely depend on breaking key support or resistance levels. The prevailing trend remains bullish, but a sustained breakout is necessary to confirm upward momentum.\n\nIn terms of technical indicators, the absence of a definitive RSI value hinders a complete assessment of overbought or oversold conditions. However, the MACD reading of 0.22236733 signals that bullish momentum is still present, albeit weakening. The 20-period Simple Moving Average (SMA) at 157.48275 provides a dynamic support level. A close below this SMA could indicate a shift in market sentiment, while a bounce from this level could present buying opportunities for traders looking to capitalize on potential upward movement.\n\nSupport is currently observed at the lower end of the recent trading range around 157.47301, while resistance is evident at the recent high of 157.59599. Traders should watch these levels closely, as a breach below support may lead to further declines, potentially targeting 157.3000. Conversely, a breakout above resistance could initiate a rally towards 158.0000, opening up further upside potential.\n\nFor trading strategies, a cautious approach is recommended. Traders could consider buying on dips closer to the 20-SMA, provided that bullish confirmation is observed. Alternatively, a breakout above 157.59599 could serve as an entry point for long positions, ideally with a stop-loss set below 157.47301 to manage risk. Regular monitoring of economic indicators and geopolitical developments will also be crucial in determining the future trajectory of this currency pair."
+    }
+  }
+}
