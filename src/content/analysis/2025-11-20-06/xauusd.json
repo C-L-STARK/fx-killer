@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-20T07:00:26.476Z",
+  "price": {
+    "close": "4067.73873",
+    "high": "4079.91913",
+    "low": "4058.01334",
+    "open": "4070.26039",
+    "change": "-0.06",
+    "datetime": "2025-11-20 17:00:00"
+  },
+  "indicators": {
+    "rsi": 44.51179,
+    "macd": -2.23042,
+    "macd_signal": 1.092717,
+    "sma20": 4087.22306
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理趋势]",
+      "content": "当前黄金/美元(XAU/USD)价格为4067.74，较24小时前小幅下跌0.06%。从日线图来看，价格在4058.01至4079.92之间震荡整理，显示出市场仍处于观望状态。若价格继续在此区间内波动，可能会导致短期内缺乏方向性。\n\n在技术指标方面，MACD显示-2.23042，表明卖方力量略占优势，但尚未形成明显的下行趋势。由于RSI(14)数据缺失，我们无法全面评估超买或超卖状态。不过，SMA(20)在4087.22附近形成了短期阻力，若价格突破该水平，可能会引发进一步上涨动能。\n\n支撑位方面，4058.01是关键支撑，若跌破此位，可能会引发更多卖压，目标可能指向更低的水平。反之，若能站稳4060上方，则有望测试4079.92的阻力位。因此，投资者应密切关注这些关键价位，以便及时调整交易策略。\n\n综合来看，黄金/美元当前处于震荡整理阶段，建议投资者采取区间交易策略，关注支撑与阻力位的突破信号，灵活调整持仓。同时，保持谨慎，以应对市场可能出现的波动。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current market data for XAU/USD indicates a slight bearish sentiment, with the price recently trading at 4067.74. The 24-hour change of -0.06% suggests a period of consolidation, following a recent high of 4079.92. This price action points to potential resistance around the 4087 level, corresponding with the 20-period simple moving average (SMA), which has historically acted as a significant barrier for upward movement. Traders should monitor this level closely for potential reversal signals.\n\nFrom an indicators perspective, the MACD at -2.23042 indicates a bearish momentum in the short term, suggesting that sellers are in control. Although the RSI(14) is not available, the current price action within the range of 4058.01 to 4079.92 can provide insights into overbought or oversold conditions. If the price continues to decline and approaches the lower end of this range, it may present a buying opportunity for traders looking for a bounce back towards resistance levels.\n\nSupport levels are crucial in determining potential entry points for long positions. The immediate support can be identified around 4058.01, which coincides with the recent low. A break below this level could lead to further declines toward the next significant support at 4040. Traders should remain vigilant for bullish signals near this support to capitalize on potential retracement opportunities if the price stabilizes.\n\nIn terms of trading strategy, a cautious approach is advisable. Traders could consider short positions if the price fails to break above the 4087 SMA, with a stop-loss placed just above this resistance. Conversely, if the price bounces off the support level at 4058.01, a long position may be warranted, targeting a retest of the 4087 level. Overall, maintaining a disciplined approach in line with these technical indicators and levels will be key to navigating the current market conditions effectively."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-20T06:57:16.623Z",
+  "price": {
+    "close": "0.6481",
+    "high": "0.64833",
+    "low": "0.64775",
+    "open": "0.64804",
+    "change": "0.01",
+    "datetime": "2025-11-20 17:00:00"
+  },
+  "indicators": {
+    "rsi": 48.76455,
+    "macd": -0.00019533144,
+    "macd_signal": -0.00035218019,
+    "sma20": 0.64782
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理中]",
+      "content": "当前澳元/美元（AUD/USD）在0.6481附近震荡整理，近期的价格波动幅度较小，显示出市场缺乏明确的方向性。虽然24小时的变化仅为0.01%，但高点和低点的接近表明市场参与者在等待更强的市场信号或经济数据来确认未来的走势。\n\n根据目前的技术指标，SMA(20)位于0.64782，表明短期均线趋势略微上升，市场可能面临一定的支撑。然而，MACD值为负，显示出卖压尚存，短期内可能会对价格形成压制。RSI指标尚未提供，故需关注后续数据以便更全面地评估超买或超卖状态。\n\n从支撑和阻力位来看，当前支撑位在0.64775，若下破该位，可能会进一步下探至0.6450附近。阻力位则设在0.64833，突破该位后有可能上行至0.6500。因此，建议交易者在此区间内谨慎操作，若价格触及支撑位可考虑适度买入，而在接近阻力位时则可考虑卖出以锁定利润。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.6481, reflecting a slight 24-hour change of 0.01%. This price action suggests a period of consolidation, with the market oscillating between the recent high of 0.64833 and low of 0.64775. The absence of significant momentum indicates that traders are awaiting a catalyst for the next directional move. The overall trend appears to be bearish, as the price remains below the 20-period Simple Moving Average (SMA) at 0.64782, signaling potential resistance around this level.\n\nIn terms of technical indicators, the MACD value of -0.00019533144 indicates a bearish momentum, albeit weak. The lack of a defined signal line suggests that there is no clear crossover occurring at this moment, which could lead to indecision among traders. The Relative Strength Index (RSI) is not available; however, if it were, it would help identify overbought or oversold conditions that could influence future price movements. Traders should closely monitor these indicators for any signs of a shift in momentum.\n\nSupport levels can be identified around 0.64775, which aligns with the recent low and may act as a psychological barrier for sellers. A breach below this level could trigger further selling pressure, potentially targeting the next support at around 0.6450. Conversely, resistance is expected near the SMA at 0.64782 and the recent high at 0.64833. A sustained break above these levels could offer a more bullish outlook for the pair.\n\nGiven the current market conditions, traders may consider short positions if the price breaks below the support level of 0.64775, with a target towards 0.6450. Alternatively, a break above the SMA at 0.64782 could warrant a long position, aiming for a retest of the recent high at 0.64833. As always, implementing stop-loss orders and maintaining risk management strategies will be crucial in navigating this uncertain market environment."
+    }
+  }
+}

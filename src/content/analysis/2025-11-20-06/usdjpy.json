@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-20T06:56:33.968Z",
+  "price": {
+    "close": "157.68800",
+    "high": "157.73801",
+    "low": "157.48500",
+    "open": "157.55400",
+    "change": "0.09",
+    "datetime": "2025-11-20 17:00:00"
+  },
+  "indicators": {
+    "rsi": 78.85876,
+    "macd": 0.45730952,
+    "macd_signal": 0.42953639,
+    "sma20": 156.9461
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡走高，关注短期阻力]",
+      "content": "当前美元/日元（USD/JPY）价格为157.68800，整体趋势显示出震荡走高的态势。虽然24小时内变化幅度较小，但价格在157.48500的低点附近获得支撑，显示出市场对该水平的强烈关注。当前价格接近157.73801的高点，若能突破，将可能引发进一步上涨。\n\n从技术指标来看，MACD的值为0.4573，表明的是上涨动能较强。尽管RSI指标目前缺失，但若后续数据显现超买状态，可能会对价格形成一定压力。建议关注短期内的价格波动，以便把握入场时机。\n\n支撑位方面，156.94610的20日简单移动平均线（SMA）提供了良好的支撑。若价格回调至该水平，可能会吸引买盘进场。相对的，157.73801的高点则构成了短期阻力，突破此位后有望进一步上涨至158.000的心理关口。\n\n综合来看，交易者可以考虑在回调至SMA支撑位时进行买入，设置止损于156.800以下，目标则可以锁定在157.800及158.000区域。保持灵活，应对市场变化，始终关注技术面信号与基本面动态。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 157.68800, showing a slight increase of 0.09% over the past 24 hours. This minor gain suggests that the pair is in a consolidation phase after reaching a high of 157.73801. The price action indicates a bullish sentiment, with the market attempting to establish a new support level above the recent low of 157.48500. Traders should watch for a clear breakout above the high to confirm the continuation of the upward trend.\n\nThe absence of the RSI(14) value limits our ability to gauge overbought or oversold conditions; however, the MACD at 0.4573 suggests bullish momentum. This could imply that buyers are currently in control. The 20-period Simple Moving Average (SMA) at 156.94610 serves as a dynamic support level. A price retracement towards this SMA could present a buying opportunity, particularly if it aligns with other bullish indicators.\n\nIn terms of support and resistance levels, the immediate resistance is positioned at 157.73801, while the next significant resistance level is likely around 158.00. Conversely, if the price moves downward, the 157.48500 low will serve as a crucial support level, followed by the SMA at 156.94610. Traders should remain vigilant about these levels, as breaks or bounces may indicate the next market move.\n\nFor trading strategies, a conservative approach would be to wait for a confirmed breakout above 157.73801, entering long positions with a target near 158.00. Alternatively, if the price retraces to the SMA, a buy entry could also be considered, with a stop-loss just below 156.94610 to manage risk. Keeping an eye on market sentiment and global economic indicators will further enhance decision-making in this dynamic trading environment."
+    }
+  }
+}
