@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-20T19:01:28.572Z",
+  "price": {
+    "close": "4059.34515",
+    "high": "4072.79009",
+    "low": "4056.48373",
+    "open": "4066.30455",
+    "change": "-0.17",
+    "datetime": "2025-11-21 05:00:00"
+  },
+  "indicators": {
+    "rsi": 45.080178,
+    "macd": -3.95775,
+    "macd_signal": -3.025449,
+    "sma20": 4073.16207
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[短期震荡走势]",
+      "content": "当前黄金/美元(XAU/USD)的价格在4059.34515附近，短期内显示出震荡走势。从24小时变化来看，下跌0.17%，表明市场情绪较为谨慎。高点4072.79009和低点4056.48373的区间表明，市场仍在寻找方向，可能受到多重因素的影响，包括全球经济数据和市场避险需求。\n\n在技术指标方面，MACD目前为-3.95775，显示出空头力量略占上风，虽然信号线数据缺失使得分析不够全面。由于RSI(14)数据未提供，我们无法准确判断超买或超卖状态，但从SMA(20)的水平4073.16207来看，价格小幅低于该均线，暗示短期内可能继续承压。\n\n支撑位方面，4056.48373是一个关键的技术支撑，如果价格有效跌破该水平，可能会引发进一步的下行趋势。相反，4072.79009则是重要的阻力位，若突破该位，有可能引发多头反弹。建议投资者在当前市场环境中采取观望态度，等待价格突破关键水平后再进行决策，以降低风险并把握潜在机会。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD is 4059.35, reflecting a slight decline of 0.17% over the past 24 hours. The price action remains within a tight range, with a daily high of 4072.79 and a low of 4056.48. This consolidation suggests indecision among traders, which may precede a significant move. The overall trend appears to be bearish in the short term, as the price struggles to maintain momentum above the 20-day simple moving average (SMA) at 4073.16.\n\nIn terms of technical indicators, the MACD is currently at -3.95775, indicating bearish momentum. Although the RSI value is not available at this time, traders should monitor it closely to identify potential overbought or oversold conditions. If the RSI were to indicate oversold levels, it could suggest a potential reversal or at least a corrective bounce. Therefore, understanding the interplay between these indicators is crucial for making informed decisions.\n\nSupport levels are found around the recent low of 4056.48, which, if breached, could lead to further downside movement. Conversely, resistance is evident at the recent high of 4072.79, which traders will likely monitor closely. A breakout above this level could provide a more bullish outlook, potentially targeting higher resistance zones. Conversely, falling below support may trigger increased selling pressure, leading to further declines.\n\nTraders may consider a strategy that incorporates these levels: a buy position on a confirmed breakout above 4072.79, with a tight stop-loss just below this level. Alternatively, a sell position could be initiated if the price breaks below 4056.48, targeting lower support levels. Maintaining a watchful eye on the overall market sentiment and key economic indicators will also be essential for successful trading in this environment."
+    }
+  }
+}

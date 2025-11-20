@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-20T18:57:45.833Z",
+  "price": {
+    "close": "157.44000",
+    "high": "157.69701",
+    "low": "157.42101",
+    "open": "157.52000",
+    "change": "-0.05",
+    "datetime": "2025-11-21 05:00:00"
+  },
+  "indicators": {
+    "rsi": 57.34668,
+    "macd": 0.25906834,
+    "macd_signal": 0.3183561,
+    "sma20": 157.423
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理中]",
+      "content": "当前美元/日元的价格在157.44000附近，整体走势呈现震荡整理的态势。虽然24小时变化仅为-0.05%，但价格仍然在157.42101和157.69701之间波动，显示出市场缺乏明确的方向性。投资者应关注即将到来的经济数据和市场情绪，这可能会推动价格突破当前区间。\n\n从技术指标来看，尽管RSI(14)数据缺失，但MACD指标显示出0.25906834的正值，暗示短期内买方力量仍占优。SMA(20)也在157.42300附近，为价格提供了一定的支撑。若价格持续维持在这一均线之上，可能会吸引更多的买盘入场。\n\n在支撑和阻力方面，157.42101可视为短期支撑位，而157.69701则是关键的阻力位。如果价格突破阻力位，可能会引发一波上涨行情，反之则可能回调至支撑位。投资者应密切关注这两个关键水平。\n\n综合来看，当前市场呈现震荡整理的格局，建议投资者采取谨慎的态度，等待价格突破区间后再做进一步的交易决策。在此之前，可以考虑在支撑位附近寻找买入机会，同时在接近阻力位时保持警惕，防止出现回调。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 157.44000, reflecting a slight decline of 0.05% over the last 24 hours. The price movement has been relatively contained within a high of 157.69701 and a low of 157.42101, indicating a period of consolidation. This pattern suggests that the market is awaiting further catalysts for direction. A sustained break above the recent high could signal a bullish continuation, while a drop below the recent low may indicate a potential bearish reversal.\n\nIn terms of technical indicators, the MACD reading of 0.25906834 suggests bullish momentum, although the absence of a signal line hinders a more comprehensive analysis. The SMA(20) at 157.42300 is in close proximity to the current price, acting as a dynamic support level. If the price holds above this moving average, it may reinforce bullish sentiment. Conversely, a decisive move below this level could trigger further selling pressure, prompting traders to reassess their positions.\n\nKey support levels to watch include the recent low of 157.42101, which, if breached, could pave the way for a deeper correction. On the upside, the immediate resistance lies at 157.69701, and a breakout above this level could lead to an extension towards 158.00000, where additional selling interest may emerge. Traders should remain cautious and monitor these levels closely, as they will provide crucial insight into the market's short-term direction.\n\nFor trading strategies, a cautious approach is advised. If the price approaches the SMA(20) and shows signs of support, it may offer a buying opportunity, particularly if accompanied by bullish confirmation from other indicators. Conversely, if the price breaks below the key support level, a short position could be considered, targeting lower support levels. Overall, maintaining a close watch on price action and technical indicators will be essential in navigating the current market environment."
+    }
+  }
+}
