@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-20T20:18:37.483Z",
+  "price": {
+    "close": "4077.6982",
+    "high": "4084.94022",
+    "low": "4073.83487",
+    "open": "4084.50767",
+    "change": "-0.17",
+    "datetime": "2025-11-21 07:00:00"
+  },
+  "indicators": {
+    "rsi": 51.064749,
+    "macd": -1.78216,
+    "macd_signal": -2.68366,
+    "sma20": 4070.92383
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[短期震荡整理，关注支撑位]",
+      "content": "当前黄金/美元(XAU/USD)价格为4077.6982，显示出短期内的震荡整理趋势。尽管24小时内价格仅小幅下跌0.17%，但高点和低点的相对接近表明市场情绪较为谨慎，投资者在等待更明确的方向信号。\n\n从技术指标来看，MACD显示出负值(-1.78216)，暗示短期内可能存在一定的卖压。虽然RSI(14)数据缺失，但结合现有价格走势，市场可能处于超卖状态，后续可能会出现反弹。SMA(20)位于4070.92383，形成一个重要的支撑位，若价格有效突破该水平，将进一步加大下行风险。\n\n就支撑和阻力位而言，当前的支撑位在4070一线，而阻力位则在4084附近。投资者应密切关注这些关键水平的突破情况。若价格能够站稳在4084之上，可能会引发进一步上涨，反之则需谨慎对待短期内的回调风险。\n\n综合考虑，当前市场环境适合短期策略，建议投资者在4070附近寻找买入机会，同时设定止损以控制风险。而若价格突破4084，建议根据市场动向及时调整持仓策略，抓住可能的上涨机会。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of Gold against the US Dollar (XAU/USD) stands at 4077.6982, reflecting a slight decline of 0.17% over the past 24 hours. The price movement has remained relatively stable, with a high of 4084.94022 and a low of 4073.83487. This consolidation phase suggests that traders are weighing their options as they await further catalysts, potentially leading to a breakout in either direction. The overall trend appears neutral to slightly bearish, requiring close monitoring of price action for clearer signals.\n\nIn terms of technical indicators, the MACD is currently showing a value of -1.78216, indicating bearish momentum. The absence of a signal line reading suggests that this momentum may not yet be confirmed. The SMA(20) is positioned at 4070.92383, acting as a potential support level. If prices hold above this moving average, it could indicate strength; however, a breach below may trigger further selling pressure and signal a shift in sentiment.\n\nSupport levels can be identified at 4070, where the SMA(20) lies, with additional support potentially found around 4060. On the resistance side, the immediate level to watch is 4085, close to the recent high. A breakout above this level could lead to a retest of higher resistance levels, while failure to maintain above the support may open the door to more significant declines.\n\nTraders may consider employing a range-bound strategy given the current consolidation. A buy position could be initiated if the price surpasses 4085, targeting a move towards 4100. Conversely, a sell position could be warranted if the price breaks below the SMA(20) at 4070, with a target around 4060. Patience will be key in this environment, as clearer market signals will emerge with time."
+    }
+  }
+}

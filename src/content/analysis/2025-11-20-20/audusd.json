@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-20T20:15:17.003Z",
+  "price": {
+    "close": "0.64534",
+    "high": "0.64572",
+    "low": "0.64524",
+    "open": "0.64549",
+    "change": "-0.03",
+    "datetime": "2025-11-21 07:00:00"
+  },
+  "indicators": {
+    "rsi": 39.73164,
+    "macd": -0.0007918361,
+    "macd_signal": -0.00047308443,
+    "sma20": 0.6473655
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理中]",
+      "content": "当前AUD/USD汇率在0.64534附近震荡整理，24小时变化为-0.03%。从技术趋势来看，短期内汇价未能突破0.6473的20日简单移动平均线，显示出一定的下行压力。市场情绪偏向谨慎，投资者需关注即将发布的经济数据以判断未来走向。\n\n在技术指标方面，MACD显示出负值，表明短期内卖方力量较强，尽管RSI未提供数据，但若其出现超卖信号，可能预示短期反弹的机会。总体来看，汇价在当前区间内缺乏明确的方向，需关注后续的市场动向。\n\n支撑位方面，0.64524是当前的重要支撑位，若跌破该位可能会进一步下探至0.6430。而上方阻力位则在0.6477，若突破则有望重新测试0.6500的心理关口。投资者应密切关注这些关键水平，制定相应的交易策略。\n\n建议短期内采取观望态度，待汇价确认突破支撑或阻力位后再做出交易决策。若汇价突破0.6477，可考虑做多，反之若跌破0.64524，则可考虑做空。同时，保持灵活的止损设置，以控制风险。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) against the US Dollar (USD) currently trades at 0.64534, reflecting a slight 24-hour decline of 0.03%. The price action has been relatively contained within a narrow range, with a high of 0.64572 and a low of 0.64524. This consolidation suggests a market indecision, indicating that traders are weighing potential directional moves. The absence of a clear trend implies that the market may be awaiting significant economic data or geopolitical developments that could impact the AUD/USD pair.\n\nThe current technical indicators present a mixed picture. The MACD is showing a negative value of -0.00079183610, indicating bearish momentum in the short term. However, the lack of a signal line creates uncertainty about the strength of this signal. The absence of an RSI value makes it difficult to assess overbought or oversold conditions, which could be critical in determining entry points for potential trades. Traders should remain cautious due to these ambiguous signals, as they may indicate a potential reversal or continuation of the current price action.\n\nIn terms of support and resistance levels, the immediate support is found around 0.64524, while resistance lies at the recent high of 0.64572. A break below the support could lead to further downside, potentially targeting lower levels near 0.64400. Conversely, if the price manages to break above resistance, it may trigger a bullish rally towards the SMA(20) at 0.64736550, which could act as a dynamic resistance level. Traders should monitor these levels closely for potential breakout or breakdown opportunities.\n\nGiven the current market conditions, a cautious approach is advisable. Traders may consider waiting for confirmation of a breakout or breakdown before entering positions. A buy signal could emerge if the price decisively breaks above 0.64572 with strong volume, while a sell signal may be warranted if the price falls below 0.64524. Establishing stop-loss orders around these levels can help manage risk in this uncertain environment."
+    }
+  }
+}

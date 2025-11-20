@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-20T20:14:18.889Z",
+  "price": {
+    "close": "157.56300",
+    "high": "157.59700",
+    "low": "157.51100",
+    "open": "157.53500",
+    "change": "0.02",
+    "datetime": "2025-11-21 07:00:00"
+  },
+  "indicators": {
+    "rsi": 60.29699,
+    "macd": 0.23515659,
+    "macd_signal": 0.29033493,
+    "sma20": 157.4759
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[当前维持上行趋势]",
+      "content": "当前美元/日元（USD/JPY）在157.56300附近交易，显示出强劲的上行趋势。24小时内价格微幅波动，仅上涨0.02%。从高点157.59700和低点157.51100来看，市场在这一区间内保持稳定，表明多头仍具备一定的控制力。\n\n技术指标方面，虽然RSI（相对强弱指数）未提供，但MACD值为0.23515659，显示出市场仍存在上行动力。20日简单移动平均线（SMA）在157.47590附近，为价格提供了良好的支撑。若价格回调至此水平，可能会吸引更多买盘介入，延续上涨趋势。\n\n支撑位方面，157.47590的SMA以及157.51100的低点构成重要支撑区域，若下破则可能导致空头回补。而阻力位在157.59700附近，若突破该水平，可能会引发更强烈的上行动能，推动价格朝向158.0000的心理关口。\n\n综合来看，建议交易者在价格回调至支撑位时考虑建立多头头寸，同时设置合理的止损以控制风险。若突破阻力位，可以考虑加仓，继续参与上涨行情。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 157.563, exhibiting a slight upward movement of 0.02% over the last 24 hours. This price action indicates a consolidation phase following a recent uptick, as evidenced by its proximity to the recent high of 157.597. The overall trend appears bullish, supported by higher price highs and lows. However, traders should remain cautious, as the market may be reaching an overbought situation, especially if it continues to test resistance levels around 157.60.\n\nThe absence of the Relative Strength Index (RSI) makes it challenging to gauge momentum, but the MACD reading of 0.235 suggests a bullish momentum, albeit with limited strength. The lack of a signal line reading warrants closer observation, as any crossover could indicate a shift in momentum. The 20-period Simple Moving Average (SMA) at 157.4759 serves as a dynamic support level. Should the price fall below this level, it could signal a potential reversal or a deeper corrective move.\n\nKey support levels are located near the recent low of 157.511, which may provide a buffer against downward movements. If the price breaches this support, it could open the door to further declines towards the next significant support zone. Conversely, resistance is firmly positioned around 157.60, where selling pressure may emerge. A breakout above this level could lead to an accelerated rally, potentially targeting psychological levels such as 158.00.\n\nFor traders, maintaining a close watch on price action around these key levels is crucial. A conservative approach may involve waiting for a confirmed breakout above 157.60 before entering long positions. Alternatively, should the price decline toward the SMA or support level, a buying opportunity could present itself, particularly if accompanied by bullish reversal signals. Risk management strategies, including stop-loss orders, should be employed to protect against unexpected volatility."
+    }
+  }
+}
