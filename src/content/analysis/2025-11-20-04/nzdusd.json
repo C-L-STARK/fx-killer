@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-20T04:17:34.327Z",
+  "price": {
+    "close": "0.56100982",
+    "high": "0.56126171",
+    "low": "0.56088394",
+    "open": "0.56088394",
+    "change": "0.02",
+    "datetime": "2025-11-20 15:00:00"
+  },
+  "indicators": {
+    "rsi": 41.97104,
+    "macd": -0.00086271453,
+    "macd_signal": -0.0010611416,
+    "sma20": 0.56122031
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理，需关注关键支撑阻力]",
+      "content": "当前纽元/美元(NZD/USD)的最新价格为0.5610，24小时内变化幅度较小，仅为0.02%。从价格走势来看，市场处于震荡整理阶段，未能突破前期高点0.5613，表明多头力量暂时不足。若价格持续在此区间内波动，投资者需关注后续的突破动向。\n\n在技术指标方面，MACD目前显示出轻微的负值(-0.00086)，表明短期内卖压略强。虽然RSI数据缺失，但结合其他指标来看，市场情绪相对谨慎。20日简单移动平均线(SMA)为0.5612，进一步确认了当前的震荡趋势，短期内未见明显的买入或卖出信号。\n\n支撑位方面，0.5609为近期低点，若价格跌破此位，可能会加速下跌至更低支撑位0.5605。阻力位则在0.5613附近，若突破该区域，有望挑战0.5620。投资者可在支撑位附近寻找买入机会，而在接近阻力位时则需谨慎，考虑获利了结或采取止损策略。\n\n综合来看，当前市场处于整理阶段，投资者应密切关注关键支撑和阻力位的突破情况，制定相应的交易策略，以应对未来可能的波动。保持灵活应变，合理控制风险，是此时的投资重点。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair currently trades at 0.5610, reflecting a slight 24-hour change of 0.02%. The recent high of 0.5613 and low of 0.5609 suggest a tight trading range, indicating consolidation within this level. This price action shows a lack of significant momentum in either direction, which may lead to further sideways movement unless a catalyst emerges. Traders should monitor for breakout opportunities above the recent high or breakdowns below the low to gauge the next directional move.\n\nTechnical indicators such as the MACD currently show a negative value at -0.00086, suggesting bearish momentum in the short term. However, the absence of a clear signal line makes it difficult to ascertain the strength of this trend. Additionally, the 20-period Simple Moving Average (SMA) at 0.5612 is situated just above the current price, acting as a potential resistance level. A sustained move above this SMA could indicate a shift in sentiment, prompting traders to consider long positions.\n\nSupport levels appear to be forming around the recent low of 0.5609, which could provide a safety net for bullish traders. A break below this level may lead to further downside, potentially targeting lower support levels around 0.5600. Conversely, if the price holds above this support and breaks through the SMA, traders might look for entry points around 0.5615 to capture potential upward momentum.\n\nIn summary, the NZD/USD is currently in a consolidation phase, with key levels established at 0.5609 and 0.5613. Traders should remain vigilant for breakouts, focusing on the SMA for potential resistance and observing the MACD for confirmation of momentum shifts. Given the current market dynamics, a cautious approach with defined entry and exit points will be essential for navigating this pair effectively."
+    }
+  }
+}

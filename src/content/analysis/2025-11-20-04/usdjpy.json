@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-20T04:15:19.399Z",
+  "price": {
+    "close": "157.32401",
+    "high": "157.42101",
+    "low": "157.27600",
+    "open": "157.41100",
+    "change": "-0.06",
+    "datetime": "2025-11-20 15:00:00"
+  },
+  "indicators": {
+    "rsi": 71.90807,
+    "macd": 0.43665956,
+    "macd_signal": 0.4153075,
+    "sma20": 156.7906
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理，短期观望]",
+      "content": "当前美元/日元（USD/JPY）价格在157.32附近震荡整理。近期价格波动较小，显示出市场情绪谨慎。虽然24小时变化为-0.06%，但高点和低点相对接近，表明短期内缺乏方向性。整体上，市场可能在寻找新的驱动因素来确认下一步走势。\n\n从技术指标来看，MACD目前显示出0.4366的正值，表明短期内多头仍占优，但由于缺乏信号线数据，无法完全确认趋势的强度。20日简单移动平均线（SMA）位于156.79，成为支撑位，若价格跌破此位，可能引发更多的卖盘。而RSI指标尚未提供，需关注其变化以评估超买或超卖情况。\n\n在支撑位方面，156.79是关键支撑，若跌破，则可能会测试156.50的心理关口。阻力位则在157.42附近，若突破此位，则有望进一步上涨。在当前震荡市中，建议投资者保持观望，耐心等待价格突破关键水平后再进行布局，以降低风险并提高成功率。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair currently shows a slight downtrend, trading at 157.32401, reflecting a 24-hour change of -0.06%. The price remains within a recent range, having reached a high of 157.42101 and a low of 157.27600. This movement indicates a consolidation phase, suggesting that market participants are assessing their positions ahead of potential volatility. A breakout above the recent high could initiate a bullish trend, while a drop below the low may lead to further downside.\n\nTechnical indicators provide mixed signals. The MACD line at 0.43665956 indicates a bullish momentum, although it is essential to consider the absence of a signal line value for a comprehensive interpretation. Without the RSI(14) data, we can't ascertain the overbought or oversold conditions definitively. However, the SMA(20) at 156.79060 serves as a critical support level. If prices pull back towards this moving average, it may offer a buying opportunity for traders looking to capitalize on a potential rebound.\n\nIn terms of support and resistance levels, the immediate support is observed at the 157.27600 mark, while resistance is positioned at 157.42101. A successful test of the support could encourage buyers to step in, potentially driving prices higher toward the resistance level. Conversely, if the price breaches the support, it may open the door for more significant declines, warranting caution among long positions.\n\nFor traders, a wait-and-see approach might be prudent at this juncture. A confirmation of a breakout above 157.42101 could signal a buying opportunity, while a drop below 157.27600 may warrant a short position. Utilizing stop-loss orders around these levels could help manage risk effectively, given the current market uncertainty and the technical setup."
+    }
+  }
+}
