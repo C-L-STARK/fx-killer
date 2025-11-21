@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-21T21:34:44.187Z",
+  "price": {
+    "close": "156.44600",
+    "high": "156.46100",
+    "low": "156.35400",
+    "open": "156.37900",
+    "change": "0.04",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 35.84304,
+    "macd": -0.20753773,
+    "macd_signal": -0.1655894,
+    "sma20": 156.7983
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理中]",
+      "content": "当前美元/日元的价格为156.44600，整体表现为震荡整理的状态。尽管24小时变化仅为0.04%，这表明市场缺乏明显的方向性趋势。短期内，价格在156.35400至156.46100之间波动，显示出市场参与者的犹豫情绪。\n\n从技术指标来看，MACD显示出负值，表明短期内卖压依然存在。虽然RSI数据缺失，但结合相对平稳的价格变化，可以推测市场未出现超买或超卖的情况。因此，投资者需关注价格是否突破当前的高点或低点，以判断后续动向。\n\n支撑位方面，156.35400为关键支撑，若价格跌破此位，可能引发进一步下调。阻力位则在156.79830附近，若价格突破该水平，可能引发买盘回升。在这种情况下，交易者可考虑在支撑位附近寻找买入机会，设定止损以控制风险。\n\n总体而言，当前市场环境较为谨慎，建议投资者保持观望，等待明确的突破信号再进行操作。同时，应密切关注即将发布的经济数据和市场消息，这些因素可能对美元/日元的走势产生重要影响。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 156.44600, showing a marginal increase of 0.04% over the last 24 hours. This indicates a relatively stable market, but the high of 156.46100 and low of 156.35400 within this period suggest a narrow trading range. The recent price action has been characterized by a slight downward trend, as the current price is below the 20-day Simple Moving Average (SMA) of 156.79830. This positioning relative to the SMA may signal a potential bearish sentiment in the short term.\n\nIn terms of indicators, the MACD shows a value of -0.20753773, which suggests that selling pressure is present. Since the MACD is below zero, it may indicate that the bearish momentum could continue unless there is a significant reversal. Without the RSI data, we lack confirmation on overbought or oversold conditions, but the negative MACD reading does raise caution for traders looking for bullish opportunities in the near term.\n\nKey support and resistance levels are critical for determining potential price movements. The immediate support level is at 156.35400, where the price has previously bounced back, indicating a potential buying area. Conversely, resistance is observed around the SMA level of 156.79830, which could act as a barrier for upward movement. A break above this resistance could open the door for a retest of higher levels, while a breakdown below support may lead to further declines.\n\nTraders may consider short positions if the price breaks below the support level, with targets set towards the next significant support area. Conversely, should the price manage to break above the SMA, a long position could be initiated, targeting resistance levels that follow. Careful monitoring of the MACD and emerging RSI data will be essential for refining these strategies and ensuring that trades are aligned with prevailing market conditions."
+    }
+  }
+}

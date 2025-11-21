@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-21T21:35:33.907Z",
+  "price": {
+    "close": "0.64575",
+    "high": "0.64596",
+    "low": "0.64568",
+    "open": "0.6457",
+    "change": "0.01",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 53.47285,
+    "macd": -0.000091919708,
+    "macd_signal": -0.0003924871,
+    "sma20": 0.644659
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理中]",
+      "content": "当前AUD/USD的价格为0.64575，近期波动较小，显示出市场的谨慎情绪。价格在0.64568至0.64596之间震荡整理，表明短期内缺乏明确的方向。考虑到这种横盘整理，市场参与者可能在等待更强的经济数据或政策指引。\n\n在技术指标方面，虽然RSI（相对强弱指数）未提供，但从MACD的负值来看，市场仍然处于弱势状态。价格未能突破20日简单移动平均线（SMA）0.644659，这进一步验证了当前的下行压力。若价格持续在此水平之下，可能会引发更多的卖盘。\n\n支撑位方面，0.64568是短期支撑，突破该位可能会导致进一步回调，目标看向0.644。然而，如果价格向上突破0.64596，则有可能恢复上涨趋势，测试0.647的阻力位。投资者需密切关注这些关键价格点，以调整交易策略。\n\n基于当前市场情况，建议短期内采取观望态度，避免在震荡区域内盲目进场。如果价格突破关键支撑或阻力位，可考虑相应的多头或空头布局。同时，保持对经济数据的关注，以便及时调整策略。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD currency pair is currently experiencing a period of consolidation, trading at 0.64575 with a minimal 24-hour change of 0.01%. This stability suggests a market in search of direction, particularly as it hovers near the recent high of 0.64596 and low of 0.64568. The absence of significant price movement indicates that traders are likely awaiting further economic indicators or geopolitical developments that could influence the Australian dollar's value against the US dollar.\n\nFrom a technical perspective, the SMA(20) at 0.64465900 serves as an important support level. If the price were to breach this level, it could trigger bearish sentiment, leading to further downside towards the next support around 0.64300. Conversely, if the price holds above this moving average, it might attract buyers, potentially pushing the pair toward the resistance level around 0.64700. This critical zone could act as a barrier for upward movement unless strong bullish momentum emerges.\n\nThe MACD indicator currently shows a slight negative value, indicating that the bearish momentum is still present, although the lack of a signal line makes it difficult to gauge the strength of this trend. A crossover in the future could provide clearer signals for traders. The RSI, though not available, would typically help in assessing whether the asset is overbought or oversold, which could further influence trading strategies.\n\nGiven the current technical landscape, traders might consider a cautious approach. A break below 0.64465 could signal a short-selling opportunity, while a push above 0.64700 could invite buying interest. Maintaining a watchful eye on economic data releases and market sentiment will be crucial for making informed trading decisions in the coming sessions."
+    }
+  }
+}

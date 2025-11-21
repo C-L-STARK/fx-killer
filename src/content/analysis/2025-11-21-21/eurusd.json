@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-21T21:33:09.773Z",
+  "price": {
+    "close": "1.15155",
+    "high": "1.1521",
+    "low": "1.15155",
+    "open": "1.15174",
+    "change": "-0.02",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 45.8281,
+    "macd": -0.00057864672,
+    "macd_signal": -0.00055483913,
+    "sma20": 1.15223
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡走势待突破]",
+      "content": "当前欧元/美元（EUR/USD）最新价格为1.15155，整体呈现震荡走势。从24小时变化来看，价格小幅下跌0.02%，表明市场交投谨慎。高点1.1521与低点1.15155之间的窄幅波动，显示出市场缺乏明确的方向，投资者需密切关注后续动向。\n\n在技术指标方面，MACD值为-0.00057864672，表明短期内卖压略强，且RSI尚未提供具体数值，因此暂时无法判断超买或超卖状态。20日简单移动平均线（SMA）为1.15223，价格在其下方运行，暗示短期内可能面临进一步的下行压力。\n\n支撑位方面，1.1500是一个重要的心理关口，若跌破该水平，可能会引发更大的抛售。而阻力位则位于1.1525附近，如果价格突破该位置，可能会重新点燃多头的信心，推动价格上涨。投资者应保持警惕，关注价格在这些关键水平的表现。\n\n综合来看，建议投资者在当前震荡行情中采取谨慎的交易策略。可以考虑在支撑位附近寻找买入机会，而在接近阻力位时则适时获利了结。保持灵活，密切关注市场动态，以便及时调整交易策略。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD pair is currently trading at 1.15155, reflecting a slight decline of 0.02% over the past 24 hours. The market is positioned just below the recent high of 1.1521, suggesting that bullish momentum may be waning. A close examination of price action indicates a consolidation phase, where the pair has been trading within a narrow range. This sideways movement could signal indecision among traders, awaiting further cues from economic data or geopolitical developments.\n\nIn terms of indicators, the MACD is currently negative at -0.00057864672, which implies a bearish sentiment in the short term. While the RSI value is not available, the MACD's position suggests a lack of strong buying pressure, reinforcing the recent downward price movement. The SMA(20) at 1.15223 is above the current price, indicating a potential resistance level. Traders may look for confirmation of a bearish trend if the price fails to break above this moving average.\n\nSupport levels appear to be forming around the recent low, with traders likely eyeing 1.1500 as a key psychological barrier. A sustained drop below this level could trigger further selling pressure, with targets potentially extending towards 1.1480. Conversely, if the price manages to reclaim the SMA(20) and break above 1.1521, it may open the door for a rally towards 1.1550, where additional resistance may come into play.\n\nGiven the current market dynamics, traders might consider a cautious approach. Short positions could be warranted if the price breaks below 1.1500, while a bullish reversal may present an opportunity for long positions if the market reclaims the SMA(20) and demonstrates strong upward momentum. As always, risk management strategies should be in place to navigate this uncertain market environment effectively."
+    }
+  }
+}
