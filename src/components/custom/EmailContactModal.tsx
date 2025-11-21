@@ -8,7 +8,7 @@ interface EmailContactModalProps {
   onClose: () => void;
   title?: string;
   emailSubject?: string;
-  formType?: 'interview' | 'contact' | 'propfirm' | 'membership' | 'dna-interview';
+  formType?: 'interview' | 'contact' | 'propfirm' | 'membership' | 'dna-interview' | 'copy-trading';
 }
 
 export default function EmailContactModal({ isOpen, onClose, title, formType = 'interview' }: EmailContactModalProps) {

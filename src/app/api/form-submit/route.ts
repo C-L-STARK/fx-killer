@@ -49,7 +49,7 @@ export async function POST(request: NextRequest) {
         price_cny: priceCny || null,
         payment_method: paymentMethod || null,
         language: language || 'zh',
-        stage: '面试邀约',
+        stage: formType === 'copy-trading' ? '跟单预约' : '面试邀约',
         email_sent: false,
       })
       .select()

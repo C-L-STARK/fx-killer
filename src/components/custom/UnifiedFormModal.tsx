@@ -14,7 +14,7 @@ interface PlanData {
 interface UnifiedFormModalProps {
   isOpen: boolean;
   onClose: () => void;
-  formType: 'interview' | 'contact' | 'propfirm' | 'membership' | 'dna-interview';
+  formType: 'interview' | 'contact' | 'propfirm' | 'membership' | 'dna-interview' | 'copy-trading';
   title?: string;
   planData?: PlanData;
 }
@@ -53,6 +53,8 @@ export default function UnifiedFormModal({
         return isZh ? `选择计划: ${planData?.size || ''}` : `Selected Plan: ${planData?.size || ''}`;
       case 'membership':
         return isZh ? '申请成为会员' : 'Apply for Membership';
+      case 'copy-trading':
+        return isZh ? '申请跟单' : 'Apply for Copy Trading';
       default:
         return isZh ? '联系我们' : 'Contact Us';
     }

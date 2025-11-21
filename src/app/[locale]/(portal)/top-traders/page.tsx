@@ -417,6 +417,7 @@ export default function TopTradersPage() {
         onClose={() => setIsModalOpen(false)}
         title={isZh ? '申请跟单服务' : 'Apply for Copy Trading'}
         emailSubject={isZh ? '跟单咨询' : 'Copy Trading Inquiry'}
+        formType="copy-trading"
       />
     </div>
   );
