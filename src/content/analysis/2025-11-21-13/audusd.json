@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-21T13:44:54.719Z",
+  "price": {
+    "close": "0.64477",
+    "high": "0.64523",
+    "low": "0.64424",
+    "open": "0.64439",
+    "change": "0.06",
+    "datetime": "2025-11-22 00:00:00"
+  },
+  "indicators": {
+    "rsi": 48.27976,
+    "macd": -0.00071571711,
+    "macd_signal": -0.00079913183,
+    "sma20": 0.64458
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理，需关注关键水平]",
+      "content": "当前AUD/USD的价格在0.64477附近运行，整体趋势呈现震荡整理的态势。近期价格在0.64523的高点和0.64424的低点之间波动，表明市场缺乏方向性。投资者需密切关注这些区间以判断后续走势。\n\n从技术指标来看，MACD目前显示微弱的负值，表明卖方力量略占上风，但尚未形成明显的下行趋势。虽然RSI未提供具体数值，但若RSI持续在40以下，可能暗示市场存在超卖风险，短期内有反弹的可能性。\n\n在支撑和阻力方面，0.64424是关键支撑位，若有效跌破该水平，可能会加速下行。而0.64523则是短期阻力，突破该位有望推动价格进一步上涨。关注这两个关键水平将有助于制定交易策略。\n\n建议投资者在当前区间内进行短线交易，尤其是在接近支撑位时寻找买入机会，而在接近阻力位时则考虑获利了结。同时，保持警惕，若出现突破信号，应及时调整策略以应对市场变化。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) against the US Dollar (USD) is currently trading at 0.64477, maintaining a narrow range with a 24-hour change of 0.06%. The recent price action suggests a consolidation phase, with the pair oscillating between the high of 0.64523 and the low of 0.64424. This range-bound movement indicates a lack of strong momentum in either direction, which may lead to a breakout in the near term as traders seek clearer signals.\n\nFrom a technical perspective, the 20-period Simple Moving Average (SMA) at 0.64458 is acting as a dynamic support level. This level aligns closely with the recent low, reinforcing its significance. If the price manages to sustain above this SMA, it could signal a potential bullish reversal, especially if accompanied by an increase in trading volume. Conversely, a break below this level may encourage further selling pressure, with the next support seen around 0.64300.\n\nThe MACD indicator is currently showing a slightly bearish momentum with a value of -0.00071571711, suggesting that sellers are exerting some control. However, without the signal line data, it’s challenging to assess the full momentum picture. Traders should monitor the RSI for potential divergence, which could indicate a reversal if it becomes available. A rising RSI above the neutral 50 level would further support a bullish outlook.\n\nIn terms of trading strategy, traders might consider a cautious approach, awaiting a clear breakout above 0.64523 or a decisive move below 0.64424. A break above could target resistance levels at 0.64700, while a downside breach could lead to a test of 0.64300 and beyond. Implementing stop-loss orders around these key levels would be prudent to manage risk effectively in this volatile environment."
+    }
+  }
+}

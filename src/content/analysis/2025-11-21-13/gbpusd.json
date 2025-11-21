@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-21T13:43:22.248Z",
+  "price": {
+    "close": "1.30844",
+    "high": "1.30900",
+    "low": "1.30813",
+    "open": "1.30900",
+    "change": "-0.04",
+    "datetime": "2025-11-22 00:00:00"
+  },
+  "indicators": {
+    "rsi": 51.58318,
+    "macd": -0.00012751504,
+    "macd_signal": -0.000074535311,
+    "sma20": 1.30799
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理，关注支撑与阻力]",
+      "content": "当前英镑/美元汇率为1.30844，价格在过去24小时内略微下跌0.04%。从近期走势来看，汇价在1.30800附近震荡整理，表明市场缺乏明确的方向性。交易者需要关注即将到来的经济数据及市场消息，以确定后续的走向。\n\n技术指标方面，20日简单移动平均线（SMA）位于1.30799，表明短期内汇价可能会维持在该水平附近。虽然当前未提供RSI和MACD的完整数据，但从价格波动来看，市场情绪偏谨慎，可能导致短期内的盘整行情。\n\n支撑位方面，1.30800是一个关键的心理关口，若跌破该水平，可能会进一步测试1.30700的支撑。而上方的阻力位则位于1.31000，若突破该水平，将可能引发更强的反弹行情。投资者在操作时应密切关注这些关键价位。\n\n交易建议方面，建议投资者在1.30800附近寻找做多机会，止损设置在1.30700以下。如果汇价突破1.31000，则可考虑加仓多头。同时，保持对市场消息的敏感度，以便及时调整策略，规避潜在风险。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently trading at 1.30844, reflecting a slight decline of 0.04% over the past 24 hours. This minor downturn suggests a consolidation phase, as the price remains tightly bound between the recent high of 1.30900 and the low of 1.30813. The market appears to be in a cautious stance, potentially indicating indecision among traders as they await further cues from economic data or geopolitical developments.\n\nFrom a trend analysis perspective, the GBP/USD is exhibiting a neutral to slightly bearish bias in the short term. The price is currently above the 20-period simple moving average (SMA) of 1.30799, which may act as a dynamic support level. However, the lack of a clear upward momentum suggests that traders should remain vigilant for any potential breakdown below this SMA, which could lead to further selling pressure and a retest of the recent low.\n\nTechnical indicators, including the MACD, present a mixed picture. The MACD is marginally negative at -0.00012751504, indicating that bearish momentum is present, but without significant strength. The absence of the RSI(14) limits our ability to assess overbought or oversold conditions. Traders should monitor these indicators closely, particularly if the MACD begins to cross back into positive territory, which could signal a recovery.\n\nIn terms of trading suggestions, a cautious approach is advisable. Traders could consider buying on dips near the support level of 1.30799, with a stop-loss placed slightly below this level to manage risk. Conversely, if the price breaks below this support, it may be prudent to consider short positions, targeting the next support level around 1.30600. Overall, maintaining a flexible strategy will be crucial as market conditions evolve."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-21T13:48:04.892Z",
+  "price": {
+    "close": "4068.21696",
+    "high": "4070.6771",
+    "low": "4058.65049",
+    "open": "4062.487",
+    "change": "0.13",
+    "datetime": "2025-11-22 00:00:00"
+  },
+  "indicators": {
+    "rsi": 53.68534,
+    "macd": -5.61328,
+    "macd_signal": -7.093686,
+    "sma20": 4058.89829
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，关注支撑与阻力]",
+      "content": "当前黄金/美元（XAU/USD）价格为4068.22，近期走势表现出震荡整理的特征。价格在高点4070.68和低点4058.65之间波动，显示出市场参与者的观望情绪。若价格突破4070.68，将可能引发进一步上涨；反之，跌破4058.65则可能导致下行趋势。\n\n从技术指标来看，当前的MACD值为-5.61328，表明短期内动能偏弱，需谨慎对待。此外，由于RSI(14)未提供，无法评估超买或超卖状态。20日简单移动平均线（SMA）处于4058.90，显示出短期内价格有一定的支撑作用，若价格回调至此位置，可能吸引买盘介入。\n\n在支撑与阻力方面，4058.65是重要支撑位，而4070.68则是关键阻力位。若价格向上突破4070.68，可能会进一步测试4080.00的心理关口。而若跌破4058.65，则需关注下方的支撑位4045.00。\n\n建议投资者在当前震荡区间内进行相应的交易策略，逢低买入或逢高卖出。同时，密切关注价格突破的情况，及时调整仓位，以应对可能的市场波动。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4068.22 indicates a relatively stable market, with a modest 24-hour change of 0.13%. The price has oscillated between 4070.68 and 4058.65, suggesting a consolidation phase. This behavior typically indicates indecision among traders, potentially leading to a breakout. A close above 4070.68 could signal a bullish trend, while a drop below 4058.65 may confirm a bearish sentiment.\n\nThe absence of recent RSI data limits our ability to gauge momentum effectively; however, a MACD reading of -5.61 suggests that the market is currently in a bearish phase. This negative value implies that the momentum is leaning towards selling pressure. Meanwhile, the 20-day Simple Moving Average at 4058.90 provides a dynamic support level, reinforcing the idea that price action could remain contained within this range unless a decisive move occurs.\n\nTraders should keep a close eye on key support and resistance levels. The immediate support is found around 4058.65, which, if broken, could lead to further declines towards 4050. Conversely, resistance is noted at 4070.68, with a breakout here likely to attract buying interest. Monitoring these levels will be crucial for positioning in the market, especially as traders look for confirmation of either trend direction.\n\nIn terms of trading strategy, a buy position could be considered on a confirmed break above 4070.68, particularly if accompanied by increasing volume. Conversely, a sell position may be warranted if the price breaches the support at 4058.65, particularly if other indicators align with this bearish outlook. Overall, maintaining a vigilant approach and adhering to these critical levels will be essential for navigating the current landscape of XAU/USD."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-21T13:42:36.068Z",
+  "price": {
+    "close": "1.15217",
+    "high": "1.15243",
+    "low": "1.15158",
+    "open": "1.15243",
+    "change": "-0.02",
+    "datetime": "2025-11-22 00:00:00"
+  },
+  "indicators": {
+    "rsi": 44.53182,
+    "macd": -0.00032241915,
+    "macd_signal": -0.00016440177,
+    "sma20": 1.15313
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理，谨慎观望]",
+      "content": "当前欧元/美元（EUR/USD）在1.15217附近震荡整理，24小时变化微幅下跌0.02%。价格在高点1.15243和低点1.15158之间波动，显示出市场缺乏明确方向。短期内，需关注市场情绪变化及经济数据发布对该货币对的影响。\n\n从技术指标来看，MACD指标显示出轻微的负值，表明卖方力量稍占上风，但未形成明显的下行趋势。由于RSI未提供，无法判断超买或超卖情况。20日简单移动平均线（SMA）在1.15313，进一步显示出当前价格接近这一均线，可能成为短期内的支撑位。\n\n在支撑和阻力层面，当前支撑位位于1.15158，而阻力位则在1.15313附近。若价格突破1.15313，有望进一步测试1.1550的心理关口，反之则可能回落至1.1500附近。投资者需密切关注价格行为，并考虑在确认信号后再进行操作。\n\n综上所述，当前市场环境下，建议投资者保持谨慎观望，等待更清晰的突破信号再进行进场操作。风险管理依然是交易的重中之重，切勿盲目追高或杀跌。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD currency pair is currently trading at 1.15217, reflecting a slight decline of 0.02% over the past 24 hours. The recent price action shows a narrow trading range, with a high of 1.15243 and a low of 1.15158. This range-bound movement suggests indecision among traders, as they await further market catalysts to establish a clearer trend. The lack of a significant directional bias indicates that the pair may continue to oscillate within this range until a breakout occurs.\n\nIn terms of technical indicators, the absence of a calculated RSI(14) limits our ability to assess overbought or oversold conditions. However, the MACD value is slightly negative, which could suggest a bearish sentiment, albeit weak. The SMA(20) stands at 1.15313, acting as a dynamic resistance level. If the price fails to break above this moving average, it may reinforce downward pressure, pushing the pair closer to the support level around 1.15158.\n\nSupport and resistance levels are critical for traders in this environment. Immediate support is established at the recent low of 1.15158, which, if breached, could lead to further declines towards the next significant support around 1.15000. Conversely, a break above the SMA(20) at 1.15313 could trigger buying interest, with potential targets set at 1.15500 and beyond. \n\nIn light of the current market dynamics, traders may consider a cautious approach. A breakout above the SMA(20) could warrant a long position, while a confirmed break below 1.15158 might present a short opportunity. Risk management is essential, given the tight range and the potential for volatility in response to economic data releases or geopolitical events."
+    }
+  }
+}
