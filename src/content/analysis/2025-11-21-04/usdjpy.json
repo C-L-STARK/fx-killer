@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-21T04:16:07.840Z",
+  "price": {
+    "close": "157.14900",
+    "high": "157.30901",
+    "low": "157.076996",
+    "open": "157.29401",
+    "change": "-0.10",
+    "datetime": "2025-11-21 15:00:00"
+  },
+  "indicators": {
+    "rsi": 45.39806,
+    "macd": 0.074872982,
+    "macd_signal": 0.1534934,
+    "sma20": 157.44895
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理中，短期承压]",
+      "content": "当前美元/日元（USD/JPY）的价格为157.149，近期呈现出小幅下滑的趋势。尽管24小时变化仅为-0.10%，但价格波动范围相对较小，显示出市场在157.3至157.1区间内震荡整理。投资者需关注这一价格区间，若突破157.3，将可能引发进一步的上涨。\n\n从技术指标来看，MACD目前值为0.074872982，虽然未能提供强烈的买入或卖出信号，但可视为短期内多头的力量依然存在。同时，由于RSI（14）未提供，难以评估超买或超卖状态。因此，建议密切关注后续指标的变化，以便做出更为精准的判断。\n\n在支撑和阻力方面，157.076996被视为关键支撑位，若价格跌破该水平，可能会引发更大幅度的回调。而157.30901则是重要的阻力位，突破该位置将可能引发进一步的上涨行情。交易者可以考虑在支撑位附近寻找买入机会，同时在接近阻力位时采取获利了结策略。\n\n总体而言，美元/日元当前处于震荡整理阶段，短期内可能继续维持在157.3和157.1之间。建议保持谨慎，关注市场动态，并根据技术指标的变化适时调整交易策略。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair currently trades at 157.149, reflecting a slight decline of 0.10% over the last 24 hours. The market has been oscillating within a range defined by the recent high of 157.309 and a low of 157.077. This price action suggests a consolidation phase, with the pair struggling to break above the recent highs, indicating potential resistance at the 157.30 level. A sustained move above this zone could lead to a bullish breakout, while failure to hold above 157.00 may trigger selling pressure.\n\nIn terms of technical indicators, the absence of a defined RSI makes it difficult to assess overbought or oversold conditions. However, the MACD reading of 0.074 indicates a bullish momentum, albeit weak. Traders should monitor for a crossover in the MACD, which could confirm a shift in momentum. The 20-period simple moving average (SMA) at 157.448 provides a critical level to watch, acting as a dynamic resistance. If the price can reclaim this SMA, it may signal a stronger upward move.\n\nKey support levels for the pair are found around 157.00 and further down at 156.80, where buyers may step in to defend the price. Below these levels, a more significant decline could materialize, bringing into focus the 156.50 mark. Conversely, should the price break above 157.30, traders might look for an extension toward 157.60 as the next resistance target. A clear break and close above this level could signal a more substantial bullish trend.\n\nIn conclusion, traders should adopt a cautious approach in this range-bound market. Monitoring price action around the key levels of 157.30 and 157.00 will be crucial. A break above the former could present a buying opportunity, while a drop below the latter might warrant a bearish stance. Keeping an eye on the MACD and potential SMA crossovers will also be essential for confirming entry and exit points."
+    }
+  }
+}

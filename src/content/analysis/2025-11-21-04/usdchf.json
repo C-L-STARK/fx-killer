@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-21T04:19:11.382Z",
+  "price": {
+    "close": "0.80418998",
+    "high": "0.80479997",
+    "low": "0.80413002",
+    "open": "0.80475998",
+    "change": "-0.07",
+    "datetime": "2025-11-21 15:00:00"
+  },
+  "indicators": {
+    "rsi": 40.78114,
+    "macd": -0.000033314116,
+    "macd_signal": 0.00025259992,
+    "sma20": 0.805733
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理趋势]",
+      "content": "在当前市场环境中，美元/瑞郎（USD/CHF）呈现出震荡整理的趋势。最新价格为0.8042，较24小时前微幅下跌0.07%。价格在高点0.8048和低点0.8041之间波动，显示出市场缺乏明确的方向，投资者情绪谨慎。\n\n从技术指标来看，虽然当前没有提供RSI和MACD的完整数据，但SMA(20)为0.8057，显示出短期内价格仍在该均线下方，可能形成阻力。若价格能够突破0.8057，可能会吸引更多买盘。然而，若持续在此水平下方，则需关注下方支撑位0.8041的强度。\n\n支撑位方面，0.8041是重要的心理关口，若下破该水平，可能引发进一步下行，测试更低的支撑位0.8030。而上方的阻力位则在0.8057，突破后可能会引发多头趋势。因此，投资者需密切关注这两个关键价位的突破情况。\n\n综合来看，建议投资者在当前市场环境中采取观望态度，谨慎操作。如价格突破0.8057可考虑做多，而若跌破0.8041则应考虑做空，以控制风险并把握市场机会。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair is currently trading at 0.8042, reflecting a slight decline of 0.07% over the last 24 hours. This minor pullback occurs within a relatively narrow range, with the high at 0.8048 and the low at 0.8041. The price action suggests a consolidation phase, potentially indicating indecision among traders. A close observation of this range is crucial, as a breakout above 0.8057 could signal a bullish momentum, while a break below 0.8041 may lead to further downside.\n\nIn terms of technical indicators, the absence of a current RSI value prevents a comprehensive momentum analysis. However, the MACD shows a slight bearish divergence with a value of -0.0000333, indicating that the bearish pressure is relatively weak. The SMA(20) at 0.8057 acts as a dynamic resistance level, which traders should monitor closely. If the pair manages to reclaim this moving average, it could suggest a return to bullish sentiment.\n\nSupport levels are notably present at 0.8041 and further at 0.8035, where buyers may step in to stabilize the pair. Conversely, resistance is expected around 0.8057, with an additional level at 0.8065. Traders should consider these levels as critical points for potential reversals or breakouts. A decisive move past these points could provide clearer direction for the USD/CHF pair.\n\nFor trading strategies, a cautious approach is advisable. A buy position could be considered if the price sustains above the SMA(20) and breaks through the 0.8057 resistance, indicating renewed bullish momentum. Alternatively, if the price fails to hold above the support at 0.8041, a short position may be warranted, targeting the next support level at 0.8035. Always ensure to manage risk effectively, utilizing stop-loss orders to protect against unexpected volatility."
+    }
+  }
+}
