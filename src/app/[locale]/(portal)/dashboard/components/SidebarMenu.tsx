@@ -26,6 +26,7 @@ export default function SidebarMenu({ activeTab, onTabChange }: SidebarMenuProps
         { id: 'livestream', label: language === 'zh' ? '实时直播管理' : 'Livestream Management', icon: '🎥' },
         { id: 'blog', label: language === 'zh' ? '博客文章管理' : 'Blog Management', icon: '📝' },
         { id: 'top-traders', label: language === 'zh' ? '交易员排行榜' : 'Top Traders', icon: '🏆' },
+        { id: 'trading-orders', label: language === 'zh' ? '实盘订单管理' : 'Trading Orders', icon: '📊' },
         { id: 'config', label: language === 'zh' ? '配置管理' : 'Configuration', icon: '🔧' },
       ],
     },
@@ -49,8 +50,8 @@ export default function SidebarMenu({ activeTab, onTabChange }: SidebarMenuProps
                   key={item.id}
                   onClick={() => onTabChange(item.id)}
                   className={`w-full flex items-center gap-3 px-4 py-3 text-left transition-all ${activeTab === item.id
-                      ? 'bg-[#ff102a] text-white font-bold'
-                      : 'text-gray-300 hover:bg-white/5'
+                    ? 'bg-[#ff102a] text-white font-bold'
+                    : 'text-gray-300 hover:bg-white/5'
                     }`}
                 >
                   <span className="text-xl">{item.icon}</span>

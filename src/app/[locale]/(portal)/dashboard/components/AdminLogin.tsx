@@ -50,8 +50,9 @@ export default function AdminLogin({ onAuthenticate }: AdminLoginProps) {
       <div className="max-w-md w-full mx-4">
         <div className="bg-[#0a0a0a] border border-white/10 p-8">
           <div className="text-center mb-8">
-            <h1 className="text-3xl font-bold text-white mb-2">
-              <BrandName /> {t('login.title')}
+            <h1 className="text-3xl font-bold text-white mb-2 flex items-center justify-center gap-3">
+              <BrandName />
+              <span>{t('login.title')}</span>
             </h1>
             <p className="text-gray-400">
               {t('login.subtitle')}

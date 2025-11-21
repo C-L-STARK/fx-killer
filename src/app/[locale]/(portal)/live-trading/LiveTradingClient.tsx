@@ -5,6 +5,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { parseVideoUrl, getPlatformName, type VideoEmbed } from '@/lib/videoEmbedParser';
 import PremiumCTA from '@/components/custom/PremiumCTA';
 import EmailContactModal from '@/components/custom/EmailContactModal';
+import LiveOrdersDisplay from '@/components/trading/LiveOrdersDisplay';
 
 interface MatrixMember {
   id: number;
@@ -158,6 +159,13 @@ export default function LiveTradingClient({ members }: LiveTradingClientProps) {
             </div>
           );
         })}
+      </div>
+
+      {/* Trading Orders Display */}
+      <div className="bg-black py-16 px-6">
+        <div className="max-w-7xl mx-auto">
+          <LiveOrdersDisplay />
+        </div>
       </div>
 
       {/* Premium CTA */}

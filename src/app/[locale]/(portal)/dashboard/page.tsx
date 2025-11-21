@@ -10,6 +10,7 @@ import ConfigManager from './components/ConfigManager';
 import TopTradersManager from './components/TopTradersManager';
 import UserManager from './components/UserManager';
 import EmailTemplateManager from './components/EmailTemplateManager';
+import TradingOrdersPage from './trading-orders/page';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function TradingDashboard() {
@@ -74,6 +75,8 @@ export default function TradingDashboard() {
         return <BlogManager />;
       case 'top-traders':
         return <TopTradersManager />;
+      case 'trading-orders':
+        return <TradingOrdersPage />;
       case 'config':
         return <ConfigManager />;
       default:
