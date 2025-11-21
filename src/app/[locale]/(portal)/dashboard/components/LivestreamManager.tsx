@@ -140,7 +140,7 @@ export default function LivestreamManager() {
   return (
     <div className="p-8">
       <div className="mb-6 flex justify-between items-center">
-        <h1 className="text-3xl font-black text-black dark:text-white">
+        <h1 className="text-3xl font-black text-white">
           {language === 'zh' ? '实时直播管理' : 'Livestream Management'}
         </h1>
         <div className="flex gap-3 items-center">
@@ -166,60 +166,60 @@ export default function LivestreamManager() {
       </div>
 
       {showForm && (
-        <div className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 p-6 mb-6">
-          <h2 className="text-xl font-bold text-black dark:text-white mb-4">
+        <div className="bg-[#0a0a0a] border-2 border-gray-200 dark:border-gray-700 p-6 mb-6">
+          <h2 className="text-xl font-bold text-white mb-4">
             {editingStream ? (language === 'zh' ? '编辑直播' : 'Edit Stream') : (language === 'zh' ? '添加新直播' : 'Add New Stream')}
           </h2>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+              <label className="block text-sm font-medium text-gray-300 mb-2">
                 {language === 'zh' ? '昵称' : 'Nickname'}
               </label>
               <input
                 type="text"
                 value={formData.nickname}
                 onChange={(e) => setFormData({ ...formData, nickname: e.target.value })}
-                className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                 required
               />
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+              <label className="block text-sm font-medium text-gray-300 mb-2">
                 {language === 'zh' ? '简述/交易类型' : 'Description/Trading Type'}
               </label>
               <input
                 type="text"
                 value={formData.description}
                 onChange={(e) => setFormData({ ...formData, description: e.target.value })}
-                className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                 required
               />
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+              <label className="block text-sm font-medium text-gray-300 mb-2">
                 {language === 'zh' ? '直播链接 (YouTube URL)' : 'Live URL (YouTube URL)'}
               </label>
               <input
                 type="text"
                 value={formData.live_url}
                 onChange={(e) => setFormData({ ...formData, live_url: e.target.value })}
-                className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                 placeholder="https://youtube.com/watch?v=..."
                 required
               />
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+              <label className="block text-sm font-medium text-gray-300 mb-2">
                 {language === 'zh' ? '备注 (上次直播时间等)' : 'Remark (Last Live Time, etc.)'}
               </label>
               <input
                 type="text"
                 value={formData.remark}
                 onChange={(e) => setFormData({ ...formData, remark: e.target.value })}
-                className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
               />
             </div>
 
@@ -233,7 +233,7 @@ export default function LivestreamManager() {
               <button
                 type="button"
                 onClick={resetForm}
-                className="px-6 py-2 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                className="px-6 py-2 border-2 border-gray-300 dark:border-gray-600 text-gray-300 hover:bg-gray-100 dark:hover:bg-[#0a0a0a]"
               >
                 {language === 'zh' ? '取消' : 'Cancel'}
               </button>
@@ -245,23 +245,23 @@ export default function LivestreamManager() {
       {loading ? (
         <div className="text-center py-12 text-gray-500">{language === 'zh' ? '加载中...' : 'Loading...'}</div>
       ) : (
-        <div className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700">
+        <div className="bg-[#0a0a0a] border-2 border-gray-200 dark:border-gray-700">
           <table className="w-full">
             <thead>
               <tr className="border-b-2 border-gray-200 dark:border-gray-700">
-                <th className="px-6 py-4 text-left text-sm font-bold text-black dark:text-white">
+                <th className="px-6 py-4 text-left text-sm font-bold text-white">
                   {language === 'zh' ? '昵称' : 'Nickname'}
                 </th>
-                <th className="px-6 py-4 text-left text-sm font-bold text-black dark:text-white">
+                <th className="px-6 py-4 text-left text-sm font-bold text-white">
                   {language === 'zh' ? '简述' : 'Description'}
                 </th>
-                <th className="px-6 py-4 text-left text-sm font-bold text-black dark:text-white">
+                <th className="px-6 py-4 text-left text-sm font-bold text-white">
                   {language === 'zh' ? '直播链接' : 'Live URL'}
                 </th>
-                <th className="px-6 py-4 text-left text-sm font-bold text-black dark:text-white">
+                <th className="px-6 py-4 text-left text-sm font-bold text-white">
                   {language === 'zh' ? '备注' : 'Remark'}
                 </th>
-                <th className="px-6 py-4 text-right text-sm font-bold text-black dark:text-white">
+                <th className="px-6 py-4 text-right text-sm font-bold text-white">
                   {language === 'zh' ? '操作' : 'Actions'}
                 </th>
               </tr>

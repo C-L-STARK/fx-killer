@@ -9,6 +9,7 @@ import { LeaderboardPeriod } from '@/types/top-traders';
 import { motion } from 'motion/react';
 import EmailContactModal from '@/components/custom/EmailContactModal';
 import ShineButton from '@/components/custom/ShineButton';
+import PremiumCTA from '@/components/custom/PremiumCTA';
 
 export default function TopTradersPage() {
   const { language } = useLanguage();
@@ -65,13 +66,13 @@ export default function TopTradersPage() {
 
   const getReturnColor = (value: number) => {
     if (value >= 30) return 'text-green-600 dark:text-green-400';
-    if (value >= 20) return 'text-blue-600 dark:text-blue-400';
+    if (value >= 20) return 'text-gray-400';
     return 'text-gray-900 dark:text-white';
   };
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-50 dark:bg-gray-950 flex items-center justify-center">
+      <div className="min-h-screen bg-gray-50 dark:bg-black flex items-center justify-center">
         <div className="text-center">
           <div className="inline-block animate-spin w-12 h-12 border-4 border-black dark:border-white border-t-transparent dark:border-t-transparent rounded-full mb-4"></div>
           <p className="text-lg font-bold text-black dark:text-white">
@@ -84,7 +85,7 @@ export default function TopTradersPage() {
 
   if (error) {
     return (
-      <div className="min-h-screen bg-gray-50 dark:bg-gray-950 flex items-center justify-center">
+      <div className="min-h-screen bg-gray-50 dark:bg-black flex items-center justify-center">
         <div className="text-center">
           <p className="text-lg font-bold text-red-600 dark:text-red-400 mb-4">
             {isZh ? '加载失败' : 'Failed to load'}
@@ -97,7 +98,7 @@ export default function TopTradersPage() {
 
   if (traders.length === 0) {
     return (
-      <div className="min-h-screen bg-gray-50 dark:bg-gray-950 flex items-center justify-center">
+      <div className="min-h-screen bg-gray-50 dark:bg-black flex items-center justify-center">
         <p className="text-lg font-bold text-gray-500 dark:text-gray-400">
           {isZh ? '暂无数据' : 'No data available'}
         </p>
@@ -106,17 +107,17 @@ export default function TopTradersPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
+    <div className="min-h-screen bg-gray-50 dark:bg-black">
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-br from-black via-gray-900 to-black text-white border-b-2 border-gray-800 overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-white blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-white blur-3xl"></div>
+      <div className="relative bg-black text-white border-b-2 border-[#ff102a] overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-[#ff102a] blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#ff102a] blur-3xl"></div>
         </div>
 
         <div className="relative max-w-6xl mx-auto px-6 py-24 text-center">
-          <div className="inline-block px-6 py-2 bg-white/10 border border-white/20 backdrop-blur-sm mb-6">
-            <span className="text-sm font-semibold tracking-wider">
+          <div className="inline-block px-6 py-2 bg-[#ff102a]/10 border border-[#ff102a] backdrop-blur-sm mb-6">
+            <span className="text-sm font-semibold tracking-wider text-[#ff102a]">
               {isZh ? '交易员排行榜' : 'Trader Leaderboard'}
             </span>
           </div>
@@ -163,36 +164,36 @@ export default function TopTradersPage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.1 }}
-              className={`bg-white dark:bg-gray-900 border-2 p-6 ${
-                trader.rank === 1
-                  ? 'border-yellow-500 order-first md:order-2'
-                  : trader.rank === 2
+              className={`bg-black border-2 p-6 relative overflow-hidden group ${trader.rank === 1
+                ? 'border-yellow-500 order-first md:order-2 shadow-[0_0_30px_rgba(234,179,8,0.15)]'
+                : trader.rank === 2
                   ? 'border-gray-400 order-2 md:order-first'
                   : 'border-orange-600 order-3'
-              }`}
+                }`}
             >
-              <div className="text-center">
+              <div className="absolute inset-0 bg-gradient-to-b from-white/5 to-transparent pointer-events-none"></div>
+              <div className="text-center relative z-10">
                 <div className="text-4xl mb-2">{getRankBadge(trader.rank)}</div>
-                <h3 className="text-xl font-black text-gray-900 dark:text-white mb-1">
+                <h3 className="text-xl font-black text-white mb-1">
                   {trader.nickname}
                 </h3>
-                <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
+                <p className="text-sm text-gray-400 mb-4">
                   {trader.country}
                 </p>
                 <div className={`text-3xl font-black mb-2 ${getReturnColor(trader.monthlyReturn)}`}>
                   +{formatNumber(trader.monthlyReturn)}%
                 </div>
-                <div className="text-xs text-gray-500 dark:text-gray-400 mb-4">
+                <div className="text-xs text-gray-500 mb-4">
                   {isZh ? '月收益率' : 'Monthly Return'}
                 </div>
-                <div className="grid grid-cols-2 gap-4 text-sm">
+                <div className="grid grid-cols-2 gap-4 text-sm border-t border-gray-800 pt-4">
                   <div>
-                    <p className="text-gray-500 dark:text-gray-400 text-xs">{isZh ? '胜率' : 'Win Rate'}</p>
-                    <p className="font-bold text-gray-900 dark:text-white">{formatNumber(trader.winRate)}%</p>
+                    <p className="text-gray-500 text-xs mb-1">{isZh ? '胜率' : 'Win Rate'}</p>
+                    <p className="font-bold text-white">{formatNumber(trader.winRate)}%</p>
                   </div>
                   <div>
-                    <p className="text-gray-500 dark:text-gray-400 text-xs">{isZh ? '交易数' : 'Trades'}</p>
-                    <p className="font-bold text-gray-900 dark:text-white">{trader.totalTrades}</p>
+                    <p className="text-gray-500 text-xs mb-1">{isZh ? '交易数' : 'Trades'}</p>
+                    <p className="font-bold text-white">{trader.totalTrades}</p>
                   </div>
                 </div>
               </div>
@@ -201,97 +202,97 @@ export default function TopTradersPage() {
         </div>
 
         {/* Full Leaderboard Table */}
-        <div className="bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-800 overflow-hidden">
+        <div className="bg-black border border-gray-800 overflow-hidden">
           <div className="overflow-x-auto">
             <table className="w-full">
               <thead>
-                <tr className="bg-black dark:bg-white text-white dark:text-black border-b-2 border-gray-200 dark:border-gray-800">
-                  <th className="px-4 py-3 text-left font-bold text-sm">
+                <tr className="bg-black text-white border-b border-gray-800">
+                  <th className="px-4 py-4 text-left font-bold text-sm text-gray-400 uppercase tracking-wider">
                     {isZh ? '排名' : 'Rank'}
                   </th>
-                  <th className="px-4 py-3 text-left font-bold text-sm">
+                  <th className="px-4 py-4 text-left font-bold text-sm text-gray-400 uppercase tracking-wider">
                     {isZh ? '交易员' : 'Trader'}
                   </th>
-                  <th className="px-4 py-3 text-right font-bold text-sm">
+                  <th className="px-4 py-4 text-right font-bold text-sm text-gray-400 uppercase tracking-wider">
                     {isZh ? '月收益%' : 'Monthly %'}
                   </th>
-                  <th className="px-4 py-3 text-right font-bold text-sm">
+                  <th className="px-4 py-4 text-right font-bold text-sm text-gray-400 uppercase tracking-wider">
                     {isZh ? '总收益%' : 'Total %'}
                   </th>
-                  <th className="px-4 py-3 text-right font-bold text-sm">
+                  <th className="px-4 py-4 text-right font-bold text-sm text-gray-400 uppercase tracking-wider">
                     {isZh ? '胜率%' : 'Win Rate %'}
                   </th>
-                  <th className="px-4 py-3 text-right font-bold text-sm">
+                  <th className="px-4 py-4 text-right font-bold text-sm text-gray-400 uppercase tracking-wider">
                     {isZh ? '盈利因子' : 'Profit Factor'}
                   </th>
-                  <th className="px-4 py-3 text-right font-bold text-sm">
+                  <th className="px-4 py-4 text-right font-bold text-sm text-gray-400 uppercase tracking-wider">
                     {isZh ? '最大回撤%' : 'Max DD %'}
                   </th>
-                  <th className="px-4 py-3 text-right font-bold text-sm">
+                  <th className="px-4 py-4 text-right font-bold text-sm text-gray-400 uppercase tracking-wider">
                     {isZh ? '夏普比率' : 'Sharpe'}
                   </th>
-                  <th className="px-4 py-3 text-right font-bold text-sm">
+                  <th className="px-4 py-4 text-right font-bold text-sm text-gray-400 uppercase tracking-wider">
                     {isZh ? '账户规模' : 'Account'}
                   </th>
-                  <th className="px-4 py-3 text-right font-bold text-sm">
+                  <th className="px-4 py-4 text-right font-bold text-sm text-gray-400 uppercase tracking-wider">
                     {isZh ? '当前仓位' : 'Position'}
                   </th>
-                  <th className="px-4 py-3 text-center font-bold text-sm">
+                  <th className="px-4 py-4 text-center font-bold text-sm text-gray-400 uppercase tracking-wider">
                     {isZh ? '矩阵' : 'Matrix'}
                   </th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody className="divide-y divide-gray-800">
                 {traders.map((trader, index) => (
                   <motion.tr
                     key={trader.traderId}
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: index * 0.05 }}
-                    className="border-b border-gray-200 dark:border-gray-800 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
+                    className="hover:bg-black/50 transition-colors group"
                   >
                     <td className="px-4 py-4">
-                      <span className="inline-flex items-center justify-center w-8 h-8 bg-gray-100 dark:bg-gray-800 font-bold text-sm">
+                      <span className="inline-flex items-center justify-center w-8 h-8 bg-black font-bold text-sm text-white border border-gray-800 rounded">
                         {getRankBadge(trader.rank)}
                       </span>
                     </td>
                     <td className="px-4 py-4">
-                      <div className="font-bold text-gray-900 dark:text-white">
+                      <div className="font-bold text-white group-hover:text-[#ff102a] transition-colors">
                         {trader.nickname}
                       </div>
-                      <div className="text-xs text-gray-500 dark:text-gray-400">
+                      <div className="text-xs text-gray-500">
                         {trader.country} • {trader.tradingDays} {isZh ? '天' : 'days'}
                       </div>
                     </td>
                     <td className={`px-4 py-4 text-right font-bold ${getReturnColor(trader.monthlyReturn)}`}>
                       +{formatNumber(trader.monthlyReturn)}%
                     </td>
-                    <td className="px-4 py-4 text-right font-bold text-gray-900 dark:text-white">
+                    <td className="px-4 py-4 text-right font-bold text-white">
                       +{formatNumber(trader.totalReturn)}%
                     </td>
-                    <td className="px-4 py-4 text-right text-gray-700 dark:text-gray-300">
+                    <td className="px-4 py-4 text-right text-gray-400">
                       {formatNumber(trader.winRate)}%
                     </td>
-                    <td className="px-4 py-4 text-right text-gray-700 dark:text-gray-300">
+                    <td className="px-4 py-4 text-right text-gray-400">
                       {formatNumber(trader.profitFactor)}
                     </td>
-                    <td className="px-4 py-4 text-right text-red-600 dark:text-red-400">
+                    <td className="px-4 py-4 text-right text-[#ff102a]">
                       -{formatNumber(trader.maxDrawdown)}%
                     </td>
-                    <td className="px-4 py-4 text-right text-gray-700 dark:text-gray-300">
+                    <td className="px-4 py-4 text-right text-gray-400">
                       {formatNumber(trader.sharpeRatio)}
                     </td>
-                    <td className="px-4 py-4 text-right text-sm text-gray-600 dark:text-gray-400">
+                    <td className="px-4 py-4 text-right text-sm text-gray-500">
                       {formatCurrency(trader.accountSize)}
                     </td>
-                    <td className="px-4 py-4 text-right text-sm text-gray-600 dark:text-gray-400">
+                    <td className="px-4 py-4 text-right text-sm text-gray-500">
                       {formatCurrency(trader.currentPosition)}
                     </td>
                     <td className="px-4 py-4 text-center">
                       {trader.inMatrix ? (
-                        <span className="inline-block w-5 h-5 text-green-600 dark:text-green-400">✓</span>
+                        <span className="inline-block w-5 h-5 text-green-500">✓</span>
                       ) : (
-                        <span className="inline-block w-5 h-5 text-gray-400">-</span>
+                        <span className="inline-block w-5 h-5 text-gray-600">-</span>
                       )}
                     </td>
                   </motion.tr>
@@ -302,44 +303,45 @@ export default function TopTradersPage() {
         </div>
 
         {/* Metrics Legend */}
-        <div className="mt-6 p-4 bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-800">
-          <h3 className="text-sm font-bold text-gray-900 dark:text-white mb-3">
+        <div className="mt-6 p-4 bg-black border border-gray-800">
+          <h3 className="text-sm font-bold text-white mb-3 flex items-center gap-2">
+            <span className="w-1 h-4 bg-[#ff102a]"></span>
             {isZh ? '指标说明' : 'Metrics Explanation'}
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
             <div>
-              <strong className="text-gray-900 dark:text-white">{isZh ? '月收益率：' : 'Monthly Return: '}</strong>
-              <span className="text-gray-700 dark:text-gray-300">
+              <strong className="text-gray-300">{isZh ? '月收益率：' : 'Monthly Return: '}</strong>
+              <span className="text-gray-500">
                 {isZh ? '当月账户增长百分比' : 'Account growth percentage for the month'}
               </span>
             </div>
             <div>
-              <strong className="text-gray-900 dark:text-white">{isZh ? '胜率：' : 'Win Rate: '}</strong>
-              <span className="text-gray-700 dark:text-gray-300">
+              <strong className="text-gray-300">{isZh ? '胜率：' : 'Win Rate: '}</strong>
+              <span className="text-gray-500">
                 {isZh ? '盈利交易占比' : 'Percentage of profitable trades'}
               </span>
             </div>
             <div>
-              <strong className="text-gray-900 dark:text-white">{isZh ? '盈利因子：' : 'Profit Factor: '}</strong>
-              <span className="text-gray-700 dark:text-gray-300">
+              <strong className="text-gray-300">{isZh ? '盈利因子：' : 'Profit Factor: '}</strong>
+              <span className="text-gray-500">
                 {isZh ? '总盈利/总亏损' : 'Total profit / Total loss'}
               </span>
             </div>
             <div>
-              <strong className="text-gray-900 dark:text-white">{isZh ? '夏普比率：' : 'Sharpe Ratio: '}</strong>
-              <span className="text-gray-700 dark:text-gray-300">
+              <strong className="text-gray-300">{isZh ? '夏普比率：' : 'Sharpe Ratio: '}</strong>
+              <span className="text-gray-500">
                 {isZh ? '风险调整后收益' : 'Risk-adjusted returns'}
               </span>
             </div>
             <div>
-              <strong className="text-gray-900 dark:text-white">{isZh ? '当前仓位：' : 'Current Position: '}</strong>
-              <span className="text-gray-700 dark:text-gray-300">
+              <strong className="text-gray-300">{isZh ? '当前仓位：' : 'Current Position: '}</strong>
+              <span className="text-gray-500">
                 {isZh ? '当前持仓规模' : 'Current position size'}
               </span>
             </div>
             <div>
-              <strong className="text-gray-900 dark:text-white">{isZh ? '矩阵：' : 'Matrix: '}</strong>
-              <span className="text-gray-700 dark:text-gray-300">
+              <strong className="text-gray-300">{isZh ? '矩阵：' : 'Matrix: '}</strong>
+              <span className="text-gray-500">
                 {isZh ? '是否在交易矩阵中' : 'Whether in trading matrix'}
               </span>
             </div>
@@ -347,277 +349,73 @@ export default function TopTradersPage() {
         </div>
       </div>
 
-      {/* Copy Trading CTA Section */}
-      <section className="relative bg-gradient-to-br from-black via-gray-900 to-black dark:from-gray-950 dark:via-gray-900 dark:to-black border-t-2 border-gray-800 overflow-hidden">
-        {/* Background Pattern */}
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute inset-0" style={{
-            backgroundImage: 'repeating-linear-gradient(0deg, transparent, transparent 50px, currentColor 50px, currentColor 51px), repeating-linear-gradient(90deg, transparent, transparent 50px, currentColor 50px, currentColor 51px)',
-            color: 'white'
-          }} />
-        </div>
-
-        {/* Animated Border */}
-        <motion.div
-          initial={{ scaleX: 0 }}
-          whileInView={{ scaleX: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 1, ease: "easeOut" }}
-          className="absolute top-0 left-0 right-0 h-1 bg-white dark:bg-white origin-left"
-        />
-        <motion.div
-          initial={{ scaleX: 0 }}
-          whileInView={{ scaleX: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
-          className="absolute bottom-0 left-0 right-0 h-1 bg-white dark:bg-white origin-right"
-        />
-
-        <div className="max-w-5xl mx-auto px-6 py-20 relative z-10">
-          {/* Badge */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-6"
-          >
-            <span className="inline-block px-6 py-2 bg-white dark:bg-gray-800 text-black dark:text-white text-sm font-bold tracking-wider border-2 border-white dark:border-white">
-              {isZh ? '顶尖交易员跟单服务' : 'TOP TRADER COPY TRADING SERVICE'}
-            </span>
-          </motion.div>
-
-          {/* Title */}
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-4xl md:text-6xl font-bold text-center mb-4 text-white dark:text-white"
-          >
-            {isZh ? '跟随高手，稳健盈利' : 'Follow Experts, Steady Profits'}
-          </motion.h2>
-
-          {/* Subtitle */}
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-xl md:text-2xl text-center mb-6 text-gray-300 dark:text-gray-300"
-          >
-            {isZh ? '跟单天梯排行榜中的顶尖交易员' : 'Copy Trade Top Traders from the Leaderboard'}
-          </motion.p>
-
-          {/* Description */}
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            className="text-center mb-12 text-gray-400 dark:text-gray-400 max-w-2xl mx-auto"
-          >
-            {isZh
-              ? '通过我们的跟单服务，您可以自动复制榜单上顶尖交易员的交易策略。无需盯盘，专业团队为您把关，让您的资金跟随高手一起成长。'
-              : 'Through our copy trading service, you can automatically replicate the trading strategies of top traders on the leaderboard. No need to monitor the market, our professional team manages everything for you.'}
-          </motion.p>
-
-          {/* Features Grid */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12"
-          >
-            <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: 0.5 }}
-              className="bg-white/10 dark:bg-white/10 backdrop-blur-sm border-2 border-white/20 dark:border-white/20 p-4 text-center hover:bg-white/20 dark:hover:bg-white/20 transition-colors"
-            >
-              <div className="text-3xl mb-2 text-white dark:text-white">💰</div>
-              <div className="text-sm font-bold text-white dark:text-white mb-1">
-                {isZh ? '15万美金起' : '$150K Minimum'}
-              </div>
-              <div className="text-xs text-gray-400 dark:text-gray-400">
-                {isZh ? '起步门槛' : 'Starting Capital'}
-              </div>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: 0.6 }}
-              className="bg-white/10 dark:bg-white/10 backdrop-blur-sm border-2 border-white/20 dark:border-white/20 p-4 text-center hover:bg-white/20 dark:hover:bg-white/20 transition-colors"
-            >
-              <div className="text-3xl mb-2 text-white dark:text-white">🎯</div>
-              <div className="text-sm font-bold text-white dark:text-white mb-1">
-                {isZh ? '实时跟单' : 'Real-time Copy'}
-              </div>
-              <div className="text-xs text-gray-400 dark:text-gray-400">
-                {isZh ? '毫秒级同步' : 'Millisecond Sync'}
-              </div>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: 0.7 }}
-              className="bg-white/10 dark:bg-white/10 backdrop-blur-sm border-2 border-white/20 dark:border-white/20 p-4 text-center hover:bg-white/20 dark:hover:bg-white/20 transition-colors"
-            >
-              <div className="text-3xl mb-2 text-white dark:text-white">🛡️</div>
-              <div className="text-sm font-bold text-white dark:text-white mb-1">
-                {isZh ? '风控保护' : 'Risk Protection'}
-              </div>
-              <div className="text-xs text-gray-400 dark:text-gray-400">
-                {isZh ? '智能止损' : 'Smart Stop Loss'}
-              </div>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: 0.8 }}
-              className="bg-white/10 dark:bg-white/10 backdrop-blur-sm border-2 border-white/20 dark:border-white/20 p-4 text-center hover:bg-white/20 dark:hover:bg-white/20 transition-colors"
-            >
-              <div className="text-3xl mb-2 text-white dark:text-white">📊</div>
-              <div className="text-sm font-bold text-white dark:text-white mb-1">
-                {isZh ? '透明报告' : 'Transparent Reports'}
-              </div>
-              <div className="text-xs text-gray-400 dark:text-gray-400">
-                {isZh ? '每日推送' : 'Daily Updates'}
-              </div>
-            </motion.div>
-          </motion.div>
-
-          {/* Key Points */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.9 }}
-            className="bg-white/5 border-2 border-white/20 p-6 mb-12"
-          >
-            <div className="grid md:grid-cols-2 gap-6 text-sm text-gray-300">
-              <div className="flex items-start gap-3">
-                <div className="text-white text-xl mt-0.5">✓</div>
-                <div>
-                  <strong className="text-white block mb-1">
-                    {isZh ? '精选交易员' : 'Vetted Traders'}
-                  </strong>
-                  {isZh
-                    ? '只跟单天梯排行榜中经过严格筛选的顶尖交易员，确保稳定盈利能力'
-                    : 'Only copy trade rigorously vetted top traders from the leaderboard with proven track records'}
-                </div>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="text-white text-xl mt-0.5">✓</div>
-                <div>
-                  <strong className="text-white block mb-1">
-                    {isZh ? '资金安全' : 'Capital Security'}
-                  </strong>
-                  {isZh
-                    ? '您的资金在您的券商账户中，我们仅提供信号服务，资金安全可控'
-                    : 'Your funds stay in your broker account, we only provide trading signals for maximum security'}
-                </div>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="text-white text-xl mt-0.5">✓</div>
-                <div>
-                  <strong className="text-white block mb-1">
-                    {isZh ? '灵活配置' : 'Flexible Settings'}
-                  </strong>
-                  {isZh
-                    ? '可自定义跟单比例、止损止盈等参数，完全控制您的风险偏好'
-                    : 'Customize copy ratio, stop loss/profit parameters to match your risk preferences'}
-                </div>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="text-white text-xl mt-0.5">✓</div>
-                <div>
-                  <strong className="text-white block mb-1">
-                    {isZh ? '专业团队' : 'Professional Team'}
-                  </strong>
-                  {isZh
-                    ? '专业技术团队7x24小时监控，确保跟单系统稳定运行'
-                    : 'Professional technical team monitors 24/7 to ensure stable copy trading system'}
-                </div>
-              </div>
-            </div>
-          </motion.div>
-
-          {/* CTA Button */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 1 }}
-            className="text-center mb-8"
-          >
-            <ShineButton
-              onClick={() => setIsModalOpen(true)}
-              className="inline-block px-12 py-5 bg-white dark:bg-white text-black dark:text-black text-xl font-bold border-4 border-white dark:border-white hover:bg-black hover:text-white dark:hover:bg-gray-800 dark:hover:text-white shadow-2xl"
-            >
-              {isZh ? '立即申请跟单' : 'Apply for Copy Trading Now'}
-              <motion.span
-                animate={{ x: [0, 5, 0] }}
-                transition={{ duration: 1.5, repeat: Infinity }}
-                className="inline-block ml-2"
-              >
-                →
-              </motion.span>
-            </ShineButton>
-          </motion.div>
-
-          {/* Note */}
-          <motion.p
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 1.1 }}
-            className="text-center text-sm text-gray-500 dark:text-gray-400 italic"
-          >
-            {isZh
-              ? '注：跟单服务最低起步金额为15万美金，提交申请后我们的团队将在24小时内联系您'
-              : 'Note: Minimum starting capital is $150,000 USD. Our team will contact you within 24 hours after submission'}
-          </motion.p>
-        </div>
-
-        {/* Decorative Elements */}
-        <motion.div
-          animate={{
-            rotate: 360,
-          }}
-          transition={{
-            duration: 20,
-            repeat: Infinity,
-            ease: "linear"
-          }}
-          className="absolute top-10 left-10 w-20 h-20 border-4 border-white/10 dark:border-white/10"
-        />
-        <motion.div
-          animate={{
-            rotate: -360,
-          }}
-          transition={{
-            duration: 15,
-            repeat: Infinity,
-            ease: "linear"
-          }}
-          className="absolute bottom-10 right-10 w-32 h-32 border-4 border-white/10 dark:border-white/10"
-        />
-      </section>
+      {/* PremiumCTA */}
+      <PremiumCTA
+        badge={{ zh: '顶尖交易员跟单', en: 'Top Trader Copy Trading' }}
+        title={{
+          zh: '跟随高手，稳健盈利',
+          en: 'Follow Experts, Steady Profits'
+        }}
+        subtitle={{
+          zh: '跟单天梯排行榜中的顶尖交易员。实时跟单，风控保护，透明报告。',
+          en: 'Copy trade top traders from the leaderboard. Real-time copy, risk protection, transparent reports.'
+        }}
+        primaryButton={{
+          text: { zh: '立即申请跟单', en: 'Apply for Copy Trading' },
+          action: 'modal'
+        }}
+        secondaryButton={{
+          text: { zh: '了解培训计划', en: 'Training Program' },
+          action: 'link',
+          link: `/${language}/splan/join-us`
+        }}
+        note={{
+          zh: '注：跟单服务最低起步金额为15万美金',
+          en: 'Note: Minimum starting capital is $150,000 USD'
+        }}
+        showStats={false}
+        customStats={[
+          {
+            value: isZh ? '15万美金起' : '$150K Min',
+            label: { zh: '起步门槛', en: 'Starting Capital' }
+          },
+          {
+            value: isZh ? '实时跟单' : 'Real-time',
+            label: { zh: '毫秒级同步', en: 'Millisecond Sync' }
+          },
+          {
+            value: isZh ? '风控保护' : 'Protected',
+            label: { zh: '智能止损', en: 'Smart Stop Loss' }
+          },
+          {
+            value: isZh ? '透明报告' : 'Transparent',
+            label: { zh: '每日推送', en: 'Daily Updates' }
+          },
+          {
+            value: '✓',
+            label: { zh: '精选交易员', en: 'Vetted Traders' }
+          },
+          {
+            value: '✓',
+            label: { zh: '资金安全', en: 'Capital Security' }
+          },
+          {
+            value: '✓',
+            label: { zh: '灵活配置', en: 'Flexible Settings' }
+          },
+          {
+            value: '✓',
+            label: { zh: '专业团队', en: 'Professional Team' }
+          }
+        ]}
+        onModalOpen={() => setIsModalOpen(true)}
+      />
 
       {/* Email Modal */}
       <EmailContactModal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
-        title={isZh ? '跟单服务申请' : 'Copy Trading Application'}
+        title={isZh ? '申请跟单服务' : 'Apply for Copy Trading'}
         emailSubject={isZh ? '跟单咨询' : 'Copy Trading Inquiry'}
       />
     </div>

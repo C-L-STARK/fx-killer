@@ -40,7 +40,7 @@ export default function ProfitChart({ results }: ProfitChartProps) {
   // If no data, show empty state
   if (chartData.length === 0) {
     return (
-      <div className="w-full h-[400px] flex items-center justify-center bg-gray-50 dark:bg-gray-900 rounded-lg border-2 border-dashed border-gray-300 dark:border-gray-600">
+      <div className="w-full h-[400px] flex items-center justify-center bg-black rounded-lg border-2 border-dashed border-gray-300 dark:border-gray-600">
         <div className="text-center">
           <p className="text-gray-500 dark:text-gray-400 text-lg mb-2">暂无数据</p>
           <p className="text-gray-400 dark:text-gray-500 text-sm">请先运行回测以生成资金曲线</p>
@@ -54,11 +54,11 @@ export default function ProfitChart({ results }: ProfitChartProps) {
     if (active && payload && payload.length) {
       const data = payload[0].payload;
       return (
-        <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-3 shadow-lg">
+        <div className="bg-[#0a0a0a] border border-gray-200 dark:border-gray-700 rounded-lg p-3 shadow-lg">
           <p className="text-sm font-medium text-gray-900 dark:text-white">
             {data.time}
           </p>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-400">
             资金: <span className="font-semibold">${data.equity.toFixed(2)}</span>
           </p>
           <p className={`text-sm ${
@@ -122,13 +122,13 @@ export default function ProfitChart({ results }: ProfitChartProps) {
       <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
         <div className="flex flex-wrap gap-6">
           <div className="flex-1 min-w-[150px]">
-            <p className="text-xs font-medium text-gray-600 dark:text-gray-400 mb-2">起始资金</p>
+            <p className="text-xs font-medium text-gray-400 mb-2">起始资金</p>
             <p className="text-xl font-bold text-gray-900 dark:text-white">
               ${(results.startCapital || 0).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
             </p>
           </div>
           <div className="flex-1 min-w-[150px]">
-            <p className="text-xs font-medium text-gray-600 dark:text-gray-400 mb-2">结束资金</p>
+            <p className="text-xs font-medium text-gray-400 mb-2">结束资金</p>
             <p className={`text-xl font-bold ${
               (results.endCapital || 0) >= (results.startCapital || 0)
                 ? 'text-green-600 dark:text-green-400'
@@ -138,7 +138,7 @@ export default function ProfitChart({ results }: ProfitChartProps) {
             </p>
           </div>
           <div className="flex-1 min-w-[150px]">
-            <p className="text-xs font-medium text-gray-600 dark:text-gray-400 mb-2">收益率</p>
+            <p className="text-xs font-medium text-gray-400 mb-2">收益率</p>
             <p className={`text-xl font-bold ${
               (results.totalPnlPercent || 0) >= 0
                 ? 'text-green-600 dark:text-green-400'

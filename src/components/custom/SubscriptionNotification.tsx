@@ -84,11 +84,11 @@ export default function SubscriptionNotification() {
             }}
             className="mb-3 pointer-events-auto"
           >
-            <div className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 p-4 max-w-sm">
+            <div className="bg-gray-50 dark:bg-[#0a0a0a] border-2 border-gray-200 dark:border-gray-700 p-4 max-w-sm">
               <div className="flex items-start gap-3">
                 {/* 图标 */}
-                <div className="flex-shrink-0 w-10 h-10 bg-black dark:bg-white flex items-center justify-center">
-                  <span className="text-white dark:text-black font-bold text-sm">NEW</span>
+                <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-[#ff102a] to-black flex items-center justify-center">
+                  <span className="text-white font-bold text-sm">NEW</span>
                 </div>
 
                 {/* 内容 */}

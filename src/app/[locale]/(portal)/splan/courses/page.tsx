@@ -64,7 +64,7 @@ export default function CoursesPage() {
           <div className="space-y-6">
 
             {/* Phase 1 */}
-            <div className="border-l-4 border-black dark:border-white bg-gray-50 dark:bg-gray-900 p-6">
+            <div className="border-l-4 border-black dark:border-white bg-gray-50 dark:bg-black p-6">
               <div className="flex items-center gap-3 mb-3">
                 <span className="bg-black dark:bg-white text-white dark:text-black w-8 h-8 flex items-center justify-center font-bold border-2 border-black dark:border-white">1</span>
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white">规则练习（第1-3天）</h3>
@@ -72,17 +72,17 @@ export default function CoursesPage() {
               <p className="text-gray-700 dark:text-gray-300 mb-3">
                 完成规则练习，尽快熟悉交易系统的基本规则
               </p>
-              <div className="bg-white dark:bg-gray-800 p-4 border-2 border-gray-200 dark:border-gray-700">
+              <div className="bg-gray-50 dark:bg-[#0a0a0a] p-4 border-2 border-gray-200 dark:border-gray-700">
                 <p className="text-sm font-semibold text-gray-900 dark:text-white mb-2">考核要求：</p>
                 <ul className="text-sm text-gray-600 dark:text-gray-400 space-y-1">
                   <li>• 15个标准进场点不出错</li>
-                  <li className="text-gray-900 dark:text-white font-semibold">• <span className="bg-gray-900 dark:bg-white text-white dark:text-black px-2 py-1">重要</span> 3天不能完成规则考核，酌情劝退处理</li>
+                  <li className="text-gray-900 dark:text-white font-semibold">• <span className="bg-black dark:bg-white text-white dark:text-black px-2 py-1">重要</span> 3天不能完成规则考核，酌情劝退处理</li>
                 </ul>
               </div>
             </div>
 
             {/* Phase 2 */}
-            <div className="border-l-4 border-gray-600 dark:border-gray-400 bg-gray-50 dark:bg-gray-900 p-6">
+            <div className="border-l-4 border-gray-600 dark:border-gray-400 bg-gray-50 dark:bg-black p-6">
               <div className="flex items-center gap-3 mb-3">
                 <span className="bg-gray-600 dark:bg-gray-400 text-white dark:text-black w-8 h-8 flex items-center justify-center font-bold border-2 border-gray-600 dark:border-gray-400">2</span>
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white">盈利练习（第3-20天）</h3>
@@ -90,7 +90,7 @@ export default function CoursesPage() {
               <p className="text-gray-700 dark:text-gray-300 mb-3">
                 开始盈利练习，务必不要想法太多，找到适合自己的品种
               </p>
-              <div className="bg-white dark:bg-gray-800 p-4 border-2 border-gray-200 dark:border-gray-700">
+              <div className="bg-gray-50 dark:bg-[#0a0a0a] p-4 border-2 border-gray-200 dark:border-gray-700">
                 <p className="text-sm font-semibold text-gray-900 dark:text-white mb-2">训练进度：</p>
                 <ul className="text-sm text-gray-600 dark:text-gray-400 space-y-2 mb-3">
                   <li>• <strong>第一周</strong>：多练习，找到适合自己的品种（先找4-6个观察，稳定到2个交易品种）</li>
@@ -101,21 +101,21 @@ export default function CoursesPage() {
                 <ul className="text-sm text-gray-600 dark:text-gray-400 space-y-1">
                   <li>• 连续10个工作日，每天做到所选交易品种不错单、不漏单、不亏损</li>
                   <li>• 考核期内，允许请假不超过1天</li>
-                  <li className="text-gray-900 dark:text-white font-semibold">• <span className="bg-gray-900 dark:bg-white text-white dark:text-black px-2 py-1">重要</span> 软件到期前不能完成连续10天盈利，劝退处理</li>
+                  <li className="text-gray-900 dark:text-white font-semibold">• <span className="bg-black dark:bg-white text-white dark:text-black px-2 py-1">重要</span> 软件到期前不能完成连续10天盈利，劝退处理</li>
                 </ul>
               </div>
             </div>
 
             {/* Phase 3 */}
-            <div className="border-l-4 border-gray-700 dark:border-gray-300 bg-gray-50 dark:bg-gray-900 p-6">
+            <div className="border-l-4 border-gray-700 dark:border-gray-300 bg-gray-50 dark:bg-black p-6">
               <div className="flex items-center gap-3 mb-3">
-                <span className="bg-gray-700 dark:bg-gray-300 text-white dark:text-black w-8 h-8 flex items-center justify-center font-bold border-2 border-gray-700 dark:border-gray-300">3</span>
+                <span className="bg-[#0a0a0a] dark:bg-gray-300 text-white dark:text-black w-8 h-8 flex items-center justify-center font-bold border-2 border-gray-700 dark:border-gray-300">3</span>
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white">小额实盘（20工作日）</h3>
               </div>
               <p className="text-gray-700 dark:text-gray-300 mb-3">
                 小额实盘仍旧只有一次机会，超出回撤要求即视为失败，请珍惜
               </p>
-              <div className="bg-white dark:bg-gray-800 p-4 border-2 border-gray-200 dark:border-gray-700">
+              <div className="bg-gray-50 dark:bg-[#0a0a0a] p-4 border-2 border-gray-200 dark:border-gray-700">
                 <p className="text-sm font-semibold text-gray-900 dark:text-white mb-2">资金配置：</p>
                 <ul className="text-sm text-gray-600 dark:text-gray-400 space-y-1 mb-3">
                   <li>• 20美金仓位，配资100美金</li>
@@ -123,15 +123,15 @@ export default function CoursesPage() {
                 </ul>
                 <p className="text-sm font-semibold text-gray-900 dark:text-white mb-2">风控要求：</p>
                 <ul className="text-sm text-gray-600 dark:text-gray-400 space-y-1">
-                  <li className="text-gray-900 dark:text-white font-semibold">• <span className="bg-gray-900 dark:bg-white text-white dark:text-black px-2 py-1">风控</span> 日回撤不超过 20%</li>
-                  <li className="text-gray-900 dark:text-white font-semibold">• <span className="bg-gray-900 dark:bg-white text-white dark:text-black px-2 py-1">风控</span> 周总回撤不得超过 30%</li>
-                  <li className="text-gray-900 dark:text-white font-semibold">• <span className="bg-gray-900 dark:bg-white text-white dark:text-black px-2 py-1">重要</span> 超过回撤要求即视为失败，劝退</li>
+                  <li className="text-gray-900 dark:text-white font-semibold">• <span className="bg-black dark:bg-white text-white dark:text-black px-2 py-1">风控</span> 日回撤不超过 20%</li>
+                  <li className="text-gray-900 dark:text-white font-semibold">• <span className="bg-black dark:bg-white text-white dark:text-black px-2 py-1">风控</span> 周总回撤不得超过 30%</li>
+                  <li className="text-gray-900 dark:text-white font-semibold">• <span className="bg-black dark:bg-white text-white dark:text-black px-2 py-1">重要</span> 超过回撤要求即视为失败，劝退</li>
                 </ul>
               </div>
             </div>
 
             {/* Phase 4 */}
-            <div className="border-l-4 border-black dark:border-white bg-gray-100 dark:bg-gray-800 p-6">
+            <div className="border-l-4 border-black dark:border-white bg-gray-100 dark:bg-[#0a0a0a] p-6">
               <div className="flex items-center gap-3 mb-3">
                 <span className="bg-black dark:bg-white text-white dark:text-black w-8 h-8 flex items-center justify-center font-bold border-2 border-black dark:border-white">★</span>
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white">大额矩阵（职业交易员）</h3>
@@ -139,7 +139,7 @@ export default function CoursesPage() {
               <p className="text-gray-700 dark:text-gray-300 mb-3">
                 小额实盘20工作日固化无误，进入大额矩阵
               </p>
-              <div className="bg-white dark:bg-gray-900 p-4 border-2 border-black dark:border-white">
+              <div className="bg-gray-50 dark:bg-black p-4 border-2 border-black dark:border-white">
                 <p className="text-sm font-semibold text-gray-900 dark:text-white mb-2">职业交易员特权：</p>
                 <ul className="text-sm text-gray-600 dark:text-gray-400 space-y-1 mb-3">
                   <li>• <strong>完全自由</strong>：拥有完全自由的工作时间，每天不限制交易量</li>
@@ -164,7 +164,7 @@ export default function CoursesPage() {
             <div className="w-1 h-16 bg-black dark:bg-white"></div>
             <h2 className="text-4xl font-black text-gray-900 dark:text-white">交易铁律</h2>
           </div>
-          <div className="bg-gray-50 dark:bg-gray-900 border-2 border-gray-300 dark:border-gray-700 p-6">
+          <div className="bg-gray-50 dark:bg-black border-2 border-gray-300 dark:border-gray-700 p-6">
             <p className="text-gray-800 dark:text-gray-200 mb-4 leading-relaxed">
               交易纪律就像法律法规，触碰一次就会被标上不信任的标签，一旦触碰，就再也无法进入矩阵团队，第二次触碰红线，直接劝退离开团队。<strong>交易就像做手术，务必严肃，容不得任何不遵守规则的人。</strong>
             </p>
@@ -196,7 +196,7 @@ export default function CoursesPage() {
             <div className="w-1 h-16 bg-black dark:bg-white"></div>
             <h2 className="text-4xl font-black text-gray-900 dark:text-white">时间安排</h2>
           </div>
-          <div className="bg-gray-50 dark:bg-gray-900 p-6 border-2 border-gray-200 dark:border-gray-700">
+          <div className="bg-gray-50 dark:bg-black p-6 border-2 border-gray-200 dark:border-gray-700">
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <span className="bg-black dark:bg-white text-white dark:text-black px-2 py-1 text-xs font-bold flex-shrink-0">时间</span>

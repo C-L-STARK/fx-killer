@@ -38,7 +38,7 @@ export default function JoinUsModal({ isOpen, onClose }: JoinUsModalProps) {
           >
             <div
               onClick={(e) => e.stopPropagation()}
-              className="bg-white dark:bg-gray-800 shadow-2xl max-w-lg w-full p-8 relative border-2 border-gray-200 dark:border-gray-700"
+              className="bg-gray-50 dark:bg-black shadow-2xl max-w-lg w-full p-8 relative border-2 border-[#ff102a]"
             >
               {/* Close button */}
               <button
@@ -64,7 +64,7 @@ export default function JoinUsModal({ isOpen, onClose }: JoinUsModalProps) {
                   欢迎加入 FX Killer 外汇交易员培训！我们致力于培养下一代专业外汇交易员。
                 </p>
 
-                <div className="bg-gray-50 dark:bg-gray-900 p-6 mb-6 border border-gray-200 dark:border-gray-700">
+                <div className="bg-gray-50 dark:bg-[#0a0a0a] p-6 mb-6 border border-gray-200 dark:border-gray-700">
                   <h3 className="text-lg font-bold mb-3 text-gray-900 dark:text-white">
                     申请流程
                   </h3>
@@ -93,16 +93,16 @@ export default function JoinUsModal({ isOpen, onClose }: JoinUsModalProps) {
                     onClick={() => {
                       setIsEmailModalOpen(true);
                     }}
-                    className="w-full py-3 px-6 bg-black dark:bg-white text-white dark:text-black font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition-all"
+                    className="w-full py-3 px-6 bg-black dark:bg-white text-white dark:text-black font-semibold hover:bg-[#0a0a0a] dark:hover:bg-gray-200 transition-all"
                   >
-                     联系团队长
+                    联系团队长
                   </ShineButton>
                   <a
                     href="/splan/psychology-test"
                     onClick={onClose}
-                    className="w-full py-3 px-6 bg-white dark:bg-gray-700 border-2 border-black dark:border-white text-black dark:text-white font-semibold hover:bg-gray-100 dark:hover:bg-gray-600 transition-all"
+                    className="w-full py-3 px-6 bg-white dark:bg-[#0a0a0a] border-2 border-black dark:border-white text-black dark:text-white font-semibold hover:bg-gray-100 dark:hover:bg-gray-600 transition-all"
                   >
-                     完成心理测评
+                    完成心理测评
                   </a>
                 </div>
 

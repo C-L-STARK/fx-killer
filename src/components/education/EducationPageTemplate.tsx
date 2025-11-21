@@ -40,19 +40,19 @@ export default function EducationPageTemplate({
           </p>
 
           <div className="flex flex-wrap gap-4 text-sm">
-            <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-700">
+            <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-[#0a0a0a] border border-gray-300 dark:border-gray-700">
               <span className="text-gray-600 dark:text-gray-400">
                 {isZh ? '📖 阅读时间：' : '📖 Reading Time:'}
               </span>
               <span className="font-bold text-black dark:text-white">{content.readingTime}</span>
             </div>
-            <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-700">
+            <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-[#0a0a0a] border border-gray-300 dark:border-gray-700">
               <span className="text-gray-600 dark:text-gray-400">
                 {isZh ? '🎯 难度：' : '🎯 Difficulty:'}
               </span>
               <span className="font-bold text-black dark:text-white">{content.difficulty}</span>
             </div>
-            <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-700">
+            <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-[#0a0a0a] border border-gray-300 dark:border-gray-700">
               <span className="text-gray-600 dark:text-gray-400">
                 {isZh ? '📅 更新：' : '📅 Updated:'}
               </span>
@@ -62,7 +62,7 @@ export default function EducationPageTemplate({
         </header>
 
         {/* Table of Contents */}
-        <nav className="mb-12 p-6 bg-gray-50 dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700">
+        <nav className="mb-12 p-6 bg-gray-50 dark:bg-[#0a0a0a] border-2 border-gray-200 dark:border-gray-700">
           <h2 className="text-2xl font-bold text-black dark:text-white mb-4">{content.tocTitle}</h2>
           <ul className="space-y-2">
             {content.tableOfContents.map((item, index) => (
@@ -96,7 +96,7 @@ export default function EducationPageTemplate({
                 key={index}
                 className="group border-2 border-black dark:border-white"
               >
-                <summary className="cursor-pointer p-6 font-bold text-lg text-black dark:text-white list-none flex justify-between items-center hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+                <summary className="cursor-pointer p-6 font-bold text-lg text-black dark:text-white list-none flex justify-between items-center hover:bg-gray-50 dark:hover:bg-[#0a0a0a] transition-colors">
                   <span>{faq.question}</span>
                   <span className="transform group-open:rotate-180 transition-transform">▼</span>
                 </summary>
@@ -122,7 +122,7 @@ export default function EducationPageTemplate({
                 className="border-2 border-black dark:border-white p-6 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all group"
               >
                 <div className="text-3xl mb-4">{resource.icon}</div>
-                <h3 className="text-xl font-bold mb-2">{resource.title}</h3>
+                <h3 className="text-xl font-bold mb-2 text-white group-hover:text-white dark:group-hover:text-black">{resource.title}</h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400 group-hover:text-gray-300 dark:group-hover:text-gray-600">
                   {resource.description}
                 </p>
@@ -144,16 +144,16 @@ export default function EducationPageTemplate({
               <LocaleLink
                 href={
                   content.ctaPrimaryButton.includes('合作经纪商') ||
-                  content.ctaPrimaryButton.includes('Partner Brokers')
+                    content.ctaPrimaryButton.includes('Partner Brokers')
                     ? '/partners/brokers'
                     : content.ctaPrimaryButton.includes('心理测评') ||
                       content.ctaPrimaryButton.includes('Psychology Test') ||
                       content.ctaPrimaryButton.includes('Psychology Assessment')
-                    ? '/splan/psychology-test'
-                    : content.ctaPrimaryButton.includes('使用工具') ||
-                      content.ctaPrimaryButton.includes('Use Tools')
-                    ? '/tools/position-calculator'
-                    : '/splan/join-us'
+                      ? '/splan/psychology-test'
+                      : content.ctaPrimaryButton.includes('使用工具') ||
+                        content.ctaPrimaryButton.includes('Use Tools')
+                        ? '/tools/position-calculator'
+                        : '/splan/join-us'
                 }
                 className="px-10 py-4 bg-white dark:bg-black text-black dark:text-white font-bold text-lg border-2 border-white dark:border-black hover:bg-transparent hover:text-white dark:hover:bg-transparent dark:hover:text-black transition-all inline-block text-center"
               >
@@ -162,8 +162,8 @@ export default function EducationPageTemplate({
               <LocaleLink
                 href={
                   content.ctaSecondaryButton.includes('心理测评') ||
-                  content.ctaSecondaryButton.includes('Psychology Test') ||
-                  content.ctaSecondaryButton.includes('Psychology Assessment')
+                    content.ctaSecondaryButton.includes('Psychology Test') ||
+                    content.ctaSecondaryButton.includes('Psychology Assessment')
                     ? '/splan/psychology-test'
                     : content.ctaSecondaryButton.includes('技术分析工具') ||
                       content.ctaSecondaryButton.includes('Technical Analysis Tools') ||
@@ -171,8 +171,8 @@ export default function EducationPageTemplate({
                       content.ctaSecondaryButton.includes('Price Action Tools') ||
                       content.ctaSecondaryButton.includes('使用工具') ||
                       content.ctaSecondaryButton.includes('Use Tools')
-                    ? '/tools/position-calculator'
-                    : '/splan/join-us'
+                      ? '/tools/position-calculator'
+                      : '/splan/join-us'
                 }
                 className="px-10 py-4 bg-transparent text-white dark:text-black font-bold text-lg border-2 border-white dark:border-black hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-all inline-block text-center"
               >

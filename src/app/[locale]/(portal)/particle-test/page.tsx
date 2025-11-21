@@ -18,7 +18,7 @@ export default function ParticleTestPage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white dark:bg-black flex flex-col items-center justify-center gap-20 p-8">
+    <div className="min-h-screen bg-gray-50 dark:bg-black flex flex-col items-center justify-center gap-20 p-8">
       {/* 标题 */}
       <div className="text-center">
         <h1 className="text-4xl font-bold text-black dark:text-white mb-4">
@@ -51,7 +51,7 @@ export default function ParticleTestPage() {
         <h2 className="text-3xl font-bold text-center mb-8 text-black dark:text-white">
           方案2：SVG 笔画动画
         </h2>
-        <div className="w-full min-h-[200px] border-2 border-black dark:border-white flex items-center justify-center p-8 bg-gray-50 dark:bg-gray-900">
+        <div className="w-full min-h-[200px] border-2 border-black dark:border-white flex items-center justify-center p-8 bg-gray-50 dark:bg-black">
           <StrokeTextAnimation loop={true} />
         </div>
         <div className="mt-4 text-center text-gray-600 dark:text-gray-400">
@@ -73,7 +73,7 @@ export default function ParticleTestPage() {
           <h3 className="text-xl font-bold text-center mb-4 text-black dark:text-white">
             汇刃
           </h3>
-          <div className="w-full h-40 border-2 border-black dark:border-white bg-gray-50 dark:bg-gray-900">
+          <div className="w-full h-40 border-2 border-black dark:border-white bg-gray-50 dark:bg-black">
             <ParticleText
               text="汇刃"
               fontSize={100}
@@ -89,7 +89,7 @@ export default function ParticleTestPage() {
           <h3 className="text-xl font-bold text-center mb-4 text-black dark:text-white">
             FxKiller
           </h3>
-          <div className="w-full h-40 border-2 border-black dark:border-white bg-gray-50 dark:bg-gray-900">
+          <div className="w-full h-40 border-2 border-black dark:border-white bg-gray-50 dark:bg-black">
             <ParticleText
               text="FxKiller"
               fontSize={80}

@@ -106,7 +106,7 @@ export default async function NewsArchivePage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
+    <div className="min-h-screen bg-gray-50 dark:bg-black">
       {/* Header */}
       <div className="bg-gradient-to-br from-black via-gray-900 to-black text-white border-b-2 border-gray-800">
         <div className="max-w-7xl mx-auto px-6 py-16">
@@ -137,7 +137,7 @@ export default async function NewsArchivePage() {
         ) : (
           <div className="space-y-12">
             {monthGroups.map(group => (
-              <div key={`${group.year}-${group.month}`} className="bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-800 p-8">
+              <div key={`${group.year}-${group.month}`} className="bg-gray-50 dark:bg-black border-2 border-gray-200 dark:border-gray-800 p-8">
                 <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6 pb-4 border-b-2 border-gray-200 dark:border-gray-800">
                   {getMonthName(group.month, group.year)}
                   <span className="ml-3 text-lg text-gray-500 dark:text-gray-400">

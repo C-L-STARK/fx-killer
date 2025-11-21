@@ -14,7 +14,7 @@ interface PlanData {
 interface UnifiedFormModalProps {
   isOpen: boolean;
   onClose: () => void;
-  formType: 'interview' | 'contact' | 'propfirm' | 'membership';
+  formType: 'interview' | 'contact' | 'propfirm' | 'membership' | 'dna-interview';
   title?: string;
   planData?: PlanData;
 }
@@ -45,6 +45,8 @@ export default function UnifiedFormModal({
     switch (formType) {
       case 'interview':
         return isZh ? '预约面试' : 'Schedule Interview';
+      case 'dna-interview':
+        return isZh ? 'DNA课程面试' : 'DNA Program Interview';
       case 'contact':
         return isZh ? '快速联系' : 'Quick Contact';
       case 'propfirm':
@@ -128,11 +130,11 @@ export default function UnifiedFormModal({
           initial={{ scale: 0.9, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           exit={{ scale: 0.9, opacity: 0 }}
-          className="bg-white dark:bg-gray-900 w-full max-w-md max-h-[90vh] overflow-y-auto"
+          className="bg-gray-50 dark:bg-black border-2 border-[#ff102a] w-full max-w-md max-h-[90vh] overflow-y-auto"
           onClick={(e) => e.stopPropagation()}
         >
           {/* Header */}
-          <div className="bg-black dark:bg-white text-white dark:text-black px-6 py-4 flex items-center justify-between sticky top-0">
+          <div className="bg-[#ff102a] text-white px-6 py-4 flex items-center justify-between sticky top-0">
             <h3 className="text-lg font-bold">
               {title || getDefaultTitle()}
             </h3>
@@ -161,7 +163,7 @@ export default function UnifiedFormModal({
           <form onSubmit={handleSubmit} className="p-6 space-y-4">
             {/* Plan Info for propfirm */}
             {formType === 'propfirm' && planData && (
-              <div className="bg-gray-100 dark:bg-gray-800 p-4 mb-4">
+              <div className="bg-gray-100 dark:bg-[#0a0a0a] p-4 mb-4">
                 <div className="flex justify-between items-center">
                   <span className="font-bold text-black dark:text-white">{planData.size}</span>
                   <span className="text-black dark:text-white font-bold">
@@ -186,7 +188,7 @@ export default function UnifiedFormModal({
                 required
                 value={formData.name}
                 onChange={handleChange}
-                className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-black dark:text-white focus:border-black dark:focus:border-white outline-none transition-colors"
+                className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-700 bg-gray-50 dark:bg-[#0a0a0a] text-black dark:text-white focus:border-black dark:focus:border-white outline-none transition-colors"
                 placeholder={isZh ? '请输入您的姓名' : 'Enter your name'}
               />
             </div>
@@ -206,7 +208,7 @@ export default function UnifiedFormModal({
                 required
                 value={formData.email}
                 onChange={handleChange}
-                className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-black dark:text-white focus:border-black dark:focus:border-white outline-none transition-colors"
+                className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-700 bg-gray-50 dark:bg-[#0a0a0a] text-black dark:text-white focus:border-black dark:focus:border-white outline-none transition-colors"
                 placeholder={isZh ? '请输入您的邮箱' : 'Enter your email'}
               />
             </div>
@@ -226,7 +228,7 @@ export default function UnifiedFormModal({
                 required
                 value={formData.phone}
                 onChange={handleChange}
-                className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-black dark:text-white focus:border-black dark:focus:border-white outline-none transition-colors"
+                className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-700 bg-gray-50 dark:bg-[#0a0a0a] text-black dark:text-white focus:border-black dark:focus:border-white outline-none transition-colors"
                 placeholder={isZh ? '请输入您的手机号码' : 'Enter your phone number'}
               />
             </div>
@@ -246,7 +248,7 @@ export default function UnifiedFormModal({
                   required
                   value={formData.paymentMethod}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-black dark:text-white focus:border-black dark:focus:border-white outline-none transition-colors"
+                  className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-700 bg-gray-50 dark:bg-[#0a0a0a] text-black dark:text-white focus:border-black dark:focus:border-white outline-none transition-colors"
                 >
                   <option value="wechat">{isZh ? '微信支付' : 'WeChat Pay'}</option>
                   <option value="alipay">{isZh ? '支付宝' : 'Alipay'}</option>
@@ -270,7 +272,7 @@ export default function UnifiedFormModal({
                   rows={3}
                   value={formData.message}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-black dark:text-white focus:border-black dark:focus:border-white outline-none transition-colors resize-none"
+                  className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-700 bg-gray-50 dark:bg-[#0a0a0a] text-black dark:text-white focus:border-black dark:focus:border-white outline-none transition-colors resize-none"
                   placeholder={isZh ? '请告诉我们您的需求...' : 'Tell us your needs...'}
                 />
               </div>

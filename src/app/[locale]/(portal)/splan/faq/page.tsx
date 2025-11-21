@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import EmailContactModal from '@/components/custom/EmailContactModal';
 import { useLanguage } from '@/contexts/LanguageContext';
+import PremiumCTA from '@/components/custom/PremiumCTA';
 
 // FAQ data types
 interface FAQ {
@@ -233,25 +234,22 @@ const FAQItem = ({ faq, isOpen, onClick }: { faq: FAQ; isOpen: boolean; onClick:
     <motion.div
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
-      className={`bg-white dark:bg-gray-800 border-2 overflow-hidden transition-all ${
-        isOpen ? 'border-black dark:border-white shadow-lg' : 'border-gray-200 dark:border-gray-700 hover:border-gray-400 dark:hover:border-gray-500'
-      }`}
+      className={`bg-black border overflow-hidden transition-all ${isOpen ? 'border-[#ff102a] shadow-[0_0_20px_rgba(255,16,42,0.1)]' : 'border-gray-800 hover:border-gray-600'
+        }`}
     >
       <button
         onClick={onClick}
-        className={`w-full flex items-center justify-between p-6 text-left transition-all ${
-          isOpen ? 'bg-gray-50 dark:bg-gray-900' : 'hover:bg-gray-50 dark:hover:bg-gray-900'
-        }`}
+        className={`w-full flex items-center justify-between p-6 text-left transition-all ${isOpen ? 'bg-black' : 'hover:bg-black/50'
+          }`}
       >
-        <span className="flex-1 pr-4 font-bold text-lg text-gray-900 dark:text-white">{faq.question}</span>
+        <span className="flex-1 pr-4 font-bold text-lg text-white">{faq.question}</span>
         <motion.div
           animate={{ rotate: isOpen ? 180 : 0 }}
           transition={{ duration: 0.3 }}
-          className={`flex-shrink-0 w-8 h-8 flex items-center justify-center ${
-            isOpen ? 'bg-black dark:bg-white' : 'bg-gray-200 dark:bg-gray-700'
-          }`}
+          className={`flex-shrink-0 w-8 h-8 flex items-center justify-center ${isOpen ? 'bg-[#ff102a]' : 'bg-[#0a0a0a]'
+            }`}
         >
-          <span className={`text-lg font-bold ${isOpen ? 'text-white dark:text-black' : 'text-gray-600 dark:text-gray-400'}`}>
+          <span className={`text-lg font-bold ${isOpen ? 'text-white' : 'text-gray-400'}`}>
             ▼
           </span>
         </motion.div>
@@ -266,7 +264,7 @@ const FAQItem = ({ faq, isOpen, onClick }: { faq: FAQ; isOpen: boolean; onClick:
             className="overflow-hidden"
           >
             <div
-              className="px-6 pb-6 pt-2 text-gray-700 dark:text-gray-300 text-base leading-relaxed border-t-2 border-gray-100 dark:border-gray-700"
+              className="px-6 pb-6 pt-2 text-gray-400 text-base leading-relaxed border-t border-gray-800"
               dangerouslySetInnerHTML={{ __html: faq.answer }}
             />
           </motion.div>
@@ -306,17 +304,17 @@ export default function FAQPage() {
   };
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900">
+    <div className="min-h-screen bg-black">
       {/* Hero Section */}
-      <div className="relative overflow-hidden bg-gradient-to-br from-black via-gray-900 to-black border-b-2 border-gray-800">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-10 right-10 w-96 h-96 bg-white rounded-full blur-3xl"></div>
-          <div className="absolute bottom-10 left-10 w-96 h-96 bg-white rounded-full blur-3xl"></div>
+      <div className="relative overflow-hidden bg-black border-b-2 border-[#ff102a]">
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-[#ff102a] blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#ff102a] blur-3xl"></div>
         </div>
 
         <div className="relative max-w-6xl mx-auto px-6 py-24 text-center">
-          <div className="inline-block px-6 py-2 bg-white/10 border border-white/20 backdrop-blur-sm mb-6">
-            <span className="text-sm font-semibold tracking-wider text-white">{t('faq.hero.badge')}</span>
+          <div className="inline-block px-6 py-2 bg-[#ff102a]/10 border border-[#ff102a] backdrop-blur-sm mb-6">
+            <span className="text-sm font-semibold tracking-wider text-[#ff102a]">{t('faq.hero.badge')}</span>
           </div>
           <h1 className="text-5xl md:text-7xl font-black mb-6 text-white">
             {t('faq.hero.title')}
@@ -342,10 +340,10 @@ export default function FAQPage() {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder={t('faq.search.placeholder')}
-              className="w-full px-6 py-5 pr-32 text-lg border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:border-black dark:focus:border-white transition-all"
+              className="w-full px-6 py-5 pr-32 text-lg border border-gray-800 bg-black text-white focus:outline-none focus:border-[#ff102a] transition-all"
             />
             <div className="absolute right-2 top-1/2 -translate-y-1/2">
-              <span className="px-6 py-3 bg-black dark:bg-white text-white dark:text-black font-bold text-sm">
+              <span className="px-6 py-3 bg-[#ff102a] text-white font-bold text-sm">
                 {t('faq.search.button')}
               </span>
             </div>
@@ -355,9 +353,9 @@ export default function FAQPage() {
         {/* Course FAQs */}
         <section className="mb-16">
           <div className="flex items-center gap-4 mb-8">
-            <div className="w-1 h-12 bg-black dark:bg-white"></div>
-            <h2 className="text-3xl font-black text-gray-900 dark:text-white">{t('faq.category.course')}</h2>
-            <span className="px-4 py-2 bg-black dark:bg-white text-white dark:text-black text-sm font-bold">
+            <div className="w-1 h-12 bg-[#ff102a]"></div>
+            <h2 className="text-3xl font-black text-white">{t('faq.category.course')}</h2>
+            <span className="px-4 py-2 bg-black border border-gray-800 text-white text-sm font-bold">
               {filterFAQs(faqData.course).length}
             </span>
           </div>
@@ -376,9 +374,9 @@ export default function FAQPage() {
         {/* Learning FAQs */}
         <section className="mb-16">
           <div className="flex items-center gap-4 mb-8">
-            <div className="w-1 h-12 bg-black dark:bg-white"></div>
-            <h2 className="text-3xl font-black text-gray-900 dark:text-white">{t('faq.category.learning')}</h2>
-            <span className="px-4 py-2 bg-black dark:bg-white text-white dark:text-black text-sm font-bold">
+            <div className="w-1 h-12 bg-[#ff102a]"></div>
+            <h2 className="text-3xl font-black text-white">{t('faq.category.learning')}</h2>
+            <span className="px-4 py-2 bg-black border border-gray-800 text-white text-sm font-bold">
               {filterFAQs(faqData.learning).length}
             </span>
           </div>
@@ -397,9 +395,9 @@ export default function FAQPage() {
         {/* Pricing FAQs */}
         <section className="mb-16">
           <div className="flex items-center gap-4 mb-8">
-            <div className="w-1 h-12 bg-black dark:bg-white"></div>
-            <h2 className="text-3xl font-black text-gray-900 dark:text-white">{t('faq.category.pricing')}</h2>
-            <span className="px-4 py-2 bg-black dark:bg-white text-white dark:text-black text-sm font-bold">
+            <div className="w-1 h-12 bg-[#ff102a]"></div>
+            <h2 className="text-3xl font-black text-white">{t('faq.category.pricing')}</h2>
+            <span className="px-4 py-2 bg-black border border-gray-800 text-white text-sm font-bold">
               {filterFAQs(faqData.pricing).length}
             </span>
           </div>
@@ -418,9 +416,9 @@ export default function FAQPage() {
         {/* Support FAQs */}
         <section className="mb-16">
           <div className="flex items-center gap-4 mb-8">
-            <div className="w-1 h-12 bg-black dark:bg-white"></div>
-            <h2 className="text-3xl font-black text-gray-900 dark:text-white">{t('faq.category.support')}</h2>
-            <span className="px-4 py-2 bg-black dark:bg-white text-white dark:text-black text-sm font-bold">
+            <div className="w-1 h-12 bg-[#ff102a]"></div>
+            <h2 className="text-3xl font-black text-white">{t('faq.category.support')}</h2>
+            <span className="px-4 py-2 bg-black border border-gray-800 text-white text-sm font-bold">
               {filterFAQs(faqData.support).length}
             </span>
           </div>
@@ -439,9 +437,9 @@ export default function FAQPage() {
         {/* Other FAQs */}
         <section className="mb-16">
           <div className="flex items-center gap-4 mb-8">
-            <div className="w-1 h-12 bg-black dark:bg-white"></div>
-            <h2 className="text-3xl font-black text-gray-900 dark:text-white">{t('faq.category.other')}</h2>
-            <span className="px-4 py-2 bg-black dark:bg-white text-white dark:text-black text-sm font-bold">
+            <div className="w-1 h-12 bg-[#ff102a]"></div>
+            <h2 className="text-3xl font-black text-white">{t('faq.category.other')}</h2>
+            <span className="px-4 py-2 bg-black border border-gray-800 text-white text-sm font-bold">
               {filterFAQs(faqData.other).length}
             </span>
           </div>
@@ -457,34 +455,30 @@ export default function FAQPage() {
           </div>
         </section>
 
-        {/* Contact Support */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="relative"
-        >
-          <div className="absolute inset-0 bg-gradient-to-r from-black/5 to-gray-900/5 dark:from-white/5 dark:to-gray-100/5 blur-xl"></div>
-          <div className="relative bg-gradient-to-br from-black via-gray-900 to-black dark:from-white dark:via-gray-100 dark:to-white p-12 border-2 border-black dark:border-white text-center">
-            <div className="mb-6">
-              <div className="inline-block w-16 h-16 bg-white dark:bg-black flex items-center justify-center mb-4">
-                <svg className="w-10 h-10 text-black dark:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-            </div>
-            <h3 className="text-3xl font-bold mb-4 text-white dark:text-black">{t('faq.contact.title')}</h3>
-            <p className="text-lg mb-8 text-gray-300 dark:text-gray-700 max-w-2xl mx-auto">
-              {t('faq.contact.desc')}
-            </p>
-            <button
-              onClick={() => setIsEmailModalOpen(true)}
-              className="px-10 py-4 bg-white dark:bg-black text-black dark:text-white font-bold text-lg border-2 border-white dark:border-black hover:bg-gray-100 dark:hover:bg-gray-900 transition-all hover:shadow-lg"
-            >
-              {t('faq.contact.button')}
-            </button>
-          </div>
-        </motion.div>
       </div>
+
+      {/* Premium CTA */}
+      <PremiumCTA
+        title={{
+          zh: '还有疑问？',
+          en: 'Still Have Questions?'
+        }}
+        subtitle={{
+          zh: '无法找到你想要的答案？联系我们的团队获取专业解答和咨询。',
+          en: 'Can\'t find the answer you\'re looking for? Contact our team for professional answers and consultation.'
+        }}
+        primaryButton={{
+          text: { zh: '立即咨询', en: 'Contact Now' },
+          action: 'modal'
+        }}
+        secondaryButton={{
+          text: { zh: '查看培训计划', en: 'View Training' },
+          action: 'link',
+          link: `/${language}/splan/join-us`
+        }}
+        showStats={false}
+        onModalOpen={() => setIsEmailModalOpen(true)}
+      />
 
       {/* Email Contact Modal */}
       <EmailContactModal

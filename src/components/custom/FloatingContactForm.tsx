@@ -15,7 +15,7 @@ export default function FloatingContactForm() {
       {!isOpen && (
         <button
           onClick={() => setIsOpen(true)}
-          className="fixed right-6 bottom-20 z-40 bg-black dark:bg-white text-white dark:text-black p-3 border-2 border-black dark:border-white shadow-2xl hover:scale-110 transition-transform"
+          className="fixed right-6 bottom-20 z-40 bg-gradient-to-br from-[#ff102a] to-black text-white p-3 border-2 border-[#ff102a] shadow-2xl hover:scale-110 transition-transform"
           aria-label={isZh ? '联系我们' : 'Contact Us'}
           title={isZh ? '快速联系我们' : 'Quick Contact'}
         >

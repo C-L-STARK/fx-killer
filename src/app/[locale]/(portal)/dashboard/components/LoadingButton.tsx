@@ -22,8 +22,8 @@ export default function LoadingButton({
   const baseClasses = 'px-4 py-2 font-bold border-2 transition-all flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed';
 
   const variantClasses = {
-    primary: 'bg-black dark:bg-white text-white dark:text-black border-black dark:border-white hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white',
-    secondary: 'bg-white dark:bg-gray-900 text-black dark:text-white border-gray-300 dark:border-gray-700 hover:border-black dark:hover:border-white',
+    primary: 'bg-black dark:bg-white text-white dark:text-black border-gray-800 hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white',
+    secondary: 'bg-black text-white border-gray-300 dark:border-gray-700 hover:border-black dark:hover:border-white',
     danger: 'bg-red-600 text-white border-red-600 hover:bg-red-700 hover:border-red-700',
   };
 

@@ -45,7 +45,7 @@ export default function PageLoader() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.2 }}
-              className="w-48 h-1 bg-gray-200 dark:bg-gray-800 overflow-hidden"
+              className="w-48 h-1 bg-gray-200 dark:bg-[#0a0a0a] overflow-hidden"
             >
               <div
                 className="h-full w-1/3 bg-[#ff102a]"

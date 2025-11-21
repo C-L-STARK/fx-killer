@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer base {
+
   /* 告诉浏览器我们已经处理了暗色模式，不要自动转换颜色 */
   :root {
     color-scheme: light;
@@ -34,21 +35,152 @@
 
 @layer utilities {
   @keyframes shake {
-    0%, 100% { transform: translateX(0); }
-    10%, 30%, 50%, 70%, 90% { transform: translateX(-3px); }
-    20%, 40%, 60%, 80% { transform: translateX(3px); }
+
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+      transform: translateX(-3px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+      transform: translateX(3px);
+    }
   }
 
   .animate-shake {
     animation: shake 3s ease-in-out infinite;
   }
 
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
   @keyframes loading-bar {
     0% {
       transform: translateX(-100%);
     }
+
     100% {
       transform: translateX(400%);
     }
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(calc(-100% - 1rem));
+    }
+  }
+
+  /* Infinite scroll animation for showcase */
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-scroll-left {
+    animation: scroll-left 60s linear infinite;
+  }
+
+  .pause-animation:hover {
+    animation-play-state: paused;
+  }
+
+  /* Counter animation */
+  @keyframes counter-pulse {
+
+    0%,
+    100% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.05);
+    }
+  }
+
+  .animate-counter-pulse {
+    animation: counter-pulse 2s ease-in-out infinite;
+  }
+
+  /* Glow pulse for buttons */
+  @keyframes glow-pulse {
+
+    0%,
+    100% {
+      box-shadow: 0 0 20px rgba(255, 16, 42, 0.4);
+    }
+
+    50% {
+      box-shadow: 0 0 40px rgba(255, 16, 42, 0.8), 0 0 60px rgba(255, 16, 42, 0.4);
+    }
+  }
+
+  .animate-glow-pulse {
+    animation: glow-pulse 3s ease-in-out infinite;
+  }
+
+  /* Border animation */
+  @keyframes border-flow {
+    0% {
+      border-color: rgba(255, 255, 255, 0.1);
+    }
+
+    50% {
+      border-color: rgba(255, 16, 42, 0.5);
+    }
+
+    100% {
+      border-color: rgba(255, 255, 255, 0.1);
+    }
+  }
+
+  .animate-border-flow {
+    animation: border-flow 3s ease-in-out infinite;
+  }
+
+  /* Spotlight effect */
+  @keyframes spotlight {
+
+    0%,
+    100% {
+      opacity: 0.3;
+      transform: scale(1);
+    }
+
+    50% {
+      opacity: 0.6;
+      transform: scale(1.1);
+    }
+  }
+
+  .animate-spotlight {
+    animation: spotlight 8s ease-in-out infinite;
   }
 }

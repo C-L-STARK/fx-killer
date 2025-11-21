@@ -69,18 +69,17 @@ export default function BlogPageClient({ blogs }: BlogPageClientProps) {
   return (
     <>
       {/* Category Filter */}
-      <div className="bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800 sticky top-16 z-40">
+      <div className="bg-black border-b border-white/10 sticky top-16 z-40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex gap-2 overflow-x-auto pb-2">
             {categories.map((category) => (
               <button
                 key={category}
                 onClick={() => setSelectedCategory(category)}
-                className={`px-4 py-2 text-sm font-semibold border-2 whitespace-nowrap transition-colors ${
-                  selectedCategory === category
-                    ? 'bg-black dark:bg-white text-white dark:text-black border-black dark:border-white'
-                    : 'bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 border-gray-300 dark:border-gray-700 hover:border-black dark:hover:border-white'
-                }`}
+                className={`px-4 py-2 text-sm font-semibold border whitespace-nowrap transition-colors ${selectedCategory === category
+                    ? 'bg-[#ff102a] text-white border-[#ff102a]'
+                    : 'bg-black text-gray-400 border-white/10 hover:border-white hover:text-white'
+                  }`}
               >
                 {getCategoryName(category)}
               </button>
@@ -107,18 +106,18 @@ export default function BlogPageClient({ blogs }: BlogPageClientProps) {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.3, delay: index * 0.05 }}
                   onClick={() => router.push(`/${language}/splan/blog/${post.id}`)}
-                  className="relative bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-800 hover:border-black dark:hover:border-white transition-all cursor-pointer group overflow-hidden"
+                  className="relative bg-[#0a0a0a] border border-white/10 hover:border-[#ff102a] transition-all cursor-pointer group overflow-hidden"
                 >
                   {/* Corner Badges - Horizontal Layout */}
                   {(post.top || post.recommand) && (
                     <div className="absolute top-0 right-0 z-10 flex gap-1">
                       {post.top && (
-                        <div className="bg-red-600 text-white px-3 py-1 text-xs font-bold shadow-lg">
+                        <div className="bg-[#ff102a] text-white px-3 py-1 text-xs font-bold shadow-lg">
                           {language === 'zh' ? '置顶' : 'TOP'}
                         </div>
                       )}
                       {post.recommand && (
-                        <div className="bg-black dark:bg-white text-white dark:text-black px-3 py-1 text-xs font-bold shadow-lg">
+                        <div className="bg-white text-black px-3 py-1 text-xs font-bold shadow-lg">
                           {language === 'zh' ? '推荐' : 'FEATURED'}
                         </div>
                       )}
@@ -129,26 +128,26 @@ export default function BlogPageClient({ blogs }: BlogPageClientProps) {
                     {/* Tags (first tag as category) */}
                     <div className="flex items-center gap-2 mb-3">
                       {tagList.length > 0 && (
-                        <span className="text-xs font-semibold text-gray-600 dark:text-gray-400 uppercase">
+                        <span className="text-xs font-semibold text-[#ff102a] uppercase">
                           {tagList[0]}
                         </span>
                       )}
                     </div>
 
                     {/* Title */}
-                    <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:underline">
+                    <h2 className="text-xl font-bold text-white mb-3 group-hover:text-[#ff102a] transition-colors">
                       {language === 'zh' ? post.title : post.title_en}
                     </h2>
 
                     {/* Excerpt (first 100 chars of content, strip HTML) */}
-                    <p className="text-gray-600 dark:text-gray-400 text-sm mb-4 line-clamp-3">
+                    <p className="text-gray-400 text-sm mb-4 line-clamp-3">
                       {language === 'zh'
                         ? post.content.replace(/<[^>]*>/g, '').substring(0, 150) + '...'
                         : post.content_en.replace(/<[^>]*>/g, '').substring(0, 150) + '...'}
                     </p>
 
                     {/* Meta Info */}
-                    <div className="flex items-center justify-between text-xs text-gray-500 dark:text-gray-500 mb-4">
+                    <div className="flex items-center justify-between text-xs text-gray-500 mb-4">
                       <span>{post.author}</span>
                       {post.created_at && (
                         <span>{new Date(post.created_at).toLocaleDateString(language === 'zh' ? 'zh-CN' : 'en-US')}</span>
@@ -161,7 +160,7 @@ export default function BlogPageClient({ blogs }: BlogPageClientProps) {
                         {tagList.slice(0, 3).map((tag, i) => (
                           <span
                             key={i}
-                            className="px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 text-xs"
+                            className="px-2 py-1 bg-white/5 text-gray-400 text-xs border border-white/5"
                           >
                             {tag}
                           </span>

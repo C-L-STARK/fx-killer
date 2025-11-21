@@ -53,9 +53,7 @@ export function BackToTop() {
       }}
       transition={{ duration: 0.3 }}
       onClick={scrollToTop}
-      className={`fixed bottom-6 right-6 z-50 p-3 bg-black dark:bg-white text-white dark:text-black border-2 border-black dark:border-white hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors ${
-        isVisible ? 'pointer-events-auto' : 'pointer-events-none'
-      }`}
+      className="fixed right-6 bottom-6 z-40 bg-gradient-to-br from-[#ff102a] to-black text-white p-3 border-2 border-[#ff102a] shadow-2xl hover:scale-110 transition-all"
       aria-label="Back to top"
     >
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

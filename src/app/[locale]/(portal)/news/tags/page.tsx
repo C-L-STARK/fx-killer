@@ -95,7 +95,7 @@ export default async function TagsArchivePage() {
   const tagGroups = await getNewsByTag(language);
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
+    <div className="min-h-screen bg-gray-50 dark:bg-black">
       {/* Header */}
       <div className="bg-gradient-to-br from-black via-gray-900 to-black text-white border-b-2 border-gray-800">
         <div className="max-w-7xl mx-auto px-6 py-16">
@@ -142,7 +142,7 @@ export default async function TagsArchivePage() {
               <div
                 key={group.tag}
                 id={group.tag}
-                className="bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-800 p-8 scroll-mt-24"
+                className="bg-gray-50 dark:bg-black border-2 border-gray-200 dark:border-gray-800 p-8 scroll-mt-24"
               >
                 <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6 pb-4 border-b-2 border-gray-200 dark:border-gray-800">
                   #{group.tag}

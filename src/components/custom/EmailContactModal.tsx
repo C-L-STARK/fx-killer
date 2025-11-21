@@ -8,14 +8,15 @@ interface EmailContactModalProps {
   onClose: () => void;
   title?: string;
   emailSubject?: string;
+  formType?: 'interview' | 'contact' | 'propfirm' | 'membership' | 'dna-interview';
 }
 
-export default function EmailContactModal({ isOpen, onClose, title }: EmailContactModalProps) {
+export default function EmailContactModal({ isOpen, onClose, title, formType = 'interview' }: EmailContactModalProps) {
   return (
     <UnifiedFormModal
       isOpen={isOpen}
       onClose={onClose}
-      formType="interview"
+      formType={formType}
       title={title}
     />
   );

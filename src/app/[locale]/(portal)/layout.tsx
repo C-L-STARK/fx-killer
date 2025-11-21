@@ -15,7 +15,7 @@ import ScrollProgress, { BackToTop } from "@/components/effects/ScrollProgress";
 import PageLoader from "@/components/effects/PageLoader";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import DarkModeBackground from "@/components/layout/DarkModeBackground";
+
 
 const inter = Inter({
   subsets: ["latin"],
@@ -133,36 +133,21 @@ export default async function PortalLayout({
   const lang = locale === 'en' ? 'en-US' : 'zh-CN';
 
   return (
-    <html lang={lang} className={inter.variable} suppressHydrationWarning style={{ colorScheme: 'light dark' }}>
+    <html lang={lang} className={`${inter.variable} dark bg-black`} suppressHydrationWarning style={{ colorScheme: 'dark' }}>
       <head>
         <meta name="baidu-site-verification" content="codeva-kDRjETSiUu" />
-        <meta name="color-scheme" content="light dark" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              try {
-                const theme = localStorage.getItem('theme');
-                if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-                  document.documentElement.classList.add('dark');
-                  document.documentElement.style.colorScheme = 'dark';
-                } else {
-                  document.documentElement.style.colorScheme = 'light';
-                }
-              } catch (e) {}
-            `,
-          }}
-        />
+        <meta name="color-scheme" content="dark" />
       </head>
-      <body suppressHydrationWarning>
+      <body suppressHydrationWarning className="bg-black">
         <Providers>
-          <DarkModeBackground />
+
           <StructuredData />
           <PageLoader />
           <MouseFollower />
           <ScrollProgress />
           <UnifiedNavbar />
           <main className="pt-16 relative">
-            <Theme accentColor="gray" scaling="90%" grayColor="slate" appearance="inherit" radius="none">
+            <Theme accentColor="gray" scaling="90%" grayColor="slate" appearance="dark" radius="none">
               {children}
             </Theme>
           </main>

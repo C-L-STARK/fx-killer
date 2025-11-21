@@ -128,25 +128,25 @@ function EditorToolbar({ editor }: { editor: any }) {
   ];
 
   return (
-    <div className="flex flex-wrap gap-1 p-2 border-b border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700">
+    <div className="flex flex-wrap gap-1 p-2 border-b border-gray-300 dark:border-gray-600 bg-[#0a0a0a]">
       <button
         type="button"
         onClick={() => editor.chain().focus().toggleBold().run()}
-        className={`px-2 py-1 text-sm ${editor.isActive('bold') ? 'bg-black text-white dark:bg-white dark:text-black' : 'bg-gray-200 dark:bg-gray-600'}`}
+        className={`px-2 py-1 text-sm ${editor.isActive('bold') ? 'bg-black text-white dark:bg-white dark:text-black' : 'bg-gray-200 dark:bg-gray-600 text-black dark:text-white'}`}
       >
         B
       </button>
       <button
         type="button"
         onClick={() => editor.chain().focus().toggleItalic().run()}
-        className={`px-2 py-1 text-sm italic ${editor.isActive('italic') ? 'bg-black text-white dark:bg-white dark:text-black' : 'bg-gray-200 dark:bg-gray-600'}`}
+        className={`px-2 py-1 text-sm italic ${editor.isActive('italic') ? 'bg-black text-white dark:bg-white dark:text-black' : 'bg-gray-200 dark:bg-gray-600 text-black dark:text-white'}`}
       >
         I
       </button>
       <button
         type="button"
         onClick={() => editor.chain().focus().toggleStrike().run()}
-        className={`px-2 py-1 text-sm line-through ${editor.isActive('strike') ? 'bg-black text-white dark:bg-white dark:text-black' : 'bg-gray-200 dark:bg-gray-600'}`}
+        className={`px-2 py-1 text-sm line-through ${editor.isActive('strike') ? 'bg-black text-white dark:bg-white dark:text-black' : 'bg-gray-200 dark:bg-gray-600 text-black dark:text-white'}`}
       >
         S
       </button>
@@ -155,7 +155,7 @@ function EditorToolbar({ editor }: { editor: any }) {
       {/* Font Size */}
       <select
         onChange={(e) => setFontSize(e.target.value)}
-        className="px-1 py-1 text-sm bg-gray-200 dark:bg-gray-600 border-0"
+        className="px-1 py-1 text-sm bg-gray-200 dark:bg-gray-600 text-black dark:text-white border-0"
         defaultValue=""
       >
         <option value="" disabled>Size</option>
@@ -167,7 +167,7 @@ function EditorToolbar({ editor }: { editor: any }) {
       {/* Color Picker */}
       <select
         onChange={(e) => setColor(e.target.value)}
-        className="px-1 py-1 text-sm bg-gray-200 dark:bg-gray-600 border-0"
+        className="px-1 py-1 text-sm bg-gray-200 dark:bg-gray-600 text-black dark:text-white border-0"
         defaultValue=""
       >
         <option value="" disabled>Color</option>
@@ -182,21 +182,21 @@ function EditorToolbar({ editor }: { editor: any }) {
       <button
         type="button"
         onClick={() => editor.chain().focus().toggleHeading({ level: 1 }).run()}
-        className={`px-2 py-1 text-sm ${editor.isActive('heading', { level: 1 }) ? 'bg-black text-white dark:bg-white dark:text-black' : 'bg-gray-200 dark:bg-gray-600'}`}
+        className={`px-2 py-1 text-sm ${editor.isActive('heading', { level: 1 }) ? 'bg-black text-white dark:bg-white dark:text-black' : 'bg-gray-200 dark:bg-gray-600 text-black dark:text-white'}`}
       >
         H1
       </button>
       <button
         type="button"
         onClick={() => editor.chain().focus().toggleHeading({ level: 2 }).run()}
-        className={`px-2 py-1 text-sm ${editor.isActive('heading', { level: 2 }) ? 'bg-black text-white dark:bg-white dark:text-black' : 'bg-gray-200 dark:bg-gray-600'}`}
+        className={`px-2 py-1 text-sm ${editor.isActive('heading', { level: 2 }) ? 'bg-black text-white dark:bg-white dark:text-black' : 'bg-gray-200 dark:bg-gray-600 text-black dark:text-white'}`}
       >
         H2
       </button>
       <button
         type="button"
         onClick={() => editor.chain().focus().toggleHeading({ level: 3 }).run()}
-        className={`px-2 py-1 text-sm ${editor.isActive('heading', { level: 3 }) ? 'bg-black text-white dark:bg-white dark:text-black' : 'bg-gray-200 dark:bg-gray-600'}`}
+        className={`px-2 py-1 text-sm ${editor.isActive('heading', { level: 3 }) ? 'bg-black text-white dark:bg-white dark:text-black' : 'bg-gray-200 dark:bg-gray-600 text-black dark:text-white'}`}
       >
         H3
       </button>
@@ -204,14 +204,14 @@ function EditorToolbar({ editor }: { editor: any }) {
       <button
         type="button"
         onClick={() => editor.chain().focus().toggleBulletList().run()}
-        className={`px-2 py-1 text-sm ${editor.isActive('bulletList') ? 'bg-black text-white dark:bg-white dark:text-black' : 'bg-gray-200 dark:bg-gray-600'}`}
+        className={`px-2 py-1 text-sm ${editor.isActive('bulletList') ? 'bg-black text-white dark:bg-white dark:text-black' : 'bg-gray-200 dark:bg-gray-600 text-black dark:text-white'}`}
       >
         • List
       </button>
       <button
         type="button"
         onClick={() => editor.chain().focus().toggleOrderedList().run()}
-        className={`px-2 py-1 text-sm ${editor.isActive('orderedList') ? 'bg-black text-white dark:bg-white dark:text-black' : 'bg-gray-200 dark:bg-gray-600'}`}
+        className={`px-2 py-1 text-sm ${editor.isActive('orderedList') ? 'bg-black text-white dark:bg-white dark:text-black' : 'bg-gray-200 dark:bg-gray-600 text-black dark:text-white'}`}
       >
         1. List
       </button>
@@ -219,21 +219,21 @@ function EditorToolbar({ editor }: { editor: any }) {
       <button
         type="button"
         onClick={addLink}
-        className={`px-2 py-1 text-sm ${editor.isActive('link') ? 'bg-black text-white dark:bg-white dark:text-black' : 'bg-gray-200 dark:bg-gray-600'}`}
+        className={`px-2 py-1 text-sm ${editor.isActive('link') ? 'bg-black text-white dark:bg-white dark:text-black' : 'bg-gray-200 dark:bg-gray-600 text-black dark:text-white'}`}
       >
         Link
       </button>
       <button
         type="button"
         onClick={addImage}
-        className="px-2 py-1 text-sm bg-gray-200 dark:bg-gray-600"
+        className="px-2 py-1 text-sm bg-gray-200 dark:bg-gray-600 text-black dark:text-white"
       >
         Image
       </button>
       <button
         type="button"
         onClick={resizeImage}
-        className="px-2 py-1 text-sm bg-gray-200 dark:bg-gray-600"
+        className="px-2 py-1 text-sm bg-gray-200 dark:bg-gray-600 text-black dark:text-white"
         title="Resize selected image"
       >
         Resize
@@ -242,14 +242,14 @@ function EditorToolbar({ editor }: { editor: any }) {
       <button
         type="button"
         onClick={() => editor.chain().focus().toggleBlockquote().run()}
-        className={`px-2 py-1 text-sm ${editor.isActive('blockquote') ? 'bg-black text-white dark:bg-white dark:text-black' : 'bg-gray-200 dark:bg-gray-600'}`}
+        className={`px-2 py-1 text-sm ${editor.isActive('blockquote') ? 'bg-black text-white dark:bg-white dark:text-black' : 'bg-gray-200 dark:bg-gray-600 text-black dark:text-white'}`}
       >
         Quote
       </button>
       <button
         type="button"
         onClick={() => editor.chain().focus().setHorizontalRule().run()}
-        className="px-2 py-1 text-sm bg-gray-200 dark:bg-gray-600"
+        className="px-2 py-1 text-sm bg-gray-200 dark:bg-gray-600 text-black dark:text-white"
         title="Insert horizontal rule / divider"
       >
         ― HR
@@ -292,7 +292,7 @@ function RichTextEditor({ content, onChange, placeholder }: { content: string; o
     },
     editorProps: {
       attributes: {
-        class: 'prose prose-sm dark:prose-invert max-w-none p-4 min-h-[200px] focus:outline-none',
+        class: 'prose prose-sm max-w-none p-4 min-h-[200px] focus:outline-none text-black',
       },
     },
   });
@@ -305,7 +305,7 @@ function RichTextEditor({ content, onChange, placeholder }: { content: string; o
   }, [content, editor]);
 
   return (
-    <div className="border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800">
+    <div className="border-2 border-gray-300 dark:border-gray-600 bg-white">
       <EditorToolbar editor={editor} />
       <EditorContent editor={editor} />
     </div>
@@ -441,10 +441,10 @@ export default function EmailTemplateManager() {
   return (
     <div className="p-8">
       <div className="mb-6">
-        <h1 className="text-3xl font-black text-black dark:text-white mb-2">
+        <h1 className="text-3xl font-black text-white mb-2">
           {language === 'zh' ? '邮件模板' : 'Email Templates'}
         </h1>
-        <p className="text-gray-600 dark:text-gray-400">
+        <p className="text-gray-400">
           {language === 'zh'
             ? '管理自动发送邮件的模板内容（4种默认模板不可删除）'
             : 'Manage email templates for automated sending (4 default templates cannot be deleted)'}
@@ -453,8 +453,8 @@ export default function EmailTemplateManager() {
 
       {/* Form */}
       {showForm && editingTemplate && (
-        <div className="mb-8 p-6 bg-white dark:bg-gray-800 border-2 border-gray-300 dark:border-gray-600">
-          <h2 className="text-xl font-bold mb-4">
+        <div className="mb-8 p-6 bg-[#0a0a0a] border-2 border-gray-300 dark:border-gray-600">
+          <h2 className="text-xl font-bold mb-4 text-white">
             {language === 'zh' ? '编辑模板' : 'Edit Template'}: {getFormTypeLabel(editingTemplate.form_type)}
           </h2>
 
@@ -462,7 +462,7 @@ export default function EmailTemplateManager() {
             {/* Subject */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
-                <label className="block text-sm font-bold mb-1">
+                <label className="block text-sm font-bold mb-1 text-white">
                   {language === 'zh' ? '邮件主题（中文）' : 'Subject (Chinese)'} *
                 </label>
                 <input
@@ -470,11 +470,11 @@ export default function EmailTemplateManager() {
                   value={formData.subject_zh}
                   onChange={(e) => setFormData({ ...formData, subject_zh: e.target.value })}
                   required
-                  className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700"
+                  className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-[#0a0a0a] text-black dark:text-white"
                 />
               </div>
               <div>
-                <label className="block text-sm font-bold mb-1">
+                <label className="block text-sm font-bold mb-1 text-white">
                   {language === 'zh' ? '邮件主题（英文）' : 'Subject (English)'} *
                 </label>
                 <input
@@ -482,19 +482,19 @@ export default function EmailTemplateManager() {
                   value={formData.subject_en}
                   onChange={(e) => setFormData({ ...formData, subject_en: e.target.value })}
                   required
-                  className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700"
+                  className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-[#0a0a0a] text-black dark:text-white"
                 />
               </div>
             </div>
 
             {/* Template Variables */}
-            <div className="p-4 bg-gray-100 dark:bg-gray-700">
-              <p className="text-sm font-bold mb-2">
+            <div className="p-4 bg-gray-100 dark:bg-[#0a0a0a]">
+              <p className="text-sm font-bold mb-2 text-black dark:text-white">
                 {language === 'zh' ? '可用变量（点击插入）：' : 'Available Variables (click to insert):'}
               </p>
               <div className="flex flex-wrap gap-2">
                 {TEMPLATE_VARIABLES.map(v => (
-                  <span key={v.var} className="text-xs bg-white dark:bg-gray-800 px-2 py-1">
+                  <span key={v.var} className="text-xs bg-[#0a0a0a] px-2 py-1 text-gray-300">
                     <code>{v.var}</code> - {language === 'zh' ? v.desc_zh : v.desc_en}
                   </span>
                 ))}
@@ -503,7 +503,7 @@ export default function EmailTemplateManager() {
 
             {/* Content - Chinese */}
             <div>
-              <label className="block text-sm font-bold mb-1">
+              <label className="block text-sm font-bold mb-1 text-white">
                 {language === 'zh' ? '邮件内容（中文）' : 'Content (Chinese)'} *
               </label>
               <div className="mb-2 flex flex-wrap gap-1">
@@ -512,7 +512,7 @@ export default function EmailTemplateManager() {
                     key={v.var}
                     type="button"
                     onClick={() => insertVariable(v.var, 'content_zh')}
-                    className="px-2 py-1 text-xs bg-gray-200 dark:bg-gray-600 hover:bg-gray-300 dark:hover:bg-gray-500"
+                    className="px-2 py-1 text-xs bg-gray-200 dark:bg-gray-600 text-black dark:text-white hover:bg-gray-300 dark:hover:bg-gray-500"
                   >
                     {v.var}
                   </button>
@@ -527,7 +527,7 @@ export default function EmailTemplateManager() {
 
             {/* Content - English */}
             <div>
-              <label className="block text-sm font-bold mb-1">
+              <label className="block text-sm font-bold mb-1 text-white">
                 {language === 'zh' ? '邮件内容（英文）' : 'Content (English)'} *
               </label>
               <div className="mb-2 flex flex-wrap gap-1">
@@ -536,7 +536,7 @@ export default function EmailTemplateManager() {
                     key={v.var}
                     type="button"
                     onClick={() => insertVariable(v.var, 'content_en')}
-                    className="px-2 py-1 text-xs bg-gray-200 dark:bg-gray-600 hover:bg-gray-300 dark:hover:bg-gray-500"
+                    className="px-2 py-1 text-xs bg-gray-200 dark:bg-gray-600 text-black dark:text-white hover:bg-gray-300 dark:hover:bg-gray-500"
                   >
                     {v.var}
                   </button>
@@ -558,7 +558,7 @@ export default function EmailTemplateManager() {
                 onChange={(e) => setFormData({ ...formData, is_active: e.target.checked })}
                 className="w-4 h-4"
               />
-              <label htmlFor="is_active" className="text-sm">
+              <label htmlFor="is_active" className="text-sm text-white">
                 {language === 'zh' ? '启用此模板' : 'Enable this template'}
               </label>
             </div>
@@ -568,7 +568,7 @@ export default function EmailTemplateManager() {
               <button
                 type="submit"
                 disabled={submitting}
-                className="px-6 py-2 bg-black dark:bg-white text-white dark:text-black font-bold hover:bg-gray-800 dark:hover:bg-gray-200 disabled:opacity-50"
+                className="px-6 py-2 bg-black dark:bg-white text-white dark:text-black font-bold hover:bg-[#0a0a0a] dark:hover:bg-gray-200 disabled:opacity-50"
               >
                 {submitting
                   ? (language === 'zh' ? '保存中...' : 'Saving...')
@@ -577,7 +577,7 @@ export default function EmailTemplateManager() {
               <button
                 type="button"
                 onClick={resetForm}
-                className="px-6 py-2 border-2 border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700"
+                className="px-6 py-2 border-2 border-gray-300 dark:border-gray-600 text-black dark:text-white hover:bg-gray-100 dark:hover:bg-[#0a0a0a]"
               >
                 {language === 'zh' ? '取消' : 'Cancel'}
               </button>
@@ -588,11 +588,11 @@ export default function EmailTemplateManager() {
 
       {/* Template List */}
       {loading ? (
-        <div className="text-center py-12 text-gray-500">
+        <div className="text-center py-12 text-gray-400">
           {language === 'zh' ? '加载中...' : 'Loading...'}
         </div>
       ) : templates.length === 0 ? (
-        <div className="text-center py-12 text-gray-500">
+        <div className="text-center py-12 text-gray-400">
           {language === 'zh' ? '暂无模板，请在数据库中创建默认模板' : 'No templates, please create default templates in database'}
         </div>
       ) : (
@@ -600,18 +600,17 @@ export default function EmailTemplateManager() {
           {templates.map((template) => (
             <div
               key={template.id}
-              className={`p-6 border-2 ${
-                template.is_active
-                  ? 'border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800'
-                  : 'border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-900 opacity-60'
-              }`}
+              className={`p-6 border-2 ${template.is_active
+                ? 'border-gray-300 dark:border-gray-600 bg-[#0a0a0a]'
+                : 'border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-black opacity-60'
+                }`}
             >
               <div className="flex justify-between items-start mb-4">
                 <div>
-                  <h3 className="text-lg font-bold flex items-center gap-2">
+                  <h3 className="text-lg font-bold flex items-center gap-2 text-white">
                     {getFormTypeLabel(template.form_type)}
                     {!template.is_active && (
-                      <span className="text-xs bg-gray-300 dark:bg-gray-600 px-2 py-1">
+                      <span className="text-xs bg-gray-300 dark:bg-gray-600 text-black dark:text-white px-2 py-1">
                         {language === 'zh' ? '已禁用' : 'Disabled'}
                       </span>
                     )}
@@ -621,7 +620,7 @@ export default function EmailTemplateManager() {
                       </span>
                     )}
                   </h3>
-                  <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+                  <p className="text-sm text-gray-400 mt-1">
                     {language === 'zh' ? template.subject_zh : template.subject_en}
                   </p>
                 </div>
@@ -630,7 +629,7 @@ export default function EmailTemplateManager() {
                     onClick={() => setPreviewContent(
                       language === 'zh' ? template.content_zh : template.content_en
                     )}
-                    className="px-3 py-1 text-sm border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700"
+                    className="px-3 py-1 text-sm border border-gray-300 dark:border-gray-600 text-black dark:text-white hover:bg-gray-100 dark:hover:bg-[#0a0a0a]"
                   >
                     {language === 'zh' ? '预览' : 'Preview'}
                   </button>
@@ -642,7 +641,7 @@ export default function EmailTemplateManager() {
                   </button>
                 </div>
               </div>
-              <div className="text-xs text-gray-500">
+              <div className="text-xs text-gray-400">
                 {language === 'zh' ? '更新时间：' : 'Updated: '}
                 {new Date(template.updated_at).toLocaleString(language === 'zh' ? 'zh-CN' : 'en-US')}
               </div>
@@ -654,12 +653,12 @@ export default function EmailTemplateManager() {
       {/* Preview Modal */}
       {previewContent && (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white dark:bg-gray-800 max-w-2xl w-full max-h-[80vh] overflow-y-auto">
+          <div className="bg-[#0a0a0a] max-w-2xl w-full max-h-[80vh] overflow-y-auto">
             <div className="p-4 border-b border-gray-200 dark:border-gray-700 flex justify-between items-center">
-              <h3 className="font-bold">{language === 'zh' ? '邮件预览' : 'Email Preview'}</h3>
+              <h3 className="font-bold text-white">{language === 'zh' ? '邮件预览' : 'Email Preview'}</h3>
               <button
                 onClick={() => setPreviewContent(null)}
-                className="text-gray-500 hover:text-gray-700"
+                className="text-gray-400 hover:text-gray-300"
               >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />

@@ -155,7 +155,7 @@ export default function BlogAIGenerator({ onGenerated, onClose }: BlogAIGenerato
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm">
-      <div className="bg-white dark:bg-gray-900 w-full max-w-3xl mx-4 border-2 border-gray-200 dark:border-gray-700 shadow-2xl max-h-[90vh] overflow-y-auto">
+      <div className="bg-black w-full max-w-3xl mx-4 border-2 border-gray-200 dark:border-gray-700 shadow-2xl max-h-[90vh] overflow-y-auto">
         {/* Header */}
         <div className="p-6 border-b-2 border-gray-200 dark:border-gray-700 flex justify-between items-center bg-black dark:bg-white">
           <h2 className="text-2xl font-black text-white dark:text-black">
@@ -174,14 +174,14 @@ export default function BlogAIGenerator({ onGenerated, onClose }: BlogAIGenerato
         {/* Content */}
         <div className="p-6">
           <div className="mb-6">
-            <label className="block text-sm font-bold text-gray-700 dark:text-gray-300 mb-3">
+            <label className="block text-sm font-bold text-gray-300 mb-3">
               {language === 'zh' ? '文章核心内容' : 'Article Core Content'}
             </label>
             <textarea
               value={userInput}
               onChange={(e) => setUserInput(e.target.value)}
               disabled={generating}
-              className="w-full px-4 py-3 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-black dark:text-white rounded-none focus:border-black dark:focus:border-white focus:outline-none transition-colors disabled:opacity-50"
+              className="w-full px-4 py-3 border-2 border-gray-300 dark:border-gray-600 bg-[#0a0a0a] text-white rounded-none focus:border-black dark:focus:border-white focus:outline-none transition-colors disabled:opacity-50"
               rows={12}
               placeholder={
                 language === 'zh'
@@ -206,14 +206,14 @@ export default function BlogAIGenerator({ onGenerated, onClose }: BlogAIGenerato
           {generating && (
             <div className="mb-6">
               <div className="flex justify-between items-center mb-2">
-                <span className="text-sm font-bold text-black dark:text-white">
+                <span className="text-sm font-bold text-white">
                   {language === 'zh' ? 'AI 生成进度' : 'AI Generation Progress'}
                 </span>
-                <span className="text-sm font-bold text-black dark:text-white">
+                <span className="text-sm font-bold text-white">
                   {Math.round(progress)}%
                 </span>
               </div>
-              <div className="w-full h-2 bg-gray-200 dark:bg-gray-700 border border-gray-300 dark:border-gray-600">
+              <div className="w-full h-2 bg-gray-200 dark:bg-[#0a0a0a] border border-gray-300 dark:border-gray-600">
                 <div
                   className="h-full bg-black dark:bg-white transition-all duration-300"
                   style={{ width: `${progress}%` }}
@@ -224,36 +224,36 @@ export default function BlogAIGenerator({ onGenerated, onClose }: BlogAIGenerato
 
           {/* Streaming Content Preview */}
           {generating && streamContent && (
-            <div className="mb-6 p-4 bg-gray-50 dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 max-h-60 overflow-y-auto">
+            <div className="mb-6 p-4 bg-[#0a0a0a] border-2 border-gray-200 dark:border-gray-700 max-h-60 overflow-y-auto">
               <p className="text-xs font-bold text-gray-500 dark:text-gray-400 mb-2 uppercase">
                 {language === 'zh' ? '实时生成内容' : 'Live Content Stream'}
               </p>
-              <pre className="text-xs text-gray-700 dark:text-gray-300 whitespace-pre-wrap font-mono">
+              <pre className="text-xs text-gray-300 whitespace-pre-wrap font-mono">
                 {streamContent.length > 500 ? streamContent.slice(-500) + '...' : streamContent}
               </pre>
             </div>
           )}
 
           {/* Info Box */}
-          <div className="mb-6 p-4 bg-gray-50 dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700">
-            <p className="text-sm font-bold text-black dark:text-white mb-2">
+          <div className="mb-6 p-4 bg-[#0a0a0a] border-2 border-gray-200 dark:border-gray-700">
+            <p className="text-sm font-bold text-white mb-2">
               {language === 'zh' ? 'AI 将自动生成：' : 'AI will automatically generate:'}
             </p>
             <ul className="space-y-1">
-              <li className="text-sm text-gray-600 dark:text-gray-400 flex items-start gap-2">
-                <span className="text-black dark:text-white font-bold">•</span>
+              <li className="text-sm text-gray-400 flex items-start gap-2">
+                <span className="text-white font-bold">•</span>
                 <span>{language === 'zh' ? '中英文双语标题和内容' : 'Bilingual titles and content (Chinese & English)'}</span>
               </li>
-              <li className="text-sm text-gray-600 dark:text-gray-400 flex items-start gap-2">
-                <span className="text-black dark:text-white font-bold">•</span>
+              <li className="text-sm text-gray-400 flex items-start gap-2">
+                <span className="text-white font-bold">•</span>
                 <span>{language === 'zh' ? '符合汇刃品牌风格的HTML样式' : 'FX Killer brand-style HTML formatting'}</span>
               </li>
-              <li className="text-sm text-gray-600 dark:text-gray-400 flex items-start gap-2">
-                <span className="text-black dark:text-white font-bold">•</span>
+              <li className="text-sm text-gray-400 flex items-start gap-2">
+                <span className="text-white font-bold">•</span>
                 <span>{language === 'zh' ? '智能选择的内部和外部链接' : 'Intelligently selected internal and external links'}</span>
               </li>
-              <li className="text-sm text-gray-600 dark:text-gray-400 flex items-start gap-2">
-                <span className="text-black dark:text-white font-bold">•</span>
+              <li className="text-sm text-gray-400 flex items-start gap-2">
+                <span className="text-white font-bold">•</span>
                 <span>{language === 'zh' ? '相关标签和预计阅读时间' : 'Relevant tags and estimated reading time'}</span>
               </li>
             </ul>
@@ -264,7 +264,7 @@ export default function BlogAIGenerator({ onGenerated, onClose }: BlogAIGenerato
             <button
               onClick={handleGenerate}
               disabled={generating}
-              className="flex-1 px-6 py-3 bg-black dark:bg-white text-white dark:text-black font-bold border-2 border-black dark:border-white hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+              className="flex-1 px-6 py-3 bg-black dark:bg-white text-white dark:text-black font-bold border-2 border-gray-800 hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
             >
               {generating ? (
                 <>
@@ -286,7 +286,7 @@ export default function BlogAIGenerator({ onGenerated, onClose }: BlogAIGenerato
             <button
               onClick={onClose}
               disabled={generating}
-              className="px-6 py-3 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors disabled:opacity-50"
+              className="px-6 py-3 border-2 border-gray-300 dark:border-gray-600 text-gray-300 hover:bg-gray-100 dark:hover:bg-[#0a0a0a] transition-colors disabled:opacity-50"
             >
               {language === 'zh' ? '取消' : 'Cancel'}
             </button>

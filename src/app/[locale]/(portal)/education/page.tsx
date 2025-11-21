@@ -1,5 +1,6 @@
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
 import LocaleLink from '@/components/navigation/LocaleLink';
+import PremiumCTA from '@/components/custom/PremiumCTA';
 
 // Generate SEO Metadata
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
@@ -27,11 +28,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 const courseCategories = [
   {
     id: 'basics',
-    icon: '📚',
+    icon: 'book',
     title: { zh: '基础知识', en: 'Basic Knowledge' },
     description: { zh: '掌握外汇交易的核心概念和基础理论', en: 'Master core forex trading concepts and fundamentals' },
-    color: 'border-black dark:border-white',
-    bgColor: 'bg-gray-50 dark:bg-gray-900',
+    color: 'border-gray-800',
+    bgColor: 'bg-gray-50 dark:bg-black',
     courses: [
       { title: { zh: '外汇交易基础', en: 'Forex Trading Basics' }, slug: 'forex-basics', status: { zh: '热门', en: 'Popular' } },
       { title: { zh: '外汇市场交易时段', en: 'Trading Sessions Guide' }, slug: 'trading-sessions-guide', status: { zh: '新', en: 'New' } },
@@ -44,11 +45,11 @@ const courseCategories = [
   },
   {
     id: 'technical',
-    icon: '📊',
+    icon: 'chart',
     title: { zh: '技术分析', en: 'Technical Analysis' },
     description: { zh: '学习图表分析、技术指标和价格行为', en: 'Learn chart analysis, technical indicators, and price action' },
-    color: 'border-black dark:border-white',
-    bgColor: 'bg-gray-50 dark:bg-gray-900',
+    color: 'border-gray-800',
+    bgColor: 'bg-gray-50 dark:bg-black',
     courses: [
       { title: { zh: '布林带指标详解', en: 'Bollinger Bands Guide' }, slug: 'bollinger-bands', status: { zh: '新', en: 'New' } },
       { title: { zh: '肯特纳通道指标', en: 'Keltner Channels' }, slug: 'keltner-channels', status: { zh: '新', en: 'New' } },
@@ -62,11 +63,11 @@ const courseCategories = [
   },
   {
     id: 'strategies',
-    icon: '🎯',
+    icon: 'target',
     title: { zh: '交易策略', en: 'Trading Strategies' },
     description: { zh: '实战交易策略和系统化交易方法', en: 'Practical trading strategies and systematic methods' },
-    color: 'border-black dark:border-white',
-    bgColor: 'bg-gray-50 dark:bg-gray-900',
+    color: 'border-gray-800',
+    bgColor: 'bg-gray-50 dark:bg-black',
     courses: [
       { title: { zh: '日内交易完整指南', en: 'Day Trading Complete Guide' }, slug: 'day-trading', status: { zh: '新', en: 'New' } },
       { title: { zh: '波段交易策略', en: 'Swing Trading Strategy' }, slug: 'swing-trading', status: { zh: '新', en: 'New' } },
@@ -77,11 +78,11 @@ const courseCategories = [
   },
   {
     id: 'risk',
-    icon: '🛡️',
+    icon: 'shield',
     title: { zh: '风险管理', en: 'Risk Management' },
     description: { zh: '仓位控制、最大回撤和交易心理', en: 'Position sizing, drawdown control, and trading psychology' },
-    color: 'border-black dark:border-white',
-    bgColor: 'bg-gray-50 dark:bg-gray-900',
+    color: 'border-gray-800',
+    bgColor: 'bg-gray-50 dark:bg-black',
     courses: [
       { title: { zh: '风险管理基础', en: 'Risk Management Basics' }, slug: 'risk-management', status: { zh: '新', en: 'New' } },
       { title: { zh: '仓位控制与资金管理', en: 'Position Sizing & Money Management' }, slug: 'position-sizing', status: { zh: '新', en: 'New' } },
@@ -98,49 +99,43 @@ export default async function EducationPage({ params }: { params: Promise<{ loca
   const isZh = lang === 'zh';
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900">
+    <div className="min-h-screen bg-black">
       {/* Hero Section - 增强版 */}
-      <div className="relative bg-gradient-to-br from-black via-gray-900 to-black text-white border-b-2 border-gray-800 overflow-hidden">
-        {/* 装饰性背景 */}
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
+      <div className="relative bg-black text-white border-b border-[#ff102a] overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-[#ff102a] blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#ff102a] blur-3xl"></div>
         </div>
 
         <div className="relative max-w-6xl mx-auto px-6 py-24 text-center">
-          <div className="inline-block px-6 py-2 bg-white/10 border border-white/20 backdrop-blur-sm mb-6">
-            <span className="text-sm font-semibold tracking-wider">{isZh ? '专业交易教育' : 'Professional Trading Education'}</span>
+          <div className="inline-block px-6 py-2 bg-[#ff102a]/10 border border-[#ff102a] backdrop-blur-sm mb-6">
+            <span className="text-sm font-semibold tracking-wider text-[#ff102a]">
+              {isZh ? '系统化教育' : 'Systematic Education'}
+            </span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="font-black">{isZh ? '外汇交易教育中心' : 'Forex Trading Education Center'}</span>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
+            <span className="font-black text-white">
+              {isZh ? '教育中心' : 'Education Center'}
+            </span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            {isZh ? (
-              <>
-                系统化学习外汇交易知识，从零基础到职业交易员<br />
-                专业、实战、高效的学习路径
-              </>
-            ) : (
-              <>
-                Systematic forex trading education from beginner to professional<br />
-                Professional, practical, and efficient learning path
-              </>
-            )}
+          <p className="text-2xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
+            {isZh
+              ? '从零开始，系统学习外汇交易。全部课程免费，24/7随时访问。'
+              : 'Start from scratch, learn forex trading systematically. All courses free, accessible 24/7.'}
           </p>
 
-          {/* Quick Stats */}
           <div className="mt-8 flex flex-wrap justify-center gap-4 text-sm">
-            <div className="px-4 py-2 bg-white/5 border border-white/20 backdrop-blur-sm">
-              <span className="text-white font-bold">25+</span> {isZh ? '专业课程' : 'Courses'}
+            <div className="px-6 py-3 bg-black/50 border border-[#ff102a]/30">
+              <span className="text-[#ff102a] font-bold">{isZh ? '免费' : 'Free'}</span>
+              <span className="text-gray-400 ml-2">{isZh ? '全部课程' : 'All Courses'}</span>
             </div>
-            <div className="px-4 py-2 bg-white/5 border border-white/20 backdrop-blur-sm">
-              <span className="text-white font-bold">4</span> {isZh ? '学习方向' : 'Categories'}
+            <div className="px-6 py-3 bg-black/50 border border-[#ff102a]/30">
+              <span className="text-[#ff102a] font-bold">24/7</span>
+              <span className="text-gray-400 ml-2">{isZh ? '随时访问' : 'Access Anytime'}</span>
             </div>
-            <div className="px-4 py-2 bg-white/5 border border-white/20 backdrop-blur-sm">
-              <span className="text-white font-bold">100%</span> {isZh ? '免费学习' : 'Free Learning'}
-            </div>
-            <div className="px-4 py-2 bg-white/5 border border-white/20 backdrop-blur-sm">
-              <span className="text-white font-bold">24/7</span> {isZh ? '随时访问' : 'Always Available'}
+            <div className="px-6 py-3 bg-black/50 border border-[#ff102a]/30">
+              <span className="text-[#ff102a] font-bold">{isZh ? '专业' : 'Pro'}</span>
+              <span className="text-gray-400 ml-2">{isZh ? '交易员编写' : 'Trader Written'}</span>
             </div>
           </div>
         </div>
@@ -149,10 +144,10 @@ export default async function EducationPage({ params }: { params: Promise<{ loca
       {/* Course Categories Section */}
       <div className="max-w-7xl mx-auto px-6 py-20">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-black mb-4 text-black dark:text-white">
+          <h2 className="text-4xl md:text-5xl font-black mb-4 text-white">
             {isZh ? '课程分类' : 'Course Categories'}
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-400">
+          <p className="text-xl text-gray-400">
             {isZh ? '选择适合你的学习方向，系统化掌握外汇交易技能' : 'Choose your learning path and master forex trading systematically'}
           </p>
         </div>
@@ -161,15 +156,36 @@ export default async function EducationPage({ params }: { params: Promise<{ loca
           {courseCategories.map((category) => (
             <div
               key={category.id}
-              className={`border-2 ${category.color} ${category.bgColor} p-8 hover:shadow-xl transition-all`}
+              className="border border-gray-800 bg-black/30 p-8 hover:border-[#ff102a] transition-all group/card"
             >
               <div className="flex items-start gap-4 mb-6">
-                <div className="text-5xl">{category.icon}</div>
+                <div className="w-16 h-16 flex items-center justify-center bg-[#ff102a]/10 border border-[#ff102a]/30 group-hover/card:bg-[#ff102a]/20 transition-all">
+                  {category.icon === 'book' && (
+                    <svg className="w-8 h-8 text-[#ff102a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                    </svg>
+                  )}
+                  {category.icon === 'chart' && (
+                    <svg className="w-8 h-8 text-[#ff102a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                    </svg>
+                  )}
+                  {category.icon === 'target' && (
+                    <svg className="w-8 h-8 text-[#ff102a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  )}
+                  {category.icon === 'shield' && (
+                    <svg className="w-8 h-8 text-[#ff102a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    </svg>
+                  )}
+                </div>
                 <div className="flex-1">
-                  <h3 className="text-2xl font-black mb-2 text-black dark:text-white">
+                  <h3 className="text-2xl font-black mb-2 text-white group-hover/card:text-[#ff102a] transition-colors">
                     {isZh ? category.title.zh : category.title.en}
                   </h3>
-                  <p className="text-gray-700 dark:text-gray-300">
+                  <p className="text-gray-400">
                     {isZh ? category.description.zh : category.description.en}
                   </p>
                 </div>
@@ -187,20 +203,18 @@ export default async function EducationPage({ params }: { params: Promise<{ loca
                     <LocaleLink
                       key={index}
                       href={isComingSoon ? '#' : `/education/${course.slug}`}
-                      className={`block p-4 border-2 border-black dark:border-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all group ${
-                        isComingSoon ? 'opacity-60 cursor-not-allowed' : ''
-                      }`}
+                      className={`block p-4 border border-gray-800 hover:border-[#ff102a] bg-black hover:bg-black transition-all group ${isComingSoon ? 'opacity-60 cursor-not-allowed' : ''
+                        }`}
                     >
                       <div className="flex items-center justify-between">
-                        <span className="font-bold text-black dark:text-white group-hover:text-white dark:group-hover:text-black">{courseTitle}</span>
+                        <span className="font-bold text-gray-300 group-hover:text-white transition-colors">{courseTitle}</span>
                         {statusText && (
-                          <span className={`text-xs px-3 py-1 border-2 ${
-                            isPopular
-                              ? 'bg-red-600 text-white border-red-600'
-                              : isNew
-                              ? 'bg-green-600 text-white border-green-600'
-                              : 'bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 border-black dark:border-white'
-                          }`}>
+                          <span className={`text-xs px-3 py-1 border ${isPopular
+                            ? 'bg-red-900/30 text-red-400 border-red-900/50'
+                            : isNew
+                              ? 'bg-green-900/30 text-green-400 border-green-900/50'
+                              : 'bg-black text-gray-500 border-gray-800'
+                            }`}>
                             {statusText}
                           </span>
                         )}
@@ -214,58 +228,47 @@ export default async function EducationPage({ params }: { params: Promise<{ loca
         </div>
 
         {/* Why Learn Here Section */}
-        <div className="bg-gray-50 dark:bg-gray-900 border-2 border-black dark:border-white p-12 mb-20">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-black mb-6 text-black dark:text-white">
+        <div className="bg-black/30 border border-gray-800 p-12 mb-20 relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-64 h-64 bg-[#ff102a] blur-[100px] opacity-5 pointer-events-none"></div>
+          <div className="relative z-10 max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-black mb-6 text-white">
               {isZh ? '为什么选择 FX Killer 教育中心？' : 'Why Choose FX Killer Education Center?'}
             </h2>
-            <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
+            <p className="text-lg text-gray-400 mb-8 leading-relaxed">
               {isZh
                 ? '我们提供系统化的外汇交易教育，由职业交易员编写，注重实战应用。所有课程完全免费，24/7随时访问，配套专业交易工具支持。'
                 : 'We provide systematic forex trading education written by professional traders with focus on practical application. All courses are completely free, accessible 24/7, with professional trading tools support.'}
             </p>
-            <p className="text-xl font-bold text-black dark:text-white">
+            <p className="text-xl font-bold text-white">
               {isZh ? '从零基础到职业交易员，助你在外汇市场稳定盈利' : 'From beginner to professional trader, helping you achieve consistent profits in forex markets'}
             </p>
           </div>
         </div>
-
-        {/* CTA Section */}
-        <div className="bg-black dark:bg-white text-white dark:text-black p-12 border-2 border-black dark:border-white">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-black mb-6">
-              {isZh ? '准备好成为职业交易员了吗？' : 'Ready to Become a Professional Trader?'}
-            </h2>
-            <p className="text-xl mb-8 text-gray-300 dark:text-gray-700">
-              {isZh ? (
-                <>
-                  完成教育中心的学习后，加入 FX Killer 30天系统化培训<br />
-                  通过考核，获得真实资金进行交易
-                </>
-              ) : (
-                <>
-                  After completing the education center, join FX Killer 30-day systematic training<br />
-                  Pass the evaluation and receive real funds for trading
-                </>
-              )}
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <LocaleLink
-                href="/splan/join-us"
-                className="px-10 py-4 bg-white dark:bg-black text-black dark:text-white font-bold text-lg border-2 border-white dark:border-black hover:bg-transparent hover:text-white dark:hover:bg-transparent dark:hover:text-black transition-all inline-block text-center"
-              >
-                {isZh ? '了解培训计划' : 'Learn About Training'}
-              </LocaleLink>
-              <LocaleLink
-                href="/splan/psychology-test"
-                className="px-10 py-4 bg-transparent text-white dark:text-black font-bold text-lg border-2 border-white dark:border-black hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-all inline-block text-center"
-              >
-                {isZh ? '免费心理测评' : 'Free Psychology Test'}
-              </LocaleLink>
-            </div>
-          </div>
-        </div>
       </div>
+
+      {/* Premium CTA - Full Width */}
+      <PremiumCTA
+        badge={{ zh: '进阶学习', en: 'Advanced Learning' }}
+        title={{
+          zh: '准备好成为职业交易员了吗？',
+          en: 'Ready to Become a Professional Trader?'
+        }}
+        subtitle={{
+          zh: '完成教育中心学习，加入30天系统化培训。通过考核，获得真实资金进行交易。',
+          en: 'Complete education center courses, join 30-day systematic training. Pass evaluation and receive real funds for trading.'
+        }}
+        primaryButton={{
+          text: { zh: '了解培训计划', en: 'Learn About Training' },
+          action: 'link',
+          link: `/${lang}/splan/join-us`
+        }}
+        secondaryButton={{
+          text: { zh: '免费心理测评', en: 'Free Psychology Test' },
+          action: 'link',
+          link: `/${lang}/splan/psychology-test`
+        }}
+        showStats={true}
+      />
     </div>
   );
 }

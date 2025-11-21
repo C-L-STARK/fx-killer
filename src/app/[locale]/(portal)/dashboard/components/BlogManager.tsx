@@ -388,7 +388,7 @@ export default function BlogManager() {
       )}
 
       <div className="mb-6 flex justify-between items-center">
-        <h1 className="text-3xl font-black text-black dark:text-white">
+        <h1 className="text-3xl font-black text-white">
           {language === 'zh' ? '博客文章管理' : 'Blog Management'}
         </h1>
         <div className="flex gap-3">
@@ -467,34 +467,34 @@ export default function BlogManager() {
       </div>
 
       {showForm && (
-        <div className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 p-6 mb-6">
-          <h2 className="text-xl font-bold text-black dark:text-white mb-4">
+        <div className="bg-[#0a0a0a] border-2 border-gray-200 dark:border-gray-700 p-6 mb-6">
+          <h2 className="text-xl font-bold text-white mb-4">
             {editingBlog ? (language === 'zh' ? '编辑文章' : 'Edit Post') : (language === 'zh' ? '添加新文章' : 'Add New Post')}
           </h2>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '标题（中文）' : 'Title (Chinese)'}
                 </label>
                 <input
                   type="text"
                   value={formData.title}
                   onChange={(e) => setFormData({ ...formData, title: e.target.value })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                   required
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '标题（英文）' : 'Title (English)'}
                 </label>
                 <input
                   type="text"
                   value={formData.title_en}
                   onChange={(e) => setFormData({ ...formData, title_en: e.target.value })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                   required
                 />
               </div>
@@ -504,7 +504,7 @@ export default function BlogManager() {
             <BlogStyleHelper onInsert={handleInsertTemplate} />
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+              <label className="block text-sm font-medium text-gray-300 mb-2">
                 {language === 'zh' ? '内容（中文 HTML）' : 'Content (Chinese HTML)'}
               </label>
               <textarea
@@ -512,7 +512,7 @@ export default function BlogManager() {
                 value={formData.content}
                 onChange={(e) => setFormData({ ...formData, content: e.target.value })}
                 onFocus={() => setActiveContentField('zh')}
-                className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white font-mono text-sm"
+                className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white font-mono text-sm"
                 rows={12}
                 required
                 placeholder="支持HTML格式，可以使用 Tailwind CSS 类名。点击上方样式模板快速插入。"
@@ -520,7 +520,7 @@ export default function BlogManager() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+              <label className="block text-sm font-medium text-gray-300 mb-2">
                 {language === 'zh' ? '内容（英文 HTML）' : 'Content (English HTML)'}
               </label>
               <textarea
@@ -528,7 +528,7 @@ export default function BlogManager() {
                 value={formData.content_en}
                 onChange={(e) => setFormData({ ...formData, content_en: e.target.value })}
                 onFocus={() => setActiveContentField('en')}
-                className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white font-mono text-sm"
+                className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white font-mono text-sm"
                 rows={12}
                 required
                 placeholder="Supports HTML format with Tailwind CSS classes. Click style templates above to insert."
@@ -537,68 +537,68 @@ export default function BlogManager() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '作者' : 'Author'}
                 </label>
                 <input
                   type="text"
                   value={formData.author}
                   onChange={(e) => setFormData({ ...formData, author: e.target.value })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                   required
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '标签（中文，逗号分隔）' : 'Tags (Chinese, comma separated)'}
                 </label>
                 <input
                   type="text"
                   value={formData.tags}
                   onChange={(e) => setFormData({ ...formData, tags: e.target.value })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                   placeholder="交易心理, 风险管理, 技术分析"
                 />
               </div>
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+              <label className="block text-sm font-medium text-gray-300 mb-2">
                 {language === 'zh' ? '标签（英文，逗号分隔）' : 'Tags (English, comma separated)'}
               </label>
               <input
                 type="text"
                 value={formData.tags_en}
                 onChange={(e) => setFormData({ ...formData, tags_en: e.target.value })}
-                className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                 placeholder="trading psychology, risk management, technical analysis"
               />
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '备注（中文）' : 'Remark (Chinese)'}
                 </label>
                 <input
                   type="text"
                   value={formData.remark}
                   onChange={(e) => setFormData({ ...formData, remark: e.target.value })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                   placeholder="10分钟阅读"
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '备注（英文）' : 'Remark (English)'}
                 </label>
                 <input
                   type="text"
                   value={formData.remark_en}
                   onChange={(e) => setFormData({ ...formData, remark_en: e.target.value })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                   placeholder="10 min read"
                 />
               </div>
@@ -606,38 +606,38 @@ export default function BlogManager() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '相关文章1 (ID)' : 'Related Article 1 (ID)'}
                 </label>
                 <input
                   type="number"
                   value={formData.rel_1 || ''}
                   onChange={(e) => setFormData({ ...formData, rel_1: e.target.value ? parseInt(e.target.value) : null })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '相关文章2 (ID)' : 'Related Article 2 (ID)'}
                 </label>
                 <input
                   type="number"
                   value={formData.rel_2 || ''}
                   onChange={(e) => setFormData({ ...formData, rel_2: e.target.value ? parseInt(e.target.value) : null })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '相关文章3 (ID)' : 'Related Article 3 (ID)'}
                 </label>
                 <input
                   type="number"
                   value={formData.rel_3 || ''}
                   onChange={(e) => setFormData({ ...formData, rel_3: e.target.value ? parseInt(e.target.value) : null })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                 />
               </div>
             </div>
@@ -650,7 +650,7 @@ export default function BlogManager() {
                   onChange={(e) => setFormData({ ...formData, recommand: e.target.checked })}
                   className="w-5 h-5"
                 />
-                <span className="text-sm text-gray-700 dark:text-gray-300">
+                <span className="text-sm text-gray-300">
                   {language === 'zh' ? '推荐文章' : 'Recommended'}
                 </span>
               </label>
@@ -662,7 +662,7 @@ export default function BlogManager() {
                   onChange={(e) => setFormData({ ...formData, top: e.target.checked })}
                   className="w-5 h-5"
                 />
-                <span className="text-sm text-gray-700 dark:text-gray-300">
+                <span className="text-sm text-gray-300">
                   {language === 'zh' ? '置顶文章' : 'Pinned'}
                 </span>
               </label>
@@ -680,7 +680,7 @@ export default function BlogManager() {
               <button
                 type="button"
                 onClick={resetForm}
-                className="px-6 py-2 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                className="px-6 py-2 border-2 border-gray-300 dark:border-gray-600 text-gray-300 hover:bg-gray-100 dark:hover:bg-[#0a0a0a]"
               >
                 {language === 'zh' ? '取消' : 'Cancel'}
               </button>
@@ -692,24 +692,24 @@ export default function BlogManager() {
       {loading ? (
         <div className="text-center py-12 text-gray-500">{language === 'zh' ? '加载中...' : 'Loading...'}</div>
       ) : (
-        <div className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700">
+        <div className="bg-[#0a0a0a] border-2 border-gray-200 dark:border-gray-700">
           <table className="w-full">
             <thead>
               <tr className="border-b-2 border-gray-200 dark:border-gray-700">
-                <th className="px-6 py-4 text-left text-sm font-bold text-black dark:text-white">ID</th>
-                <th className="px-6 py-4 text-left text-sm font-bold text-black dark:text-white">
+                <th className="px-6 py-4 text-left text-sm font-bold text-white">ID</th>
+                <th className="px-6 py-4 text-left text-sm font-bold text-white">
                   {language === 'zh' ? '标题' : 'Title'}
                 </th>
-                <th className="px-6 py-4 text-left text-sm font-bold text-black dark:text-white">
+                <th className="px-6 py-4 text-left text-sm font-bold text-white">
                   {language === 'zh' ? '作者' : 'Author'}
                 </th>
-                <th className="px-6 py-4 text-left text-sm font-bold text-black dark:text-white">
+                <th className="px-6 py-4 text-left text-sm font-bold text-white">
                   {language === 'zh' ? '标签' : 'Tags'}
                 </th>
-                <th className="px-6 py-4 text-center text-sm font-bold text-black dark:text-white">
+                <th className="px-6 py-4 text-center text-sm font-bold text-white">
                   {language === 'zh' ? '状态' : 'Status'}
                 </th>
-                <th className="px-6 py-4 text-right text-sm font-bold text-black dark:text-white">
+                <th className="px-6 py-4 text-right text-sm font-bold text-white">
                   {language === 'zh' ? '操作' : 'Actions'}
                 </th>
               </tr>

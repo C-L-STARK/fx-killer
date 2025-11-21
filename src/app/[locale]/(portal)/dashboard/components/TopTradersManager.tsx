@@ -178,7 +178,7 @@ export default function TopTradersManager() {
   return (
     <div className="p-8">
       <div className="mb-6 flex justify-between items-center">
-        <h1 className="text-3xl font-black text-black dark:text-white">
+        <h1 className="text-3xl font-black text-white">
           {language === 'zh' ? '交易员排行榜管理' : 'Top Traders Management'}
         </h1>
         <div className="flex gap-3">
@@ -201,47 +201,47 @@ export default function TopTradersManager() {
       </div>
 
       {showForm && (
-        <div className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 p-6 mb-6">
-          <h2 className="text-xl font-bold text-black dark:text-white mb-4">
+        <div className="bg-[#0a0a0a] border-2 border-gray-200 dark:border-gray-700 p-6 mb-6">
+          <h2 className="text-xl font-bold text-white mb-4">
             {editingTrader ? (language === 'zh' ? '编辑交易员' : 'Edit Trader') : (language === 'zh' ? '添加交易员' : 'Add Trader')}
           </h2>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '排名' : 'Rank'}
                 </label>
                 <input
                   type="number"
                   value={formData.rank}
                   onChange={(e) => setFormData({ ...formData, rank: parseInt(e.target.value) })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                   required
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '交易员ID' : 'Trader ID'}
                 </label>
                 <input
                   type="text"
                   value={formData.trader_id}
                   onChange={(e) => setFormData({ ...formData, trader_id: e.target.value })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                   required
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '昵称' : 'Nickname'}
                 </label>
                 <input
                   type="text"
                   value={formData.nickname}
                   onChange={(e) => setFormData({ ...formData, nickname: e.target.value })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                   required
                 />
               </div>
@@ -249,27 +249,27 @@ export default function TopTradersManager() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '国家' : 'Country'}
                 </label>
                 <input
                   type="text"
                   value={formData.country}
                   onChange={(e) => setFormData({ ...formData, country: e.target.value })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                   required
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '国家代码' : 'Country Code'}
                 </label>
                 <input
                   type="text"
                   value={formData.country_code}
                   onChange={(e) => setFormData({ ...formData, country_code: e.target.value })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                   required
                   maxLength={2}
                   placeholder="e.g., CN, US, GB"
@@ -279,7 +279,7 @@ export default function TopTradersManager() {
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '月收益率 (%)' : 'Monthly Return (%)'}
                 </label>
                 <input
@@ -287,13 +287,13 @@ export default function TopTradersManager() {
                   step="0.1"
                   value={formData.monthly_return}
                   onChange={(e) => setFormData({ ...formData, monthly_return: parseFloat(e.target.value) })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                   required
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '总收益率 (%)' : 'Total Return (%)'}
                 </label>
                 <input
@@ -301,13 +301,13 @@ export default function TopTradersManager() {
                   step="0.1"
                   value={formData.total_return}
                   onChange={(e) => setFormData({ ...formData, total_return: parseFloat(e.target.value) })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                   required
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '胜率 (%)' : 'Win Rate (%)'}
                 </label>
                 <input
@@ -315,20 +315,20 @@ export default function TopTradersManager() {
                   step="0.1"
                   value={formData.win_rate}
                   onChange={(e) => setFormData({ ...formData, win_rate: parseFloat(e.target.value) })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                   required
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '总交易次数' : 'Total Trades'}
                 </label>
                 <input
                   type="number"
                   value={formData.total_trades}
                   onChange={(e) => setFormData({ ...formData, total_trades: parseInt(e.target.value) })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                   required
                 />
               </div>
@@ -336,7 +336,7 @@ export default function TopTradersManager() {
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '盈利因子' : 'Profit Factor'}
                 </label>
                 <input
@@ -344,13 +344,13 @@ export default function TopTradersManager() {
                   step="0.1"
                   value={formData.profit_factor}
                   onChange={(e) => setFormData({ ...formData, profit_factor: parseFloat(e.target.value) })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                   required
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '最大回撤 (%)' : 'Max Drawdown (%)'}
                 </label>
                 <input
@@ -358,13 +358,13 @@ export default function TopTradersManager() {
                   step="0.1"
                   value={formData.max_drawdown}
                   onChange={(e) => setFormData({ ...formData, max_drawdown: parseFloat(e.target.value) })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                   required
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '夏普比率' : 'Sharpe Ratio'}
                 </label>
                 <input
@@ -372,20 +372,20 @@ export default function TopTradersManager() {
                   step="0.1"
                   value={formData.sharpe_ratio}
                   onChange={(e) => setFormData({ ...formData, sharpe_ratio: parseFloat(e.target.value) })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                   required
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '交易天数' : 'Trading Days'}
                 </label>
                 <input
                   type="number"
                   value={formData.trading_days}
                   onChange={(e) => setFormData({ ...formData, trading_days: parseInt(e.target.value) })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                   required
                 />
               </div>
@@ -393,40 +393,40 @@ export default function TopTradersManager() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '账户规模 ($)' : 'Account Size ($)'}
                 </label>
                 <input
                   type="number"
                   value={formData.account_size}
                   onChange={(e) => setFormData({ ...formData, account_size: parseInt(e.target.value) })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                   required
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '当前持仓 ($)' : 'Current Position ($)'}
                 </label>
                 <input
                   type="number"
                   value={formData.current_position}
                   onChange={(e) => setFormData({ ...formData, current_position: parseInt(e.target.value) })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                   required
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label className="block text-sm font-medium text-gray-300 mb-2">
                   {language === 'zh' ? '更新时间' : 'Update Time'}
                 </label>
                 <input
                   type="datetime-local"
                   value={formData.update_time.slice(0, 16)}
                   onChange={(e) => setFormData({ ...formData, update_time: new Date(e.target.value).toISOString() })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                   required
                 />
               </div>
@@ -439,7 +439,7 @@ export default function TopTradersManager() {
                 onChange={(e) => setFormData({ ...formData, in_matrix: e.target.checked })}
                 className="w-5 h-5"
               />
-              <label className="text-sm text-gray-700 dark:text-gray-300">
+              <label className="text-sm text-gray-300">
                 {language === 'zh' ? '在交易矩阵中' : 'In Trading Matrix'}
               </label>
             </div>
@@ -454,7 +454,7 @@ export default function TopTradersManager() {
               <button
                 type="button"
                 onClick={resetForm}
-                className="px-6 py-2 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                className="px-6 py-2 border-2 border-gray-300 dark:border-gray-600 text-gray-300 hover:bg-gray-100 dark:hover:bg-[#0a0a0a]"
               >
                 {language === 'zh' ? '取消' : 'Cancel'}
               </button>
@@ -466,18 +466,18 @@ export default function TopTradersManager() {
       {loading ? (
         <div className="text-center py-12 text-gray-500">{language === 'zh' ? '加载中...' : 'Loading...'}</div>
       ) : (
-        <div className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700">
+        <div className="bg-[#0a0a0a] border-2 border-gray-200 dark:border-gray-700">
           <table className="w-full">
             <thead>
               <tr className="border-b-2 border-gray-200 dark:border-gray-700">
-                <th className="px-6 py-4 text-left text-sm font-bold text-black dark:text-white">{language === 'zh' ? '排名' : 'Rank'}</th>
-                <th className="px-6 py-4 text-left text-sm font-bold text-black dark:text-white">{language === 'zh' ? '交易员ID' : 'Trader ID'}</th>
-                <th className="px-6 py-4 text-left text-sm font-bold text-black dark:text-white">{language === 'zh' ? '昵称' : 'Nickname'}</th>
-                <th className="px-6 py-4 text-left text-sm font-bold text-black dark:text-white">{language === 'zh' ? '国家' : 'Country'}</th>
-                <th className="px-6 py-4 text-right text-sm font-bold text-black dark:text-white">{language === 'zh' ? '月收益率' : 'Monthly Return'}</th>
-                <th className="px-6 py-4 text-right text-sm font-bold text-black dark:text-white">{language === 'zh' ? '胜率' : 'Win Rate'}</th>
-                <th className="px-6 py-4 text-center text-sm font-bold text-black dark:text-white">{language === 'zh' ? '矩阵' : 'Matrix'}</th>
-                <th className="px-6 py-4 text-right text-sm font-bold text-black dark:text-white">{language === 'zh' ? '操作' : 'Actions'}</th>
+                <th className="px-6 py-4 text-left text-sm font-bold text-white">{language === 'zh' ? '排名' : 'Rank'}</th>
+                <th className="px-6 py-4 text-left text-sm font-bold text-white">{language === 'zh' ? '交易员ID' : 'Trader ID'}</th>
+                <th className="px-6 py-4 text-left text-sm font-bold text-white">{language === 'zh' ? '昵称' : 'Nickname'}</th>
+                <th className="px-6 py-4 text-left text-sm font-bold text-white">{language === 'zh' ? '国家' : 'Country'}</th>
+                <th className="px-6 py-4 text-right text-sm font-bold text-white">{language === 'zh' ? '月收益率' : 'Monthly Return'}</th>
+                <th className="px-6 py-4 text-right text-sm font-bold text-white">{language === 'zh' ? '胜率' : 'Win Rate'}</th>
+                <th className="px-6 py-4 text-center text-sm font-bold text-white">{language === 'zh' ? '矩阵' : 'Matrix'}</th>
+                <th className="px-6 py-4 text-right text-sm font-bold text-white">{language === 'zh' ? '操作' : 'Actions'}</th>
               </tr>
             </thead>
             <tbody>

@@ -45,19 +45,19 @@ export default function AdminConfigAuth({ onAuthenticated }: AdminConfigAuthProp
   return (
     <div className="p-8">
       <div className="max-w-md mx-auto">
-        <div className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 p-8">
+        <div className="bg-[#0a0a0a] border-2 border-gray-200 dark:border-gray-700 p-8">
           <div className="text-center mb-6">
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
               {language === 'zh' ? '管理权限验证' : 'Management Authorization'}
             </h2>
-            <p className="text-gray-600 dark:text-gray-400">
+            <p className="text-gray-400">
               {language === 'zh' ? '此页面需要额外的管理权限，请输入密码' : 'This page requires additional authorization'}
             </p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-              <label htmlFor="admin-config-password" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+              <label htmlFor="admin-config-password" className="block text-sm font-medium text-gray-300 mb-2">
                 {language === 'zh' ? '管理密码' : 'Admin Password'}
               </label>
               <input
@@ -68,7 +68,7 @@ export default function AdminConfigAuth({ onAuthenticated }: AdminConfigAuthProp
                   setPassword(e.target.value);
                   setError('');
                 }}
-                className="w-full px-4 py-3 border-2 border-gray-300 dark:border-gray-600 focus:ring-0 focus:border-black dark:focus:border-white dark:bg-gray-700 dark:text-white transition-all"
+                className="w-full px-4 py-3 border-2 border-gray-300 dark:border-gray-600 focus:ring-0 focus:border-black dark:focus:border-white dark:bg-[#0a0a0a] dark:text-white transition-all"
                 placeholder={language === 'zh' ? '输入管理密码' : 'Enter admin password'}
                 autoFocus
               />
@@ -82,7 +82,7 @@ export default function AdminConfigAuth({ onAuthenticated }: AdminConfigAuthProp
             <button
               type="submit"
               disabled={loading}
-              className="w-full py-3 px-4 bg-black dark:bg-white text-white dark:text-black font-semibold border-2 border-black dark:border-white hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full py-3 px-4 bg-black dark:bg-white text-white dark:text-black font-semibold border-2 border-gray-800 hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-all disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {loading ? (
                 <span className="flex items-center justify-center">

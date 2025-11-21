@@ -112,7 +112,7 @@ export default function InterviewCTA() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="text-center mb-12 text-[#b0b0b0] max-w-3xl mx-auto"
+            className="text-center mb-12 text-gray-300 max-w-3xl mx-auto"
           >
             {currentContent.description}
           </motion.p>
@@ -169,7 +169,7 @@ export default function InterviewCTA() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 1 }}
-            className="text-center text-sm text-[#b0b0b0] italic"
+            className="text-center text-sm text-gray-400 italic"
           >
             {currentContent.note}
           </motion.p>

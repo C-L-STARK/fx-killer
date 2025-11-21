@@ -45,7 +45,7 @@ export default function BacktestProgress({ isOpen, stage, progress, message }: B
             initial={{ scale: 0.9, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             exit={{ scale: 0.9, opacity: 0 }}
-            className="bg-white dark:bg-gray-800 border-4 border-black dark:border-white p-8 max-w-md w-full mx-4"
+            className="bg-[#0a0a0a] border-4 border-gray-800 p-8 max-w-md w-full mx-4"
           >
             {/* Icon */}
             <div className="flex justify-center mb-4">
@@ -53,13 +53,13 @@ export default function BacktestProgress({ isOpen, stage, progress, message }: B
             </div>
 
             {/* Stage Text */}
-            <h3 className="text-2xl font-bold text-center text-black dark:text-white mb-6">
+            <h3 className="text-2xl font-bold text-center text-white mb-6">
               {getStageText()}
             </h3>
 
             {/* Progress Bar */}
             <div className="mb-4">
-              <div className="w-full h-4 bg-gray-200 dark:bg-gray-700 border-2 border-black dark:border-white overflow-hidden">
+              <div className="w-full h-4 bg-gray-200 dark:bg-[#0a0a0a] border-2 border-gray-800 overflow-hidden">
                 <motion.div
                   initial={{ width: 0 }}
                   animate={{ width: `${progress}%` }}
@@ -67,13 +67,13 @@ export default function BacktestProgress({ isOpen, stage, progress, message }: B
                   className="h-full bg-black dark:bg-white"
                 />
               </div>
-              <p className="text-center text-sm font-bold text-black dark:text-white mt-2">
+              <p className="text-center text-sm font-bold text-white mt-2">
                 {progress}%
               </p>
             </div>
 
             {/* Message */}
-            <p className="text-center text-sm text-gray-600 dark:text-gray-400 mb-4">
+            <p className="text-center text-sm text-gray-400 mb-4">
               {message}
             </p>
 

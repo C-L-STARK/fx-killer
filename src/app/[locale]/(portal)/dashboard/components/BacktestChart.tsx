@@ -309,17 +309,17 @@ export default function BacktestChart({ candles, trades, symbol }: BacktestChart
   return (
     <div className="w-full">
       <div className="mb-2 flex items-center justify-between">
-        <h4 className="text-sm font-bold text-black dark:text-white">
+        <h4 className="text-sm font-bold text-white">
           {symbol} K线图 ({candles.length} 根K线, {trades.length} 笔交易)
         </h4>
         <div className="flex gap-2 text-xs">
-          <span className="px-2 py-1 bg-green-100 text-green-800 dark:bg-gray-900 dark:text-green-400 border border-green-600">
+          <span className="px-2 py-1 bg-green-100 text-green-800 dark:bg-black dark:text-green-400 border border-green-600">
             ▲ 买入
           </span>
-          <span className="px-2 py-1 bg-red-100 text-red-800 dark:bg-gray-900 dark:text-red-400 border border-red-600">
+          <span className="px-2 py-1 bg-red-100 text-red-800 dark:bg-black dark:text-red-400 border border-red-600">
             ▼ 卖出
           </span>
-          <span className="px-2 py-1 bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-400 border border-gray-600">
+          <span className="px-2 py-1 bg-gray-100 text-gray-800 dark:bg-black dark:text-gray-400 border border-gray-600">
             ● 平仓
           </span>
         </div>
@@ -341,7 +341,7 @@ export default function BacktestChart({ candles, trades, symbol }: BacktestChart
 
       <div
         ref={chartContainerRef}
-        className="border-2 border-black dark:border-white bg-white dark:bg-gray-900"
+        className="border-2 border-gray-800 bg-black"
         style={{ height: '500px', width: '100%', minWidth: '300px' }}
       />
     </div>

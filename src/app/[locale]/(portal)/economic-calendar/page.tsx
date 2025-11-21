@@ -1,9 +1,11 @@
 "use client";
 
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { EconomicEvent, EventImportance } from '@/types/economic-calendar';
 import { motion } from 'motion/react';
+import PremiumCTA from '@/components/custom/PremiumCTA';
+import EmailContactModal from '@/components/custom/EmailContactModal';
 
 export default function EconomicCalendarPage() {
   const { language } = useLanguage();
@@ -12,6 +14,7 @@ export default function EconomicCalendarPage() {
   const [events, setEvents] = useState<EconomicEvent[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [isEmailModalOpen, setIsEmailModalOpen] = useState(false);
   const [selectedDate, setSelectedDate] = useState<string>('');
   const [selectedImportance, setSelectedImportance] = useState<EventImportance | 'all'>('all');
   const [selectedCurrency, setSelectedCurrency] = useState<string>('all');
@@ -90,17 +93,17 @@ export default function EconomicCalendarPage() {
   }, [dates, selectedDate]);
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
+    <div className="min-h-screen bg-gray-50 dark:bg-black">
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-br from-black via-gray-900 to-black text-white border-b-2 border-gray-800 overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-white blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-white blur-3xl"></div>
+      <div className="relative bg-black text-white border-b-2 border-[#ff102a] overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-[#ff102a] blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#ff102a] blur-3xl"></div>
         </div>
 
         <div className="relative max-w-6xl mx-auto px-6 py-24 text-center">
-          <div className="inline-block px-6 py-2 bg-white/10 border border-white/20 backdrop-blur-sm mb-6">
-            <span className="text-sm font-semibold tracking-wider">
+          <div className="inline-block px-6 py-2 bg-[#ff102a]/10 border border-[#ff102a] backdrop-blur-sm mb-6">
+            <span className="text-sm font-semibold tracking-wider text-[#ff102a]">
               {isZh ? '实时市场数据' : 'Real-Time Market Data'}
             </span>
           </div>
@@ -109,7 +112,7 @@ export default function EconomicCalendarPage() {
               {isZh ? '经济日历' : 'Economic Calendar'}
             </span>
           </h1>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             {isZh
               ? '追踪全球重要经济事件，把握市场波动机会'
               : 'Track global economic events and seize market opportunities'}
@@ -118,11 +121,11 @@ export default function EconomicCalendarPage() {
       </div>
 
       {/* Filters */}
-      <div className="bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800 sticky top-16 z-40">
+      <div className="bg-black border-b border-gray-800 sticky top-16 z-40">
         <div className="max-w-7xl mx-auto px-6 py-4">
           {/* Date Selector */}
           <div className="mb-4">
-            <h3 className="text-sm font-bold text-gray-700 dark:text-gray-300 mb-2">
+            <h3 className="text-sm font-bold text-gray-400 mb-2">
               {isZh ? '选择日期' : 'Select Date'}
             </h3>
             <div className="flex gap-2 overflow-x-auto pb-2">
@@ -133,11 +136,10 @@ export default function EconomicCalendarPage() {
                   <button
                     key={date}
                     onClick={() => setSelectedDate(date)}
-                    className={`px-4 py-2 text-sm font-semibold border-2 whitespace-nowrap transition-colors ${
-                      selectedDate === date
-                        ? 'bg-black dark:bg-white text-white dark:text-black border-black dark:border-white'
-                        : 'bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 border-gray-300 dark:border-gray-700 hover:border-black dark:hover:border-white'
-                    }`}
+                    className={`px-4 py-2 text-sm font-semibold border-2 whitespace-nowrap transition-colors ${selectedDate === date
+                      ? 'bg-[#ff102a] text-white border-[#ff102a]'
+                      : 'bg-black text-gray-400 border-gray-800 hover:border-[#ff102a] hover:text-white'
+                      }`}
                   >
                     <div>
                       {dateObj.toLocaleDateString(isZh ? 'zh-CN' : 'en-US', {
@@ -158,17 +160,16 @@ export default function EconomicCalendarPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Importance Filter */}
             <div>
-              <h3 className="text-sm font-bold text-gray-700 dark:text-gray-300 mb-2">
+              <h3 className="text-sm font-bold text-gray-400 mb-2">
                 {isZh ? '重要性' : 'Importance'}
               </h3>
               <div className="flex gap-2">
                 <button
                   onClick={() => setSelectedImportance('all')}
-                  className={`px-4 py-2 text-sm font-semibold border-2 transition-colors ${
-                    selectedImportance === 'all'
-                      ? 'bg-black dark:bg-white text-white dark:text-black border-black dark:border-white'
-                      : 'bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 border-gray-300 dark:border-gray-700'
-                  }`}
+                  className={`px-4 py-2 text-sm font-semibold border-2 transition-colors ${selectedImportance === 'all'
+                    ? 'bg-white text-black border-white'
+                    : 'bg-black text-gray-400 border-gray-800 hover:border-white hover:text-white'
+                    }`}
                 >
                   {isZh ? '全部' : 'All'}
                 </button>
@@ -176,11 +177,10 @@ export default function EconomicCalendarPage() {
                   <button
                     key={imp}
                     onClick={() => setSelectedImportance(imp)}
-                    className={`px-4 py-2 text-sm font-semibold border-2 transition-colors ${
-                      selectedImportance === imp
-                        ? 'bg-black dark:bg-white text-white dark:text-black border-black dark:border-white'
-                        : 'bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 border-gray-300 dark:border-gray-700'
-                    }`}
+                    className={`px-4 py-2 text-sm font-semibold border-2 transition-colors ${selectedImportance === imp
+                      ? 'bg-white text-black border-white'
+                      : 'bg-black text-gray-400 border-gray-800 hover:border-white hover:text-white'
+                      }`}
                   >
                     <span className={`inline-block w-2 h-2 rounded-full mr-2 ${getImportanceColor(imp)}`}></span>
                     {getImportanceText(imp)}
@@ -191,17 +191,16 @@ export default function EconomicCalendarPage() {
 
             {/* Currency Filter */}
             <div>
-              <h3 className="text-sm font-bold text-gray-700 dark:text-gray-300 mb-2">
+              <h3 className="text-sm font-bold text-gray-400 mb-2">
                 {isZh ? '货币' : 'Currency'}
               </h3>
               <div className="flex gap-2 overflow-x-auto">
                 <button
                   onClick={() => setSelectedCurrency('all')}
-                  className={`px-4 py-2 text-sm font-semibold border-2 whitespace-nowrap transition-colors ${
-                    selectedCurrency === 'all'
-                      ? 'bg-black dark:bg-white text-white dark:text-black border-black dark:border-white'
-                      : 'bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 border-gray-300 dark:border-gray-700'
-                  }`}
+                  className={`px-4 py-2 text-sm font-semibold border-2 whitespace-nowrap transition-colors ${selectedCurrency === 'all'
+                    ? 'bg-white text-black border-white'
+                    : 'bg-black text-gray-400 border-gray-800 hover:border-white hover:text-white'
+                    }`}
                 >
                   {isZh ? '全部' : 'All'}
                 </button>
@@ -209,11 +208,10 @@ export default function EconomicCalendarPage() {
                   <button
                     key={cur}
                     onClick={() => setSelectedCurrency(cur)}
-                    className={`px-4 py-2 text-sm font-semibold border-2 whitespace-nowrap transition-colors ${
-                      selectedCurrency === cur
-                        ? 'bg-black dark:bg-white text-white dark:text-black border-black dark:border-white'
-                        : 'bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 border-gray-300 dark:border-gray-700'
-                    }`}
+                    className={`px-4 py-2 text-sm font-semibold border-2 whitespace-nowrap transition-colors ${selectedCurrency === cur
+                      ? 'bg-white text-black border-white'
+                      : 'bg-black text-gray-400 border-gray-800 hover:border-white hover:text-white'
+                      }`}
                   >
                     {cur}
                   </button>
@@ -226,21 +224,21 @@ export default function EconomicCalendarPage() {
 
       {/* Events Table */}
       <div className="max-w-7xl mx-auto px-6 py-8">
-        <div className="bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-800">
+        <div className="bg-black border border-gray-800">
           {loading ? (
             <div className="p-12 text-center">
-              <div className="inline-block w-8 h-8 border-4 border-gray-300 dark:border-gray-700 border-t-black dark:border-t-white rounded-full animate-spin"></div>
-              <p className="mt-4 text-gray-500 dark:text-gray-400">
+              <div className="inline-block w-8 h-8 border-4 border-gray-800 border-t-[#ff102a] rounded-full animate-spin"></div>
+              <p className="mt-4 text-gray-400">
                 {isZh ? '加载中...' : 'Loading...'}
               </p>
             </div>
           ) : error ? (
             <div className="p-12 text-center">
-              <p className="text-red-600 dark:text-red-400">{error}</p>
+              <p className="text-[#ff102a]">{error}</p>
             </div>
           ) : filteredEvents.length === 0 ? (
             <div className="p-12 text-center">
-              <p className="text-gray-500 dark:text-gray-400">
+              <p className="text-gray-400">
                 {isZh ? '暂无事件数据' : 'No events found'}
               </p>
             </div>
@@ -248,65 +246,65 @@ export default function EconomicCalendarPage() {
             <div className="overflow-x-auto">
               <table className="w-full">
                 <thead>
-                  <tr className="bg-black dark:bg-white text-white dark:text-black border-b-2 border-gray-200 dark:border-gray-800">
-                    <th className="px-4 py-3 text-left font-bold text-sm">
+                  <tr className="bg-black text-white border-b border-gray-800">
+                    <th className="px-4 py-4 text-left font-bold text-sm text-gray-400 uppercase tracking-wider">
                       {isZh ? '时间' : 'Time'}
                     </th>
-                    <th className="px-4 py-3 text-left font-bold text-sm">
+                    <th className="px-4 py-4 text-left font-bold text-sm text-gray-400 uppercase tracking-wider">
                       {isZh ? '货币' : 'Cur'}
                     </th>
-                    <th className="px-4 py-3 text-left font-bold text-sm">
+                    <th className="px-4 py-4 text-left font-bold text-sm text-gray-400 uppercase tracking-wider">
                       {isZh ? '事件' : 'Event'}
                     </th>
-                    <th className="px-4 py-3 text-center font-bold text-sm">
+                    <th className="px-4 py-4 text-center font-bold text-sm text-gray-400 uppercase tracking-wider">
                       {isZh ? '重要性' : 'Imp'}
                     </th>
-                    <th className="px-4 py-3 text-right font-bold text-sm">
+                    <th className="px-4 py-4 text-right font-bold text-sm text-gray-400 uppercase tracking-wider">
                       {isZh ? '实际' : 'Actual'}
                     </th>
-                    <th className="px-4 py-3 text-right font-bold text-sm">
+                    <th className="px-4 py-4 text-right font-bold text-sm text-gray-400 uppercase tracking-wider">
                       {isZh ? '预测' : 'Forecast'}
                     </th>
-                    <th className="px-4 py-3 text-right font-bold text-sm">
+                    <th className="px-4 py-4 text-right font-bold text-sm text-gray-400 uppercase tracking-wider">
                       {isZh ? '前值' : 'Previous'}
                     </th>
                   </tr>
                 </thead>
-                <tbody>
+                <tbody className="divide-y divide-gray-800">
                   {filteredEvents.map((event, index) => (
                     <motion.tr
                       key={event.id}
                       initial={{ opacity: 0, y: 10 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: index * 0.05 }}
-                      className="border-b border-gray-200 dark:border-gray-800 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
+                      className="hover:bg-black/50 transition-colors group"
                     >
-                      <td className="px-4 py-4 text-sm font-medium text-gray-900 dark:text-white">
+                      <td className="px-4 py-4 text-sm font-medium text-white">
                         {event.time}
                       </td>
                       <td className="px-4 py-4">
-                        <span className="inline-block px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white text-xs font-bold">
+                        <span className="inline-block px-2 py-1 bg-black text-white border border-gray-800 text-xs font-bold">
                           {event.currency}
                         </span>
                       </td>
                       <td className="px-4 py-4">
-                        <div className="text-sm font-medium text-gray-900 dark:text-white">
+                        <div className="text-sm font-medium text-white group-hover:text-[#ff102a] transition-colors">
                           {event.event}
                         </div>
-                        <div className="text-xs text-gray-500 dark:text-gray-400">
+                        <div className="text-xs text-gray-500">
                           {event.country}
                         </div>
                       </td>
                       <td className="px-4 py-4 text-center">
-                        <span className={`inline-block w-3 h-3 rounded-full ${getImportanceColor(event.importance)}`}></span>
+                        <span className={`inline-block w-3 h-3 rounded-full ${getImportanceColor(event.importance)} shadow-[0_0_10px_rgba(255,255,255,0.3)]`}></span>
                       </td>
-                      <td className="px-4 py-4 text-right text-sm font-bold text-gray-900 dark:text-white">
+                      <td className="px-4 py-4 text-right text-sm font-bold text-white">
                         {event.actual || '-'}
                       </td>
-                      <td className="px-4 py-4 text-right text-sm text-gray-600 dark:text-gray-400">
+                      <td className="px-4 py-4 text-right text-sm text-gray-500">
                         {event.forecast || '-'}
                       </td>
-                      <td className="px-4 py-4 text-right text-sm text-gray-600 dark:text-gray-400">
+                      <td className="px-4 py-4 text-right text-sm text-gray-500">
                         {event.previous || '-'}
                       </td>
                     </motion.tr>
@@ -318,26 +316,27 @@ export default function EconomicCalendarPage() {
         </div>
 
         {/* Legend */}
-        <div className="mt-6 p-4 bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-800">
-          <h3 className="text-sm font-bold text-gray-900 dark:text-white mb-3">
+        <div className="mt-6 p-4 bg-black border border-gray-800">
+          <h3 className="text-sm font-bold text-white mb-3 flex items-center gap-2">
+            <span className="w-1 h-4 bg-[#ff102a]"></span>
             {isZh ? '重要性说明' : 'Importance Legend'}
           </h3>
           <div className="flex flex-wrap gap-4 text-sm">
             <div className="flex items-center gap-2">
               <span className="inline-block w-3 h-3 rounded-full bg-red-500"></span>
-              <span className="text-gray-700 dark:text-gray-300">
+              <span className="text-gray-400">
                 {isZh ? '高 - 重大市场影响' : 'High - Major market impact'}
               </span>
             </div>
             <div className="flex items-center gap-2">
               <span className="inline-block w-3 h-3 rounded-full bg-orange-500"></span>
-              <span className="text-gray-700 dark:text-gray-300">
+              <span className="text-gray-400">
                 {isZh ? '中 - 中等市场影响' : 'Medium - Moderate market impact'}
               </span>
             </div>
             <div className="flex items-center gap-2">
               <span className="inline-block w-3 h-3 rounded-full bg-yellow-500"></span>
-              <span className="text-gray-700 dark:text-gray-300">
+              <span className="text-gray-400">
                 {isZh ? '低 - 较小市场影响' : 'Low - Minor market impact'}
               </span>
             </div>
@@ -345,15 +344,45 @@ export default function EconomicCalendarPage() {
         </div>
 
         {/* Note */}
-        <div className="mt-4 p-4 bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500">
-          <p className="text-sm text-blue-800 dark:text-blue-200">
-            <strong>{isZh ? '数据来源：' : 'Data Source:'}</strong>
+        <div className="mt-4 p-4 bg-black/50 border-l-4 border-[#ff102a]">
+          <p className="text-sm text-gray-400">
+            <strong className="text-white">{isZh ? '数据来源：' : 'Data Source:'}</strong>
             {isZh
               ? ' 本周经济日历数据来自 Forex Factory，每小时更新一次。'
               : ' This week\'s economic calendar data from Forex Factory, updated hourly.'}
           </p>
         </div>
       </div>
+
+      {/* Premium CTA */}
+      <PremiumCTA
+        badge={{ zh: '专业工具', en: 'Professional Tools' }}
+        title={{
+          zh: '精准把握市场机会',
+          en: 'Seize Market Opportunities'
+        }}
+        subtitle={{
+          zh: '利用经济日历把握重要数据发布时机。加入我们的培训计划，成为职业交易员。',
+          en: 'Use economic calendar to capitalize on key data releases. Join our training program to become a professional trader.'
+        }}
+        primaryButton={{
+          text: { zh: '预约面试', en: 'Schedule Interview' },
+          action: 'modal'
+        }}
+        secondaryButton={{
+          text: { zh: '心理测评', en: 'Psychology Test' },
+          action: 'link',
+          link: `/ ${language} /splan/psychology - test`
+        }}
+        showStats={true}
+        onModalOpen={() => setIsEmailModalOpen(true)}
+      />
+
+      {/* Email Contact Modal */}
+      <EmailContactModal
+        isOpen={isEmailModalOpen}
+        onClose={() => setIsEmailModalOpen(false)}
+      />
     </div>
   );
 }

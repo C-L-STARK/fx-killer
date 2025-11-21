@@ -233,7 +233,7 @@ export default function PrivacyPolicyPage() {
   const currentContent = language === 'zh' ? content.zh : content.en;
 
   return (
-    <div className="min-h-screen bg-white dark:bg-black py-20">
+    <div className="min-h-screen bg-gray-50 dark:bg-black py-20">
       <div className="max-w-4xl mx-auto px-6">
         {/* Header */}
         <motion.div
@@ -260,7 +260,7 @@ export default function PrivacyPolicyPage() {
           {currentContent.sections.map((section, index) => (
             <div
               key={index}
-              className="bg-gray-50 dark:bg-gray-900 border-2 border-black dark:border-white p-6"
+              className="bg-gray-50 dark:bg-black border-2 border-black dark:border-white p-6"
             >
               <h2 className="text-xl font-bold mb-4 text-black dark:text-white">
                 {section.title}
@@ -298,7 +298,7 @@ export default function PrivacyPolicyPage() {
         >
           <ShineLinkButton
             href="/"
-            className="inline-block px-8 py-3 bg-black dark:bg-white text-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-200"
+            className="inline-block px-8 py-3 bg-black dark:bg-white text-white dark:text-black hover:bg-[#0a0a0a] dark:hover:bg-gray-200"
           >
             {language === 'zh' ? '返回首页' : 'Back to Home'}
           </ShineLinkButton>

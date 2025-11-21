@@ -40,7 +40,7 @@ export default function LiveTradingConnection({
   const getStageColor = () => {
     if (stage === 'error') return 'text-red-600 dark:text-red-400';
     if (stage === 'connected') return 'text-green-600 dark:text-green-400';
-    return 'text-black dark:text-white';
+    return 'text-white';
   };
 
   if (!mounted) return null;
@@ -59,7 +59,7 @@ export default function LiveTradingConnection({
             initial={{ scale: 0.9, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             exit={{ scale: 0.9, opacity: 0 }}
-            className="bg-white dark:bg-gray-800 border-4 border-black dark:border-white p-8 max-w-md w-full mx-4"
+            className="bg-[#0a0a0a] border-4 border-gray-800 p-8 max-w-md w-full mx-4"
           >
             {/* Icon */}
             <div className="flex justify-center mb-4">
@@ -72,19 +72,19 @@ export default function LiveTradingConnection({
             </h3>
 
             {/* Message */}
-            <p className="text-center text-sm text-gray-600 dark:text-gray-400 mb-4">
+            <p className="text-center text-sm text-gray-400 mb-4">
               {message}
             </p>
 
             {/* Connection Status Details */}
             {stage === 'connected' && (
-              <div className="bg-gray-100 dark:bg-gray-900 border-2 border-gray-300 dark:border-gray-700 p-4 mb-4">
+              <div className="bg-gray-100 dark:bg-black border-2 border-gray-300 dark:border-gray-700 p-4 mb-4">
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-sm font-bold text-black dark:text-white">网络状态</span>
+                  <span className="text-sm font-bold text-white">网络状态</span>
                   <span className="text-sm text-green-600 dark:text-green-400 font-bold">正常</span>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-sm font-bold text-black dark:text-white">策略状态</span>
+                  <span className="text-sm font-bold text-white">策略状态</span>
                   <span className="text-sm text-green-600 dark:text-green-400 font-bold">运行中</span>
                 </div>
               </div>
@@ -101,7 +101,7 @@ export default function LiveTradingConnection({
             {(stage === 'connected' || stage === 'error') && onClose && (
               <button
                 onClick={onClose}
-                className="w-full px-6 py-3 bg-black dark:bg-white text-white dark:text-black font-bold border-2 border-black dark:border-white hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors"
+                className="w-full px-6 py-3 bg-black dark:bg-white text-white dark:text-black font-bold border-2 border-gray-800 hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors"
               >
                 {stage === 'connected' ? '开始交易' : '重试'}
               </button>

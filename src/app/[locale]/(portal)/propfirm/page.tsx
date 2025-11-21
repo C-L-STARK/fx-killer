@@ -5,6 +5,12 @@ import { motion } from 'motion/react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import LocaleLink from '@/components/navigation/LocaleLink';
 import UnifiedFormModal from '@/components/custom/UnifiedFormModal';
+import { SparklesCore } from '@/components/ui/sparkles';
+import { TypewriterEffect } from '@/components/ui/typewriter-effect';
+import { HoverCard, FadeInSlide } from '@/components/custom/AnimatedSection';
+import { BackgroundBeams } from '@/components/ui/background-beams';
+import { BackgroundBeamsWithCollision } from '@/components/ui/background-beams-with-collision';
+import ShineButton from '@/components/custom/ShineButton';
 
 // 价格数据 (FTMO × 1.1)
 const pricingPlans = [
@@ -56,100 +62,111 @@ export default function PropFirmPage() {
     setIsModalOpen(true);
   };
 
+  const heroWords = language === 'zh' ? [
+    { text: "汇刃", className: "text-white" },
+    { text: "×", className: "text-[#ff102a]" },
+    { text: "FTMO", className: "text-white" },
+  ] : [
+    { text: "FX Killer", className: "text-white" },
+    { text: "×", className: "text-[#ff102a]" },
+    { text: "FTMO", className: "text-white" },
+  ];
+
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-black text-white overflow-x-hidden">
       {/* Hero Section */}
-      <section className="relative py-20 lg:py-32 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-black" />
-        <div className="relative max-w-7xl mx-auto px-6">
+      <section className="relative h-screen min-h-[800px] flex flex-col items-center justify-center overflow-hidden">
+        <div className="w-full absolute inset-0 h-screen">
+          <SparklesCore
+            id="tsparticlesfullpage"
+            background="transparent"
+            minSize={0.6}
+            maxSize={1.4}
+            particleDensity={100}
+            className="w-full h-full"
+            particleColor="#FFFFFF"
+          />
+        </div>
+
+        <div className="relative z-10 max-w-7xl mx-auto px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-center"
           >
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#ff102a]/10 border border-[#ff102a]/30 rounded-full mb-8">
-              <span className="w-2 h-2 bg-[#ff102a] rounded-full animate-pulse" />
-              <span className="text-sm font-medium text-[#ff102a]">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#ff102a]/10 border border-[#ff102a]/30 mb-8 backdrop-blur-sm">
+              <span className="w-2 h-2 bg-[#ff102a] animate-pulse" />
+              <span className="text-sm font-medium text-[#ff102a] tracking-wide uppercase">
                 {language === 'zh' ? 'FTMO 官方合作伙伴' : 'Official FTMO Partner'}
               </span>
             </div>
 
             {/* Title */}
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-black mb-6">
-              {language === 'zh' ? (
-                <>
-                  <span className="text-white">汇刃</span>
-                  <span className="text-[#ff102a]"> × </span>
-                  <span className="text-white">FTMO</span>
-                </>
-              ) : (
-                <>
-                  <span className="text-white">FX Killer</span>
-                  <span className="text-[#ff102a]"> × </span>
-                  <span className="text-white">FTMO</span>
-                </>
-              )}
-            </h1>
+            <div className="mb-8">
+              <TypewriterEffect words={heroWords} className="text-5xl md:text-7xl lg:text-8xl font-black" cursorClassName="bg-[#ff102a]" />
+            </div>
 
             {/* Subtitle */}
-            <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
               {language === 'zh'
                 ? '成为职业交易员，管理最高 $200,000 资金，享受最高 90% 利润分成'
                 : 'Become a professional trader, manage up to $200,000, enjoy up to 90% profit split'}
             </p>
 
             {/* Key Points */}
-            <div className="flex flex-wrap justify-center gap-4 md:gap-8 mb-12">
+            <div className="flex flex-wrap justify-center gap-6 md:gap-10 mb-16">
               {[
                 language === 'zh' ? '零本金风险' : 'Zero Capital Risk',
                 language === 'zh' ? '最高90%分成' : 'Up to 90% Split',
                 language === 'zh' ? '费用首次返还' : 'Fee Refunded',
                 language === 'zh' ? '免费培训支持' : 'Free Training',
               ].map((point, index) => (
-                <div key={index} className="flex items-center gap-2">
+                <div key={index} className="flex items-center gap-2 bg-white/5 px-4 py-2 border border-white/10 backdrop-blur-sm">
                   <svg className="w-5 h-5 text-[#ff102a]" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-gray-300">{point}</span>
+                  <span className="text-gray-200 font-medium">{point}</span>
                 </div>
               ))}
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="#pricing"
-                className="px-8 py-4 bg-[#ff102a] text-white font-bold text-lg hover:bg-[#eb383e] transition-colors"
+            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+              <ShineButton
+                onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
+                className="px-10 py-5 bg-[#ff102a] text-white font-bold text-lg hover:bg-[#eb383e] transition-all shadow-[0_0_20px_rgba(255,16,42,0.4)]"
               >
                 {language === 'zh' ? '选择计划开始挑战' : 'Choose Plan & Start'}
-              </a>
-              <a
-                href="#process"
-                className="px-8 py-4 bg-transparent border-2 border-white text-white font-bold text-lg hover:bg-white hover:text-black transition-colors"
+              </ShineButton>
+              <button
+                onClick={() => document.getElementById('process')?.scrollIntoView({ behavior: 'smooth' })}
+                className="px-10 py-5 bg-transparent border border-white/30 text-white font-bold text-lg hover:bg-white hover:text-black transition-all backdrop-blur-sm"
               >
                 {language === 'zh' ? '了解考核流程' : 'Learn Process'}
-              </a>
+              </button>
             </div>
           </motion.div>
         </div>
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-20 bg-gray-900">
-        <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-            {language === 'zh' ? '为什么通过汇刃参加 FTMO' : 'Why Join FTMO Through FX Killer'}
-          </h2>
-          <div className="w-24 h-1 bg-[#ff102a] mx-auto mb-12" />
+      <section className="py-32 bg-[#050505] relative overflow-hidden">
+        <BackgroundBeams className="opacity-40" />
+        <div className="relative z-10 max-w-7xl mx-auto px-6">
+          <div className="text-center mb-20">
+            <h2 className="text-4xl md:text-5xl font-black mb-6">
+              {language === 'zh' ? '为什么通过汇刃参加 FTMO' : 'Why Join FTMO Through FX Killer'}
+            </h2>
+            <div className="w-24 h-1.5 bg-[#ff102a] mx-auto" />
+          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
                 icon: (
-                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                   </svg>
                 ),
                 title: language === 'zh' ? 'FTMO 官方合作' : 'Official Partner',
@@ -157,8 +174,8 @@ export default function PropFirmPage() {
               },
               {
                 icon: (
-                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                  <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                   </svg>
                 ),
                 title: language === 'zh' ? '免费专业培训' : 'Free Training',
@@ -166,8 +183,8 @@ export default function PropFirmPage() {
               },
               {
                 icon: (
-                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
+                  <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
                   </svg>
                 ),
                 title: language === 'zh' ? '中文全程支持' : 'Chinese Support',
@@ -175,61 +192,57 @@ export default function PropFirmPage() {
               },
               {
                 icon: (
-                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+                  <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
                   </svg>
                 ),
                 title: language === 'zh' ? '本地支付方式' : 'Local Payment',
                 desc: language === 'zh' ? '支持支付宝、微信、银行卡' : 'Alipay, WeChat, Bank Transfer',
               },
             ].map((item, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.1 }}
-                viewport={{ once: true }}
-                className="p-6 bg-black border border-gray-800 hover:border-[#ff102a] transition-colors"
-              >
-                <div className="w-12 h-12 bg-[#ff102a]/10 flex items-center justify-center mb-4 text-[#ff102a]">
-                  {item.icon}
-                </div>
-                <h3 className="text-lg font-bold mb-2">{item.title}</h3>
-                <p className="text-gray-400 text-sm">{item.desc}</p>
-              </motion.div>
+              <FadeInSlide key={index} direction="up" delay={index * 0.1}>
+                <HoverCard className="h-full">
+                  <div className="p-8 bg-[#0a0a0a] border border-white/10 h-full hover:border-[#ff102a] transition-all group relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-24 h-24 bg-[#ff102a]/5 -mr-4 -mt-4 transition-transform group-hover:scale-150 duration-500" />
+                    <div className="w-16 h-16 bg-[#ff102a]/10 flex items-center justify-center mb-6 text-[#ff102a] group-hover:bg-[#ff102a] group-hover:text-white transition-colors duration-300">
+                      {item.icon}
+                    </div>
+                    <h3 className="text-xl font-bold mb-3 text-white">{item.title}</h3>
+                    <p className="text-gray-400 text-sm leading-relaxed">{item.desc}</p>
+                  </div>
+                </HoverCard>
+              </FadeInSlide>
             ))}
           </div>
         </div>
       </section>
 
       {/* Pricing Plans */}
-      <section id="pricing" className="py-20 bg-black">
+      <section id="pricing" className="py-32 bg-black relative">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-            {language === 'zh' ? '选择你的挑战计划' : 'Choose Your Challenge'}
-          </h2>
-          <div className="w-24 h-1 bg-[#ff102a] mx-auto mb-8" />
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-black mb-6">
+              {language === 'zh' ? '选择你的挑战计划' : 'Choose Your Challenge'}
+            </h2>
+            <div className="w-24 h-1.5 bg-[#ff102a] mx-auto mb-10" />
 
-          {/* Currency Toggle */}
-          <div className="flex justify-center mb-12">
-            <div className="inline-flex bg-gray-900 p-1">
+            {/* Currency Toggle */}
+            <div className="inline-flex bg-black p-1.5 border border-gray-800">
               <button
                 onClick={() => setCurrency('CNY')}
-                className={`px-6 py-2 text-sm font-medium transition-colors ${
-                  currency === 'CNY'
-                    ? 'bg-[#ff102a] text-white'
+                className={`px-8 py-2.5 text-sm font-bold transition-all ${currency === 'CNY'
+                    ? 'bg-[#ff102a] text-white shadow-lg'
                     : 'text-gray-400 hover:text-white'
-                }`}
+                  }`}
               >
                 CNY (¥)
               </button>
               <button
                 onClick={() => setCurrency('USD')}
-                className={`px-6 py-2 text-sm font-medium transition-colors ${
-                  currency === 'USD'
-                    ? 'bg-[#ff102a] text-white'
+                className={`px-8 py-2.5 text-sm font-bold transition-all ${currency === 'USD'
+                    ? 'bg-[#ff102a] text-white shadow-lg'
                     : 'text-gray-400 hover:text-white'
-                }`}
+                  }`}
               >
                 USD ($)
               </button>
@@ -237,7 +250,7 @@ export default function PropFirmPage() {
           </div>
 
           {/* Plans Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
             {pricingPlans.map((plan, index) => (
               <motion.div
                 key={index}
@@ -245,62 +258,60 @@ export default function PropFirmPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className={`relative p-6 border ${
-                  plan.popular
-                    ? 'bg-[#ff102a]/10 border-[#ff102a]'
-                    : 'bg-gray-900 border-gray-800'
-                }`}
+                className={`relative flex flex-col p-6 border transition-all duration-300 ${plan.popular
+                    ? 'bg-[#ff102a]/5 border-[#ff102a] shadow-[0_0_30px_rgba(255,16,42,0.1)] scale-105 z-10'
+                    : 'bg-[#0a0a0a] border-white/10 hover:border-white/30'
+                  }`}
               >
                 {plan.popular && (
-                  <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-1 bg-[#ff102a] text-white text-xs font-bold">
-                    {language === 'zh' ? '热门' : 'Popular'}
+                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1 bg-[#ff102a] text-white text-xs font-bold uppercase tracking-wider shadow-lg">
+                    {language === 'zh' ? '热门选择' : 'Most Popular'}
                   </div>
                 )}
 
-                <div className="text-center mb-6">
-                  <h3 className="text-2xl font-bold mb-2">{plan.size}</h3>
-                  <div className="text-3xl font-black text-[#ff102a]">
+                <div className="text-center mb-8 mt-2">
+                  <h3 className="text-lg font-medium text-gray-400 mb-2">{plan.size}</h3>
+                  <div className="text-3xl font-black text-white">
                     {currency === 'CNY' ? `¥${plan.cnyPrice.toLocaleString()}` : `$${plan.usdPrice}`}
                   </div>
                 </div>
 
-                <div className="space-y-3 text-sm mb-6">
-                  <div className="flex justify-between">
+                <div className="space-y-4 text-sm mb-8 flex-grow">
+                  <div className="flex justify-between items-center py-2 border-b border-white/5">
                     <span className="text-gray-400">{language === 'zh' ? '阶段1目标' : 'Phase 1'}</span>
-                    <span className="font-medium">10%</span>
+                    <span className="font-bold text-white">10%</span>
                   </div>
-                  <div className="flex justify-between">
+                  <div className="flex justify-between items-center py-2 border-b border-white/5">
                     <span className="text-gray-400">{language === 'zh' ? '阶段2目标' : 'Phase 2'}</span>
-                    <span className="font-medium">5%</span>
+                    <span className="font-bold text-white">5%</span>
                   </div>
-                  <div className="flex justify-between">
+                  <div className="flex justify-between items-center py-2 border-b border-white/5">
                     <span className="text-gray-400">{language === 'zh' ? '日亏损限制' : 'Daily Loss'}</span>
-                    <span className="font-medium">5%</span>
+                    <span className="font-bold text-white">5%</span>
                   </div>
-                  <div className="flex justify-between">
+                  <div className="flex justify-between items-center py-2 border-b border-white/5">
                     <span className="text-gray-400">{language === 'zh' ? '总亏损限制' : 'Max Loss'}</span>
-                    <span className="font-medium">10%</span>
+                    <span className="font-bold text-white">10%</span>
                   </div>
-                  <div className="flex justify-between">
+                  <div className="flex justify-between items-center py-2">
                     <span className="text-gray-400">{language === 'zh' ? '利润分成' : 'Profit Split'}</span>
-                    <span className="font-medium text-[#ff102a]">80-90%</span>
+                    <span className="font-bold text-[#ff102a]">80-90%</span>
                   </div>
                 </div>
 
                 <button
                   onClick={() => handleSelectPlan(plan)}
-                  className={`w-full py-3 font-bold transition-colors ${
-                  plan.popular
-                    ? 'bg-[#ff102a] text-white hover:bg-[#eb383e]'
-                    : 'bg-white text-black hover:bg-gray-200'
-                }`}>
+                  className={`w-full py-4 font-bold text-sm uppercase tracking-wide transition-all ${plan.popular
+                      ? 'bg-[#ff102a] text-white hover:bg-[#eb383e] shadow-lg hover:shadow-[#ff102a]/40'
+                      : 'bg-white text-black hover:bg-gray-200'
+                    }`}>
                   {language === 'zh' ? '选择此计划' : 'Select Plan'}
                 </button>
               </motion.div>
             ))}
           </div>
 
-          <p className="text-center text-gray-500 text-sm mt-8">
+          <p className="text-center text-gray-500 text-sm mt-12">
             {language === 'zh'
               ? '* 考核费将在首次出金时全额返还'
               : '* Challenge fee refunded with first payout'}
@@ -309,12 +320,14 @@ export default function PropFirmPage() {
       </section>
 
       {/* Process */}
-      <section id="process" className="py-20 bg-gray-900">
+      <section id="process" className="py-32 bg-[#050505]">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-            {language === 'zh' ? '考核流程' : 'Evaluation Process'}
-          </h2>
-          <div className="w-24 h-1 bg-[#ff102a] mx-auto mb-12" />
+          <div className="text-center mb-20">
+            <h2 className="text-4xl md:text-5xl font-black mb-6">
+              {language === 'zh' ? '考核流程' : 'Evaluation Process'}
+            </h2>
+            <div className="w-24 h-1.5 bg-[#ff102a] mx-auto" />
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
@@ -353,70 +366,76 @@ export default function PropFirmPage() {
                 highlight: true,
               },
             ].map((phase, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.2 }}
-                viewport={{ once: true }}
-                className={`relative p-8 ${
-                  phase.highlight
-                    ? 'bg-[#ff102a] text-white'
-                    : 'bg-black border border-gray-800'
-                }`}
-              >
-                <div className={`text-6xl font-black mb-4 ${
-                  phase.highlight ? 'text-white/20' : 'text-[#ff102a]/20'
-                }`}>
-                  {phase.step}
+              <FadeInSlide key={index} direction="up" delay={index * 0.2}>
+                <div className={`relative p-10 h-full overflow-hidden transition-all duration-300 ${phase.highlight
+                    ? 'bg-[#ff102a] text-white shadow-[0_10px_40px_rgba(255,16,42,0.3)]'
+                    : 'bg-[#0a0a0a] border border-white/10 hover:border-white/30'
+                  }`}>
+                  {/* Background Pattern */}
+                  <div className="absolute top-0 right-0 opacity-10 font-black text-9xl -mr-4 -mt-8 pointer-events-none select-none">
+                    {phase.step}
+                  </div>
+
+                  <div className="relative z-10">
+                    <div className={`text-sm font-bold uppercase tracking-widest mb-2 ${phase.highlight ? 'text-white/80' : 'text-[#ff102a]'
+                      }`}>
+                      {language === 'zh' ? '阶段' : 'Step'} {phase.step}
+                    </div>
+                    <h3 className="text-2xl font-bold mb-8">{phase.title}</h3>
+
+                    <div className="grid grid-cols-2 gap-6 mb-8">
+                      <div>
+                        <div className={`text-xs uppercase tracking-wider mb-1 ${phase.highlight ? 'text-white/70' : 'text-gray-500'}`}>
+                          {language === 'zh' ? '时间' : 'Time'}
+                        </div>
+                        <div className="font-bold text-lg">{phase.duration}</div>
+                      </div>
+                      <div>
+                        <div className={`text-xs uppercase tracking-wider mb-1 ${phase.highlight ? 'text-white/70' : 'text-gray-500'}`}>
+                          {language === 'zh' ? '目标' : 'Target'}
+                        </div>
+                        <div className="font-bold text-lg">{phase.target}</div>
+                      </div>
+                    </div>
+
+                    <div className={`h-px w-full mb-6 ${phase.highlight ? 'bg-white/20' : 'bg-white/10'}`} />
+
+                    <ul className="space-y-3">
+                      {phase.rules.map((rule, ruleIndex) => (
+                        <li key={ruleIndex} className="flex items-center gap-3 text-sm font-medium">
+                          <div className={`w-1.5 h-1.5 ${phase.highlight ? 'bg-white' : 'bg-[#ff102a]'}`} />
+                          {rule}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-4">{phase.title}</h3>
-                <div className="mb-4">
-                  <span className={`text-sm ${phase.highlight ? 'text-white/70' : 'text-gray-400'}`}>
-                    {language === 'zh' ? '时间：' : 'Time: '}
-                  </span>
-                  <span className="font-medium">{phase.duration}</span>
-                </div>
-                <div className="mb-6">
-                  <span className={`text-sm ${phase.highlight ? 'text-white/70' : 'text-gray-400'}`}>
-                    {language === 'zh' ? '目标：' : 'Target: '}
-                  </span>
-                  <span className="font-bold text-lg">{phase.target}</span>
-                </div>
-                <ul className="space-y-2">
-                  {phase.rules.map((rule, ruleIndex) => (
-                    <li key={ruleIndex} className="flex items-center gap-2 text-sm">
-                      <svg className={`w-4 h-4 ${phase.highlight ? 'text-white' : 'text-[#ff102a]'}`} fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                      </svg>
-                      {rule}
-                    </li>
-                  ))}
-                </ul>
-              </motion.div>
+              </FadeInSlide>
             ))}
           </div>
         </div>
       </section>
 
       {/* Trading Rules */}
-      <section className="py-20 bg-black">
+      <section className="py-32 bg-black">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-            {language === 'zh' ? '交易规则' : 'Trading Rules'}
-          </h2>
-          <div className="w-24 h-1 bg-[#ff102a] mx-auto mb-12" />
+          <div className="text-center mb-20">
+            <h2 className="text-4xl md:text-5xl font-black mb-6">
+              {language === 'zh' ? '交易规则' : 'Trading Rules'}
+            </h2>
+            <div className="w-24 h-1.5 bg-[#ff102a] mx-auto" />
+          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             {/* Allowed */}
-            <div className="p-8 bg-gray-900 border border-gray-800">
-              <h3 className="text-xl font-bold mb-6 flex items-center gap-2">
-                <svg className="w-6 h-6 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+            <div className="p-10 bg-[#0a0a0a] border border-white/10">
+              <h3 className="text-2xl font-bold mb-8 flex items-center gap-3 text-green-500">
+                <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 {language === 'zh' ? '允许的操作' : 'Allowed'}
               </h3>
-              <ul className="space-y-4">
+              <ul className="space-y-5">
                 {[
                   language === 'zh' ? 'EA / 自动化交易' : 'EA / Automated Trading',
                   language === 'zh' ? '新闻时段交易' : 'News Trading',
@@ -424,8 +443,8 @@ export default function PropFirmPage() {
                   language === 'zh' ? '任意交易风格' : 'Any Trading Style',
                   language === 'zh' ? '复制交易（自己账户间）' : 'Copy Trading (Own Accounts)',
                 ].map((item, index) => (
-                  <li key={index} className="flex items-center gap-3 text-gray-300">
-                    <span className="text-green-500">✓</span>
+                  <li key={index} className="flex items-center gap-4 text-gray-300 text-lg">
+                    <span className="w-6 h-6 bg-green-500/10 flex items-center justify-center text-green-500 text-xs">✓</span>
                     {item}
                   </li>
                 ))}
@@ -433,23 +452,23 @@ export default function PropFirmPage() {
             </div>
 
             {/* Conditions */}
-            <div className="p-8 bg-gray-900 border border-gray-800">
-              <h3 className="text-xl font-bold mb-6 flex items-center gap-2">
-                <svg className="w-6 h-6 text-[#ff102a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="p-10 bg-[#0a0a0a] border border-white/10">
+              <h3 className="text-2xl font-bold mb-8 flex items-center gap-3 text-[#ff102a]">
+                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 {language === 'zh' ? '交易条件' : 'Trading Conditions'}
               </h3>
-              <ul className="space-y-4">
+              <ul className="space-y-6">
                 {[
                   { label: language === 'zh' ? '杠杆' : 'Leverage', value: '1:100' },
                   { label: language === 'zh' ? '交易品种' : 'Instruments', value: language === 'zh' ? '外汇、黄金、指数、原油、加密货币' : 'Forex, Gold, Indices, Oil, Crypto' },
                   { label: language === 'zh' ? '交易平台' : 'Platforms', value: 'MT4 / MT5 / cTrader' },
                   { label: language === 'zh' ? '交易时间' : 'Trading Hours', value: language === 'zh' ? '无限制' : 'Unlimited' },
                 ].map((item, index) => (
-                  <li key={index} className="flex justify-between text-sm">
-                    <span className="text-gray-400">{item.label}</span>
-                    <span className="text-white font-medium">{item.value}</span>
+                  <li key={index} className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2 pb-4 border-b border-white/5 last:border-0">
+                    <span className="text-gray-400 font-medium">{item.label}</span>
+                    <span className="text-white font-bold text-lg">{item.value}</span>
                   </li>
                 ))}
               </ul>
@@ -459,48 +478,53 @@ export default function PropFirmPage() {
       </section>
 
       {/* Scaling Plan */}
-      <section className="py-20 bg-gray-900">
+      <section className="py-32 bg-[#050505]">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-            {language === 'zh' ? '资金扩展计划' : 'Scaling Plan'}
-          </h2>
-          <div className="w-24 h-1 bg-[#ff102a] mx-auto mb-8" />
-          <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
-            {language === 'zh'
-              ? '每4个月周期达成10%盈利，资金增加25%，分成提升至90%，最高可达 $2,000,000'
-              : 'Achieve 10% profit every 4 months, get 25% capital increase, 90% profit split, up to $2,000,000'}
-          </p>
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-black mb-6">
+              {language === 'zh' ? '资金扩展计划' : 'Scaling Plan'}
+            </h2>
+            <div className="w-24 h-1.5 bg-[#ff102a] mx-auto mb-8" />
+            <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+              {language === 'zh'
+                ? '每4个月周期达成10%盈利，资金增加25%，分成提升至90%，最高可达 $2,000,000'
+                : 'Achieve 10% profit every 4 months, get 25% capital increase, 90% profit split, up to $2,000,000'}
+            </p>
+          </div>
 
-          <div className="flex flex-wrap justify-center items-center gap-4">
-            {['$10K', '$25K', '$50K', '$100K', '$200K', '$400K', '...', '$2M'].map((amount, index) => (
-              <React.Fragment key={index}>
-                <div className={`px-4 py-2 ${
-                  amount === '...'
-                    ? 'text-gray-500'
-                    : amount === '$2M'
-                    ? 'bg-[#ff102a] text-white font-bold'
-                    : 'bg-gray-800 text-white'
-                }`}>
-                  {amount}
+          <div className="relative max-w-5xl mx-auto">
+            {/* Progress Line */}
+            <div className="absolute top-1/2 left-0 w-full h-1 bg-[#0a0a0a] -translate-y-1/2 hidden md:block" />
+
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4 relative z-10">
+              {['$10K', '$25K', '$50K', '$100K', '$200K', '$400K', '...', '$2M'].map((amount, index) => (
+                <div key={index} className="flex flex-col items-center gap-4">
+                  <div className={`w-4 h-4 border-4 hidden md:block ${amount === '$2M' ? 'border-[#ff102a] bg-black' : 'border-gray-800 bg-black'
+                    }`} />
+                  <div className={`px-4 py-3 font-bold w-full text-center transition-all ${amount === '...'
+                      ? 'text-gray-500 bg-transparent'
+                      : amount === '$2M'
+                        ? 'bg-[#ff102a] text-white shadow-[0_0_20px_rgba(255,16,42,0.4)] scale-110'
+                        : 'bg-[#1a1a1a] text-white border border-white/10'
+                    }`}>
+                    {amount}
+                  </div>
                 </div>
-                {index < 7 && (
-                  <svg className="w-4 h-4 text-[#ff102a]" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
-                  </svg>
-                )}
-              </React.Fragment>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </section>
 
       {/* FAQ */}
-      <section className="py-20 bg-black">
+      <section className="py-32 bg-black">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-            {language === 'zh' ? '常见问题' : 'FAQ'}
-          </h2>
-          <div className="w-24 h-1 bg-[#ff102a] mx-auto mb-12" />
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-black mb-6">
+              {language === 'zh' ? '常见问题' : 'FAQ'}
+            </h2>
+            <div className="w-24 h-1.5 bg-[#ff102a] mx-auto" />
+          </div>
 
           <div className="space-y-4">
             {[
@@ -537,12 +561,12 @@ export default function PropFirmPage() {
             ].map((item, index) => (
               <details
                 key={index}
-                className="group bg-gray-900 border border-gray-800"
+                className="group bg-[#0a0a0a] border border-white/10 overflow-hidden transition-all hover:border-white/30"
               >
-                <summary className="flex justify-between items-center cursor-pointer p-6 font-medium">
+                <summary className="flex justify-between items-center cursor-pointer p-6 font-bold text-lg select-none">
                   {item.q}
                   <svg
-                    className="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform"
+                    className="w-6 h-6 text-[#ff102a] group-open:rotate-180 transition-transform duration-300"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -550,7 +574,7 @@ export default function PropFirmPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </summary>
-                <div className="px-6 pb-6 text-gray-400">
+                <div className="px-6 pb-6 text-gray-400 leading-relaxed border-t border-white/5 pt-4">
                   {item.a}
                 </div>
               </details>
@@ -560,40 +584,42 @@ export default function PropFirmPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-[#ff102a]">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+      <BackgroundBeamsWithCollision className="py-32">
+        <div className="max-w-4xl mx-auto px-6 text-center relative z-10">
+          <h2 className="text-5xl md:text-6xl font-black mb-8 bg-clip-text text-transparent bg-gradient-to-b from-white to-white/60">
             {language === 'zh' ? '准备好开始了吗？' : 'Ready to Start?'}
           </h2>
-          <p className="text-white/80 mb-8 text-lg">
+          <p className="text-white/80 mb-12 text-xl max-w-2xl mx-auto">
             {language === 'zh'
               ? '选择你的挑战计划，开启职业交易员之路'
               : 'Choose your challenge plan and start your journey'}
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="#pricing"
-              className="px-8 py-4 bg-white text-[#ff102a] font-bold text-lg hover:bg-gray-100 transition-colors"
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+            <ShineButton
+              onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
+              className="px-12 py-5 bg-[#ff102a] text-white font-bold text-xl hover:bg-[#eb383e] transition-all shadow-[0_0_30px_rgba(255,16,42,0.4)]"
             >
               {language === 'zh' ? '选择计划' : 'Choose Plan'}
-            </a>
+            </ShineButton>
             <LocaleLink
               href="/splan/join-us"
-              className="px-8 py-4 bg-transparent border-2 border-white text-white font-bold text-lg hover:bg-white hover:text-[#ff102a] transition-colors"
+              className="px-12 py-5 bg-transparent border border-white/30 text-white font-bold text-xl hover:bg-white hover:text-black transition-all backdrop-blur-sm"
             >
               {language === 'zh' ? '先参加培训' : 'Join Training First'}
             </LocaleLink>
+          </div>
+          <div className="mt-12">
             <a
               href="https://trader.ftmo.com/?affiliates=UUdNjacFYttdgsZcEozt"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-8 py-4 bg-transparent border-2 border-white text-white font-bold text-lg hover:bg-white hover:text-[#ff102a] transition-colors"
+              className="text-gray-500 hover:text-white transition-colors text-sm border-b border-gray-500 hover:border-white pb-0.5"
             >
-              {language === 'zh' ? '访问 FTMO' : 'Visit FTMO'}
+              {language === 'zh' ? '访问 FTMO 官网' : 'Visit FTMO Official Site'}
             </a>
           </div>
         </div>
-      </section>
+      </BackgroundBeamsWithCollision>
 
       {/* Plan Selection Modal */}
       <UnifiedFormModal

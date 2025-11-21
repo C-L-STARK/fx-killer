@@ -46,21 +46,21 @@ export default function AdminLogin({ onAuthenticate }: AdminLoginProps) {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-950">
+    <div className="min-h-screen flex items-center justify-center bg-black">
       <div className="max-w-md w-full mx-4">
-        <div className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 p-8">
+        <div className="bg-[#0a0a0a] border border-white/10 p-8">
           <div className="text-center mb-8">
-            <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
+            <h1 className="text-3xl font-bold text-white mb-2">
               <BrandName /> {t('login.title')}
             </h1>
-            <p className="text-gray-600 dark:text-gray-400">
+            <p className="text-gray-400">
               {t('login.subtitle')}
             </p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
-              <label htmlFor="password" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+              <label htmlFor="password" className="block text-sm font-medium text-gray-300 mb-2">
                 {t('login.password.label')}
               </label>
               <input
@@ -71,12 +71,12 @@ export default function AdminLogin({ onAuthenticate }: AdminLoginProps) {
                   setPassword(e.target.value);
                   setError('');
                 }}
-                className="w-full px-4 py-3 border-2 border-gray-300 dark:border-gray-600 focus:ring-0 focus:border-black dark:focus:border-white dark:bg-gray-700 dark:text-white transition-all"
+                className="w-full px-4 py-3 border border-white/10 focus:ring-0 focus:border-[#ff102a] bg-black text-white transition-all"
                 placeholder={t('login.password.placeholder')}
                 autoFocus
               />
               {error && (
-                <p className="mt-2 text-sm text-gray-900 dark:text-white font-semibold">
+                <p className="mt-2 text-sm text-[#ff102a] font-semibold">
                   {error}
                 </p>
               )}
@@ -85,7 +85,7 @@ export default function AdminLogin({ onAuthenticate }: AdminLoginProps) {
             <button
               type="submit"
               disabled={loading}
-              className="w-full py-3 px-4 bg-black dark:bg-white text-white dark:text-black font-semibold border-2 border-black dark:border-white hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full py-3 px-4 bg-[#ff102a] text-white font-semibold border border-[#ff102a] hover:bg-[#eb383e] transition-all disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {loading ? (
                 <span className="flex items-center justify-center">
@@ -104,7 +104,7 @@ export default function AdminLogin({ onAuthenticate }: AdminLoginProps) {
           <div className="mt-6 text-center">
             <a
               href="/"
-              className="text-sm text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors"
+              className="text-sm text-gray-400 hover:text-white transition-colors"
             >
               {t('login.back')}
             </a>

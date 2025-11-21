@@ -86,7 +86,7 @@ export default function HistoryPage() {
 
   if (!results) {
     return (
-      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center">
+      <div className="min-h-screen bg-gray-50 dark:bg-black flex items-center justify-center">
         <div className="text-center">
           <p className="text-xl text-gray-600 dark:text-gray-400 mb-4">
             No backtest results available
@@ -106,9 +106,9 @@ export default function HistoryPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+    <div className="min-h-screen bg-gray-50 dark:bg-black">
       {/* Header */}
-      <div className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 px-6 py-4">
+      <div className="bg-gray-50 dark:bg-[#0a0a0a] border-b border-gray-200 dark:border-gray-700 px-6 py-4">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
             Trading History & Analytics
@@ -150,7 +150,7 @@ export default function HistoryPage() {
 
         {/* TradingView Chart */}
         {candles.length > 0 && (
-          <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
+          <div className="bg-gray-50 dark:bg-[#0a0a0a] rounded-lg p-6 shadow-md">
             <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
               Price Chart with Trade Markers
             </h2>
@@ -159,7 +159,7 @@ export default function HistoryPage() {
         )}
 
         {/* Equity Curve */}
-        <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
+        <div className="bg-gray-50 dark:bg-[#0a0a0a] rounded-lg p-6 shadow-md">
           <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
             Equity Curve
           </h2>
@@ -169,7 +169,7 @@ export default function HistoryPage() {
         {/* Advanced Statistics */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Streaks */}
-          <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
+          <div className="bg-gray-50 dark:bg-[#0a0a0a] rounded-lg p-6 shadow-md">
             <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">
               Win/Loss Streaks
             </h3>
@@ -190,7 +190,7 @@ export default function HistoryPage() {
           </div>
 
           {/* Best/Worst Trades */}
-          <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
+          <div className="bg-gray-50 dark:bg-[#0a0a0a] rounded-lg p-6 shadow-md">
             <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">
               Best & Worst
             </h3>
@@ -211,7 +211,7 @@ export default function HistoryPage() {
           </div>
 
           {/* Time Analysis */}
-          <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
+          <div className="bg-gray-50 dark:bg-[#0a0a0a] rounded-lg p-6 shadow-md">
             <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">
               Time Analysis
             </h3>
@@ -238,7 +238,7 @@ export default function HistoryPage() {
         </div>
 
         {/* Trade List */}
-        <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
+        <div className="bg-gray-50 dark:bg-[#0a0a0a] rounded-lg p-6 shadow-md">
           <div className="flex items-center justify-between mb-6">
             <h2 className="text-xl font-bold text-gray-900 dark:text-white">
               Trade History ({filteredTrades.length})
@@ -248,7 +248,7 @@ export default function HistoryPage() {
               <select
                 value={filter}
                 onChange={(e) => setFilter(e.target.value as any)}
-                className="px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-white text-sm"
+                className="px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-[#0a0a0a] text-gray-900 dark:text-white text-sm"
               >
                 <option value="all">All Trades</option>
                 <option value="wins">Wins Only</option>
@@ -259,7 +259,7 @@ export default function HistoryPage() {
               <select
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value as any)}
-                className="px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-white text-sm"
+                className="px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-[#0a0a0a] text-gray-900 dark:text-white text-sm"
               >
                 <option value="date">Sort by Date</option>
                 <option value="pnl">Sort by P&L</option>
@@ -270,7 +270,7 @@ export default function HistoryPage() {
 
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
-              <thead className="bg-gray-50 dark:bg-gray-700">
+              <thead className="bg-gray-50 dark:bg-[#0a0a0a]">
                 <tr>
                   <th className="px-4 py-3 text-left">Entry Time</th>
                   <th className="px-4 py-3 text-left">Side</th>
@@ -289,7 +289,7 @@ export default function HistoryPage() {
                     : 0;
 
                   return (
-                    <tr key={trade.id} className="hover:bg-gray-50 dark:hover:bg-gray-700/50">
+                    <tr key={trade.id} className="hover:bg-gray-50 dark:hover:bg-[#0a0a0a]/50">
                       <td className="px-4 py-3">
                         {new Date(trade.entryTime).toLocaleString('en-US', {
                           month: 'short',

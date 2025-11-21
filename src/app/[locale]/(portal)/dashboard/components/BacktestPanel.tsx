@@ -8,7 +8,7 @@ import type { TradingConfig, BacktestResult } from '@/lib/trading/types';
 
 const ProfitChart = dynamic(() => import('./ProfitChart'), {
   ssr: false,
-  loading: () => <div className="w-full h-[400px] flex items-center justify-center bg-white dark:bg-gray-900 border-2 border-gray-300 dark:border-gray-700">加载图表中...</div>
+  loading: () => <div className="w-full h-[400px] flex items-center justify-center bg-black border-2 border-gray-300 dark:border-gray-700">加载图表中...</div>
 });
 
 // K线图已移除 - 不再需要
@@ -146,59 +146,59 @@ export default function BacktestPanel({ config: initialConfig, onConfigChange }:
       />
 
       {/* Controls */}
-      <div className="bg-white dark:bg-gray-800 p-8 border-2 border-black dark:border-white">
-        <h2 className="text-2xl font-bold text-black dark:text-white mb-6 pb-3 border-b-2 border-black dark:border-white">
+      <div className="bg-[#0a0a0a] p-8 border-2 border-gray-800">
+        <h2 className="text-2xl font-bold text-white mb-6 pb-3 border-b-2 border-gray-800">
           回测参数配置
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
           <div>
-            <label className="block text-sm font-bold text-black dark:text-white mb-2">
+            <label className="block text-sm font-bold text-white mb-2">
               开始日期
             </label>
             <input
               type="date"
               value={startDate}
               onChange={(e) => setStartDate(e.target.value)}
-              className="w-full px-4 py-3 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+              className="w-full px-4 py-3 border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none"
             />
           </div>
 
           <div>
-            <label className="block text-sm font-bold text-black dark:text-white mb-2">
+            <label className="block text-sm font-bold text-white mb-2">
               结束日期
             </label>
             <input
               type="date"
               value={endDate}
               onChange={(e) => setEndDate(e.target.value)}
-              className="w-full px-4 py-3 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+              className="w-full px-4 py-3 border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none"
             />
           </div>
 
           <div>
-            <label className="block text-sm font-bold text-black dark:text-white mb-2">
+            <label className="block text-sm font-bold text-white mb-2">
               初始资金 (USDT)
             </label>
             <input
               type="number"
               value={initialCapital}
               onChange={(e) => setInitialCapital(Number(e.target.value))}
-              className="w-full px-4 py-3 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+              className="w-full px-4 py-3 border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none"
             />
           </div>
         </div>
 
-        <div className="mb-6 p-4 bg-white dark:bg-gray-900 border-2 border-gray-300 dark:border-gray-700">
+        <div className="mb-6 p-4 bg-black border-2 border-gray-300 dark:border-gray-700">
           <div className="flex items-start">
-            <svg className="w-5 h-5 text-black dark:text-white mt-0.5 mr-3" fill="currentColor" viewBox="0 0 20 20">
+            <svg className="w-5 h-5 text-white mt-0.5 mr-3" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
             </svg>
             <div>
-              <p className="text-sm font-bold text-black dark:text-white">
+              <p className="text-sm font-bold text-white">
                 使用真实历史数据
               </p>
-              <p className="text-xs text-gray-600 dark:text-gray-400 mt-1">
+              <p className="text-xs text-gray-400 mt-1">
                 外汇品种(XAUUSDT等)使用Twelve Data/Alpha Vantage真实数据，加密货币使用Binance真实数据，均无需API密钥
               </p>
             </div>
@@ -208,7 +208,7 @@ export default function BacktestPanel({ config: initialConfig, onConfigChange }:
         <button
           onClick={runBacktest}
           disabled={loading}
-          className="w-full px-6 py-4 bg-black dark:bg-white text-white dark:text-black font-bold border-2 border-black dark:border-white hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+          className="w-full px-6 py-4 bg-black dark:bg-white text-white dark:text-black font-bold border-2 border-gray-800 hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {loading ? (
             <span className="flex items-center justify-center">
@@ -227,7 +227,7 @@ export default function BacktestPanel({ config: initialConfig, onConfigChange }:
         <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
-          className="bg-white dark:bg-gray-900 border-2 border-red-600 dark:border-red-400 p-4"
+          className="bg-black border-2 border-red-600 dark:border-red-400 p-4"
         >
           <div className="flex items-start">
             <div className="flex-shrink-0">
@@ -237,7 +237,7 @@ export default function BacktestPanel({ config: initialConfig, onConfigChange }:
             </div>
             <div className="ml-3">
               <h3 className="text-sm font-bold text-red-600 dark:text-red-400">错误</h3>
-              <p className="text-sm text-black dark:text-white mt-1">{error}</p>
+              <p className="text-sm text-white mt-1">{error}</p>
             </div>
           </div>
         </motion.div>
@@ -252,12 +252,12 @@ export default function BacktestPanel({ config: initialConfig, onConfigChange }:
         >
           {/* Data Source Info */}
           {results.dataSource && (
-            <div className="bg-white dark:bg-gray-900 border-2 border-gray-300 dark:border-gray-700 p-4">
+            <div className="bg-black border-2 border-gray-300 dark:border-gray-700 p-4">
               <div className="flex items-center">
-                <svg className="h-5 w-5 text-black dark:text-white mr-2" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="h-5 w-5 text-white mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
                 </svg>
-                <p className="text-sm font-bold text-black dark:text-white">
+                <p className="text-sm font-bold text-white">
                   数据来源: {(() => {
                     switch (results.dataSource) {
                       case 'twelve-data':
@@ -282,7 +282,7 @@ export default function BacktestPanel({ config: initialConfig, onConfigChange }:
           )}
 
           {/* Performance Overview */}
-          <div className="bg-black dark:bg-white p-8 border-2 border-black dark:border-white">
+          <div className="bg-black dark:bg-white p-8 border-2 border-gray-800">
             <h3 className="text-2xl font-bold text-white dark:text-black mb-6 pb-3 border-b-2 border-white dark:border-black">核心表现指标</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <MetricCard
@@ -310,8 +310,8 @@ export default function BacktestPanel({ config: initialConfig, onConfigChange }:
           </div>
 
           {/* Detailed Metrics */}
-          <div className="bg-white dark:bg-gray-800 p-8 border-2 border-black dark:border-white">
-            <h3 className="text-2xl font-bold text-black dark:text-white mb-6 pb-3 border-b-2 border-black dark:border-white">详细统计</h3>
+          <div className="bg-[#0a0a0a] p-8 border-2 border-gray-800">
+            <h3 className="text-2xl font-bold text-white mb-6 pb-3 border-b-2 border-gray-800">详细统计</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <MetricCard
                 title="最大回撤"
@@ -340,34 +340,34 @@ export default function BacktestPanel({ config: initialConfig, onConfigChange }:
           {/* K线图已移除 - 不再需要 */}
 
           {/* Equity Curve Chart */}
-          <div className="bg-white dark:bg-gray-800 p-8 border-2 border-black dark:border-white">
-            <h3 className="text-2xl font-bold text-black dark:text-white mb-6 pb-3 border-b-2 border-black dark:border-white">
+          <div className="bg-[#0a0a0a] p-8 border-2 border-gray-800">
+            <h3 className="text-2xl font-bold text-white mb-6 pb-3 border-b-2 border-gray-800">
               资金曲线
             </h3>
             <ProfitChart results={results} />
           </div>
 
           {/* Trade List */}
-          <div className="bg-white dark:bg-gray-800 p-8 border-2 border-black dark:border-white">
-            <h3 className="text-2xl font-bold text-black dark:text-white mb-6 pb-3 border-b-2 border-black dark:border-white">
+          <div className="bg-[#0a0a0a] p-8 border-2 border-gray-800">
+            <h3 className="text-2xl font-bold text-white mb-6 pb-3 border-b-2 border-gray-800">
               交易记录 ({results.trades.length})
             </h3>
             <div className="overflow-x-auto border-2 border-gray-300 dark:border-gray-700">
               <table className="w-full text-sm">
-                <thead className="bg-white dark:bg-gray-900 border-b-2 border-gray-300 dark:border-gray-700">
+                <thead className="bg-black border-b-2 border-gray-300 dark:border-gray-700">
                   <tr>
-                    <th className="px-4 py-3 text-left font-bold text-black dark:text-white">时间</th>
-                    <th className="px-4 py-3 text-left font-bold text-black dark:text-white">方向</th>
-                    <th className="px-4 py-3 text-right font-bold text-black dark:text-white">入场价</th>
-                    <th className="px-4 py-3 text-right font-bold text-black dark:text-white">出场价</th>
-                    <th className="px-4 py-3 text-right font-bold text-black dark:text-white">盈亏</th>
-                    <th className="px-4 py-3 text-left font-bold text-black dark:text-white">退出原因</th>
+                    <th className="px-4 py-3 text-left font-bold text-white">时间</th>
+                    <th className="px-4 py-3 text-left font-bold text-white">方向</th>
+                    <th className="px-4 py-3 text-right font-bold text-white">入场价</th>
+                    <th className="px-4 py-3 text-right font-bold text-white">出场价</th>
+                    <th className="px-4 py-3 text-right font-bold text-white">盈亏</th>
+                    <th className="px-4 py-3 text-left font-bold text-white">退出原因</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-300 dark:divide-gray-700">
                   {results.trades.slice(0, 50).map((trade) => (
-                    <tr key={trade.id} className="hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
-                      <td className="px-4 py-3 text-black dark:text-white">
+                    <tr key={trade.id} className="hover:bg-gray-100 dark:hover:bg-[#0a0a0a] transition-colors">
+                      <td className="px-4 py-3 text-white">
                         {new Date(trade.entryTime).toLocaleString('zh-CN', {
                           month: 'short',
                           day: 'numeric',
@@ -378,16 +378,16 @@ export default function BacktestPanel({ config: initialConfig, onConfigChange }:
                       <td className="px-4 py-3">
                         <span className={`inline-flex px-3 py-1 text-xs font-bold border-2 ${
                           trade.side === 'long'
-                            ? 'bg-green-100 text-green-800 border-green-600 dark:bg-gray-900 dark:text-green-400 dark:border-green-400'
-                            : 'bg-red-100 text-red-800 border-red-600 dark:bg-gray-900 dark:text-red-400 dark:border-red-400'
+                            ? 'bg-green-100 text-green-800 border-green-600 dark:bg-black dark:text-green-400 dark:border-green-400'
+                            : 'bg-red-100 text-red-800 border-red-600 dark:bg-black dark:text-red-400 dark:border-red-400'
                         }`}>
                           {trade.side === 'long' ? '做多' : '做空'}
                         </span>
                       </td>
-                      <td className="px-4 py-3 text-right font-mono font-bold text-black dark:text-white">
+                      <td className="px-4 py-3 text-right font-mono font-bold text-white">
                         ${trade.entryPrice.toFixed(2)}
                       </td>
-                      <td className="px-4 py-3 text-right font-mono font-bold text-black dark:text-white">
+                      <td className="px-4 py-3 text-right font-mono font-bold text-white">
                         ${trade.exitPrice?.toFixed(2) || '-'}
                       </td>
                       <td className={`px-4 py-3 text-right font-mono font-bold ${
@@ -405,8 +405,8 @@ export default function BacktestPanel({ config: initialConfig, onConfigChange }:
                 </tbody>
               </table>
               {results.trades.length > 50 && (
-                <div className="bg-white dark:bg-gray-900 px-4 py-3 text-center border-t-2 border-gray-300 dark:border-gray-700">
-                  <p className="text-sm text-gray-600 dark:text-gray-400">
+                <div className="bg-black px-4 py-3 text-center border-t-2 border-gray-300 dark:border-gray-700">
+                  <p className="text-sm text-gray-400">
                     仅显示前 50 笔交易 (共 {results.trades.length} 笔)
                   </p>
                 </div>
@@ -436,18 +436,18 @@ interface MetricCardProps {
 
 function MetricCard({ title, value, subtitle, color }: MetricCardProps) {
   const textColorClasses = {
-    blue: 'text-black dark:text-white',
+    blue: 'text-white',
     green: 'text-green-600 dark:text-green-400',
     red: 'text-red-600 dark:text-red-400',
-    purple: 'text-black dark:text-white',
+    purple: 'text-white',
   };
 
   return (
-    <div className="bg-white dark:bg-gray-900 p-4 border-2 border-gray-300 dark:border-gray-700">
-      <p className="text-xs font-bold text-gray-600 dark:text-gray-400 uppercase mb-2">{title}</p>
+    <div className="bg-black p-4 border-2 border-gray-300 dark:border-gray-700">
+      <p className="text-xs font-bold text-gray-400 uppercase mb-2">{title}</p>
       <p className={`text-2xl font-bold ${textColorClasses[color]}`}>{value}</p>
       {subtitle && (
-        <p className="text-sm font-bold text-gray-600 dark:text-gray-400 mt-1">{subtitle}</p>
+        <p className="text-sm font-bold text-gray-400 mt-1">{subtitle}</p>
       )}
     </div>
   );
@@ -467,12 +467,12 @@ function getExitReasonText(reason?: string): string {
 
 function getExitReasonStyle(reason?: string): string {
   const styles: Record<string, string> = {
-    'stop_loss': 'bg-red-100 text-red-800 border-red-600 dark:bg-gray-900 dark:text-red-300 dark:border-red-400',
-    'take_profit': 'bg-green-100 text-green-800 border-green-600 dark:bg-gray-900 dark:text-green-300 dark:border-green-400',
-    'trailing_stop': 'bg-white text-black border-gray-300 dark:bg-gray-900 dark:text-white dark:border-gray-700',
-    'signal': 'bg-white text-black border-gray-300 dark:bg-gray-900 dark:text-white dark:border-gray-700',
-    'daily_limit': 'bg-white text-black border-gray-300 dark:bg-gray-900 dark:text-white dark:border-gray-700',
-    'drawdown_limit': 'bg-white text-black border-gray-300 dark:bg-gray-900 dark:text-white dark:border-gray-700',
+    'stop_loss': 'bg-red-100 text-red-800 border-red-600 dark:bg-black dark:text-red-300 dark:border-red-400',
+    'take_profit': 'bg-green-100 text-green-800 border-green-600 dark:bg-black dark:text-green-300 dark:border-green-400',
+    'trailing_stop': 'bg-white text-black border-gray-300 dark:bg-black dark:text-white dark:border-gray-700',
+    'signal': 'bg-white text-black border-gray-300 dark:bg-black dark:text-white dark:border-gray-700',
+    'daily_limit': 'bg-white text-black border-gray-300 dark:bg-black dark:text-white dark:border-gray-700',
+    'drawdown_limit': 'bg-white text-black border-gray-300 dark:bg-black dark:text-white dark:border-gray-700',
   };
-  return styles[reason || ''] || 'bg-white text-black border-gray-300 dark:bg-gray-900 dark:text-white dark:border-gray-700';
+  return styles[reason || ''] || 'bg-white text-black border-gray-300 dark:bg-black dark:text-white dark:border-gray-700';
 }

@@ -33,7 +33,7 @@ export default function AnimationShowcase() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white dark:bg-black py-20 px-8">
+    <div className="min-h-screen bg-gray-50 dark:bg-black py-20 px-8">
       <div className="max-w-6xl mx-auto">
         {/* 页面标题 */}
         <div className="text-center mb-20">

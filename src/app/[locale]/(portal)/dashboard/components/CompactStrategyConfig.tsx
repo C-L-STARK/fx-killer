@@ -142,15 +142,15 @@ export default function CompactStrategyConfig({
   const currentPreset = getCurrentPreset();
 
   return (
-    <div className="bg-white dark:bg-gray-800 border-2 border-black dark:border-white">
+    <div className="bg-[#0a0a0a] border-2 border-gray-800">
       {/* Header */}
       <button
         onClick={() => setExpanded(!expanded)}
-        className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
+        className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50 dark:hover:bg-[#0a0a0a] transition-colors"
       >
-        <h3 className="text-lg font-bold text-black dark:text-white">策略配置</h3>
+        <h3 className="text-lg font-bold text-white">策略配置</h3>
         <svg
-          className={`w-5 h-5 text-black dark:text-white transition-transform ${expanded ? 'rotate-180' : ''}`}
+          className={`w-5 h-5 text-white transition-transform ${expanded ? 'rotate-180' : ''}`}
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -165,14 +165,14 @@ export default function CompactStrategyConfig({
           {/* Presets */}
           {showPresets && (
             <div className="pt-6 pb-4 mb-4 border-b-2 border-gray-300 dark:border-gray-700">
-              <p className="text-sm font-bold text-black dark:text-white mb-3">快速预设</p>
+              <p className="text-sm font-bold text-white mb-3">快速预设</p>
               <div className="grid grid-cols-3 gap-2">
                 <button
                   onClick={() => applyPreset('conservative')}
                   className={`px-3 py-2 text-sm font-bold border-2 transition-colors ${
                     currentPreset === 'conservative'
-                      ? 'bg-black dark:bg-white text-white dark:text-black border-black dark:border-white'
-                      : 'bg-white dark:bg-gray-900 border-gray-300 dark:border-gray-700 hover:border-black dark:hover:border-white text-black dark:text-white'
+                      ? 'bg-black dark:bg-white text-white dark:text-black border-gray-800'
+                      : 'bg-black border-gray-300 dark:border-gray-700 hover:border-black dark:hover:border-white text-white'
                   }`}
                 >
                   保守 (5x)
@@ -181,8 +181,8 @@ export default function CompactStrategyConfig({
                   onClick={() => applyPreset('moderate')}
                   className={`px-3 py-2 text-sm font-bold border-2 transition-colors ${
                     currentPreset === 'moderate'
-                      ? 'bg-black dark:bg-white text-white dark:text-black border-black dark:border-white'
-                      : 'bg-white dark:bg-gray-900 border-gray-300 dark:border-gray-700 hover:border-black dark:hover:border-white text-black dark:text-white'
+                      ? 'bg-black dark:bg-white text-white dark:text-black border-gray-800'
+                      : 'bg-black border-gray-300 dark:border-gray-700 hover:border-black dark:hover:border-white text-white'
                   }`}
                 >
                   适中 (10x)
@@ -191,8 +191,8 @@ export default function CompactStrategyConfig({
                   onClick={() => applyPreset('aggressive')}
                   className={`px-3 py-2 text-sm font-bold border-2 transition-colors ${
                     currentPreset === 'aggressive'
-                      ? 'bg-black dark:bg-white text-white dark:text-black border-black dark:border-white'
-                      : 'bg-white dark:bg-gray-900 border-gray-300 dark:border-gray-700 hover:border-black dark:hover:border-white text-black dark:text-white'
+                      ? 'bg-black dark:bg-white text-white dark:text-black border-gray-800'
+                      : 'bg-black border-gray-300 dark:border-gray-700 hover:border-black dark:hover:border-white text-white'
                   }`}
                 >
                   激进 (20x)
@@ -205,12 +205,12 @@ export default function CompactStrategyConfig({
           <div className="space-y-4 pt-4">
             <div className="grid grid-cols-2 gap-4">
               <div>
-                <label className="block text-sm font-bold text-black dark:text-white mb-1">交易对</label>
+                <label className="block text-sm font-bold text-white mb-1">交易对</label>
                 <select
                   value={config.symbol}
                   onChange={(e) => updateConfig(['symbol'], e.target.value)}
                   disabled={loadingSymbols}
-                  className="w-full px-3 py-2 text-sm border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none disabled:opacity-50"
+                  className="w-full px-3 py-2 text-sm border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none disabled:opacity-50"
                 >
                   {loadingSymbols ? (
                     <option>加载中...</option>
@@ -236,11 +236,11 @@ export default function CompactStrategyConfig({
                 </select>
               </div>
               <div>
-                <label className="block text-sm font-bold text-black dark:text-white mb-1">时间周期</label>
+                <label className="block text-sm font-bold text-white mb-1">时间周期</label>
                 <select
                   value={config.interval}
                   onChange={(e) => updateConfig(['interval'], e.target.value)}
-                  className="w-full px-3 py-2 text-sm border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+                  className="w-full px-3 py-2 text-sm border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none"
                 >
                   <option value="1m">1分钟</option>
                   <option value="5m">5分钟</option>
@@ -255,11 +255,11 @@ export default function CompactStrategyConfig({
             {/* Strategy & Risk Settings */}
             <div className="grid grid-cols-4 gap-4">
               <div>
-                <label className="block text-sm font-bold text-black dark:text-white mb-1">激进度</label>
+                <label className="block text-sm font-bold text-white mb-1">激进度</label>
                 <select
                   value={config.strategy.aggressiveness}
                   onChange={(e) => updateConfig(['strategy', 'aggressiveness'], Number(e.target.value) as 1 | 2 | 3)}
-                  className="w-full px-3 py-2 text-sm border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+                  className="w-full px-3 py-2 text-sm border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none"
                 >
                   <option value={1}>保守</option>
                   <option value={2}>适中</option>
@@ -267,18 +267,18 @@ export default function CompactStrategyConfig({
                 </select>
               </div>
               <div>
-                <label className="block text-sm font-bold text-black dark:text-white mb-1">仓位 (USDT)</label>
+                <label className="block text-sm font-bold text-white mb-1">仓位 (USDT)</label>
                 <input
                   type="number"
                   step="1"
                   min="1"
                   value={config.risk.positionSize || 10}
                   onChange={(e) => updateConfig(['risk', 'positionSize'], Number(e.target.value))}
-                  className="w-full px-3 py-2 text-sm border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+                  className="w-full px-3 py-2 text-sm border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none"
                 />
               </div>
               <div>
-                <label className="block text-sm font-bold text-black dark:text-white mb-1">杠杆 (x)</label>
+                <label className="block text-sm font-bold text-white mb-1">杠杆 (x)</label>
                 <input
                   type="number"
                   step="1"
@@ -286,33 +286,33 @@ export default function CompactStrategyConfig({
                   max="125"
                   value={config.risk.leverage || 10}
                   onChange={(e) => updateConfig(['risk', 'leverage'], Number(e.target.value))}
-                  className="w-full px-3 py-2 text-sm border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+                  className="w-full px-3 py-2 text-sm border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none"
                 />
               </div>
               <div>
-                <label className="block text-sm font-bold text-black dark:text-white mb-1">日最大亏损</label>
+                <label className="block text-sm font-bold text-white mb-1">日最大亏损</label>
                 <input
                   type="number"
                   value={config.risk.maxDailyLoss}
                   onChange={(e) => updateConfig(['risk', 'maxDailyLoss'], Number(e.target.value))}
-                  className="w-full px-3 py-2 text-sm border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+                  className="w-full px-3 py-2 text-sm border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none"
                 />
               </div>
             </div>
 
             {/* Advanced Settings */}
             <details className="border-t-2 border-gray-300 dark:border-gray-700 pt-4">
-              <summary className="text-sm font-bold text-black dark:text-white cursor-pointer mb-3">
+              <summary className="text-sm font-bold text-white cursor-pointer mb-3">
                 ⚠️ 高级设置 (修改指标参数存在风险，建议保持默认值)
               </summary>
 
               <div className="space-y-4 mt-4">
                 {/* Strategy Advanced */}
                 <div className="pb-4 border-b-2 border-gray-300 dark:border-gray-700">
-                  <h4 className="text-sm font-bold text-black dark:text-white mb-3">跟踪止损</h4>
+                  <h4 className="text-sm font-bold text-white mb-3">跟踪止损</h4>
                   <div className="grid grid-cols-2 gap-4">
                     <div>
-                      <label className="block text-xs font-bold text-black dark:text-white mb-1">
+                      <label className="block text-xs font-bold text-white mb-1">
                         激活 (R倍数)
                       </label>
                       <input
@@ -320,11 +320,11 @@ export default function CompactStrategyConfig({
                         step="0.1"
                         value={config.strategy.trailingActivation}
                         onChange={(e) => updateConfig(['strategy', 'trailingActivation'], Number(e.target.value))}
-                        className="w-full px-3 py-2 text-sm border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+                        className="w-full px-3 py-2 text-sm border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none"
                       />
                     </div>
                     <div>
-                      <label className="block text-xs font-bold text-black dark:text-white mb-1">
+                      <label className="block text-xs font-bold text-white mb-1">
                         距离 (ATR)
                       </label>
                       <input
@@ -332,7 +332,7 @@ export default function CompactStrategyConfig({
                         step="0.1"
                         value={config.strategy.trailingDistance}
                         onChange={(e) => updateConfig(['strategy', 'trailingDistance'], Number(e.target.value))}
-                        className="w-full px-3 py-2 text-sm border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+                        className="w-full px-3 py-2 text-sm border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none"
                       />
                     </div>
                   </div>
@@ -344,34 +344,34 @@ export default function CompactStrategyConfig({
 
                   {/* Keltner Channel */}
                   <div className="mb-4">
-                    <p className="text-xs font-bold text-black dark:text-white mb-2">Keltner Channel</p>
+                    <p className="text-xs font-bold text-white mb-2">Keltner Channel</p>
                     <div className="grid grid-cols-3 gap-2">
                       <div>
-                        <label className="block text-xs text-gray-600 dark:text-gray-400 mb-1">MA周期</label>
+                        <label className="block text-xs text-gray-400 mb-1">MA周期</label>
                         <input
                           type="number"
                           value={config.strategy.indicators.keltner.maPeriod}
                           onChange={(e) => updateConfig(['strategy', 'indicators', 'keltner', 'maPeriod'], Number(e.target.value))}
-                          className="w-full px-2 py-1 text-sm border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+                          className="w-full px-2 py-1 text-sm border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none"
                         />
                       </div>
                       <div>
-                        <label className="block text-xs text-gray-600 dark:text-gray-400 mb-1">ATR周期</label>
+                        <label className="block text-xs text-gray-400 mb-1">ATR周期</label>
                         <input
                           type="number"
                           value={config.strategy.indicators.keltner.atrPeriod}
                           onChange={(e) => updateConfig(['strategy', 'indicators', 'keltner', 'atrPeriod'], Number(e.target.value))}
-                          className="w-full px-2 py-1 text-sm border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+                          className="w-full px-2 py-1 text-sm border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none"
                         />
                       </div>
                       <div>
-                        <label className="block text-xs text-gray-600 dark:text-gray-400 mb-1">ATR倍数</label>
+                        <label className="block text-xs text-gray-400 mb-1">ATR倍数</label>
                         <input
                           type="number"
                           step="0.1"
                           value={config.strategy.indicators.keltner.atrMultiple}
                           onChange={(e) => updateConfig(['strategy', 'indicators', 'keltner', 'atrMultiple'], Number(e.target.value))}
-                          className="w-full px-2 py-1 text-sm border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+                          className="w-full px-2 py-1 text-sm border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none"
                         />
                       </div>
                     </div>
@@ -380,58 +380,58 @@ export default function CompactStrategyConfig({
                   {/* Bollinger & MACD */}
                   <div className="grid grid-cols-2 gap-4 mb-4">
                     <div>
-                      <p className="text-xs font-bold text-black dark:text-white mb-2">Bollinger Bands</p>
+                      <p className="text-xs font-bold text-white mb-2">Bollinger Bands</p>
                       <div className="grid grid-cols-2 gap-2">
                         <div>
-                          <label className="block text-xs text-gray-600 dark:text-gray-400 mb-1">周期</label>
+                          <label className="block text-xs text-gray-400 mb-1">周期</label>
                           <input
                             type="number"
                             value={config.strategy.indicators.bollinger.period}
                             onChange={(e) => updateConfig(['strategy', 'indicators', 'bollinger', 'period'], Number(e.target.value))}
-                            className="w-full px-2 py-1 text-sm border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+                            className="w-full px-2 py-1 text-sm border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none"
                           />
                         </div>
                         <div>
-                          <label className="block text-xs text-gray-600 dark:text-gray-400 mb-1">标准差</label>
+                          <label className="block text-xs text-gray-400 mb-1">标准差</label>
                           <input
                             type="number"
                             step="0.1"
                             value={config.strategy.indicators.bollinger.deviation}
                             onChange={(e) => updateConfig(['strategy', 'indicators', 'bollinger', 'deviation'], Number(e.target.value))}
-                            className="w-full px-2 py-1 text-sm border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+                            className="w-full px-2 py-1 text-sm border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none"
                           />
                         </div>
                       </div>
                     </div>
 
                     <div>
-                      <p className="text-xs font-bold text-black dark:text-white mb-2">MACD</p>
+                      <p className="text-xs font-bold text-white mb-2">MACD</p>
                       <div className="grid grid-cols-3 gap-1">
                         <div>
-                          <label className="block text-xs text-gray-600 dark:text-gray-400 mb-1">快</label>
+                          <label className="block text-xs text-gray-400 mb-1">快</label>
                           <input
                             type="number"
                             value={config.strategy.indicators.macd.fastPeriod}
                             onChange={(e) => updateConfig(['strategy', 'indicators', 'macd', 'fastPeriod'], Number(e.target.value))}
-                            className="w-full px-2 py-1 text-sm border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+                            className="w-full px-2 py-1 text-sm border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none"
                           />
                         </div>
                         <div>
-                          <label className="block text-xs text-gray-600 dark:text-gray-400 mb-1">慢</label>
+                          <label className="block text-xs text-gray-400 mb-1">慢</label>
                           <input
                             type="number"
                             value={config.strategy.indicators.macd.slowPeriod}
                             onChange={(e) => updateConfig(['strategy', 'indicators', 'macd', 'slowPeriod'], Number(e.target.value))}
-                            className="w-full px-2 py-1 text-sm border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+                            className="w-full px-2 py-1 text-sm border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none"
                           />
                         </div>
                         <div>
-                          <label className="block text-xs text-gray-600 dark:text-gray-400 mb-1">信号</label>
+                          <label className="block text-xs text-gray-400 mb-1">信号</label>
                           <input
                             type="number"
                             value={config.strategy.indicators.macd.signalPeriod}
                             onChange={(e) => updateConfig(['strategy', 'indicators', 'macd', 'signalPeriod'], Number(e.target.value))}
-                            className="w-full px-2 py-1 text-sm border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+                            className="w-full px-2 py-1 text-sm border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none"
                           />
                         </div>
                       </div>
@@ -441,36 +441,36 @@ export default function CompactStrategyConfig({
                   {/* CCI & SuperTrend */}
                   <div className="grid grid-cols-2 gap-4">
                     <div>
-                      <p className="text-xs font-bold text-black dark:text-white mb-2">CCI</p>
-                      <label className="block text-xs text-gray-600 dark:text-gray-400 mb-1">周期</label>
+                      <p className="text-xs font-bold text-white mb-2">CCI</p>
+                      <label className="block text-xs text-gray-400 mb-1">周期</label>
                       <input
                         type="number"
                         value={config.strategy.indicators.cci.period}
                         onChange={(e) => updateConfig(['strategy', 'indicators', 'cci', 'period'], Number(e.target.value))}
-                        className="w-full px-2 py-1 text-sm border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+                        className="w-full px-2 py-1 text-sm border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none"
                       />
                     </div>
 
                     <div>
-                      <p className="text-xs font-bold text-black dark:text-white mb-2">SuperTrend</p>
+                      <p className="text-xs font-bold text-white mb-2">SuperTrend</p>
                       <div className="grid grid-cols-2 gap-2">
                         <div>
-                          <label className="block text-xs text-gray-600 dark:text-gray-400 mb-1">周期</label>
+                          <label className="block text-xs text-gray-400 mb-1">周期</label>
                           <input
                             type="number"
                             value={config.strategy.indicators.supertrend.period}
                             onChange={(e) => updateConfig(['strategy', 'indicators', 'supertrend', 'period'], Number(e.target.value))}
-                            className="w-full px-2 py-1 text-sm border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+                            className="w-full px-2 py-1 text-sm border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none"
                           />
                         </div>
                         <div>
-                          <label className="block text-xs text-gray-600 dark:text-gray-400 mb-1">倍数</label>
+                          <label className="block text-xs text-gray-400 mb-1">倍数</label>
                           <input
                             type="number"
                             step="0.1"
                             value={config.strategy.indicators.supertrend.multiplier}
                             onChange={(e) => updateConfig(['strategy', 'indicators', 'supertrend', 'multiplier'], Number(e.target.value))}
-                            className="w-full px-2 py-1 text-sm border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+                            className="w-full px-2 py-1 text-sm border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none"
                           />
                         </div>
                       </div>
@@ -480,10 +480,10 @@ export default function CompactStrategyConfig({
 
                 {/* Risk Management */}
                 <div>
-                  <h4 className="text-sm font-bold text-black dark:text-white mb-3">风险管理</h4>
+                  <h4 className="text-sm font-bold text-white mb-3">风险管理</h4>
                   <div className="grid grid-cols-2 gap-4">
                     <div>
-                      <label className="block text-xs font-bold text-black dark:text-white mb-1">
+                      <label className="block text-xs font-bold text-white mb-1">
                         最大回撤 (%)
                       </label>
                       <input
@@ -491,11 +491,11 @@ export default function CompactStrategyConfig({
                         step="0.01"
                         value={config.risk.maxDrawdown}
                         onChange={(e) => updateConfig(['risk', 'maxDrawdown'], Number(e.target.value))}
-                        className="w-full px-3 py-2 text-sm border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+                        className="w-full px-3 py-2 text-sm border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none"
                       />
                     </div>
                     <div>
-                      <label className="block text-xs font-bold text-black dark:text-white mb-1">
+                      <label className="block text-xs font-bold text-white mb-1">
                         止损倍数 (ATR)
                       </label>
                       <input
@@ -503,7 +503,7 @@ export default function CompactStrategyConfig({
                         step="0.1"
                         value={config.risk.stopLossMultiple}
                         onChange={(e) => updateConfig(['risk', 'stopLossMultiple'], Number(e.target.value))}
-                        className="w-full px-3 py-2 text-sm border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+                        className="w-full px-3 py-2 text-sm border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none"
                       />
                     </div>
                   </div>

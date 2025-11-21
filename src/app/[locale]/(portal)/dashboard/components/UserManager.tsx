@@ -430,6 +430,7 @@ export default function UserManager() {
   const getFormTypeLabel = (type: string) => {
     const labels: Record<string, { zh: string; en: string }> = {
       interview: { zh: '面试预约', en: 'Interview' },
+      'dna-interview': { zh: 'DNA面试', en: 'DNA Interview' },
       contact: { zh: '联系咨询', en: 'Contact' },
       propfirm: { zh: '自营交易', en: 'PropFirm' },
       membership: { zh: '会员咨询', en: 'Membership' },
@@ -440,10 +441,10 @@ export default function UserManager() {
   return (
     <div className="p-8">
       <div className="mb-6">
-        <h1 className="text-3xl font-black text-black dark:text-white mb-2">
+        <h1 className="text-3xl font-black text-white mb-2">
           {language === 'zh' ? '用户管理' : 'User Management'}
         </h1>
-        <p className="text-gray-600 dark:text-gray-400">
+        <p className="text-gray-400">
           {language === 'zh'
             ? `共 ${submissions.length} 条记录，已筛选 ${filteredSubmissions.length} 条`
             : `Total ${submissions.length} records, filtered ${filteredSubmissions.length}`}
@@ -457,12 +458,12 @@ export default function UserManager() {
           placeholder={language === 'zh' ? '搜索姓名/邮箱/电话...' : 'Search name/email/phone...'}
           value={filter.search}
           onChange={(e) => setFilter({ ...filter, search: e.target.value })}
-          className="px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-black dark:text-white"
+          className="px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-[#0a0a0a] text-white"
         />
         <select
           value={filter.stage}
           onChange={(e) => setFilter({ ...filter, stage: e.target.value })}
-          className="px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-black dark:text-white"
+          className="px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-[#0a0a0a] text-white"
         >
           <option value="">{language === 'zh' ? '所有阶段' : 'All Stages'}</option>
           {STAGES.map((stage, idx) => (
@@ -474,7 +475,7 @@ export default function UserManager() {
         <select
           value={filter.formType}
           onChange={(e) => setFilter({ ...filter, formType: e.target.value })}
-          className="px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-black dark:text-white"
+          className="px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-[#0a0a0a] text-white"
         >
           <option value="">{language === 'zh' ? '所有类型' : 'All Types'}</option>
           {formTypes.map(type => (
@@ -484,7 +485,7 @@ export default function UserManager() {
         <button
           onClick={() => fetchSubmissions()}
           disabled={loading}
-          className="px-4 py-2 bg-black dark:bg-white text-white dark:text-black font-bold hover:bg-gray-800 dark:hover:bg-gray-200 disabled:opacity-50"
+          className="px-4 py-2 bg-black dark:bg-white text-white dark:text-black font-bold hover:bg-[#0a0a0a] dark:hover:bg-gray-200 disabled:opacity-50"
         >
           {loading ? (language === 'zh' ? '刷新中...' : 'Refreshing...') : (language === 'zh' ? '刷新' : 'Refresh')}
         </button>
@@ -509,7 +510,7 @@ export default function UserManager() {
         <div className="overflow-x-auto">
           <table className="w-full border-collapse">
             <thead>
-              <tr className="bg-gray-100 dark:bg-gray-800">
+              <tr className="bg-gray-100 dark:bg-[#0a0a0a] text-white">
                 <th className="border-2 border-gray-300 dark:border-gray-600 px-4 py-3 text-left text-sm font-bold">
                   {language === 'zh' ? '姓名' : 'Name'}
                 </th>
@@ -541,7 +542,7 @@ export default function UserManager() {
             </thead>
             <tbody>
               {filteredSubmissions.map((submission) => (
-                <tr key={submission.id} className="hover:bg-gray-50 dark:hover:bg-gray-800/50">
+                <tr key={submission.id} className="hover:bg-gray-50 dark:hover:bg-[#0a0a0a]/50 text-black dark:text-gray-200">
                   <td className="border-2 border-gray-300 dark:border-gray-600 px-4 py-3 text-sm">
                     <div className="font-medium">{submission.name}</div>
                   </td>
@@ -554,7 +555,7 @@ export default function UserManager() {
                     {submission.phone}
                   </td>
                   <td className="border-2 border-gray-300 dark:border-gray-600 px-4 py-3 text-sm">
-                    <span className="px-2 py-1 bg-gray-200 dark:bg-gray-700 text-xs">
+                    <span className="px-2 py-1 bg-gray-200 dark:bg-[#0a0a0a] text-xs">
                       {getFormTypeLabel(submission.form_type)}
                     </span>
                   </td>
@@ -573,15 +574,15 @@ export default function UserManager() {
                               <br />
                               <span className="font-medium">{language === 'zh' ? '支付：' : 'Pay: '}</span>
                               {submission.payment_method === 'wechat' ? '微信' :
-                               submission.payment_method === 'alipay' ? '支付宝' :
-                               submission.payment_method === 'bank' ? '银行转账' : submission.payment_method}
+                                submission.payment_method === 'alipay' ? '支付宝' :
+                                  submission.payment_method === 'bank' ? '银行转账' : submission.payment_method}
                             </>
                           )}
                         </div>
                       )}
                       {/* Show message */}
                       {submission.message && (
-                        <div className="text-xs text-gray-600 dark:text-gray-400 truncate" title={submission.message}>
+                        <div className="text-xs text-gray-400 truncate" title={submission.message}>
                           {submission.message.length > 50
                             ? submission.message.substring(0, 50) + '...'
                             : submission.message}
@@ -598,7 +599,7 @@ export default function UserManager() {
                       value={submission.stage}
                       onChange={(e) => handleUpdateStage(submission.id, e.target.value)}
                       disabled={updatingId === submission.id}
-                      className="px-2 py-1 border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-sm disabled:opacity-50"
+                      className="px-2 py-1 border border-gray-300 dark:border-gray-600 bg-[#0a0a0a] text-white text-sm disabled:opacity-50"
                     >
                       {STAGES.map((stage, idx) => (
                         <option key={stage} value={stage}>
@@ -675,20 +676,20 @@ export default function UserManager() {
       {/* Send Email Modal */}
       {showEmailModal && selectedSubmission && (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white dark:bg-gray-800 max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+          <div className="bg-[#0a0a0a] max-w-2xl w-full max-h-[90vh] overflow-y-auto">
             {/* Header */}
             <div className="p-4 border-b border-gray-200 dark:border-gray-700 flex justify-between items-center">
               <div>
-                <h3 className="font-bold text-lg">
+                <h3 className="font-bold text-lg text-white">
                   {language === 'zh' ? '发送邮件' : 'Send Email'}
                 </h3>
-                <p className="text-sm text-gray-500">
+                <p className="text-sm text-gray-400">
                   {language === 'zh' ? '收件人：' : 'To: '}{selectedSubmission.name} ({selectedSubmission.email})
                 </p>
               </div>
               <button
                 onClick={() => setShowEmailModal(false)}
-                className="text-gray-500 hover:text-gray-700"
+                className="text-gray-400 hover:text-gray-200"
               >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -702,21 +703,19 @@ export default function UserManager() {
               <div className="flex gap-4 mb-4">
                 <button
                   onClick={() => setEmailMode('template')}
-                  className={`px-4 py-2 text-sm font-medium ${
-                    emailMode === 'template'
-                      ? 'bg-black dark:bg-white text-white dark:text-black'
-                      : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300'
-                  }`}
+                  className={`px-4 py-2 text-sm font-medium ${emailMode === 'template'
+                    ? 'bg-black dark:bg-white text-white dark:text-black'
+                    : 'bg-gray-200 dark:bg-[#0a0a0a] text-gray-300'
+                    }`}
                 >
                   {language === 'zh' ? '使用模板' : 'Use Template'}
                 </button>
                 <button
                   onClick={() => setEmailMode('custom')}
-                  className={`px-4 py-2 text-sm font-medium ${
-                    emailMode === 'custom'
-                      ? 'bg-black dark:bg-white text-white dark:text-black'
-                      : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300'
-                  }`}
+                  className={`px-4 py-2 text-sm font-medium ${emailMode === 'custom'
+                    ? 'bg-black dark:bg-white text-white dark:text-black'
+                    : 'bg-gray-200 dark:bg-[#0a0a0a] text-gray-300'
+                    }`}
                 >
                   {language === 'zh' ? '自定义内容' : 'Custom Content'}
                 </button>
@@ -725,18 +724,18 @@ export default function UserManager() {
               {emailMode === 'template' ? (
                 /* Template Selection */
                 <div>
-                  <label className="block text-sm font-bold mb-2">
+                  <label className="block text-sm font-bold mb-2 text-white">
                     {language === 'zh' ? '选择模板' : 'Select Template'}
                   </label>
                   {emailTemplates.length === 0 ? (
-                    <p className="text-gray-500 text-sm">
+                    <p className="text-gray-400 text-sm">
                       {language === 'zh' ? '暂无可用模板' : 'No templates available'}
                     </p>
                   ) : (
                     <select
                       value={selectedTemplateId}
                       onChange={(e) => setSelectedTemplateId(e.target.value)}
-                      className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700"
+                      className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-[#0a0a0a] text-black dark:text-white"
                     >
                       <option value="">{language === 'zh' ? '请选择模板' : 'Select template'}</option>
                       {emailTemplates.map(template => (
@@ -746,7 +745,7 @@ export default function UserManager() {
                       ))}
                     </select>
                   )}
-                  <p className="text-xs text-gray-500 mt-2">
+                  <p className="text-xs text-gray-400 mt-2">
                     {language === 'zh'
                       ? '模板中的变量将自动替换为用户信息'
                       : 'Variables in template will be replaced with user info'}
@@ -756,26 +755,26 @@ export default function UserManager() {
                 /* Custom Content */
                 <div className="space-y-4">
                   <div>
-                    <label className="block text-sm font-bold mb-2">
+                    <label className="block text-sm font-bold mb-2 text-white">
                       {language === 'zh' ? '邮件主题' : 'Subject'}
                     </label>
                     <input
                       type="text"
                       value={customSubject}
                       onChange={(e) => setCustomSubject(e.target.value)}
-                      className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700"
+                      className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-[#0a0a0a] text-black dark:text-white"
                       placeholder={language === 'zh' ? '请输入邮件主题' : 'Enter email subject'}
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-bold mb-2">
+                    <label className="block text-sm font-bold mb-2 text-white">
                       {language === 'zh' ? '邮件内容 (支持 HTML)' : 'Content (HTML supported)'}
                     </label>
                     <textarea
                       value={customContent}
                       onChange={(e) => setCustomContent(e.target.value)}
                       rows={10}
-                      className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 font-mono text-sm"
+                      className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-[#0a0a0a] text-black dark:text-white font-mono text-sm"
                       placeholder={language === 'zh' ? '请输入邮件内容...' : 'Enter email content...'}
                     />
                   </div>
@@ -787,7 +786,7 @@ export default function UserManager() {
             <div className="p-4 border-t border-gray-200 dark:border-gray-700 flex justify-end gap-4">
               <button
                 onClick={() => setShowEmailModal(false)}
-                className="px-4 py-2 border-2 border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700"
+                className="px-4 py-2 border-2 border-gray-300 dark:border-gray-600 text-black dark:text-white hover:bg-gray-100 dark:hover:bg-[#0a0a0a]"
               >
                 {language === 'zh' ? '取消' : 'Cancel'}
               </button>
@@ -816,17 +815,17 @@ export default function UserManager() {
       {/* Edit/Add User Modal */}
       {showUserModal && (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white dark:bg-gray-800 max-w-md w-full max-h-[90vh] overflow-y-auto">
+          <div className="bg-[#0a0a0a] max-w-md w-full max-h-[90vh] overflow-y-auto">
             {/* Header */}
             <div className="p-4 border-b border-gray-200 dark:border-gray-700 flex justify-between items-center">
-              <h3 className="font-bold text-lg">
+              <h3 className="font-bold text-lg text-white">
                 {editingUser
                   ? (language === 'zh' ? '编辑用户' : 'Edit User')
                   : (language === 'zh' ? '新增用户' : 'Add User')}
               </h3>
               <button
                 onClick={() => setShowUserModal(false)}
-                className="text-gray-500 hover:text-gray-700"
+                className="text-gray-400 hover:text-gray-200"
               >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -837,38 +836,38 @@ export default function UserManager() {
             {/* Content */}
             <div className="p-6 space-y-4">
               <div>
-                <label className="block text-sm font-bold mb-2">
+                <label className="block text-sm font-bold mb-2 text-white">
                   {language === 'zh' ? '姓名' : 'Name'} *
                 </label>
                 <input
                   type="text"
                   value={userFormData.name}
                   onChange={(e) => setUserFormData({ ...userFormData, name: e.target.value })}
-                  className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700"
+                  className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-[#0a0a0a] text-black dark:text-white"
                   placeholder={language === 'zh' ? '请输入姓名' : 'Enter name'}
                 />
               </div>
               <div>
-                <label className="block text-sm font-bold mb-2">
+                <label className="block text-sm font-bold mb-2 text-white">
                   {language === 'zh' ? '邮箱' : 'Email'} *
                 </label>
                 <input
                   type="email"
                   value={userFormData.email}
                   onChange={(e) => setUserFormData({ ...userFormData, email: e.target.value })}
-                  className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700"
+                  className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-[#0a0a0a]"
                   placeholder={language === 'zh' ? '请输入邮箱' : 'Enter email'}
                 />
               </div>
               <div>
-                <label className="block text-sm font-bold mb-2">
+                <label className="block text-sm font-bold mb-2 text-white">
                   {language === 'zh' ? '电话' : 'Phone'}
                 </label>
                 <input
                   type="text"
                   value={userFormData.phone}
                   onChange={(e) => setUserFormData({ ...userFormData, phone: e.target.value })}
-                  className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700"
+                  className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-[#0a0a0a]"
                   placeholder={language === 'zh' ? '请输入电话' : 'Enter phone'}
                 />
               </div>
@@ -877,13 +876,13 @@ export default function UserManager() {
               {!editingUser && (
                 <>
                   <div>
-                    <label className="block text-sm font-bold mb-2">
+                    <label className="block text-sm font-bold mb-2 text-white">
                       {language === 'zh' ? '类型' : 'Type'}
                     </label>
                     <select
                       value={userFormData.form_type}
                       onChange={(e) => setUserFormData({ ...userFormData, form_type: e.target.value })}
-                      className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700"
+                      className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-[#0a0a0a]"
                     >
                       <option value="interview">{language === 'zh' ? '面试预约' : 'Interview'}</option>
                       <option value="contact">{language === 'zh' ? '联系咨询' : 'Contact'}</option>
@@ -896,13 +895,13 @@ export default function UserManager() {
                   {userFormData.form_type === 'propfirm' && (
                     <>
                       <div>
-                        <label className="block text-sm font-bold mb-2">
+                        <label className="block text-sm font-bold mb-2 text-white">
                           {language === 'zh' ? '计划' : 'Plan'}
                         </label>
                         <select
                           value={userFormData.plan}
                           onChange={(e) => setUserFormData({ ...userFormData, plan: e.target.value })}
-                          className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700"
+                          className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-[#0a0a0a]"
                         >
                           <option value="">{language === 'zh' ? '请选择计划' : 'Select plan'}</option>
                           <option value="$10K">$10K</option>
@@ -914,38 +913,38 @@ export default function UserManager() {
                       </div>
                       <div className="grid grid-cols-2 gap-4">
                         <div>
-                          <label className="block text-sm font-bold mb-2">
+                          <label className="block text-sm font-bold mb-2 text-white">
                             {language === 'zh' ? '美元价格' : 'USD Price'}
                           </label>
                           <input
                             type="text"
                             value={userFormData.price_usd}
                             onChange={(e) => setUserFormData({ ...userFormData, price_usd: e.target.value })}
-                            className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700"
+                            className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-[#0a0a0a]"
                             placeholder="$99"
                           />
                         </div>
                         <div>
-                          <label className="block text-sm font-bold mb-2">
+                          <label className="block text-sm font-bold mb-2 text-white">
                             {language === 'zh' ? '人民币价格' : 'CNY Price'}
                           </label>
                           <input
                             type="text"
                             value={userFormData.price_cny}
                             onChange={(e) => setUserFormData({ ...userFormData, price_cny: e.target.value })}
-                            className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700"
+                            className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-[#0a0a0a]"
                             placeholder="¥699"
                           />
                         </div>
                       </div>
                       <div>
-                        <label className="block text-sm font-bold mb-2">
+                        <label className="block text-sm font-bold mb-2 text-white">
                           {language === 'zh' ? '支付方式' : 'Payment Method'}
                         </label>
                         <select
                           value={userFormData.payment_method}
                           onChange={(e) => setUserFormData({ ...userFormData, payment_method: e.target.value })}
-                          className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700"
+                          className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-[#0a0a0a]"
                         >
                           <option value="wechat">{language === 'zh' ? '微信支付' : 'WeChat Pay'}</option>
                           <option value="alipay">{language === 'zh' ? '支付宝' : 'Alipay'}</option>
@@ -956,27 +955,27 @@ export default function UserManager() {
                   )}
 
                   <div>
-                    <label className="block text-sm font-bold mb-2">
+                    <label className="block text-sm font-bold mb-2 text-white">
                       {language === 'zh' ? '语言' : 'Language'}
                     </label>
                     <select
                       value={userFormData.language}
                       onChange={(e) => setUserFormData({ ...userFormData, language: e.target.value })}
-                      className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700"
+                      className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-[#0a0a0a]"
                     >
                       <option value="zh">中文</option>
                       <option value="en">English</option>
                     </select>
                   </div>
                   <div>
-                    <label className="block text-sm font-bold mb-2">
+                    <label className="block text-sm font-bold mb-2 text-white">
                       {language === 'zh' ? '备注' : 'Message'}
                     </label>
                     <textarea
                       value={userFormData.message}
                       onChange={(e) => setUserFormData({ ...userFormData, message: e.target.value })}
                       rows={3}
-                      className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700"
+                      className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-[#0a0a0a]"
                       placeholder={language === 'zh' ? '可选备注信息' : 'Optional message'}
                     />
                   </div>
@@ -988,14 +987,14 @@ export default function UserManager() {
             <div className="p-4 border-t border-gray-200 dark:border-gray-700 flex justify-end gap-4">
               <button
                 onClick={() => setShowUserModal(false)}
-                className="px-4 py-2 border-2 border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700"
+                className="px-4 py-2 border-2 border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-[#0a0a0a]"
               >
                 {language === 'zh' ? '取消' : 'Cancel'}
               </button>
               <button
                 onClick={handleSaveUser}
                 disabled={savingUser}
-                className="px-4 py-2 bg-black dark:bg-white text-white dark:text-black font-bold hover:bg-gray-800 dark:hover:bg-gray-200 disabled:opacity-50"
+                className="px-4 py-2 bg-black dark:bg-white text-white dark:text-black font-bold hover:bg-[#0a0a0a] dark:hover:bg-gray-200 disabled:opacity-50"
               >
                 {savingUser
                   ? (language === 'zh' ? '保存中...' : 'Saving...')

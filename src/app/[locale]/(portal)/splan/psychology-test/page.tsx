@@ -649,7 +649,7 @@ export default function PsychologyTestPage() {
   const progress = ((currentQuestionIndex + 1) / QUESTIONS.length) * 100;
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950 py-12">
+    <div className="min-h-screen bg-black py-12">
       <div className="max-w-4xl mx-auto px-6">
         <AnimatePresence mode="wait">
           {/* Welcome Screen */}
@@ -659,53 +659,53 @@ export default function PsychologyTestPage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
-              className="bg-white dark:bg-gray-800 p-12 border-2 border-gray-200 dark:border-gray-700 text-center max-w-3xl mx-auto"
+              className="bg-[#0a0a0a] p-12 border border-white/10 text-center max-w-3xl mx-auto"
             >
-              <div className="inline-flex p-6 bg-black dark:bg-white mb-8 border-2 border-black dark:border-white">
-                <svg className="w-16 h-16 text-white dark:text-black" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z"/>
-                  <path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z"/>
+              <div className="inline-flex p-6 bg-[#ff102a]/10 mb-8 border border-[#ff102a]/30">
+                <svg className="w-16 h-16 text-[#ff102a]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z" />
+                  <path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z" />
                 </svg>
               </div>
-              <h1 className="text-4xl font-bold mb-3 text-gray-900 dark:text-white">{t('psytest.welcome.title')}</h1>
-              <p className="text-xl text-gray-600 dark:text-gray-400 mb-10">{t('psytest.welcome.subtitle')}</p>
+              <h1 className="text-4xl font-bold mb-3 text-white">{t('psytest.welcome.title')}</h1>
+              <p className="text-xl text-gray-400 mb-10">{t('psytest.welcome.subtitle')}</p>
 
               <div className="grid grid-cols-3 gap-6 mb-10">
-                <div className="flex items-center gap-4 p-4 bg-gray-50 dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-700">
-                  <div className="w-10 h-10 bg-black dark:bg-white flex items-center justify-center border-2 border-black dark:border-white">
-                    <span className="text-white dark:text-black font-bold text-sm">{t('psytest.welcome.duration.label')}</span>
+                <div className="flex items-center gap-4 p-4 bg-black border border-white/10">
+                  <div className="w-10 h-10 bg-[#ff102a] flex items-center justify-center">
+                    <span className="text-white font-bold text-sm">{t('psytest.welcome.duration.label')}</span>
                   </div>
                   <div className="text-left">
-                    <h3 className="text-xs font-semibold text-gray-600 dark:text-gray-400 uppercase">{t('psytest.welcome.duration.title')}</h3>
-                    <p className="text-base font-semibold text-gray-900 dark:text-white">{t('psytest.welcome.duration.value')}</p>
+                    <h3 className="text-xs font-semibold text-gray-400 uppercase">{t('psytest.welcome.duration.title')}</h3>
+                    <p className="text-base font-semibold text-white">{t('psytest.welcome.duration.value')}</p>
                   </div>
                 </div>
-                <div className="flex items-center gap-4 p-4 bg-gray-50 dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-700">
-                  <div className="w-10 h-10 bg-black dark:bg-white flex items-center justify-center border-2 border-black dark:border-white">
-                    <span className="text-white dark:text-black font-bold text-sm">{t('psytest.welcome.questions.label')}</span>
+                <div className="flex items-center gap-4 p-4 bg-black border border-white/10">
+                  <div className="w-10 h-10 bg-[#ff102a] flex items-center justify-center">
+                    <span className="text-white font-bold text-sm">{t('psytest.welcome.questions.label')}</span>
                   </div>
                   <div className="text-left">
-                    <h3 className="text-xs font-semibold text-gray-600 dark:text-gray-400 uppercase">{t('psytest.welcome.questions.title')}</h3>
-                    <p className="text-base font-semibold text-gray-900 dark:text-white">{t('psytest.welcome.questions.value')}</p>
+                    <h3 className="text-xs font-semibold text-gray-400 uppercase">{t('psytest.welcome.questions.title')}</h3>
+                    <p className="text-base font-semibold text-white">{t('psytest.welcome.questions.value')}</p>
                   </div>
                 </div>
-                <div className="flex items-center gap-4 p-4 bg-gray-50 dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-700">
-                  <div className="w-10 h-10 bg-black dark:bg-white flex items-center justify-center border-2 border-black dark:border-white">
-                    <span className="text-white dark:text-black font-bold text-sm">{t('psytest.welcome.dimensions.label')}</span>
+                <div className="flex items-center gap-4 p-4 bg-black border border-white/10">
+                  <div className="w-10 h-10 bg-[#ff102a] flex items-center justify-center">
+                    <span className="text-white font-bold text-sm">{t('psytest.welcome.dimensions.label')}</span>
                   </div>
                   <div className="text-left">
-                    <h3 className="text-xs font-semibold text-gray-600 dark:text-gray-400 uppercase">{t('psytest.welcome.dimensions.title')}</h3>
-                    <p className="text-base font-semibold text-gray-900 dark:text-white">{t('psytest.welcome.dimensions.value')}</p>
+                    <h3 className="text-xs font-semibold text-gray-400 uppercase">{t('psytest.welcome.dimensions.title')}</h3>
+                    <p className="text-base font-semibold text-white">{t('psytest.welcome.dimensions.value')}</p>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-gray-50 dark:bg-gray-900 p-6 mb-10 text-left border-2 border-gray-200 dark:border-gray-700">
-                <h3 className="text-base font-bold mb-4 text-gray-900 dark:text-white">{t('psytest.welcome.includes')}</h3>
+              <div className="bg-black p-6 mb-10 text-left border border-white/10">
+                <h3 className="text-base font-bold mb-4 text-white">{t('psytest.welcome.includes')}</h3>
                 <div className="grid grid-cols-2 gap-3">
                   {Object.values(DIMENSIONS).map((dim, i) => (
-                    <div key={i} className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300">
-                      <span className="bg-black dark:bg-white text-white dark:text-black px-2 py-1 text-xs font-bold">{dim.icon}</span>
+                    <div key={i} className="flex items-center gap-2 text-sm text-gray-300">
+                      <span className="bg-[#ff102a] text-white px-2 py-1 text-xs font-bold">{dim.icon}</span>
                       <span>{dim.name}</span>
                     </div>
                   ))}
@@ -714,12 +714,12 @@ export default function PsychologyTestPage() {
 
               <ShineButton
                 onClick={startTest}
-                className="px-10 py-4 bg-black dark:bg-white text-white dark:text-black text-lg font-semibold border-2 border-black dark:border-white hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors"
+                className="px-10 py-4 bg-[#ff102a] text-white text-lg font-semibold shadow-[0_0_20px_rgba(255,16,42,0.4)] hover:bg-[#eb383e] transition-colors"
               >
                 {t('psytest.welcome.start')}
               </ShineButton>
 
-              <p className="mt-6 text-sm text-gray-500 dark:text-gray-400 italic">{t('psytest.welcome.note')}</p>
+              <p className="mt-6 text-sm text-gray-500 italic">{t('psytest.welcome.note')}</p>
             </motion.div>
           )}
 
@@ -732,14 +732,14 @@ export default function PsychologyTestPage() {
               exit={{ opacity: 0 }}
             >
               {/* Progress Bar */}
-              <div className="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700 mb-8">
-                <div className="flex justify-between mb-3 text-sm font-semibold text-gray-600 dark:text-gray-400">
+              <div className="bg-[#0a0a0a] p-6 border border-white/10 mb-8">
+                <div className="flex justify-between mb-3 text-sm font-semibold text-gray-400">
                   <span>{t('psytest.progress.question')} {currentQuestionIndex + 1} / {QUESTIONS.length}</span>
-                  <span className="text-black dark:text-white">{Math.round(progress)}%</span>
+                  <span className="text-white">{Math.round(progress)}%</span>
                 </div>
-                <div className="h-2 bg-gray-100 dark:bg-gray-700 overflow-hidden">
+                <div className="h-2 bg-black overflow-hidden">
                   <motion.div
-                    className="h-full bg-black dark:bg-white"
+                    className="h-full bg-[#ff102a]"
                     initial={{ width: 0 }}
                     animate={{ width: `${progress}%` }}
                     transition={{ duration: 0.5 }}
@@ -753,12 +753,12 @@ export default function PsychologyTestPage() {
                 initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -50 }}
-                className="bg-white dark:bg-gray-800 p-10 border-2 border-gray-200 dark:border-gray-700 min-h-[450px]"
+                className="bg-[#0a0a0a] p-10 border border-white/10 min-h-[450px]"
               >
-                <div className="inline-block px-4 py-2 bg-black dark:bg-white text-white dark:text-black text-sm font-semibold mb-6">
+                <div className="inline-block px-4 py-2 bg-[#ff102a] text-white text-sm font-semibold mb-6">
                   {currentQuestion.category}
                 </div>
-                <h2 className="text-2xl font-semibold mb-8 text-gray-900 dark:text-white leading-snug">
+                <h2 className="text-2xl font-semibold mb-8 text-white leading-snug">
                   {currentQuestion.text}
                 </h2>
                 <div className="flex flex-col gap-4">
@@ -767,11 +767,10 @@ export default function PsychologyTestPage() {
                       key={index}
                       onClick={() => selectOption(index)}
                       whileHover={{ x: 8 }}
-                      className={`w-full p-5 text-left border-2 transition-all ${
-                        answers[currentQuestionIndex] === index
-                          ? 'bg-gray-100 dark:bg-gray-700 border-black dark:border-white text-black dark:text-white font-semibold'
-                          : 'bg-gray-50 dark:bg-gray-900 border-gray-200 dark:border-gray-700 text-gray-900 dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-700 hover:border-gray-600 dark:hover:border-gray-500'
-                      }`}
+                      className={`w-full p-5 text-left border transition-all ${answers[currentQuestionIndex] === index
+                          ? 'bg-[#ff102a] border-[#ff102a] text-white font-semibold'
+                          : 'bg-black border-white/10 text-gray-300 hover:bg-white/5 hover:border-white/30'
+                        }`}
                     >
                       {option.text}
                     </motion.button>
@@ -790,25 +789,24 @@ export default function PsychologyTestPage() {
               exit={{ opacity: 0 }}
             >
               <div className="text-center mb-12">
-                <div className="inline-block mb-4 px-6 py-3 bg-black dark:bg-white">
-                  <span className="text-white dark:text-black font-bold text-2xl">{t('psytest.result.complete')}</span>
+                <div className="inline-block mb-4 px-6 py-3 bg-[#ff102a]">
+                  <span className="text-white font-bold text-2xl">{t('psytest.result.complete')}</span>
                 </div>
-                <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-3">{t('psytest.result.title')}</h1>
-                <p className="text-lg text-gray-600 dark:text-gray-400">{t('psytest.result.subtitle')}</p>
+                <h1 className="text-4xl font-bold text-white mb-3">{t('psytest.result.title')}</h1>
+                <p className="text-lg text-gray-400">{t('psytest.result.subtitle')}</p>
               </div>
 
               {/* Overall Score */}
-              <div className="bg-white dark:bg-gray-800 p-10 border-2 border-gray-200 dark:border-gray-700 mb-8 flex items-center gap-12">
+              <div className="bg-[#0a0a0a] p-10 border border-white/10 mb-8 flex items-center gap-12">
                 <div className="relative w-48 h-48 flex-shrink-0">
                   <svg className="w-full h-full transform -rotate-90" viewBox="0 0 200 200">
-                    <circle cx="100" cy="100" r="90" fill="none" stroke="#e5e7eb" strokeWidth="12" className="dark:stroke-gray-700"/>
+                    <circle cx="100" cy="100" r="90" fill="none" stroke="#1a1a1a" strokeWidth="12" />
                     <motion.circle
                       cx="100"
                       cy="100"
                       r="90"
                       fill="none"
-                      stroke="#000000"
-                      className="dark:stroke-white"
+                      stroke="#ff102a"
                       strokeWidth="12"
                       strokeLinecap="square"
                       strokeDasharray={565.48}
@@ -818,19 +816,19 @@ export default function PsychologyTestPage() {
                     />
                   </svg>
                   <div className="absolute inset-0 flex flex-col items-center justify-center">
-                    <div className="text-5xl font-bold text-black dark:text-white">{scores.percentage}</div>
-                    <div className="text-sm text-gray-500 dark:text-gray-400 mt-1">{t('psytest.result.overall')}</div>
+                    <div className="text-5xl font-bold text-white">{scores.percentage}</div>
+                    <div className="text-sm text-gray-500 mt-1">{t('psytest.result.overall')}</div>
                   </div>
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-3xl font-bold mb-3 text-gray-900 dark:text-white">{getScoreLevel(scores.percentage).level}</h3>
-                  <p className="text-base text-gray-600 dark:text-gray-400 leading-relaxed">{getScoreLevel(scores.percentage).description}</p>
+                  <h3 className="text-3xl font-bold mb-3 text-white">{getScoreLevel(scores.percentage).level}</h3>
+                  <p className="text-base text-gray-400 leading-relaxed">{getScoreLevel(scores.percentage).description}</p>
                 </div>
               </div>
 
               {/* Dimension Scores */}
-              <div className="bg-white dark:bg-gray-800 p-10 border-2 border-gray-200 dark:border-gray-700 mb-8">
-                <h3 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">{t('psytest.result.dimensions.title')}</h3>
+              <div className="bg-[#0a0a0a] p-10 border border-white/10 mb-8">
+                <h3 className="text-2xl font-bold mb-6 text-white">{t('psytest.result.dimensions.title')}</h3>
                 <div className="flex flex-col gap-6">
                   {Object.keys(DIMENSIONS).map((key, index) => {
                     const dim = DIMENSIONS[key];
@@ -838,15 +836,15 @@ export default function PsychologyTestPage() {
                     return (
                       <div key={key}>
                         <div className="flex justify-between mb-2">
-                          <span className="font-semibold text-gray-900 dark:text-white flex items-center gap-2">
-                            <span className="bg-black dark:bg-white text-white dark:text-black px-2 py-1 text-xs font-bold">{dim.icon}</span>
+                          <span className="font-semibold text-white flex items-center gap-2">
+                            <span className="bg-[#ff102a] text-white px-2 py-1 text-xs font-bold">{dim.icon}</span>
                             {dim.name}
                           </span>
-                          <span className="font-bold text-black dark:text-white">{data.percentage}分</span>
+                          <span className="font-bold text-white">{data.percentage}分</span>
                         </div>
-                        <div className="h-3 bg-gray-100 dark:bg-gray-700 overflow-hidden">
+                        <div className="h-3 bg-black overflow-hidden">
                           <motion.div
-                            className="h-full bg-black dark:bg-white"
+                            className="h-full bg-[#ff102a]"
                             initial={{ width: 0 }}
                             animate={{ width: `${data.percentage}%` }}
                             transition={{ duration: 1, delay: index * 0.1 }}
@@ -859,8 +857,8 @@ export default function PsychologyTestPage() {
               </div>
 
               {/* Recommendations */}
-              <div className="bg-white dark:bg-gray-800 p-10 border-2 border-gray-200 dark:border-gray-700 mb-8">
-                <h3 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">{t('psytest.result.recommendations.title')}</h3>
+              <div className="bg-[#0a0a0a] p-10 border border-white/10 mb-8">
+                <h3 className="text-2xl font-bold mb-6 text-white">{t('psytest.result.recommendations.title')}</h3>
                 <div className="flex flex-col gap-4">
                   {[
                     { label: t('psytest.result.rec1.label'), title: t('psytest.result.rec1.title'), text: t('psytest.result.rec1.text') },
@@ -868,13 +866,13 @@ export default function PsychologyTestPage() {
                     { label: t('psytest.result.rec3.label'), title: t('psytest.result.rec3.title'), text: t('psytest.result.rec3.text') },
                     { label: t('psytest.result.rec4.label'), title: t('psytest.result.rec4.title'), text: t('psytest.result.rec4.text') },
                   ].map((rec, index) => (
-                    <div key={index} className="flex gap-4 p-5 bg-gray-50 dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-700">
-                      <div className="flex-shrink-0 w-12 h-12 bg-black dark:bg-white flex items-center justify-center border-2 border-black dark:border-white">
-                        <span className="text-white dark:text-black font-bold text-xs">{rec.label}</span>
+                    <div key={index} className="flex gap-4 p-5 bg-black border border-white/10">
+                      <div className="flex-shrink-0 w-12 h-12 bg-[#ff102a] flex items-center justify-center">
+                        <span className="text-white font-bold text-xs">{rec.label}</span>
                       </div>
                       <div>
-                        <h4 className="font-semibold text-gray-900 dark:text-white mb-1">{rec.title}</h4>
-                        <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">{rec.text}</p>
+                        <h4 className="font-semibold text-white mb-1">{rec.title}</h4>
+                        <p className="text-sm text-gray-400 leading-relaxed">{rec.text}</p>
                       </div>
                     </div>
                   ))}
@@ -889,7 +887,7 @@ export default function PsychologyTestPage() {
                       startTest();
                     }
                   }}
-                  className="px-8 py-4 bg-black dark:bg-white text-white dark:text-black font-semibold border-2 border-black dark:border-white hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors"
+                  className="px-8 py-4 bg-[#ff102a] text-white font-semibold shadow-[0_0_20px_rgba(255,16,42,0.4)] hover:bg-[#eb383e] transition-colors"
                 >
                   {t('psytest.result.retry')}
                 </ShineButton>

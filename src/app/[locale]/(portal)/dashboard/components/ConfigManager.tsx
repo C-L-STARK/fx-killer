@@ -132,7 +132,7 @@ export default function ConfigManager() {
   return (
     <div className="p-8">
       <div className="mb-6 flex justify-between items-center">
-        <h1 className="text-3xl font-black text-black dark:text-white">
+        <h1 className="text-3xl font-black text-white">
           {language === 'zh' ? '配置管理' : 'Configuration Management'}
         </h1>
         <button
@@ -144,27 +144,27 @@ export default function ConfigManager() {
       </div>
 
       {showForm && (
-        <div className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 p-6 mb-6">
-          <h2 className="text-xl font-bold text-black dark:text-white mb-4">
+        <div className="bg-[#0a0a0a] border-2 border-gray-200 dark:border-gray-700 p-6 mb-6">
+          <h2 className="text-xl font-bold text-white mb-4">
             {editingConfig ? (language === 'zh' ? '编辑配置' : 'Edit Config') : (language === 'zh' ? '添加配置' : 'Add Config')}
           </h2>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+              <label className="block text-sm font-medium text-gray-300 mb-2">
                 {language === 'zh' ? '配置键名 (Key Name)' : 'Key Name'}
               </label>
               <input
                 type="text"
                 value={formData.key_name}
                 onChange={(e) => setFormData({ ...formData, key_name: e.target.value })}
-                className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                 required
                 placeholder="OPENAI_URL, OPENAI_KEY, etc."
               />
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+              <label className="block text-sm font-medium text-gray-300 mb-2">
                 {language === 'zh' ? '配置值 (Key Content)' : 'Key Content'}
               </label>
               {isModelConfig ? (
@@ -178,7 +178,7 @@ export default function ConfigManager() {
                         setFormData({ ...formData, key_content: e.target.value });
                       }
                     }}
-                    className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                    className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                     required={!isCustomModel}
                   >
                     <option value="">{language === 'zh' ? '选择模型...' : 'Select model...'}</option>
@@ -200,7 +200,7 @@ export default function ConfigManager() {
                         type="text"
                         value={formData.key_content === 'custom' ? '' : formData.key_content}
                         onChange={(e) => setFormData({ ...formData, key_content: e.target.value })}
-                        className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                        className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                         placeholder={language === 'zh' ? '输入自定义模型名称 (如: gpt-4, claude-3-opus)' : 'Enter custom model name (e.g., gpt-4, claude-3-opus)'}
                         required
                       />
@@ -222,7 +222,7 @@ export default function ConfigManager() {
                 <textarea
                   value={formData.key_content}
                   onChange={(e) => setFormData({ ...formData, key_content: e.target.value })}
-                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                   rows={4}
                   required
                   placeholder={language === 'zh' ? '配置的具体内容...' : 'Configuration value...'}
@@ -231,14 +231,14 @@ export default function ConfigManager() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+              <label className="block text-sm font-medium text-gray-300 mb-2">
                 {language === 'zh' ? '备注 (Remark)' : 'Remark'}
               </label>
               <input
                 type="text"
                 value={formData.key_remark}
                 onChange={(e) => setFormData({ ...formData, key_remark: e.target.value })}
-                className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-black text-white"
                 placeholder={language === 'zh' ? '配置说明...' : 'Description...'}
               />
             </div>
@@ -253,7 +253,7 @@ export default function ConfigManager() {
               <button
                 type="button"
                 onClick={resetForm}
-                className="px-6 py-2 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                className="px-6 py-2 border-2 border-gray-300 dark:border-gray-600 text-gray-300 hover:bg-gray-100 dark:hover:bg-[#0a0a0a]"
               >
                 {language === 'zh' ? '取消' : 'Cancel'}
               </button>
@@ -265,20 +265,20 @@ export default function ConfigManager() {
       {loading ? (
         <div className="text-center py-12 text-gray-500">{language === 'zh' ? '加载中...' : 'Loading...'}</div>
       ) : (
-        <div className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700">
+        <div className="bg-[#0a0a0a] border-2 border-gray-200 dark:border-gray-700">
           <table className="w-full">
             <thead>
               <tr className="border-b-2 border-gray-200 dark:border-gray-700">
-                <th className="px-6 py-4 text-left text-sm font-bold text-black dark:text-white">
+                <th className="px-6 py-4 text-left text-sm font-bold text-white">
                   {language === 'zh' ? '键名' : 'Key Name'}
                 </th>
-                <th className="px-6 py-4 text-left text-sm font-bold text-black dark:text-white">
+                <th className="px-6 py-4 text-left text-sm font-bold text-white">
                   {language === 'zh' ? '配置值' : 'Content'}
                 </th>
-                <th className="px-6 py-4 text-left text-sm font-bold text-black dark:text-white">
+                <th className="px-6 py-4 text-left text-sm font-bold text-white">
                   {language === 'zh' ? '备注' : 'Remark'}
                 </th>
-                <th className="px-6 py-4 text-right text-sm font-bold text-black dark:text-white">
+                <th className="px-6 py-4 text-right text-sm font-bold text-white">
                   {language === 'zh' ? '操作' : 'Actions'}
                 </th>
               </tr>
@@ -301,7 +301,7 @@ export default function ConfigManager() {
                         ? config.key_content.substring(0, 50) + '...'
                         : config.key_content}
                     </td>
-                    <td className="px-6 py-4 text-sm text-gray-600 dark:text-gray-400">
+                    <td className="px-6 py-4 text-sm text-gray-400">
                       {config.key_remark}
                     </td>
                     <td className="px-6 py-4 text-right">

@@ -54,15 +54,15 @@ export default function MarketDetailClient({ analysis, language }: MarketDetailC
     if (!rsi) return { text: 'N/A', color: 'bg-gray-500', textColor: 'text-gray-700 dark:text-gray-300' };
     if (rsi >= 70) return { text: isZh ? '超买' : 'Overbought', color: 'bg-red-500', textColor: 'text-red-700 dark:text-red-300' };
     if (rsi <= 30) return { text: isZh ? '超卖' : 'Oversold', color: 'bg-green-500', textColor: 'text-green-700 dark:text-green-300' };
-    return { text: isZh ? '中性' : 'Neutral', color: 'bg-blue-500', textColor: 'text-blue-700 dark:text-blue-300' };
+    return { text: isZh ? '中性' : 'Neutral', color: 'bg-gray-500', textColor: 'text-gray-300' };
   };
 
   const rsiStatus = getRSIStatus(analysis.indicators.rsi);
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
+    <div className="min-h-screen bg-gray-50 dark:bg-black">
       {/* Header */}
-      <div className="bg-white dark:bg-gray-900 border-b-2 border-gray-200 dark:border-gray-800">
+      <div className="bg-gray-50 dark:bg-[#0a0a0a] border-b-2 border-gray-200 dark:border-gray-800">
         <div className="max-w-7xl mx-auto px-6 py-8">
           <Link
             href={`/${language}/market-analysis`}
@@ -87,9 +87,8 @@ export default function MarketDetailClient({ analysis, language }: MarketDetailC
               <div className="text-5xl font-bold text-gray-900 dark:text-white">
                 {parseFloat(analysis.price.close).toFixed(analysis.symbol.includes('JPY') ? 2 : 5)}
               </div>
-              <div className={`flex items-center gap-2 text-lg font-semibold mt-2 ${
-                isPositive ? 'text-green-600 dark:text-green-400' : 'text-red-600 dark:text-red-400'
-              }`}>
+              <div className={`flex items-center gap-2 text-lg font-semibold mt-2 ${isPositive ? 'text-green-600 dark:text-green-400' : 'text-red-600 dark:text-red-400'
+                }`}>
                 {isPositive ? <TrendingUp className="w-5 h-5" /> : <TrendingDown className="w-5 h-5" />}
                 <span>{isPositive ? '+' : ''}{change.toFixed(2)}%</span>
               </div>
@@ -139,7 +138,7 @@ export default function MarketDetailClient({ analysis, language }: MarketDetailC
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Left Column - Technical Indicators */}
           <div className="lg:col-span-1">
-            <div className="bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-800 p-6 sticky top-24">
+            <div className="bg-gray-50 dark:bg-[#0a0a0a] border-2 border-gray-200 dark:border-gray-800 p-6 sticky top-24">
               <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-2">
                 <Activity className="w-5 h-5" />
                 {isZh ? '技术指标' : 'Technical Indicators'}
@@ -156,7 +155,7 @@ export default function MarketDetailClient({ analysis, language }: MarketDetailC
                       </span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <div className="flex-1 h-2 bg-gray-200 dark:bg-gray-800 rounded-full overflow-hidden">
+                      <div className="flex-1 h-2 bg-gray-200 dark:bg-[#0a0a0a] rounded-full overflow-hidden">
                         <div
                           className={`h-full ${rsiStatus.color}`}
                           style={{ width: `${analysis.indicators.rsi}%` }}
@@ -206,7 +205,7 @@ export default function MarketDetailClient({ analysis, language }: MarketDetailC
 
           {/* Right Column - Analysis */}
           <div className="lg:col-span-2">
-            <div className="bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-800 p-8">
+            <div className="bg-gray-50 dark:bg-[#0a0a0a] border-2 border-gray-200 dark:border-gray-800 p-8">
               <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
                 {analysisContent.title}
               </h2>
@@ -234,7 +233,7 @@ export default function MarketDetailClient({ analysis, language }: MarketDetailC
             <div className="mt-8 text-center">
               <Link
                 href={`/${language}/market-analysis`}
-                className="inline-flex items-center gap-2 px-8 py-4 bg-black dark:bg-white text-white dark:text-black font-bold hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors border-2 border-black dark:border-white"
+                className="inline-flex items-center gap-2 px-8 py-4 bg-black dark:bg-white text-white dark:text-black font-bold hover:bg-[#0a0a0a] dark:hover:bg-gray-200 transition-colors border-2 border-black dark:border-white"
               >
                 <ArrowLeft className="w-5 h-5" />
                 {isZh ? '返回市场分析列表' : 'Back to Market Analysis'}
@@ -245,7 +244,7 @@ export default function MarketDetailClient({ analysis, language }: MarketDetailC
       </div>
 
       {/* TradingView Chart - Full Width */}
-      <div className="w-full bg-white dark:bg-gray-900 border-y-2 border-gray-200 dark:border-gray-800" style={{ width: '100vw', height: '100vh' }}>
+      <div className="w-full bg-gray-50 dark:bg-[#0a0a0a] border-y-2 border-gray-200 dark:border-gray-800" style={{ width: '100vw', height: '100vh' }}>
         <TradingViewWidget symbol={analysis.symbol.replace('/', '')} />
       </div>
 

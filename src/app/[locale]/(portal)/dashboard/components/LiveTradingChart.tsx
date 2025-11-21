@@ -137,7 +137,7 @@ export default function LiveTradingChart({ symbol, interval, config }: LiveTradi
   }, [symbol, interval, config]);
 
   return (
-    <div className="w-full bg-white dark:bg-gray-900 border-2 border-black dark:border-white">
+    <div className="w-full bg-black border-2 border-gray-800">
       <div
         ref={containerRef}
         className="tradingview-widget-container"

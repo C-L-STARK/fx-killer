@@ -58,7 +58,7 @@ export default function TradingDashboard() {
       case 'strategy':
         return (
           <div className="p-8">
-            <h1 className="text-3xl font-black text-black dark:text-white mb-6">
+            <h1 className="text-3xl font-black text-white mb-6">
               {language === 'zh' ? '天梯趋势' : 'Tianti Trend'}
             </h1>
             <TiantiPanel />
@@ -82,23 +82,23 @@ export default function TradingDashboard() {
   };
 
   return (
-    <div className="flex h-screen bg-gray-50 dark:bg-gray-900 fixed inset-0 z-50">
+    <div className="flex h-screen bg-black fixed inset-0 z-50">
       {/* Sidebar */}
       <SidebarMenu activeTab={activeTab} onTabChange={setActiveTab} />
 
       {/* Main Content */}
       <div className="flex-1 flex flex-col overflow-hidden">
         {/* Top Bar */}
-        <div className="bg-white dark:bg-gray-800 border-b-2 border-gray-200 dark:border-gray-700 px-8 py-4">
+        <div className="bg-[#0a0a0a] border-b border-white/10 px-8 py-4">
           <div className="flex items-center justify-between">
             <div>
-              <h2 className="text-lg font-bold text-black dark:text-white">
+              <h2 className="text-lg font-bold text-white">
                 {language === 'zh' ? '汇刃控制台' : 'FX Killer Dashboard'}
               </h2>
             </div>
             <button
               onClick={handleLogout}
-              className="px-4 py-2 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+              className="px-4 py-2 border border-white/10 text-gray-300 hover:bg-white/5 transition-colors"
             >
               {language === 'zh' ? '退出登录' : 'Logout'}
             </button>

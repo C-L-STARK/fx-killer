@@ -3,6 +3,8 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import Link from 'next/link';
+import PremiumCTA from '@/components/custom/PremiumCTA';
+import EmailContactModal from '@/components/custom/EmailContactModal';
 
 interface ExchangeRates {
   [key: string]: number;
@@ -11,6 +13,7 @@ interface ExchangeRates {
 export default function PipCalculatorPage() {
   const { language } = useLanguage();
   const isZh = language === 'zh';
+  const [isEmailModalOpen, setIsEmailModalOpen] = useState(false);
 
   // Input states
   const [currencyPair, setCurrencyPair] = useState<string>('EURUSD');
@@ -125,14 +128,14 @@ export default function PipCalculatorPage() {
   const results = calculatePipValue();
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900 pt-24 pb-16">
+    <div className="min-h-screen bg-black pt-24 pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-black dark:text-white mb-4">
+          <h1 className="text-4xl font-bold text-white mb-4">
             {isZh ? '点值计算器' : 'Pip Value Calculator'}
           </h1>
-          <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+          <p className="text-gray-400 max-w-2xl mx-auto">
             {isZh
               ? '基于实时汇率计算每点价值和盈亏金额，支持多种账户货币'
               : 'Calculate pip value and profit/loss based on real-time exchange rates'}
@@ -143,9 +146,9 @@ export default function PipCalculatorPage() {
             {ratesLoading ? (
               <span className="text-gray-500">{isZh ? '获取实时汇率...' : 'Fetching rates...'}</span>
             ) : ratesError ? (
-              <span className="text-yellow-600">⚠ {ratesError}</span>
+              <span className="text-[#ff102a]">⚠ {ratesError}</span>
             ) : (
-              <span className="text-green-600">
+              <span className="text-green-500">
                 ✓ {isZh ? '实时汇率已更新' : 'Rates updated'}
               </span>
             )}
@@ -155,21 +158,22 @@ export default function PipCalculatorPage() {
         {/* Calculator */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
           {/* Input Section */}
-          <div className="bg-white dark:bg-gray-800 p-8 border-2 border-black dark:border-white">
-            <h2 className="text-2xl font-bold text-black dark:text-white mb-6 pb-3 border-b-2 border-black dark:border-white">
+          <div className="bg-black p-8 border border-gray-800">
+            <h2 className="text-2xl font-bold text-white mb-6 pb-3 border-b border-gray-800 flex items-center gap-2">
+              <span className="w-1 h-6 bg-[#ff102a]"></span>
               {isZh ? '输入参数' : 'Input Parameters'}
             </h2>
 
             <div className="space-y-6">
               {/* Currency Pair */}
               <div>
-                <label className="block text-sm font-bold text-black dark:text-white mb-2">
+                <label className="block text-sm font-bold text-gray-400 mb-2">
                   {isZh ? '货币对' : 'Currency Pair'}
                 </label>
                 <select
                   value={currencyPair}
                   onChange={(e) => setCurrencyPair(e.target.value)}
-                  className="w-full px-4 py-3 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+                  className="w-full px-4 py-3 border border-gray-800 bg-black text-white focus:border-[#ff102a] outline-none transition-colors"
                 >
                   <option value="EURUSD">EUR/USD</option>
                   <option value="GBPUSD">GBP/USD</option>
@@ -183,7 +187,7 @@ export default function PipCalculatorPage() {
                   <option value="EURGBP">EUR/GBP</option>
                 </select>
                 {results.currentPrice > 0 && (
-                  <p className="text-xs text-gray-500 dark:text-gray-500 mt-1">
+                  <p className="text-xs text-gray-500 mt-1">
                     {isZh ? '当前价格' : 'Current Price'}: {results.currentPrice.toFixed(5)}
                   </p>
                 )}
@@ -191,32 +195,32 @@ export default function PipCalculatorPage() {
 
               {/* Lot Size */}
               <div>
-                <label className="block text-sm font-bold text-black dark:text-white mb-2">
+                <label className="block text-sm font-bold text-gray-400 mb-2">
                   {isZh ? '手数' : 'Lot Size'}
                 </label>
                 <input
                   type="number"
                   value={lotSize}
                   onChange={(e) => setLotSize(e.target.value)}
-                  className="w-full px-4 py-3 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+                  className="w-full px-4 py-3 border border-gray-800 bg-black text-white focus:border-[#ff102a] outline-none transition-colors"
                   placeholder="1.0"
                   step="0.01"
                   min="0.01"
                 />
-                <p className="text-xs text-gray-500 dark:text-gray-500 mt-1">
+                <p className="text-xs text-gray-500 mt-1">
                   {isZh ? '1手 = 100,000单位' : '1 lot = 100,000 units'}
                 </p>
               </div>
 
               {/* Account Currency */}
               <div>
-                <label className="block text-sm font-bold text-black dark:text-white mb-2">
+                <label className="block text-sm font-bold text-gray-400 mb-2">
                   {isZh ? '账户货币' : 'Account Currency'}
                 </label>
                 <select
                   value={accountCurrency}
                   onChange={(e) => setAccountCurrency(e.target.value)}
-                  className="w-full px-4 py-3 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+                  className="w-full px-4 py-3 border border-gray-800 bg-black text-white focus:border-[#ff102a] outline-none transition-colors"
                 >
                   <option value="USD">USD</option>
                   <option value="EUR">EUR</option>
@@ -231,19 +235,19 @@ export default function PipCalculatorPage() {
 
               {/* Number of Pips */}
               <div>
-                <label className="block text-sm font-bold text-black dark:text-white mb-2">
+                <label className="block text-sm font-bold text-gray-400 mb-2">
                   {isZh ? '点数 (Pips)' : 'Number of Pips'}
                 </label>
                 <input
                   type="number"
                   value={pips}
                   onChange={(e) => setPips(e.target.value)}
-                  className="w-full px-4 py-3 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none"
+                  className="w-full px-4 py-3 border border-gray-800 bg-black text-white focus:border-[#ff102a] outline-none transition-colors"
                   placeholder="100"
                   step="1"
                   min="1"
                 />
-                <p className="text-xs text-gray-500 dark:text-gray-500 mt-1">
+                <p className="text-xs text-gray-500 mt-1">
                   {isZh ? '计算指定点数的总价值' : 'Calculate total value for specified pips'}
                 </p>
               </div>
@@ -251,21 +255,23 @@ export default function PipCalculatorPage() {
           </div>
 
           {/* Results Section */}
-          <div className="bg-black dark:bg-white p-8 border-2 border-black dark:border-white">
-            <h2 className="text-2xl font-bold text-white dark:text-black mb-6 pb-3 border-b-2 border-white dark:border-black">
+          <div className="bg-black p-8 border border-gray-800 relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-[#ff102a] blur-[100px] opacity-10 pointer-events-none"></div>
+            <h2 className="text-2xl font-bold text-white mb-6 pb-3 border-b border-gray-800 flex items-center gap-2 relative z-10">
+              <span className="w-1 h-6 bg-[#ff102a]"></span>
               {isZh ? '计算结果' : 'Results'}
             </h2>
 
-            <div className="space-y-6">
+            <div className="space-y-6 relative z-10">
               {/* Pip Size */}
-              <div className="bg-white dark:bg-gray-900 p-4 border-2 border-white dark:border-gray-700">
-                <p className="text-sm text-gray-600 dark:text-gray-400 mb-1">
+              <div className="bg-black/50 p-4 border border-gray-800">
+                <p className="text-sm text-gray-400 mb-1">
                   {isZh ? 'Pip大小' : 'Pip Size'}
                 </p>
-                <p className="text-3xl font-bold text-black dark:text-white">
+                <p className="text-3xl font-bold text-white">
                   {results.pipSize.toFixed(4)}
                 </p>
-                <p className="text-xs text-gray-500 dark:text-gray-500 mt-1">
+                <p className="text-xs text-gray-500 mt-1">
                   {currencyPair.includes('JPY')
                     ? (isZh ? '日元货币对' : 'JPY pairs')
                     : (isZh ? '标准货币对' : 'Standard pairs')}
@@ -273,52 +279,52 @@ export default function PipCalculatorPage() {
               </div>
 
               {/* Pip Value */}
-              <div className="bg-white dark:bg-gray-900 p-4 border-2 border-white dark:border-gray-700">
-                <p className="text-sm text-gray-600 dark:text-gray-400 mb-1">
+              <div className="bg-black/50 p-4 border border-gray-800">
+                <p className="text-sm text-gray-400 mb-1">
                   {isZh ? '每点价值' : 'Value Per Pip'}
                 </p>
-                <p className="text-4xl font-bold text-black dark:text-white">
+                <p className="text-4xl font-bold text-white">
                   {accountCurrency} ${results.pipValue.toFixed(2)}
                 </p>
-                <p className="text-xs text-gray-500 dark:text-gray-500 mt-1">
+                <p className="text-xs text-gray-500 mt-1">
                   {isZh ? `基于${lotSize}手` : `Based on ${lotSize} lots`}
                 </p>
               </div>
 
               {/* Total Value */}
-              <div className="bg-white dark:bg-gray-900 p-4 border-2 border-green-500 dark:border-green-500">
-                <p className="text-sm text-gray-600 dark:text-gray-400 mb-1">
+              <div className="bg-black/50 p-4 border border-[#ff102a]/30 shadow-[0_0_20px_rgba(255,16,42,0.1)]">
+                <p className="text-sm text-gray-400 mb-1">
                   {isZh ? `${pips}点总价值` : `Total Value for ${pips} Pips`}
                 </p>
-                <p className="text-4xl font-bold text-green-600 dark:text-green-500">
+                <p className="text-4xl font-bold text-[#ff102a]">
                   {accountCurrency} ${results.totalValue.toFixed(2)}
                 </p>
-                <p className="text-xs text-gray-500 dark:text-gray-500 mt-1">
+                <p className="text-xs text-gray-500 mt-1">
                   {isZh ? '盈利/亏损金额' : 'Profit/Loss amount'}
                 </p>
               </div>
 
               {/* Quick Reference */}
-              <div className="bg-white dark:bg-gray-900 p-4 border-2 border-white dark:border-gray-700">
-                <p className="text-sm font-bold text-black dark:text-white mb-3">
+              <div className="bg-black/50 p-4 border border-gray-800">
+                <p className="text-sm font-bold text-white mb-3">
                   {isZh ? '快速参考' : 'Quick Reference'}
                 </p>
-                <div className="space-y-2 text-sm text-gray-700 dark:text-gray-300">
+                <div className="space-y-2 text-sm text-gray-400">
                   <div className="flex justify-between">
                     <span>10 pips:</span>
-                    <span className="font-bold">${(results.pipValue * 10).toFixed(2)}</span>
+                    <span className="font-bold text-white">${(results.pipValue * 10).toFixed(2)}</span>
                   </div>
                   <div className="flex justify-between">
                     <span>25 pips:</span>
-                    <span className="font-bold">${(results.pipValue * 25).toFixed(2)}</span>
+                    <span className="font-bold text-white">${(results.pipValue * 25).toFixed(2)}</span>
                   </div>
                   <div className="flex justify-between">
                     <span>50 pips:</span>
-                    <span className="font-bold">${(results.pipValue * 50).toFixed(2)}</span>
+                    <span className="font-bold text-white">${(results.pipValue * 50).toFixed(2)}</span>
                   </div>
-                  <div className="flex justify-between border-t border-gray-300 dark:border-gray-700 pt-2">
+                  <div className="flex justify-between border-t border-gray-800 pt-2">
                     <span>100 pips:</span>
-                    <span className="font-bold">${(results.pipValue * 100).toFixed(2)}</span>
+                    <span className="font-bold text-white">${(results.pipValue * 100).toFixed(2)}</span>
                   </div>
                 </div>
               </div>
@@ -327,50 +333,51 @@ export default function PipCalculatorPage() {
         </div>
 
         {/* Information */}
-        <div className="bg-gray-50 dark:bg-gray-800 p-8 border-2 border-gray-200 dark:border-gray-700 mb-8">
-          <h2 className="text-2xl font-bold text-black dark:text-white mb-6 pb-3 border-b-2 border-black dark:border-white">
+        <div className="bg-black/30 p-8 border border-gray-800 mb-8">
+          <h2 className="text-2xl font-bold text-white mb-6 pb-3 border-b border-gray-800 flex items-center gap-2">
+            <span className="w-1 h-6 bg-[#ff102a]"></span>
             {isZh ? 'Pip知识' : 'Understanding Pips'}
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <h3 className="text-lg font-bold text-black dark:text-white mb-3">
+              <h3 className="text-lg font-bold text-white mb-3">
                 {isZh ? '什么是Pip？' : 'What is a Pip?'}
               </h3>
-              <p className="text-sm text-gray-700 dark:text-gray-300 mb-4">
+              <p className="text-sm text-gray-400 mb-4">
                 {isZh
                   ? 'Pip（Point in Percentage）是外汇市场价格变动的最小单位。对于大多数货币对，1 pip = 0.0001；对于日元货币对，1 pip = 0.01。'
                   : 'Pip (Point in Percentage) is the smallest price change unit in forex. For most pairs, 1 pip = 0.0001; for JPY pairs, 1 pip = 0.01.'}
               </p>
-              <div className="bg-white dark:bg-gray-900 p-4 border border-gray-300 dark:border-gray-700">
-                <p className="text-sm text-gray-700 dark:text-gray-300 mb-2">
-                  <span className="font-bold">EUR/USD:</span> 1.0850 → 1.0851 = 1 pip
+              <div className="bg-black p-4 border border-gray-800">
+                <p className="text-sm text-gray-400 mb-2">
+                  <span className="font-bold text-white">EUR/USD:</span> 1.0850 → 1.0851 = 1 pip
                 </p>
-                <p className="text-sm text-gray-700 dark:text-gray-300">
-                  <span className="font-bold">USD/JPY:</span> 149.50 → 149.51 = 1 pip
+                <p className="text-sm text-gray-400">
+                  <span className="font-bold text-white">USD/JPY:</span> 149.50 → 149.51 = 1 pip
                 </p>
               </div>
             </div>
 
             <div>
-              <h3 className="text-lg font-bold text-black dark:text-white mb-3">
+              <h3 className="text-lg font-bold text-white mb-3">
                 {isZh ? '为什么重要？' : 'Why It Matters?'}
               </h3>
-              <ul className="space-y-2 text-sm text-gray-700 dark:text-gray-300">
+              <ul className="space-y-2 text-sm text-gray-400">
                 <li className="flex items-start gap-2">
-                  <span className="text-black dark:text-white font-bold">•</span>
+                  <span className="text-[#ff102a] font-bold">•</span>
                   <span>{isZh ? '计算交易盈亏的基础' : 'Foundation for calculating profit/loss'}</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-black dark:text-white font-bold">•</span>
+                  <span className="text-[#ff102a] font-bold">•</span>
                   <span>{isZh ? '设置止损止盈的参考' : 'Reference for setting SL/TP'}</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-black dark:text-white font-bold">•</span>
+                  <span className="text-[#ff102a] font-bold">•</span>
                   <span>{isZh ? '评估交易策略的有效性' : 'Evaluating strategy effectiveness'}</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-black dark:text-white font-bold">•</span>
+                  <span className="text-[#ff102a] font-bold">•</span>
                   <span>{isZh ? '风险管理的重要指标' : 'Key metric for risk management'}</span>
                 </li>
               </ul>
@@ -379,38 +386,69 @@ export default function PipCalculatorPage() {
         </div>
 
         {/* Other Tools */}
-        <div className="bg-white dark:bg-gray-800 p-8 border-2 border-black dark:border-white">
-          <h2 className="text-2xl font-bold text-black dark:text-white mb-6 pb-3 border-b-2 border-black dark:border-white">
+        <div className="bg-black p-8 border border-gray-800">
+          <h2 className="text-2xl font-bold text-white mb-6 pb-3 border-b border-gray-800 flex items-center gap-2">
+            <span className="w-1 h-6 bg-[#ff102a]"></span>
             {isZh ? '其他工具' : 'Other Tools'}
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link
               href="/tools/position-calculator"
-              className="p-6 border-2 border-gray-300 dark:border-gray-700 hover:border-black dark:hover:border-white transition-colors"
+              className="p-6 border border-gray-800 hover:border-[#ff102a] transition-colors group"
             >
-              <h3 className="text-lg font-bold text-black dark:text-white mb-2">
+              <h3 className="text-lg font-bold text-white mb-2 group-hover:text-[#ff102a] transition-colors">
                 {isZh ? '仓位计算器' : 'Position Size Calculator'}
               </h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
+              <p className="text-sm text-gray-400">
                 {isZh ? '计算推荐的交易手数和保证金需求' : 'Calculate recommended lot size and margin requirement'}
               </p>
             </Link>
 
             <Link
               href="/tools/risk-reward-calculator"
-              className="p-6 border-2 border-gray-300 dark:border-gray-700 hover:border-black dark:hover:border-white transition-colors"
+              className="p-6 border border-gray-800 hover:border-[#ff102a] transition-colors group"
             >
-              <h3 className="text-lg font-bold text-black dark:text-white mb-2">
+              <h3 className="text-lg font-bold text-white mb-2 group-hover:text-[#ff102a] transition-colors">
                 {isZh ? '风险回报计算器' : 'Risk/Reward Calculator'}
               </h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
+              <p className="text-sm text-gray-400">
                 {isZh ? '计算盈亏比和潜在盈利' : 'Calculate R/R ratio and potential profit'}
               </p>
             </Link>
           </div>
         </div>
       </div>
+
+      {/* Premium CTA - Full Width */}
+      <PremiumCTA
+        badge={{ zh: '专业工具', en: 'Professional Tools' }}
+        title={{
+          zh: '提升交易技能，成为职业交易员',
+          en: 'Enhance Trading Skills, Become a Pro Trader'
+        }}
+        subtitle={{
+          zh: '使用专业工具优化交易策略。加入我们的培训计划，获得真实资金配置。',
+          en: 'Use professional tools to optimize trading strategies. Join our training program and get real funded accounts.'
+        }}
+        primaryButton={{
+          text: { zh: '预约面试', en: 'Schedule Interview' },
+          action: 'modal'
+        }}
+        secondaryButton={{
+          text: { zh: '查看更多工具', en: 'More Tools' },
+          action: 'link',
+          link: `/${language}/tools`
+        }}
+        showStats={true}
+        onModalOpen={() => setIsEmailModalOpen(true)}
+      />
+
+      {/* Email Contact Modal */}
+      <EmailContactModal
+        isOpen={isEmailModalOpen}
+        onClose={() => setIsEmailModalOpen(false)}
+      />
     </div>
   );
 }

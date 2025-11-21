@@ -78,12 +78,12 @@ export default function PartnerBrokersPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900">
+    <div className="min-h-screen bg-gray-50 dark:bg-black">
       {/* Hero Section */}
       <section className="bg-black dark:bg-white text-white dark:text-black py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-block px-4 py-2 bg-white dark:bg-black text-black dark:text-white text-xs font-bold mb-6 border-2 border-white dark:border-black">
+            <div className="inline-block px-4 py-2 bg-gray-50 dark:bg-black text-black dark:text-white text-xs font-bold mb-6 border-2 border-white dark:border-black">
               {isZh ? 'FX KILLER 合作伙伴' : 'FX KILLER PARTNERS'}
             </div>
             <h1 className="text-5xl md:text-6xl font-black mb-6 leading-tight">
@@ -99,7 +99,7 @@ export default function PartnerBrokersPage() {
       </section>
 
       {/* Selection Criteria */}
-      <section className="py-20 bg-gray-50 dark:bg-gray-800">
+      <section className="py-20 bg-gray-50 dark:bg-[#0a0a0a]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-black text-black dark:text-white mb-4">
@@ -116,7 +116,7 @@ export default function PartnerBrokersPage() {
             {selectionCriteria.map((criterion, index) => (
               <div
                 key={index}
-                className="bg-white dark:bg-gray-900 p-8 border-2 border-black dark:border-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all group"
+                className="bg-gray-50 dark:bg-black p-8 border-2 border-black dark:border-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all group"
               >
                 <div className="text-5xl mb-6">{criterion.icon}</div>
                 <h3 className="text-2xl font-black mb-4 text-black dark:text-white group-hover:text-white dark:group-hover:text-black">
@@ -149,7 +149,7 @@ export default function PartnerBrokersPage() {
             {brokers.map((broker) => (
               <div
                 key={broker.id}
-                className="bg-white dark:bg-gray-800 border-2 border-black dark:border-white p-8"
+                className="bg-gray-50 dark:bg-[#0a0a0a] border-2 border-black dark:border-white p-8"
               >
                 {/* Broker Header */}
                 <div className="mb-6 pb-6 border-b-2 border-black dark:border-white">
@@ -185,7 +185,7 @@ export default function PartnerBrokersPage() {
                 </div>
 
                 {/* Suitable For */}
-                <div className="mb-6 p-4 bg-gray-50 dark:bg-gray-900 border border-gray-300 dark:border-gray-700">
+                <div className="mb-6 p-4 bg-gray-50 dark:bg-black border border-gray-300 dark:border-gray-700">
                   <p className="text-sm font-bold text-black dark:text-white mb-2">
                     {isZh ? '适合人群：' : 'Suitable For:'}
                   </p>
@@ -267,7 +267,7 @@ export default function PartnerBrokersPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/education/broker-selection-guide"
-                className="px-10 py-4 bg-white dark:bg-black text-black dark:text-white font-bold text-lg border-2 border-white dark:border-black hover:bg-transparent hover:text-white dark:hover:bg-transparent dark:hover:text-black transition-all"
+                className="px-10 py-4 bg-gray-50 dark:bg-black text-black dark:text-white font-bold text-lg border-2 border-white dark:border-black hover:bg-transparent hover:text-white dark:hover:bg-transparent dark:hover:text-black transition-all"
               >
                 {isZh ? '经纪商选择指南' : 'Broker Selection Guide'}
               </Link>

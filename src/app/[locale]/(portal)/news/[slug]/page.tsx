@@ -147,9 +147,9 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
+    <div className="min-h-screen bg-gray-50 dark:bg-black">
       {/* Header */}
-      <div className="bg-white dark:bg-gray-900 border-b-2 border-gray-200 dark:border-gray-800">
+      <div className="bg-gray-50 dark:bg-[#0a0a0a] border-b-2 border-gray-200 dark:border-gray-800">
         <div className="max-w-7xl mx-auto px-6 py-8">
           <LocaleLink
             href="/news"
@@ -190,7 +190,7 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
           {/* Sidebar - History News */}
           <aside className="lg:w-80 shrink-0">
             <div className="sticky top-24">
-              <div className="bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-800 p-6">
+              <div className="bg-gray-50 dark:bg-[#0a0a0a] border-2 border-gray-200 dark:border-gray-800 p-6">
                 <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4 pb-3 border-b-2 border-gray-200 dark:border-gray-800">
                   {isZh ? '最新新闻' : 'Recent News'}
                 </h3>
@@ -201,7 +201,7 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
                         href={`/news/${item.slug}`}
                         className="block group"
                       >
-                        <div className="text-sm font-semibold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 line-clamp-2 mb-1">
+                        <div className="text-sm font-semibold text-gray-900 dark:text-white group-hover:text-[#ff102a] dark:group-hover:text-[#ff102a] line-clamp-2 mb-1">
                           {item.title}
                         </div>
                         <div className="text-xs text-gray-500 dark:text-gray-400">
@@ -230,7 +230,7 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
               <div className="max-w-none">
                 <ReactMarkdown
                   components={{
-                    p: ({node, children, ...props}) => (
+                    p: ({ node, children, ...props }) => (
                       <p
                         className="text-[21px] leading-[32px] text-gray-800 dark:text-gray-200 mb-8"
                         {...props}
@@ -238,7 +238,7 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
                         {children}
                       </p>
                     ),
-                    h1: ({node, children, ...props}) => (
+                    h1: ({ node, children, ...props }) => (
                       <h1
                         className="text-[42px] leading-[48px] font-bold text-gray-900 dark:text-white mb-6 mt-12"
                         {...props}
@@ -246,7 +246,7 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
                         {children}
                       </h1>
                     ),
-                    h2: ({node, children, ...props}) => (
+                    h2: ({ node, children, ...props }) => (
                       <h2
                         className="text-[32px] leading-[40px] font-bold text-gray-900 dark:text-white mb-6 mt-10"
                         {...props}
@@ -254,7 +254,7 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
                         {children}
                       </h2>
                     ),
-                    h3: ({node, children, ...props}) => (
+                    h3: ({ node, children, ...props }) => (
                       <h3
                         className="text-[26px] leading-[32px] font-bold text-gray-900 dark:text-white mb-5 mt-8"
                         {...props}
@@ -262,7 +262,7 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
                         {children}
                       </h3>
                     ),
-                    strong: ({node, children, ...props}) => (
+                    strong: ({ node, children, ...props }) => (
                       <strong
                         className="font-bold text-gray-900 dark:text-white"
                         {...props}
@@ -270,7 +270,7 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
                         {children}
                       </strong>
                     ),
-                    em: ({node, children, ...props}) => (
+                    em: ({ node, children, ...props }) => (
                       <em
                         className="italic text-gray-800 dark:text-gray-200"
                         {...props}
@@ -278,7 +278,7 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
                         {children}
                       </em>
                     ),
-                    a: ({node, children, ...props}) => {
+                    a: ({ node, children, ...props }) => {
                       const href = props.href || '';
                       // Check if it's an internal link (starts with /)
                       const isInternal = href.startsWith('/') && !href.startsWith('//');
@@ -305,7 +305,7 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
                         </a>
                       );
                     },
-                    blockquote: ({node, children, ...props}) => (
+                    blockquote: ({ node, children, ...props }) => (
                       <blockquote
                         className="border-l-4 border-gray-900 dark:border-white pl-6 pr-6 py-2 my-8 italic text-[21px] leading-[32px] text-gray-700 dark:text-gray-300"
                         {...props}
@@ -313,7 +313,7 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
                         {children}
                       </blockquote>
                     ),
-                    ul: ({node, children, ...props}) => (
+                    ul: ({ node, children, ...props }) => (
                       <ul
                         className="mb-8 pl-8 list-disc"
                         {...props}
@@ -321,7 +321,7 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
                         {children}
                       </ul>
                     ),
-                    ol: ({node, children, ...props}) => (
+                    ol: ({ node, children, ...props }) => (
                       <ol
                         className="mb-8 pl-8 list-decimal"
                         {...props}
@@ -329,7 +329,7 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
                         {children}
                       </ol>
                     ),
-                    li: ({node, children, ...props}) => (
+                    li: ({ node, children, ...props }) => (
                       <li
                         className="text-[21px] leading-[32px] text-gray-800 dark:text-gray-200 mb-3"
                         {...props}
@@ -337,23 +337,23 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
                         {children}
                       </li>
                     ),
-                    hr: ({node, ...props}) => (
+                    hr: ({ node, ...props }) => (
                       <div className="my-10 text-center">
                         <span className="inline-block text-gray-400 text-2xl tracking-widest">• • •</span>
                       </div>
                     ),
-                    code: ({node, className, children, ...props}: any) => {
+                    code: ({ node, className, children, ...props }: any) => {
                       const inline = !className;
                       return inline ? (
                         <code
-                          className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded text-[18px] font-mono text-red-600 dark:text-red-400"
+                          className="bg-gray-100 dark:bg-[#0a0a0a] px-2 py-1 rounded text-[18px] font-mono text-red-600 dark:text-red-400"
                           {...props}
                         >
                           {children}
                         </code>
                       ) : (
                         <code
-                          className="block bg-gray-100 dark:bg-gray-800 p-6 rounded my-8 text-[16px] font-mono overflow-x-auto"
+                          className="block bg-gray-100 dark:bg-[#0a0a0a] p-6 rounded my-8 text-[16px] font-mono overflow-x-auto"
                           {...props}
                         >
                           {children}
@@ -368,7 +368,7 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
             </div>
 
             {/* Tags */}
-            <div className="bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-800 p-6 mb-8">
+            <div className="bg-gray-50 dark:bg-[#0a0a0a] border-2 border-gray-200 dark:border-gray-800 p-6 mb-8">
               <h3 className="text-sm font-bold text-gray-500 dark:text-gray-400 mb-3">
                 {isZh ? '相关标签' : 'Related Tags'}
               </h3>
@@ -376,7 +376,7 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
                 {news.keywords.map((keyword: string) => (
                   <span
                     key={keyword}
-                    className="px-4 py-2 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 text-sm font-medium hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+                    className="px-4 py-2 bg-gray-100 dark:bg-[#0a0a0a] text-gray-700 dark:text-gray-300 text-sm font-medium hover:bg-gray-200 dark:hover:bg-black dark:hover:border dark:hover:border-[#ff102a] transition-colors"
                   >
                     #{keyword}
                   </span>
@@ -388,7 +388,7 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
             <div className="flex justify-center mb-12">
               <LocaleLink
                 href="/news"
-                className="inline-flex items-center gap-2 px-8 py-4 bg-black dark:bg-white text-white dark:text-black font-bold hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors border-2 border-black dark:border-white"
+                className="inline-flex items-center gap-2 px-8 py-4 bg-black dark:bg-white text-white dark:text-black font-bold hover:bg-[#0a0a0a] dark:hover:bg-gray-200 transition-colors border-2 border-black dark:border-white"
               >
                 ← {isZh ? '返回新闻列表' : 'Back to News List'}
               </LocaleLink>
@@ -399,7 +399,7 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
 
       {/* Related Blog Posts Section */}
       {randomBlogs.length > 0 && (
-        <div className="bg-white dark:bg-gray-900 border-t-2 border-gray-200 dark:border-gray-800 py-16">
+        <div className="bg-gray-50 dark:bg-black border-t-2 border-gray-200 dark:border-gray-800 py-16">
           <div className="max-w-7xl mx-auto px-6">
             <h2 className="text-3xl font-black text-gray-900 dark:text-white mb-8 text-center">
               {isZh ? '推荐阅读' : 'Recommended Reading'}
@@ -415,7 +415,7 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
                     href={`/splan/blog/${blog.id}`}
                     className="block group"
                   >
-                    <div className="bg-gray-50 dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 hover:border-black dark:hover:border-white transition-all p-6 h-full">
+                    <div className="bg-gray-50 dark:bg-[#0a0a0a] border-2 border-gray-200 dark:border-gray-700 hover:border-black dark:hover:border-white transition-all p-6 h-full">
                       {/* Tags */}
                       {tagList.length > 0 && (
                         <div className="mb-3">

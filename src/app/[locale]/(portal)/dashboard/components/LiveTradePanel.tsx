@@ -9,7 +9,7 @@ import type { TradingConfig, Signal } from '@/lib/trading/types';
 
 const LiveTradingChart = dynamic(() => import('./LiveTradingChart'), {
   ssr: false,
-  loading: () => <div className="w-full h-[600px] flex items-center justify-center bg-white dark:bg-gray-900 border-2 border-gray-300 dark:border-gray-700">加载实时图表中...</div>
+  loading: () => <div className="w-full h-[600px] flex items-center justify-center bg-black border-2 border-gray-300 dark:border-gray-700">加载实时图表中...</div>
 });
 
 interface LiveTradePanelProps {
@@ -254,10 +254,10 @@ export default function LiveTradePanel({ tradingConfig: initialConfig, onConfigC
       {/* Binance Connection Status */}
       <div className={`p-6 border-2 ${
         binanceConnected
-          ? 'bg-white dark:bg-gray-900 border-green-600 dark:border-green-400'
+          ? 'bg-black border-green-600 dark:border-green-400'
           : isConnecting
-          ? 'bg-white dark:bg-gray-900 border-gray-300 dark:border-gray-700'
-          : 'bg-white dark:bg-gray-900 border-red-600 dark:border-red-400'
+          ? 'bg-black border-gray-300 dark:border-gray-700'
+          : 'bg-black border-red-600 dark:border-red-400'
       }`}>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
@@ -273,7 +273,7 @@ export default function LiveTradePanel({ tradingConfig: initialConfig, onConfigC
                 binanceConnected
                   ? 'text-green-600 dark:text-green-400'
                   : isConnecting
-                  ? 'text-black dark:text-white'
+                  ? 'text-white'
                   : 'text-red-600 dark:text-red-400'
               }`}>
                 Binance 期货连接状态: {binanceStatus}
@@ -289,7 +289,7 @@ export default function LiveTradePanel({ tradingConfig: initialConfig, onConfigC
                 </p>
               )}
               {isConnecting && (
-                <p className="text-xs text-black dark:text-white mt-1">
+                <p className="text-xs text-white mt-1">
                   正在测试连接，请稍候...
                 </p>
               )}
@@ -302,14 +302,14 @@ export default function LiveTradePanel({ tradingConfig: initialConfig, onConfigC
               className={`px-4 py-2 text-sm font-bold border-2 transition-colors disabled:opacity-50 disabled:cursor-not-allowed ${
                 isTradingActive
                   ? 'bg-red-600 dark:bg-red-500 text-white border-red-600 dark:border-red-500 hover:bg-red-700 dark:hover:bg-red-600'
-                  : 'bg-black dark:bg-white text-white dark:text-black border-black dark:border-white hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white'
+                  : 'bg-black dark:bg-white text-white dark:text-black border-gray-800 hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white'
               }`}
             >
               {isTradingActive ? '停止交易' : '开始交易'}
             </button>
             <button
               onClick={() => setShowApiConfig(!showApiConfig)}
-              className="px-4 py-2 text-sm bg-white dark:bg-gray-900 text-black dark:text-white font-bold border-2 border-gray-300 dark:border-gray-700 hover:border-black dark:hover:border-white transition-colors"
+              className="px-4 py-2 text-sm bg-black text-white font-bold border-2 border-gray-300 dark:border-gray-700 hover:border-black dark:hover:border-white transition-colors"
             >
               配置
             </button>
@@ -319,49 +319,49 @@ export default function LiveTradePanel({ tradingConfig: initialConfig, onConfigC
         {/* API Configuration Panel */}
         {showApiConfig && (
           <div className="mt-4 pt-4 border-t-2 border-gray-300 dark:border-gray-700">
-            <h4 className="text-sm font-bold text-black dark:text-white mb-3">
+            <h4 className="text-sm font-bold text-white mb-3">
               Binance 期货 API 配置
             </h4>
             <div className="space-y-3">
               <div>
-                <label className="block text-xs font-bold text-black dark:text-white mb-1">
+                <label className="block text-xs font-bold text-white mb-1">
                   API Key
                 </label>
                 <input
                   type="text"
                   value={apiKey}
                   onChange={(e) => setApiKey(e.target.value)}
-                  className="w-full px-4 py-3 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none font-mono"
+                  className="w-full px-4 py-3 border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none font-mono"
                   placeholder="输入您的Binance API Key"
                 />
               </div>
               <div>
-                <label className="block text-xs font-bold text-black dark:text-white mb-1">
+                <label className="block text-xs font-bold text-white mb-1">
                   API Secret
                 </label>
                 <input
                   type="password"
                   value={apiSecret}
                   onChange={(e) => setApiSecret(e.target.value)}
-                  className="w-full px-4 py-3 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white focus:border-black dark:focus:border-white outline-none font-mono"
+                  className="w-full px-4 py-3 border-2 border-gray-300 dark:border-gray-700 bg-black text-white focus:border-black dark:focus:border-white outline-none font-mono"
                   placeholder="输入您的Binance API Secret"
                 />
               </div>
               <div className="flex gap-2">
                 <button
                   onClick={saveApiConfig}
-                  className="px-6 py-3 bg-black dark:bg-white text-white dark:text-black font-bold border-2 border-black dark:border-white hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors"
+                  className="px-6 py-3 bg-black dark:bg-white text-white dark:text-black font-bold border-2 border-gray-800 hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors"
                 >
                   保存并测试连接
                 </button>
                 <button
                   onClick={() => setShowApiConfig(false)}
-                  className="px-6 py-3 bg-white dark:bg-gray-900 text-black dark:text-white font-bold border-2 border-gray-300 dark:border-gray-700 hover:border-black dark:hover:border-white transition-colors"
+                  className="px-6 py-3 bg-black text-white font-bold border-2 border-gray-300 dark:border-gray-700 hover:border-black dark:hover:border-white transition-colors"
                 >
                   取消
                 </button>
               </div>
-              <p className="text-xs text-gray-600 dark:text-gray-400">
+              <p className="text-xs text-gray-400">
                 提示: API密钥将保存在浏览器本地存储中。请确保您的API密钥具有期货交易权限，且在Binance后台启用了期货功能。
               </p>
             </div>
@@ -370,11 +370,11 @@ export default function LiveTradePanel({ tradingConfig: initialConfig, onConfigC
       </div>
 
       {/* Live Trading Chart */}
-      <div className="bg-white dark:bg-gray-800 p-8 border-2 border-black dark:border-white">
-        <h2 className="text-2xl font-bold text-black dark:text-white mb-6 pb-3 border-b-2 border-black dark:border-white">
+      <div className="bg-[#0a0a0a] p-8 border-2 border-gray-800">
+        <h2 className="text-2xl font-bold text-white mb-6 pb-3 border-b-2 border-gray-800">
           实时行情图表
         </h2>
-        <p className="text-xs text-gray-600 dark:text-gray-400 mb-4">
+        <p className="text-xs text-gray-400 mb-4">
           图表已加载以下策略指标：布林带(BB)、移动平均线(MA)、MACD、CCI、ATR
         </p>
         <LiveTradingChart
@@ -385,23 +385,23 @@ export default function LiveTradePanel({ tradingConfig: initialConfig, onConfigC
       </div>
 
       {/* Auto Refresh Toggle */}
-      <div className="bg-white dark:bg-gray-800 p-6 border-2 border-black dark:border-white flex items-center justify-between">
-        <span className="text-sm font-bold text-black dark:text-white">
+      <div className="bg-[#0a0a0a] p-6 border-2 border-gray-800 flex items-center justify-between">
+        <span className="text-sm font-bold text-white">
           自动刷新 (5秒)
         </span>
         <button
           onClick={() => setAutoRefresh(!autoRefresh)}
           className={`relative inline-flex h-8 w-16 items-center border-2 ${
             autoRefresh
-              ? 'bg-black dark:bg-white border-black dark:border-white'
-              : 'bg-white dark:bg-gray-900 border-gray-300 dark:border-gray-700'
+              ? 'bg-black dark:bg-white border-gray-800'
+              : 'bg-black border-gray-300 dark:border-gray-700'
           }`}
         >
           <span
             className={`inline-block h-6 w-6 transform border-2 ${
               autoRefresh
-                ? 'translate-x-8 bg-white dark:bg-black border-white dark:border-black'
-                : 'translate-x-0 bg-black dark:bg-white border-black dark:border-white'
+                ? 'translate-x-8 bg-black border-white dark:border-black'
+                : 'translate-x-0 bg-black dark:bg-white border-gray-800'
             }`}
           />
         </button>
@@ -412,15 +412,15 @@ export default function LiveTradePanel({ tradingConfig: initialConfig, onConfigC
         <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
-          className="bg-white dark:bg-gray-900 border-2 border-red-600 dark:border-red-400 p-4"
+          className="bg-black border-2 border-red-600 dark:border-red-400 p-4"
         >
           <p className="text-red-600 dark:text-red-400 font-bold">错误: {error}</p>
         </motion.div>
       )}
 
       {/* Current Signal */}
-      <div className="bg-white dark:bg-gray-800 p-8 border-2 border-black dark:border-white">
-        <h2 className="text-2xl font-bold text-black dark:text-white mb-6 pb-3 border-b-2 border-black dark:border-white">
+      <div className="bg-[#0a0a0a] p-8 border-2 border-gray-800">
+        <h2 className="text-2xl font-bold text-white mb-6 pb-3 border-b-2 border-gray-800">
           当前信号
         </h2>
         {signal ? (
@@ -429,10 +429,10 @@ export default function LiveTradePanel({ tradingConfig: initialConfig, onConfigC
               <div>
                 <span className={`px-6 py-3 text-lg font-bold border-2 ${
                   signal.type === 'long'
-                    ? 'bg-green-100 text-green-800 border-green-600 dark:bg-gray-900 dark:text-green-400 dark:border-green-400'
+                    ? 'bg-green-100 text-green-800 border-green-600 dark:bg-black dark:text-green-400 dark:border-green-400'
                     : signal.type === 'short'
-                    ? 'bg-red-100 text-red-800 border-red-600 dark:bg-gray-900 dark:text-red-400 dark:border-red-400'
-                    : 'bg-white text-black border-gray-300 dark:bg-gray-900 dark:text-white dark:border-gray-700'
+                    ? 'bg-red-100 text-red-800 border-red-600 dark:bg-black dark:text-red-400 dark:border-red-400'
+                    : 'bg-white text-black border-gray-300 dark:bg-black dark:text-white dark:border-gray-700'
                 }`}>
                   {signal.type === 'long' && '做多'}
                   {signal.type === 'short' && '做空'}
@@ -441,32 +441,32 @@ export default function LiveTradePanel({ tradingConfig: initialConfig, onConfigC
                 </span>
               </div>
               <div className="text-right">
-                <p className="text-sm text-gray-600 dark:text-gray-400">当前价格</p>
-                <p className="text-2xl font-bold text-black dark:text-white">
+                <p className="text-sm text-gray-400">当前价格</p>
+                <p className="text-2xl font-bold text-white">
                   ${signal.price.toFixed(2)}
                 </p>
               </div>
             </div>
-            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+            <p className="text-sm text-gray-400 mb-4">
               <span className="font-bold">原因:</span> {signal.reason}
             </p>
 
             {signal.indicators && (
               <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mt-4 pt-4 border-t-2 border-gray-300 dark:border-gray-700">
                 <div>
-                  <p className="text-xs text-gray-600 dark:text-gray-400 font-bold">ATR</p>
-                  <p className="text-sm font-bold text-black dark:text-white">
+                  <p className="text-xs text-gray-400 font-bold">ATR</p>
+                  <p className="text-sm font-bold text-white">
                     {signal.indicators.atr.toFixed(2)}
                   </p>
                 </div>
                 <div>
-                  <p className="text-xs text-gray-600 dark:text-gray-400 font-bold">CCI</p>
-                  <p className="text-sm font-bold text-black dark:text-white">
+                  <p className="text-xs text-gray-400 font-bold">CCI</p>
+                  <p className="text-sm font-bold text-white">
                     {signal.indicators.cci.toFixed(1)}
                   </p>
                 </div>
                 <div>
-                  <p className="text-xs text-gray-600 dark:text-gray-400 font-bold">SuperTrend</p>
+                  <p className="text-xs text-gray-400 font-bold">SuperTrend</p>
                   <p className={`text-sm font-bold ${
                     signal.indicators.supertrend.trend === 'up'
                       ? 'text-green-600 dark:text-green-400'
@@ -482,28 +482,28 @@ export default function LiveTradePanel({ tradingConfig: initialConfig, onConfigC
               <button
                 onClick={executeSignal}
                 disabled={loading}
-                className="w-full mt-4 px-6 py-4 bg-black dark:bg-white text-white dark:text-black font-bold border-2 border-black dark:border-white hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full mt-4 px-6 py-4 bg-black dark:bg-white text-white dark:text-black font-bold border-2 border-gray-800 hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {loading ? '执行中...' : '执行交易'}
               </button>
             )}
           </div>
         ) : (
-          <p className="text-gray-600 dark:text-gray-400">加载中...</p>
+          <p className="text-gray-400">加载中...</p>
         )}
       </div>
 
       {/* Current Position */}
-      <div className="bg-white dark:bg-gray-800 p-8 border-2 border-black dark:border-white">
-        <h2 className="text-2xl font-bold text-black dark:text-white mb-6 pb-3 border-b-2 border-black dark:border-white">
+      <div className="bg-[#0a0a0a] p-8 border-2 border-gray-800">
+        <h2 className="text-2xl font-bold text-white mb-6 pb-3 border-b-2 border-gray-800">
           当前仓位
         </h2>
         {position ? (
           <div>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-4">
               <div>
-                <p className="text-xs text-gray-600 dark:text-gray-400 font-bold">持仓量</p>
-                <p className="text-lg font-bold text-black dark:text-white">
+                <p className="text-xs text-gray-400 font-bold">持仓量</p>
+                <p className="text-lg font-bold text-white">
                   {Math.abs(position.positionAmount).toFixed(3)} 手
                 </p>
                 <p className={`text-xs font-bold ${
@@ -515,13 +515,13 @@ export default function LiveTradePanel({ tradingConfig: initialConfig, onConfigC
                 </p>
               </div>
               <div>
-                <p className="text-xs text-gray-600 dark:text-gray-400 font-bold">入场价</p>
-                <p className="text-lg font-bold text-black dark:text-white">
+                <p className="text-xs text-gray-400 font-bold">入场价</p>
+                <p className="text-lg font-bold text-white">
                   ${position.entryPrice.toFixed(2)}
                 </p>
               </div>
               <div>
-                <p className="text-xs text-gray-600 dark:text-gray-400 font-bold">未实现盈亏</p>
+                <p className="text-xs text-gray-400 font-bold">未实现盈亏</p>
                 <p className={`text-lg font-bold ${
                   position.unrealizedProfit >= 0
                     ? 'text-green-600 dark:text-green-400'
@@ -540,31 +540,31 @@ export default function LiveTradePanel({ tradingConfig: initialConfig, onConfigC
             </button>
           </div>
         ) : (
-          <p className="text-gray-600 dark:text-gray-400">无持仓</p>
+          <p className="text-gray-400">无持仓</p>
         )}
       </div>
 
       {/* Account Balance */}
       {balance && (
-        <div className="bg-white dark:bg-gray-800 p-8 border-2 border-black dark:border-white">
-          <h2 className="text-2xl font-bold text-black dark:text-white mb-6 pb-3 border-b-2 border-black dark:border-white">
+        <div className="bg-[#0a0a0a] p-8 border-2 border-gray-800">
+          <h2 className="text-2xl font-bold text-white mb-6 pb-3 border-b-2 border-gray-800">
             账户余额
           </h2>
           <div className="grid grid-cols-3 gap-4">
             <div>
-              <p className="text-xs text-gray-600 dark:text-gray-400 font-bold">总余额</p>
-              <p className="text-lg font-bold text-black dark:text-white">
+              <p className="text-xs text-gray-400 font-bold">总余额</p>
+              <p className="text-lg font-bold text-white">
                 ${balance.totalBalance.toFixed(2)}
               </p>
             </div>
             <div>
-              <p className="text-xs text-gray-600 dark:text-gray-400 font-bold">可用余额</p>
-              <p className="text-lg font-bold text-black dark:text-white">
+              <p className="text-xs text-gray-400 font-bold">可用余额</p>
+              <p className="text-lg font-bold text-white">
                 ${balance.availableBalance.toFixed(2)}
               </p>
             </div>
             <div>
-              <p className="text-xs text-gray-600 dark:text-gray-400 font-bold">未实现盈亏</p>
+              <p className="text-xs text-gray-400 font-bold">未实现盈亏</p>
               <p className={`text-lg font-bold ${
                 balance.totalUnrealizedProfit >= 0
                   ? 'text-green-600 dark:text-green-400'

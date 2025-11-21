@@ -44,18 +44,18 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
 
   return (
     <>
-      <div className="bg-gray-50 dark:bg-gray-950">
+      <div className="bg-gray-50 dark:bg-black">
         {/* Hero Section - Enhanced */}
-        <div className="relative bg-gradient-to-br from-black via-gray-900 to-black text-white border-b-2 border-gray-800 overflow-hidden">
+        <div className="relative bg-gradient-to-br from-black via-black to-black text-white border-b-2 border-[#ff102a] overflow-hidden">
           {/* Decorative Background */}
-          <div className="absolute inset-0 opacity-10">
-            <div className="absolute top-0 right-0 w-96 h-96 bg-white blur-3xl"></div>
-            <div className="absolute bottom-0 left-0 w-96 h-96 bg-white blur-3xl"></div>
+          <div className="absolute inset-0 opacity-5">
+            <div className="absolute top-0 right-0 w-96 h-96 bg-[#ff102a] blur-3xl"></div>
+            <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#ff102a] blur-3xl"></div>
           </div>
 
           <div className="relative max-w-6xl mx-auto px-6 py-24 text-center">
-            <div className="inline-block px-6 py-2 bg-white/10 border border-white/20 backdrop-blur-sm mb-6">
-              <span className="text-sm font-semibold tracking-wider">
+            <div className="inline-block px-6 py-2 bg-[#ff102a]/10 border border-[#ff102a] backdrop-blur-sm mb-6">
+              <span className="text-sm font-semibold tracking-wider text-[#ff102a]">
                 {language === 'zh' ? '专业交易知识' : 'Professional Trading Knowledge'}
               </span>
             </div>
@@ -70,14 +70,14 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
                 : 'In-depth analysis of forex trading strategies, market insights, and professional trader experiences'}
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4 text-sm">
-              <div className="px-4 py-2 bg-white/5 border border-white/20 backdrop-blur-sm">
-                <span className="text-white font-bold">{totalBlogs}</span> {language === 'zh' ? '篇文章' : 'Articles'}
+              <div className="px-4 py-2 bg-black/50 border border-[#ff102a]/30 backdrop-blur-sm">
+                <span className="text-[#ff102a] font-bold">{totalBlogs}</span> {language === 'zh' ? '篇文章' : 'Articles'}
               </div>
-              <div className="px-4 py-2 bg-white/5 border border-white/20 backdrop-blur-sm">
-                <span className="text-white font-bold">{totalTags}</span> {language === 'zh' ? '个标签' : 'Tags'}
+              <div className="px-4 py-2 bg-black/50 border border-[#ff102a]/30 backdrop-blur-sm">
+                <span className="text-[#ff102a] font-bold">{totalTags}</span> {language === 'zh' ? '个标签' : 'Tags'}
               </div>
-              <div className="px-4 py-2 bg-white/5 border border-white/20 backdrop-blur-sm">
-                <span className="text-white font-bold">{featuredBlogs}</span> {language === 'zh' ? '精选推荐' : 'Featured'}
+              <div className="px-4 py-2 bg-black/50 border border-[#ff102a]/30 backdrop-blur-sm">
+                <span className="text-[#ff102a] font-bold">{featuredBlogs}</span> {language === 'zh' ? '精选推荐' : 'Featured'}
               </div>
             </div>
           </div>
@@ -88,7 +88,7 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
       </div>
 
       {/* Interview CTA - Full Width Footer */}
-      <div className="w-full bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
+      <div className="w-full bg-gray-50 dark:bg-black border-t border-gray-200 dark:border-gray-800">
         <InterviewCTA />
       </div>
     </>
