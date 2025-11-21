@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-21T18:57:01.946Z",
+  "price": {
+    "close": "4084.19353",
+    "high": "4086.94524",
+    "low": "4075.70455",
+    "open": "4085.06385",
+    "change": "-0.02",
+    "datetime": "2025-11-22 05:00:00"
+  },
+  "indicators": {
+    "rsi": 56.17759,
+    "macd": 3.75177,
+    "macd_signal": -1.36651,
+    "sma20": 4061.21302
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，等待突破]",
+      "content": "当前黄金/美元(XAU/USD)在4084.19附近震荡整理，短期内未能突破4086.94的高点，显示出市场在此水平附近的犹豫。综合来看，黄金市场可能处于区间震荡的阶段，等待进一步的驱动力来确认下一步的趋势。\n\n从技术指标来看，MACD显示出3.75的正值，表明短期内存在一定的上涨动能，但RSI未提供数据，导致对超买或超卖状态的判断受到限制。20日简单移动平均线(SMA)位于4061.21，作为一个重要的支撑位，若价格回调至此区域，可能会吸引买盘介入。\n\n在支撑和阻力分析中，4086.94是短期阻力位，而4075.70作为重要的支撑位。若价格突破4086.94，可能引发更强的上涨动能，反之，若跌破4075.70，则可能加剧下行风险。\n\n交易建议方面，建议关注价格在支撑位和阻力位之间的波动，操作策略可考虑在接近支撑位时寻找买入机会，而在接近阻力位时则考虑获利了结或做空策略。同时，保持灵活应变，密切关注市场动态和技术指标变化，以便及时调整交易策略。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4084.19 indicates a slight decline of 0.02% over the past 24 hours, reflecting a period of consolidation after recent fluctuations. The recent high of 4086.94 and low of 4075.70 suggest a tight trading range, indicating indecision among traders. The overall trend appears bullish given that the price is above the SMA(20) at 4061.21, which typically signals a continuation of upward momentum. However, the market's current narrow range necessitates close monitoring for potential breakout opportunities.\n\nThe MACD value of 3.75 suggests bullish momentum, although the lack of a signal line makes it difficult to gauge the strength of this momentum conclusively. It would be prudent to await further developments or additional indicators such as the RSI, which could provide insights into overbought or oversold conditions. A rising MACD could reinforce the bullish sentiment; however, traders should remain cautious of any potential reversals if the price fails to maintain its current levels.\n\nKey support levels are positioned around the SMA(20) at 4061.21 and the recent low of 4075.70, which could act as a safety net for buyers. Resistance is seen near the recent high of 4086.94, where selling pressure may emerge. A break above this level could trigger further upward movement towards the psychological barrier of 4100. Conversely, a breach below the SMA could open the door to a deeper correction, making these levels critical for trading decisions.\n\nIn light of the current market dynamics, traders may consider a cautious approach. A buy signal could be initiated if the price maintains momentum above the resistance level of 4086.94, with targets set towards 4100. Alternatively, if the price dips below 4075.70, it may be wise to adopt a short position, targeting the support around the SMA. Utilizing stop-loss orders will be essential to mitigate risks associated with sudden market movements."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-21T18:52:03.886Z",
+  "price": {
+    "close": "1.15042",
+    "high": "1.15081",
+    "low": "1.15022",
+    "open": "1.15075",
+    "change": "-0.02",
+    "datetime": "2025-11-22 05:00:00"
+  },
+  "indicators": {
+    "rsi": 37.34211,
+    "macd": -0.00074566078,
+    "macd_signal": -0.00048723953,
+    "sma20": 1.1525
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[短期整理，关注关键支撑位]",
+      "content": "当前，欧元/美元的价格在1.15042附近波动，近期走势呈现出横向整理的态势。虽然价格轻微下跌0.02%，但在高点和低点之间的窄幅波动显示出市场缺乏明确的方向性。投资者需密切关注即将到来的经济数据，以评估市场情绪的变化。\n\n从技术指标来看，当前的MACD值为-0.00074566078，显示出卖压略强。然而，RSI指标尚未提供，无法全面评估超买或超卖状态。20日简单移动平均线(SMA)为1.15250，价格位于其下方，表明短期内可能存在进一步下行的压力。\n\n在支撑和阻力位方面，1.15022是近期的重要支撑位，如果价格有效跌破该水平，可能会引发更大的卖盘。而上方的阻力位在1.15250附近，突破该水平将有助于恢复多头情绪。投资者可根据这些关键水平制定入场和离场策略。\n\n综合考虑，建议投资者在当前价格附近保持谨慎，若价格回撤至1.15022支撑位，可考虑逢低买入。相反，如果价格持续走低并跌破支撑位，则应考虑及时止损，规避进一步损失。保持灵活的交易策略，才能在波动的市场中把握机会。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD pair is currently trading at 1.15042, showing a slight decline of 0.02% over the last 24 hours. The price remains confined within a narrow range, having touched a high of 1.15081 and a low of 1.15022. This price action indicates a period of consolidation, suggesting that market participants are awaiting further catalysts to drive momentum. The overall trend appears neutral, but the recent price behavior hints at a potential bearish bias if the support level is breached.\n\nIn terms of technical indicators, the absence of a current RSI reading limits our ability to evaluate momentum effectively. However, the MACD is slightly negative at -0.000746, indicating weak bearish momentum. This aligns with the recent price action, suggesting that sellers are in control, albeit with limited strength. The SMA(20) at 1.15250 serves as a critical dynamic resistance level. If the price struggles to breach this level, it could reinforce the bearish sentiment.\n\nKey support levels to watch are located around 1.15022, which has held firm in the recent past. A break below this level could expose the pair to further downside, with potential targets around 1.14800. Conversely, should the price regain traction above the SMA(20), it could lead to a test of the 1.15250 resistance, providing an opportunity for bullish traders to enter the market.\n\nFor traders, the current market environment suggests a cautious approach. If the price holds above the key support, there may be an opportunity to enter long positions with a tight stop-loss just below 1.15022. Conversely, a confirmed breakdown could prompt short positions, targeting the next support level. Monitoring further economic data and market sentiment will be crucial in determining the next significant movement in this currency pair."
+    }
+  }
+}
