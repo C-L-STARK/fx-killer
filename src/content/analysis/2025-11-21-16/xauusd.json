@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-21T16:18:30.744Z",
+  "price": {
+    "close": "4067.24143",
+    "high": "4070.41892",
+    "low": "4065.30487",
+    "open": "4069.82403",
+    "change": "-0.06",
+    "datetime": "2025-11-22 03:00:00"
+  },
+  "indicators": {
+    "rsi": 52.22943,
+    "macd": -1.16048,
+    "macd_signal": -4.49075,
+    "sma20": 4058.94097
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中的偏弱趋势]",
+      "content": "当前黄金/美元（XAU/USD）价格在4067.24附近，整体表现出震荡整理的特征。尽管价格在近期出现小幅下跌，但仍处于一个相对窄幅的区间内。当前市场情绪较为谨慎，投资者对未来的走势保持观望态度，这使得黄金的短期趋势略显偏弱。\n\n从技术指标来看，MACD显示出-1.16048的负值，表明卖方力量依然占据主导，短期内可能继续承压。虽然RSI指标尚不可用，但结合SMA(20)的4058.94，我们可以推测，若价格持续低于这一均线，将进一步增强看空情绪，可能引发更多抛售。\n\n在支撑和阻力方面，当前的支撑位在4065.30附近，而阻力位则设在4070.42。如果价格突破阻力位，可能会迎来一波反弹，反之则有可能测试更低的支撑水平。投资者应关注这些关键价位，以便更好地把握交易机会。\n\n从交易建议来看，当前市场环境较为复杂，建议投资者采取观望策略，待价格明确突破关键支撑或阻力位后再进行操作。如选择入场，建议设置合理止损，以规避潜在风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD is 4067.24, reflecting a slight decline of 0.06% over the past 24 hours. This minor pullback indicates a potential consolidation phase after the recent upward movement. The high of 4070.42 and low of 4065.30 suggest a tight trading range. A sustained breakout above the recent high could signal a bullish momentum, potentially targeting the psychological level of 4100, while a drop below the recent low may lead to bearish sentiment, testing support levels around 4050.\n\nThe absence of a current RSI reading makes it challenging to assess overbought or oversold conditions. However, the MACD, currently at -1.16048, indicates negative momentum, which could imply a weakening buying interest. Traders should monitor the MACD closely for any cross above the signal line, as this could suggest a potential reversal. Meanwhile, the SMA(20) at 4058.94 serves as a dynamic support level, providing a reference point for short-term traders focusing on price action.\n\nKey support is established at 4058, with additional levels at 4050 and 4045, which should be watched closely. On the resistance side, 4070 represents immediate resistance; a breakout above this level could fuel further bullish sentiment. Traders may consider employing a breakout strategy, entering long positions above 4070, while placing stop-loss orders below the 4058 support level to manage risk effectively.\n\nIn summary, XAU/USD is currently in a consolidation phase with potential for both upward and downward movement. Traders should remain vigilant for price action around the identified support and resistance levels. Incorporating technical indicators like the MACD and monitoring price movements relative to the SMA can enhance trading decisions in this environment."
+    }
+  }
+}

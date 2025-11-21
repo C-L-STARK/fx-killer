@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-21T16:17:46.763Z",
+  "price": {
+    "close": "0.80906999",
+    "high": "0.80957001",
+    "low": "0.80852002",
+    "open": "0.80852997",
+    "change": "0.07",
+    "datetime": "2025-11-22 03:00:00"
+  },
+  "indicators": {
+    "rsi": 69.73938,
+    "macd": 0.00071504445,
+    "macd_signal": 0.00031565438,
+    "sma20": 0.805788
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡上行趋势]",
+      "content": "当前美元/瑞郎（USD/CHF）价格在0.80906999附近震荡，整体趋势显示出一定的上行动力。在过去24小时内，价格波动幅度较小，变动仅为0.07%。结合高点0.80957001和低点0.80852002，我们可以看到市场在0.8090附近形成了短期的震荡区间。\n\n在技术指标方面，虽然RSI和MACD信号尚未完全提供，但从20日简单移动平均线（SMA(20)）来看，当前价格已高于0.80578800，显示出市场的积极情绪。若RSI指标出现超买或超卖信号，将为未来价格走势提供进一步的确认。\n\n支撑位方面，0.8085将是关键的支撑区域，若价格跌破此位，可能会引发更多的卖盘。相反，0.8100是重要的阻力位，突破此位则有可能进一步上涨。投资者可关注这两个关键水平，以判断进一步的市场走势。\n\n综合来看，建议短线交易者可以在支撑位附近寻找买入机会，而在接近阻力位时则考虑获利了结或调整仓位，以应对潜在的价格回调风险。保持警惕，关注市场情绪变化，灵活调整策略将是成功的关键。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair is currently trading at 0.80907, reflecting a modest 24-hour change of 0.07%. This slight uptick suggests a consolidation phase within a broader upward trend that has emerged since the price broke above the 0.8057 level, represented by the 20-period Simple Moving Average (SMA). The high of 0.80957 indicates potential resistance, while the low of 0.80852 serves as immediate support. Traders should keep an eye on these levels for potential reversals or breakouts.\n\nIn terms of technical indicators, the MACD value of 0.000715 suggests that there is some bullish momentum in the market, although the absence of a signal line makes it difficult to derive a definitive conclusion. The RSI, currently unavailable, would typically provide insights into whether the pair is overbought or oversold. If the RSI were to be calculated, a reading above 70 could indicate overbought conditions, while a reading below 30 would suggest oversold status, guiding traders in their decision-making.\n\nSupport levels below the current price can be established around 0.80852, while resistance can be observed near the recent high of 0.80957. A breakout above this resistance could lead to further upward momentum, potentially targeting 0.8100 and beyond. Conversely, a drop below the support level may lead to a reassessment of the bullish outlook, prompting traders to consider short positions.\n\nFor those looking to trade, a prudent strategy could involve buying near the support level of 0.80852 with a tight stop-loss just below this level. Conversely, bearish positions could be considered if the price breaks below support, targeting the next significant support level. Monitoring the price action closely around these key levels will be essential for successful trading in the USD/CHF pair."
+    }
+  }
+}

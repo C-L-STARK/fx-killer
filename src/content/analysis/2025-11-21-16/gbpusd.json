@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-21T16:14:12.163Z",
+  "price": {
+    "close": "1.30796",
+    "high": "1.30856",
+    "low": "1.30751",
+    "open": "1.30846",
+    "change": "-0.04",
+    "datetime": "2025-11-22 03:00:00"
+  },
+  "indicators": {
+    "rsi": 49.64954,
+    "macd": 0.00001407782,
+    "macd_signal": -0.000033247169,
+    "sma20": 1.3081
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理中]",
+      "content": "当前英镑/美元（GBP/USD）在1.30796附近震荡整理，24小时变化仅为-0.04%。从短期趋势来看，价格在1.3080附近遇到一定的阻力，未能有效突破，此区域可能成为短期的卖出信号。同时，1.3075一线则是重要的支撑位，若价格跌破该水平，可能会引发进一步的回调。\n\n在技术指标方面，虽然RSI和MACD的具体数值尚未获取，但从当前价格走势来看，市场情绪相对谨慎，未出现明显的超买或超卖信号。短期内，SMA(20)在1.30810附近，对当前价格形成一定的支撑，若价格接近该均线，可考虑做多。\n\n支撑位方面，1.3075是关键的支撑水平，若价格下破此位置，可能会进一步测试1.3050的心理关口。另一方面，若价格突破1.3085，可能会带动多头情绪，进而挑战1.3100的重要阻力位。\n\n综合分析，建议投资者在当前区间内采取震荡操作策略，关注支撑和阻力位的突破情况。若价格在1.3075之上稳住，可考虑适度做多，反之则可考虑短线做空。保持灵活应对市场变化，控制风险为首要任务。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently trading near the psychological level of 1.3080, reflecting a slight bearish sentiment with a 24-hour change of -0.04%. The recent high of 1.30856 indicates a struggle to maintain upward momentum, while the low of 1.30751 suggests potential support below the current price. This range-bound movement implies a consolidation phase, which may lead to a breakout or further decline depending on market catalysts.\n\nIn terms of technical indicators, the absence of a defined RSI complicates momentum analysis, yet the MACD value of 0.000014077820 points to a neutral stance at present. The SMA(20) at 1.30810 serves as a dynamic resistance level, aligning closely with current price action. Traders should monitor this area, as a sustained move above it may trigger buying interest, while failure to break through could reinforce the bearish outlook.\n\nSupport levels are identified at 1.30751, where buyers may attempt to step in, while a breach below this point could open the door to further declines toward 1.3050. Conversely, if resistance at 1.30856 is overcome, the next target could be around 1.3100, making this a pivotal area for traders. Market participants should remain vigilant regarding economic data releases and geopolitical developments that could influence price action.\n\nFor trading strategies, a cautious approach is advisable. Day traders might consider short positions near the SMA(20) if the price fails to break above and shows bearish confirmations. Conversely, a breakout above 1.30856 could provide an opportunity for long positions, targeting higher resistance levels. As always, risk management through stop-loss orders is essential to mitigate potential losses in this volatile forex landscape."
+    }
+  }
+}

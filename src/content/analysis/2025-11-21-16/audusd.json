@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-21T16:15:38.629Z",
+  "price": {
+    "close": "0.64304",
+    "high": "0.64348",
+    "low": "0.64288",
+    "open": "0.64337",
+    "change": "-0.06",
+    "datetime": "2025-11-22 03:00:00"
+  },
+  "indicators": {
+    "rsi": 40.19621,
+    "macd": -0.00077699637,
+    "macd_signal": -0.00077424928,
+    "sma20": 0.644379
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理，缺乏明确方向]",
+      "content": "当前AUD/USD在0.64304附近波动，显示出震荡整理的趋势。24小时内，价格微幅下跌0.06%，且未能突破0.6443的20日移动平均线，显示出短期内缺乏上行动力。市场情绪较为谨慎，投资者需关注即将公布的经济数据。\n\n从技术指标来看，MACD处于负值区域，暗示卖压仍在持续。虽然RSI未提供数据，但若其回落至30以下，可能预示超卖信号。当前市场的波动幅度较小，高点在0.64348，低点为0.64288，显示出短期内的整理态势。\n\n支撑位方面，0.6428是较强的支撑区域，若价格跌破该位，可能会进一步下探至0.6400附近。阻力位则在0.6443，若价格有效突破，则可能重新测试0.6460的关键区域。投资者应密切关注这些关键价位的变动。\n\n建议交易者在当前市场环境中采取观望策略，等待价格突破关键支撑或阻力位后再做决定。如果价格跌破0.6428，可以考虑适度做空；相反，若突破0.6443，则可以考虑短期做多，设定合理止损以控制风险。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently exhibiting a subtle bearish trend, with the latest price at 0.64304, reflecting a minor decline of 0.06% over the past 24 hours. The high and low for this period suggest a tight trading range, indicating a lack of strong momentum in either direction. Traders should monitor this range closely, as a breakout above the high of 0.64348 could signal a potential reversal or continuation of bullish sentiment, while a drop below the low of 0.64288 may further confirm bearish sentiment.\n\nIn terms of technical indicators, the absence of a defined RSI and the negative MACD value of -0.00077699637 suggest weak momentum. The MACD being below zero indicates that sellers have the upper hand in this market, although the absence of a clear signal line makes it challenging to determine a definitive trend. The SMA(20) at 0.64437900 serves as a pivotal resistance level; a sustained move above this average could indicate a shift towards bullish sentiment, while a failure to breach this level may lead to further selling pressure.\n\nSupport levels are crucial for traders to identify potential entry points. A close below 0.64288 could see the pair test lower support around 0.64000, a psychological level that may attract buying interest. Conversely, should the price hold above this level, it might prompt a rebound as buyers step in, looking to capitalize on the perceived value. Establishing these levels will be essential for making informed trading decisions.\n\nTraders should consider a cautious approach in the current market conditions. A breakout above 0.64348 could provide a buying opportunity, particularly if accompanied by increased volume and positive momentum indicators. Conversely, a breakdown below 0.64288 could trigger sell signals, with targets set towards 0.64000. Monitoring broader market trends and economic indicators will also be essential in making well-rounded trading decisions in the AUD/USD pair."
+    }
+  }
+}

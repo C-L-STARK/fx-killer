@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-21T16:14:55.716Z",
+  "price": {
+    "close": "156.64101",
+    "high": "156.67200",
+    "low": "156.48300",
+    "open": "156.53300",
+    "change": "0.07",
+    "datetime": "2025-11-22 03:00:00"
+  },
+  "indicators": {
+    "rsi": 38.13901,
+    "macd": -0.15857207,
+    "macd_signal": -0.097345435,
+    "sma20": 157.043549
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理中的上行压力]",
+      "content": "当前美元/日元（USD/JPY）在156.64附近震荡整理，短期内显示出上行压力。考虑到近期高点156.67和低点156.48的区间，可以判断市场正在形成一个窄幅波动的格局。若价格突破156.67，将开启新的上涨趋势，反之则可能回落至156.48支撑位。\n\n技术指标方面，MACD值为-0.15857207，表明当前动能偏弱，尚未形成明确的买入信号。由于RSI（14）数据缺失，我们无法准确评估超买或超卖状态，这意味着投资者在操作时需保持谨慎。短期内，市场情绪可能影响价格波动，投资者需关注相关数据发布。\n\n支撑位方面，156.48是重要的心理支撑，若跌破此位，可能加大下行风险，进一步测试156.00附近的支撑。而在阻力位方面，156.67为近期高点，突破后有可能向157.00进发。交易者可以考虑在156.48附近设置买入止损，若突破156.67则可逐步加仓。\n\n总体来看，美元/日元短期内呈现震荡整理的走势，投资者应密切关注市场动向，结合技术指标进行灵活操作，抓住可能的交易机会。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The current market price of USD/JPY at 156.64101 reflects a relatively stable trading range, with a minor 24-hour change of 0.07%. The pair has encountered resistance at the recent high of 156.67200, indicating a potential ceiling for upward movement. Conversely, the low of 156.48300 suggests a support level that traders may watch closely. If the price breaks above the resistance, it could signal a bullish trend, while a drop below the support could prompt bearish sentiment.\n\nTechnical indicators provide mixed signals for traders. The MACD currently stands at -0.15857207, indicating that momentum is somewhat weak and could suggest bearish pressure in the near term. With the absence of a defined RSI value, it is essential to monitor the price movements closely for confirmation of overbought or oversold conditions. The SMA(20) at 157.043549 further implies that the price is currently below its short-term average, reinforcing the sentiment for a potential correction or downward pressure.\n\nTraders should consider the support level at 156.48300 as a crucial point for potential buying opportunities. If the price approaches this level and shows signs of a rebound, it could be an ideal entry point for long positions. On the other hand, if the resistance at 156.67200 is breached with strong volume, it may encourage additional buying, targeting higher levels. Conversely, a sustained move below the support could trigger bearish strategies, indicating a shift in market sentiment.\n\nOverall, maintaining a cautious approach is advisable as the USD/JPY navigates through these key levels. Monitoring for confirmation through volume and other indicators will be essential for making informed trading decisions. Keeping abreast of macroeconomic factors affecting both currencies will further enhance trading strategies in this dynamic market environment."
+    }
+  }
+}
