@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-21T06:58:24.281Z",
+  "price": {
+    "close": "157.18500",
+    "high": "157.25999",
+    "low": "157.044998",
+    "open": "157.22200",
+    "change": "-0.02",
+    "datetime": "2025-11-21 17:00:00"
+  },
+  "indicators": {
+    "rsi": 46.16982,
+    "macd": 0.045853886,
+    "macd_signal": 0.11901931,
+    "sma20": 157.44775
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[整理走势中寻求突破]",
+      "content": "当前美元/日元（USD/JPY）在157.18500附近交投，近期价格波动相对较小，24小时变化仅为-0.02%。当前价格接近本周的高点157.25999，显示出市场正在进行整理，投资者可能在等待更明确的方向信号。若突破157.25，可能会引发进一步上行动能。\n\n从技术指标来看，MACD当前值为0.045853886，未显示出明显的买入或卖出信号，表明市场处于震荡整理状态。由于RSI（14）数据缺失，我们无法判断市场超买或超卖情况，但结合SMA（20）在157.44775的表现，短期内看空风险增加。\n\n支撑位方面，157.04是重要的支撑区域，若价格下破该水平，可能会引发更多卖盘，推动价格向下测试更低的支撑位。而阻力位则集中在157.25附近，突破后有机会挑战更高的价位。投资者需密切关注这两个关键水平。\n\n综合来看，建议投资者在此区间内灵活操作，若价格突破157.25可考虑短期多单策略，而若跌破157.04则应谨慎对待，防范潜在的下行风险。保持警惕，及时调整策略，以应对市场的变化。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 157.185, reflecting a slight decline of 0.02% over the past 24 hours. The price has encountered resistance at 157.25999, which aligns closely with recent highs, indicating a potential barrier for further upward movement. Conversely, the low of 157.044998 serves as a key support level. A break below this support could signal a bearish trend, while a sustained rally above the resistance could open the door for further gains.\n\nIn terms of technical indicators, the absence of a current RSI reading limits our ability to gauge overbought or oversold conditions definitively. However, the MACD shows a value of 0.0459, suggesting a slight bullish momentum, although the lack of a signal line reading may indicate a lack of conviction in this trend. Traders should remain cautious, as the market appears to be consolidating within a narrow range, which often precedes larger price movements.\n\nThe 20-period Simple Moving Average (SMA) at 157.44775 acts as a dynamic resistance level. If the price approaches this SMA and fails to break through, it may reinforce a bearish stance. On the other hand, a decisive move above this level could signal a bullish reversal, prompting traders to consider long positions. It is advisable to monitor price action closely around the defined support and resistance levels for potential breakout opportunities.\n\nGiven the current market conditions, traders might consider implementing a range trading strategy, capitalizing on the proximity to established support and resistance. A buy order could be placed near the support level of 157.044998, with a target near the resistance at 157.25999. Conversely, selling near the resistance could also be a viable strategy, with a stop-loss order placed just above the SMA to mitigate potential losses in case of a breakout."
+    }
+  }
+}

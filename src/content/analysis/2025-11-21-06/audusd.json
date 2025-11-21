@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-21T06:59:09.592Z",
+  "price": {
+    "close": "0.64527",
+    "high": "0.6454",
+    "low": "0.64466",
+    "open": "0.6447",
+    "change": "0.09",
+    "datetime": "2025-11-21 17:00:00"
+  },
+  "indicators": {
+    "rsi": 45.37675,
+    "macd": -0.00076524222,
+    "macd_signal": -0.00081399203,
+    "sma20": 0.645712
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理状态]",
+      "content": "当前澳元/美元(AUD/USD)的价格为0.64527，显示出震荡整理的趋势。24小时内的微幅波动（0.09%）表明市场参与者的观望情绪较浓，价格在高点0.6454和低点0.64466之间徘徊，尚未形成明确的方向。\n\n从技术指标来看，MACD值为-0.00076524222，虽然未显示出强烈的买入或卖出信号，但负值表明卖方稍微占优。同时，20日简单移动平均线(SMA)为0.64571200，价格在其下方运行，显示出短期内下行压力。RSI指标未提供，但可以推测市场处于中性偏弱区间。\n\n在支撑和阻力方面，当前支撑位在0.64466附近，若跌破此位，可能加剧下行风险。阻力位则在0.6454，若突破此位，则有可能重新测试更高的价格区间。建议交易者密切关注这些关键价位，以便制定相应的交易策略。短期内可考虑在支撑位附近寻找买入机会，而在接近阻力位时则可以考虑卖出。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.64527, reflecting a slight positive change of 0.09% over the past 24 hours. This modest uptick suggests a potential stabilization in the short term, particularly as the price approaches the recent high of 0.6454. However, the overall trend remains bearish, as the price has been unable to break above significant resistance levels, indicating that sellers may still dominate the market.\n\nAnalyzing the technical indicators, the lack of a defined RSI and MACD signal makes it challenging to gauge momentum conclusively. The MACD value at -0.00076524222 indicates a bearish sentiment, while its proximity to the zero line suggests the potential for a reversal if buying pressure increases. The SMA(20) at 0.64571200 is above the current price, further reinforcing the bearish bias, as it indicates that the pair is trading below its short-term average.\n\nKey support and resistance levels are critical for traders looking to navigate this market. Immediate support can be seen around 0.64466, which may act as a floor for the current price action. Conversely, resistance is established at the high of 0.6454, and breaking this level could signal a shift in momentum. A sustained move above the SMA(20) would also confirm a bullish reversal, while a failure to hold above support could lead to further declines.\n\nFor trading strategies, cautious traders might consider waiting for a confirmed breakout above the 0.6454 resistance before entering long positions. Conversely, if the price fails to hold above support, short positions could be initiated, targeting the next support level. Utilizing tight stop-loss orders will be essential to manage risk effectively in this uncertain market environment."
+    }
+  }
+}
