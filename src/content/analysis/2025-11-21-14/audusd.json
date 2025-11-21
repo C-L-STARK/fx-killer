@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-21T14:51:34.088Z",
+  "price": {
+    "close": "0.64324",
+    "high": "0.645",
+    "low": "0.64323",
+    "open": "0.6449",
+    "change": "-0.26",
+    "datetime": "2025-11-22 01:00:00"
+  },
+  "indicators": {
+    "rsi": 41.21552,
+    "macd": -0.00075827299,
+    "macd_signal": -0.00079070479,
+    "sma20": 0.6445265
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[短期震荡下行趋势]",
+      "content": "当前澳元/美元（AUD/USD）价格为0.64324，最近24小时内小幅下跌0.26%。结合近期的价格走势，可以判断目前市场处于短期震荡下行的趋势中。高点0.645未能有效突破，表明多头力量不足，而低点0.64323则显示出市场在当前价位附近的承压情况。\n\n技术指标方面，MACD目前为负值-0.000758，表明空头势力依然占优。虽然RSI指标尚未提供，但若其出现超卖信号，可能会为短期反弹提供机会。20日简单移动平均线（SMA）在0.6445附近，进一步证实了当前价格在该水平附近的压力。\n\n在支撑和阻力位方面，0.64323是关键支撑位，若价格跌破，可能会加速向下回撤。上方阻力位则在0.645，若价格反弹至此，需关注卖盘压力。整体来看，短期内建议交易者保持谨慎，逢高卖出或在支撑位附近寻找短期反弹机会。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) against the US Dollar (USD) is currently trading at 0.64324, reflecting a slight decline of 0.26% over the past 24 hours. The price action has been contained within a narrow range, with a high of 0.645 and a low of 0.64323. This range-bound movement suggests a consolidation phase, indicating indecision among traders. A breakout above 0.645 could signal a bullish trend continuation, while a drop below 0.64323 may confirm further bearish pressure, emphasizing the need for close monitoring of these levels.\n\nIn terms of technical indicators, the MACD reading of -0.00075827299 indicates a bearish momentum, although the absence of a signal line makes it challenging to draw definitive conclusions. The SMA(20) at 0.64452650 suggests a slight bearish bias, as the current price is trading below this moving average. The Relative Strength Index (RSI) is not available, limiting the ability to gauge potential overbought or oversold conditions. Traders should be cautious in their approach, as the lack of clear momentum signals may lead to increased volatility.\n\nKey support and resistance levels to watch are 0.64323 and 0.645, respectively. If the price breaches the support level, it could open the door for further declines, potentially targeting lower levels around 0.6400. Conversely, a sustained move above the resistance level of 0.645 may encourage buyers to enter the market, possibly pushing the price toward higher targets. Keeping an eye on these levels will be crucial for traders looking to capitalize on potential price movements.\n\nFor trading strategies, consider implementing a wait-and-see approach until a clear breakout occurs. A breakout above 0.645 could present a buying opportunity, particularly if accompanied by increasing volume. Conversely, a failure to hold above the support level of 0.64323 may provide a short-selling opportunity for those looking to capitalize on potential downward momentum. Engaging in risk management practices, such as setting stop-loss orders, will be essential to navigate this uncertain market environment effectively."
+    }
+  }
+}

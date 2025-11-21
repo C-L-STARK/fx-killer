@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-21T14:50:00.958Z",
+  "price": {
+    "close": "1.30846",
+    "high": "1.30846",
+    "low": "1.30702",
+    "open": "1.30840",
+    "change": "0.00",
+    "datetime": "2025-11-22 01:00:00"
+  },
+  "indicators": {
+    "rsi": 51.63687,
+    "macd": -0.000047108966,
+    "macd_signal": -0.000069050042,
+    "sma20": 1.30805
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：当前震荡整理趋势",
+      "content": "当前英镑/美元（GBP/USD）交易在1.30846附近，价格相对平稳，显示出短期内的震荡整理趋势。在过去24小时内，价格波动非常小，最高点和最低点仅有14个基点的差距，表明市场参与者的观望情绪较浓。\n\n从技术指标来看，虽然RSI和MACD数据尚不可用，但SMA(20)的值为1.30805，表明价格在该均线附近震荡。若价格持续维持在SMA之上，可能会为进一步上行提供支持；反之，若跌破该均线，则需警惕下行风险。\n\n在支撑和阻力位方面，1.30702为近期的重要支撑位，若价格跌破该点位，可能会引发更多的卖盘情绪。上方阻力位则在1.31000附近，若能突破该阻力，可能会引发更强的上涨动力。\n\n基于当前的市场状况，建议投资者采取观望策略，等待更明确的价格走势信号。在缺乏强烈趋势的情况下，短线交易可能面临较大风险。若价格突破1.31000，可以考虑逢高做多，而若跌破1.30702，则可考虑适度做空。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD currency pair is currently trading at 1.30846, showing a stable price action with no significant change over the past 24 hours. This stability suggests a consolidation phase, with the pair fluctuating between a high of 1.30846 and a low of 1.30702. The absence of a clear trend may indicate indecision among traders, which could lead to a breakout in either direction. Observing the broader market context will be crucial for anticipating the next move.\n\nFrom a technical perspective, the 20-period Simple Moving Average (SMA) is positioned at 1.30805, slightly below the current price. This alignment indicates a bullish sentiment in the short term, as prices are trading above the SMA. However, without additional indicators like the RSI or MACD providing further confirmation, caution is warranted. The MACD is currently negative, suggesting potential bearish momentum, but the lack of a signal line makes interpretation challenging.\n\nKey support and resistance levels are essential for traders looking to capitalize on price movements. The immediate support level is located around 1.30702, which corresponds to the recent low. A break below this level may trigger selling pressure, while resistance can be found at 1.31000, a psychological level that may attract profit-taking. Monitoring price action around these levels can provide valuable insights into potential breakouts or reversals.\n\nIn terms of trading strategy, maintaining a neutral stance might be prudent until a clear signal emerges. Traders could consider watching for a breakout above 1.31000 for a potential long position or a breakdown below 1.30702 for a short entry. Additionally, incorporating stop-loss orders just beyond these levels can help manage risk effectively. As the market consolidates, patience and vigilance will be key to navigating potential volatility."
+    }
+  }
+}

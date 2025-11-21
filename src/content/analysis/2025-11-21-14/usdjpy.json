@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-21T14:50:44.196Z",
+  "price": {
+    "close": "156.74800",
+    "high": "156.97000",
+    "low": "156.71001",
+    "open": "156.80800",
+    "change": "-0.04",
+    "datetime": "2025-11-22 01:00:00"
+  },
+  "indicators": {
+    "rsi": 38.72484,
+    "macd": -0.12875142,
+    "macd_signal": -0.063200049,
+    "sma20": 157.13705
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[当前震荡趋势]",
+      "content": "当前美元/日元（USD/JPY）在156.74800附近震荡整理，短期内似乎处于横盘状态。尽管24小时变化仅为-0.04%，但高点156.97000和低点156.71001的波动显示出市场仍在寻找方向。整体趋势仍然偏强，但短期内可能面临回调压力。\n\n从技术指标来看，MACD目前处于负值区域，显示出卖方的压力增强，尽管RSI尚未提供信号。20日简单移动平均线（SMA）为157.13705，显示出价格依然在其下方，可能暗示短期内的下行风险。投资者需密切关注这些指标，以评估未来的价格走势。\n\n在支撑和阻力位方面，156.71001的低点可视为重要支撑位，而156.97000则为短期阻力位。若价格突破156.97000，可能会迎来一波反弹上行的机会，反之，则需警惕进一步下行的风险。 \n\n综合来看，建议交易者保持观望，待价格突破关键支撑或阻力位后再考虑入场。同时，保持灵活的风险管理策略，以应对市场的潜在波动。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair currently trades at 156.748, showing a minor decline of 0.04% over the past 24 hours. This slight downturn occurs within a broader context of high volatility, as indicated by the recent high of 156.970 and a low of 156.710. The price action suggests that the market is consolidating, creating a potential range between these levels. Traders should closely monitor these boundaries; a break above the recent high may indicate bullish momentum, while a drop below the low could suggest a bearish reversal.\n\nIn terms of technical indicators, the current MACD reading of -0.12875142 suggests that the momentum is slightly bearish, although the absence of a signal line complicates the interpretation. The lack of an RSI figure makes it difficult to assess overbought or oversold conditions, but the proximity to the SMA(20) at 157.13705 indicates that the market has not strayed far from its short-term average. If prices approach the SMA, a bounce could occur, reinforcing bullish sentiment, while a sustained decline could confirm bearish trends.\n\nKey support and resistance levels are established at 156.710 and 156.970, respectively. A breakout above resistance could see prices target the next psychological level around 157.500, while a breach below support may open the door for a deeper retracement towards 156.500. Traders should remain vigilant for volume spikes on either side, as these may signal the validity of any breakouts from the established range.\n\nFor trading strategies, a cautious approach is advisable given the current indecision in price action. A buy position could be considered upon a confirmed break above 156.970, with a target near 157.500. Conversely, a sell position may be warranted if prices dip below 156.710, aiming for a target near 156.500. Implementing stop-loss orders will be essential to manage risk effectively in this volatile environment."
+    }
+  }
+}
