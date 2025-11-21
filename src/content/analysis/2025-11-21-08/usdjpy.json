@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-21T08:17:31.920Z",
+  "price": {
+    "close": "156.73100",
+    "high": "156.84399",
+    "low": "156.65401",
+    "open": "156.73300",
+    "change": "-0.00",
+    "datetime": "2025-11-21 19:00:00"
+  },
+  "indicators": {
+    "rsi": 33.82659,
+    "macd": -0.04654526,
+    "macd_signal": 0.065734275,
+    "sma20": 157.36025
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理中]",
+      "content": "当前美元/日元在156.73附近震荡整理，未表现出明显的趋势。虽然价格在156.84的高点附近受到压制，低点156.65则显示出一定的支撑力度。市场情绪较为谨慎，投资者需要关注后续的价格动作，以判断是否会突破当前区间。\n\n从技术指标来看，虽然RSI和MACD的最新数据缺失，但根据走势判断，RSI在超买区间附近可能会出现回调，而MACD的负值则暗示当前看跌势头。20日简单移动平均线（SMA）在157.36处形成了短期阻力，这意味着价格可能在此水平附近面临进一步的抛售压力。\n\n结合支撑和阻力位分析，若价格突破156.84，可能会重新测试157.00的心理关口；反之，若跌破156.65，则可能加速向下探测更低的支撑位。投资者应密切关注这些关键价位，制定相应的交易策略。\n\n在当前震荡整理的市场环境中，建议采取观望态度，待价格确认突破方向后再考虑进场交易。同时，设置合理的止损，以降低潜在风险。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 156.73100, showing a slight 24-hour change of -0.00%. This indicates a period of consolidation after recent volatility. The price is situated near the upper end of a recent trading range, with a high of 156.84399 and a low of 156.65401. The overall trend appears to be bearish on the daily chart, as the pair has struggled to maintain upward momentum, indicating potential weakness in the USD against the JPY.\n\nThe absence of an RSI reading makes it challenging to assess overbought or oversold conditions, but the MACD value of -0.046545260 suggests that downward momentum may be present. This could signal a potential continuation of the bearish trend if the MACD crosses below its signal line, which would indicate increasing selling pressure. Traders should monitor the MACD movement closely for further insights into trend strength.\n\nKey support levels can be identified around 156.65401, which is the recent low, while resistance is observed near the 20-period Simple Moving Average (SMA) at 157.36025. A decisive break below the support level could trigger further selling, potentially targeting lower support levels. Conversely, if the price manages to reclaim the SMA, it may signal a reversal, inviting bullish sentiment.\n\nTraders may consider implementing a range-bound strategy in the short term, looking for opportunities to sell near the resistance level or buy on dips near support. A breakout above the SMA could offer a more aggressive buying opportunity, while a failure to hold the support could lead to further downside. Staying alert to price action and accompanying volume will be crucial in guiding trading decisions in the current market environment."
+    }
+  }
+}

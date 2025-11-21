@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-21T08:18:18.304Z",
+  "price": {
+    "close": "0.64428",
+    "high": "0.64439",
+    "low": "0.64345",
+    "open": "0.64365",
+    "change": "0.10",
+    "datetime": "2025-11-21 19:00:00"
+  },
+  "indicators": {
+    "rsi": 41.69703,
+    "macd": -0.00082258033,
+    "macd_signal": -0.00081911793,
+    "sma20": 0.6453485
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理，关注支撑与阻力]",
+      "content": "当前，澳元/美元（AUD/USD）在0.64428附近交易，整体呈现震荡整理态势。从短期来看，价格在0.64345至0.64439区间内波动，显示出市场买卖力量的对抗。若突破上方阻力位，可能会引发反弹；若下破支撑位，则需警惕进一步下行风险。\n\n从技术指标来看，MACD指标处于负值区域，显示出卖方力量较强，且RSI尚未提供足够的超买或超卖信号，表明市场仍处于观望状态。20日简单移动平均线（SMA）在0.6453附近，作为潜在的阻力位，若价格反弹至此，需留意是否形成卖出信号。\n\n支撑位方面，0.64345为关键支撑位，若该位置被有效击穿，可能会导致价格进一步下探至0.6400附近。反之，若价格在此获得支撑并反弹，则可关注向上突破的可能性。综合来看，短期内应保持谨慎，关注市场动态。\n\n建议交易者在当前区间内采取区间交易策略，待价格接近支撑位时考虑低吸，而在接近阻力位时则可适时减仓或止盈。同时，保持对市场消息的敏感，及时调整交易策略，以应对突发情况。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD currency pair is currently trading at 0.64428, showing a slight positive movement of 0.10% over the last 24 hours. The price remains below the 20-period Simple Moving Average (SMA), which is positioned at 0.64535. This suggests a bearish trend in the short term, as the price has struggled to maintain upward momentum. The recent high of 0.64439 and low of 0.64345 indicate a tight trading range, reflecting indecision in the market.\n\nIn terms of technical indicators, the MACD reading of -0.00082258033 points to a bearish sentiment, although the absence of a signal line makes it difficult to draw a definitive conclusion about momentum. The Relative Strength Index (RSI) is not available, but typically, an RSI reading below 30 would indicate oversold conditions, while readings above 70 signify overbought conditions. Traders should watch the RSI closely if it becomes available to gauge potential reversals.\n\nKey support and resistance levels are critical for identifying potential entry and exit points. The immediate support level is evident at 0.64345, where buying interest may emerge. Conversely, resistance is seen near the 20-period SMA at 0.64535. A break above this level could signal a shift in sentiment and pave the way for further gains. Traders might consider a long position if the price breaks and holds above the SMA, while a breach below the support level could warrant a bearish stance.\n\nGiven the current market dynamics, traders should adopt a cautious approach. A breakout above the resistance could provide a buying opportunity, while a failure to hold above support could suggest further downside potential. Monitoring upcoming economic data releases and market sentiment will be crucial in navigating this pair as it moves forward."
+    }
+  }
+}
