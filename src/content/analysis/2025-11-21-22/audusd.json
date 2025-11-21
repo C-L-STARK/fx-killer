@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-21T22:49:08.797Z",
+  "price": {
+    "close": "0.64553",
+    "high": "0.64596",
+    "low": "0.64545",
+    "open": "0.6457",
+    "change": "-0.03",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 52.13583,
+    "macd": -0.00010946957,
+    "macd_signal": -0.00039599707,
+    "sma20": 0.644648
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[当前震荡整理，谨慎观望]",
+      "content": "当前，澳元/美元在0.64553附近震荡整理，短期内显示出一定的下行压力。价格未能有效突破0.64600的关键阻力位，表明多头力量不足，市场可能继续处于横盘状态。若价格持续跌破0.64545，可能引发进一步下行。\n\n技术指标方面，MACD显示出微弱的空头信号，尽管RSI尚未提供明确的超卖或超买信号。20日简单移动平均线(SMA)在0.64465附近，为当前价格提供了初步支撑。若价格回测该水平并获得支撑，可能会有反弹机会。\n\n从支撑和阻力来看，0.64545为短期支撑位，若跌破此位，可能会向0.64400寻求更强支撑。而上方的阻力位在0.64600，若突破此水平，可能会吸引更多买盘，推动价格上行。\n\n综合来看，当前市场情绪偏向谨慎，建议交易者在关键支撑和阻力位附近进行观望，待价格出现进一步确认信号后再进行操作。保持灵活应变的策略，避免在震荡市中盲目追单。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The current price of AUD/USD at 0.64553 suggests a consolidation phase, with a slight bearish sentiment indicated by the recent 24-hour change of -0.03%. The recent high of 0.64596 and low of 0.64545 signal tight trading range, often indicative of indecision among traders. This environment may reflect broader market uncertainties, particularly regarding economic data releases or geopolitical events influencing both the Australian and US economies.\n\nIn terms of indicators, the MACD shows a negative value of -0.00010946957, suggesting that momentum is currently favoring sellers. However, without a clear signal line to compare, this reading alone does not provide definitive guidance. The absence of the RSI(14) data limits our ability to assess overbought or oversold conditions. Traders should monitor these indicators closely to gauge potential reversals or continuation of trends.\n\nSupport levels appear to be forming around the SMA(20) at 0.64464800, which could act as a crucial floor for the pair. A breach below this level might trigger further selling pressure, possibly targeting the next support level around 0.64300. Conversely, resistance is evident near the recent high of 0.64596. A breakout above this level could indicate a shift in momentum, providing traders with an opportunity to capitalize on a bullish trend.\n\nIn light of the current price action, traders may consider a cautious approach. A break below the SMA could prompt short positions, while a sustained move above the resistance may warrant long entries. Additionally, keeping an eye on economic indicators and news releases will be essential to navigate potential volatility in this currency pair effectively."
+    }
+  }
+}

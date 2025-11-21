@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-21T22:47:44.453Z",
+  "price": {
+    "close": "1.30991",
+    "high": "1.31084",
+    "low": "1.30991",
+    "open": "1.31062",
+    "change": "-0.05",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 54.83061,
+    "macd": 0.00054825447,
+    "macd_signal": 0.00030955156,
+    "sma20": 1.30872
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理]",
+      "content": "当前英镑/美元（GBP/USD）汇率在1.30991附近，呈现出短期震荡整理的趋势。从24小时的变化来看，价格微幅下跌0.05%，显示出市场情绪较为平稳。近期高点为1.31084，低点为1.30991，表明该货币对在该区间内波动，尚未形成明确的趋势。\n\n技术指标方面，虽然RSI（相对强弱指数）数据缺失，但从SMA（20日简单移动平均线）来看，当前价格略高于1.30872，暗示市场可能存在一定的支撑。MACD指标显示出微弱的多头信号，但缺乏足够的确认。整体来看，市场情绪依然偏向中性。\n\n在支撑和阻力位方面，1.30872为短期支撑位，而1.31084则是关键阻力位。如果价格突破1.31084，将可能开启进一步上涨的空间；反之，跌破1.30872则可能引发更深的回调。投资者应密切关注这两个关键价位。\n\n基于当前市场状态，建议投资者采取观望策略。若价格突破阻力位可考虑适度建仓，若跌破支撑位则应谨慎止损。保持灵活应变的交易策略，将有助于在波动的市场中把握机会。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The current price of GBP/USD at 1.30991 indicates a slight bearish sentiment, as evidenced by the 24-hour change of -0.05%. This minor decline suggests that traders are cautious, particularly after testing the recent high of 1.31084. The prevailing trend appears to be consolidating, and with the price hovering around the 1.30872 SMA(20), market participants should pay close attention to this moving average. A sustained break below this level could signal further weakness in the pound.\n\nTechnical indicators, while limited in current data, provide some insight into market dynamics. The MACD value of 0.00054825447 suggests that the momentum is not decisively bullish or bearish at this moment. A more comprehensive view would require the calculation of the RSI to determine overbought or oversold conditions. Traders should be alert for potential divergences in these indicators, as they could signal forthcoming price action or trend reversals.\n\nIn terms of support and resistance levels, the immediate support can be identified near the SMA(20) at 1.30872, with further support at 1.30700. Conversely, resistance levels to watch include the recent high of 1.31084 and a psychological barrier at 1.31200. A break above this resistance could open the door for a bullish reversal, while a failure to maintain above support may trigger a bearish sentiment.\n\nGiven the current technical landscape, traders might consider a cautious approach. Long positions could be attractive if the price breaks above 1.31084, with targets set near 1.31200. Conversely, short positions may become viable if the price slips below 1.30872, targeting the next support at 1.30700. Managing risk with appropriate stop-loss orders will be essential in this volatile market environment."
+    }
+  }
+}
