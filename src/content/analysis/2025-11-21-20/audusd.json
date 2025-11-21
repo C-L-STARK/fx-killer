@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-21T20:13:51.061Z",
+  "price": {
+    "close": "0.64575",
+    "high": "0.64577",
+    "low": "0.64553",
+    "open": "0.64559",
+    "change": "0.02",
+    "datetime": "2025-11-22 07:00:00"
+  },
+  "indicators": {
+    "rsi": 53.45711,
+    "macd": -0.00016197669,
+    "macd_signal": -0.00046667168,
+    "sma20": 0.644651
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[当前震荡趋势]",
+      "content": "当前，澳元/美元（AUD/USD）在0.64575附近波动，价格呈现出窄幅震荡的格局。过去24小时内，价格变化仅为0.02%，显示出市场参与者情绪相对谨慎。短期内，价格在0.64577的高点和0.64553的低点之间交易，表明买卖力量尚未明确偏向某一方向。\n\n从技术指标来看，虽然RSI(14)数据缺失，但MACD显示出微弱的负值，这可能暗示短期内卖方力量略占优势。结合SMA(20)的值0.64465100来看，价格依然位于这一均线之上，可能表明短期内的上行支撑仍然存在。若价格持续在此均线之上，可能会引发更多买盘。\n\n在支撑和阻力位方面，当前支撑位可以设在0.64553，而阻力位则在0.64577。突破这些关键水平可能会引发更大的价格波动。如果价格突破0.64577，则有可能测试更高的阻力位；反之，如果跌破0.64553，则可能加速下行。\n\n基于当前市场状况，建议交易者采取观望态度，等待价格突破关键水平后再做出交易决策。短线交易者可考虑在支撑位附近寻找买入机会，而在接近阻力位时则可考虑获利了结。保持灵活应对市场变化，以降低风险。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.64575, reflecting a slight increase of 0.02% over the past 24 hours. The price action has remained within a narrow range, with a high of 0.64577 and a low of 0.64553. Such tight trading conditions suggest a lack of strong momentum in either direction, indicating that traders may be waiting for clearer signals to define the next trend. The overall market sentiment appears to be cautious, as economic data releases from both Australia and the US are anticipated.\n\nFrom a trend analysis perspective, the recent movements show that the AUD/USD has been fluctuating near the 20-period simple moving average (SMA), currently at 0.64465100. This SMA can act as a dynamic support level, and if the price consistently holds above it, there may be potential for a bullish reversal. Conversely, a break below this SMA could signal further bearish pressure, prompting traders to reassess their positions. The narrow trading range is indicative of indecision, which may lead to a breakout in either direction once the market finds a catalyst.\n\nIn terms of technical indicators, the MACD is currently showing a slight negative value, suggesting a bearish bias, although the absence of a signal line complicates this interpretation. The Relative Strength Index (RSI) is not provided but is essential for gauging momentum and potential overbought or oversold conditions. Traders should watch for any divergence between price action and momentum indicators, as this could provide early warnings of potential reversals.\n\nFor trading strategies, it may be prudent to consider placing buy orders above the recent high of 0.64577, targeting resistance levels around 0.64700. Conversely, sell orders could be placed below the recent low of 0.64553, with targets set near the 0.64400 support level. Risk management is crucial in this uncertain environment, and traders should employ stop-loss orders to protect against adverse movements. Overall, patience will be key as the market awaits clearer direction."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-21T20:12:27.377Z",
+  "price": {
+    "close": "1.31029",
+    "high": "1.31041",
+    "low": "1.31022",
+    "open": "1.31031",
+    "change": "0.00",
+    "datetime": "2025-11-22 07:00:00"
+  },
+  "indicators": {
+    "rsi": 56.8763,
+    "macd": 0.00051380383,
+    "macd_signal": 0.00024576769,
+    "sma20": 1.30863
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理中]",
+      "content": "当前英镑/美元维持在1.31029附近，显示出短期内的震荡整理态势。价格在1.31041和1.31022之间波动，未能突破这一区间，表明市场缺乏明确的方向性。投资者需关注即将发布的经济数据，以判断市场情绪的变化。\n\n技术指标方面，尽管RSI数据缺失，但MACD的微弱正值表明短期内买方仍有一定的力量。SMA(20)位于1.30863，为当前价格提供了支撑，显示出多头可能在该水平附近重新集中力量。若价格下行至此水平，可能会吸引更多买盘。\n\n支撑位方面，1.30863是关键支撑，若跌破则可能进一步向下测试1.30600的心理关口。阻力位则在1.31150附近，若突破该水平，可能会引发进一步上涨至1.31300。投资者应密切关注这些技术水平，以调整自己的交易策略。\n\n综合考虑，当前市场处于整理阶段，建议投资者采取观望态度，等待价格突破关键支撑或阻力位后再进行进场决策。此外，保持警惕，关注相关经济数据的发布，以把握可能的交易机会。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently trading at 1.31029, indicating a stable market with minimal price movement over the last 24 hours. The price has shown resilience, hovering close to the recent high of 1.31041. This stability suggests a consolidation phase, where the market is likely assessing its next direction. With no significant changes in price, traders should remain cautious, as this could precede either a breakout or a reversal.\n\nIn terms of technical indicators, the absence of an RSI reading makes it challenging to gauge overbought or oversold conditions. However, the MACD value of 0.00051 suggests a slight bullish momentum, albeit weak. The SMA(20) at 1.30863 is providing a dynamic support level, which may hold if the market tests lower levels. Traders should monitor the SMA closely, as a dip below this level could indicate a shift in sentiment and prompt further selling pressure.\n\nKey support for GBP/USD is identified at 1.30863, coinciding with the 20-period SMA. A break below this level could open the door for a deeper retracement towards 1.30750. Conversely, resistance is evident near the recent high of 1.31041. A sustained move above this level could trigger bullish momentum, potentially targeting 1.31200. Market participants should look for confirmation through price action before entering positions.\n\nGiven the current market dynamics, traders may consider a wait-and-see approach. If the price holds above the SMA and shows bullish confirmation, a long position could be warranted, targeting the resistance level at 1.31200. Conversely, if the pair breaks below the SMA, it may be prudent to adopt a short position with a focus on the 1.30750 support level. Active monitoring of price action will be crucial in navigating the potential volatility in the coming sessions."
+    }
+  }
+}
