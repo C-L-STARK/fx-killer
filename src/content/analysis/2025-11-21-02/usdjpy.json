@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-21T02:51:51.077Z",
+  "price": {
+    "close": "157.40401",
+    "high": "157.49400",
+    "low": "157.29300",
+    "open": "157.48000",
+    "change": "-0.05",
+    "datetime": "2025-11-21 13:00:00"
+  },
+  "indicators": {
+    "rsi": 53.68856,
+    "macd": 0.12904961,
+    "macd_signal": 0.19183264,
+    "sma20": 157.4603
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理，谨慎观望]",
+      "content": "当前美元/日元的价格在157.40401附近，短期内呈现出震荡整理的趋势。虽然24小时变化仅为-0.05%，但市场高点与低点的波动幅度显示出投资者情绪的谨慎。此阶段可能会受到市场整体风险情绪的影响，导致价格在该区间内波动。\n\n技术指标方面，MACD目前显示出0.12904961的值，表明短期内未出现明显的趋势信号。虽然没有RSI数据，但结合SMA(20)的157.46030水平，可以看出当前价格略低于短期均线，可能暗示短期回调的风险。此外，若价格持续低于该均线，则需警惕进一步下行的可能性。\n\n在支撑与阻力位方面，157.29300的低点为关键支撑位，若价格跌破此水平，将可能引发更大的卖压。相对的，157.49400的高点则是短期内的重要阻力位，若突破此位，将可能吸引更多买盘进入市场。因此，投资者应密切关注这两个关键价位。\n\n综合来看，建议投资者在当前市场环境中采取谨慎观望的态度。可以考虑在接近支撑位时寻找买入机会，而在接近阻力位时则可考虑采取获利了结或卖出策略，以应对可能的价格波动。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 157.40401, showing a slight decline of 0.05% over the past 24 hours. This minor pullback comes after the pair reached a recent high of 157.49400, indicating that the upward momentum may be losing steam. However, the overall trend remains bullish, as the price is still above the 20-period Simple Moving Average (SMA) of 157.46030. Traders should closely monitor the price action for signs of a potential reversal or continuation of the upward trajectory.\n\nIn terms of technical indicators, the MACD value of 0.12904961 suggests that the momentum is still positive, albeit weakening. The absence of an RSI value means we cannot gauge whether the pair is currently overbought or oversold, which limits our assessment of immediate price action. To gain clearer insights, traders should keep an eye on these indicators as they evolve, particularly as the market reacts to upcoming economic data releases and geopolitical events.\n\nKey support and resistance levels are essential for guiding trading decisions. Immediate support is found at the recent low of 157.29300, where buyers may enter the market to prevent further declines. On the upside, resistance is observed at the recent high of 157.49400, which could act as a barrier for further gains. A sustained break above this resistance level may pave the way for a retest of higher levels, while a dip below support could signal a bearish reversal.\n\nGiven the current market conditions, traders may consider a cautious approach. For those looking to enter long positions, a bullish confirmation above the resistance level of 157.49400 could provide a favorable entry point. Conversely, a breach below the support level of 157.29300 may signal a short opportunity, allowing traders to capitalize on a potential downturn. As always, risk management strategies should be employed to safeguard against unexpected volatility."
+    }
+  }
+}
