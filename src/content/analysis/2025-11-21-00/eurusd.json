@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-21T00:48:32.027Z",
+  "price": {
+    "close": "1.15345",
+    "high": "1.15345",
+    "low": "1.1528",
+    "open": "1.15333",
+    "change": "0.01",
+    "datetime": "2025-11-21 11:00:00"
+  },
+  "indicators": {
+    "rsi": 51.12537,
+    "macd": -0.00020276961,
+    "macd_signal": -0.00042699682,
+    "sma20": 1.15269
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理，关注支撑与阻力]",
+      "content": "当前欧元/美元（EUR/USD）价格在1.15345附近波动，显示出短期内的震荡整理趋势。价格在高点1.15345和低点1.1528之间反复运行，表明市场参与者对于短期方向尚存不确定性。在此阶段，投资者需密切关注价格在这些关键水平的表现。\n\n从技术指标来看，当前的SMA(20)为1.15269，提供了一个短期内的动态支撑位。虽然RSI和MACD数据未给出，但结合现有价格走势，可以推测市场可能处于超买或超卖状态，因此在决策时需要谨慎。若RSI开始回升，可能会预示着短期内的买入机会。\n\n支撑位方面，1.1528是关键水平，如价格跌破该位，可能会加速回调，进一步测试更低支撑。而在阻力位方面，若价格突破1.1535，可能会引发新的上涨动能。投资者应关注这些关键水平，一旦确认突破，可以考虑进场交易。\n\n综上所述，建议投资者保持观望，待价格进一步确认支撑或阻力位后再做决策。若突破阻力位，可以考虑适度进场做多；若跌破支撑位，则需谨慎评估风险，适时止损。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The current price of EUR/USD stands at 1.15345, indicating a slightly bullish sentiment with a 24-hour change of 0.01%. The market has shown limited volatility, with a high of 1.15345 and a low of 1.1528, suggesting consolidation within this range. The price behavior indicates that traders may be awaiting further catalysts to drive significant movement, as the pair has been oscillating near the 1.153 level.\n\nFrom a trend analysis perspective, the EUR/USD is currently trading above the 20-period Simple Moving Average (SMA), which is positioned at 1.15269. This suggests a short-term bullish trend. However, the proximity to the SMA indicates potential support, and traders should watch for a decisive break below this level to signal a shift in momentum. A sustained move above recent highs could strengthen bullish sentiment, while a break below the SMA may invite bearish pressure.\n\nThe Relative Strength Index (RSI) is not available at this moment, limiting our ability to assess overbought or oversold conditions. The MACD value of -0.00020276961 suggests a slight bearish divergence, indicating potential weakness in the current momentum. Traders should monitor this indicator closely, as a crossover above the signal line could provide a buying opportunity, while a continued decline could signal further downside risks.\n\nKey support levels are identified around 1.1520, with resistance emerging at 1.1550. For trading strategies, a break above the resistance level could provide a potential entry point for long positions, while a failure to maintain above the support level may present opportunities for short positions. Overall, maintaining a cautious approach with clear stop-loss orders is advisable, given the current indecisive market conditions."
+    }
+  }
+}

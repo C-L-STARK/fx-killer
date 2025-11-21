@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-21T00:52:05.780Z",
+  "price": {
+    "close": "0.55962837",
+    "high": "0.55962837",
+    "low": "0.55881530",
+    "open": "0.55922157",
+    "change": "0.08",
+    "datetime": "2025-11-21 11:00:00"
+  },
+  "indicators": {
+    "rsi": 44.03156,
+    "macd": -0.00073269205,
+    "macd_signal": -0.00061206465,
+    "sma20": 0.56057589
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理中]",
+      "content": "当前纽元/美元（NZD/USD）在0.5596附近波动，显示出震荡整理的趋势。虽然价格在过去24小时内略微上涨0.08%，但整体走势仍然处于区间内，缺乏明确的方向。近期的高点和低点分别为0.5596和0.5588，表明市场缺乏足够的动力突破现有水平。\n\n技术指标方面，MACD显示出微弱的负值，表明短期内卖方力量仍占上风，但尚未形成明显的下跌趋势。由于RSI（相对强弱指数）数据缺失，尚无法对超买或超卖状态进行分析。当前的20日简单移动平均线（SMA）在0.5606附近，提供了一个潜在的阻力位。\n\n在支撑和阻力方面，0.5588的低点可以视为短期支撑位，而0.5606的SMA则是一个重要的阻力位。若价格突破0.5606，则可能引发进一步的上涨动能。交易者可以考虑在支撑位附近寻找买入机会，而在接近阻力位时则考虑卖出。保持关注市场消息，以便及时调整策略。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.5596, showing a slight increase of 0.08% over the past 24 hours. The recent price action indicates a consolidation phase after testing the low of 0.5588. Given the prevailing market sentiment, the pair appears to be struggling to maintain upward momentum, as it has yet to breach the 20-period Simple Moving Average (SMA) at 0.5606. This level serves as a crucial resistance point that traders should monitor closely. A sustained move above this SMA could signal a shift in sentiment and potential bullish continuation.\n\nIn terms of technical indicators, the MACD is currently negative at -0.00073, suggesting bearish momentum in the short term. The absence of an available RSI complicates the assessment of overbought or oversold conditions, but the negative MACD reinforces the need for caution. Traders should consider waiting for clearer signals before entering long positions, particularly until the MACD shows signs of a bullish crossover or the price decisively breaks above the SMA. \n\nSupport levels are observed at the recent low of 0.5588, which could act as a safety net for the pair if selling pressure intensifies. A break below this level may lead to further declines, with the next significant support potentially near 0.5570. Conversely, if the price holds above this support, traders might look for potential retracement towards the next resistance level at 0.5610. \n\nGiven the current market conditions, a range-bound trading strategy could be effective. Traders may consider buying near the support level of 0.5588 with a tight stop-loss, while selling near the resistance at 0.5606. Additionally, monitoring global economic data releases that impact both currencies will provide further insight into potential volatility and trading opportunities."
+    }
+  }
+}

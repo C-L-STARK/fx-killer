@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-21T00:53:28.721Z",
+  "price": {
+    "close": "4078.44681",
+    "high": "4081.61011",
+    "low": "4071.27003",
+    "open": "4078.1924",
+    "change": "0.00",
+    "datetime": "2025-11-21 11:00:00"
+  },
+  "indicators": {
+    "rsi": 51.40071,
+    "macd": -0.23093752,
+    "macd_signal": -1.55989,
+    "sma20": 4071.29932
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，需关注突破信号]",
+      "content": "当前黄金/美元（XAU/USD）价格在4078.44附近震荡整理，整体趋势显示出一定的横盘特征。虽然价格未能突破4081.61的高点，但也未跌破4071.27的低点，表明市场仍在寻求方向。若价格持续维持在这个区间内，短期内可能会出现进一步的整理。\n\n从技术指标来看，当前RSI尚未提供明确信号，而MACD指标显示出负值，暗示短期内可能存在一定的卖压。SMA（20）线在4071.30附近，作为短期支撑位，若价格跌破该水平，可能会引发更大幅度的回调。反之，若突破4081.61高点，则可能开启新的上涨趋势。\n\n支撑位方面，4071.27是关键支撑，若下破则需关注更低水平的支撑。阻力位在4081.61和4090附近，突破这些阻力位可能会吸引更多买盘。交易者应密切关注这些关键水平，以便及时调整策略。\n\n综合来看，当前黄金/美元走势保持震荡，建议交易者保持观望，耐心等待价格突破关键支撑或阻力位后再采取相应的交易策略。若突破向上，则可考虑做多；若下破支撑位，则应谨慎做空。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of Gold against the US Dollar (XAU/USD) stands at 4078.45, showing no change over the past 24 hours. The price has oscillated between a high of 4081.61 and a low of 4071.27, indicating a tight trading range. This stability suggests a period of consolidation, where traders may be awaiting further market catalysts to drive price movement. Currently, the trend appears neutral, with the potential for a breakout in either direction depending on upcoming economic data or geopolitical events.\n\nIn terms of technical indicators, the absence of an RSI reading limits the analysis of momentum; however, the MACD value of -0.23 indicates a bearish sentiment, albeit marginally. The Simple Moving Average (SMA) of 20 periods at 4071.30 provides a key reference point. If the price remains above this SMA, it may suggest continued bullish intent, while a decline below could trigger further selling pressure. Traders should monitor these indicators for shifts in momentum.\n\nKey support levels are identified around 4071.27, as this has shown to be a significant low. Conversely, resistance can be observed near the recent high of 4081.61. A breakout above this level may open the door to further gains, targeting psychological levels around 4100. Conversely, if the price falls below the support level, it could lead to a test of lower support zones, potentially around 4050. \n\nFor trading strategies, considering the current market dynamics, a cautious approach is advisable. Traders may look to enter long positions if there is a confirmed breakout above 4081.61, supplemented by increased volume, while a close below 4071.27 could warrant short positions. Risk management will be crucial in this environment, given the potential for volatility."
+    }
+  }
+}

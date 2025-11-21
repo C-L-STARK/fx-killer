@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-21T00:50:43.419Z",
+  "price": {
+    "close": "0.64551",
+    "high": "0.64552",
+    "low": "0.64456",
+    "open": "0.64495",
+    "change": "0.09",
+    "datetime": "2025-11-21 11:00:00"
+  },
+  "indicators": {
+    "rsi": 44.17214,
+    "macd": -0.00092951279,
+    "macd_signal": -0.00077465687,
+    "sma20": 0.6466445
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡走势中的弱势表现]",
+      "content": "当前，澳元/美元（AUD/USD）在0.6455附近震荡整理，表现出一定的弱势。虽然价格在24小时内有所小幅波动，但整体趋势似乎仍然处于下行通道中。投资者需关注市场情绪以及相关经济数据，以判断未来的价格走势。\n\n从技术指标来看，当前的MACD值为-0.00093，显示出卖压仍在，短期内可能难以实现反弹。同时，20日简单移动平均线（SMA）位于0.6466，形成一定的阻力。这些因素共同表明，AUD/USD在短期内可能维持在当前低位附近。\n\n支撑位方面，0.6446是一个关键的支撑区域，如果价格跌破此水平，可能会引发更大的卖盘压力，推动价格进一步下探。阻力位则在0.6466附近，若价格能够突破此阻力，可能会迎来短期的回升。\n\n基于当前市场状况，建议交易者采取谨慎态度。可以考虑在价格接近支撑位时寻找买入机会，或在价格反弹至阻力位附近时进行卖出操作，以把握短期波动。同时，密切关注市场动态和经济指标，调整策略以应对潜在的市场变化。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.64551, showing a slight upward movement of 0.09% over the last 24 hours. This modest gain indicates a consolidation phase after a recent decline, suggesting that the market may be attempting to find a bottom. The price has faced resistance around the 0.6466 level, represented by the 20-period Simple Moving Average (SMA), while support is evident at the recent low of 0.64456. Traders should monitor these levels for potential breakouts or reversals.\n\nIn terms of technical indicators, the MACD reading of -0.0009 suggests a bearish momentum, albeit weak. This negative value indicates that the selling pressure is still present, but the lack of significant movement implies a potential for stabilization. As the RSI is currently unavailable, it would be prudent to wait for its return to evaluate overbought or oversold conditions, which could further inform trading decisions.\n\nConsidering the current price action, a cautious trading strategy may be advisable. Traders should look for opportunities to sell if the price fails to break above the 0.6466 resistance, while a confirmed break could create a buying opportunity targeting higher levels. Conversely, if the price falls below the support at 0.64456, it may signal further downside, prompting a re-evaluation of long positions.\n\nOverall, the AUD/USD pair is at a critical junction. With resistance overhead and support below, now is the time for traders to remain vigilant. Using tight stop-loss orders and adhering to risk management principles will be essential in navigating this uncertain environment, as any significant news or data releases could trigger volatility."
+    }
+  }
+}
