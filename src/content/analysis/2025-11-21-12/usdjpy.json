@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-21T12:21:11.661Z",
+  "price": {
+    "close": "156.88600",
+    "high": "156.88600",
+    "low": "156.74400",
+    "open": "156.84700",
+    "change": "0.02",
+    "datetime": "2025-11-21 23:00:00"
+  },
+  "indicators": {
+    "rsi": 42.032805,
+    "macd": -0.10360996,
+    "macd_signal": -0.026304568,
+    "sma20": 157.21855
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[短期震荡，长期看涨]",
+      "content": "当前美元/日元的价格为156.886，整体呈现出震荡走势。虽然价格在过去24小时内微幅上涨0.02%，但在156.744至156.886的区间内波动，显示出市场缺乏明确的方向。短期来看，市场情绪仍较为谨慎，投资者需密切关注即将发布的经济数据。\n\n从技术指标来看，MACD值为-0.1036，表明短期内仍存在一定的卖压，虽然RSI数据暂时缺失，但结合价格走势可以推测，市场可能处于超卖区间。SMA(20)为157.21855，显示出短期均线压力，价格尚未突破该水平，将影响短期交易决策。\n\n在支撑和阻力位方面，短期支撑位可关注156.744，若跌破该水平，可能会进一步回调至156.600附近。阻力位则设在157.21855，如能突破该区域，可能会引发多头回归，进一步推动价格上涨。投资者应关注此关键水平，以制定相应策略。\n\n综合考虑，建议投资者在当前价格附近谨慎布局，若价格回调至156.744可考虑逢低买入，目标设在157.21855。若价格突破该阻力位，则可适当加仓，以把握潜在的上涨机会。同时，应注意市场波动带来的风险，设定合理的止损位。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair currently trades at 156.88600, showing a slight increase of 0.02% over the past 24 hours. This stability suggests a consolidation phase following a recent decline. The price has tested the support level at 156.74400, which held firm, indicating potential bullish sentiment. Conversely, the resistance level at 157.21855, represented by the 20-period simple moving average (SMA), remains a key obstacle for upward movement. A sustained close above this level could indicate a shift in momentum toward a bullish trend.\n\nThe MACD currently shows a negative value of -0.1036, which signals a bearish momentum, but without a corresponding signal line, it's challenging to draw definitive conclusions about future price action. The Relative Strength Index (RSI) is not available, which limits our ability to gauge overbought or oversold conditions. Traders should monitor the MACD closely for any signs of reversal or convergence that could signal a potential bullish movement if it crosses above the zero line.\n\nFor trading strategies, a conservative approach may be warranted in the current environment. Traders could look for buying opportunities near the support level of 156.74400, particularly if bullish price action confirms a reversal. Conversely, if the price breaks below this support, it could trigger further selling pressure, with the next support level potentially found around 156.50000. On the upside, a breakout above the SMA at 157.21855 would open the door for long positions, targeting higher resistance levels.\n\nOverall, the USD/JPY remains in a tight range, with short-term fluctuations driven by market sentiment and technical levels. Traders should remain vigilant for any changes in momentum indicators to assess the likelihood of a breakout or breakdown. Maintaining a disciplined approach with stop-loss orders will be essential to manage risk effectively in this current market landscape."
+    }
+  }
+}

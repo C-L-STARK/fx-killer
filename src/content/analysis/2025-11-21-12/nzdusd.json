@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-21T12:23:30.930Z",
+  "price": {
+    "close": "0.55875283",
+    "high": "0.55931538",
+    "low": "0.55875283",
+    "open": "0.55919027",
+    "change": "-0.08",
+    "datetime": "2025-11-21 23:00:00"
+  },
+  "indicators": {
+    "rsi": 40.42328,
+    "macd": -0.0003924263,
+    "macd_signal": -0.0004086981,
+    "sma20": 0.55949113
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋势]",
+      "content": "当前纽元/美元(NZD/USD)价格在0.5587附近波动，整体趋势呈现震荡整理的态势。价格未能突破近期高点0.5593，显示出上行动能不足。考虑到24小时变化仅为-0.08%，市场参与者似乎在观望，缺乏明确的方向。\n\n从技术指标来看，MACD处于负值区间，显示出卖方势力仍在主导市场，但由于RSI未提供，无法进一步确认超卖或超买的状态。短期内，价格仍然受到20日简单移动平均线(SMA)的压制，该指标位于0.5595，构成了短期阻力位。\n\n支撑方面，若价格下行，0.5587将是关键支撑位，突破该水平可能引发更多卖压，进一步测试0.5580的支撑。建议交易者在当前区间内进行短线交易，关注价格在支撑和阻力位的反应，灵活调整仓位，以应对市场的短期波动。\n\n综合来看，纽元/美元在震荡整理中需保持谨慎，观察关键技术指标的变化，以便及时把握市场机会。建议投资者密切关注经济数据发布及市场情绪变化，以制定适当的交易策略。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The current market dynamics for the New Zealand Dollar (NZD) against the US Dollar (USD) indicate a slight bearish trend, with the latest price settling at 0.55875283. The 24-hour change of -0.08% suggests a lack of significant volatility, but the price is hovering close to its recent low of 0.55875283. This price action indicates that the NZD/USD pair may be experiencing consolidation, with traders potentially awaiting more decisive market cues.\n\nFrom a technical standpoint, the Simple Moving Average (SMA) of 20 periods, currently at 0.55949113, serves as a crucial resistance level. Price action consistently below this level may reinforce bearish sentiment. Additionally, the MACD is slightly negative, suggesting that bearish momentum may be present; however, the absence of a signal line complicates the interpretation. Once these indicators stabilize, they can provide clearer insights into potential trend reversals or continuations.\n\nSupport levels can be identified around the recent low of 0.55875283, which, if breached, could lead to further downside toward the next significant level near 0.5570. Conversely, should the price manage to breach the 0.55949113 SMA, it could signal a potential reversal, inviting bullish sentiment and aiming for resistance near 0.5600. Traders should closely monitor these levels for breakouts or reversals, as they will heavily influence short-term trading strategies.\n\nIn terms of trading suggestions, traders may consider short positions if the price breaks below 0.5580, with targets set near the 0.5570 level. Conversely, a breakout above the SMA could justify long positions, targeting the 0.5610 region. Risk management remains crucial, with stop-loss orders advised just beyond key support or resistance levels to mitigate potential losses in a volatile market."
+    }
+  }
+}
