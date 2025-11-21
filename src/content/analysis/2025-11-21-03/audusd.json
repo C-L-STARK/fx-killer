@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-21T03:37:09.381Z",
+  "price": {
+    "close": "0.64488",
+    "high": "0.64501",
+    "low": "0.64459",
+    "open": "0.64472",
+    "change": "0.03",
+    "datetime": "2025-11-21 14:00:00"
+  },
+  "indicators": {
+    "rsi": 41.60286,
+    "macd": -0.0008489988,
+    "macd_signal": -0.00081468979,
+    "sma20": 0.646209
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[当前震荡整理趋势]",
+      "content": "当前澳元/美元在0.64488附近震荡整理，短期内表现出一定的疲态。根据最新的高点0.64501和低点0.64459，可以看出价格在窄幅区间内波动，这种震荡走势可能预示着市场参与者对未来方向的谨慎态度。\n\n从技术指标来看，MACD目前处于负值区域，并显示出弱势信号，表明卖方占优。虽然RSI(14)数据缺失，但通常情况下，当RSI接近超卖区域（通常小于30）时，可能会出现反弹，因此投资者需关注该指标的变化。此外，20日简单移动平均线(SMA)目前在0.646209，进一步增强了当前价格的阻力位。\n\n在支撑和阻力方面，0.6445区域可能成为短期支撑位，而0.6462则是主要的阻力位。若价格突破0.6462，则有可能迎来反弹的机会；反之，若跌破0.6445，则可能导致进一步下探。因此，建议投资者在当前区间内采取观望策略，密切关注价格突破方向，以寻找合适的入场时机。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) against the US Dollar (USD) is currently testing a critical juncture around the 0.6450 level. The recent price action indicates a bearish trend, as the market has failed to sustain moves above the 0.6450 resistance. With the latest price at 0.64488, the currency pair is positioned near its daily low of 0.64459, suggesting a lack of bullish momentum. A sustained break below this level could open the door for further declines, potentially targeting 0.6430 as the next support zone.\n\nIn terms of technical indicators, the MACD is currently negative, signaling bearish momentum in the market. Although the RSI(14) is not available for this analysis, the absence of a strong upward divergence suggests that buying pressure may remain limited. The SMA(20) at 0.646209 acts as a dynamic resistance level, reinforcing the bearish outlook. Traders should monitor these indicators closely for any signs of reversal or continuation in the current trend.\n\nKey support is identified at the 0.6440 level, which, if breached, could lead to further declines towards 0.6430. On the upside, the 0.6450 level stands as a crucial resistance point, with any significant breakout above this level potentially shifting the market sentiment. Traders should also be cautious of any external economic factors, such as interest rate decisions or geopolitical events that could influence the AUD/USD trajectory.\n\nFor trading strategies, a conservative approach would be to look for short positions near the 0.6450 resistance, with stop-loss orders placed above this level to manage risk. Conversely, if the price breaks and closes above 0.6462, it may present a buying opportunity, with targets set towards 0.6480. Overall, traders should remain vigilant and prepare for potential volatility as the market seeks direction."
+    }
+  }
+}

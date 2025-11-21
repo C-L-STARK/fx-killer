@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-21T03:35:22.474Z",
+  "price": {
+    "close": "1.30834",
+    "high": "1.30844",
+    "low": "1.30781",
+    "open": "1.30820",
+    "change": "0.02",
+    "datetime": "2025-11-21 14:00:00"
+  },
+  "indicators": {
+    "rsi": 51.47881,
+    "macd": 0.000011587424,
+    "macd_signal": -0.00013820985,
+    "sma20": 1.30795
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理]",
+      "content": "当前英镑/美元的价格为1.30834，近期市场走势表现出震荡整理的特征。价格在1.30781至1.30844区间内波动，显示出市场多空力量的相对平衡。短期内，若价格突破上方阻力位1.30844，可能引发进一步上涨；反之，若跌破下方支撑位1.30781，则可能面临较大的回调压力。\n\n在技术指标方面，尽管RSI和MACD的数据暂时不可用，但20日简单移动平均线（SMA）显示出1.30795的支撑效果。若价格持续在此支撑位上方运行，显示出多头情绪依然存在。若RSI指标恢复可用，观察其是否高于70或低于30将有助于判断超买或超卖状态。\n\n支撑位方面，1.30781是关键支撑，若有效跌破可能导致更大的回调。反之，1.30844将是短期阻力位，突破后可能进一步推动价格向1.3100大关靠拢。投资者应密切关注这些关键价位，以制定相应的交易策略。\n\n综上所述，考虑到当前市场的震荡走势，建议采取区间交易策略。若价格在1.30781至1.30844之间波动，可以考虑在支撑位附近做多，而在接近阻力位时则考虑适度获利了结或空单。保持警惕，以应对突发的市场波动。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently trading at 1.30834, reflecting a minor 24-hour change of 0.02%. This indicates a period of consolidation following recent volatility. The price action is hovering close to the short-term simple moving average (SMA) of 20 periods at 1.30795, suggesting a neutral trend in the immediate term. If the price holds above this SMA, the market may see a bullish bias, whereas a drop below could signal a bearish reversal.\n\nSupport and resistance levels are critical in this analysis. The recent low at 1.30781 serves as an immediate support level, while the high of 1.30844 acts as a resistance point. A break above 1.30844 may open the door for further gains toward the next psychological level at 1.3100. Conversely, if the price breaches the support level at 1.30781, it could target lower support around 1.3050, indicating a potential bearish shift.\n\nTechnical indicators such as the RSI and MACD are currently unavailable, but incorporating these would provide additional insights into market momentum and potential reversals. The recent price behavior suggests a lack of strong directional momentum. Traders should monitor these indicators closely for any signs of divergence or crossover, which could signal a shift in trend.\n\nFor trading strategies, a conservative approach would involve waiting for a clearer signal from price action or technical indicators. A buy position could be considered if the price breaks above 1.30844 with strong volume, while a sell position may be warranted if it falls below 1.30781. Setting stop-loss orders just beyond these levels can help manage risk effectively."
+    }
+  }
+}

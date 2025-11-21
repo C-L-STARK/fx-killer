@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-21T03:36:17.473Z",
+  "price": {
+    "close": "157.37300",
+    "high": "157.43100",
+    "low": "157.33501",
+    "open": "157.34200",
+    "change": "0.02",
+    "datetime": "2025-11-21 14:00:00"
+  },
+  "indicators": {
+    "rsi": 52.60458,
+    "macd": 0.10903784,
+    "macd_signal": 0.17426543,
+    "sma20": 157.45225
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[短期震荡趋势]",
+      "content": "当前美元/日元在157.37300附近波动，整体趋势呈现震荡形态。虽然价格在高点157.43100附近受阻，但依然维持在157.33501的低点之上，显示出一定的支撑力度。市场情绪相对谨慎，投资者需关注即将公布的经济数据对汇率的可能影响。\n\n技术指标方面，当前的MACD数值为0.10903784，显示出多头力量的存在，但未能形成明确的买入信号。由于RSI数据缺失，无法全面评估超买或超卖的情况。20日简单移动平均线(SMA)位于157.45225，进一步确认了短期内的压力位。\n\n支撑位方面，157.33501附近是关键支撑区域，若价格跌破此水平，则可能引发进一步下行。而阻力位则在157.45000附近，若突破该水平，可能会引发新的买盘动能。交易者可密切关注这一区间的突破情况，以把握短期交易机会。\n\n综上所述，当前市场环境适合采取观望策略，等待更明确的信号后再进行操作。建议关注技术指标的变化，并设定合理的止损位，以降低潜在风险。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY currency pair is currently trading at 157.373, reflecting a modest 24-hour change of 0.02%. The recent high of 157.431 and low of 157.335 suggest that the market is consolidating within a narrow range, indicating indecision among traders. Analyzing the overall trend, the pair has maintained a bullish trajectory over the past few weeks, but the recent price action hints at potential exhaustion in the upward momentum, warranting close observation for any signs of reversal.\n\nIn terms of technical indicators, the MACD is currently positive at 0.109, suggesting that bullish momentum is still present, albeit weakening. As the MACD approaches the signal line, it may indicate a potential crossover that could lead to a shift in momentum. The absence of an RSI value makes it challenging to assess overbought or oversold conditions, but traders should remain vigilant for divergence signals that could emerge as price action unfolds.\n\nKey support and resistance levels are critical for gauging potential price movements. The immediate resistance is observed at the recent high of 157.431, which, if breached, could pave the way for further bullish advances. Conversely, the support level at 157.335 provides a critical floor; a break below this level could trigger a more pronounced correction. Traders should monitor these levels closely, as they will likely dictate short-term price action.\n\nFor trading strategies, a cautious approach is advisable. Consider entering long positions if the price breaks above 157.431 with strong volume, confirming bullish strength. Alternatively, a short position could be warranted if the price fails to hold above 157.335, particularly if accompanied by bearish signals from the MACD. Overall, maintaining a flexible strategy will be essential to navigate the current market dynamics effectively."
+    }
+  }
+}

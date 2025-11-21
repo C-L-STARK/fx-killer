@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-21T03:40:04.106Z",
+  "price": {
+    "close": "4053.91307",
+    "high": "4059.78767",
+    "low": "4050.01261",
+    "open": "4057.8632",
+    "change": "-0.09",
+    "datetime": "2025-11-21 14:00:00"
+  },
+  "indicators": {
+    "rsi": 42.037388,
+    "macd": -3.3587,
+    "macd_signal": -1.95715,
+    "sma20": 4070.22136
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[当前震荡趋势]",
+      "content": "当前黄金/美元(XAU/USD)的市场表现显示出一定的震荡趋势。最新价格4053.91，较24小时前下跌0.09%。高点4059.79和低点4050.01的区间波动表明市场缺乏明确方向，投资者情绪较为谨慎，可能受到多重因素影响，包括全球经济数据和地缘政治风险。\n\n从技术指标来看，MACD值为-3.35870，表明短期内可能存在一定的卖压，然而因缺乏信号线数据，需谨慎解读。此外，SMA(20)显示黄金的中期均线在4070.22，当前价格低于该均线，暗示可能面临进一步下行压力，需关注是否形成反弹。\n\n在支撑和阻力位方面，4050.00为短期支撑位，如果价格跌破此水平，可能会进一步测试更低价位。上方阻力位则在4060.00附近，突破此位可能会引发短期反弹。在此背景下，建议交易者采取观望策略，待确认趋势后再做相应操作，以降低风险。\n\n综合来看，当前黄金/美元市场呈现震荡整理态势，投资者需密切关注技术指标的变化及外部环境的影响，以做出更为明智的交易决策。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4053.91 suggests a slight bearish sentiment, particularly with the recent 24-hour change of -0.09%. The price has tested the support level at 4050.01, indicating some buying interest around this region. However, the inability to break above the recent high of 4059.79 reflects a lack of bullish momentum, which may keep the market in a consolidation phase. Traders should remain vigilant for signs of a potential breakout in either direction.\n\nThe MACD reading of -3.35870 indicates a bearish trend, suggesting that momentum is currently favoring sellers. Without the signal line data, it is challenging to assess potential crossovers, but the negative value implies a prevailing weakness. Additionally, the absence of an RSI value means we cannot gauge overbought or oversold conditions effectively. This lack of clarity emphasizes the importance of waiting for confirmation before entering any positions, as volatility may increase with upcoming economic data releases.\n\nKey support is established at the 4050 level, while resistance is marked at 4070, as indicated by the SMA(20). A breach below 4050 may open the door for a deeper decline, potentially targeting lower support levels. Conversely, if the price can break the resistance at 4070, it could signal a bullish reversal, attracting buyers to push prices higher. Therefore, monitoring these levels closely will be essential for effective trading decisions.\n\nGiven the current technical landscape, traders might consider a cautious approach. A short position could be viable if the price breaks below 4050, with a target set around the next support level. Conversely, a long position may be warranted if the price moves above 4070, offering the potential for a rally. Risk management strategies should be in place, ensuring that traders protect their capital amid uncertain market conditions."
+    }
+  }
+}
