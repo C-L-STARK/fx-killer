@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-21T17:41:48.370Z",
+  "price": {
+    "close": "4080.57796",
+    "high": "4098.74008",
+    "low": "4078.05847",
+    "open": "4097.89654",
+    "change": "-0.43",
+    "datetime": "2025-11-22 04:00:00"
+  },
+  "indicators": {
+    "rsi": 55.20758,
+    "macd": 2.40127,
+    "macd_signal": -2.71967,
+    "sma20": 4060.65228
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理趋势]",
+      "content": "当前黄金/美元(XAU/USD)的价格处于震荡整理阶段。近期价格在4078.05847至4098.74008之间波动，显示出市场在这一区间内缺乏明确方向。虽然短期内出现小幅回调，但整体趋势尚未形成明显的下行压力，投资者需关注市场情绪变化。\n\n从技术指标来看，MACD显示出正值，表明短期内仍有上涨动能，但RSI未提供数据，导致对超买或超卖状态的判断有限。SMA(20)位于4060.65228，显示出短期支撑位，若价格跌破此水平，将可能引发进一步的下行调整。\n\n在支撑和阻力方面，当前支撑位在4060附近，若价格跌破，将可能推动黄金价格向下测试更低水平。阻力位则在4100附近，一旦突破，可能引发多头趋势的延续。投资者需密切关注这一关键水平，以便捕捉潜在的交易机会。\n\n基于当前市场状况，建议投资者考虑在支撑位附近寻找买入机会，同时设定合理止损以控制风险。若价格突破阻力位，短期内可考虑加仓多头，反之则需谨慎处理，防范潜在的市场回调风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4080.58 indicates a slight bearish sentiment, exemplified by a 24-hour change of -0.43%. The high and low range for the day suggests a consolidation phase, with prices testing the support level at 4078.06. If the price holds above this level, it could signal a potential reversal or continuation of a bullish trend. Conversely, a break below this support could lead to further declines, pushing the market towards the next support level around 4050.\n\nIndicator analysis reveals the MACD at 2.40127, suggesting that momentum is still positive, although the lack of a signal line makes it difficult to draw definitive conclusions about impending price movements. Meanwhile, the absence of an RSI value indicates that the market may not be in overbought or oversold conditions. Traders should monitor these indicators closely as they could provide hints about potential trend reversals or continuations in the near future.\n\nThe 20-day Simple Moving Average (SMA) at 4060.65 is critical in determining market sentiment. Currently, the price is trading above this moving average, which typically indicates a bullish outlook. However, the recent price action's proximity to the SMA suggests that a breakout above 4098.74 could encourage aggressive buying, while a drop below the SMA could signal caution for long positions. \n\nIn terms of trading strategies, a prudent approach could involve waiting for a clear breakout above 4098.74 for long positions or a confirmation of support at 4078.06 for potential reversals. Conversely, traders looking to short should consider entry points near the 4098.74 resistance with a stop-loss just above this level to manage risk effectively. Monitoring these key levels and indicators will be essential for navigating the gold market in the coming sessions."
+    }
+  }
+}

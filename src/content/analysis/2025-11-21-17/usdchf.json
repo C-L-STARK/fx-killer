@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-21T17:41:08.214Z",
+  "price": {
+    "close": "0.80873001",
+    "high": "0.80904001",
+    "low": "0.80805999",
+    "open": "0.80871999",
+    "change": "0.00",
+    "datetime": "2025-11-22 04:00:00"
+  },
+  "indicators": {
+    "rsi": 68.45727,
+    "macd": 0.00078137986,
+    "macd_signal": 0.00040139647,
+    "sma20": 0.8059265
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理趋势]",
+      "content": "当前美元/瑞郎(USD/CHF)的价格在0.8087附近震荡整理，未能突破近期高点0.8090，显示出市场缺乏明确的方向性。考虑到价格在高点和低点之间的波动，短期内可能维持区间震荡，投资者需关注后续的突破信号。\n\n技术指标方面，虽然RSI(14)未提供，但MACD显示出微弱的正值，表明短期内多头略占优势。价格相较20日简单移动平均线(SMA)的表现也显示出上升趋势，若价格能维持在0.8059之上，将有助于多头进一步发力。\n\n从支撑和阻力的角度看，0.8080附近为近期支撑位，若跌破则可能加速下行。相对的，0.8090为关键阻力位，突破后有望上行至更高水平。因此，投资者应密切关注这两个价位的变化，结合市场情绪做出相应策略。\n\n交易建议方面，短期内可考虑在支撑位附近建立多头仓位，止损设置在0.8080下方。同时，若价格突破0.8090，可考虑追多，目标位可设在0.8105附近。整体来说，保持灵活应对，及时调整交易策略是成功的关键。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair is currently trading at 0.80873001, exhibiting a neutral stance with a 24-hour change of 0.00%. The price movement has been contained within the recent high of 0.80904001 and the low of 0.80805999, indicating a consolidation phase. This tight range suggests indecision in the market, leaving traders wary as they await further price action to confirm the next potential move. A breakout above the high may signal renewed bullish momentum, while a drop below the low could indicate a bearish shift.\n\nIn terms of technical indicators, the MACD is currently showing 0.00078137986, indicating slight bullish momentum. However, the absence of RSI data limits our ability to gauge overbought or oversold conditions. The 20-period Simple Moving Average (SMA) at 0.80592650 serves as a crucial support level. Should the price retreat towards this SMA, it may present an opportunity for buyers, especially if the price respects this level and bounces back.\n\nKey support is established at 0.8059, aligning with the SMA, while resistance is found at the recent high of 0.8090. Traders should monitor these levels closely for potential breakout or reversal signals. A decisive close above 0.8090 could encourage buyers to enter the market, targeting the next resistance level. Conversely, a fall below 0.8059 might attract sellers, leading to further declines.\n\nFor trading strategies, maintaining a watchful eye on price action around these critical levels is essential. Traders may consider setting buy orders just above resistance and sell orders below support. Additionally, employing stop-loss orders can help manage risk effectively while allowing for participation in potential breakouts or reversals as the market continues to develop."
+    }
+  }
+}

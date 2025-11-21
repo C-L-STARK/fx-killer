@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-21T17:37:31.335Z",
+  "price": {
+    "close": "1.30959",
+    "high": "1.31063",
+    "low": "1.30899",
+    "open": "1.31010",
+    "change": "-0.02",
+    "datetime": "2025-11-22 04:00:00"
+  },
+  "indicators": {
+    "rsi": 54.70993,
+    "macd": 0.00024860245,
+    "macd_signal": 0.000046738449,
+    "sma20": 1.30831
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理中]",
+      "content": "当前英镑/美元（GBP/USD）在1.30959附近波动，显示出市场在震荡整理。24小时的微幅变化（-0.02%）表明多空双方均未能有效突破当前价位。考虑到高点1.31063和低点1.30899之间的窄幅波动，短期内价格可能继续在此区间内徘徊，投资者需保持警惕。\n\n从技术指标来看，MACD显示出微弱的正值，暗示短期内可能存在小幅上涨的潜力。然而，由于RSI(14)数据缺失，无法准确判断超买或超卖状态。20日简单移动平均线（SMA）在1.30831，提供了一个重要的支撑位，若价格跌破此水平，可能会加剧卖压。\n\n在支撑和阻力位方面，1.30899是当前的短期支撑位，而1.31063则是关键阻力位。若价格突破1.31063，可能会引发更多买盘，推动价格上行。反之，若跌破1.30899，则可能会进一步下探至1.30700区域。\n\n针对当前市场状况，建议投资者采取观望策略，耐心等待价格突破关键支撑或阻力位后再进行交易。同时，设定合理的止损位，以控制风险，确保在波动市场中保护资本。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently trading at 1.30959, reflecting a slight decline of 0.02% over the past 24 hours. The price has shown some stability within a narrow range, with a high of 1.31063 and a low of 1.30899. This price action suggests a consolidation phase, which often precedes a more significant movement. Traders should closely monitor the 1.3100 level, as a break above could signal a bullish reversal, while a dip below 1.3080 may reinforce bearish sentiment.\n\nIn terms of technical indicators, the absence of a current Relative Strength Index (RSI) value limits our ability to assess overbought or oversold conditions. However, the Moving Average Convergence Divergence (MACD) shows a positive value of 0.00024860245, indicating a potential bullish momentum. The 20-period Simple Moving Average (SMA) at 1.30831 serves as a crucial support level, and a sustained move below this level may trigger selling interest, suggesting caution for long positions.\n\nSupport is established at 1.3080, which aligns with the recent low, while resistance is evident around the 1.3100 psychological level. If the price breaks through 1.3100, the next resistance could materialize near 1.3120. Conversely, should the market breach the 1.3080 support, it could pave the way for a deeper retracement toward 1.3060. Traders are advised to set stop-loss orders near these levels to mitigate risk.\n\nGiven the current market conditions, a cautious approach is warranted. Traders might consider buying near the support zone at 1.3080, with a target around 1.3120, while keeping an eye on the aforementioned resistance. Alternatively, if bearish momentum prevails and the price breaks below 1.3080, short positions could be explored, targeting the next support level at 1.3060. Monitoring volume and broader economic indicators will be essential in making informed trading decisions."
+    }
+  }
+}
