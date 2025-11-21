@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-21T10:56:19.056Z",
+  "price": {
+    "close": "4040.09187",
+    "high": "4052.09194",
+    "low": "4033.38513",
+    "open": "4050.73812",
+    "change": "-0.27",
+    "datetime": "2025-11-21 21:00:00"
+  },
+  "indicators": {
+    "rsi": 41.00079215,
+    "macd": -8.99909,
+    "macd_signal": -6.77192,
+    "sma20": 4060.37886
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[短期看跌趋势]",
+      "content": "当前黄金/美元(XAU/USD)价格为4040.09，24小时内小幅下跌0.27%。从高点4052.09回落至低点4033.39，显示出短期内价格波动较为有限。整体来看，市场情绪略显谨慎，可能受到全球经济数据和地缘政治因素的影响。\n\n技术指标方面，MACD显示为负值(-8.99909)，表明空头力量在增强，短期内可能继续承压。虽然RSI(14)数据缺失，但结合当前价格走势，可以推测出超卖的可能性较小，市场尚未完全达到极端状态。20日简单移动平均线(SMA)为4060.38，价格在其下方，也表明短期内市场偏向于下行。\n\n在支撑与阻力方面，当前支撑位可关注4030.00附近，而阻力位则在4060.00附近。若价格突破4060.00，可能会重新测试更高的水平；反之，则可能进一步回落至支撑位以下。考虑到当前市场状况，建议投资者保持谨慎，短期内可考虑做空策略，待价格反弹至阻力位时再做进一步的决策。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4040.09 indicates a slight bearish sentiment, reflected by the recent 24-hour change of -0.27%. The price is trading just below the 20-period Simple Moving Average (SMA) at 4060.38, suggesting that the short-term trend may be shifting downward. The recent high at 4052.09 acts as an immediate resistance level, while the low at 4033.39 provides a clear support zone. A break below this support could signal further declines, whereas a rally above resistance might indicate a reversal in momentum.\n\nIn terms of technical indicators, the MACD value of -8.99909 suggests a bearish momentum, although the absence of a signal line complicates a full interpretation. Without the RSI(14) data, it is difficult to assess overbought or oversold conditions accurately. However, the current MACD indicates a potential continuation of the downtrend unless bullish signals emerge. Traders should watch for any divergence that could indicate a loss of downward momentum, which might precede a price recovery.\n\nThe support level at 4033.39 is critical for maintaining the current price structure. If this level holds, traders could consider long positions targeting the resistance at 4052.09, with a stop-loss just below the support to manage risk. Conversely, if the price breaks below 4033.39, it could open the door to further downside, potentially testing lower levels. In such a scenario, traders may look to short positions with targets set around the next significant support levels.\n\nOverall, the XAU/USD market appears to be in a cautious phase, with key levels to watch closely. The interplay between the current price, resistance, and support zones will dictate the trading strategy. Patience and clarity in decision-making will be crucial as the market navigates these technical indicators and price levels."
+    }
+  }
+}
