@@ -118,6 +118,15 @@ export const metadata: Metadata = {
       }),
     },
   },
+  icons: {
+    icon: [
+      { url: '/fxkiller-64px.png', sizes: '64x64', type: 'image/png' },
+      { url: '/fxkiller-128px.png', sizes: '128x128', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/fxkiller-128px.png', sizes: '128x128', type: 'image/png' },
+    ],
+  },
   category: 'education',
   classification: 'Financial Education & Trading Training',
 };

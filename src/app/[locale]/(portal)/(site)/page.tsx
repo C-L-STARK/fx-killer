@@ -9,10 +9,10 @@ import BrandName from '@/components/custom/BrandName';
 import BrandSlogans from '@/components/custom/BrandSlogans';
 import { FadeInSlide, ScaleFadeIn, HoverCard, PulseButton, FloatingBadge, StaggeredFadeIn } from '@/components/custom/AnimatedSection';
 import Testimonials from '@/components/custom/Testimonials';
+import Image from 'next/image';
 import StatsSection from '@/components/custom/StatsSection';
 import InterviewCTA from '@/components/custom/InterviewCTA';
 import PartnersLogos from '@/components/custom/PartnersLogos';
-import Image from 'next/image';
 import { useLanguage } from '@/contexts/LanguageContext';
 import ShineButton from '@/components/custom/ShineButton';
 import { CosmicPortal } from '@/components/ui/cosmic-portal';
@@ -115,7 +115,7 @@ const DummyContent = () => {
                 Elite Trader Program
               </div>
               <h1 className="text-6xl md:text-7xl lg:text-8xl font-black text-white tracking-tighter leading-none mb-2">
-                <BrandName inHero={true} />
+                <BrandName inHero={false} />
               </h1>
               <div className="h-2 w-32 bg-[#ff102a] shadow-[0_0_20px_rgba(255,16,42,0.5)]"></div>
             </ScaleFadeIn>
@@ -164,6 +164,36 @@ const DummyContent = () => {
                 </button>
               </div>
             </FadeInSlide>
+          </div>
+
+          {/* RIGHT: Logo Display */}
+          <div className="hidden lg:flex items-center justify-center">
+            <ScaleFadeIn delay={0.3}>
+              <motion.div
+                initial={{ rotate: 0, scale: 1 }}
+                animate={{
+                  rotate: [0, 5, -5, 0],
+                  scale: [1, 1.05, 1]
+                }}
+                transition={{
+                  duration: 6,
+                  repeat: Infinity,
+                  ease: "easeInOut"
+                }}
+                className="relative"
+              >
+                <Image
+                  src="https://wlksiulicosdnerzhkdl.supabase.co/storage/v1/object/public/fxkiller/fxkiller.png"
+                  alt="FX Killer Logo"
+                  width={512}
+                  height={512}
+                  className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 drop-shadow-[0_0_50px_rgba(255,16,42,0.3)]"
+                  priority
+                />
+                {/* Glow effect */}
+                <div className="absolute inset-0 bg-[#ff102a]/10 blur-3xl rounded-full -z-10 animate-pulse"></div>
+              </motion.div>
+            </ScaleFadeIn>
           </div>
         </div>
 

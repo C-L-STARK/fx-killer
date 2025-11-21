@@ -9,6 +9,9 @@ const nextConfig: NextConfig = {
       },
       {
         hostname: "qingwuwei.github.io"
+      },
+      {
+        hostname: "wlksiulicosdnerzhkdl.supabase.co"
       }
     ]
   },

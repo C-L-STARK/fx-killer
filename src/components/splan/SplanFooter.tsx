@@ -5,6 +5,7 @@ import LocaleLink from '@/components/navigation/LocaleLink';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { ShineLinkButton } from '@/components/custom/ShineButton';
 import EmailContactModal from '@/components/custom/EmailContactModal';
+import Image from 'next/image';
 
 
 export default function SplanFooter() {
@@ -14,7 +15,6 @@ export default function SplanFooter() {
 
   return (
     <footer className="relative bg-black text-white py-12 border-t border-gray-800 overflow-hidden">
-
 
 
 
@@ -34,7 +34,7 @@ export default function SplanFooter() {
               {t('footer.about')}
             </p>
             {/* Social Media Icons */}
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 mb-6">
               {/* Telegram */}
               <a
                 href="https://t.me/binance_cashcontrol"
@@ -95,6 +95,17 @@ export default function SplanFooter() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
               </button>
+            </div>
+
+            {/* Logo Display */}
+            <div className="mt-6 pt-6 border-t border-gray-800">
+              <Image
+                src="https://wlksiulicosdnerzhkdl.supabase.co/storage/v1/object/public/fxkiller/fxkiller.png"
+                alt="FX Killer Logo"
+                width={512}
+                height={512}
+                className="w-full h-auto border-2 border-[#ff102a]/30 hover:border-[#ff102a]/60 transition-colors"
+              />
             </div>
           </div>
 
