@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-21T09:38:53.908Z",
+  "price": {
+    "close": "1.30734",
+    "high": "1.30979",
+    "low": "1.30734",
+    "open": "1.30979",
+    "change": "-0.18",
+    "datetime": "2025-11-21 20:00:00"
+  },
+  "indicators": {
+    "rsi": 45.9384,
+    "macd": 0.00015136542,
+    "macd_signal": 0.00010674787,
+    "sma20": 1.30838
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理中]",
+      "content": "当前英镑/美元（GBP/USD）价格为1.30734，近期市场表现出轻微的下跌趋势，24小时变化为-0.18%。高点和低点之间的窄幅波动显示出市场的震荡整理特征。短期内，价格未能突破1.30979的阻力位，反映出当前多头力量不足。\n\n从技术指标来看，20日简单移动平均线（SMA）为1.30838，表明该水平可能成为短期内的重要阻力位。而MACD指标虽显示出微弱的正值，表明市场仍有一定的上行动能，但缺乏强有力的买入信号。RSI指标缺失使得超买或超卖情况无法确认，但结合价格走势，我们仍需谨慎对待。\n\n支撑位方面，1.30700附近成为关键支撑，如果价格跌破该水平，可能会引发进一步的回调，目标指向1.30500。反之，若价格能有效突破1.30979，则有望测试1.31200的更高阻力位。因此，建议投资者在1.30700附近寻求买入机会，同时在1.31000附近设置止损，以控制风险。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD currency pair is currently trading at 1.30734, showing a slight decline of 0.18% over the past 24 hours. This price action suggests a consolidation phase after recent fluctuations. The high of 1.30979 indicates some resistance, while the low of 1.30734 marks a potential support level. Traders should watch these boundaries closely, as a breakout above 1.3100 could signal a bullish trend, whereas a move below 1.3070 might lead to further downside.\n\nIn terms of technical indicators, the absence of an RSI reading limits our ability to gauge momentum effectively. However, the MACD value of 0.00015136542 suggests a neutral trend, indicating that neither buyers nor sellers have a strong advantage at this time. The SMA(20) at 1.30838 provides a reference point for short-term traders. Prices consistently above this moving average may indicate a bullish sentiment, while sustained trading below could suggest a bearish outlook.\n\nKey support levels to watch include the psychological level of 1.3050, which could act as a significant barrier against further declines. Conversely, resistance near 1.3100 is crucial for buyers seeking to regain control. A break above this level may attract additional buying interest, potentially targeting higher resistance levels around 1.3150. Conversely, if the price fails to hold above the SMA, it could trigger selling pressure, reinforcing the current bearish sentiment.\n\nTraders are advised to adopt a cautious approach in this choppy market environment. Establishing a long position above 1.3100 with a stop-loss just below 1.3080 could capitalize on potential upward movement. Meanwhile, a short position below 1.3050 might provide an opportunity to profit from a downside swing. It is essential to remain vigilant about economic releases and geopolitical factors that may influence market volatility in the coming days."
+    }
+  }
+}
