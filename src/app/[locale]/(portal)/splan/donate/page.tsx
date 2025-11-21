@@ -316,7 +316,7 @@ export default function DonatePage() {
               ].map((item) => (
                 <div key={item.id} className="flex items-start gap-4 group">
                   <span className="text-[#ff102a] font-mono text-xs mt-1 opacity-50 group-hover:opacity-100 transition-opacity">
-                    {item.id} //
+                    {item.id} {'//'}
                   </span>
                   <p className="text-gray-400 text-sm leading-relaxed font-medium group-hover:text-white transition-colors">
                     {item.text}

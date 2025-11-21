@@ -188,7 +188,7 @@ export default function CandidateRequirements() {
         >
           <div className="flex items-center justify-between mb-8">
             <h3 className="text-sm font-mono text-gray-500 uppercase tracking-widest">
-              {t('req.assessment.title')} // {t('req.system.data_stream')}
+              {t('req.assessment.title')} {'//'} {t('req.system.data_stream')}
             </h3>
             <div className="flex gap-1">
               {[1, 2, 3].map(i => (
