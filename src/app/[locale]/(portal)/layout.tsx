@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Theme } from "@radix-ui/themes";
 import { Inter } from "next/font/google";
 import "@/app/globals.css";
@@ -148,6 +149,18 @@ export default async function PortalLayout({
         <meta name="color-scheme" content="dark" />
       </head>
       <body suppressHydrationWarning className="bg-black">
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17750701559"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17750701559');
+          `}
+        </Script>
         <Providers>
 
           <StructuredData />
