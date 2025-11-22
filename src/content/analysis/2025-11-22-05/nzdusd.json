@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-22T05:40:00.614Z",
+  "price": {
+    "close": "0.56138778",
+    "high": "0.56167150",
+    "low": "0.56119871",
+    "open": "0.56135625",
+    "change": "0.00",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 57.89084,
+    "macd": 0.00023758786,
+    "macd_signal": 0.0000081302021,
+    "sma20": 0.56022696
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋势]",
+      "content": "目前，纽元/美元在0.5613附近震荡整理，短期内未出现明显的趋势变化。价格在高点0.5617和低点0.5612之间徘徊，显示出市场参与者对当前价位的谨慎态度。整体来看，汇率可能处于一个区间交易的状态，投资者应关注后续的价格突破。\n\n从技术指标来看，当前未提供RSI和MACD的完整数据，但可以观察到20日简单移动平均线(SMA)位于0.5602，显示出短期内价格可能存在一定的支撑。若价格能够突破0.5617的阻力位，可能会引发进一步的上涨，而跌破0.5612则可能导致短期回调。\n\n在支撑和阻力位方面，0.5612是当前的关键支撑位，若出现有效突破，可能会加速下跌。相对而言，0.5617则是阻力位，若价格向上突破此位，则有可能重拾上涨势头。投资者应密切关注这些关键水平，以制定相应的交易策略。\n\n综合考虑，建议短期内采取观望态度，待价格突破关键支撑或阻力位后再决定进场策略。若突破上行，可考虑做多布局；若下行突破，则可考虑做空以规避风险。保持灵活应变的交易策略将有助于把握市场机会。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.56138778, showing a stable stance with a 24-hour change of 0.00%. The price has been oscillating within a tight range, with a high of 0.56167150 and a low of 0.56119871. This narrow trading range suggests that the market is in a consolidation phase, indicating indecision among traders. A breakout from this range could signal the next directional move, either towards the upside or downside.\n\nFrom a technical perspective, the 20-period simple moving average (SMA) at 0.56022696 serves as a potential support level. If the price were to drop below this level, we could see increased selling pressure, with the next support likely around the recent low of 0.56119871. Conversely, a sustained move above the recent high of 0.56167150 could trigger buying interest, possibly targeting higher resistance levels.\n\nThe MACD is currently showing a bullish divergence, with a value of 0.00023758786, suggesting that upward momentum could be building despite the lack of clear signals from the RSI, which is not available. Traders should watch for any signs of momentum building, as this could present opportunities for long positions, especially if the price breaks above resistance. \n\nIn terms of trading strategy, a conservative approach could involve waiting for a confirmed breakout above 0.56167150 before entering long positions, while considering stop-loss orders just below the SMA and recent lows to manage risk. Conversely, if the price breaks below 0.56022696, traders may look for short opportunities, especially if accompanied by increased volume. Monitoring these key price levels will be crucial in determining the next potential moves in this currency pair."
+    }
+  }
+}

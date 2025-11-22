@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-22T05:38:34.991Z",
+  "price": {
+    "close": "0.64553",
+    "high": "0.64596",
+    "low": "0.64545",
+    "open": "0.6457",
+    "change": "-0.03",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 52.13583,
+    "macd": -0.00010946957,
+    "macd_signal": -0.00039599707,
+    "sma20": 0.644648
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理，谨慎观望]",
+      "content": "当前澳元/美元(AUD/USD)维持在0.6455附近，日内波动相对有限，显示出震荡整理的走势。虽然价格略微下行，但整体未能突破关键支撑位，表明市场仍在寻找方向，投资者需保持谨慎。短期内，市场情绪可能受到经济数据及全球风险情绪的影响。\n\n从技术指标来看，MACD处于负值区间，显示出卖压仍然存在，短期内可能继续承压。虽然RSI数据缺失，但若有超卖迹象，可能会引发短期反弹。20日简单移动平均线(SMA)位于0.6446，提供了一定的支撑，但若跌破该水平，则可能加剧下行风险。\n\n支撑位方面，首先关注0.6450，若有效跌破则有可能测试0.6430的支撑区域。而在阻力位方面，0.6460和0.6480是近期的关键阻力位，若突破将有助于重新确认多头趋势。投资者应密切关注价格动向，以便及时调整策略。\n\n基于当前的市场状态，建议采取谨慎的观望策略，等待价格确认突破信号后再做出交易决策。若价格反弹至阻力位附近，可以考虑短线卖出，而跌破支撑位则应考虑入场做空，以控制风险并把握市场机会。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) against the US Dollar (USD) is currently exhibiting a cautious bearish sentiment, with the latest price at 0.64553 and a slight decline of 0.03% over the last 24 hours. The price has oscillated between a high of 0.64596 and a low of 0.64545, indicating a tight trading range that suggests indecision among market participants. This pattern may point to a consolidation phase, with traders awaiting further catalysts to drive the pair decisively in either direction.\n\nIn terms of technical indicators, the absence of a calculated RSI(14) limits our ability to assess overbought or oversold conditions effectively. However, the MACD is currently negative at -0.00010946957, which may imply a potential continuation of the bearish momentum if it remains below the signal line. Furthermore, the 20-period Simple Moving Average (SMA) is positioned at 0.64464800, acting as a crucial support level. A price move below this SMA could reinforce a bearish outlook and invite further selling pressure.\n\nSupport levels are determined at 0.64545, while immediate resistance is seen at 0.64596. A break below the support could lead to a test of lower levels, potentially targeting 0.6440. Conversely, a move above the resistance may spark a bullish retracement, possibly pushing the pair toward 0.6470. Traders should closely monitor these levels for signs of breakout or reversal, as they can establish a clearer trend direction.\n\nIn light of the current market conditions, a cautious trading strategy is advisable. Day traders might consider short positions near resistance levels, specifically if the price shows signs of reversal. For those with a longer-term view, it may be prudent to wait for confirmation of a trend before committing capital. Additionally, setting stop-loss orders just beyond support and resistance levels will help mitigate risk in this uncertain environment."
+    }
+  }
+}

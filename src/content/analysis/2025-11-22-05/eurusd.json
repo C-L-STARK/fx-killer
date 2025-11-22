@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-22T05:36:27.148Z",
+  "price": {
+    "close": "1.15125",
+    "high": "1.1521",
+    "low": "1.15125",
+    "open": "1.15174",
+    "change": "-0.04",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 44.11458,
+    "macd": -0.00060257835,
+    "macd_signal": -0.00055962545,
+    "sma20": 1.15221
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理中]",
+      "content": "当前欧元/美元的价格为1.15125，显示出短期内震荡整理的趋势。虽然近期价格有所回落，但整体上波动幅度较小，市场情绪相对谨慎。投资者需关注即将公布的经济数据，这可能会对汇率产生影响。\n\n从技术指标来看，当前的MACD值为-0.00060257835，表明市场可能处于弱势，但尚未形成明显的卖出信号。由于RSI(14)数据缺失，我们无法得出超买或超卖的结论。因此，投资者应保持警惕，密切观察后续指标变化。\n\n在支撑和阻力方面，当前支撑位可参考1.1500，而阻力位则在1.1521附近。如果价格突破1.1521，将可能继续上行。如果跌破1.1500，则可能引发进一步下行。此区域的突破将为后续交易提供关键线索。\n\n综合考虑，建议投资者在当前价位附近谨慎操作，适量布局多头仓位，尤其在接近支撑位时。但需设定止损以控制风险，同时关注市场动态，以应对可能的反转信号。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD pair is currently trading at 1.15125, showing a slight decline of 0.04% over the past 24 hours. The price has recently reached a high of 1.1521, indicating a potential resistance level that traders should monitor closely. The prevailing sentiment appears cautious, as the price remains below the 20-period Simple Moving Average (SMA) of 1.15221, which suggests that the short-term trend is slightly bearish. A sustained move below this SMA could reinforce this downward trajectory.\n\nIn terms of technical indicators, the MACD value is currently at -0.00060257835, indicating that momentum is weak and leaning towards bearishness. However, without the associated signal line data, it's difficult to derive precise trading signals from MACD at this time. Traders should keep an eye on the Relative Strength Index (RSI) once available, as it would provide valuable insight into whether the pair is overbought or oversold, contributing to a more comprehensive analysis of potential price movements.\n\nSupport levels are critical to consider as this pair navigates current market conditions. A key support level can be identified around 1.1500, which is a psychological barrier that often attracts buying interest. If the price breaks below this level, it could signal further declines, potentially targeting lower support around 1.1480. Conversely, if the market shows resilience and rebounds from this area, it could provide a buying opportunity, particularly if it approaches the aforementioned SMA.\n\nTraders might consider a cautious approach in the current market environment. A break above the recent high of 1.1521 could suggest a potential bullish reversal, encouraging long positions. Conversely, a failure to maintain above the support level at 1.1500 may warrant short positions, particularly if accompanied by strong bearish momentum. Overall, observing price action around these key levels will be essential for making informed trading decisions in the near term."
+    }
+  }
+}

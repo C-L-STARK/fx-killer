@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-22T05:37:54.016Z",
+  "price": {
+    "close": "156.37801",
+    "high": "156.50400",
+    "low": "156.29500",
+    "open": "156.37900",
+    "change": "-0.01",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 32.92665,
+    "macd": -0.21296168,
+    "macd_signal": -0.16667419,
+    "sma20": 156.7946
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理，短期承压]",
+      "content": "当前美元/日元汇率在156.37801附近震荡整理，整体走势表现出一定的承压迹象。价格未能突破156.79460的20日简单移动平均线（SMA），显示出短期内可能面临卖压。伴随24小时变化为-0.01%，市场情绪偏向谨慎，投资者可能在观望未来的走势。\n\n从技术指标来看，MACD显示出-0.21296168的负值，暗示出短期内卖方力量占优，虽然RSI数据缺失，无法全面评估超买或超卖状态。若RSI值低于30，则可能出现反弹机会；若高于70，则可能出现回落风险。整体来看，技术面支持市场仍需谨慎。\n\n在支撑与阻力位方面，当前支撑位设在156.29500，而阻力位则在156.50400。若价格下破156.29500，可能会进一步测试更低的支撑位；反之，若突破156.50400，则有望恢复上涨动能。投资者需密切关注这些关键水平，以制定相应的交易策略。\n\n综合上述分析，建议投资者在当前价位附近保持观望，待价格突破关键支撑或阻力位后再做出决策。如果价格反弹至阻力位附近，可考虑适度做空；如下破支撑位，则可考虑做多。保持灵活和谨慎将有助于应对市场的不确定性。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 156.37801, reflecting a slight 24-hour decline of 0.01%. This stability in price suggests a consolidation phase following recent volatility. The high of 156.50400 and the low of 156.29500 over the past day indicate a defined trading range, which traders should monitor closely. The overall trend appears to be bearish in the short term, as the price has not maintained its previous upward momentum. A break below the recent low could signal further downside potential.\n\nIn terms of technical indicators, the MACD is currently negative at -0.21296168, indicating a potential bearish momentum. However, the absence of the RSI value makes it difficult to assess overbought or oversold conditions accurately. The Simple Moving Average (SMA) of 20 periods stands at 156.79460, which is above the current market price, suggesting that the trend is favoring sellers. If the price can’t reclaim the SMA level, it may reinforce the bearish sentiment.\n\nKey support levels to watch are around 156.29500, which has shown resilience recently. A breach of this level could lead to further declines, potentially targeting the next support zone around 156.00000. Conversely, resistance is identified at the recent high of 156.50400, which traders might use as a sell point if the price attempts to rally but fails to break through.\n\nFor trading strategies, a cautious approach could be beneficial. Short positions may be considered if the price breaks below support levels, while potential long positions could be evaluated if the market shows signs of reclaiming the SMA or breaking above resistance. Utilizing stop-loss orders will be crucial to manage risk effectively in this currently volatile environment."
+    }
+  }
+}
