@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-22T16:15:06.283Z",
+  "price": {
+    "close": "0.56138778",
+    "high": "0.56167150",
+    "low": "0.56119871",
+    "open": "0.56135625",
+    "change": "0.00",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 57.89084,
+    "macd": 0.00023758786,
+    "macd_signal": 0.0000081302021,
+    "sma20": 0.56022696
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋势]",
+      "content": "当前纽元/美元(NZD/USD)的价格为0.56138778，显示出震荡整理的趋势。近期价格波动幅度较小，最高点和最低点之间的差距有限，市场似乎在等待更明确的方向。整体来看，短期内缺乏强烈的买入或卖出信号，交易者应保持警惕。\n\n技术指标方面，MACD的值为0.00023758786，表明市场动能相对平稳，未出现明显的多头或空头信号。由于RSI(14)数据缺失，无法进一步评估超买或超卖的情况，但结合SMA(20)的值0.56022696，市场可能会继续在此区间内波动。\n\n支撑位方面，0.56119871是关键支撑水平，一旦跌破，可能会引发进一步下行。而0.56167150则是当前的阻力位，若突破将有望打开上行空间。交易者可以在支撑和阻力位之间进行区间交易，注意观察市场动态，以便及时调整策略。\n\n综合考虑，建议投资者在当前震荡格局中采取观望态度，等待突破信号出现后再进行交易。同时，保持对市场消息面的关注，避免因突发事件而导致的风险。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair currently trades at 0.56138778, reflecting a stable position with a 24-hour change of 0.00%. The price movement has remained contained within a narrow range, with a high of 0.56167150 and a low of 0.56119871. This tight range suggests indecision in the market, and traders should be cautious as price action could result in a breakout either to the upside or downside in the near future.\n\nFrom a trend analysis perspective, the moving average (SMA) of 20 periods stands at 0.56022696, indicating a slight bullish sentiment over the short term. However, the lack of significant upward momentum suggests that the pair may be consolidating rather than establishing a strong trend. Traders should watch for a decisive break above the SMA, which could signal a shift in momentum towards a bullish trend, while a break below could indicate further bearish pressure.\n\nIn terms of technical indicators, the current MACD value of 0.00023758786 implies that momentum is weak but has not yet crossed into negative territory. The absence of a clear signal line complicates the interpretation, but it suggests that traders should remain vigilant for potential shifts in market dynamics. Without a robust RSI reading, caution is advised, as it could indicate that the pair is neither overbought nor oversold, providing little clarity on immediate trading opportunities.\n\nSupport is identified around the recent low of 0.56119871, while resistance lies near the recent high of 0.56167150. Traders may consider employing a breakout strategy, entering long positions above resistance or short positions below support. The key to successful trading in this environment will be maintaining a disciplined approach and closely monitoring market developments that could influence the NZD/USD pair's direction."
+    }
+  }
+}
