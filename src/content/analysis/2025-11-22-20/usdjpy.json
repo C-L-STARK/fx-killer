@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-22T20:12:35.300Z",
+  "price": {
+    "close": "156.37801",
+    "high": "156.50400",
+    "low": "156.29500",
+    "open": "156.37900",
+    "change": "-0.01",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 32.92665,
+    "macd": -0.21296168,
+    "macd_signal": -0.16667419,
+    "sma20": 156.7946
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理趋势]",
+      "content": "当前美元/日元(USD/JPY)在156.37801附近运行，近期24小时内微幅下跌0.01%。从高点156.50400和低点156.29500来看，市场呈现出震荡整理的态势。价格未能突破前高，表明当前上涨动能有所减弱，可能在寻找新的方向。\n\n在技术指标方面，尽管RSI(14)数据缺失，但MACD显示为-0.21296168，表明短期内卖压略显强劲。SMA(20)为156.79460，价格远低于该均线，说明市场处于短期下行趋势中。这些信号都暗示价格可能继续维持震荡，甚至有下行风险。\n\n支撑位方面，156.29500是短期的关键支撑，如果价格跌破该水平，可能引发更大的卖压。阻力位则位于156.50000附近，突破该位可能会吸引更多买盘，推动价格反弹。因此，投资者需密切关注这些关键价位，以便及时调整策略。\n\n基于当前市场状况，建议投资者保持谨慎态度。短期内可考虑在156.29500附近寻找买入机会，但需设好止损以控制风险。同时，关注156.50000的突破情况，若突破可考虑短期内加仓做多。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 156.37801, reflecting a slight decline of -0.01% over the past 24 hours. This price action indicates a consolidation phase following a recent upward trend, with a high of 156.50400 and a low of 156.29500. The current price is hovering below the 20-day Simple Moving Average (SMA) of 156.79460, suggesting a potential resistance level. Should the price break above this SMA, it may indicate renewed bullish momentum.\n\nThe MACD reading of -0.21296168 suggests that the momentum is currently bearish, yet the absence of a signal line makes it difficult to draw definitive conclusions about the ongoing trend. Traders should closely monitor any divergence that might emerge, as this could either reinforce the current trend or signal a potential reversal. The Relative Strength Index (RSI) is currently unavailable; however, it would typically provide insights into whether the currency pair is overbought or oversold, which would be useful for future trades.\n\nIn terms of support and resistance levels, immediate support can be observed around the recent low of 156.29500, while resistance is likely at the recent high of 156.50400, followed by the SMA at 156.79460. A drop below the support level could lead to further bearish pressure, making it essential for traders to have stop-loss orders in place. Conversely, a breakout above resistance may offer a buying opportunity, particularly if accompanied by a surge in volume.\n\nIn light of the current market conditions, traders may consider a cautious approach. A bullish breakout above 156.50400 could be a signal to enter long positions, while a sustained move below 156.29500 may warrant short positions. Monitoring the MACD for any shifts and waiting for the RSI to provide additional context will be critical in making informed trading decisions in this environment."
+    }
+  }
+}

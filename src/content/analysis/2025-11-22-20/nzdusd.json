@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-22T20:14:30.366Z",
+  "price": {
+    "close": "0.56138778",
+    "high": "0.56167150",
+    "low": "0.56119871",
+    "open": "0.56135625",
+    "change": "0.00",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 57.89084,
+    "macd": 0.00023758786,
+    "macd_signal": 0.0000081302021,
+    "sma20": 0.56022696
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理]",
+      "content": "当前纽元/美元的价格在0.5613附近，整体表现出震荡整理的趋势。近期价格波动幅度较小，24小时变化为0.00%，表明市场参与者在等待更明确的方向确认。高点和低点的接近进一步验证了这一点，显示出市场的观望情绪。\n\n技术指标方面，虽然RSI(14)未提供数据，但MACD指标显示出微弱的正值，表明短期内可能存在一定的买入动能。SMA(20)则位于0.5602，作为一个短期支撑位，有助于防止价格下行。整体来看，当前技术信号并未明显指向强烈的趋势方向。\n\n在支撑和阻力位方面，当前的支撑位在0.5612附近，而阻力位则在0.5617。若价格突破0.5617，可能会吸引更多买盘进场，进一步推动价格上涨。反之，若跌破0.5612，则可能加剧卖压。\n\n综合分析，建议投资者采取观望态度，等待价格突破关键支撑或阻力位后再进行交易。短期内，适当的止损和风险管理将是确保盈利的关键。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.5614, showing a stable price action with no significant change over the past 24 hours. Observing the recent high of 0.5617 and low of 0.5612, we see a tight trading range, indicating a period of consolidation. This stability may suggest indecision among traders, especially as the pair hovers around the 20-day Simple Moving Average (SMA) at 0.5602, which could serve as a critical support level.\n\nFrom a trend analysis perspective, the lack of movement indicates a neutral bias in the market. However, if the price breaks above the recent high of 0.5617, it could signal a potential bullish reversal, attracting buyers and pushing prices higher. Conversely, a breakdown below the support level around 0.5602 could trigger selling pressure, leading to a possible test of lower support at 0.5590. Traders should closely monitor these levels for actionable trading opportunities.\n\nTechnical indicators, such as the MACD, indicate a slight bullish momentum with a value of 0.0002, although the absence of an RSI reading limits a comprehensive understanding of overbought or oversold conditions. The market appears to be in a state of equilibrium, and traders may want to wait for clearer signals, such as a confirmed breakout or breakdown, before entering positions. \n\nIn terms of trading strategy, a conservative approach would suggest waiting for a clear movement beyond the current range. A buy signal could be triggered upon a sustained break above 0.5617, while a sell signal may be appropriate if the price falls below 0.5602. Utilizing stop-loss orders can effectively manage risk, particularly in the current market environment, characterized by uncertainty and tight price action."
+    }
+  }
+}

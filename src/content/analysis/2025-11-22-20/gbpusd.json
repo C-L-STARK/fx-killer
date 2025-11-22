@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-22T20:11:56.314Z",
+  "price": {
+    "close": "1.30991",
+    "high": "1.31084",
+    "low": "1.30991",
+    "open": "1.31062",
+    "change": "-0.05",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 54.83061,
+    "macd": 0.00054825447,
+    "macd_signal": 0.00030955156,
+    "sma20": 1.30872
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理，谨慎观望]",
+      "content": "当前英镑/美元汇率维持在1.30991附近，整体走势呈现震荡整理的状态。尽管价格略有下跌，但幅度较小，市场情绪依然谨慎。短期内，若价格能突破1.31084的高点，可能会引发进一步的上涨；相反，若跌破1.30872的SMA(20)，则需警惕潜在的下行风险。\n\n在技术指标方面，MACD显示出微弱的多头信号，但RSI尚未提供明确的超买或超卖信号，市场动能较为平淡。投资者可以关注MACD的变化，如果出现向下交叉，可能会加大抛售压力。此外，RSI若接近70或30区间，亦可作为潜在交易信号的参考。\n\n支撑位方面，1.30872是一个关键的支撑区域，若价格跌破将可能引发进一步的下行趋势。而1.31084则是主要的阻力位，突破该水平将有助于推动价格向更高目标发展。投资者应密切关注这两个关键水平，以便及时调整交易策略。\n\n在交易建议上，建议投资者采取观望态度，等待价格确认突破方向后再进行决策。如果价格突破阻力位，则可以考虑建立多头仓位；反之，若跌破支撑位，短线做空亦可考虑。同时，保持风险控制，设置合理的止损位，以应对市场的不确定性。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently trading at 1.30991, reflecting a slight decline of 0.05% over the last 24 hours. The recent price movement suggests a consolidation phase, with the pair hovering near its daily low of 1.30991 after reaching a high of 1.31084. This tight range indicates indecision among traders, potentially setting the stage for a breakout if either support or resistance levels are convincingly breached.\n\nFrom a trend perspective, the GBP/USD has shown a recent bullish inclination but appears to be stalling near the 1.3100 psychological level. The simple moving average (SMA) of 20 periods at 1.30872 is acting as a potential support area. If the price holds above this level, it could signal a continuation of the upward trend. Conversely, a breach below the SMA could spell trouble, indicating a possible shift toward a bearish sentiment.\n\nThe lack of available RSI data limits our ability to assess momentum, but the MACD shows a positive value of 0.00054825447, which suggests that buying pressure may still exist. Traders should monitor for potential bullish divergence if the price makes new lows while the MACD maintains its current level. This could present a compelling buying opportunity. \n\nIn terms of support and resistance levels, immediate support can be identified at the SMA of 1.30872, while resistance is seen at the recent high of 1.31084. A break above this resistance could target higher levels around 1.31200. Conversely, if the price breaks below the support level, it may lead to a test of 1.30700. Traders should consider employing a cautious approach, utilizing tight stop-loss orders to manage risk as volatility may increase."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-22T20:15:47.247Z",
+  "price": {
+    "close": "4065.96908",
+    "high": "4066.07742",
+    "low": "4065.82591",
+    "open": "4065.88506",
+    "change": "0.00",
+    "datetime": "2025-11-22 23:00:00"
+  },
+  "indicators": {
+    "rsi": 49.3214,
+    "macd": -0.2356506,
+    "macd_signal": 0.027882729,
+    "sma20": 4068.63416
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中]",
+      "content": "当前黄金/美元(XAU/USD)价格在4065.97附近震荡整理，整体趋势表现出一定的横盘特征。市场未能有效突破4068.63的20日简单移动平均线(SMA)，显示出短期内缺乏方向性。若价格持续徘徊于此区间，可能出现更明确的突破信号。\n\n从技术指标来看，MACD值为-0.2357，表明当前市场动能偏弱，但尚未形成明显的卖出信号。由于RSI(14)数据缺失，无法全面评估超买或超卖状态。不过，结合价格区间来看，仍需关注价格在4065.82至4068.63之间的波动。\n\n支撑位方面，4065.82是关键支撑，如下破则可能引发进一步下行。相对的，4068.63作为阻力位，将是多头能否反弹的关键。若价格有效突破该阻力位，则有望向4100大关挑战。\n\n基于当前市场状况，建议交易者采取观望策略，等待价格突破支撑或阻力位后再进行决策。若突破4068.63可考虑逢高买入，反之则可考虑逢低卖出。保持灵活应对市场变化是成功交易的关键。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4065.97 indicates a stable market with a 24-hour change of 0.00%. This stability suggests that the market is in a consolidation phase, potentially preparing for a breakout. The recent high of 4066.08 and low of 4065.83 showcase limited volatility, which could indicate a lack of strong directional momentum. Traders should be cautious, as this consolidation often precedes significant price movements, either upward or downward.\n\nIn terms of indicators, the absence of RSI data limits the ability to assess overbought or oversold conditions. However, the MACD value of -0.23565 suggests a bearish momentum, although it is essential to wait for the signal line to provide further clarity. The SMA(20) at 4068.63 indicates that the price is currently below this moving average, reinforcing the bearish sentiment in the short term. Traders should monitor these indicators closely for potential reversal signals or confirmation of the current trend.\n\nSupport and resistance levels are crucial for determining potential entry and exit points. The immediate resistance is observed at the SMA(20) level of 4068.63, while support can be identified around the recent low of 4065.83. A breakout above the resistance level could provide opportunities for long positions, while a drop below the support might trigger short positions. It's advisable to place stop-loss orders close to these levels to manage risk effectively.\n\nIn light of the current market conditions, traders may consider a wait-and-see approach until a clearer trend emerges. If the price successfully breaks above 4068.63, it could signal a bullish reversal, prompting buying opportunities. Conversely, a breach of the support at 4065.83 may lead to a bearish trend, encouraging selling strategies. Maintaining vigilance on economic news and geopolitical developments will also be crucial in navigating this market effectively."
+    }
+  }
+}

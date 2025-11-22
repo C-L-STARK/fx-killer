@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-22T20:11:18.046Z",
+  "price": {
+    "close": "1.15125",
+    "high": "1.1521",
+    "low": "1.15125",
+    "open": "1.15174",
+    "change": "-0.04",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 44.11458,
+    "macd": -0.00060257835,
+    "macd_signal": -0.00055962545,
+    "sma20": 1.15221
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理，谨慎观望]",
+      "content": "当前欧元/美元（EUR/USD）交易区间较窄，最新报价为1.15125，24小时内小幅下跌0.04%。市场在1.1521的高点与1.15125的低点之间震荡整理，显示出短期内多空力量相对平衡，投资者情绪趋于谨慎。\n\n技术指标方面，虽然RSI（相对强弱指数）数据尚未提供，但MACD呈现负值，显示出短期内卖压略强。20日简单移动平均线（SMA）在1.15221附近，进一步确认了当前价格的阻力位。若价格突破此阻力位，有可能引发更大幅度的反弹。\n\n支撑位方面，1.1500心理关口将是关键，若价格跌破此水平，可能会加速进一步下行。投资者应关注该支撑位的表现，以判断是否存在更大回调的风险。若价格反弹至1.1521以上，则可考虑适度增仓做多。\n\n综合来看，当前市场处于震荡整理阶段，建议投资者采取观望态度，等待更明确的趋势信号。若突破重要技术水平，则可相应调整交易策略，抓住潜在的交易机会。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The current price of EUR/USD stands at 1.15125, reflecting a minor 24-hour change of -0.04%. The pair has been trading within a tight range, with a high of 1.1521 and the recent low matching the current price. This consolidation suggests that the market is in a phase of indecision, potentially setting the stage for a breakout movement. Given the proximity to the recent high, a bullish sentiment could emerge if the price breaks above 1.1522, while a failure to maintain above 1.1500 might lead to further downward pressure.\n\nIn terms of technical indicators, while the RSI(14) is not available, the most recent MACD value of -0.00060257835 indicates a slight bearish momentum. This negative MACD reading, coupled with the price trading just below the 20-period Simple Moving Average (SMA) of 1.15221, suggests that sellers may have the upper hand in the short term. Traders should monitor these indicators closely, as a crossover in the MACD could signify a shift in momentum.\n\nSupport levels are currently positioned at 1.1500, a psychologically significant level that could act as a cushion for buyers. If this level is breached, the next support may be found around 1.1480. On the resistance side, the immediate hurdle lies at 1.1522, with a break above this level likely to attract more buyers and potentially retest the 1.1550 zone. A clear directional move beyond these levels will provide greater clarity for traders.\n\nFor trading strategies, a cautious approach is advisable given the current market conditions. Traders might consider waiting for a confirmed breakout either above 1.1522 for long positions or below 1.1500 for short positions. Implementing stop-loss orders just below the support or above resistance levels can help manage risk. Overall, the market appears to be in a consolidation phase, and patience will be key to capturing the next significant move."
+    }
+  }
+}

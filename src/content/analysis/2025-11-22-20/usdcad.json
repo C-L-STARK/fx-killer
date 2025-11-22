@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-22T20:13:52.216Z",
+  "price": {
+    "close": "1.41001",
+    "high": "1.41037",
+    "low": "1.40860",
+    "open": "1.40911",
+    "change": "0.06",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 54.38673,
+    "macd": 0.00053607835,
+    "macd_signal": 0.00070456703,
+    "sma20": 1.40952
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡整理中的小幅上行]",
+      "content": "当前美元/加元(USD/CAD)的价格在1.41001附近波动，显示出震荡整理的特征。虽然近期价格略有上升，但整体趋势仍显得不够明确，投资者需保持谨慎。市场在高点1.41037和低点1.40860之间反复震荡，表明市场情绪较为谨慎。\n\n从技术指标来看，尽管RSI尚未提供数据，但根据当前价格水平和SMA(20)的1.40952，短期内可能出现小幅上涨的机会。MACD指标虽处于正值，但信号线缺失，使得对未来走势的判断变得更加复杂。整体来看，价格在当前区间内仍需关注多空力量的博弈。\n\n在支撑和阻力方面，1.40860可以视为短期支撑位，而1.41037则是关键的阻力位。如果价格突破1.41037，则有可能进一步上涨至1.41300附近。反之，若跌破1.40860，则可能向下探测1.40600的支撑水平。\n\n因此，建议投资者关注价格在支撑和阻力区间的表现，短期内可考虑在1.40860附近寻找做多机会，同时设定止损在1.40750，若价格突破阻力位，则可适当加仓，以把握潜在的上涨趋势。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD pair is currently trading at 1.41001, reflecting a slight increase of 0.06% over the last 24 hours. The price remains within a narrow range, with a high of 1.41037 and a low of 1.40860. This indicates a consolidation phase, suggesting that traders are awaiting further signals to drive price action. The trend appears neutral in the short term, with potential for volatility if key levels are breached.\n\nTechnical indicators are somewhat limited due to the lack of specific values for RSI and MACD signals. However, the SMA(20) at 1.40952 provides a useful reference point. Since the current price is slightly above this moving average, it could imply a bullish sentiment in the near term. A sustained move above the SMA could reinforce an upward bias, while failure to hold above this level might prompt a reassessment of bullish positions.\n\nKey support for the USD/CAD pair is seen around 1.40860, which coincides with the recent low. A breach below this level could trigger further selling, with the next support potentially around 1.40600. Conversely, resistance is encountered at 1.41037, representing the recent high. If the price can break above this level, it may attract additional buying interest, paving the way for a test of 1.41200.\n\nFor traders, maintaining a watchful eye on the price action around the identified support and resistance levels is crucial. A breakout above 1.41037 may present a buying opportunity, while a drop below 1.40860 could signal a potential short entry. Given the current market dynamics, employing a cautious approach with tight risk management is advisable to navigate this consolidation phase effectively."
+    }
+  }
+}
