@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-22T09:35:16.843Z",
+  "price": {
+    "close": "156.37801",
+    "high": "156.50400",
+    "low": "156.29500",
+    "open": "156.37900",
+    "change": "-0.01",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 32.92665,
+    "macd": -0.21296168,
+    "macd_signal": -0.16667419,
+    "sma20": 156.7946
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理中，短期承压]",
+      "content": "当前美元/日元（USD/JPY）在156.37801附近震荡整理，短期内似乎面临一定的下行压力。虽然24小时变化仅为-0.01%，但整体走势受到市场情绪和经济数据的影响，未能突破156.5的阻力位。近期的高点和低点显示出市场在156.5至156.3区间内波动，表明多空力量暂时趋于平衡。\n\n从技术指标来看，MACD指标显示出负值，暗示卖压存在。虽然RSI（相对强弱指数）尚未提供数据，但若继续下行，可能接近超卖区间。此外，20日简单移动平均线（SMA）在156.79460处形成了较强的阻力，阻碍了价格的进一步上涨。投资者需关注这些技术信号，以判断市场的进一步动向。\n\n在支撑位方面，156.29500是短期内关键的技术支撑，一旦价格跌破，可能引发更大幅度的回调；相反，若价格成功突破156.5，则有望测试更高的水平。建议交易者在当前价格水平附近采取观望策略，待价格确认突破信号后再做进一步操作，以降低风险并提高收益潜力。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY currency pair is currently trading at 156.37801, reflecting a slight 24-hour decrease of 0.01%. This price action occurs within a trading range established by the recent high of 156.50400 and the low of 156.29500. The overall trend appears to be bearish in the short term, suggesting that sellers are gaining momentum. A sustained break below the recent low could indicate further downside potential, while a move above the high might signal a reversal or consolidation phase.\n\nIn terms of technical indicators, the MACD is currently negative at -0.21296168, highlighting potential bearish momentum. However, without the signal line data and the RSI(14) reading, it is challenging to derive a complete picture of market sentiment. Traders should closely monitor these indicators for potential crossovers or divergence patterns that could provide additional insights into price movement. The SMA(20) at 156.79460 serves as a key resistance level, suggesting that the price would need to reclaim and hold above this level to indicate a stronger bullish trend.\n\nSupport levels are critical for identifying potential reversal points. The recent low of 156.29500 stands as a key support level; a breach here could lead to increased selling pressure, possibly targeting lower support levels. Conversely, if the price manages to hold above this level, it could attract buyers looking for a bounce. Traders may consider setting buy orders near this support level with a close stop-loss to mitigate risk.\n\nGiven the current technical setup, a cautious trading approach is advisable. Traders might look for short positions if the price breaks below 156.29500, with targets set towards lower supports. Alternatively, if bullish signals emerge from the indicators and the price breaks above the SMA(20), a long position could be considered, targeting the recent high. Risk management through stop-loss orders will be essential to navigate the potential volatility in this pair."
+    }
+  }
+}

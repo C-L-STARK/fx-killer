@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-22T09:39:04.073Z",
+  "price": {
+    "close": "4065.87192",
+    "high": "4066.06855",
+    "low": "4065.82456",
+    "open": "4065.88688",
+    "change": "-0.00",
+    "datetime": "2025-11-22 20:00:00"
+  },
+  "indicators": {
+    "rsi": 49.23134,
+    "macd": -0.15283473,
+    "macd_signal": 0.26403569,
+    "sma20": 4070.75883
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[短期震荡走势]",
+      "content": "当前黄金/美元（XAU/USD）价格在4065.87附近，显示出短期内震荡整理的迹象。近期价格波动幅度较小，未能突破4070的阻力位，表明市场缺乏明确的方向。投资者需关注即将公布的经济数据，以判断市场情绪是否会发生变化。\n\n技术指标方面，当前MACD显示为负值，表明短期内卖压略强，但未形成明显的下行趋势。RSI指标尚未提供，因此需谨慎解读当前的市场强度。SMA(20)在4070.76处，作为短期阻力位，若价格突破该水平，可能会引发进一步的上涨。\n\n支撑位方面，4065.82附近是当前的关键支撑位，若价格跌破，则可能会加大下行风险。若出现反弹，投资者可以关注4070及其上方的目标位。建议投资者采取观望态度，待价格突破关键技术位后再进行进场操作，以降低风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of Gold against the US Dollar (XAU/USD) is hovering around 4065.87, reflecting a stable market with minimal fluctuations over the past 24 hours. The price action has shown a tight range, with a high of 4066.07 and a low of 4065.82. This consolidation phase suggests that traders are awaiting further catalysts to drive the price in either direction. Given the tight trading range, a breakout above 4070 could indicate bullish momentum, while a drop below 4060 might signal a bearish trend.\n\nThe absence of the Relative Strength Index (RSI) data makes it challenging to gauge overbought or oversold conditions. However, the MACD is currently in negative territory at -0.15, indicating that bearish momentum could be gaining traction. The SMA(20) at 4070.76 is positioned above the current price, suggesting that the short-term trend remains bearish. If the price fails to reclaim the SMA, it may continue to drift lower, reinforcing the need for careful monitoring of market sentiment.\n\nSupport levels are identified at 4060, which, if breached, could lead to further declines. Conversely, resistance is found at the SMA level of 4070.76. A confirmed break above this level could open the door for a retest of 4080, a more substantial resistance zone. Traders should consider these levels when planning their entries and exits, as they can provide valuable insights into potential price movements.\n\nIn light of the current technical setup, a cautious approach is advisable. Day traders might look for short positions near the resistance level, particularly if the price fails to break above the SMA. For those with a longer-term outlook, waiting for clearer signals or confirmation of a breakout could yield a more favorable risk-reward scenario. As always, staying attuned to global economic events and market sentiment will be crucial in navigating this market."
+    }
+  }
+}
