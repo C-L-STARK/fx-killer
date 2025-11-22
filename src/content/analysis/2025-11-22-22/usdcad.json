@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-22T22:49:28.232Z",
+  "price": {
+    "close": "1.41001",
+    "high": "1.41037",
+    "low": "1.40860",
+    "open": "1.40911",
+    "change": "0.06",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 54.38673,
+    "macd": 0.00053607835,
+    "macd_signal": 0.00070456703,
+    "sma20": 1.40952
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡整理]",
+      "content": "当前美元/加元汇率在1.41001附近震荡整理，显示出短期内缺乏明确的趋势。由于价格在高点1.41037和低点1.40860之间波动，市场情绪较为谨慎，可能反映出投资者对即将公布的经济数据的观望态度。\n\n技术指标方面，尽管RSI和MACD的具体数值尚未提供，但从最近的价格走势来看，SMA(20)在1.40952处提供了一定的支撑，显示出短期内的买盘兴趣。同时，MACD的正值表明多头势头仍在，但需关注潜在的回调风险。\n\n在支撑和阻力位方面，1.40860是关键支撑位，若跌破可能会引发更大幅度的回调。而上方阻力位在1.41037附近，突破后有望进一步上行至1.41200区域。因此， traders 应密切关注这些关键价位，以便及时调整策略。\n\n综上所述，建议投资者在当前震荡市场中采取谨慎态度，寻求在支撑位附近建立多头头寸，或在阻力位附近考虑短期空头。同时，密切关注经济数据的发布，以评估市场情绪的变化。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD pair currently displays a slight bullish trend, with the latest price at 1.41001 and a 24-hour change of 0.06%. The recent price action indicates a consolidation phase between the high of 1.41037 and the low of 1.40860. Traders should closely monitor this range as a breakout in either direction could signal the next significant move. A sustained push above the recent high may attract further buying interest, while a drop below the low could trigger selling pressure.\n\nIn terms of technical indicators, the SMA (20) is positioned at 1.40952, providing a dynamic support level just below the current price. Although the RSI is not available, traders can utilize the MACD value of 0.00053607835 to assess momentum. A crossover of the MACD above its signal line could indicate increasing bullish momentum, while a downward crossover would suggest potential bearish sentiment. It’s crucial to observe how these indicators behave in conjunction with price movements for clearer trading signals.\n\nSupport levels appear to be established around 1.40860, which may act as a floor in the event of a pullback. Conversely, resistance at 1.41037 should be monitored closely; a breach above this level could see the pair target higher levels, potentially leading to a test of 1.41200. Traders may consider setting stop-loss orders just below the support level to mitigate risk while capitalizing on potential upward momentum.\n\nFor trading strategies, a cautious approach is advised. If the price breaks above resistance with strong volume, consider entering a long position with a target near the next resistance level. In contrast, if the price declines below support, it may be prudent to consider a short position, targeting a retest of lower support levels. Keeping an eye on broader economic indicators and news events related to both the U.S. and Canadian economies will provide further context for market movements."
+    }
+  }
+}

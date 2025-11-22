@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-22T22:51:25.619Z",
+  "price": {
+    "close": "4065.96908",
+    "high": "4066.07742",
+    "low": "4065.82591",
+    "open": "4065.88506",
+    "change": "0.00",
+    "datetime": "2025-11-22 23:00:00"
+  },
+  "indicators": {
+    "rsi": 49.3214,
+    "macd": -0.2356506,
+    "macd_signal": 0.027882729,
+    "sma20": 4068.63416
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理阶段]",
+      "content": "当前黄金/美元(XAU/USD)价格在4065.96908附近波动，显示出市场处于震荡整理阶段。价格在4066.07742的高点和4065.82591的低点之间反复测试，显示出买卖双方力量的相对平衡。短期内，缺乏明确的趋势信号，投资者需谨慎操作。\n\n技术指标方面，RSI(14)数据缺失使得我们无法判断超买或超卖情况，而MACD指标为-0.23565060显示出弱势信号。这可能意味着短期内价格将继续维持横盘整理，投资者需关注未来的价格走势和技术指标的变化，以便及时调整交易策略。\n\n支撑位方面，4065.82591是近期低点，若价格跌破该水平，可能会进一步下探至更低支撑位。阻力位则在4068.63416附近，若价格突破该水平，可能会引发进一步上涨。建议投资者在支撑位附近寻求买入机会，而在接近阻力位时则考虑获利了结。\n\n综合来看，黄金/美元目前处于震荡整理之中，操作上应以短线为主，关注技术指标的变化及价格的突破情况，以便把握进入和退出的最佳时机。保持灵活应变的交易策略是当前市场环境中的关键。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4065.96908 shows a neutral stance amid a narrow trading range, with a 24-hour change of 0.00%. The price movement has been contained between the high of 4066.07742 and the low of 4065.82591, indicating a period of consolidation. This sideways action suggests that market participants are awaiting either a catalyst for breakout or confirmation of a trend direction. Traders should monitor for potential volatility as economic data or geopolitical events unfold.\n\nIn terms of technical indicators, the absence of a clear RSI reading makes it challenging to gauge overbought or oversold conditions. The MACD at -0.23565060 indicates a bearish momentum but lacks confirmation due to the missing signal line data. The SMA(20) at 4068.63416 serves as a key moving average resistance level, suggesting that price action below this level may maintain a bearish bias. A breakout above the SMA could signal a shift toward bullish momentum.\n\nSupport levels are critical to identify, with the recent low of 4065.82591 acting as an immediate support point. A break below this level could lead to further declines, potentially targeting lower support levels. Conversely, if the price manages to hold above this support and breaks through the SMA, it could pave the way for a corrective rally. Traders should consider tight stop-loss orders in this environment to mitigate risks.\n\nFor trading strategies, a cautious approach is advised. Day traders might look for short positions near resistance levels, particularly around the SMA, while swing traders could wait for a more definitive signal in either direction. Depending on market developments, setting alerts for key levels may provide timely entry or exit opportunities. As always, risk management should be a priority, especially in a market characterized by uncertainty."
+    }
+  }
+}
