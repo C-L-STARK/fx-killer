@@ -6,7 +6,6 @@ import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'motion/react';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useLanguage } from '@/contexts/LanguageContext';
-import BrandName from '@/components/custom/BrandName';
 import LocaleLink from '@/components/navigation/LocaleLink';
 
 export default function UnifiedNavbar() {
@@ -20,6 +19,10 @@ export default function UnifiedNavbar() {
 
   const navItems = [
     {
+      name: language === 'zh' ? '主页' : 'Home',
+      link: "/",
+    },
+    {
       name: t('nav.training'),
       link: "/splan/join-us",
     },
@@ -31,51 +34,20 @@ export default function UnifiedNavbar() {
       name: t('nav.propfirm'),
       link: "/propfirm",
     },
-    {
-      name: language === 'zh' ? '教育' : 'Education',
-      link: "/education",
-      hasDropdown: true,
-      dropdownItems: [
-        { name: language === 'zh' ? '基础知识' : 'Basics', link: '/education#basics' },
-        { name: language === 'zh' ? '技术分析' : 'Technical Analysis', link: '/education#technical' },
-        { name: language === 'zh' ? '交易策略' : 'Trading Strategies', link: '/education#strategies' },
-        { name: language === 'zh' ? '风险管理' : 'Risk Management', link: '/education#risk' },
-      ]
-    },
-    {
-      name: language === 'zh' ? '新闻' : 'News',
-      link: "/news",
-    },
 
     {
       name: t('nav.liveTrading'),
       link: "/live-trading",
     },
     {
-      name: t('nav.blog'),
-      link: "/splan/blog",
-    },
-    {
       name: t('nav.psychology'),
       link: "/splan/psychology-test",
-    },
-    {
-      name: t('nav.dashboard'),
-      link: "/dashboard",
-    },
-    {
-      name: language === 'zh' ? '日历' : 'Calendar',
-      link: "/economic-calendar",
     },
     {
       name: language === 'zh' ? '天梯' : 'Leaderboard',
       link: "/top-traders",
     },
 
-    {
-      name: t('nav.faq'),
-      link: "/splan/faq",
-    },
     {
       name: t('nav.membership'),
       link: "/splan/donate",
@@ -140,81 +112,31 @@ export default function UnifiedNavbar() {
     >
       <div className="max-w-[1400px] mx-auto px-2">
         <div className="flex items-center justify-between h-16">
-          {/* Logo - 靠左 */}
           <div className="flex items-center space-x-4">
-            <LocaleLink href="/" className="flex items-center group">
-              <span className="text-2xl"><BrandName inNavbar={true} /></span>
-            </LocaleLink>
-
-            {/* Desktop Navigation - 紧跟 Logo */}
+            {/* Desktop Navigation */}
             <div className="hidden md:flex items-center">
               {navItems.map((item, index) => (
-                <div
+                <LocaleLink
                   key={index}
-                  className="relative"
-                  onMouseEnter={() => item.hasDropdown && setOpenDropdown(item.name)}
-                  onMouseLeave={() => item.hasDropdown && setOpenDropdown(null)}
+                  href={item.link}
+                  className="relative px-2.5 py-2 text-sm font-medium transition-colors group"
                 >
-                  <LocaleLink
-                    href={item.link}
-                    className="relative px-2.5 py-2 text-sm font-medium transition-colors group flex items-center gap-1"
+                  <span
+                    className={`relative z-10 ${isActive(item.link)
+                      ? 'text-white font-bold'
+                      : 'text-gray-400 group-hover:text-white'
+                      }`}
                   >
-                    <span
-                      className={`relative z-10 ${isActive(item.link)
-                        ? 'text-white font-bold'
-                        : 'text-gray-400 group-hover:text-white'
-                        }`}
-                    >
-                      {item.name}
-                    </span>
-                    {item.hasDropdown && (
-                      <svg
-                        className={`w-4 h-4 transition-transform ${openDropdown === item.name ? 'rotate-180' : ''
-                          } ${isActive(item.link)
-                            ? 'text-white'
-                            : 'text-gray-400 group-hover:text-white'
-                          }`}
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                      </svg>
-                    )}
-                    {isActive(item.link) && !item.hasDropdown && (
-                      <motion.div
-                        layoutId="navbar-indicator"
-                        className="absolute bottom-0 left-0 right-0 h-0.5 bg-red-600"
-                        transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
-                      />
-                    )}
-                  </LocaleLink>
-
-                  {/* Dropdown Menu */}
-                  {item.hasDropdown && item.dropdownItems && (
-                    <AnimatePresence>
-                      {openDropdown === item.name && (
-                        <motion.div
-                          initial={{ opacity: 0, y: -10 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          exit={{ opacity: 0, y: -10 }}
-                          transition={{ duration: 0.2 }}
-                          className="absolute top-full left-0 mt-1 w-56 bg-black border border-white/10 shadow-xl z-50"
-                        >
-                          {item.dropdownItems.map((dropdownItem, dropdownIndex) => (
-                            <LocaleLink
-                              key={dropdownIndex}
-                              href={dropdownItem.link}
-                              className="block px-4 py-3 text-sm text-gray-400 hover:bg-white/5 hover:text-white transition-colors border-b border-white/5 last:border-b-0"
-                            >
-                              {dropdownItem.name}
-                            </LocaleLink>
-                          ))}
-                        </motion.div>
-                      )}
-                    </AnimatePresence>
+                    {item.name}
+                  </span>
+                  {isActive(item.link) && (
+                    <motion.div
+                      layoutId="navbar-indicator"
+                      className="absolute bottom-0 left-0 right-0 h-0.5 bg-red-600"
+                      transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
+                    />
                   )}
-                </div>
+                </LocaleLink>
               ))}
             </div>
           </div>
@@ -298,53 +220,16 @@ export default function UnifiedNavbar() {
           >
             <div className="px-4 py-4 space-y-2">
               {navItems.map((item, index) => (
-                <div key={index}>
-                  {item.hasDropdown ? (
-                    <div>
-                      <button
-                        onClick={() => setOpenDropdown(openDropdown === item.name ? null : item.name)}
-                        className={`w-full flex items-center justify-between px-4 py-3 text-sm font-medium transition-colors ${isActive(item.link)
-                          ? 'bg-white/10 text-white font-bold'
-                          : 'text-gray-400 hover:bg-white/5 hover:text-white'
-                          }`}
-                      >
-                        <span>{item.name}</span>
-                        <svg
-                          className={`w-4 h-4 transition-transform ${openDropdown === item.name ? 'rotate-180' : ''
-                            }`}
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                        </svg>
-                      </button>
-                      {openDropdown === item.name && item.dropdownItems && (
-                        <div className="pl-4 mt-1 space-y-1">
-                          {item.dropdownItems.map((dropdownItem, dropdownIndex) => (
-                            <LocaleLink
-                              key={dropdownIndex}
-                              href={dropdownItem.link}
-                              className="block px-4 py-2 text-sm text-gray-400 hover:bg-white/5 hover:text-white transition-colors"
-                            >
-                              {dropdownItem.name}
-                            </LocaleLink>
-                          ))}
-                        </div>
-                      )}
-                    </div>
-                  ) : (
-                    <LocaleLink
-                      href={item.link}
-                      className={`block px-4 py-3 text-sm font-medium transition-colors ${isActive(item.link)
-                        ? 'bg-white/10 text-white font-bold'
-                        : 'text-gray-400 hover:bg-white/5 hover:text-white'
-                        }`}
-                    >
-                      {item.name}
-                    </LocaleLink>
-                  )}
-                </div>
+                <LocaleLink
+                  key={index}
+                  href={item.link}
+                  className={`block px-4 py-3 text-sm font-medium transition-colors ${isActive(item.link)
+                    ? 'bg-white/10 text-white font-bold'
+                    : 'text-gray-400 hover:bg-white/5 hover:text-white'
+                    }`}
+                >
+                  {item.name}
+                </LocaleLink>
               ))}
 
               {/* Mobile Language Toggle */}

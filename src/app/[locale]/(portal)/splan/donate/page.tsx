@@ -69,7 +69,7 @@ export default function DonatePage() {
           className="relative z-20 text-center px-6"
         >
           <div className="mb-6 flex justify-center">
-            <span className="px-4 py-1.5 border border-[#ff102a]/30 bg-[#ff102a]/10 text-[#ff102a] text-xs font-bold tracking-[0.3em] uppercase rounded-full backdrop-blur-md">
+            <span className="px-4 py-1.5 border border-[#ff102a]/30 bg-[#ff102a]/10 text-[#ff102a] text-xs font-bold tracking-[0.3em] uppercase backdrop-blur-md">
               {t('donate.hero.badge')}
             </span>
           </div>

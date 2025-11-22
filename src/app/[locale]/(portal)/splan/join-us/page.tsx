@@ -28,7 +28,7 @@ export default function JoinUsPage() {
         >
           <div className="mb-6 flex justify-center">
             <span className="px-4 py-1.5 border border-[#ff102a]/30 bg-[#ff102a]/10 text-[#ff102a] text-xs font-bold tracking-[0.3em] uppercase  backdrop-blur-md">
-              {isZh ? '精英交易员计划' : 'ELITE TRADER PROGRAM'}
+              {isZh ? '免费孵化器' : 'FREE INCUBATOR'}
             </span>
           </div>
 

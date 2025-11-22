@@ -125,18 +125,18 @@ export default function SplanFooter() {
               </li>
               <li>
                 <LocaleLink href="/education" className="text-gray-400 hover:text-white transition-colors">
-                  {language === 'zh' ? '教育' : 'Education'}
+                  {language === 'zh' ? '教育中心' : 'Education Center'}
                 </LocaleLink>
               </li>
               <li>
                 <LocaleLink href="/news" className="text-gray-400 hover:text-white transition-colors">
-                  {language === 'zh' ? '新闻' : 'News'}
+                  {language === 'zh' ? '外汇新闻' : 'Forex News'}
                 </LocaleLink>
               </li>
 
               <li>
                 <LocaleLink href="/splan/blog" className="text-gray-400 hover:text-white transition-colors">
-                  {t('nav.blog')}
+                  {language === 'zh' ? '官方博客' : 'Official Blog'}
                 </LocaleLink>
               </li>
               <li>
@@ -146,12 +146,12 @@ export default function SplanFooter() {
               </li>
               <li>
                 <LocaleLink href="/dashboard" className="text-gray-400 hover:text-white transition-colors">
-                  {t('nav.dashboard')}
+                  {language === 'zh' ? '量化控制台' : 'Quant Dashboard'}
                 </LocaleLink>
               </li>
               <li>
                 <LocaleLink href="/economic-calendar" className="text-gray-400 hover:text-white transition-colors">
-                  {language === 'zh' ? '日历' : 'Calendar'}
+                  {language === 'zh' ? '经济日历' : 'Economic Calendar'}
                 </LocaleLink>
               </li>
               <li>
@@ -161,7 +161,7 @@ export default function SplanFooter() {
               </li>
               <li>
                 <LocaleLink href="/splan/faq" className="text-gray-400 hover:text-white transition-colors">
-                  {t('nav.faq')}
+                  {language === 'zh' ? '常见问题' : 'FAQs'}
                 </LocaleLink>
               </li>
             </ul>
@@ -297,40 +297,6 @@ export default function SplanFooter() {
                 </a>
                 <span className="text-xs text-gray-500 ml-2">{language === 'zh' ? '邀请码' : 'Code'}:</span>
                 <code className="text-xs bg-[#0a0a0a] px-2 py-0.5 text-gray-400 font-mono ml-1">REFQKEAYK</code>
-              </li>
-            </ul>
-
-            <h4 className="font-bold mb-4 mt-6">{t('footer.partners.platforms')}</h4>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a
-                  href="https://metaapi.cloud/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  MetaAPI
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.metatrader4.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  MetaTrader 4/5
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://metacopier.io/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  MetaCopier
-                </a>
               </li>
             </ul>
           </div>

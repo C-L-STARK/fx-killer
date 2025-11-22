@@ -6,6 +6,7 @@ import { parseVideoUrl, getPlatformName, type VideoEmbed } from '@/lib/videoEmbe
 import PremiumCTA from '@/components/custom/PremiumCTA';
 import EmailContactModal from '@/components/custom/EmailContactModal';
 import LiveOrdersDisplay from '@/components/trading/LiveOrdersDisplay';
+import { motion } from 'motion/react';
 
 interface MatrixMember {
   id: number;
@@ -38,32 +39,50 @@ export default function LiveTradingClient({ members }: LiveTradingClientProps) {
   });
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
-      {/* Hero Section - Matching news page style */}
-      <div className="relative bg-black text-white border-b-2 border-[#ff102a] overflow-hidden">
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-[#ff102a] blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#ff102a] blur-3xl"></div>
-        </div>
+    <div className="min-h-screen bg-black text-white font-sans selection:bg-[#ff102a] selection:text-white overflow-x-hidden">
+      {/* Hero Section - Donate Style */}
+      <section className="relative h-[90vh] flex flex-col items-center justify-center overflow-hidden">
+        {/* Background Ambience */}
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,16,42,0.15),transparent_70%)]"></div>
+        <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black to-transparent z-10"></div>
 
-        <div className="relative max-w-6xl mx-auto px-6 py-24 text-center">
-          <div className="inline-block px-6 py-2 bg-[#ff102a]/10 border border-[#ff102a] backdrop-blur-sm mb-6">
-            <span className="text-sm font-semibold tracking-wider text-[#ff102a]">
-              {isZh ? '矩阵成员实盘' : 'Matrix Members Live Trading'}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="relative z-20 text-center px-6"
+        >
+          <div className="mb-6 flex justify-center">
+            <span className="px-4 py-1.5 border border-[#ff102a]/30 bg-[#ff102a]/10 text-[#ff102a] text-xs font-bold tracking-[0.3em] uppercase backdrop-blur-md">
+              {isZh ? '矩阵成员实盘' : 'MATRIX MEMBERS LIVE'}
             </span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="font-black">
-              {isZh ? '实盘直播' : 'Live Trading'}
+
+          <h1 className="text-6xl md:text-9xl font-black tracking-tighter uppercase leading-none mb-8">
+            <span className="block text-white mix-blend-difference">{isZh ? '实盘' : 'LIVE'}</span>
+            <span className="block text-transparent bg-clip-text bg-gradient-to-b from-[#ff102a] to-[#8a000e]">
+              {isZh ? '直播' : 'TRADING'}
             </span>
           </h1>
-          <p className="text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+
+          <p className="max-w-2xl mx-auto text-lg md:text-xl text-gray-400 leading-relaxed font-light">
             {isZh
               ? '观看汇刃矩阵成员的实时交易，学习专业交易决策'
               : 'Watch our matrix members trade live and learn professional decision-making'}
           </p>
-        </div>
-      </div>
+        </motion.div>
+
+        {/* Scroll Indicator */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1, duration: 1 }}
+          className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 z-20"
+        >
+          <span className="text-[10px] uppercase tracking-[0.2em] text-gray-600">{isZh ? '向下滚动探索' : 'SCROLL TO EXPLORE'}</span>
+          <div className="w-[1px] h-12 bg-gradient-to-b from-[#ff102a] to-transparent"></div>
+        </motion.div>
+      </section>
 
       {/* Matrix Grid - Full Width Mosaic, No Gaps */}
       <div className="grid grid-cols-1 lg:grid-cols-3 bg-black">

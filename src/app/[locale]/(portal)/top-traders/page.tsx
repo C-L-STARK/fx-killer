@@ -107,52 +107,70 @@ export default function TopTradersPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-black">
-      {/* Hero Section */}
-      <div className="relative bg-black text-white border-b-2 border-[#ff102a] overflow-hidden">
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-[#ff102a] blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#ff102a] blur-3xl"></div>
-        </div>
+    <div className="min-h-screen bg-black text-white font-sans selection:bg-[#ff102a] selection:text-white overflow-x-hidden">
+      {/* Hero Section - Donate Style */}
+      <section className="relative h-[90vh] flex flex-col items-center justify-center overflow-hidden">
+        {/* Background Ambience */}
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,16,42,0.15),transparent_70%)]"></div>
+        <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black to-transparent z-10"></div>
 
-        <div className="relative max-w-6xl mx-auto px-6 py-24 text-center">
-          <div className="inline-block px-6 py-2 bg-[#ff102a]/10 border border-[#ff102a] backdrop-blur-sm mb-6">
-            <span className="text-sm font-semibold tracking-wider text-[#ff102a]">
-              {isZh ? '交易员排行榜' : 'Trader Leaderboard'}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="relative z-20 text-center px-6"
+        >
+          <div className="mb-6 flex justify-center">
+            <span className="px-4 py-1.5 border border-[#ff102a]/30 bg-[#ff102a]/10 text-[#ff102a] text-xs font-bold tracking-[0.3em] uppercase backdrop-blur-md">
+              {isZh ? '交易员排行榜' : 'TRADER LEADERBOARD'}
             </span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="font-black">
-              {isZh ? '天梯' : 'Leaderboard'}
+
+          <h1 className="text-6xl md:text-9xl font-black tracking-tighter uppercase leading-none mb-8">
+            <span className="block text-white mix-blend-difference">{isZh ? '天梯' : 'TOP'}</span>
+            <span className="block text-transparent bg-clip-text bg-gradient-to-b from-[#ff102a] to-[#8a000e]">
+              {isZh ? '排行榜' : 'TRADERS'}
             </span>
           </h1>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+
+          <p className="max-w-2xl mx-auto text-lg md:text-xl text-gray-400 leading-relaxed font-light">
             {isZh
               ? '顶尖交易员季度排名，见证卓越交易表现'
               : 'Top traders quarterly ranking, witness excellent trading performance'}
           </p>
-          <p className="text-sm text-gray-400 mt-4">
-            {isZh ? '数据每季度更新一次' : 'Data updated quarterly'}
-          </p>
 
           {/* Stats */}
-          <div className="mt-8 flex flex-wrap justify-center gap-4 text-sm">
-            <div className="px-4 py-2 bg-white/5 border border-white/20 backdrop-blur-sm">
-              <span className="text-white font-bold">{traders.length}</span> {isZh ? '位交易员' : 'Traders'}
+          <div className="mt-8 flex flex-wrap justify-center gap-6">
+            <div className="px-6 py-3 bg-white/5 border border-white/10 backdrop-blur-sm">
+              <div className="text-3xl font-bold text-white mb-1">{traders.length}</div>
+              <div className="text-xs text-gray-500 uppercase tracking-wider">{isZh ? '位交易员' : 'Traders'}</div>
             </div>
-            <div className="px-4 py-2 bg-white/5 border border-white/20 backdrop-blur-sm">
-              <span className="text-white font-bold">
+            <div className="px-6 py-3 bg-white/5 border border-white/10 backdrop-blur-sm">
+              <div className="text-3xl font-bold text-white mb-1">
                 {formatNumber(traders.reduce((sum, t) => sum + t.monthlyReturn, 0) / traders.length)}%
-              </span> {isZh ? '平均月收益' : 'Avg Monthly Return'}
+              </div>
+              <div className="text-xs text-gray-500 uppercase tracking-wider">{isZh ? '平均月收益' : 'Avg Monthly'}</div>
             </div>
-            <div className="px-4 py-2 bg-white/5 border border-white/20 backdrop-blur-sm">
-              <span className="text-white font-bold">
+            <div className="px-6 py-3 bg-white/5 border border-white/10 backdrop-blur-sm">
+              <div className="text-3xl font-bold text-white mb-1">
                 {formatNumber(traders.reduce((sum, t) => sum + t.winRate, 0) / traders.length)}%
-              </span> {isZh ? '平均胜率' : 'Avg Win Rate'}
+              </div>
+              <div className="text-xs text-gray-500 uppercase tracking-wider">{isZh ? '平均胜率' : 'Avg Win Rate'}</div>
             </div>
           </div>
-        </div>
-      </div>
+        </motion.div>
+
+        {/* Scroll Indicator */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1, duration: 1 }}
+          className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 z-20"
+        >
+          <span className="text-[10px] uppercase tracking-[0.2em] text-gray-600">{isZh ? '向下滚动探索' : 'SCROLL TO EXPLORE'}</span>
+          <div className="w-[1px] h-12 bg-gradient-to-b from-[#ff102a] to-transparent"></div>
+        </motion.div>
+      </section>
 
       {/* Leaderboard */}
       <div className="max-w-7xl mx-auto px-6 py-8">

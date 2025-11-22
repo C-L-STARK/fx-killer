@@ -656,70 +656,66 @@ export default function PsychologyTestPage() {
           {screen === 'welcome' && (
             <motion.div
               key="welcome"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              className="bg-[#0a0a0a] p-12 border border-white/10 text-center max-w-3xl mx-auto"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="min-h-screen flex flex-col items-center justify-center relative"
             >
-              <div className="inline-flex p-6 bg-[#ff102a]/10 mb-8 border border-[#ff102a]/30">
-                <svg className="w-16 h-16 text-[#ff102a]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z" />
-                  <path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z" />
-                </svg>
-              </div>
-              <h1 className="text-4xl font-bold mb-3 text-white">{t('psytest.welcome.title')}</h1>
-              <p className="text-xl text-gray-400 mb-10">{t('psytest.welcome.subtitle')}</p>
+              {/* Hero Section - Donate Style */}
+              <div className="relative w-full flex flex-col items-center justify-center">
+                {/* Background Ambience */}
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,16,42,0.15),transparent_70%)] pointer-events-none"></div>
 
-              <div className="grid grid-cols-3 gap-6 mb-10">
-                <div className="flex items-center gap-4 p-4 bg-black border border-white/10">
-                  <div className="w-10 h-10 bg-[#ff102a] flex items-center justify-center">
-                    <span className="text-white font-bold text-sm">{t('psytest.welcome.duration.label')}</span>
+                <motion.div
+                  initial={{ opacity: 0, y: 30 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, ease: "easeOut" }}
+                  className="relative z-20 text-center px-6"
+                >
+                  <div className="mb-6 flex justify-center">
+                    <span className="px-4 py-1.5 border border-[#ff102a]/30 bg-[#ff102a]/10 text-[#ff102a] text-xs font-bold tracking-[0.3em] uppercase backdrop-blur-md">
+                      {language === 'zh' ? '交易员心理测评' : 'TRADER PSYCHOLOGY TEST'}
+                    </span>
                   </div>
-                  <div className="text-left">
-                    <h3 className="text-xs font-semibold text-gray-400 uppercase">{t('psytest.welcome.duration.title')}</h3>
-                    <p className="text-base font-semibold text-white">{t('psytest.welcome.duration.value')}</p>
-                  </div>
-                </div>
-                <div className="flex items-center gap-4 p-4 bg-black border border-white/10">
-                  <div className="w-10 h-10 bg-[#ff102a] flex items-center justify-center">
-                    <span className="text-white font-bold text-sm">{t('psytest.welcome.questions.label')}</span>
-                  </div>
-                  <div className="text-left">
-                    <h3 className="text-xs font-semibold text-gray-400 uppercase">{t('psytest.welcome.questions.title')}</h3>
-                    <p className="text-base font-semibold text-white">{t('psytest.welcome.questions.value')}</p>
-                  </div>
-                </div>
-                <div className="flex items-center gap-4 p-4 bg-black border border-white/10">
-                  <div className="w-10 h-10 bg-[#ff102a] flex items-center justify-center">
-                    <span className="text-white font-bold text-sm">{t('psytest.welcome.dimensions.label')}</span>
-                  </div>
-                  <div className="text-left">
-                    <h3 className="text-xs font-semibold text-gray-400 uppercase">{t('psytest.welcome.dimensions.title')}</h3>
-                    <p className="text-base font-semibold text-white">{t('psytest.welcome.dimensions.value')}</p>
-                  </div>
-                </div>
-              </div>
 
-              <div className="bg-black p-6 mb-10 text-left border border-white/10">
-                <h3 className="text-base font-bold mb-4 text-white">{t('psytest.welcome.includes')}</h3>
-                <div className="grid grid-cols-2 gap-3">
-                  {Object.values(DIMENSIONS).map((dim, i) => (
-                    <div key={i} className="flex items-center gap-2 text-sm text-gray-300">
-                      <span className="bg-[#ff102a] text-white px-2 py-1 text-xs font-bold">{dim.icon}</span>
-                      <span>{dim.name}</span>
+                  <h1 className="text-6xl md:text-9xl font-black tracking-tighter uppercase leading-none mb-8">
+                    <span className="block text-white mix-blend-difference">{language === 'zh' ? '交易员' : 'TRADER'}</span>
+                    <span className="block text-transparent bg-clip-text bg-gradient-to-b from-[#ff102a] to-[#8a000e]">
+                      {language === 'zh' ? '心理素质' : 'PSYCHOLOGY'}
+                    </span>
+                  </h1>
+
+                  <p className="max-w-2xl mx-auto text-lg md:text-xl text-gray-400 leading-relaxed font-light mb-12">
+                    {t('psytest.welcome.subtitle')}
+                  </p>
+
+                  {/* Stats / Info Cards */}
+                  <div className="flex flex-wrap justify-center gap-6 mb-12">
+                    <div className="px-6 py-3 bg-white/5 border border-white/10 backdrop-blur-sm">
+                      <div className="text-3xl font-bold text-white mb-1">{t('psytest.welcome.duration.value')}</div>
+                      <div className="text-xs text-gray-500 uppercase tracking-wider">{t('psytest.welcome.duration.title')}</div>
                     </div>
-                  ))}
-                </div>
+                    <div className="px-6 py-3 bg-white/5 border border-white/10 backdrop-blur-sm">
+                      <div className="text-3xl font-bold text-white mb-1">{t('psytest.welcome.questions.value')}</div>
+                      <div className="text-xs text-gray-500 uppercase tracking-wider">{t('psytest.welcome.questions.title')}</div>
+                    </div>
+                    <div className="px-6 py-3 bg-white/5 border border-white/10 backdrop-blur-sm">
+                      <div className="text-3xl font-bold text-white mb-1">{t('psytest.welcome.dimensions.value')}</div>
+                      <div className="text-xs text-gray-500 uppercase tracking-wider">{t('psytest.welcome.dimensions.title')}</div>
+                    </div>
+                  </div>
+
+                  {/* CTA Button */}
+                  <ShineButton
+                    onClick={startTest}
+                    className="px-12 py-5 bg-[#ff102a] text-white text-xl font-bold tracking-widest uppercase shadow-[0_0_30px_rgba(255,16,42,0.4)] hover:bg-[#eb383e] hover:shadow-[0_0_50px_rgba(255,16,42,0.6)] transition-all duration-300"
+                  >
+                    {t('psytest.welcome.start')}
+                  </ShineButton>
+
+                  <p className="mt-8 text-sm text-gray-500 italic opacity-60">{t('psytest.welcome.note')}</p>
+                </motion.div>
               </div>
-
-              <ShineButton
-                onClick={startTest}
-                className="px-10 py-4 bg-[#ff102a] text-white text-lg font-semibold shadow-[0_0_20px_rgba(255,16,42,0.4)] hover:bg-[#eb383e] transition-colors"
-              >
-                {t('psytest.welcome.start')}
-              </ShineButton>
-
-              <p className="mt-6 text-sm text-gray-500 italic">{t('psytest.welcome.note')}</p>
             </motion.div>
           )}
 
@@ -768,8 +764,8 @@ export default function PsychologyTestPage() {
                       onClick={() => selectOption(index)}
                       whileHover={{ x: 8 }}
                       className={`w-full p-5 text-left border transition-all ${answers[currentQuestionIndex] === index
-                          ? 'bg-[#ff102a] border-[#ff102a] text-white font-semibold'
-                          : 'bg-black border-white/10 text-gray-300 hover:bg-white/5 hover:border-white/30'
+                        ? 'bg-[#ff102a] border-[#ff102a] text-white font-semibold'
+                        : 'bg-black border-white/10 text-gray-300 hover:bg-white/5 hover:border-white/30'
                         }`}
                     >
                       {option.text}
