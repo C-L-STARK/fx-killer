@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-22T21:34:52.105Z",
+  "price": {
+    "close": "0.56138778",
+    "high": "0.56167150",
+    "low": "0.56119871",
+    "open": "0.56135625",
+    "change": "0.00",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 57.89084,
+    "macd": 0.00023758786,
+    "macd_signal": 0.0000081302021,
+    "sma20": 0.56022696
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理，谨慎观望]",
+      "content": "当前纽元/美元(NZD/USD)的价格在0.5613附近震荡整理，未能突破近期的高点0.5617，显示出市场对进一步上涨的犹豫。整体趋势上，短期内可能维持横向震荡，投资者需保持警惕，等待更明确的突破信号。\n\n技术指标方面，尽管MACD略显正向，但信号线缺乏足够的确认，RSI数据尚不可用，无法提供明确的超买或超卖信号。20日简单移动平均线(SMA)位于0.5602，作为短期支撑位，若价格跌破该水平，可能会进一步下探。\n\n在支撑和阻力位的分析中，0.5617为近期的强阻力位，若价格能有效突破，可能会吸引更多买盘。相反，0.5612和0.5600则是关键支撑位，若跌破则需谨慎考虑进一步下行的风险。\n\n交易建议方面，建议投资者在当前区间内采取观望策略，等待价格突破重要阻力或支撑位后再进行操作。短期内，可以考虑在接近支撑位时逐步布局多单，而在遇到阻力时则适当减仓或采取空单策略。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.56138778, showing a stable price action with a 24-hour change of 0.00%. The absence of significant movement indicates a period of consolidation, with the market seemingly respecting the established range. The recent high of 0.56167150 and low of 0.56119871 suggest that traders are observing key levels, which will be critical for determining the next directional move. A breakout above the recent high may indicate bullish momentum, while a drop below the low could signal a bearish shift.\n\nIn terms of indicators, the lack of an available RSI(14) limits the assessment of overbought or oversold conditions. However, the MACD value of 0.00023758786 suggests that momentum is currently neutral, which aligns with the recent price stability. The Simple Moving Average (SMA) at 20 periods, sitting at 0.56022696, can serve as a dynamic support level. A close above this SMA could reinforce bullish sentiment, while a failure to hold above may attract selling pressure.\n\nTraders should closely monitor the price action around the identified support and resistance levels. A clear breakout above 0.56167150 could provide a buying opportunity, targeting further resistance at 0.5630, while a break below 0.56119871 may warrant a short position, with potential downside targets at 0.5590. The current range-bound behavior indicates that volatility may increase once these levels are breached, making it essential to maintain a disciplined approach.\n\nGiven the current market environment, it is advisable for traders to adopt a wait-and-see approach until a definitive breakout occurs. Setting stop-loss orders around the identified support and resistance levels can help manage risk effectively. As always, keeping an eye on broader economic indicators and geopolitical developments will further inform trading decisions in this pair."
+    }
+  }
+}

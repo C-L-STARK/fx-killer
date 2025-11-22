@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-22T21:36:09.712Z",
+  "price": {
+    "close": "4065.96908",
+    "high": "4066.07742",
+    "low": "4065.82591",
+    "open": "4065.88506",
+    "change": "0.00",
+    "datetime": "2025-11-22 23:00:00"
+  },
+  "indicators": {
+    "rsi": 49.3214,
+    "macd": -0.2356506,
+    "macd_signal": 0.027882729,
+    "sma20": 4068.63416
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，短期承压]",
+      "content": "当前黄金/美元(XAU/USD)价格在4065.96附近震荡整理，整体趋势显得较为平稳。虽然价格未能突破前期高点4068.63，但也未出现明显的下行趋势。投资者需关注短期内的价格波动，判断是否会形成新的交易机会。\n\n从技术指标来看，MACD处于负值区域，显示出短期内卖方力量相对较强。虽然RSI数据缺失，但结合目前的价格走势，市场情绪略显谨慎。同时，SMA(20)位于4068.63，成为了短期内的重要阻力位，若价格继续受到压制，可能会引发进一步回调。\n\n支撑位方面，4065.82是当前的关键支撑，若下破该水平，可能会加大市场的卖压，促使价格向下测试更低的支撑位。反之，若突破4068.63，可能会引发短期反弹，吸引更多买盘入场。\n\n基于目前的市场情况，建议投资者采取观望策略，密切关注价格在关键支撑和阻力位的表现。若价格突破重要技术水平，可考虑适时进场，反之则需谨慎对待潜在的回调风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The XAU/USD pair is currently demonstrating a tight trading range, with a latest price of 4065.96908. The lack of significant movement in the last 24 hours, evidenced by a 0.00% change, indicates a period of consolidation. This may suggest that traders are waiting for new catalysts to drive the price either higher or lower. The recent high of 4066.07742 and low of 4065.82591 illustrate this narrow bandwidth, hinting at indecision in the market.\n\nFrom a technical perspective, the absence of a calculated RSI(14) limits our ability to assess momentum. However, the MACD reading of -0.23565060 indicates bearish momentum, suggesting that sellers may have the upper hand, albeit weakly. The SMA(20) at 4068.63416 serves as a potential dynamic resistance level. If the price can break above this moving average convincingly, it may signal a shift in momentum towards a bullish outlook.\n\nKey support levels can be identified just below the current price, particularly around the recent low of 4065.82591. A breach of this level could lead to further downward pressure, potentially targeting lower support zones. Conversely, if the price maintains above this level, it could attract buyers looking to capitalize on a potential rebound towards the SMA(20) or higher.\n\nTraders should remain cautious, monitoring for breakout opportunities. A sustained move above the SMA(20) could present a buying opportunity, while a close below the support level may indicate a selling signal. Given the current market dynamics, a wait-and-see approach may be prudent until clearer trends emerge."
+    }
+  }
+}

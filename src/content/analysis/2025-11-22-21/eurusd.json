@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-22T21:31:37.662Z",
+  "price": {
+    "close": "1.15125",
+    "high": "1.1521",
+    "low": "1.15125",
+    "open": "1.15174",
+    "change": "-0.04",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 44.11458,
+    "macd": -0.00060257835,
+    "macd_signal": -0.00055962545,
+    "sma20": 1.15221
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[当前趋势偏弱]",
+      "content": "当前欧元/美元（EUR/USD）在1.15125附近波动，显示出短期内的弱势。过去24小时价格变化仅为-0.04%，表明市场缺乏方向性，投资者可能在等待新的经济数据或市场事件以驱动价格。高点1.1521和低点1.15125的区间限制了短期内的波动。\n\n技术指标方面，尽管RSI未提供，但MACD的负值表明卖方占据主导地位，短期内可能继续承压。20日简单移动平均线（SMA）在1.15221附近，显示出当前价格处于其下方，进一步确认了市场的疲软趋势。\n\n从支撑和阻力的角度来看，1.1500是一个重要的心理支撑位，若突破，可能会进一步下探至1.1480区域。相反，若价格反弹并突破1.1521，则可能测试更高的阻力位。交易者应密切关注这些关键水平，以制定相应的交易策略。\n\n综合考虑，建议短期内采取观望态度，等待价格突破关键支撑或阻力位后再进行交易。若市场继续显示出下行趋势，可以考虑适度做空，同时设置止损以控制风险。相反，若出现反弹，则可寻找逢低买入的机会。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD pair is currently trading at 1.15125, reflecting a slight decline of 0.04% over the last 24 hours. The price action appears to be consolidating near the recent high of 1.1521, suggesting a potential resistance level. The absence of significant momentum to break above this level indicates a cautious market sentiment. Traders should closely monitor price behavior around this area, as a rejection could lead to further downside pressure, while a breakout may signal renewed bullish momentum.\n\nIn terms of technical indicators, the MACD is currently negative at -0.00060257835, which signals a bearish trend in the short term. This could imply that sellers are gaining control of the market, particularly if the price continues to hover near the SMA(20) of 1.15221. Without a positive divergence in the RSI, should it become available in future readings, the bearish outlook could consolidate further. Traders should remain vigilant for any crossovers or shifts in these indicators that could signify a change in momentum.\n\nSupport levels are key for the EUR/USD pair, with the immediate support likely around the psychological level of 1.1500. A break below this level may open the door for further declines, targeting lower support levels at 1.1480 and 1.1450. Conversely, should the price find support at 1.1500, it may lead to a potential rebound towards the resistance at 1.1521. This duality of support and resistance presents a clear trading range for short-term strategies.\n\nFor traders considering entry points, a cautious approach is advised. A sell position could be considered if the price fails to maintain above the 1.1500 support, particularly if indicators continue to suggest weakness. On the other hand, a successful break above 1.1521 may warrant a buying opportunity, especially if accompanied by a bullish signal from the MACD or a developing positive RSI. As always, risk management strategies should be employed to protect against unforeseen volatility."
+    }
+  }
+}
