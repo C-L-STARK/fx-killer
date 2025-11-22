@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-22T13:41:50.677Z",
+  "price": {
+    "close": "4065.96908",
+    "high": "4066.07742",
+    "low": "4065.82591",
+    "open": "4065.88506",
+    "change": "0.00",
+    "datetime": "2025-11-22 23:00:00"
+  },
+  "indicators": {
+    "rsi": 49.3214,
+    "macd": -0.2356506,
+    "macd_signal": 0.027882729,
+    "sma20": 4068.63416
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理趋势]",
+      "content": "当前黄金/美元(XAU/USD)价格在4065.97附近波动，整体呈现震荡整理的趋势。虽然24小时变化为0.00%，但高点和低点的微幅波动显示出市场情绪的谨慎。短期内，市场缺乏明确的方向性，投资者仍需关注宏观经济因素对金价的潜在影响。\n\n从技术指标来看，当前RSI尚未提供清晰信号，而MACD显示出负值，表明卖方力量相对增强。SMA(20)处于4068.63，距离当前价格仅有小幅差距，可能成为短期内的阻力位。若价格能够突破此水平，可能会引发进一步的上涨动能。\n\n在支撑和阻力方面，当前支撑位在4065.83附近，而阻力位则在4068.63。投资者应密切关注这些关键水平，以便在价格突破时及时调整策略。若价格回落至支撑位并企稳，短线交易者可以考虑低位买入。\n\n总体而言，黄金/美元的交易策略应以谨慎为主，建议投资者在价格接近支撑位时寻求买入机会，同时在接近阻力位时考虑获利了结。保持灵活应变的态度，将有助于在市场波动中把握交易机会。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current market price of XAU/USD stands at 4065.97, reflecting a stable trading environment with a 24-hour change of 0.00%. The price has remained within a narrow range, hitting a high of 4066.08 and a low of 4065.83. This consolidation phase suggests indecision among traders, indicating that a breakout may be imminent. Traders should closely monitor upcoming price action for potential directional cues, as the current stability could precede a significant move.\n\nFrom a technical perspective, the Simple Moving Average (SMA) at 20 periods is positioned at 4068.63, which serves as a potential resistance level. Given the proximity of the price to this SMA, a move above this level could signal bullish momentum, with potential targets set at 4075 and 4080. Conversely, if the price fails to break above this SMA and instead retraces, support can be identified near the lower range of 4065.83, with further support anticipated around 4060.\n\nThe MACD is currently negative at -0.236, indicating a bearish trend momentum, although the absence of a defined signal line prevents a comprehensive interpretation. The RSI, while not available, would typically provide insight into overbought or oversold conditions. Traders should remain vigilant for any shifts in these indicators, as they could reaffirm the prevailing trend or signal a potential reversal.\n\nIn terms of trading strategy, a cautious approach is advisable at this juncture. For those looking to enter a long position, a confirmed breakout above the 20-period SMA with increased volume could provide a favorable entry point. Conversely, if the price breaks below the identified support levels, short positions may be warranted, with targets set accordingly. Keeping an eye on market news and economic events will also be crucial in shaping trading decisions in this environment."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-22T13:38:55.033Z",
+  "price": {
+    "close": "0.64553",
+    "high": "0.64596",
+    "low": "0.64545",
+    "open": "0.6457",
+    "change": "-0.03",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 52.13583,
+    "macd": -0.00010946957,
+    "macd_signal": -0.00039599707,
+    "sma20": 0.644648
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理，谨慎观察]",
+      "content": "当前澳元/美元（AUD/USD）在0.64553附近交易，24小时变化幅度较小，显示出市场情绪相对谨慎。价格在高点0.64596和低点0.64545之间波动，说明短期内市场缺乏明确的方向。整体来看，澳元兑美元的趋势呈现出震荡整理的特征，短期内可能会继续在这个区间内反复。\n\n从技术指标分析来看，尽管RSI和MACD数据尚缺失，但通过SMA(20)的值0.64464800可以看出，当前价格略高于短期均线，表明市场可能存在一定的支撑力度。如果后续价格持续维持在该均线之上，可能会吸引更多买盘进入，推动价格向上突破。\n\n在支撑和阻力位方面，当前支撑位可以设定在0.64545，而阻力位则在0.64596附近。如果价格突破这些关键水平，将为后续的交易提供更明确的方向。投资者应密切关注这两个价位的变动，结合其他技术指标作出相应的判断。\n\n综合考虑，建议交易者在当前市场环境下采取谨慎的态度。可以在接近支撑位时考虑小幅买入，而在接近阻力位时则考虑卖出或观望，避免在无明显趋势的情况下进行过度交易，以降低风险。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD currency pair is currently exhibiting a slight bearish trend, with the latest price at 0.64553, reflecting a minor 24-hour change of -0.03%. The recent high and low of 0.64596 and 0.64545, respectively, indicate a narrow trading range, which may suggest a consolidation phase. This behavior often precedes significant price movements, and traders should remain vigilant for potential breakouts in either direction.\n\nIn terms of indicators, the absence of the Relative Strength Index (RSI) limits our ability to assess overbought or oversold conditions. However, the MACD shows a value of -0.00010946957, indicating that momentum is currently weak. The Simple Moving Average (SMA) at 0.64464800 provides a crucial level to watch; any sustained trading below this average could signal further bearish pressure. Conversely, if the price manages to hold above this level, it may indicate a potential reversal or at least a temporary support.\n\nKey support levels are identified at 0.6440, where previous buying interest has been noted, while resistance can be seen at 0.6460. A break below the support may trigger further selling, leading to a test of lower levels, while a breach above resistance could open the door for a bullish recovery. This makes these levels critical for traders considering entry or exit points.\n\nFor trading strategies, a cautious approach is advisable given the current market conditions. Traders could consider setting sell orders near resistance at 0.6460, with stop-losses just above this level to manage risk. On the flip side, buying opportunities may arise if the price consolidates above the SMA and breaks the resistance, potentially targeting higher levels while maintaining strict risk management practices."
+    }
+  }
+}
