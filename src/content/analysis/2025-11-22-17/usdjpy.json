@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-22T17:34:40.505Z",
+  "price": {
+    "close": "156.37801",
+    "high": "156.50400",
+    "low": "156.29500",
+    "open": "156.37900",
+    "change": "-0.01",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 32.92665,
+    "macd": -0.21296168,
+    "macd_signal": -0.16667419,
+    "sma20": 156.7946
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[短期震荡，关注关键支撑与阻力]",
+      "content": "当前美元/日元（USD/JPY）交易于156.37801，短期内显示出震荡整理的迹象。价格在156.29500至156.50400区间内波动，显示出市场缺乏明确方向。若价格突破156.50400，则可能引发进一步上涨，而跌破156.29500则可能导致下行压力加大。\n\n技术指标方面，MACD为-0.21296168，表明市场动能较弱，空头势力尚存。由于RSI数据缺失，无法进一步分析超买或超卖状态。20日简单移动平均线（SMA）为156.79460，当前价格远低于此水平，显示出短期内的下行趋势仍有可能延续。\n\n支撑位方面，156.29500是关键支撑位，若跌破此位置，可能会引发更大幅度的回调。阻力位则在156.79460附近，若有反弹，需关注此区域的抛压情况。投资者应谨慎操作，关注市场情绪变化，并考虑在重要支撑位附近逐步建仓。\n\n建议交易者采取观望态度，待市场形成明确趋势后再进行操作。可以考虑在接近支撑位时做多，而在接近阻力位时做空。此外，保持对市场波动的敏感，适时调整策略，以应对可能的价格变动。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The current price of USD/JPY at 156.37801 reflects a slight decline of 0.01% over the last 24 hours, indicating a relatively stable short-term market. The recent high of 156.50400 and low of 156.29500 suggest the pair is trading within a narrow range, which may indicate consolidation. This range-bound behavior can signal indecision among traders, making it crucial to watch for a breakout in either direction. A sustained move above 156.50 could indicate bullish momentum, while a drop below 156.30 might trigger bearish sentiment.\n\nIn terms of technical indicators, the MACD shows a negative value of -0.21296168, which implies that the bearish momentum may still be present. However, the absence of the RSI at this moment limits our ability to assess overbought or oversold conditions. The Simple Moving Average (SMA) at 20 periods sits at 156.79460, indicating that the market is currently trading below this level, which could act as a resistance point. Traders should monitor for a potential crossover of the MACD into positive territory as a signal for upward price movement.\n\nSupport levels can be identified around the recent low of 156.29500, which may provide a cushion against further declines. If this support fails, the next significant level to watch would be lower around 156.10. Conversely, resistance exists near 156.50, with the SMA acting as a further barrier. A break above this level would suggest a potential shift towards a bullish trend, encouraging long positions.\n\nIn light of the current market conditions, traders may consider a neutral to slightly bearish stance in the short term. A bounce off the support near 156.30 could offer a buying opportunity, whereas a confirmed break above 156.50 might warrant aggressive long positions. Conversely, if the price slips below 156.29500, it would be prudent to explore short positions as the market may seek lower support levels. Risk management remains essential in this environment of uncertainty."
+    }
+  }
+}

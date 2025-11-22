@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-22T17:36:40.005Z",
+  "price": {
+    "close": "0.56138778",
+    "high": "0.56167150",
+    "low": "0.56119871",
+    "open": "0.56135625",
+    "change": "0.00",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 57.89084,
+    "macd": 0.00023758786,
+    "macd_signal": 0.0000081302021,
+    "sma20": 0.56022696
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理，短期观望]",
+      "content": "当前纽元/美元(NZD/USD)的价格维持在0.5613附近，显示出震荡整理的趋势。该货币对在过去24小时内变动不大，表明市场缺乏明显的方向性。高点和低点的接近性进一步印证了这一点，投资者可能在等待更明确的市场信号。\n\n从技术指标来看，MACD显示出微弱的上行动能，当前值为0.000237，但缺乏足够的确认信号，RSI未提供可用数据。20日简单移动平均线(SMA)在0.5602附近，为当前价格提供了支持。若价格能稳定在此之上，可能会吸引买盘。\n\n在支撑与阻力方面，当前支撑位设在0.5602，而阻力位则在0.5617。若价格突破阻力位，可能会引发进一步的上涨趋势；反之，跌破支撑位则可能导致回调。因此，投资者需密切关注这些关键价位，以便及时调整交易策略。\n\n综合考虑，建议投资者在目前阶段保持观望，待价格突破关键支撑或阻力位后再做出入场决策。若出现明确的突破信号，方可考虑相应的进场或出场策略，以降低风险并提高收益潜力。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.56138778, showing a neutral stance with a 24-hour change of 0.00%. This price is situated close to the recent high of 0.56167150 and the low of 0.56119871, indicating a tight trading range. The price action suggests that the market is in a consolidation phase, lacking a clear directional bias. Traders should monitor for a breakout above 0.56167150, which could signal a potential upward trend, or a drop below 0.56119871, which would likely confirm a bearish momentum.\n\nThe absence of the RSI(14) data limits our ability to assess the momentum effectively. However, the MACD value of 0.00023758786 implies a slight bullish sentiment. This indicates that the short-term momentum may be gaining strength but requires confirmation from additional indicators. The SMA(20) at 0.56022696 serves as a critical support level; if the price holds above this, it could suggest a bullish continuation. Conversely, a breach below this moving average could lead to increased selling pressure.\n\nTraders should pay close attention to the established support at 0.56022696 and resistance at 0.56167150. A clear break above resistance would likely trigger buying interest, targeting levels around 0.5630. In contrast, a move below support could open the door for a retest of lower levels, potentially aiming for 0.5580. Given the current market indecision, a cautious approach with tight stop-loss orders is advisable.\n\nFor short-term strategies, consider waiting for a decisive breakout before entering positions. A breakout above resistance may provide a buying opportunity, while a breakdown below support could warrant selling. Maintaining a flexible trading plan will be essential as the market continues to develop, allowing traders to adapt to changing conditions."
+    }
+  }
+}

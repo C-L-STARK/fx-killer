@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-22T17:37:58.652Z",
+  "price": {
+    "close": "4065.96908",
+    "high": "4066.07742",
+    "low": "4065.82591",
+    "open": "4065.88506",
+    "change": "0.00",
+    "datetime": "2025-11-22 23:00:00"
+  },
+  "indicators": {
+    "rsi": 49.3214,
+    "macd": -0.2356506,
+    "macd_signal": 0.027882729,
+    "sma20": 4068.63416
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理趋势]",
+      "content": "当前黄金/美元(XAU/USD)的价格维持在4065.96908附近，显示出短期内的震荡整理趋势。由于价格在4066.07742和4065.82591之间波动，市场尚未形成明确的方向性突破。投资者应关注价格是否能够突破这一区间，以判断后续趋势的方向。\n\n从技术指标来看，RSI(14)暂无数据，但MACD显示为-0.23565060，表明市场动能较弱，可能预示着卖方占据主导地位。SMA(20)在4068.63416的位置上方，可能作为一个短期阻力位，若价格上行至该水平，则可能引发更多的卖出压力。\n\n支撑位方面，4065.82591是一个重要的短期支撑区域，若价格下破此位，则可能进一步下探。投资者应密切关注这一关键水平的表现，以防止进一步的回调风险。同时，阻力位在4068.63416附近，若价格突破该水平，则可考虑短期反弹交易。\n\n综合考虑，当前市场处于震荡整理阶段，建议投资者保持观望，待价格突破关键支撑或阻力位后再做进一步决策。同时，合理设置止损，以管理潜在风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The XAU/USD pair is currently trading at 4065.97, showing minimal volatility with a 24-hour change of 0.00%. The price action is tightly bound within a narrow range, as indicated by the high of 4066.08 and a low of 4065.83. This consolidation suggests that market participants are waiting for a significant catalyst to drive momentum. Without clear directional movement, traders should remain cautious and watch for breakouts beyond this range to determine the next trend.\n\nThe absence of a current RSI value complicates the analysis of momentum, but the MACD reading of -0.2356 indicates a bearish sentiment in the market. This negative value signals that recent price action has been weaker than the historical average, suggesting potential selling pressure. Traders should consider this bearish outlook while monitoring the price for any signs of reversal or strength that could emerge from oversold conditions if a rally occurs.\n\nIn terms of support and resistance levels, the immediate support appears to be around the recent low of 4065.83, while resistance is identified at the SMA(20) level of 4068.63. Should the price break above the SMA, it may attract buyers, leading to a test of higher levels. Conversely, a move below the support level could trigger further selling, potentially driving the price lower. Traders might look for confirmation of these levels with additional indicators or volume analysis.\n\nFor trading strategies, a cautious approach is advisable. Traders could consider entering long positions if the price convincingly breaks above the SMA and shows increasing buying volume. Conversely, a short position may be warranted if the price breaches the support level, indicating a potential downward trend. Overall, maintaining a watchful eye on market developments and economic news is essential for making informed trading decisions in this uncertain environment."
+    }
+  }
+}
