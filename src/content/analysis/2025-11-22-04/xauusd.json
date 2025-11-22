@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-22T04:17:27.796Z",
+  "price": {
+    "close": "4065.90179",
+    "high": "4066.07643",
+    "low": "4065.83253",
+    "open": "4065.89317",
+    "change": "0.00",
+    "datetime": "2025-11-22 15:00:00"
+  },
+  "indicators": {
+    "rsi": 49.2498,
+    "macd": 0.32135787,
+    "macd_signal": 0.90378413,
+    "sma20": 4067.65069
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[短期震荡整理]",
+      "content": "当前黄金/美元（XAU/USD）价格在4065.90附近震荡整理，整体趋势偏向横盘。近期价格波动幅度较小，未能突破前期高点4067.65，因此短期内可能继续维持这一区间，投资者需关注市场情绪变化及重要经济数据的影响。\n\n从技术指标来看，MACD显示出微弱的上涨动能，尽管信号线尚未完全形成。这暗示价格可能在短期内继续保持相对稳定。RSI指标尚未提供具体数据，但若未来出现超买或超卖信号，将有助于进一步判断市场情绪。\n\n支撑位方面，4065.83是关键支撑位置，若价格跌破该水平，可能会加速下行至4060附近。而上方阻力位在4067.65，突破该位后有望进一步上探4070。投资者需要密切关注这些关键价位，以制定相应的交易策略。\n\n建议投资者在当前价格附近保持观望，等待明确的趋势信号再进行入场。如果价格突破4067.65，可以考虑短期多单，而若跌破4065.83，则可以考虑做空，控制风险至关重要。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of Gold against the US Dollar (XAU/USD) is holding steady around 4065.90, indicating a neutral market sentiment with a 24-hour change of 0.00%. The price action remains confined within a narrow range, as seen in the day's high and low of 4066.08 and 4065.83, respectively. This consolidation phase suggests indecision among traders, and the market may be awaiting a catalyst to break out of this range.\n\nThe absence of a calculated RSI (Relative Strength Index) makes it challenging to gauge overbought or oversold conditions at this moment. However, the MACD (Moving Average Convergence Divergence) reading at 0.32 indicates a slight bullish momentum. This implies that if the market can sustain above the current price level and the SMA (Simple Moving Average) of 20 at 4067.65, we could see a potential upward movement. Traders should monitor for any bullish crossover in MACD, which could further confirm this upward potential.\n\nKey support and resistance levels are vital to consider in this scenario. The immediate support is identified near the low of 4065.83, which, if broken, could lead to further downside pressure. Conversely, resistance is noted at the SMA level of 4067.65. A breakout above this level may trigger a fresh wave of buying interest, potentially targeting higher resistance zones. \n\nIn terms of trading suggestions, a cautious approach is recommended. Traders might consider entering long positions if XAU/USD breaks above 4067.65 with strong volume, confirming bullish sentiment. Conversely, a break below the support level of 4065.83 could warrant short positions, particularly if accompanied by bearish confirmation indicators. Overall, maintaining a close watch on market developments and relevant economic news will be crucial for informed trading decisions."
+    }
+  }
+}
