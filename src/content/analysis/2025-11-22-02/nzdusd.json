@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-22T02:47:32.122Z",
+  "price": {
+    "close": "0.56138778",
+    "high": "0.56167150",
+    "low": "0.56119871",
+    "open": "0.56135625",
+    "change": "0.00",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 57.89084,
+    "macd": 0.00023758786,
+    "macd_signal": 0.0000081302021,
+    "sma20": 0.56022696
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡走势中寻找机会]",
+      "content": "当前纽元/美元(NZD/USD)的价格为0.56138778，全天变化幅度为0.00%，表明市场处于震荡状态。高点和低点分别为0.56167150和0.56119871，显示出价格在窄幅区间内波动，短期内缺乏明确的方向性趋势。当前市场情绪相对谨慎，可能受到全球经济数据和地缘政治因素的影响。\n\n在技术指标方面，虽然RSI(14)数据缺失，但根据现有的SMA(20)水平0.56022696，价格在此均线之上运行，表明短期内买方控制着市场。然而，MACD的信号线数据缺失，无法提供进一步的趋势确认。投资者应关注即将发布的经济数据，以便更好地判断市场走向。\n\n支撑位方面，0.56119871是近期的低点，若价格跌破此水平，可能会引发进一步的卖盘。相对的，0.56167150将作为短期阻力位，突破此点将可能开启新的上涨空间。因此，短期内投资者可在这两个关键价位间寻找交易机会。\n\n建议投资者保持观望，待价格突破关键支撑或阻力位后，再考虑进场交易。同时，设置合理的止损位以控制风险，以应对可能的市场波动。整体而言，短期内需保持灵活，以适应市场的变化。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair currently trades at 0.56138778, showing minimal volatility with a 24-hour change of 0.00%. Over the last session, the price oscillated between a high of 0.56167150 and a low of 0.56119871, indicating a consolidation phase. This behavior suggests that the market is awaiting significant news or economic data to drive a breakout. A close above the recent high could signal a bullish trend, while a drop below the recent low may indicate bearish sentiment.\n\nTechnical indicators provide further context for this pair. The absence of an RSI reading makes it challenging to assess overbought or oversold conditions, but the MACD, currently at 0.00023758786, hints at weak bullish momentum. The SMA(20) at 0.56022696 serves as a crucial support level. If the price retraces towards this average, it could present a buying opportunity, while a decisive breach below could trigger further selling pressure.\n\nSupport is identified around the 0.5602 level, while resistance can be observed at approximately 0.5617. These levels will be critical for traders to monitor. A bounce off the support level followed by a surge towards resistance could offer a short-term buying opportunity, especially if subsequent price action confirms a bullish reversal. Conversely, a break below support could lead traders to reassess their positions, signaling a potential shift in market sentiment.\n\nTraders should adopt a cautious approach, given the current lack of momentum and the tightly ranged price action. A wait-and-see strategy might be prudent until clearer signals emerge. Setting alerts for key levels may help in capturing potential breakouts or reversals, enabling traders to engage effectively without exposing themselves to unnecessary risk."
+    }
+  }
+}

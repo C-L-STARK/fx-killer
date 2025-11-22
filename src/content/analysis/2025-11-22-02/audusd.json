@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-22T02:45:59.499Z",
+  "price": {
+    "close": "0.64553",
+    "high": "0.64596",
+    "low": "0.64545",
+    "open": "0.6457",
+    "change": "-0.03",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 52.13583,
+    "macd": -0.00010946957,
+    "macd_signal": -0.00039599707,
+    "sma20": 0.644648
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[当前震荡走势]",
+      "content": "当前AUD/USD的价格为0.64553，过去24小时变化幅度较小，仅为-0.03%。从近期价格走势来看，澳元/美元呈现出震荡整理的趋势，当前价格接近短期支撑位0.6446。若价格跌破该支撑位，可能会进一步测试0.6430的关键支撑，而反弹则有望向0.6470的阻力位靠拢。\n\n在技术指标方面，虽然目前RSI未提供，但从MACD来看，其值为-0.000109，显示出熊市信号，表明卖方力量略占优势。若短期内未能突破0.6470的阻力位，可能会导致价格继续承压。而20日简单移动平均线（SMA）在0.6446附近提供了一定的支撑，投资者需密切关注该指标。\n\n关于交易建议，考虑到当前震荡行情，短线交易者可以在0.6446附近寻找买入机会，同时设定止损位于0.6430以下。如果价格能够突破0.6470的阻力位，则可考虑逢高做空，以获取更大幅度的利润。而长期投资者则应保持观望，等待更为明确的趋势信号。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.64553, reflecting a slight decline of 0.03% over the last 24 hours. This price action suggests a consolidation phase, with the pair oscillating between a recent high of 0.64596 and a low of 0.64545. The lack of significant momentum indicates that traders are closely monitoring external economic factors, particularly those related to the U.S. dollar and Australian economic indicators, which could dictate the next directional move.\n\nFrom a trend analysis perspective, the recent price behavior indicates a bearish sentiment, as the pair has struggled to maintain upward momentum. The 20-period Simple Moving Average (SMA) at 0.644648 serves as a critical support level. A sustained breach of this level could lead to further bearish pressure, potentially targeting lower support levels. Conversely, if the price manages to reclaim ground above the SMA, we could see a testing of resistance levels around 0.64600.\n\nThe current MACD value of -0.00010946957 suggests weak bearish momentum. While the absence of a signal line complicates the interpretation, it highlights that the trend lacks conviction. Traders should monitor for potential divergence between price and MACD, which could signal a reversal. Additionally, an RSI reading would provide further insights into market conditions, especially regarding overbought or oversold situations.\n\nGiven the current market dynamics, a cautious trading strategy is advisable. Traders should consider short positions if the price breaks below the 20-period SMA, with potential targets set at the next significant support level. Conversely, if the price breaks above 0.64600, a long position could be explored, provided that other indicators align to confirm that a bullish reversal is underway. As always, risk management should be a priority in any trading strategy."
+    }
+  }
+}
