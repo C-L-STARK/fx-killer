@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-22T03:32:37.740Z",
+  "price": {
+    "close": "0.56138778",
+    "high": "0.56167150",
+    "low": "0.56119871",
+    "open": "0.56135625",
+    "change": "0.00",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 57.89084,
+    "macd": 0.00023758786,
+    "macd_signal": 0.0000081302021,
+    "sma20": 0.56022696
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋势]",
+      "content": "当前纽元/美元(NZD/USD)处于震荡整理的状态，价格在0.56119871和0.56167150之间波动。这种横盘整理可能反映出市场参与者对于未来走势的谨慎态度，短期内可能难以突破现有区间。投资者需关注即将公布的经济数据，以判断是否会引发方向性突破。\n\n技术指标方面，MACD当前值为0.00023758786，虽然未显示明显的买入或卖出信号，但若MACD持续上升，可能暗示潜在的上涨动能。SMA(20)为0.56022696，表明短期均线支持在此价位附近，若价格跌破该水平，则可能加大下行风险。\n\n支撑位方面，0.56119871是关键支持线，一旦跌破，可能会加速下行。阻力位则在0.56167150附近，若价格突破该阻力，可能引发更强的买入信号。因此，投资者应密切关注这两个价位的突破情况，以制定相应的交易策略。\n\n综合来看，建议投资者在当前震荡状态下保持观望，耐心等待适合的入场时机。若价格向上突破阻力位，可以考虑逐步建仓；反之，则需防范下行风险，适时止损。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.56138778, showing a neutral stance with a 24-hour change of 0.00%. This stability suggests that traders are in a consolidation phase following recent volatility. Analyzing the price action, the pair has recently oscillated between a high of 0.56167150 and a low of 0.56119871, indicating a tight range where buyers and sellers are currently battling for control. Given this context, the market sentiment appears indecisive, which could lead to potential breakouts in either direction.\n\nThe absence of RSI data limits our ability to gauge overbought or oversold conditions, but the MACD, at 0.00023758786, suggests a slight bullish momentum. This positive momentum could indicate potential upward pressure, especially as the price hovers above the 20-period Simple Moving Average (SMA), which stands at 0.56022696. The SMA may serve as a dynamic support level, and a sustained price action above this level could encourage bullish sentiment among traders.\n\nKey support can be identified at the recent low of 0.56119871, while resistance appears to be positioned at the recent high of 0.56167150. A decisive break above the resistance level could trigger a more aggressive bullish move, potentially targeting higher levels. Conversely, if the price breaks below the support level, it may signal a bearish reversal, leading to further declines. Traders should monitor these levels closely for potential entry and exit points.\n\nIn terms of trading suggestions, a breakout above the resistance level could be a cue for long positions, while a failure to hold the support may present short opportunities. Risk management is crucial; thus, setting stop-loss orders just below support and above resistance can help mitigate potential losses. As always, staying updated with market fundamentals and economic data releases will enhance trading decisions in this relatively stable environment."
+    }
+  }
+}

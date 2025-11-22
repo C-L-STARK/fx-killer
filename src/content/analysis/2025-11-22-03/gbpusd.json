@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-22T03:29:37.601Z",
+  "price": {
+    "close": "1.30991",
+    "high": "1.31084",
+    "low": "1.30991",
+    "open": "1.31062",
+    "change": "-0.05",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 54.83061,
+    "macd": 0.00054825447,
+    "macd_signal": 0.00030955156,
+    "sma20": 1.30872
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理，关注支撑和阻力]",
+      "content": "当前英镑/美元（GBP/USD）在1.30991附近震荡整理，短期内显示出横向走势的特点。结合近期的高点1.31084和低点1.30991来看，市场情绪较为谨慎，投资者在等待更明确的方向信号。整体趋势仍然偏向于整理，需留意市场的突破动向。\n\n从技术指标来看，虽然RSI和MACD的具体数值未给出，但可以推测当前的市场动能较弱，未显现出明确的超买或超卖信号。20日简单移动平均线（SMA）在1.30872附近，可能成为短期支撑位，若价格跌破该水平，可能会进一步向下探底。\n\n投资者应关注1.31084作为重要的阻力位，如果价格成功突破并稳固在该水平之上，可能会引发进一步的上涨动能。相反，若价格跌破1.30872支撑位，则可能会加剧下行风险。因此，建议在此区间内谨慎操作，待突破确认后再进行进场。\n\n综上所述，当前英镑/美元的走势属于震荡整理阶段，投资者需密切关注支撑和阻力位的变化，并根据市场信号及时调整交易策略，以把握潜在的交易机会。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD currency pair is currently trading at 1.30991, showing a slight decline of 0.05% over the past 24 hours. This price action suggests a consolidation phase following a recent upward movement. The recent high of 1.31084 indicates a resistance level, while the current price is hovering close to the 20-day Simple Moving Average (SMA) of 1.30872. A sustained break above 1.31084 could signal a bullish trend continuation, while failure to hold above the SMA might indicate a potential reversal.\n\nIn terms of technical indicators, the absence of an RSI reading limits our ability to gauge overbought or oversold conditions accurately. The MACD value of 0.00054825447 suggests a weak bullish momentum, but without a signal line for comparison, it’s challenging to draw concrete conclusions. Traders should closely monitor these indicators for any significant changes that could influence market direction.\n\nKey support for GBP/USD is found at the SMA level of 1.30872, which, if breached, may lead to further downside towards 1.30700. Conversely, resistance is established at 1.31084, and a successful breakout above this level may propel the pair towards 1.31300. Traders should remain vigilant for price action near these levels, as they could signal impending volatility and opportunities for entry or exit.\n\nGiven the current market dynamics, a cautious approach is warranted. Traders could consider long positions if the price breaks decisively above 1.31084, with a stop-loss just below the SMA. Alternatively, a short position could be viable if the price fails to hold above the SMA and breaks down through 1.30872, targeting a move towards 1.30700. Keeping an eye on broader economic indicators and market sentiment is essential for optimal trading strategies."
+    }
+  }
+}

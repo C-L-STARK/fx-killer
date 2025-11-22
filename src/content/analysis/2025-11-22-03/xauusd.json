@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-22T03:34:07.640Z",
+  "price": {
+    "close": "4065.95158",
+    "high": "4066.0639",
+    "low": "4065.8181",
+    "open": "4065.88555",
+    "change": "0.00",
+    "datetime": "2025-11-22 14:00:00"
+  },
+  "indicators": {
+    "rsi": 49.23784,
+    "macd": 0.50224396,
+    "macd_signal": 1.049709,
+    "sma20": 4066.48878
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理趋势]",
+      "content": "当前黄金/美元（XAU/USD）价格在4065.95附近震荡整理，短期内缺乏明显的方向性趋势。交易者应密切关注市场情绪和经济数据，以判断后续走势。若价格突破当前区间，将可能引发更大幅度的波动。\n\n从技术指标来看，虽然RSI（相对强弱指数）数据缺失，但MACD显示出略微的正值，这暗示出短期内存在一定的买盘力量。20日简单移动平均线（SMA）在4066.48附近，若价格持续在此水平下方，可能会引发卖压。\n\n支撑位方面，4065.80是短期关键支撑位，若价格跌破该水平，可能会加速下行。而在上方，4066.06则是重要的阻力位，若突破该阻力，可能会引发多头回升。投资者需关注这些关键价位，以制定合理的交易策略。\n\n综上所述，建议交易者在4065.80至4066.06区间内进行区间交易，短线操作需灵活应对。同时，保持警惕，关注重要的经济数据和市场情绪变化，以应对潜在的波动风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of Gold against the US Dollar (XAU/USD) is exhibiting a tight trading range, with a high of 4066.0639 and a low of 4065.8181 over the past 24 hours. This lack of significant movement indicates a period of consolidation, suggesting that traders are waiting for a catalyst to drive price action. The market's indecision could set the stage for a breakout, which traders should monitor closely for potential opportunities.\n\nIn terms of technical indicators, the Moving Average (SMA) of 20 periods at 4066.48878 suggests that the short-term trend remains slightly bearish, given the current price is below this average. The absence of an RSI reading limits the insight into momentum, but with the MACD currently at 0.50224396, it indicates a potential bullish momentum as it remains above zero. This divergence may signal an impending shift in market sentiment, warranting close observation.\n\nSupport and resistance levels are critical in this market environment. Immediate support can be identified near the recent low of 4065.8181, while resistance is seen at the recent high of 4066.0639. A decisive break above the resistance level could signal an upward trend, while a breakdown below support may suggest a bearish continuation. Traders should be prepared to act on these levels, as they often serve as psychological barriers for market participants.\n\nFor trading strategies, a cautious approach is advisable in this tight range. A buy position could be initiated if the price successfully breaks above the resistance at 4066.0639, with targets set at higher resistance levels. Conversely, if the price declines and breaches the support level, short positions may be warranted, targeting lower support areas. Utilizing stop-loss orders is crucial to manage risk effectively in the event of unexpected volatility."
+    }
+  }
+}
