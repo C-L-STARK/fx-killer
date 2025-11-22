@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-22T18:56:13.918Z",
+  "price": {
+    "close": "4065.96908",
+    "high": "4066.07742",
+    "low": "4065.82591",
+    "open": "4065.88506",
+    "change": "0.00",
+    "datetime": "2025-11-22 23:00:00"
+  },
+  "indicators": {
+    "rsi": 49.3214,
+    "macd": -0.2356506,
+    "macd_signal": 0.027882729,
+    "sma20": 4068.63416
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中]",
+      "content": "当前黄金/美元（XAU/USD）价格位于4065.97附近，市场表现出一定的震荡整理特征。尽管价格变化不大，但高点和低点的波动显示出市场对这一价格区间的关注。投资者需密切关注后续的价格波动，以判断是否会突破当前区间。\n\n从技术指标来看，虽然RSI（相对强弱指数）数据缺失，但MACD显示出负值，表明短期内卖压较重。同时，20日简单移动平均线（SMA）位于4068.63，形成了短期阻力位。若价格继续在此水平之下运行，可能会暗示进一步的下行压力。\n\n支撑位方面，4065.82是当前的关键支撑区域，若价格跌破该水平，可能进一步回调至4060附近。相反，若价格突破4068.63的阻力位，可能会引发新的买入信号，推动价格向上测试更高的区间。\n\n交易建议方面，短期内可考虑观望，待价格明确突破支撑或阻力位后再进行操作。如果价格稳定在4065.82之上，可能考虑适度买入；而若跌破该支撑位，则应谨慎出场，防止更大幅度的回调风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of Gold against the US Dollar (XAU/USD) is holding steady around 4065.97, reflecting a neutral market sentiment with a 24-hour change of 0.00%. The high and low for the day indicate a tight trading range, suggesting that volatility may be limited in the short term. This stability allows traders to assess the underlying trend without immediate pressure. However, the proximity to the recent highs could indicate a potential reversal if sellers step in.\n\nFrom a trend analysis perspective, the price is slightly below the 20-period Simple Moving Average (SMA) at 4068.63, which may act as a resistance level. Should the price breach this SMA, it could signal a bullish trend reversal, drawing in additional buyers. Conversely, if the price continues to hover below this level, it may indicate a bearish sentiment, with sellers potentially targeting lower support levels. Key support may be found near the recent low of 4065.83, which could provide a buffer against further declines.\n\nIn terms of technical indicators, the MACD shows a negative value of -0.23565060, suggesting bearish momentum. However, without the signal line data and the RSI, it is difficult to ascertain overbought or oversold conditions. Traders should monitor the MACD closely for any crossover that could indicate a shift in momentum. Given the current setup, a cautious approach may be warranted, with the possibility of a reversal if the price can reclaim the SMA.\n\nFor trading suggestions, entering a long position could be considered if the price breaks above the 20-period SMA with strong volume, indicating a potential bullish trend. Conversely, a short position may be justified if the price fails to hold above the support level at 4065.83, especially if confirmed by a bearish MACD signal. As always, traders should implement appropriate risk management strategies to protect against unforeseen market movements."
+    }
+  }
+}

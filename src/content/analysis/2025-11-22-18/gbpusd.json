@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-22T18:52:15.740Z",
+  "price": {
+    "close": "1.30991",
+    "high": "1.31084",
+    "low": "1.30991",
+    "open": "1.31062",
+    "change": "-0.05",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 54.83061,
+    "macd": 0.00054825447,
+    "macd_signal": 0.00030955156,
+    "sma20": 1.30872
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理，待突破信号]",
+      "content": "当前英镑/美元（GBP/USD）价格在1.30991附近，较昨日小幅下跌0.05%。从价格走势来看，当前市场呈现出震荡整理的状态，近期高点1.31084未能有效突破，显示出上行压力。若价格持续在此区间震荡，投资者需密切关注突破方向。\n\n在技术指标方面，尽管RSI和MACD的具体数值尚未提供，但可以推测市场情绪偏向谨慎。SMA(20)的支撑位在1.30872，若价格接近该水平并出现反弹，可能会吸引买盘；反之，若跌破此支撑位，则可能加大下行风险。\n\n从支撑和阻力的角度来看，1.31084为短期阻力位，而1.30872则是关键支撑。市场需关注这两个关键水平的突破，若价格上破1.31084，可能迎来进一步上涨；若跌破1.30872，则可能加速下行。\n\n综合考虑，建议投资者在当前震荡区间内采取观望策略，耐心等待明确的突破信号。若价格突破1.31084，可考虑适度加仓多头；若跌破1.30872，则应谨慎减仓或止损，以防止进一步损失。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The current market data for GBP/USD reflects a slight bearish sentiment with the latest price at 1.30991, showing a minimal decline of 0.05% over the past 24 hours. The price has oscillated between a high of 1.31084 and the current level, indicating limited volatility. This suggests that traders are currently in a consolidation phase, which could precede a breakout in either direction. A close observation of the price action around this level is crucial, as it may signal the next major move.\n\nThe 20-period Simple Moving Average (SMA) at 1.30872 acts as a pivotal support level for the pair. Should the price drop below this level, we could see increased bearish momentum, potentially targeting lower support levels around 1.30500. Conversely, if the price manages to hold above 1.31000, it may attract bullish interest, leading to a test of higher resistance at 1.31200. This level will be significant for traders looking for confirmation of a sustained upward trend.\n\nAlthough the Relative Strength Index (RSI) and MACD values are currently unavailable, these indicators would typically offer insights into market momentum and potential reversals. Traders should consider monitoring the RSI for overbought or oversold conditions, which could provide additional confirmation for entry or exit points. The MACD, when available, will also be crucial in identifying potential buy or sell signals based on crossovers and divergence.\n\nIn terms of trading strategy, a cautious approach may be warranted. Traders could look for long positions if the price breaks and sustains above 1.31084, with a target near 1.31200. On the other hand, short positions could be considered if the price falls below 1.30872, with targets aiming towards 1.30500. Risk management remains paramount, with stop-loss orders recommended to mitigate potential losses in this tight range environment."
+    }
+  }
+}
