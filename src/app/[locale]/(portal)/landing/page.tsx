@@ -105,7 +105,7 @@ export default function LandingPage() {
                 onClick={openContact}
                 className="px-12 py-5 bg-[#ff102a] text-white text-xl font-black uppercase tracking-widest border border-[#ff102a] hover:bg-[#eb383e] shadow-[0_0_30px_rgba(255,16,42,0.4)] hover:shadow-[0_0_50px_rgba(255,16,42,0.6)] transition-all"
               >
-                {isZh ? '申请进入魔界' : 'ENTER THE DEVILDOM'}
+                {isZh ? '申请进入汇刃' : 'ENTER FX KILLER'}
               </motion.button>
               <p className="text-sm text-gray-500 font-mono uppercase tracking-widest">
                 {isZh ? '通过率 < 18%' : 'PASS RATE < 18%'}
@@ -602,7 +602,7 @@ export default function LandingPage() {
       <EmailContactModal
         isOpen={isEmailModalOpen}
         onClose={() => setIsEmailModalOpen(false)}
-        title={isZh ? "申请进入魔界" : "Apply for Devildom"}
+        title={isZh ? "申请进入汇刃" : "Apply for FX Killer"}
       />
     </div>
   );
