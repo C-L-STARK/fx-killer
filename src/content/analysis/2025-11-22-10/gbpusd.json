@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-22T10:47:02.769Z",
+  "price": {
+    "close": "1.30991",
+    "high": "1.31084",
+    "low": "1.30991",
+    "open": "1.31062",
+    "change": "-0.05",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 54.83061,
+    "macd": 0.00054825447,
+    "macd_signal": 0.00030955156,
+    "sma20": 1.30872
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[当前上涨趋势受到考验]",
+      "content": "当前英镑/美元交易在1.30991附近，略微下跌0.05%。从短期趋势来看，价格在1.31084的高点附近受到阻力，表明市场可能面临调整压力。若价格持续无法突破这一高点，可能会导致回调至更低的支撑位。\n\n技术指标方面，尽管RSI(14)数据缺失，但MACD指标显示出微弱的上涨动能。随着价格接近20日简单移动平均线(SMA 20)的1.30872水平，市场可能会出现震荡行情。如果MACD未能大幅上扬，可能暗示短期内上涨动能减弱。\n\n在支撑和阻力方面，1.31084是关键阻力位，而1.30872则是重要支撑位。若价格跌破1.30872，可能会进一步下探至1.30700附近。反之，若价格突破1.31084，将为进一步上涨提供空间。\n\n鉴于当前市场状况，建议交易者密切关注价格在关键支撑与阻力位的表现。如果价格能有效突破1.31084，考虑适度入场做多；若价格跌破1.30872，则应考虑做空以防止更大幅度的回调。保持灵活应变的策略，将有助于在波动的市场中把握机会。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently trading at 1.30991, reflecting a minor decline of 0.05% over the past 24 hours. This price action suggests the market is consolidating after a brief rally. Traders should observe the recent high of 1.31084 and the low of 1.30991, as these levels indicate a tight trading range. A breakout above the recent high could signal renewed bullish momentum, while a drop below the low might indicate a bearish shift.\n\nThe absence of a specific RSI value limits our ability to assess overbought or oversold conditions, but the MACD shows a slight positive momentum with a value of 0.00054825447. This implies that the bullish sentiment could be losing steam if the momentum does not strengthen. The Simple Moving Average (SMA) at 1.30872 serves as a critical support level. A close below this level could trigger further selling pressure, while a bounce from this SMA might provide an opportunity for buyers to re-enter the market.\n\nIn terms of support and resistance, the immediate support is found near the SMA at 1.30872, while the resistance is established at the recent high of 1.31084. A clear breach of either of these levels could set the stage for a more significant price movement. Traders should consider these levels carefully; a confirmed break above resistance might warrant a long position, while a breach of support could signal a short opportunity.\n\nFor trading strategies, it would be prudent to adopt a wait-and-see approach given the current market conditions. If the price holds above the SMA and shows signs of recovery, a long position could be initiated, targeting the resistance level. Conversely, if the price fails to maintain above the support and shows weakness, a short position may be considered, with targets set towards lower support levels. Risk management should be emphasized in either scenario to mitigate potential losses."
+    }
+  }
+}

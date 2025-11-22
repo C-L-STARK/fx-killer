@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-22T10:48:39.599Z",
+  "price": {
+    "close": "0.64553",
+    "high": "0.64596",
+    "low": "0.64545",
+    "open": "0.6457",
+    "change": "-0.03",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 52.13583,
+    "macd": -0.00010946957,
+    "macd_signal": -0.00039599707,
+    "sma20": 0.644648
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理趋势]",
+      "content": "近期，澳元/美元在0.6455附近震荡整理，价格波动较小。虽然价格保持在相对稳定的区间内，但缺乏明确的上行动力，可能会导致短期内继续维持这种区间震荡的格局。观察市场情绪变化，投资者需保持谨慎。\n\n从技术指标来看，当前的MACD显示出微弱的负值，表明卖方力量略占优势。然而，RSI指标未提供信息，无法全面评估超买或超卖状态。20日简单移动平均线(SMA)在0.6446附近提供了一定的支撑，若价格跌破该水平，可能引发更大的卖压。\n\n支撑位方面，若AUD/USD下行，0.6446将成为关键支撑位，若跌破则可能进一步测试0.6430区域。阻力位则位于0.6460，突破后可能吸引更多买盘。短期内，价格若在此区间内波动，建议投资者采取观望策略，待价格突破关键支撑或阻力后再考虑进场操作。\n\n总体而言，当前的市场环境显示出震荡整理的特征，投资者应谨慎操作，关注市场动态及相关经济数据，以便及时调整策略。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) against the US Dollar (USD) is currently trading at 0.64553, reflecting a slight decline of 0.03% over the past 24 hours. The price has oscillated within a narrow range, with a high of 0.64596 and a low of 0.64545. This tight trading range suggests a period of consolidation, as the market awaits further economic data or geopolitical developments that could drive volatility. The overall trend appears to be bearish, indicated by the recent price action failing to break above previous resistance levels.\n\nIn terms of technical indicators, the absence of the Relative Strength Index (RSI) limits our ability to assess momentum; however, the MACD shows a slight negative reading of -0.00011, hinting at weak bearish momentum. The Simple Moving Average (SMA) at 20 periods stands at 0.644648, which could act as a potential support level. If the price maintains above this SMA, it may indicate a temporary bottom, but a sustained move below this level could reinforce bearish sentiment and lead to further declines.\n\nSupport levels to watch include the 0.6440 mark, a critical psychological level that, if breached, may open the door to further downside towards 0.6400. Conversely, immediate resistance lies at the recent high of 0.64596. A breakout above this level could trigger a short-term bullish reversal, potentially leading to a retest of 0.6500. Traders should remain vigilant for signals of trend reversals and may consider employing a cautious approach, utilizing tight stop-loss orders to manage risk effectively.\n\nIn conclusion, the AUD/USD pair is currently in a cautious phase, with a bearish outlook in the short term. Traders might consider looking for selling opportunities near resistance levels, while keeping an eye on key support at 0.6440. Monitoring economic indicators and geopolitical events will be essential in determining the next significant price movement. Those who adopt a disciplined trading strategy could potentially capitalize on the anticipated volatility in this currency pair."
+    }
+  }
+}

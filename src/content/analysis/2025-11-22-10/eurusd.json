@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-22T10:46:18.713Z",
+  "price": {
+    "close": "1.15125",
+    "high": "1.1521",
+    "low": "1.15125",
+    "open": "1.15174",
+    "change": "-0.04",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 44.11458,
+    "macd": -0.00060257835,
+    "macd_signal": -0.00055962545,
+    "sma20": 1.15221
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理趋势]",
+      "content": "当前欧元/美元（EUR/USD）交易在1.15125附近，显示出一定的震荡整理趋势。虽然24小时变化为-0.04%，但价格仍在高点1.1521和低点1.15125之间波动。这种市场状态可能意味着投资者在等待更明确的方向性信号，整体情绪相对谨慎。\n\n技术指标方面，虽然RSI(14)数据缺失，但MACD显示出微弱的负值，表明短期内可能存在卖压。SMA(20)为1.15221，价格低于该均线，进一步确认了当前的弱势局面。若未来价格突破该均线，可能会引发短期反弹。\n\n在支撑与阻力方面，1.1500是关键支撑位，一旦跌破，可能加剧下行压力。而上方的阻力位在1.1525附近，若价格再次触及该位，可能面临卖盘压力。投资者应密切关注这些关键水平的突破情况，以把握交易机会。\n\n基于当前市场环境，建议短线交易者采取观望策略，耐心等待价格在支撑或阻力位的确认信号。若价格向上突破1.1525，可考虑适度进场做多；反之，若跌破1.1500，则应考虑做空，以控制风险。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD pair is currently trading at 1.15125, slightly below its recent high of 1.1521. This positions the currency pair in a narrow range, indicating a potential consolidation phase. The recent 24-hour change of -0.04% suggests a lack of directional momentum, as market participants weigh macroeconomic factors and upcoming data releases. The prevailing trend appears to be neutral, with the market oscillating around the 1.1520 level, which serves as a psychological barrier. \n\nAnalyzing the indicators, the MACD is currently negative at -0.00060257835, signaling a bearish sentiment in the short term. However, with the absence of the RSI data, it becomes essential to monitor the price action closely. The SMA(20) at 1.15221 indicates that the pair is trading slightly below its short-term moving average, further reinforcing the lack of bullish momentum. Traders should watch for a potential crossover in the MACD and an RSI reading to enhance the validity of the signals.\n\nIn terms of support and resistance levels, the immediate resistance is found at 1.1521, while support appears to be around 1.1500. A break above the resistance level could open the door to further gains, potentially targeting the next resistance at 1.1550. Conversely, if the support level at 1.1500 is breached, we could see a deeper pullback, potentially testing the 1.1480 region. \n\nFor traders, a cautious approach is warranted. Consider waiting for clearer signals from the indicators, particularly a bullish crossover in the MACD or a significant RSI reading that could provide confirmation of upward momentum. If the price breaks above 1.1521, entering long positions may be advisable, while a drop below 1.1500 could present a short-selling opportunity, targeting lower support levels."
+    }
+  }
+}

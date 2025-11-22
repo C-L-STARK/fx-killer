@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-22T10:47:52.592Z",
+  "price": {
+    "close": "156.37801",
+    "high": "156.50400",
+    "low": "156.29500",
+    "open": "156.37900",
+    "change": "-0.01",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 32.92665,
+    "macd": -0.21296168,
+    "macd_signal": -0.16667419,
+    "sma20": 156.7946
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[短期震荡趋势]",
+      "content": "当前美元/日元（USD/JPY）在156.37801附近波动，显示出短期内的震荡趋势。价格在156.29500至156.50400区间内反复测试，表明市场在寻找明确的方向。若突破上方阻力位156.50400，可能会引发进一步上涨，反之则可能回撤至支撑位156.29500。\n\n从技术指标来看，MACD目前处于负值区域，显示出卖压相对较强。而RSI指标尚未提供具体数据，但若后续出现超卖信号，可能提示短期反弹的机会。SMA(20)在156.79460附近，进一步确认了当前价格相对较低的状态，若价格回升至此水平，可能会吸引买入兴趣。\n\n支撑位方面，156.29500是关键支撑，若有效跌破则可能加剧下行风险。而上方阻力位156.50400则是短期反弹的考验。投资者应关注这些关键价格水平，以便在市场变动时快速反应。\n\n综合来看，建议投资者保持谨慎，关注短期内的价格波动，适时调整仓位。可以考虑在接近支撑位时寻找买入机会，若突破阻力位则可追随趋势，但应设置止损以控制风险。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair currently trades at 156.37801, reflecting a slight decline of 0.01% over the last 24 hours. This minor pullback suggests a consolidation phase following a recent rally that peaked at 156.50400. On the downside, the low of 156.29500 provides a crucial support level, while the recent high indicates a resistance threshold. Traders should watch these levels closely, as a break below support could signal a bearish reversal, whereas a sustained push above resistance may attract buyers looking for further upside.\n\nThe absence of recent RSI data limits our ability to assess momentum effectively. However, the current MACD reading of -0.21296168 indicates bearish momentum, suggesting that sellers are still in control but not overwhelmingly so. The SMA(20) at 156.79460 serves as an additional point of reference; price trading below this moving average could suggest a continuation of the bearish sentiment in the short term. A crossover of the MACD above the signal line could, however, indicate a potential shift in momentum worth monitoring.\n\nIn terms of trading strategy, a cautious approach is advisable. Traders might consider selling on a breakout below the 156.29500 support level with a target near the next significant support around 156.00000. Conversely, if the price manages to break above the SMA(20) and the recent high of 156.50400, it could signal a bullish reversal, providing a buying opportunity with a target towards 157.00000. Setting stop-loss orders just outside these key levels would help manage risk effectively.\n\nOverall, the USD/JPY pair remains in a delicate balance, with external factors such as economic data releases and geopolitical events likely to impact volatility. Monitoring the price action around key support and resistance levels will be critical for traders looking to capitalize on potential movements. Staying vigilant for changes in market sentiment will also be essential in navigating this dynamic currency pair."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-22T10:51:14.608Z",
+  "price": {
+    "close": "0.80830997",
+    "high": "0.80852997",
+    "low": "0.80747998",
+    "open": "0.80765003",
+    "change": "0.08",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 61.60418,
+    "macd": 0.00080289399,
+    "macd_signal": 0.00063801527,
+    "sma20": 0.80644549
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理，谨慎观望]",
+      "content": "当前美元/瑞郎的价格为0.8083，整体表现出震荡整理的趋势。虽然24小时内价格微幅上涨0.08%，但高点和低点的波动幅度较小，显示出市场缺乏明确的方向性。投资者需关注即将公布的经济数据，以判断市场情绪的变化。\n\n从技术指标来看，当前RSI和MACD数据尚未完全可用，无法提供明确的超买或超卖信号。然而，20日简单移动平均线(SMA)为0.8064，表明短期内价格在此水平附近形成支撑。若价格有效跌破此支撑位，可能会引发进一步的下行压力。\n\n在支撑和阻力位方面，当前支撑位在0.8064，而阻力位则在0.8085附近。若价格突破0.8085，可能会吸引更多买盘，推动价格进一步上涨。反之，若跌破0.8064，则可能会引发更多卖盘，导致下行风险加大。\n\n综合来看，目前美元/瑞郎处于震荡整理期，建议投资者保持谨慎，密切关注市场动态。待价格突破关键支撑或阻力位后，再考虑进场交易，以降低风险并把握更好的交易机会。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair has shown a modest upward movement over the past 24 hours, reflecting a change of 0.08%. Currently trading at 0.8083, the price is hovering near the recent high of 0.8085, indicating a potential bullish sentiment. The price action suggests the possibility of continued upward momentum, especially if it breaks above this resistance level. Traders should monitor this area closely, as a sustained move above could signal further gains.\n\nIn terms of technical indicators, while the RSI(14) is not available, the MACD reading of 0.0008 indicates that the momentum is slightly in favor of the bulls, albeit weak. A lack of significant divergence suggests that the current trend may continue in the short term. The 20-period Simple Moving Average (SMA) at 0.8064 provides additional support, reinforcing the bullish outlook if the price maintains above this level. Market participants should watch for a potential crossover in the MACD for confirmation of further bullish momentum.\n\nFrom a support and resistance perspective, immediate support lies at the recent low of 0.8075. Should the price decline below this level, it may trigger a bearish sentiment and test the next support around 0.8064, where the SMA resides. Conversely, resistance at 0.8085 is critical; a breakout here could open the door for an advance towards the 0.8100 psychological level, attracting more buyers into the market.\n\nFor trading strategies, short-term traders might consider buying near the support level at 0.8075, setting tight stop-loss orders to manage risk. Conversely, a breakout above 0.8085 could provide an opportunity for a momentum trade, targeting levels around 0.8100. Overall, maintaining a flexible approach will be crucial as market conditions can shift rapidly in the forex landscape."
+    }
+  }
+}

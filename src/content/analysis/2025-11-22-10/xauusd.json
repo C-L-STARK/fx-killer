@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-22T10:51:55.017Z",
+  "price": {
+    "close": "4065.90029",
+    "high": "4066.07501",
+    "low": "4065.81827",
+    "open": "4065.88688",
+    "change": "-0.00",
+    "datetime": "2025-11-22 21:00:00"
+  },
+  "indicators": {
+    "rsi": 49.2636,
+    "macd": -0.19500055,
+    "macd_signal": 0.1717724,
+    "sma20": 4070.42781
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中]",
+      "content": "近期，黄金/美元（XAU/USD）价格在4065.9附近震荡整理，显示出市场缺乏明显的方向性。当前价格接近短期均线20日SMA（4070.43），表明市场可能面临一定的压力。这一水平可视为阻力位，若突破则有可能进一步上涨，而未能突破则可能回落。\n\n技术指标方面，MACD目前显示为负值，表明市场动能偏弱，可能暗示短期内下行风险。由于RSI数据缺失，无法全面评估超买或超卖状态，需关注后续的指标变化以判断市场情绪。整体来看，价格在4065.8至4070.4区间内波动，显示出市场参与者的观望态度。\n\n建议交易者关注4065.8的支撑位，若价格跌破此位，可能引发进一步下行，目标可设定在4060附近。相反，若突破4070.4阻力位，则可考虑短期多头布局，目标可看向4080及其上方区域。在操作中，建议保持谨慎，注意风险控制。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current market for XAU/USD is exhibiting a tight range, with the latest price at 4065.90029, reflecting a minimal change over the past 24 hours. The high and low levels within this period are closely aligned, indicating a consolidation phase. This lack of volatility could suggest that traders are awaiting additional catalysts, such as economic data or geopolitical developments, that may prompt a more decisive move. In the absence of significant news, the market may continue to trade within this narrow band.\n\nFrom a trend analysis perspective, the price remains below the 20-period simple moving average (SMA) at 4070.42781, which could indicate a bearish sentiment in the short term. The SMA acts as a dynamic resistance level, and until the price can convincingly break above this level, sellers may maintain control. The proximity to the high and low points suggests that traders should watch for any breakout or breakdown that could signal the next directional move.\n\nThe absence of the Relative Strength Index (RSI) and the unclear MACD signal complicate the current technical picture. However, the negative MACD value of -0.19500055 implies that bearish momentum may be present. Traders should be cautious and look for confirmation of any potential reversal patterns or continuation signals before entering positions. A sustained break below the recent low of 4065.81827 could lead to further downside, while a rally above 4070.42781 could initiate a bullish trend.\n\nFor trading strategies, a conservative approach may involve waiting for clear signals before acting. A breakout above the 20-period SMA could offer a buying opportunity, targeting the next resistance level around 4080. Conversely, a failure to hold above the recent lows could warrant a short position, with potential targets set toward the 4050 level. Maintaining a close watch on market sentiment and external factors will be crucial for successful trading in this environment."
+    }
+  }
+}
