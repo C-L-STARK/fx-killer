@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-22T08:15:48.706Z",
+  "price": {
+    "close": "0.64553",
+    "high": "0.64596",
+    "low": "0.64545",
+    "open": "0.6457",
+    "change": "-0.03",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 52.13583,
+    "macd": -0.00010946957,
+    "macd_signal": -0.00039599707,
+    "sma20": 0.644648
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理趋势]",
+      "content": "当前，澳元/美元在0.6455附近震荡整理，短期内未能形成明显的趋势。随着市场情绪的变化，价格在0.64596的高点和0.64545的低点之间波动，显示出缺乏方向性的特征。整体来看，当前市场环境可能受到多重因素的影响，包括全球经济数据和商品价格波动。\n\n从技术指标来看，虽然RSI和MACD的具体数值尚不明确，但当前的MACD值为负，表明短期内可能存在卖压。SMA(20)为0.6446，价格在其上方运行，显示出一定的支撑力度。若价格继续走高，可能会测试更高的阻力位，而若跌破支撑位，则可能进一步下行。\n\n在支撑方面，0.6450是一个关键水平，若价格跌破此位，则可能加剧下行压力。反之，0.6460将是主要的阻力位，若能够突破，将为多头提供良好入场机会。交易者应密切关注价格在这两个关键水平的表现，以制定相应的交易策略。\n\n建议交易者保持耐心，关注短期波动，谨慎操作。若价格回调至0.6450附近，可以考虑适度建立多头仓位，而在0.6460附近则可考虑获利了结或做空。保持灵活的交易策略，以应对市场的变化。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) is currently trading against the US Dollar (USD) at 0.64553, reflecting a slight decline of 0.03% over the past 24 hours. The price movement has been constrained within a narrow range, with a high of 0.64596 and a low of 0.64545. This indicates a period of consolidation, suggesting that traders are cautious amid broader market uncertainties. The trend appears to be neutral in the short term, with the pair lacking strong momentum in either direction.\n\nIn terms of technical indicators, the recent MACD reading of -0.00010946957 indicates a bearish bias, although the absence of a signal line prevents a complete interpretation. The 20-period Simple Moving Average (SMA) at 0.64464800 serves as a crucial reference point. If the price remains above this level, it may suggest a bullish outlook; conversely, a drop below this SMA could reinforce bearish sentiment. Traders should closely monitor these indicators for potential shifts in momentum.\n\nSupport and resistance levels are vital for setting trading strategies. The immediate support is identified around the recent low of 0.64545, while resistance can be observed at 0.64596, the recent high. A breakout above the resistance level could open the door to a rally towards 0.64700, whereas a breach below the support level might lead to further declines, possibly targeting the 0.64400 zone.\n\nGiven the current market conditions, a cautious approach is advisable. Traders may consider short positions if the price falls below the support level of 0.64545, while potential long positions could be warranted if the price breaks above 0.64596. It is essential to employ proper risk management strategies, including stop-loss orders, to mitigate potential losses in this volatile market environment."
+    }
+  }
+}

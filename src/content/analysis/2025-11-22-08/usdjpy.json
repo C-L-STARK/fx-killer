@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-22T08:15:08.731Z",
+  "price": {
+    "close": "156.37801",
+    "high": "156.50400",
+    "low": "156.29500",
+    "open": "156.37900",
+    "change": "-0.01",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 32.92665,
+    "macd": -0.21296168,
+    "macd_signal": -0.16667419,
+    "sma20": 156.7946
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[短期震荡趋势]",
+      "content": "当前美元/日元的市场表现显示出一定的震荡趋势。最新价格为156.37801，较之前的高点156.50400略有回落，显示出买方动能减弱。短期内，市场在156.29500至156.50400区间内震荡整理，投资者需关注这个区间的突破情况。\n\n从技术指标来看，MACD处于负值区域，表明卖方力量可能占优。虽然RSI数据未提供，但如果其趋近超卖区域，可能会为价格反弹提供支撑。在此背景下，关注短期内的均线表现，尤其是20日简单移动平均线(SMA)的走向，将有助于判断未来的价格趋势。\n\n支撑位方面，156.29500是一个关键支撑区域，若价格跌破将可能引发更深的回调。而在阻力位上，156.50000附近的卖盘压力需引起重视。若价格成功突破该阻力位，则有可能重启上涨趋势。\n\n建议交易者在当前市场环境中采取谨慎的态度。可考虑在156.29500附近寻找买入机会，同时设定止损以控制风险。在价格接近156.50000时，如果出现反转信号，则可考虑适度减仓或获利了结。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 156.37801, reflecting a slight 24-hour decline of 0.01%. This mild downward movement suggests a consolidation phase after recent fluctuations. The price action has been confined within a range, with the recent high at 156.50400 and the low at 156.29500, indicating potential resistance near the upper boundary and support at the lower boundary. Traders should monitor these levels closely for breakout opportunities or reversals.\n\nIn terms of technical indicators, the MACD shows a negative value of -0.21296168, suggesting bearish momentum. Without the RSI data, it’s challenging to gauge overbought or oversold conditions effectively. However, the proximity of the price to the 20-period simple moving average (SMA) at 156.79460 indicates that the market may be experiencing a corrective phase. A close above the SMA could signal a shift in sentiment, while sustained trading below may reinforce bearish pressures.\n\nKey support is observed at the recent low of 156.29500, which, if broken, could lead to further downside towards 156.0000, a psychological level. Conversely, resistance stands at 156.50400, and a breakout above this level may trigger a bullish trend, potentially targeting 156.8000. Traders should be vigilant around these levels, as they will provide critical insights into market sentiment and future price action.\n\nIn terms of trading strategy, it may be prudent to adopt a wait-and-see approach until clearer signals emerge. A break above resistance could warrant a long position, while a failure to hold the support level may present shorting opportunities. Risk management remains essential, with stop-loss orders advised just beyond identified support and resistance levels to mitigate potential losses."
+    }
+  }
+}

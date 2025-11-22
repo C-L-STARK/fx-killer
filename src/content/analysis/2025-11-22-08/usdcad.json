@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-22T08:16:29.801Z",
+  "price": {
+    "close": "1.41001",
+    "high": "1.41037",
+    "low": "1.40860",
+    "open": "1.40911",
+    "change": "0.06",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 54.38673,
+    "macd": 0.00053607835,
+    "macd_signal": 0.00070456703,
+    "sma20": 1.40952
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡整理，关注关键支撑和阻力]",
+      "content": "当前美元/加元的市场行情显示出一定的震荡整理趋势。最新价格为1.41001，24小时变化幅度较小，仅为0.06%。高点和低点分别为1.41037和1.40860，表明市场尚未形成明确的方向。投资者需关注即将到来的经济数据，以判断短期走势。\n\n从技术指标来看，虽然RSI和MACD数据尚不可用，但20日简单移动平均线(SMA)为1.40952，显示出短期内价格或将围绕该水平波动。若价格突破此均线，可能引发进一步的买盘或卖盘。特别是在市场情绪变化较大的情况下，技术指标将是重要的参考依据。\n\n支撑位方面，1.40860是近期的低点，若价格跌破该水平，可能会引发更深层次的调整。相反，1.41037则是近期的阻力位，若突破将可能带来上涨动能。建议交易者密切关注这两个关键价位，制定相应的交易策略。\n\n综合来看，当前市场处于整理状态，建议投资者在关键支撑和阻力附近进行观察，并做好相应的风险管理。在未有明确趋势之前，保持谨慎态度，避免过于激进的交易。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD pair is currently trading at 1.41001, exhibiting a slight increase of 0.06% over the past 24 hours. This modest upward movement comes as the pair tests the upper range of its recent trading channel, with a high of 1.41037 and a low of 1.40860. The overall trend appears to be bullish, supported by the pair holding above the 20-period Simple Moving Average (SMA) at 1.40952. A sustained close above this SMA could signal further bullish momentum, while a breakdown below might indicate a shift towards a bearish sentiment.\n\nCurrent technical indicators suggest a mixed outlook. The absence of a current RSI reading limits our ability to gauge overbought or oversold conditions, yet the MACD value of 0.00053607835 indicates a slight bullish bias. Traders should monitor this indicator closely; should the MACD line cross above the signal line in the future, it may reinforce the bullish trend. Conversely, a decline in price accompanied by a bearish crossover could prompt reconsideration of long positions.\n\nSupport levels are positioned around 1.40860, where the price found buying interest during the recent trading session. A break below this level could lead to further declines toward the next support around 1.40700. Conversely, resistance is observed at 1.41037; a breakout above this level could pave the way for a rally toward 1.41200, which would likely attract additional buying interest. \n\nIn terms of trading strategies, traders might consider entering long positions near the support level of 1.40860, with a stop loss set just below this point to limit risk. If the price breaks above the resistance at 1.41037, it may present an opportunity to add to long positions. Conversely, if bearish signals emerge, traders should be prepared to exit positions at key support levels to protect capital."
+    }
+  }
+}
