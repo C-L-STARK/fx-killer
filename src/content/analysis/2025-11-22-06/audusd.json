@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-22T06:54:13.133Z",
+  "price": {
+    "close": "0.64553",
+    "high": "0.64596",
+    "low": "0.64545",
+    "open": "0.6457",
+    "change": "-0.03",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 52.13583,
+    "macd": -0.00010946957,
+    "macd_signal": -0.00039599707,
+    "sma20": 0.644648
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理中]",
+      "content": "当前澳元/美元（AUD/USD）在0.64553附近交易，表现出震荡整理的趋势。近期价格在高点0.64596和低点0.64545之间波动，显示出市场缺乏明显的方向性。尽管价格小幅下跌0.03%，但整体走势仍处于狭窄区间内，显示出市场参与者对后市的观望情绪。\n\n从技术指标来看，当前RSI数据缺失，无法提供超买或超卖的具体信号。MACD指标接近零点，表明短期内动能较弱，市场可能在等待进一步的推动因素。SMA(20)位于0.644648，作为短期支撑位，若价格向下突破该水平，可能会引发进一步的卖盘。\n\n在支撑和阻力方面，当前支撑位在0.64465附近，若下破可能测试更低的水平。而阻力位则在0.64600一线，突破此位可能会吸引更多买入兴趣。综合来看，建议投资者在震荡区间内采取区间交易策略，适时布局，关注重要经济数据发布对市场情绪的影响。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.64553, experiencing a slight decline of 0.03% over the past 24 hours. This minor pullback suggests that the market is in a consolidation phase after a period of subdued volatility. The recent high of 0.64596 and low of 0.64545 indicate a narrow trading range, suggesting that traders are awaiting a clearer signal for direction. The overall trend appears to be bearish, as the price remains below key moving averages, potentially signaling further downside pressure.\n\nFrom a technical standpoint, the absence of the RSI and the MACD's negative value (-0.00010946957) indicates weak momentum. Although the MACD does not provide a clear signal due to missing data for the signal line, its position below zero suggests that bearish sentiment prevails. The 20-period Simple Moving Average (SMA) at 0.64464800 acts as a dynamic resistance level, and traders should monitor price interactions with this SMA as it could provide opportunities for entry or exit.\n\nKey support is identified around the recent low of 0.64545, which, if breached, could signal further declines towards 0.6440, a psychological level. Conversely, resistance is established at the recent high of 0.64596, which, if surpassed, may indicate a potential reversal or bullish retracement. Traders should be vigilant for price action around these levels, as they may serve as critical decision points for future trades.\n\nIn terms of trading strategies, considering the prevailing bearish trend, a cautious approach may be appropriate. Short positions could be considered if the price breaks below the support level of 0.64545, with targets set around the next support zone at 0.6440. Conversely, a break above the 20 SMA could signal a potential long opportunity, but traders should remain cautious in a generally bearish environment and look for confirmation before entering positions."
+    }
+  }
+}

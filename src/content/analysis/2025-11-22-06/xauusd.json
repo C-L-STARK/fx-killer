@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-22T06:57:10.598Z",
+  "price": {
+    "close": "4065.87529",
+    "high": "4066.07643",
+    "low": "4065.82456",
+    "open": "4065.88552",
+    "change": "0.00",
+    "datetime": "2025-11-22 17:00:00"
+  },
+  "indicators": {
+    "rsi": 49.28039,
+    "macd": 0.060851615,
+    "macd_signal": 0.61754231,
+    "sma20": 4069.85225
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理趋势]",
+      "content": "当前黄金/美元（XAU/USD）价格为4065.87529，表现出震荡整理的趋势。在过去24小时内，价格变化微小，显示出市场缺乏明确的方向。高点和低点相对接近，表明多空力量暂时平衡，投资者可能在等待更明确的市场信号。\n\n技术指标方面，虽然RSI(14)未提供，但MACD指标显示出0.060851615的正值，暗示短期内可能存在上行潜力。然而，20日简单移动平均线（SMA）为4069.85225，表明当前价格仍低于这一水平，进一步上行的动能可能受到限制。投资者需关注MACD和价格之间的变化，以判断未来走势。\n\n支撑位方面，4065.82456的低点为关键支撑，若跌破该水平，可能引发进一步下行风险。反之，4066.07643的高点则是短期阻力位，突破后将有助于恢复上行趋势。投资者应密切关注这些关键价位，以制定相应的交易策略。\n\n综合考虑，建议投资者在4065.82456附近寻找买入机会，同时在4069.85225区域设置止损，防范潜在风险。若价格突破短期阻力位，投资者可考虑加仓，反之则需谨慎应对市场波动。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD is 4065.87529, indicating a consolidation phase as it reflects a 24-hour change of 0.00%. This stability suggests a balance between buyers and sellers, with no strong directional bias at this moment. The price is currently trading just below the 20-day Simple Moving Average (SMA) at 4069.85225, which could act as a dynamic resistance level. Traders should watch for any breakout above this level, as it could signal a potential upward movement, while a failure to break through could lead to a retest of lower levels.\n\nThe absence of a calculated Relative Strength Index (RSI) makes it challenging to assess overbought or oversold conditions. However, the MACD at 0.060851615 indicates a slight bullish momentum. This momentum, while minimal, may suggest that short-term buyers could gain an edge if prices sustain above current levels. Traders should monitor the MACD closely for any divergence or crossovers that could provide insight into potential trend shifts.\n\nKey support levels to watch include 4065.82456, the recent low, which may provide a cushion against downside moves. A break below this level could trigger increased selling pressure, leading to further declines. Conversely, resistance at 4066.07643 could pose challenges for upward momentum. A sustained breach above this could attract momentum traders and potentially push prices toward higher resistance zones.\n\nIn terms of trading strategy, a cautious approach is advisable given the current price action. Traders may consider waiting for a confirmed breakout above the SMA or a significant drop below the support level before initiating positions. Utilizing tight stop-loss orders will be essential to manage risk effectively, especially in this range-bound market, as volatility could increase with any unexpected economic news or geopolitical developments."
+    }
+  }
+}
