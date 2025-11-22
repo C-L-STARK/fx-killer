@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-22T12:18:02.116Z",
+  "price": {
+    "close": "1.30991",
+    "high": "1.31084",
+    "low": "1.30991",
+    "open": "1.31062",
+    "change": "-0.05",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 54.83061,
+    "macd": 0.00054825447,
+    "macd_signal": 0.00030955156,
+    "sma20": 1.30872
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理，待突破]",
+      "content": "在当前市场环境中，英镑/美元的价格波动较小，最新报价为1.30991，显示出一定的整理趋势。过去24小时的变化为-0.05%，说明市场情绪较为谨慎。此时可见，价格在1.31084的高点和1.30991的低点之间窄幅震荡，展现出缺乏明确方向的特征。\n\n从技术指标来看，尽管RSI未提供，MACD显示出微弱的正值，表明市场仍有一定的买入动能，但整体趋势尚不明显。20日简单移动平均线(SMA)在1.30872，起到支撑作用，若价格回落至此水平，可能会吸引买盘进入，进一步支持价格反弹。\n\n支撑位方面，1.30872是关键的支撑区域，若跌破可能导致进一步下行。阻力位则设在1.31084，一旦突破该水平，可能引发一波上涨行情。综合考虑，建议交易者在接近支撑位时寻找买入机会，而在接近阻力位时可以考虑获利了结或进行卖出操作，以应对市场的短期波动。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD currency pair is currently trading at 1.30991, showing a slight decline of 0.05% over the last 24 hours. This minor bearish movement suggests a cautious sentiment among traders, especially as the price hovers close to its recent low of 1.30991. The overall trend appears to be consolidating, with the recent high of 1.31084 indicating a potential resistance level. A sustained break above this level could lead to further bullish momentum, while failure to do so may confirm downward pressure.\n\nTechnical indicators are limited, but the presence of the 20-day simple moving average (SMA) at 1.30872 provides a potential support level for the pair. If the price were to retrace towards this SMA, it may present a buying opportunity for traders looking to capitalize on a bounce. Conversely, if the price breaks below this support level, it could signal a shift in momentum and open the door to further downside, necessitating a reassessment of long positions.\n\nThe absence of an RSI reading and the MACD value suggests that the current market conditions may lack strong momentum indicators. This could indicate a period of indecision among traders. Monitoring these indicators for further developments will be critical. A crossover or divergence in the MACD could provide additional insight into potential future movements, while the RSI might reveal overbought or oversold conditions as the market evolves.\n\nIn terms of trading strategy, traders might consider setting buy orders near the 20-day SMA for a potential rebound, while stop-loss orders could be placed just below this level to manage risk. Conversely, if the price breaks above the resistance at 1.31084, traders could look for long entries with profit targets set at higher psychological levels. Staying vigilant for further economic data releases and geopolitical developments will be crucial in navigating this currency pair effectively."
+    }
+  }
+}

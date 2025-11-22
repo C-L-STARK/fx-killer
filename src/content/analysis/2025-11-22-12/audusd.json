@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-22T12:19:21.485Z",
+  "price": {
+    "close": "0.64553",
+    "high": "0.64596",
+    "low": "0.64545",
+    "open": "0.6457",
+    "change": "-0.03",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 52.13583,
+    "macd": -0.00010946957,
+    "macd_signal": -0.00039599707,
+    "sma20": 0.644648
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡趋势中小幅回调]",
+      "content": "当前AUD/USD的价格为0.64553，近期表现出一定程度的震荡。24小时内，汇率小幅下跌0.03%，显示出市场多空力量相对平衡。结合高点0.64596和低点0.64545的波动，短期内价格可能会在此区间内震荡整理。\n\n从技术指标来看，当前的SMA(20)为0.644648，表明短期均线略微上升，可能支持价格在此附近的波动。MACD指标虽然处于负值区间，但尚未形成明显的趋势信号，RSI由于数据缺失，暂时无法进行判断。整体来看，市场情绪偏向谨慎，缺乏强烈的方向性。\n\n支撑位方面，0.64545是近期的低点，若价格下破该水平，可能会引发更深的回调。阻力位则在0.64596附近，若突破该点位，可能会为AUD/USD提供进一步上涨的动力。投资者需密切关注这些关键价位。\n\n建议短线交易者可以考虑在支撑位附近寻求买入机会，同时在接近阻力位时设置止损以控制风险。长期投资者则应耐心等待更清晰的趋势信号，以便做出更为稳健的决策。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) against the US Dollar (USD) is currently trading at 0.64553, reflecting a slight 24-hour decline of 0.03%. This minor drop indicates a period of consolidation after a recent upward movement. The price is hovering near the lower end of its daily range, with a high of 0.64596 and a low of 0.64545. The overall trend appears to be bearish in the short term, as the currency pair struggles to maintain momentum above the recent highs.\n\nIn terms of technical indicators, the absence of a current RSI reading limits our ability to assess overbought or oversold conditions. However, the MACD shows a slight negative value, suggesting weak bearish momentum. The 20-day Simple Moving Average (SMA) at 0.644648 provides a key reference point, acting as a potential support level. If the AUD/USD breaks below this level, it may trigger further downside, while a bounce off this SMA could indicate a reversal and lead to a retest of higher levels.\n\nSupport levels are identified around 0.64545, which coincides with the recent low, followed by 0.64400 as a more significant support area. On the resistance side, the immediate resistance is seen at 0.64596, with a psychological level at 0.65000 serving as a further barrier. Traders may look to enter short positions near resistance levels or consider buying on a confirmed bounce from support, particularly if future price action shows bullish reversal signals.\n\nGiven the current price action and technical setup, a cautious approach is warranted. Traders should monitor for signs of potential reversals or breakouts, especially around the identified support and resistance levels. Utilizing a risk management strategy with stop-loss orders placed strategically can help mitigate losses in this uncertain environment, ensuring that positions are protected against unexpected volatility."
+    }
+  }
+}
