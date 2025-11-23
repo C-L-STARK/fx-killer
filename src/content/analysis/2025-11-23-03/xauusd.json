@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-23T03:13:13.596Z",
+  "price": {
+    "close": "4065.96908",
+    "high": "4066.07742",
+    "low": "4065.82591",
+    "open": "4065.88506",
+    "change": "0.00",
+    "datetime": "2025-11-22 23:00:00"
+  },
+  "indicators": {
+    "rsi": 49.3214,
+    "macd": -0.2356506,
+    "macd_signal": 0.027882729,
+    "sma20": 4068.63416
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中]",
+      "content": "目前，黄金/美元在4065.97附近震荡整理，价格波动较小，24小时变化为0%。从价格走势来看，短期内缺乏明确的趋势方向，市场参与者可能在等待更强的交易信号或者经济数据的发布。\n\n技术指标方面，RSI暂时无法提供参考，但MACD值为-0.2356，显示出一定的卖压。SMA(20)在4068.63处，当前价格略低于该均线，可能暗示短期内存在进一步下跌的风险，但尚未形成明确的趋势反转信号。\n\n在支撑和阻力方面，当前支撑位在4065.80附近，而阻力位则在4068.60左右。若价格突破4068.60，可能会吸引更多买盘进入，推动黄金价格回升；反之，若跌破4065.80，则可能进一步测试更低的支撑位。\n\n综合来看，建议投资者保持观望态度，耐心等待价格突破关键水平后再做决策。如果突破阻力位，可考虑小幅做多；若跌破支撑位，则建议适度减仓以降低风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4065.97 indicates a tight trading range, reflecting a period of consolidation following recent fluctuations. The high of 4066.08 and low of 4065.83 suggest that traders are currently undecided, leading to a lack of momentum in either direction. This indecision may pave the way for a breakout, either upward or downward, depending on upcoming economic data or geopolitical developments that could impact market sentiment.\n\nFrom an indicator perspective, the MACD at -0.2356 suggests bearish momentum, although without a signal line to compare, it is difficult to gauge the strength of this trend. The absence of an RSI reading also limits our ability to identify overbought or oversold conditions. However, the 20-period Simple Moving Average (SMA) at 4068.63 serves as a critical resistance level. Should the price breach this level, it may indicate a renewed bullish sentiment, prompting traders to reconsider their positions.\n\nIn terms of support, the low of 4065.83 could serve as a key level to watch, as a breach below this could trigger additional selling pressure. Conversely, if buyers manage to push the price above the SMA, we could see a retest of higher resistance levels. Traders should remain vigilant for potential breakout scenarios, as the current tight range may precede significant price movement in either direction.\n\nFor trading suggestions, a cautious approach is advisable. Day traders might consider short positions near the SMA if the price fails to break above it, targeting the support level. Conversely, longer-term traders could look for opportunities to enter long positions on a confirmed move above the SMA, ideally with accompanying bullish volume. Monitoring external factors like interest rate decisions and economic data releases will be crucial for navigating the uncertain environment surrounding XAU/USD."
+    }
+  }
+}

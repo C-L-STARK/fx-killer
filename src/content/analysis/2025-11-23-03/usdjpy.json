@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-23T03:09:50.869Z",
+  "price": {
+    "close": "156.37801",
+    "high": "156.50400",
+    "low": "156.29500",
+    "open": "156.37900",
+    "change": "-0.01",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 32.92665,
+    "macd": -0.21296168,
+    "macd_signal": -0.16667419,
+    "sma20": 156.7946
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理，短期承压]",
+      "content": "当前美元/日元的价格在156.37801附近运行，显示出一定的震荡整理趋势。最近24小时内，价格微幅下跌0.01%，反映出市场情绪较为谨慎。价格未能突破156.500的高点，显示出短期内多头动能不足。\n\n从技术指标来看，MACD处于负值区域，表明短期内卖压存在，尽管RSI数据缺失，但若考虑到价格在高位震荡，可能存在超买的风险。在此情况下，投资者需密切关注市场情绪变化，以便及时调整策略。\n\n支撑位方面，156.29500将是关键区域，若价格跌破该水平，可能加剧回调风险。另一方面，156.500是阻力位，突破后可能引发更强的上涨动能。交易者可以考虑在接近支撑位时寻找买入机会，而在接近阻力位时则可进行卖出。\n\n建议投资者保持谨慎，关注全球经济数据及市场情绪变化。如果价格持续在156.29500至156.500区间内震荡，则可采取区间交易策略，待突破后再进行相应的追踪操作。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 156.37801, reflecting a slight decline of 0.01% over the past 24 hours. The price has oscillated between a high of 156.50400 and a low of 156.29500, indicating a period of consolidation. This behavior suggests that the market may be in a corrective phase after reaching higher levels in recent sessions. Traders should remain vigilant for breakout opportunities, as the pair could either resume the uptrend or indicate a deeper pullback.\n\nIn terms of technical indicators, the absence of a current RSI reading limits our ability to gauge overbought or oversold conditions. However, the MACD shows a negative value of -0.21296168, hinting at bearish momentum. The simple moving average (SMA) at 20 periods, currently at 156.79460, serves as a dynamic resistance level. If price action approaches this SMA, we may see selling pressure, suggesting a potential reversal point.\n\nSupport levels are identified at the recent low of 156.29500, where buying interest may emerge. A sustained move below this level could trigger further selling, possibly targeting the next support zone around 156.00000. Conversely, a breakout above 156.50000 could signal renewed bullish momentum, with targets set toward the 157.00000 psychological level. \n\nFor traders, a cautious approach is advisable. Watching for price action around the aforementioned levels may provide clear entry and exit signals. A confirmed break above resistance could offer a buying opportunity, while a breach below support may warrant a short position. Maintaining a close eye on market sentiment and geopolitical developments will also be essential in navigating this pair."
+    }
+  }
+}
