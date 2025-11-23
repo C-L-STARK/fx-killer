@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-23T04:27:44.126Z",
+  "price": {
+    "close": "0.64553",
+    "high": "0.64596",
+    "low": "0.64545",
+    "open": "0.6457",
+    "change": "-0.03",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 52.13583,
+    "macd": -0.00010946957,
+    "macd_signal": -0.00039599707,
+    "sma20": 0.644648
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理趋势]",
+      "content": "当前澳元/美元（AUD/USD）价格在0.64553附近震荡整理，显示出市场缺乏明显的方向性。近期的高点和低点分别为0.64596和0.64545，表明短期内价格波动范围有限，可能在市场情绪的影响下持续横盘。投资者需关注即将发布的经济数据，以判断未来走势。\n\n从技术指标来看，虽然RSI和MACD的数据尚不完整，但SMA(20)的值为0.64464800，显示出短期内价格有轻微的支撑。若价格下破此水平，可能会引发进一步回调，反之则可能构成反弹的基础。市场参与者应密切关注这些技术信号，以便及时调整策略。\n\n在支撑和阻力位方面，当前支撑位可设定在0.64545附近，而阻力位则可观察在0.64600上方。若价格突破阻力位，可能会开启新的上涨行情；反之，跌破支撑位则可能引发更大幅度的调整。投资者可设置相应的止损与止盈策略，以管理风险。\n\n总体而言，建议交易者在当前震荡区间内进行短线交易，利用价格波动进行获利。同时，需保持警惕，关注经济数据和市场情绪变化，以便及时应对潜在的市场波动。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) is currently trading at 0.64553 against the US Dollar (USD), reflecting a minor decline of 0.03% over the past 24 hours. The price action is tightly contained within a narrow range, with a high of 0.64596 and a low of 0.64545. This consolidation suggests indecision among traders, and further movement may depend on upcoming economic data releases or shifts in market sentiment. A sustained breakout above 0.64600 could signal a bullish reversal, while a drop below 0.64500 may indicate bearish momentum.\n\nThe absence of the Relative Strength Index (RSI) and the MACD's slight negative value (-0.00010946957) suggests that momentum is currently weak, which aligns with the sideways price action. Although the MACD does not indicate a strong trend, it may be useful to monitor for any crossover signals in the future. The 20-day Simple Moving Average (SMA) sits at 0.64464800, acting as a dynamic support level. Should the price test this SMA, it could provide a buying opportunity if the level holds firm.\n\nIn terms of key support and resistance levels, the immediate support is positioned around 0.64500, while resistance can be expected near 0.64700. A break below 0.64500 could lead to further downside, targeting lower support levels around 0.64400. Conversely, if the price manages to break above 0.64600, we could see a rally towards 0.64800, contingent on broader market trends and sentiment.\n\nFor traders, a cautious approach is advisable in this current environment marked by low volatility. A buy position could be considered if the price breaks above the resistance level of 0.64600 with strong volume, while a sell position may be warranted if the price dips below the support level of 0.64500. Monitoring economic indicators from both Australia and the US will also be crucial for informed decision-making in the near term."
+    }
+  }
+}

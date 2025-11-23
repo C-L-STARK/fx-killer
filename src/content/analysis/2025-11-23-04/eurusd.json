@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-23T04:25:29.648Z",
+  "price": {
+    "close": "1.15125",
+    "high": "1.1521",
+    "low": "1.15125",
+    "open": "1.15174",
+    "change": "-0.04",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 44.11458,
+    "macd": -0.00060257835,
+    "macd_signal": -0.00055962545,
+    "sma20": 1.15221
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理，关注关键支撑位]",
+      "content": "当前欧元/美元在1.15125附近震荡整理，24小时变化为-0.04%。从价格走势来看，短期内市场缺乏明显的方向性，可能受到市场情绪和经济数据发布的影响。投资者需关注即将到来的经济指标，以判断未来的走势。\n\n技术指标方面，SMA(20)为1.15221，显示出价格略低于该均线，表明短期内可能面临一定的下行压力。MACD目前为负值，表明卖盘略占优势，RSI未提供，但如果未来数值低于30，可能预示超卖信号，反之则需警惕买盘回暖。\n\n支撑位方面，1.1500是一个关键心理关口，若价格跌破此位，可能进一步下探至1.1480。而阻力位则在1.1521附近，若突破该阻力，可能会引发短期反弹，测试1.1550区域。建议交易者在支撑位附近寻找买入机会，而在接近阻力位时考虑获利了结或反向操作。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD currency pair is currently trading at 1.15125, showing a slight decline of 0.04% over the past 24 hours. The price is hovering near the recent high of 1.1521, indicating a potential resistance level. This area could pose challenges for buyers, as a failure to break above this threshold may lead to a short-term reversal. Conversely, if the price can sustain momentum beyond this level, it could open the door for further gains.\n\nAnalyzing the technical indicators, the MACD is currently negative at -0.0006, suggesting bearish momentum in the market. The absence of an RSI value may limit our understanding of market overbought or oversold conditions; however, the MACD’s position indicates that sellers are currently in control. Traders should be cautious, as the lack of bullish confirmation may deter fresh buying interest, especially when combined with the proximity to resistance.\n\nThe 20-period Simple Moving Average (SMA) stands at 1.15221, acting as a dynamic resistance level that aligns closely with the previous high. A breach above this SMA could signal a potential bullish reversal, enticing buyers to enter the market. Conversely, if the price fails to maintain support above the 1.1500 psychological level, we may witness a deeper correction, with potential targets at the next support levels around 1.1480 and 1.1450.\n\nFor trading strategies, a conservative approach would involve waiting for a clear breakout above the 1.1521 resistance or a confirmed bounce from the support at 1.1500. Traders might consider placing buy orders above the resistance level, while setting stop-loss orders just below the support to manage risk effectively. Conversely, a bearish trading opportunity could be explored if the price decisively breaks below 1.1500, targeting lower support levels."
+    }
+  }
+}

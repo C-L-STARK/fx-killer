@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-23T04:30:36.962Z",
+  "price": {
+    "close": "4065.96908",
+    "high": "4066.07742",
+    "low": "4065.82591",
+    "open": "4065.88506",
+    "change": "0.00",
+    "datetime": "2025-11-22 23:00:00"
+  },
+  "indicators": {
+    "rsi": 49.3214,
+    "macd": -0.2356506,
+    "macd_signal": 0.027882729,
+    "sma20": 4068.63416
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，短期承压]",
+      "content": "当前黄金/美元(XAU/USD)价格为4065.97，整体走势表现为震荡整理。尽管价格在高点4066.08附近徘徊，但未能有效突破，显示出市场缺乏明确的方向。短期内，市场情绪趋于谨慎，投资者需密切关注即将发布的经济数据及地缘政治风险。\n\n从技术指标来看，MACD处于负值区域，显示出卖方力量相对较强，短期下行风险加大。尽管RSI数据缺失，但结合SMA(20)的4068.63水平，价格在此之下运行，进一步确认了短期的压力位。若价格持续低于该均线，可能会引发更多的卖出信号。\n\n在支撑与阻力方面，短期支撑位位于4065.80一线，若跌破此水平，可能进一步向下探寻4050.00的支撑。而上方阻力位则在4068.60附近，若能突破并站稳该位置，可能会重新激发多头反弹的动力。投资者应关注这些关键水平，以便及时调整交易策略。\n\n基于当前市场状况，建议短期内采取观望态度，耐心等待价格突破关键支撑或阻力后再进行进场交易。同时，利用止损策略控制风险，以应对可能的市场波动。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current market data for XAU/USD indicates a consolidation phase, with the latest price hovering around 4065.97. This stability follows a period of volatility, suggesting a potential pause in momentum. The price is currently trading just below the 20-period Simple Moving Average (SMA) at 4068.63, which may act as a resistance level. A sustained move above this SMA could signal a bullish reversal, while failure to breach this level may lead to further downward pressure.\n\nIn terms of indicators, the MACD shows a negative value of -0.2357, indicating that bearish momentum is still in play. However, without a corresponding signal line, it is difficult to determine the strength of this momentum. The absence of a Relative Strength Index (RSI) reading limits our ability to assess overbought or oversold conditions, making it crucial to watch for additional market data to inform trading decisions. Traders should remain cautious, as the lack of indicator confirmation may lead to increased volatility.\n\nSupport levels are observed at 4065.83, the recent low, which may provide a safety net for price action. If this level is breached, further support can be anticipated around 4060. Conversely, resistance is noted at 4068.63, aligning with the SMA. A breakout above this level could pave the way for a retest of previous highs. Conversely, if price action fails to hold above the support level, traders may consider short positions to capitalize on potential declines.\n\nFor trading suggestions, a wait-and-see approach is advisable until clearer signals emerge. If the price breaks above the 20-period SMA with volume, it may present a buying opportunity. Conversely, a confirmation of downward momentum below the established support could prompt short trades. Employing proper risk management and setting stop-loss orders will be essential to navigate the current market uncertainty effectively."
+    }
+  }
+}
