@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-23T05:40:20.982Z",
+  "price": {
+    "close": "0.64553",
+    "high": "0.64596",
+    "low": "0.64545",
+    "open": "0.6457",
+    "change": "-0.03",
+    "datetime": "2025-11-22 08:00:00"
+  },
+  "indicators": {
+    "rsi": 52.13583,
+    "macd": -0.00010946957,
+    "macd_signal": -0.00039599707,
+    "sma20": 0.644648
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理，偏向下行]",
+      "content": "目前AUD/USD在0.6455附近震荡整理，短期内略显疲软。当前价格接近20日移动平均线（SMA 20），若价格持续低于该水平，可能会进一步考验下方支撑位0.6446。整体趋势显示出弱势，市场情绪偏向谨慎，交易者需保持警惕。\n\n在技术指标方面，MACD显示出微弱的负值，说明卖方力量依然占据主导。虽然RSI数据未提供，但从当前走势来看，可能存在超卖的风险。若RSI后续回升至30以上，则可能会出现短期反弹，反之将加大向下突破的可能性。\n\n支撑位方面，0.6446是关键水平，若有效跌破，可能会引发更多的卖盘，进一步测试0.6420的支撑。而在阻力位上，0.6459和0.6470是短期内需要关注的反弹区域。若价格突破这些阻力位，可能会出现逆转信号。\n\n综合来看，建议交易者在当前区间内采取灵活的策略，短期内以谨慎的观望为主，若价格确认突破支撑位则可考虑适度做空，同时需关注市场动态及消息面对汇率的影响。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) against the US Dollar (USD) is currently exhibiting a slight bearish trend, with the latest price at 0.64553. The recent 24-hour change of -0.03% indicates a period of consolidation after a minor fluctuation between the high of 0.64596 and the low of 0.64545. This narrow trading range suggests that market participants are awaiting significant economic data or events that could provide direction. The overall sentiment appears to favor a cautious approach, as traders assess both domestic and international economic indicators.\n\nFrom a technical perspective, the SMA (20) at 0.64464800 acts as a crucial short-term support level. A sustained move below this level could trigger further selling pressure, potentially targeting lower support levels around 0.64300 or even 0.64000. Conversely, if the price holds above the SMA, it may indicate a potential reversal or consolidation phase, which could invite buyers back into the market. Traders should closely monitor price action around this moving average, as it may serve as a key pivot point.\n\nThe MACD reading of -0.00010946957 suggests a bearish momentum, although a lack of a clear signal line makes it difficult to interpret a definitive trend. Without a solid RSI reading, we cannot ascertain whether the currency pair is overbought or oversold. Therefore, traders may want to employ additional indicators or wait for clearer signals before entering positions. Caution is advised, particularly in light of the absence of strong bullish momentum.\n\nIn summary, traders should consider a cautious stance on AUD/USD, monitoring the 0.64464800 support level closely. A break below this could lead to further downside, while a rebound may offer short-term buying opportunities. Keeping an eye on upcoming economic releases and geopolitical developments will be essential for gauging market sentiment and making informed trading decisions."
+    }
+  }
+}

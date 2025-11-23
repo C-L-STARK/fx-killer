@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-23T05:43:07.853Z",
+  "price": {
+    "close": "4065.96908",
+    "high": "4066.07742",
+    "low": "4065.82591",
+    "open": "4065.88506",
+    "change": "0.00",
+    "datetime": "2025-11-22 23:00:00"
+  },
+  "indicators": {
+    "rsi": 49.3214,
+    "macd": -0.2356506,
+    "macd_signal": 0.027882729,
+    "sma20": 4068.63416
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中]",
+      "content": "当前黄金/美元(XAU/USD)的价格在4065.96附近震荡整理，整体趋势保持横盘状态。虽然价格波动较小，但市场仍需关注潜在的突破信号。短期内，价格在4066.08与4065.83之间窄幅波动，显示出市场参与者的观望情绪。\n\n在技术指标方面，MACD指标显示出负值，表明短期内卖压仍然存在，但未能形成明确的下降趋势。RSI指标尚未提供，无法确认当前的超买或超卖状态，因此投资者应谨慎对待市场情绪的变化。同时，20日移动平均线(SMA)在4068.63处，可能成为短期阻力位，限制价格反弹空间。\n\n支撑位方面，4065.83是近期的低点，若价格跌破此位，可能会引发更大的卖盘压力。反之，若价格成功突破4068.63，则有望向更高的水平迈进。建议投资者在此区间内进行区间交易，设置合理的止损和止盈点，以降低风险并把握短期波动机会。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD stands at 4065.97, showing a stable position with no notable change over the past 24 hours. This stability suggests a period of consolidation, as the price has oscillated slightly between the high of 4066.08 and the low of 4065.83. The lack of volatility may indicate that traders are awaiting further economic data or geopolitical developments to drive the market. A close observation of these dynamics will be crucial for identifying the next significant price movement.\n\nFrom a trend analysis perspective, the recent price action indicates a bearish sentiment, especially given that the current price is below the 20-period Simple Moving Average (SMA) of 4068.63. This positioning suggests that the market may be poised for a potential downward correction. However, until a clear break occurs below the immediate support level of 4065.83, the bearish outlook remains tentative. Traders should remain vigilant for any signs of a breakout, which could provide clearer directional guidance.\n\nTechnical indicators such as the MACD show a negative value of -0.2357, reinforcing the bearish sentiment. While the Relative Strength Index (RSI) is currently unavailable, the absence of overbought or oversold conditions suggests that the market may not be at an extreme point. This scenario allows for potential trading opportunities, particularly if the price breaks either resistance at 4068.63 or the support at 4065.83. A decisive move beyond these levels could trigger more pronounced price action.\n\nFor trading strategies, a cautious approach is advisable. A short position could be considered if the price breaks below the support level of 4065.83, with a target set around the next support level. Conversely, if the price manages to breach the resistance at 4068.63, a long position may be warranted, with potential targets above the recent highs. Proper risk management, including stop-loss orders, is essential to mitigate potential losses in this volatile market."
+    }
+  }
+}
