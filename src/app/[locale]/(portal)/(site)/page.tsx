@@ -209,251 +209,557 @@ const DummyContent = () => {
       {/* SECTION DIVIDER */}
       <div className="relative py-1 bg-gradient-to-r from-transparent via-[#ff102a] to-transparent opacity-50"></div>
 
-      {/* 2. VALUE PROPOSITION - NEW SECTION */}
-      <div className="relative py-12 bg-[#050505]">
+      {/* 2. COMPARISON TABLE */}
+      <div className="relative py-20 bg-[#050505]">
         <div className="max-w-7xl mx-auto px-6">
+          {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-6xl font-black text-white mb-6 uppercase tracking-tight">
-              {language === 'zh' ? '为什么选择我们' : 'Why Choose Us'}
+              {language === 'zh' ? '全方位对比' : 'Comprehensive Comparison'}
             </h2>
             <div className="w-24 h-1 bg-[#ff102a] mx-auto mb-6"></div>
             <p className="text-gray-400 text-xl max-w-3xl mx-auto">
-              {language === 'zh' ? '行业领先的外汇交易员培养计划，专注于培养真正盈利的专业交易员' : 'Industry-leading forex trader development program focused on cultivating genuinely profitable professional traders'}
+              {language === 'zh' ? '汇刃 vs 市场上的其他选择，一目了然的优势对比' : 'FX Killer vs Other Market Options - Clear Advantages at a Glance'}
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              {
-                icon: (
-                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                ),
-                stat: "80%",
-                title: language === 'zh' ? '利润分成' : 'Profit Share',
-                desc: language === 'zh' ? '业界最高的利润分成比例，您的努力直接转化为收入' : 'Highest profit share in the industry, your effort directly converts to income'
-              },
-              {
-                icon: (
-                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                  </svg>
-                ),
-                stat: "100%",
-                title: language === 'zh' ? '资金支持' : 'Funded Capital',
-                desc: language === 'zh' ? '通过考核后，我们提供全额交易资金，零风险' : 'After passing evaluation, we provide full trading capital with zero risk'
-              },
-              {
-                icon: (
-                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                ),
-                stat: "1-3",
-                title: language === 'zh' ? '月培养周期' : 'Month Training',
-                desc: language === 'zh' ? '快速高效的培养体系，1-3个月成为专业交易员' : 'Fast and efficient development system, become professional in 1-3 months'
-              }
-            ].map((item, i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: i * 0.1, duration: 0.5 }}
-                viewport={{ once: true }}
-                className="bg-black border border-white/10 p-8 hover:border-[#ff102a]/50 transition-all duration-300 group hover:scale-105"
-              >
-                <div className="flex items-center gap-4 mb-6">
-                  <div className="w-16 h-16 bg-[#ff102a]/10 border border-[#ff102a]/30 flex items-center justify-center text-[#ff102a] group-hover:bg-[#ff102a] group-hover:text-white transition-all duration-300">
-                    {item.icon}
-                  </div>
-                  <div className="text-5xl font-black text-white">{item.stat}</div>
-                </div>
-                <h3 className="text-xl font-bold text-white mb-3 uppercase tracking-wide">{item.title}</h3>
-                <p className="text-gray-400 leading-relaxed">{item.desc}</p>
-              </motion.div>
-            ))}
-          </div>
+          {/* Comparison Table */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+            className="overflow-hidden border border-white/10 bg-black/50 backdrop-blur-sm"
+          >
+            <div className="overflow-x-auto">
+              <table className="w-full">
+                <thead>
+                  <tr className="border-b border-white/10 bg-black/80">
+                    <th className="px-2 py-4 text-left text-xs font-bold text-gray-400 uppercase tracking-wider">
+                      {language === 'zh' ? '对比项目' : 'Comparison'}
+                    </th>
+                    <th className="px-2 py-4 text-center text-xs font-bold uppercase tracking-wider border-l-2 border-[#ff102a] bg-[#ff102a]/5">
+                      <span className="text-[#ff102a] text-sm">
+                        {language === 'zh' ? '汇刃' : 'FX Killer'}
+                      </span>
+                    </th>
+                    <th className="px-2 py-4 text-center text-xs font-bold text-gray-400 uppercase tracking-wider border-l border-white/10">
+                      {language === 'zh' ? '自营机构' : 'Prop Firms'}
+                    </th>
+                    <th className="px-2 py-4 text-center text-xs font-bold text-gray-400 uppercase tracking-wider border-l border-white/10">
+                      {language === 'zh' ? '传统机构' : 'Traditional'}
+                    </th>
+                    <th className="px-2 py-4 text-center text-xs font-bold text-gray-400 uppercase tracking-wider border-l border-white/10">
+                      {language === 'zh' ? '卖指标' : 'Indicator'}
+                    </th>
+                    <th className="px-2 py-4 text-center text-xs font-bold text-gray-400 uppercase tracking-wider border-l border-white/10">
+                      {language === 'zh' ? '个人工作室' : 'Personal Studio'}
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {/* Row 1: Training Cost */}
+                  <motion.tr
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 0.1 }}
+                    viewport={{ once: true }}
+                    className="border-b border-white/5 hover:bg-white/[0.02] transition-colors"
+                  >
+                    <td className="px-2 py-5 text-white font-medium text-sm">
+                      {language === 'zh' ? '培训费用' : 'Training Cost'}
+                    </td>
+                    <td className="px-2 py-5 text-center border-l-2 border-[#ff102a] bg-[#ff102a]/5">
+                      <div className="flex flex-col items-center gap-1">
+                        <span className="text-xl font-black text-[#ff102a]">
+                          {language === 'zh' ? '完全免费' : '100% FREE'}
+                        </span>
+                        <span className="text-[10px] text-gray-400">
+                          {language === 'zh' ? '无学费' : 'No Tuition'}
+                        </span>
+                      </div>
+                    </td>
+                    <td className="px-2 py-5 text-center border-l border-white/10">
+                      <span className="text-sm text-gray-400">{language === 'zh' ? '考核费' : 'Challenge Fee'}</span>
+                    </td>
+                    <td className="px-2 py-5 text-center border-l border-white/10">
+                      <span className="text-sm text-gray-400 line-through">{language === 'zh' ? '高额学费' : 'Expensive'}</span>
+                    </td>
+                    <td className="px-2 py-5 text-center border-l border-white/10">
+                      <span className="text-sm text-gray-400">{language === 'zh' ? '购买费' : 'Purchase Fee'}</span>
+                    </td>
+                    <td className="px-2 py-5 text-center border-l border-white/10">
+                      <span className="text-sm text-gray-400">{language === 'zh' ? '加盟费' : 'Franchise Fee'}</span>
+                    </td>
+                  </motion.tr>
+
+                  {/* Row 2: Training Model */}
+                  <motion.tr
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 0.15 }}
+                    viewport={{ once: true }}
+                    className="border-b border-white/5 hover:bg-white/[0.02] transition-colors"
+                  >
+                    <td className="px-2 py-5 text-white font-medium text-sm">
+                      {language === 'zh' ? '培养模式' : 'Training Model'}
+                    </td>
+                    <td className="px-2 py-5 text-center border-l-2 border-[#ff102a] bg-[#ff102a]/5">
+                      <span className="text-base font-semibold text-[#ff102a]">
+                        {language === 'zh' ? '小团队孵化' : 'Team Incubation'}
+                      </span>
+                    </td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-400 border-l border-white/10">
+                      {language === 'zh' ? '无培训' : 'No Training'}
+                    </td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-400 border-l border-white/10">
+                      {language === 'zh' ? '大班课' : 'Large Class'}
+                    </td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-400 border-l border-white/10">
+                      {language === 'zh' ? '无指导' : 'None'}
+                    </td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-400 border-l border-white/10">
+                      {language === 'zh' ? '师徒制' : 'Mentorship'}
+                    </td>
+                  </motion.tr>
+
+                  {/* Row 3: Community Support */}
+                  <motion.tr
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 0.2 }}
+                    viewport={{ once: true }}
+                    className="border-b border-white/5 hover:bg-white/[0.02] transition-colors"
+                  >
+                    <td className="px-2 py-5 text-white font-medium text-sm">
+                      {language === 'zh' ? '社群支持' : 'Community'}
+                    </td>
+                    <td className="px-2 py-5 text-center border-l-2 border-[#ff102a] bg-[#ff102a]/5">
+                      <span className="text-base font-semibold text-[#ff102a]">24/7</span>
+                    </td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-400 border-l border-white/10">
+                      {language === 'zh' ? '论坛' : 'Forum'}
+                    </td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-400 border-l border-white/10">
+                      {language === 'zh' ? '有限时段' : 'Limited'}
+                    </td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-500 border-l border-white/10">N/A</td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-400 border-l border-white/10">
+                      {language === 'zh' ? '小群组' : 'Small Group'}
+                    </td>
+                  </motion.tr>
+
+                  {/* Row 4: Profit Share */}
+                  <motion.tr
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 0.25 }}
+                    viewport={{ once: true }}
+                    className="border-b border-white/5 hover:bg-white/[0.02] transition-colors"
+                  >
+                    <td className="px-2 py-5 text-white font-medium text-sm">
+                      {language === 'zh' ? '利润分成' : 'Profit Share'}
+                    </td>
+                    <td className="px-2 py-5 text-center border-l-2 border-[#ff102a] bg-[#ff102a]/5">
+                      <span className="text-lg font-bold text-[#ff102a]">60-90%</span>
+                    </td>
+                    <td className="px-2 py-5 text-center border-l border-white/10">
+                      <span className="text-base font-bold text-gray-300">60-90%</span>
+                    </td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-500 border-l border-white/10">N/A</td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-500 border-l border-white/10">N/A</td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-400 border-l border-white/10">
+                      {language === 'zh' ? '按协议' : 'By Agreement'}
+                    </td>
+                  </motion.tr>
+
+                  {/* Row 5: Real Capital Scale */}
+                  <motion.tr
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 0.3 }}
+                    viewport={{ once: true }}
+                    className="border-b border-white/5 hover:bg-white/[0.02] transition-colors"
+                  >
+                    <td className="px-2 py-5 text-white font-medium text-sm">
+                      {language === 'zh' ? '资金规模' : 'Capital'}
+                    </td>
+                    <td className="px-2 py-5 text-center border-l-2 border-[#ff102a] bg-[#ff102a]/5">
+                      <div className="flex flex-col items-center gap-0.5">
+                        <span className="text-sm font-bold text-[#ff102a]">$100K-$2M</span>
+                        <span className="text-xl text-green-500">✓</span>
+                      </div>
+                    </td>
+                    <td className="px-2 py-5 text-center border-l border-white/10">
+                      <div className="flex flex-col items-center gap-0.5">
+                        <span className="text-xs font-bold text-gray-300">$10K-$200K</span>
+                        <span className="text-lg text-green-500">✓</span>
+                      </div>
+                    </td>
+                    <td className="px-2 py-5 text-center text-red-500 text-xl border-l border-white/10">✗</td>
+                    <td className="px-2 py-5 text-center text-red-500 text-xl border-l border-white/10">✗</td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-400 border-l border-white/10">
+                      {language === 'zh' ? '看情况' : 'Varies'}
+                    </td>
+                  </motion.tr>
+
+                  {/* Row 6: Training Duration */}
+                  <motion.tr
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 0.35 }}
+                    viewport={{ once: true }}
+                    className="border-b border-white/5 hover:bg-white/[0.02] transition-colors"
+                  >
+                    <td className="px-2 py-5 text-white font-medium text-sm">
+                      {language === 'zh' ? '培养周期' : 'Duration'}
+                    </td>
+                    <td className="px-2 py-5 text-center border-l-2 border-[#ff102a] bg-[#ff102a]/5">
+                      <div className="flex flex-col items-center gap-0.5">
+                        <span className="text-base font-semibold text-[#ff102a]">
+                          {language === 'zh' ? '30-60天' : '30-60 Days'}
+                        </span>
+                        <span className="text-[10px] text-gray-400">{language === 'zh' ? '5阶段' : '5 Stages'}</span>
+                      </div>
+                    </td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-400 border-l border-white/10">
+                      {language === 'zh' ? '1-3月' : '1-3 Mon'}
+                    </td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-400 border-l border-white/10">
+                      {language === 'zh' ? '6-12月' : '6-12 Mon'}
+                    </td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-500 border-l border-white/10">N/A</td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-400 border-l border-white/10">
+                      {language === 'zh' ? '不确定' : 'Uncertain'}
+                    </td>
+                  </motion.tr>
+
+                  {/* Row 7: Assessment Standards */}
+                  <motion.tr
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 0.4 }}
+                    viewport={{ once: true }}
+                    className="border-b border-white/5 hover:bg-white/[0.02] transition-colors"
+                  >
+                    <td className="px-2 py-5 text-white font-medium text-sm">
+                      {language === 'zh' ? '考核标准' : 'Assessment'}
+                    </td>
+                    <td className="px-2 py-5 text-center border-l-2 border-[#ff102a] bg-[#ff102a]/5">
+                      <span className="text-base font-semibold text-[#ff102a]">
+                        {language === 'zh' ? '稳定盈利' : 'Consistent'}
+                      </span>
+                    </td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-400 border-l border-white/10">
+                      {language === 'zh' ? '严格规则' : 'Strict'}
+                    </td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-400 border-l border-white/10">
+                      {language === 'zh' ? '模糊' : 'Vague'}
+                    </td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-500 border-l border-white/10">N/A</td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-400 border-l border-white/10">
+                      {language === 'zh' ? '自定义' : 'Custom'}
+                    </td>
+                  </motion.tr>
+
+                  {/* Row 8: Live Trading Experience */}
+                  <motion.tr
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 0.45 }}
+                    viewport={{ once: true }}
+                    className="border-b border-white/5 hover:bg-white/[0.02] transition-colors"
+                  >
+                    <td className="px-2 py-5 text-white font-medium text-sm">
+                      {language === 'zh' ? '实盘经验' : 'Live Trading'}
+                    </td>
+                    <td className="px-2 py-5 text-center border-l-2 border-[#ff102a] bg-[#ff102a]/5">
+                      <div className="flex flex-col items-center gap-0.5">
+                        <span className="text-xl text-green-500">✓</span>
+                        <span className="text-[10px] text-gray-400">{language === 'zh' ? '100%实战' : '100%'}</span>
+                      </div>
+                    </td>
+                    <td className="px-2 py-5 text-center border-l border-white/10">
+                      <div className="flex flex-col items-center gap-0.5">
+                        <span className="text-lg text-yellow-500">△</span>
+                        <span className="text-[10px] text-gray-400">{language === 'zh' ? '规则多' : 'Rules'}</span>
+                      </div>
+                    </td>
+                    <td className="px-2 py-5 text-center text-yellow-500 text-lg border-l border-white/10">△</td>
+                    <td className="px-2 py-5 text-center text-red-500 text-xl border-l border-white/10">✗</td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-400 border-l border-white/10">
+                      {language === 'zh' ? '看水平' : 'Varies'}
+                    </td>
+                  </motion.tr>
+
+                  {/* Row 9: Income Potential */}
+                  <motion.tr
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 0.5 }}
+                    viewport={{ once: true }}
+                    className="hover:bg-white/[0.02] transition-colors"
+                  >
+                    <td className="px-2 py-5 text-white font-medium text-sm">
+                      {language === 'zh' ? '收入潜力' : 'Income'}
+                    </td>
+                    <td className="px-2 py-5 text-center border-l-2 border-[#ff102a] bg-[#ff102a]/5">
+                      <span className="text-base font-semibold text-[#ff102a]">
+                        {language === 'zh' ? '无上限' : 'Unlimited'}
+                      </span>
+                    </td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-400 border-l border-white/10">
+                      {language === 'zh' ? '有上限' : 'Limited'}
+                    </td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-400 border-l border-white/10">
+                      {language === 'zh' ? '有限' : 'Limited'}
+                    </td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-400 border-l border-white/10">
+                      {language === 'zh' ? '靠运气' : 'Luck-Based'}
+                    </td>
+                    <td className="px-2 py-5 text-center text-sm text-gray-400 border-l border-white/10">
+                      {language === 'zh' ? '不稳定' : 'Unstable'}
+                    </td>
+                  </motion.tr>
+                </tbody>
+              </table>
+            </div>
+          </motion.div>
+
         </div>
       </div>
 
-      {/* SECTION DIVIDER */}
-      <div className="relative h-32 bg-black overflow-hidden">
-        <div className="absolute top-1/2 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-4 h-4 bg-[#ff102a] rotate-45 border-2 border-black"></div>
-      </div>
 
-      {/* 3. THE PROBLEM VS SOLUTION - COMPARISON (3-WAY) */}
-      <div className="relative py-32 bg-[#050505]">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-20">
-            <h2 className="text-4xl md:text-6xl font-black mb-6 text-white uppercase tracking-tight">
-              {t('why.title')}
-            </h2>
-            <div className="w-24 h-1 bg-[#ff102a] mx-auto mb-6"></div>
-            <p className="text-gray-400 text-xl max-w-3xl mx-auto">
-              {t('why.subtitle')}
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border border-white/10 overflow-hidden">
-            {/* Traditional Training */}
-            <div className="bg-[#0a0a0a] p-8 border-r border-white/10 grayscale opacity-60 hover:opacity-100 transition-all duration-500 relative group">
-              <div className="absolute top-0 left-0 w-full h-1 bg-red-900/30"></div>
-              <h4 className="text-2xl font-black mb-8 text-gray-500 flex items-center gap-3 uppercase">
-                <span className="flex items-center justify-center w-8 h-8 border border-gray-700 text-gray-400 text-lg">×</span>
-                {t('comparison.traditional')}
-              </h4>
-              <ul className="space-y-4 text-gray-500">
-                {[
-                  t('comparison.highfee'),
-                  t('comparison.theory'),
-                  t('comparison.acceptall'),
-                  t('comparison.selffunded'),
-                  t('comparison.nosupport'),
-                  t('comparison.noplan'),
-                  t('comparison.loose')
-                ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-3 text-base font-mono">
-                    <span className="font-bold mt-0.5 text-red-900/50">×</span>
-                    <span className="text-sm leading-tight">{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Indicator Scam Teams */}
-            <div className="bg-[#0a0a0a] p-8 border-r border-white/10 grayscale opacity-60 hover:opacity-100 transition-all duration-500 relative group">
-              <div className="absolute top-0 left-0 w-full h-1 bg-red-900/30"></div>
-              <h4 className="text-2xl font-black mb-8 text-gray-500 flex items-center gap-3 uppercase">
-                <span className="flex items-center justify-center w-8 h-8 border border-gray-700 text-gray-400 text-lg">×</span>
-                {language === 'zh' ? '贩卖指标团队' : 'Indicator Scam Teams'}
-              </h4>
-              <ul className="space-y-4 text-gray-500">
-                {[
-                  language === 'zh' ? '出售"圣杯"指标 - 承诺必胜策略' : 'Sell "Holy Grail" indicators - Promise guaranteed wins',
-                  language === 'zh' ? '虚假回测数据 - 精心挑选的历史行情' : 'Fake backtest data - Cherry-picked historical data',
-                  language === 'zh' ? '付费社群 - 月费/年费持续收割' : 'Paid communities - Monthly/yearly recurring fees',
-                  language === 'zh' ? '无实盘验证 - 纸上谈兵' : 'No live trading proof - All talk no action',
-                  language === 'zh' ? '跑路常态 - 收钱后消失' : 'Exit scams - Disappear after taking money',
-                  language === 'zh' ? '收徒割韭菜 - 层层分销' : 'Recruit followers - Multi-level marketing',
-                  language === 'zh' ? '包装术语 - 故弄玄虚' : 'Fancy jargon - Mystify to confuse'
-                ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-3 text-base font-mono">
-                    <span className="font-bold mt-0.5 text-red-900/50">×</span>
-                    <span className="text-sm leading-tight">{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* FX Killer - Sharp & Bold */}
-            <div className="bg-black p-8 relative overflow-hidden group">
-              <div className="absolute top-0 left-0 w-full h-1 bg-[#ff102a] shadow-[0_0_20px_rgba(255,16,42,0.8)]"></div>
-              <div className="absolute top-0 right-0 w-32 h-32 bg-[#ff102a]/10 blur-3xl group-hover:bg-[#ff102a]/20 transition-colors"></div>
-              <h4 className="text-2xl font-black mb-8 text-white flex items-center gap-3 uppercase">
-                <span className="flex items-center justify-center w-8 h-8 bg-[#ff102a] text-white text-lg shadow-[0_0_15px_rgba(255,16,42,0.5)]">✓</span>
-                {t('comparison.fxkiller')}
-              </h4>
-              <ul className="space-y-4 text-gray-200">
-                {[
-                  t('comparison.free'),
-                  t('comparison.practical'),
-                  t('comparison.selection'),
-                  t('comparison.funding'),
-                  t('comparison.share'),
-                  t('comparison.career'),
-                  t('comparison.discipline')
-                ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-3 text-base font-mono">
-                    <span className="text-[#ff102a] font-bold mt-0.5">✓</span>
-                    <span className="font-medium text-sm leading-tight">{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* SECTION DIVIDER */}
-      <div className="relative py-1 bg-gradient-to-r from-transparent via-[#ff102a] to-transparent opacity-50"></div>
 
       {/* 4. THE PATH - CAREER ROADMAP */}
-      <div className="relative py-12 bg-black border-y border-white/5">
+      <div className="relative py-20 bg-black border-y border-white/5">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="flex flex-col md:flex-row justify-between items-end mb-20 border-b border-white/10 pb-8">
-            <div>
-              <h2 className="text-4xl md:text-6xl font-black text-white uppercase tracking-tight mb-2">
-                {language === 'zh' ? '职业晋升之路' : 'Career Path'}
-              </h2>
-              <p className="text-[#ff102a] text-lg font-bold tracking-widest uppercase">
-                The Road to Professional
-              </p>
-            </div>
-            <div className="hidden md:block text-right">
-              <div className="text-gray-500 font-mono text-sm">ESTIMATED TIME</div>
-              <div className="text-white font-mono text-xl">1-3 MONTHS</div>
-            </div>
+          {/* Header */}
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-6xl font-black text-white uppercase tracking-tight mb-4">
+              {language === 'zh' ? '职业晋升之路' : 'Career Development Path'}
+            </h2>
+            <div className="w-24 h-1 bg-[#ff102a] mx-auto mb-6"></div>
+            <p className="text-gray-400 text-xl max-w-3xl mx-auto">
+              {language === 'zh' ? '从新手到顶级交易员的完整培养体系' : 'Complete Training System from Beginner to Elite Trader'}
+            </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-            {[
-              {
-                step: '01',
-                days: t('career.stage1.days'),
-                title: t('career.stage1.title'),
-                desc: t('career.stage1.desc'),
-                color: 'text-gray-400',
-                border: 'border-white/10'
-              },
-              {
-                step: '02',
-                days: t('career.stage2.days'),
-                title: t('career.stage2.title'),
-                desc: t('career.stage2.desc'),
-                color: 'text-white',
-                border: 'border-white/30'
-              },
-              {
-                step: '03',
-                days: t('career.stage3.days'),
-                title: t('career.stage3.title'),
-                desc: t('career.stage3.desc'),
-                color: 'text-[#ff102a]',
-                border: 'border-[#ff102a]/50'
-              },
-              {
-                step: '04',
-                days: t('career.stage4.path'),
-                title: t('career.stage4.title'),
-                desc: t('career.stage4.desc'),
-                color: 'text-[#ff102a]',
-                border: 'border-[#ff102a]',
-                glow: true
-              }
-            ].map((stage, index) => (
-              <FadeInSlide key={index} direction="up" delay={index * 0.1}>
-                <div className={`relative h-full bg-[#0a0a0a] border ${stage.border} p-8 hover:bg-[#111] transition-all duration-300 group ${stage.glow ? 'shadow-[0_0_30px_rgba(255,16,42,0.1)] hover:shadow-[0_0_50px_rgba(255,16,42,0.2)]' : ''}`}>
-                  {/* Corner Accent */}
-                  <div className={`absolute top-0 right-0 w-8 h-8 border-t-2 border-r-2 ${stage.border} opacity-50 group-hover:opacity-100 transition-opacity`}></div>
+          {/* Timeline - Vertical on Mobile, Horizontal on Desktop */}
+          <div className="space-y-8">
+            {/* Phase 1: Initial Training (48 days) */}
+            <div className="border border-white/10 bg-[#0a0a0a] p-6">
+              <div className="flex items-center gap-3 mb-6 pb-4 border-b border-white/10">
+                <div className="px-3 py-1 bg-[#ff102a]/10 border border-[#ff102a]/30 text-[#ff102a] text-xs font-bold uppercase">
+                  {language === 'zh' ? '初级训练' : 'Initial Training'}
+                </div>
+                <div className="text-gray-500 text-sm font-mono">
+                  {language === 'zh' ? '总计 48 天' : 'Total 48 Days'}
+                </div>
+              </div>
 
-                  <div className="flex justify-between items-start mb-8">
-                    <div className={`text-4xl font-black opacity-30 ${stage.color}`}>{stage.step}</div>
-                    <div className={`px-2 py-1 text-[10px] font-bold uppercase border ${stage.border} ${stage.color}`}>
-                      {stage.days}
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+                {/* Stage 1 */}
+                <div className="bg-black/50 border border-white/5 p-4 hover:border-white/20 transition-all group">
+                  <div className="flex items-center gap-2 mb-3">
+                    <div className="w-8 h-8 bg-white/5 border border-white/10 flex items-center justify-center text-white font-bold text-sm">01</div>
+                    <div className="text-[10px] font-bold text-gray-500 uppercase">{language === 'zh' ? '3天' : '3 Days'}</div>
+                  </div>
+                  <h4 className="text-white font-bold mb-2 text-sm">{language === 'zh' ? '规则学习' : 'Rules Learning'}</h4>
+                  <ul className="space-y-1 text-xs text-gray-400">
+                    <li className="flex items-start gap-1">
+                      <span className="text-[#ff102a] mt-0.5">•</span>
+                      <span>{language === 'zh' ? '姿势标准化' : 'Standardized Posture'}</span>
+                    </li>
+                    <li className="flex items-start gap-1">
+                      <span className="text-[#ff102a] mt-0.5">•</span>
+                      <span>{language === 'zh' ? '军事化管理' : 'Military Discipline'}</span>
+                    </li>
+                    <li className="flex items-start gap-1">
+                      <span className="text-[#ff102a] mt-0.5">•</span>
+                      <span>{language === 'zh' ? '基础规则掌握' : 'Basic Rules'}</span>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Stage 2 */}
+                <div className="bg-black/50 border border-white/5 p-4 hover:border-white/20 transition-all group">
+                  <div className="flex items-center gap-2 mb-3">
+                    <div className="w-8 h-8 bg-white/5 border border-white/10 flex items-center justify-center text-white font-bold text-sm">02</div>
+                    <div className="text-[10px] font-bold text-gray-500 uppercase">{language === 'zh' ? '15天' : '15 Days'}</div>
+                  </div>
+                  <h4 className="text-white font-bold mb-2 text-sm">{language === 'zh' ? '盈利练习' : 'Profit Practice'}</h4>
+                  <ul className="space-y-1 text-xs text-gray-400">
+                    <li className="flex items-start gap-1">
+                      <span className="text-[#ff102a] mt-0.5">•</span>
+                      <span>{language === 'zh' ? '心态稳定训练' : 'Mental Stability'}</span>
+                    </li>
+                    <li className="flex items-start gap-1">
+                      <span className="text-[#ff102a] mt-0.5">•</span>
+                      <span>{language === 'zh' ? '灵动性强化' : 'Flexibility Enhancement'}</span>
+                    </li>
+                    <li className="flex items-start gap-1">
+                      <span className="text-[#ff102a] mt-0.5">•</span>
+                      <span>{language === 'zh' ? '领悟力提升' : 'Comprehension'}</span>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Stage 3 */}
+                <div className="bg-black/50 border border-yellow-500/30 p-4 hover:border-yellow-500/50 transition-all group">
+                  <div className="flex items-center gap-2 mb-3">
+                    <div className="w-8 h-8 bg-yellow-500/10 border border-yellow-500/30 flex items-center justify-center text-yellow-500 font-bold text-sm">03</div>
+                    <div className="text-[10px] font-bold text-yellow-500 uppercase">{language === 'zh' ? '10天' : '10 Days'}</div>
+                  </div>
+                  <h4 className="text-yellow-500 font-bold mb-2 text-sm">{language === 'zh' ? '盈利考核' : 'Assessment'}</h4>
+                  <ul className="space-y-1 text-xs text-gray-400">
+                    <li className="flex items-start gap-1">
+                      <span className="text-yellow-500 mt-0.5">•</span>
+                      <span>{language === 'zh' ? '不漏单' : 'No Missed Trades'}</span>
+                    </li>
+                    <li className="flex items-start gap-1">
+                      <span className="text-yellow-500 mt-0.5">•</span>
+                      <span>{language === 'zh' ? '不错单' : 'No Wrong Trades'}</span>
+                    </li>
+                    <li className="flex items-start gap-1">
+                      <span className="text-yellow-500 mt-0.5">•</span>
+                      <span>{language === 'zh' ? '不亏损' : 'No Losses'}</span>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Stage 4 */}
+                <div className="bg-black/50 border border-[#ff102a]/30 p-4 hover:border-[#ff102a]/50 transition-all group">
+                  <div className="flex items-center gap-2 mb-3">
+                    <div className="w-8 h-8 bg-[#ff102a]/10 border border-[#ff102a]/30 flex items-center justify-center text-[#ff102a] font-bold text-sm">04</div>
+                    <div className="text-[10px] font-bold text-[#ff102a] uppercase">{language === 'zh' ? '20天' : '20 Days'}</div>
+                  </div>
+                  <h4 className="text-[#ff102a] font-bold mb-2 text-sm">{language === 'zh' ? '小额实盘' : 'Live Trading'}</h4>
+                  <ul className="space-y-1 text-xs text-gray-400">
+                    <li className="flex items-start gap-1">
+                      <span className="text-[#ff102a] mt-0.5">•</span>
+                      <span>{language === 'zh' ? '日回撤 ≤5%' : 'Daily DD ≤5%'}</span>
+                    </li>
+                    <li className="flex items-start gap-1">
+                      <span className="text-[#ff102a] mt-0.5">•</span>
+                      <span>{language === 'zh' ? '总回撤 ≤10%' : 'Total DD ≤10%'}</span>
+                    </li>
+                    <li className="flex items-start gap-1">
+                      <span className="text-[#ff102a] mt-0.5">•</span>
+                      <span>{language === 'zh' ? '系统固化' : 'System Solidification'}</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Phase 2: Matrix Scaling */}
+            <div className="border border-[#ff102a]/30 bg-gradient-to-br from-[#ff102a]/5 to-black p-6">
+              <div className="flex items-center gap-3 mb-6 pb-4 border-b border-[#ff102a]/20">
+                <div className="px-3 py-1 bg-[#ff102a]/20 border border-[#ff102a]/50 text-[#ff102a] text-xs font-bold uppercase">
+                  {language === 'zh' ? '职业交易' : 'Professional Trading'}
+                </div>
+                <div className="text-[#ff102a] text-sm font-mono">
+                  {language === 'zh' ? '生涯开启' : 'Career Begins'}
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {/* Stage 5 */}
+                <div className="bg-black border border-[#ff102a]/30 p-6 shadow-[0_0_20px_rgba(255,16,42,0.1)]">
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-10 h-10 bg-[#ff102a] flex items-center justify-center text-white font-black text-base shadow-[0_0_15px_rgba(255,16,42,0.5)]">05</div>
+                    <div>
+                      <h4 className="text-white font-bold text-base">{language === 'zh' ? '大额矩阵' : 'Capital Matrix'}</h4>
+                      <p className="text-[#ff102a] text-xs font-mono">{language === 'zh' ? '持续进行' : 'Ongoing'}</p>
                     </div>
                   </div>
-                  <h3 className={`text-xl font-bold mb-4 uppercase ${stage.color === 'text-gray-400' ? 'text-white' : stage.color}`}>{stage.title}</h3>
-                  <p className="text-gray-400 leading-relaxed text-sm font-mono">
-                    {stage.desc}
-                  </p>
-
-                  {/* Bottom Progress Line */}
-                  <div className="absolute bottom-0 left-0 h-1 bg-gradient-to-r from-transparent via-[#ff102a] to-transparent w-0 group-hover:w-full transition-all duration-500"></div>
+                  <ul className="space-y-2 text-sm text-gray-300">
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#ff102a] font-bold mt-1">→</span>
+                      <span>{language === 'zh' ? '日回撤 ≤5%，总回撤 ≤10%' : 'Daily DD ≤5%, Total DD ≤10%'}</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#ff102a] font-bold mt-1">→</span>
+                      <span>{language === 'zh' ? '每次盈利稳定后，仓位规模翻倍' : 'Double position after stable profit'}</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#ff102a] font-bold mt-1">→</span>
+                      <span>{language === 'zh' ? '持续扩展直至达到承受极限' : 'Scale until max capacity'}</span>
+                    </li>
+                  </ul>
                 </div>
-              </FadeInSlide>
-            ))}
+
+                {/* Info Box */}
+                <div className="bg-black/50 border border-white/10 p-6 flex flex-col justify-center">
+                  <div className="text-gray-500 text-xs uppercase mb-2">{language === 'zh' ? '关键指标' : 'Key Metrics'}</div>
+                  <div className="space-y-3">
+                    <div>
+                      <div className="text-white text-2xl font-black">$100K - $2M</div>
+                      <div className="text-gray-400 text-xs">{language === 'zh' ? '资金规模范围' : 'Capital Range'}</div>
+                    </div>
+                    <div>
+                      <div className="text-[#ff102a] text-2xl font-black">60-90%</div>
+                      <div className="text-gray-400 text-xs">{language === 'zh' ? '利润分成比例' : 'Profit Share'}</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Phase 3: Level Progression */}
+            <div className="border border-white/10 bg-[#0a0a0a] p-6">
+              <div className="flex items-center gap-3 mb-6 pb-4 border-b border-white/10">
+                <div className="px-3 py-1 bg-purple-500/10 border border-purple-500/30 text-purple-400 text-xs font-bold uppercase">
+                  {language === 'zh' ? '级别升级' : 'Level Progression'}
+                </div>
+                <div className="text-gray-500 text-sm font-mono">
+                  {language === 'zh' ? '2年成长路径' : '2-Year Growth Path'}
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+                {/* Stage 6 */}
+                <div className="bg-black/50 border border-purple-500/20 p-4 hover:border-purple-500/40 transition-all">
+                  <div className="flex items-center gap-2 mb-3">
+                    <div className="w-8 h-8 bg-purple-500/10 border border-purple-500/30 flex items-center justify-center text-purple-400 font-bold text-sm">06</div>
+                    <div className="text-[10px] font-bold text-purple-400 uppercase">{language === 'zh' ? '3个月' : '3 Months'}</div>
+                  </div>
+                  <h4 className="text-purple-400 font-bold mb-2 text-sm">{language === 'zh' ? '5分钟级别' : '5-Min Level'}</h4>
+                  <p className="text-xs text-gray-400">{language === 'zh' ? '单向交易，级别升级' : 'One-directional trading'}</p>
+                </div>
+
+                {/* Stage 7 */}
+                <div className="bg-black/50 border border-blue-500/20 p-4 hover:border-blue-500/40 transition-all">
+                  <div className="flex items-center gap-2 mb-3">
+                    <div className="w-8 h-8 bg-blue-500/10 border border-blue-500/30 flex items-center justify-center text-blue-400 font-bold text-sm">07</div>
+                    <div className="text-[10px] font-bold text-blue-400 uppercase">{language === 'zh' ? '6个月' : '6 Months'}</div>
+                  </div>
+                  <h4 className="text-blue-400 font-bold mb-2 text-sm">{language === 'zh' ? '15分钟级别' : '15-Min Level'}</h4>
+                  <p className="text-xs text-gray-400">{language === 'zh' ? '多空双向交易' : 'Bi-directional trading'}</p>
+                </div>
+
+                {/* Stage 8 */}
+                <div className="bg-black/50 border border-cyan-500/20 p-4 hover:border-cyan-500/40 transition-all">
+                  <div className="flex items-center gap-2 mb-3">
+                    <div className="w-8 h-8 bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold text-sm">08</div>
+                    <div className="text-[10px] font-bold text-cyan-400 uppercase">{language === 'zh' ? '1年' : '1 Year'}</div>
+                  </div>
+                  <h4 className="text-cyan-400 font-bold mb-2 text-sm">{language === 'zh' ? '1小时级别' : '1-Hour Level'}</h4>
+                  <p className="text-xs text-gray-400">{language === 'zh' ? '多空双向交易' : 'Bi-directional trading'}</p>
+                </div>
+
+                {/* Stage 9 */}
+                <div className="bg-black/50 border border-green-500/20 p-4 hover:border-green-500/40 transition-all">
+                  <div className="flex items-center gap-2 mb-3">
+                    <div className="w-8 h-8 bg-green-500/10 border border-green-500/30 flex items-center justify-center text-green-400 font-bold text-sm">09</div>
+                    <div className="text-[10px] font-bold text-green-400 uppercase">{language === 'zh' ? '2年' : '2 Years'}</div>
+                  </div>
+                  <h4 className="text-green-400 font-bold mb-2 text-sm">{language === 'zh' ? '4H/日级别' : '4H/Daily Level'}</h4>
+                  <p className="text-xs text-gray-400">{language === 'zh' ? '顶级交易员' : 'Elite trader status'}</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
