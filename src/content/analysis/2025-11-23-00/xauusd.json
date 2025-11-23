@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-23T01:01:08.344Z",
+  "price": {
+    "close": "4065.96908",
+    "high": "4066.07742",
+    "low": "4065.82591",
+    "open": "4065.88506",
+    "change": "0.00",
+    "datetime": "2025-11-22 23:00:00"
+  },
+  "indicators": {
+    "rsi": 49.3214,
+    "macd": -0.2356506,
+    "macd_signal": 0.027882729,
+    "sma20": 4068.63416
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理趋势]",
+      "content": "当前黄金/美元(XAU/USD)的价格在4065.97附近波动，短期内显示出震荡整理的特征。从高点4066.08和低点4065.83来看，市场缺乏明显的方向性，投资者观望情绪浓厚，可能会使价格在这个区间内持续波动。\n\n技术指标方面，虽然RSI和MACD的具体数值尚不可用，但MACD显示出负值，暗示短期内卖压仍然存在。SMA(20)在4068.63附近为价格提供了一个重要的动态阻力位，这意味着在突破此水平之前，价格可能会继续面临下行压力。\n\n在支撑位方面，4065.80附近可能成为短期的支撑区域。如果价格跌破此水平，可能会引发更强的卖盘，进一步测试4060.00的支撑位。而若突破4068.63的阻力位，则有望进一步上探4075.00。\n\n综合考虑，建议投资者在当前区间内采取观望态度，待价格突破关键支撑或阻力位后再做决策。如果选择入场，建议设置止损，以降低风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The XAU/USD pair is currently trading at 4065.97, showing a stable price action with a 24-hour change of 0.00%. The market has been relatively quiet, with a high of 4066.08 and a low of 4065.83, suggesting consolidation in this range. This stability indicates a lack of strong directional momentum, which could set the stage for either a breakout or a reversal. Traders should closely monitor price movements, as a decisive break above the resistance level at 4068.63 (the 20-period SMA) could lead to a bullish trend, whereas a drop below 4065.83 may signal a bearish reversal.\n\nThe current MACD reading of -0.23565 suggests that the momentum is slightly bearish, but without a signal line for comparison, interpreting this indicator is challenging. The absence of an RSI figure also limits our understanding of the current market sentiment. However, the prevailing price action indicates that the market is caught in a tight range, making it crucial for traders to look for confirmation signals before entering positions. Monitoring the MACD for potential crossovers could provide valuable insights into future price movements.\n\nIn terms of support and resistance levels, the immediate support lies at 4065.83, while the next key resistance is identified at the SMA level of 4068.63. If the price can sustain above this resistance, it may attract further buying interest, potentially targeting higher levels. Conversely, if the price falls below support, it could trigger a wave of selling, pushing the asset down to test lower levels. Traders should establish alert levels around these technical points to capitalize on potential volatility.\n\nFor trading strategies, a cautious approach is advisable given the current market dynamics. A breakout above 4068.63 could provide a buying opportunity, with targets set at subsequent resistance levels. Conversely, a failure to hold above 4065.83 may suggest a short position, with stops placed just above the 20-period SMA. As always, managing risk is essential, especially in a market exhibiting such tight ranges and potential volatility."
+    }
+  }
+}
