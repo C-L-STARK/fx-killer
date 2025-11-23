@@ -235,7 +235,7 @@ const DummyContent = () => {
               <table className="w-full">
                 <thead>
                   <tr className="border-b border-white/10 bg-black/80">
-                    <th className="px-2 py-4 text-left text-xs font-bold text-gray-400 uppercase tracking-wider">
+                    <th className="px-2 py-4 text-center text-xs font-bold text-gray-400 uppercase tracking-wider">
                       {language === 'zh' ? '对比项目' : 'Comparison'}
                     </th>
                     <th className="px-2 py-4 text-center text-xs font-bold uppercase tracking-wider border-l-2 border-[#ff102a] bg-[#ff102a]/5">
@@ -266,7 +266,7 @@ const DummyContent = () => {
                     viewport={{ once: true }}
                     className="border-b border-white/5 hover:bg-white/[0.02] transition-colors"
                   >
-                    <td className="px-2 py-5 text-white font-medium text-sm">
+                    <td className="px-2 py-5 text-white font-medium text-sm text-center">
                       {language === 'zh' ? '培训费用' : 'Training Cost'}
                     </td>
                     <td className="px-2 py-5 text-center border-l-2 border-[#ff102a] bg-[#ff102a]/5">
@@ -301,7 +301,7 @@ const DummyContent = () => {
                     viewport={{ once: true }}
                     className="border-b border-white/5 hover:bg-white/[0.02] transition-colors"
                   >
-                    <td className="px-2 py-5 text-white font-medium text-sm">
+                    <td className="px-2 py-5 text-white font-medium text-sm text-center">
                       {language === 'zh' ? '培养模式' : 'Training Model'}
                     </td>
                     <td className="px-2 py-5 text-center border-l-2 border-[#ff102a] bg-[#ff102a]/5">
@@ -331,7 +331,7 @@ const DummyContent = () => {
                     viewport={{ once: true }}
                     className="border-b border-white/5 hover:bg-white/[0.02] transition-colors"
                   >
-                    <td className="px-2 py-5 text-white font-medium text-sm">
+                    <td className="px-2 py-5 text-white font-medium text-sm text-center">
                       {language === 'zh' ? '社群支持' : 'Community'}
                     </td>
                     <td className="px-2 py-5 text-center border-l-2 border-[#ff102a] bg-[#ff102a]/5">
@@ -357,7 +357,7 @@ const DummyContent = () => {
                     viewport={{ once: true }}
                     className="border-b border-white/5 hover:bg-white/[0.02] transition-colors"
                   >
-                    <td className="px-2 py-5 text-white font-medium text-sm">
+                    <td className="px-2 py-5 text-white font-medium text-sm text-center">
                       {language === 'zh' ? '利润分成' : 'Profit Share'}
                     </td>
                     <td className="px-2 py-5 text-center border-l-2 border-[#ff102a] bg-[#ff102a]/5">
@@ -381,7 +381,7 @@ const DummyContent = () => {
                     viewport={{ once: true }}
                     className="border-b border-white/5 hover:bg-white/[0.02] transition-colors"
                   >
-                    <td className="px-2 py-5 text-white font-medium text-sm">
+                    <td className="px-2 py-5 text-white font-medium text-sm text-center">
                       {language === 'zh' ? '资金规模' : 'Capital'}
                     </td>
                     <td className="px-2 py-5 text-center border-l-2 border-[#ff102a] bg-[#ff102a]/5">
@@ -411,7 +411,7 @@ const DummyContent = () => {
                     viewport={{ once: true }}
                     className="border-b border-white/5 hover:bg-white/[0.02] transition-colors"
                   >
-                    <td className="px-2 py-5 text-white font-medium text-sm">
+                    <td className="px-2 py-5 text-white font-medium text-sm text-center">
                       {language === 'zh' ? '培养周期' : 'Duration'}
                     </td>
                     <td className="px-2 py-5 text-center border-l-2 border-[#ff102a] bg-[#ff102a]/5">
@@ -442,7 +442,7 @@ const DummyContent = () => {
                     viewport={{ once: true }}
                     className="border-b border-white/5 hover:bg-white/[0.02] transition-colors"
                   >
-                    <td className="px-2 py-5 text-white font-medium text-sm">
+                    <td className="px-2 py-5 text-white font-medium text-sm text-center">
                       {language === 'zh' ? '考核标准' : 'Assessment'}
                     </td>
                     <td className="px-2 py-5 text-center border-l-2 border-[#ff102a] bg-[#ff102a]/5">
@@ -470,7 +470,7 @@ const DummyContent = () => {
                     viewport={{ once: true }}
                     className="border-b border-white/5 hover:bg-white/[0.02] transition-colors"
                   >
-                    <td className="px-2 py-5 text-white font-medium text-sm">
+                    <td className="px-2 py-5 text-white font-medium text-sm text-center">
                       {language === 'zh' ? '实盘经验' : 'Live Trading'}
                     </td>
                     <td className="px-2 py-5 text-center border-l-2 border-[#ff102a] bg-[#ff102a]/5">
@@ -500,7 +500,7 @@ const DummyContent = () => {
                     viewport={{ once: true }}
                     className="hover:bg-white/[0.02] transition-colors"
                   >
-                    <td className="px-2 py-5 text-white font-medium text-sm">
+                    <td className="px-2 py-5 text-white font-medium text-sm text-center">
                       {language === 'zh' ? '收入潜力' : 'Income'}
                     </td>
                     <td className="px-2 py-5 text-center border-l-2 border-[#ff102a] bg-[#ff102a]/5">
@@ -1001,6 +1001,8 @@ const DummyContent = () => {
   );
 };
 
+import DonateSection from '@/components/custom/DonateSection';
+
 export default function Home() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const router = useRouter();
@@ -1008,6 +1010,7 @@ export default function Home() {
   return (
     <div className="w-full">
       <DummyContent />
+      <DonateSection />
     </div>
   );
 }

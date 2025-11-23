@@ -359,6 +359,7 @@ const translations: Record<Language, Record<string, string>> = {
     'donate.how.step4.desc': '按照提供的地址完成捐赠，帮助我们持续提供免费培训服务',
     'donate.how.cta.test': '立即加入免费培训',
     'donate.how.cta.email': '发送邮件咨询',
+    'donate.how.cta.member': '捐赠成为会员',
 
     'donate.notice.title': '重要说明',
     'donate.notice.1': '我们的培训服务完全免费，捐赠为自愿行为',
@@ -375,8 +376,8 @@ const translations: Record<Language, Record<string, string>> = {
     'donate.card.exclusive': '02 // 支持我们',
     'donate.card.community': '03 // 社区贡献',
     'donate.card.bonus_rewards': '帮助更多人',
-    'donate.membership.label': '培训资格',
-    'donate.membership.title': '免费培训',
+    // 'donate.membership.label': '培训资格',  // Removed per user request
+    // 'donate.membership.title': '免费培训',  // Removed per user request
     'donate.price.label': '建议捐赠金额',
     'donate.price.daily': '+ $5.00 / 天',
     'donate.wallet.label': '钱包地址 (USDT/USDC)',
@@ -874,7 +875,8 @@ const translations: Record<Language, Record<string, string>> = {
     'donate.how.step4.title': 'Complete Donation',
     'donate.how.step4.desc': 'Complete donation to the provided address, help us continue providing free training services',
     'donate.how.cta.test': 'Join Free Training Now',
-    'donate.how.cta.email': 'Email Us',
+    'donate.how.cta.email': 'Send Email Inquiry',
+    'donate.how.cta.member': 'Donate to Become a Member',
 
     'donate.notice.title': 'Important Notice',
     'donate.notice.1': 'Our training services are completely free, donations are voluntary',

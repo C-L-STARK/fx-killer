@@ -8,6 +8,17 @@ import { useTheme } from '@/contexts/ThemeContext';
 import { useLanguage } from '@/contexts/LanguageContext';
 import LocaleLink from '@/components/navigation/LocaleLink';
 
+// Define types for navigation items
+type NavItem = {
+  name: string;
+  link?: string;
+  children?: {
+    name: string;
+    link: string;
+    external?: boolean;
+  }[];
+};
+
 export default function UnifiedNavbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -17,7 +28,7 @@ export default function UnifiedNavbar() {
   const { theme, toggleTheme, mounted } = useTheme();
   const { language, toggleLanguage, t } = useLanguage();
 
-  const navItems = [
+  const navItems: NavItem[] = [
     {
       name: language === 'zh' ? '主页' : 'Home',
       link: "/",
@@ -34,7 +45,6 @@ export default function UnifiedNavbar() {
       name: t('nav.propfirm'),
       link: "/propfirm",
     },
-
     {
       name: t('nav.liveTrading'),
       link: "/live-trading",
@@ -47,10 +57,44 @@ export default function UnifiedNavbar() {
       name: language === 'zh' ? '天梯' : 'Leaderboard',
       link: "/top-traders",
     },
-
+    // {
+    //   name: t('nav.membership'),
+    //   link: "/splan/donate",
+    // },
     {
-      name: t('nav.membership'),
-      link: "/splan/donate",
+      name: language === 'zh' ? '官方' : 'Official',
+      children: [
+        {
+          name: language === 'zh' ? '外汇新闻' : 'Forex News',
+          link: "/news",
+          external: true
+        },
+        {
+          name: language === 'zh' ? '官方博客' : 'Official Blog',
+          link: "/splan/blog",
+          external: true
+        },
+        {
+          name: language === 'zh' ? '教育中心' : 'Education Center',
+          link: "/education",
+          external: true
+        },
+        {
+          name: language === 'zh' ? '经济日历' : 'Economic Calendar',
+          link: "/economic-calendar",
+          external: true
+        },
+        {
+          name: language === 'zh' ? '常见问题' : 'FAQs',
+          link: "/splan/faq",
+          external: true
+        },
+        {
+          name: language === 'zh' ? '支持我们' : 'Support Us',
+          link: "/splan/donate",
+          external: true
+        }
+      ]
     },
   ];
 
@@ -88,7 +132,8 @@ export default function UnifiedNavbar() {
     }
   };
 
-  const isActive = (link: string) => {
+  const isActive = (link?: string) => {
+    if (!link) return false;
     // Extract path without locale prefix for comparison
     const pathSegments = pathname.split('/').filter(Boolean);
     const currentLocale = pathSegments[0] === 'en' || pathSegments[0] === 'zh' ? pathSegments[0] : 'zh';
@@ -116,27 +161,89 @@ export default function UnifiedNavbar() {
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center">
               {navItems.map((item, index) => (
-                <LocaleLink
+                <motion.div
                   key={index}
-                  href={item.link}
-                  className="relative px-2.5 py-2 text-sm font-medium transition-colors group"
+                  className="relative group"
+                  initial={{ opacity: 0, y: -20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: index * 0.1, duration: 0.5 }}
                 >
-                  <span
-                    className={`relative z-10 ${isActive(item.link)
-                      ? 'text-white font-bold'
-                      : 'text-gray-400 group-hover:text-white'
-                      }`}
-                  >
-                    {item.name}
-                  </span>
-                  {isActive(item.link) && (
-                    <motion.div
-                      layoutId="navbar-indicator"
-                      className="absolute bottom-0 left-0 right-0 h-0.5 bg-red-600"
-                      transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
-                    />
+                  {item.children ? (
+                    // Dropdown Menu
+                    <div
+                      className="relative px-2.5 py-2"
+                      onMouseEnter={() => setOpenDropdown(item.name)}
+                      onMouseLeave={() => setOpenDropdown(null)}
+                    >
+                      <button className="text-sm font-medium text-gray-400 group-hover:text-white transition-colors flex items-center gap-1">
+                        {item.name}
+                        <motion.svg
+                          className="w-3 h-3"
+                          animate={{ rotate: openDropdown === item.name ? 180 : 0 }}
+                          transition={{ duration: 0.2 }}
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        </motion.svg>
+                      </button>
+
+                      <AnimatePresence>
+                        {openDropdown === item.name && (
+                          <motion.div
+                            initial={{ opacity: 0, y: 10, scale: 0.95 }}
+                            animate={{ opacity: 1, y: 0, scale: 1 }}
+                            exit={{ opacity: 0, y: 10, scale: 0.95 }}
+                            transition={{ duration: 0.2 }}
+                            className="absolute left-0 mt-2 w-48 bg-black border border-white/10 shadow-xl rounded-md overflow-hidden py-1 z-50"
+                          >
+                            {item.children.map((child, childIndex) => (
+                              <LocaleLink
+                                key={childIndex}
+                                href={child.link}
+                                target={child.external ? "_blank" : undefined}
+                                className="block px-4 py-2 text-sm text-gray-400 hover:bg-white/5 hover:text-white transition-colors relative overflow-hidden"
+                              >
+                                <motion.span
+                                  whileHover={{ x: 5 }}
+                                  transition={{ type: "spring", stiffness: 300 }}
+                                  className="inline-block"
+                                >
+                                  {child.name}
+                                </motion.span>
+                              </LocaleLink>
+                            ))}
+                          </motion.div>
+                        )}
+                      </AnimatePresence>
+                    </div>
+                  ) : (
+                    // Regular Link
+                    <LocaleLink
+                      href={item.link!}
+                      className="relative px-2.5 py-2 text-sm font-medium transition-colors group block"
+                    >
+                      <motion.span
+                        className={`relative z-10 inline-block ${isActive(item.link)
+                          ? 'text-white font-bold'
+                          : 'text-gray-400 group-hover:text-white'
+                          }`}
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.95 }}
+                      >
+                        {item.name}
+                      </motion.span>
+                      {isActive(item.link) && (
+                        <motion.div
+                          layoutId="navbar-indicator"
+                          className="absolute bottom-0 left-0 right-0 h-0.5 bg-red-600"
+                          transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
+                        />
+                      )}
+                    </LocaleLink>
                   )}
-                </LocaleLink>
+                </motion.div>
               ))}
             </div>
           </div>
@@ -220,16 +327,35 @@ export default function UnifiedNavbar() {
           >
             <div className="px-4 py-4 space-y-2">
               {navItems.map((item, index) => (
-                <LocaleLink
-                  key={index}
-                  href={item.link}
-                  className={`block px-4 py-3 text-sm font-medium transition-colors ${isActive(item.link)
-                    ? 'bg-white/10 text-white font-bold'
-                    : 'text-gray-400 hover:bg-white/5 hover:text-white'
-                    }`}
-                >
-                  {item.name}
-                </LocaleLink>
+                <div key={index}>
+                  {item.children ? (
+                    <div className="space-y-1">
+                      <div className="px-4 py-2 text-sm font-bold text-gray-500 uppercase tracking-wider">
+                        {item.name}
+                      </div>
+                      {item.children.map((child, childIndex) => (
+                        <LocaleLink
+                          key={childIndex}
+                          href={child.link}
+                          target={child.external ? "_blank" : undefined}
+                          className="block px-4 py-2 pl-8 text-sm text-gray-400 hover:text-white transition-colors"
+                        >
+                          {child.name}
+                        </LocaleLink>
+                      ))}
+                    </div>
+                  ) : (
+                    <LocaleLink
+                      href={item.link!}
+                      className={`block px-4 py-3 text-sm font-medium transition-colors ${isActive(item.link)
+                        ? 'bg-white/10 text-white font-bold'
+                        : 'text-gray-400 hover:bg-white/5 hover:text-white'
+                        }`}
+                    >
+                      {item.name}
+                    </LocaleLink>
+                  )}
+                </div>
               ))}
 
               {/* Mobile Language Toggle */}
