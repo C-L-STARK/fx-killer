@@ -69,7 +69,7 @@ export default function PartnersLogos() {
           className="text-center mb-12"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-[#ff102a] mb-4">
-            {isZh ? '合作伙伴' : 'Our Partners'}
+            {isZh ? '官方合作伙伴' : 'Official Partners'}
           </h2>
           <p className="text-[#dadafa] max-w-2xl mx-auto">
             {isZh
@@ -79,7 +79,7 @@ export default function PartnersLogos() {
         </motion.div>
 
         {/* Logos Auto Scroll */}
-        <div className="relative mb-12 overflow-hidden">
+        <div className="relative overflow-hidden">
           <motion.div
             className="flex gap-12"
             animate={{
@@ -109,86 +109,6 @@ export default function PartnersLogos() {
             ))}
           </motion.div>
         </div>
-
-        {/* Partnership Benefits */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="bg-[#131318] border-2 border-[#ff102a] p-6"
-        >
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            {/* Left: Description */}
-            <div className="text-center md:text-left">
-              <p className="text-base md:text-lg text-[#ff102a]">
-                {isZh ? (
-                  <>
-                    汇刃是 <span className="font-bold">EC Markets</span>、<span className="font-bold">TickMill</span>、<span className="font-bold">Binance</span>、<span className="font-bold">FTMO</span>、<span className="font-bold">FundedNext</span> 的<span className="font-black text-xl underline decoration-2 underline-offset-4">官方合作伙伴</span>
-                  </>
-                ) : (
-                  <>
-                    FX Killer is an <span className="font-black text-xl underline decoration-2 underline-offset-4">official partner</span> of <span className="font-bold">EC Markets</span>, <span className="font-bold">TickMill</span>, <span className="font-bold">Binance</span>, <span className="font-bold">FTMO</span>, <span className="font-bold">FundedNext</span>
-                  </>
-                )}
-              </p>
-              <p className="text-sm text-white mt-2">
-                {isZh ? (
-                  <>
-                    使用专属链接注册，享受<span className="font-black bg-[#ff102a] text-white px-2 py-0.5">平台最高自动返佣</span>、<span className="font-bold underline">超低点差</span>、<span className="font-bold underline">手续费</span>
-                    <br />
-                    <span className="font-black">FTMO</span> 和 <span className="font-black">FundedNext</span> 更有<span className="font-black text-base bg-[#ff102a] text-white px-2 py-0.5 ml-1">立减优惠</span>
-                  </>
-                ) : (
-                  <>
-                    Register with exclusive links for <span className="font-black bg-[#ff102a] text-white px-2 py-0.5">maximum auto-rebates</span>, <span className="font-bold underline">ultra-low spreads & fees</span>
-                    <br />
-                    <span className="font-black">FTMO</span> & <span className="font-black">FundedNext</span> with <span className="font-black text-base bg-[#ff102a] text-white px-2 py-0.5 ml-1">instant discounts</span>
-                  </>
-                )}
-              </p>
-            </div>
-
-            {/* Right: Partner Links */}
-            <div className="flex flex-wrap items-center justify-center gap-3">
-              {partners.map((partner, index) => (
-                <motion.a
-                  key={partner.name}
-                  href={partner.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.3, delay: index * 0.05 }}
-                  className="group"
-                >
-                  <div className="bg-[#0a0a0a] border-2 border-[#dadafa]/30 hover:border-[#ff102a] transition-all px-4 py-2 flex items-center gap-2">
-                    <span className="font-bold text-white group-hover:text-[#ff102a] text-sm group-hover:underline transition-colors">
-                      {partner.name}
-                    </span>
-                    {partner.name === 'FundedNext' && partner.code && (
-                      <>
-                        <span className="text-[#dadafa]">|</span>
-                        <code className="text-xs bg-[#131318] px-2 py-0.5 text-white group-hover:text-[#ff102a] font-mono transition-colors">
-                          {partner.code}
-                        </code>
-                      </>
-                    )}
-                    <svg
-                      className="w-4 h-4 text-[#dadafa] group-hover:text-[#ff102a] transition-colors"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                    </svg>
-                  </div>
-                </motion.a>
-              ))}
-            </div>
-          </div>
-        </motion.div>
       </div>
     </section>
   );
