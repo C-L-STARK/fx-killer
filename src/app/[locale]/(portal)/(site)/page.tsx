@@ -532,234 +532,236 @@ const DummyContent = () => {
 
 
       {/* 4. THE PATH - CAREER ROADMAP */}
-      <div className="relative py-20 bg-black border-y border-white/5">
-        <div className="max-w-7xl mx-auto px-6">
+      <div className="relative py-24 bg-[#020202] overflow-hidden border-y border-white/5">
+        <style jsx global>{`
+          @keyframes flow-x {
+            0% { background-position: 100% 0; }
+            100% { background-position: -100% 0; }
+          }
+          @keyframes flow-y {
+            0% { background-position: 0 100%; }
+            100% { background-position: 0 -100%; }
+          }
+          @keyframes scan {
+            0% { transform: translateY(-100%); }
+            100% { transform: translateY(100%); }
+          }
+          .animate-flow-x {
+            background-size: 200% 100%;
+            animation: flow-x 3s linear infinite;
+          }
+          .animate-flow-y {
+            background-size: 100% 200%;
+            animation: flow-y 3s linear infinite;
+          }
+          .animate-scan {
+            animation: scan 4s ease-in-out infinite;
+          }
+        `}</style>
+
+        {/* Background Ambient Glow */}
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-[#ff102a]/5 blur-[120px] pointer-events-none"></div>
+
+        <div className="max-w-7xl mx-auto px-6 relative z-10">
           {/* Header */}
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-6xl font-black text-white uppercase tracking-tight mb-4">
-              {language === 'zh' ? '职业晋升之路' : 'Career Development Path'}
+          <div className="text-center mb-24">
+            <h2 className="text-4xl md:text-6xl font-black text-white uppercase tracking-tight mb-6">
+              {language === 'zh' ? '职业晋升之路' : 'Career Roadmap'}
             </h2>
-            <div className="w-24 h-1 bg-[#ff102a] mx-auto mb-6"></div>
+            <div className="w-24 h-1 bg-gradient-to-r from-[#ff102a] to-purple-600 mx-auto mb-6"></div>
             <p className="text-gray-400 text-xl max-w-3xl mx-auto">
               {language === 'zh' ? '从新手到顶级交易员的完整培养体系' : 'Complete Training System from Beginner to Elite Trader'}
             </p>
           </div>
 
-          {/* Timeline - Vertical on Mobile, Horizontal on Desktop */}
-          <div className="space-y-8">
-            {/* Phase 1: Initial Training (48 days) */}
-            <div className="border border-white/10 bg-[#0a0a0a] p-6">
-              <div className="flex items-center gap-3 mb-6 pb-4 border-b border-white/10">
-                <div className="px-3 py-1 bg-[#ff102a]/10 border border-[#ff102a]/30 text-[#ff102a] text-xs font-bold uppercase">
-                  {language === 'zh' ? '初级训练' : 'Initial Training'}
-                </div>
-                <div className="text-gray-500 text-sm font-mono">
-                  {language === 'zh' ? '总计 48 天' : 'Total 48 Days'}
-                </div>
-              </div>
+          {/* SNAKE GRID LAYOUT (Desktop: 3x3, Mobile: Vertical) */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-y-20 relative">
 
-              <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-                {/* Stage 1 */}
-                <div className="bg-black/50 border border-white/5 p-4 hover:border-white/20 transition-all group">
-                  <div className="flex items-center gap-2 mb-3">
-                    <div className="w-8 h-8 bg-white/5 border border-white/10 flex items-center justify-center text-white font-bold text-sm">01</div>
-                    <div className="text-[10px] font-bold text-gray-500 uppercase">{language === 'zh' ? '3天' : '3 Days'}</div>
-                  </div>
-                  <h4 className="text-white font-bold mb-2 text-sm">{language === 'zh' ? '规则学习' : 'Rules Learning'}</h4>
-                  <ul className="space-y-1 text-xs text-gray-400">
-                    <li className="flex items-start gap-1">
-                      <span className="text-[#ff102a] mt-0.5">•</span>
-                      <span>{language === 'zh' ? '姿势标准化' : 'Standardized Posture'}</span>
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <span className="text-[#ff102a] mt-0.5">•</span>
-                      <span>{language === 'zh' ? '军事化管理' : 'Military Discipline'}</span>
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <span className="text-[#ff102a] mt-0.5">•</span>
-                      <span>{language === 'zh' ? '基础规则掌握' : 'Basic Rules'}</span>
-                    </li>
-                  </ul>
-                </div>
+            {/* Connecting Lines (Desktop Only) - FLOWING ANIMATION */}
+            <div className="hidden md:block absolute inset-0 pointer-events-none">
+              {/* Row 1 Horizontal (L -> R) */}
+              <div className="absolute top-[15%] left-[16%] right-[16%] h-0.5 bg-gradient-to-r from-[#ff102a]/10 via-[#ff102a] to-[#ff102a]/10 animate-flow-x"></div>
+              {/* Row 2 Horizontal (R -> L) */}
+              <div className="absolute top-[50%] left-[16%] right-[16%] h-0.5 bg-gradient-to-r from-purple-600/10 via-purple-600 to-purple-600/10 animate-flow-x" style={{ animationDirection: 'reverse' }}></div>
+              {/* Row 3 Horizontal (L -> R) */}
+              <div className="absolute bottom-[15%] left-[16%] right-[16%] h-0.5 bg-gradient-to-r from-blue-600/10 via-blue-600 to-blue-600/10 animate-flow-x"></div>
 
-                {/* Stage 2 */}
-                <div className="bg-black/50 border border-white/5 p-4 hover:border-white/20 transition-all group">
-                  <div className="flex items-center gap-2 mb-3">
-                    <div className="w-8 h-8 bg-white/5 border border-white/10 flex items-center justify-center text-white font-bold text-sm">02</div>
-                    <div className="text-[10px] font-bold text-gray-500 uppercase">{language === 'zh' ? '15天' : '15 Days'}</div>
-                  </div>
-                  <h4 className="text-white font-bold mb-2 text-sm">{language === 'zh' ? '盈利练习' : 'Profit Practice'}</h4>
-                  <ul className="space-y-1 text-xs text-gray-400">
-                    <li className="flex items-start gap-1">
-                      <span className="text-[#ff102a] mt-0.5">•</span>
-                      <span>{language === 'zh' ? '心态稳定训练' : 'Mental Stability'}</span>
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <span className="text-[#ff102a] mt-0.5">•</span>
-                      <span>{language === 'zh' ? '灵动性强化' : 'Flexibility Enhancement'}</span>
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <span className="text-[#ff102a] mt-0.5">•</span>
-                      <span>{language === 'zh' ? '领悟力提升' : 'Comprehension'}</span>
-                    </li>
-                  </ul>
-                </div>
+              {/* Vertical Connectors */}
+              {/* 3 -> 4 (Right Side) */}
+              <div className="absolute top-[15%] right-[16.5%] bottom-[50%] w-0.5 bg-gradient-to-b from-[#ff102a] via-purple-600 to-purple-600 animate-flow-y"></div>
+              {/* 6 -> 7 (Left Side) */}
+              <div className="absolute top-[50%] left-[16.5%] bottom-[15%] w-0.5 bg-gradient-to-b from-purple-600 via-blue-600 to-blue-600 animate-flow-y"></div>
+            </div>
 
-                {/* Stage 3 */}
-                <div className="bg-black/50 border border-yellow-500/30 p-4 hover:border-yellow-500/50 transition-all group">
-                  <div className="flex items-center gap-2 mb-3">
-                    <div className="w-8 h-8 bg-yellow-500/10 border border-yellow-500/30 flex items-center justify-center text-yellow-500 font-bold text-sm">03</div>
-                    <div className="text-[10px] font-bold text-yellow-500 uppercase">{language === 'zh' ? '10天' : '10 Days'}</div>
-                  </div>
-                  <h4 className="text-yellow-500 font-bold mb-2 text-sm">{language === 'zh' ? '盈利考核' : 'Assessment'}</h4>
-                  <ul className="space-y-1 text-xs text-gray-400">
-                    <li className="flex items-start gap-1">
-                      <span className="text-yellow-500 mt-0.5">•</span>
-                      <span>{language === 'zh' ? '不漏单' : 'No Missed Trades'}</span>
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <span className="text-yellow-500 mt-0.5">•</span>
-                      <span>{language === 'zh' ? '不错单' : 'No Wrong Trades'}</span>
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <span className="text-yellow-500 mt-0.5">•</span>
-                      <span>{language === 'zh' ? '不亏损' : 'No Losses'}</span>
-                    </li>
-                  </ul>
-                </div>
+            {/* STAGE 1: 3 Days */}
+            <div className="md:col-start-1 md:row-start-1 relative group">
+              <div className="absolute -inset-0.5 bg-gradient-to-br from-[#ff102a] to-transparent opacity-20 group-hover:opacity-100 transition duration-500"></div>
+              <div className="relative bg-[#0a0a0a] border border-white/10 p-6 h-full hover:-translate-y-1 transition-transform duration-300 overflow-hidden">
+                {/* Scan Effect */}
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#ff102a]/10 to-transparent animate-scan opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
-                {/* Stage 4 */}
-                <div className="bg-black/50 border border-[#ff102a]/30 p-4 hover:border-[#ff102a]/50 transition-all group">
-                  <div className="flex items-center gap-2 mb-3">
-                    <div className="w-8 h-8 bg-[#ff102a]/10 border border-[#ff102a]/30 flex items-center justify-center text-[#ff102a] font-bold text-sm">04</div>
-                    <div className="text-[10px] font-bold text-[#ff102a] uppercase">{language === 'zh' ? '20天' : '20 Days'}</div>
-                  </div>
-                  <h4 className="text-[#ff102a] font-bold mb-2 text-sm">{language === 'zh' ? '小额实盘' : 'Live Trading'}</h4>
-                  <ul className="space-y-1 text-xs text-gray-400">
-                    <li className="flex items-start gap-1">
-                      <span className="text-[#ff102a] mt-0.5">•</span>
-                      <span>{language === 'zh' ? '日回撤 ≤5%' : 'Daily DD ≤5%'}</span>
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <span className="text-[#ff102a] mt-0.5">•</span>
-                      <span>{language === 'zh' ? '总回撤 ≤10%' : 'Total DD ≤10%'}</span>
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <span className="text-[#ff102a] mt-0.5">•</span>
-                      <span>{language === 'zh' ? '系统固化' : 'System Solidification'}</span>
-                    </li>
-                  </ul>
+                <div className="flex justify-between items-start mb-4 relative z-10">
+                  <div className="w-10 h-10 bg-[#ff102a]/10 flex items-center justify-center border border-[#ff102a]/30 text-[#ff102a] font-black">01</div>
+                  <div className="text-xs font-bold text-gray-500 uppercase border border-white/10 px-2 py-1">{language === 'zh' ? '3天' : '3 Days'}</div>
                 </div>
+                <h3 className="text-white font-bold text-lg mb-2 relative z-10">{language === 'zh' ? '规则学习' : 'Rules Learning'}</h3>
+                <p className="text-gray-400 text-xs leading-relaxed relative z-10">
+                  {language === 'zh' ? '姿势标准化，军事化管理，基础规则掌握' : 'Standardized posture, military discipline, basic rules.'}
+                </p>
               </div>
             </div>
 
-            {/* Phase 2: Matrix Scaling */}
-            <div className="border border-[#ff102a]/30 bg-gradient-to-br from-[#ff102a]/5 to-black p-6">
-              <div className="flex items-center gap-3 mb-6 pb-4 border-b border-[#ff102a]/20">
-                <div className="px-3 py-1 bg-[#ff102a]/20 border border-[#ff102a]/50 text-[#ff102a] text-xs font-bold uppercase">
-                  {language === 'zh' ? '职业交易' : 'Professional Trading'}
+            {/* STAGE 2: 15 Days */}
+            <div className="md:col-start-2 md:row-start-1 relative group">
+              <div className="absolute -inset-0.5 bg-gradient-to-br from-[#ff102a] to-transparent opacity-20 group-hover:opacity-100 transition duration-500"></div>
+              <div className="relative bg-[#0a0a0a] border border-white/10 p-6 h-full hover:-translate-y-1 transition-transform duration-300 overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#ff102a]/10 to-transparent animate-scan opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+
+                <div className="flex justify-between items-start mb-4 relative z-10">
+                  <div className="w-10 h-10 bg-[#ff102a]/10 flex items-center justify-center border border-[#ff102a]/30 text-[#ff102a] font-black">02</div>
+                  <div className="text-xs font-bold text-gray-500 uppercase border border-white/10 px-2 py-1">{language === 'zh' ? '15天' : '15 Days'}</div>
                 </div>
-                <div className="text-[#ff102a] text-sm font-mono">
+                <h3 className="text-white font-bold text-lg mb-2 relative z-10">{language === 'zh' ? '盈利练习' : 'Profit Practice'}</h3>
+                <p className="text-gray-400 text-xs leading-relaxed relative z-10">
+                  {language === 'zh' ? '心态稳定训练，灵动性强化，领悟力提升' : 'Mental stability, flexibility enhancement, comprehension.'}
+                </p>
+              </div>
+            </div>
+
+            {/* STAGE 3: 10 Days (Assessment) */}
+            <div className="md:col-start-3 md:row-start-1 relative group">
+              <div className="absolute -inset-0.5 bg-gradient-to-br from-yellow-500 to-transparent opacity-30 group-hover:opacity-100 transition duration-500"></div>
+              <div className="relative bg-[#0a0a0a] border border-yellow-500/30 p-6 h-full hover:-translate-y-1 transition-transform duration-300 overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-yellow-500/10 to-transparent animate-scan opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+
+                <div className="flex justify-between items-start mb-4 relative z-10">
+                  <div className="w-10 h-10 bg-yellow-500/10 flex items-center justify-center border border-yellow-500/30 text-yellow-500 font-black">03</div>
+                  <div className="text-xs font-bold text-yellow-500 uppercase border border-yellow-500/30 px-2 py-1">{language === 'zh' ? '10天' : '10 Days'}</div>
+                </div>
+                <h3 className="text-yellow-500 font-bold text-lg mb-2 relative z-10">{language === 'zh' ? '盈利考核' : 'Assessment'}</h3>
+                <p className="text-gray-400 text-xs leading-relaxed relative z-10">
+                  {language === 'zh' ? '不漏单，不错单，不亏损。严格考核。' : 'No missed trades, no wrong trades, no losses.'}
+                </p>
+              </div>
+            </div>
+
+            {/* STAGE 4: 20 Days (Live Trading) */}
+            <div className="md:col-start-3 md:row-start-2 relative group">
+              <div className="absolute -inset-0.5 bg-gradient-to-br from-[#ff102a] to-transparent opacity-30 group-hover:opacity-100 transition duration-500"></div>
+              <div className="relative bg-[#0a0a0a] border border-[#ff102a]/30 p-6 h-full hover:-translate-y-1 transition-transform duration-300 overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#ff102a]/10 to-transparent animate-scan opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+
+                <div className="flex justify-between items-start mb-4 relative z-10">
+                  <div className="w-10 h-10 bg-[#ff102a]/10 flex items-center justify-center border border-[#ff102a]/30 text-[#ff102a] font-black">04</div>
+                  <div className="text-xs font-bold text-[#ff102a] uppercase border border-[#ff102a]/30 px-2 py-1">{language === 'zh' ? '20天' : '20 Days'}</div>
+                </div>
+                <h3 className="text-[#ff102a] font-bold text-lg mb-2 relative z-10">{language === 'zh' ? '小额实盘' : 'Live Trading'}</h3>
+                <p className="text-gray-400 text-xs leading-relaxed relative z-10">
+                  {language === 'zh' ? '日回撤≤5%，总回撤≤10%，系统固化。' : 'Daily DD ≤5%, Total DD ≤10%, system solidification.'}
+                </p>
+              </div>
+            </div>
+
+            {/* STAGE 5: CAPITAL MATRIX (CENTER HUB) */}
+            <div className="md:col-start-2 md:row-start-2 relative group z-20">
+              {/* Dynamic Border */}
+              <div className="absolute -inset-1 bg-gradient-to-r from-[#ff102a] via-purple-600 to-[#ff102a] opacity-50 group-hover:opacity-100 transition duration-500 animate-flow-x"></div>
+
+              <div className="relative bg-black border-2 border-[#ff102a] p-8 h-full transform scale-105 shadow-[0_0_50px_rgba(255,16,42,0.2)]">
+                {/* Background Tech Grid */}
+                <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'linear-gradient(#ff102a 1px, transparent 1px), linear-gradient(90deg, #ff102a 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
+
+                <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#ff102a] text-white px-4 py-1 text-xs font-bold uppercase tracking-wider shadow-lg whitespace-nowrap z-20">
                   {language === 'zh' ? '生涯开启' : 'Career Begins'}
                 </div>
-              </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {/* Stage 5 */}
-                <div className="bg-black border border-[#ff102a]/30 p-6 shadow-[0_0_20px_rgba(255,16,42,0.1)]">
-                  <div className="flex items-center gap-3 mb-4">
-                    <div className="w-10 h-10 bg-[#ff102a] flex items-center justify-center text-white font-black text-base shadow-[0_0_15px_rgba(255,16,42,0.5)]">05</div>
-                    <div>
-                      <h4 className="text-white font-bold text-base">{language === 'zh' ? '大额矩阵' : 'Capital Matrix'}</h4>
-                      <p className="text-[#ff102a] text-xs font-mono">{language === 'zh' ? '持续进行' : 'Ongoing'}</p>
-                    </div>
-                  </div>
-                  <ul className="space-y-2 text-sm text-gray-300">
-                    <li className="flex items-start gap-2">
-                      <span className="text-[#ff102a] font-bold mt-1">→</span>
-                      <span>{language === 'zh' ? '日回撤 ≤5%，总回撤 ≤10%' : 'Daily DD ≤5%, Total DD ≤10%'}</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-[#ff102a] font-bold mt-1">→</span>
-                      <span>{language === 'zh' ? '每次盈利稳定后，仓位规模翻倍' : 'Double position after stable profit'}</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-[#ff102a] font-bold mt-1">→</span>
-                      <span>{language === 'zh' ? '持续扩展直至达到承受极限' : 'Scale until max capacity'}</span>
-                    </li>
-                  </ul>
+                <div className="text-center mb-4 mt-2 relative z-10">
+                  <div className="w-16 h-16 bg-[#ff102a] flex items-center justify-center text-white font-black text-3xl mx-auto mb-4 shadow-[0_0_20px_rgba(255,16,42,0.5)] animate-pulse">05</div>
+                  <h3 className="text-2xl font-black text-white uppercase">{language === 'zh' ? '大额矩阵' : 'Capital Matrix'}</h3>
+                  <p className="text-[#ff102a] font-mono text-sm mt-1">{language === 'zh' ? '无限扩展' : 'Unlimited Scaling'}</p>
                 </div>
 
-                {/* Info Box */}
-                <div className="bg-black/50 border border-white/10 p-6 flex flex-col justify-center">
-                  <div className="text-gray-500 text-xs uppercase mb-2">{language === 'zh' ? '关键指标' : 'Key Metrics'}</div>
-                  <div className="space-y-3">
-                    <div>
-                      <div className="text-white text-2xl font-black">$100K - $2M</div>
-                      <div className="text-gray-400 text-xs">{language === 'zh' ? '资金规模范围' : 'Capital Range'}</div>
-                    </div>
-                    <div>
-                      <div className="text-[#ff102a] text-2xl font-black">60-90%</div>
-                      <div className="text-gray-400 text-xs">{language === 'zh' ? '利润分成比例' : 'Profit Share'}</div>
-                    </div>
+                <div className="grid grid-cols-2 gap-2 text-center relative z-10">
+                  <div className="bg-white/5 p-2 border border-white/10 hover:bg-white/10 transition">
+                    <div className="text-[10px] text-gray-500 uppercase">{language === 'zh' ? '资金' : 'Capital'}</div>
+                    <div className="text-white font-bold text-sm">$2M+</div>
+                  </div>
+                  <div className="bg-white/5 p-2 border border-white/10 hover:bg-white/10 transition">
+                    <div className="text-[10px] text-gray-500 uppercase">{language === 'zh' ? '分成' : 'Share'}</div>
+                    <div className="text-[#ff102a] font-bold text-sm">60% - 90%</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Phase 3: Level Progression */}
-            <div className="border border-white/10 bg-[#0a0a0a] p-6">
-              <div className="flex items-center gap-3 mb-6 pb-4 border-b border-white/10">
-                <div className="px-3 py-1 bg-purple-500/10 border border-purple-500/30 text-purple-400 text-xs font-bold uppercase">
-                  {language === 'zh' ? '级别升级' : 'Level Progression'}
-                </div>
-                <div className="text-gray-500 text-sm font-mono">
-                  {language === 'zh' ? '2年成长路径' : '2-Year Growth Path'}
-                </div>
-              </div>
+            {/* STAGE 6: 3 Months */}
+            <div className="md:col-start-1 md:row-start-2 relative group">
+              <div className="absolute -inset-0.5 bg-gradient-to-br from-purple-600 to-transparent opacity-30 group-hover:opacity-100 transition duration-500"></div>
+              <div className="relative bg-[#0a0a0a] border border-purple-600/30 p-6 h-full hover:-translate-y-1 transition-transform duration-300 overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-purple-600/10 to-transparent animate-scan opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
-              <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-                {/* Stage 6 */}
-                <div className="bg-black/50 border border-purple-500/20 p-4 hover:border-purple-500/40 transition-all">
-                  <div className="flex items-center gap-2 mb-3">
-                    <div className="w-8 h-8 bg-purple-500/10 border border-purple-500/30 flex items-center justify-center text-purple-400 font-bold text-sm">06</div>
-                    <div className="text-[10px] font-bold text-purple-400 uppercase">{language === 'zh' ? '3个月' : '3 Months'}</div>
-                  </div>
-                  <h4 className="text-purple-400 font-bold mb-2 text-sm">{language === 'zh' ? '5分钟级别' : '5-Min Level'}</h4>
-                  <p className="text-xs text-gray-400">{language === 'zh' ? '单向交易，级别升级' : 'One-directional trading'}</p>
+                <div className="flex justify-between items-start mb-4 relative z-10">
+                  <div className="w-10 h-10 bg-purple-600/10 flex items-center justify-center border border-purple-600/30 text-purple-500 font-black">06</div>
+                  <div className="text-xs font-bold text-purple-500 uppercase border border-purple-600/30 px-2 py-1">{language === 'zh' ? '3个月' : '3 Months'}</div>
                 </div>
-
-                {/* Stage 7 */}
-                <div className="bg-black/50 border border-blue-500/20 p-4 hover:border-blue-500/40 transition-all">
-                  <div className="flex items-center gap-2 mb-3">
-                    <div className="w-8 h-8 bg-blue-500/10 border border-blue-500/30 flex items-center justify-center text-blue-400 font-bold text-sm">07</div>
-                    <div className="text-[10px] font-bold text-blue-400 uppercase">{language === 'zh' ? '6个月' : '6 Months'}</div>
-                  </div>
-                  <h4 className="text-blue-400 font-bold mb-2 text-sm">{language === 'zh' ? '15分钟级别' : '15-Min Level'}</h4>
-                  <p className="text-xs text-gray-400">{language === 'zh' ? '多空双向交易' : 'Bi-directional trading'}</p>
-                </div>
-
-                {/* Stage 8 */}
-                <div className="bg-black/50 border border-cyan-500/20 p-4 hover:border-cyan-500/40 transition-all">
-                  <div className="flex items-center gap-2 mb-3">
-                    <div className="w-8 h-8 bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold text-sm">08</div>
-                    <div className="text-[10px] font-bold text-cyan-400 uppercase">{language === 'zh' ? '1年' : '1 Year'}</div>
-                  </div>
-                  <h4 className="text-cyan-400 font-bold mb-2 text-sm">{language === 'zh' ? '1小时级别' : '1-Hour Level'}</h4>
-                  <p className="text-xs text-gray-400">{language === 'zh' ? '多空双向交易' : 'Bi-directional trading'}</p>
-                </div>
-
-                {/* Stage 9 */}
-                <div className="bg-black/50 border border-green-500/20 p-4 hover:border-green-500/40 transition-all">
-                  <div className="flex items-center gap-2 mb-3">
-                    <div className="w-8 h-8 bg-green-500/10 border border-green-500/30 flex items-center justify-center text-green-400 font-bold text-sm">09</div>
-                    <div className="text-[10px] font-bold text-green-400 uppercase">{language === 'zh' ? '2年' : '2 Years'}</div>
-                  </div>
-                  <h4 className="text-green-400 font-bold mb-2 text-sm">{language === 'zh' ? '4H/日级别' : '4H/Daily Level'}</h4>
-                  <p className="text-xs text-gray-400">{language === 'zh' ? '顶级交易员' : 'Elite trader status'}</p>
-                </div>
+                <h3 className="text-purple-500 font-bold text-lg mb-2 relative z-10">{language === 'zh' ? '5分钟级别' : '5-Min Level'}</h3>
+                <p className="text-gray-400 text-xs leading-relaxed relative z-10">
+                  {language === 'zh' ? '单向交易，级别升级。' : 'One-directional trading, level up.'}
+                </p>
               </div>
             </div>
+
+            {/* STAGE 7: 6 Months */}
+            <div className="md:col-start-1 md:row-start-3 relative group">
+              <div className="absolute -inset-0.5 bg-gradient-to-br from-blue-600 to-transparent opacity-30 group-hover:opacity-100 transition duration-500"></div>
+              <div className="relative bg-[#0a0a0a] border border-blue-600/30 p-6 h-full hover:-translate-y-1 transition-transform duration-300 overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-600/10 to-transparent animate-scan opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+
+                <div className="flex justify-between items-start mb-4 relative z-10">
+                  <div className="w-10 h-10 bg-blue-600/10 flex items-center justify-center border border-blue-600/30 text-blue-500 font-black">07</div>
+                  <div className="text-xs font-bold text-blue-500 uppercase border border-blue-600/30 px-2 py-1">{language === 'zh' ? '6个月' : '6 Months'}</div>
+                </div>
+                <h3 className="text-blue-500 font-bold text-lg mb-2 relative z-10">{language === 'zh' ? '15分钟级别' : '15-Min Level'}</h3>
+                <p className="text-gray-400 text-xs leading-relaxed relative z-10">
+                  {language === 'zh' ? '多空双向交易。' : 'Bi-directional trading.'}
+                </p>
+              </div>
+            </div>
+
+            {/* STAGE 8: 1 Year */}
+            <div className="md:col-start-2 md:row-start-3 relative group">
+              <div className="absolute -inset-0.5 bg-gradient-to-br from-cyan-500 to-transparent opacity-30 group-hover:opacity-100 transition duration-500"></div>
+              <div className="relative bg-[#0a0a0a] border border-cyan-500/30 p-6 h-full hover:-translate-y-1 transition-transform duration-300 overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyan-500/10 to-transparent animate-scan opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+
+                <div className="flex justify-between items-start mb-4 relative z-10">
+                  <div className="w-10 h-10 bg-cyan-500/10 flex items-center justify-center border border-cyan-500/30 text-cyan-400 font-black">08</div>
+                  <div className="text-xs font-bold text-cyan-400 uppercase border border-cyan-500/30 px-2 py-1">{language === 'zh' ? '1年' : '1 Year'}</div>
+                </div>
+                <h3 className="text-cyan-400 font-bold text-lg mb-2 relative z-10">{language === 'zh' ? '1小时级别' : '1-Hour Level'}</h3>
+                <p className="text-gray-400 text-xs leading-relaxed relative z-10">
+                  {language === 'zh' ? '多空双向交易，技术大成。' : 'Bi-directional trading, mastery.'}
+                </p>
+              </div>
+            </div>
+
+            {/* STAGE 9: 2 Years */}
+            <div className="md:col-start-3 md:row-start-3 relative group">
+              <div className="absolute -inset-0.5 bg-gradient-to-br from-green-500 to-transparent opacity-30 group-hover:opacity-100 transition duration-500"></div>
+              <div className="relative bg-[#0a0a0a] border border-green-500/30 p-6 h-full hover:-translate-y-1 transition-transform duration-300 overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-green-500/10 to-transparent animate-scan opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+
+                <div className="flex justify-between items-start mb-4 relative z-10">
+                  <div className="w-10 h-10 bg-green-500/10 flex items-center justify-center border border-green-500/30 text-green-400 font-black">09</div>
+                  <div className="text-xs font-bold text-green-400 uppercase border border-green-500/30 px-2 py-1">{language === 'zh' ? '2年' : '2 Years'}</div>
+                </div>
+                <h3 className="text-green-400 font-bold text-lg mb-2 relative z-10">{language === 'zh' ? '4H/日级别' : '4H/Daily Level'}</h3>
+                <p className="text-gray-400 text-xs leading-relaxed relative z-10">
+                  {language === 'zh' ? '顶级交易员，财富自由。' : 'Elite trader status, financial freedom.'}
+                </p>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -995,7 +997,7 @@ const DummyContent = () => {
         onClose={() => setIsEmailModalOpen(false)}
         title="职业交易员面试"
       />
-    </div>
+    </div >
   );
 };
 
